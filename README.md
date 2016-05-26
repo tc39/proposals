@@ -27,7 +27,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Private Fields](https://github.com/zenparsing/es-private-fields)                                         | Kevin Smith                        | 1 |
 |   | [WeakRefs](https://github.com/tc39/proposal-weakrefs)                                                     | Dean Tribble                       | 1 |
 |   | [Frozen Realms](https://github.com/FUDCo/frozen-realms)                                      | Mark S. Miller, Chip Morningstar, Caridy Patiño | 1 |
-|   | [Cancellable Promises](https://docs.google.com/presentation/d/1V4vmC54gJkwAss1nfEt9ywc-QOVOfleRxD5qtpMpc8U/edit?usp=sharing) | Domenic Denicoloa | 1 |
+|   | [Cancelable Promises](https://docs.google.com/presentation/d/1V4vmC54gJkwAss1nfEt9ywc-QOVOfleRxD5qtpMpc8U/edit?usp=sharing) | Domenic Denicoloa | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
