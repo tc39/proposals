@@ -20,6 +20,7 @@ Stage 0 proposals have been presented to the committee and not rejected definiti
 | 🚀 | [Zones](https://github.com/domenic/zones) ([spec](https://domenic.github.io/zones/))                                                     | Domenic Denicola & Miško Hevery | 0     |
 |   | [Updates to Tail Calls to include an explicit syntactic opt-in](https://github.com/tc39/proposal-ptc-syntax)                             | Brian Terlson & Eric Faust      | 0     |
 | 🚀 | [Object enumerables](https://github.com/leobalter/object-enumerables)                                                                    | Leo Balter & John-David Dalton  | 0     |
+| 🚀 | [Unicode property escapes `\p{…}` and `\P{…}` in regular expressions](https://github.com/mathiasbynens/es-regexp-unicode-property-escapes) | Mathias Bynens, Daniel Ehrenberg, Brian Terlson   | 0     |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
