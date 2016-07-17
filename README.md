@@ -20,8 +20,8 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | 🚀 | [`export * as ns from "mod";` statements](https://github.com/leebyron/ecmascript-export-ns-from)          | Lee Byron                          | 1 |
 | 🚀 | [`export v from "mod";` statements](https://github.com/leebyron/ecmascript-export-default-from)           | Lee Byron                          | 1 |
 | 🚀 | [Class and Property Decorators](https://github.com/wycats/javascript-decorators/blob/master/README.md)    | Yehuda Katz and Jonathan Turner    | 1 |
+| 🚀 | [String.prototype.{trimStart,trimEnd}](https://github.com/sebmarkbage/ecmascript-string-left-right-trim) | Sebastian Markbage                 | 1 |
 |   | [Observable](https://github.com/zenparsing/es-observable)                                                 | Kevin Smith & Jafar Husain         | 1 |
-|   | [String.prototype.{trimLeft,trimRight}](https://github.com/sebmarkbage/ecmascript-string-left-right-trim) | Sebastian Markbage                 | 1 |
 |   | [Class Property Declarations](https://github.com/jeffmo/es-class-fields-and-static-properties)            | Jeff Morrison                      | 1 |
 |   | [String#matchAll](https://github.com/tc39/String.prototype.matchAll)                                      | Jordan Harband                     | 1 |
 |   | [Private Fields](https://github.com/zenparsing/es-private-fields)                                         | Kevin Smith                        | 1 |
