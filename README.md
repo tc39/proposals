@@ -13,9 +13,9 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Asynchronous Iterators](https://github.com/tc39/proposal-async-iteration)                                | Kevin Smith                        | 2 |
 |   | [function.sent metaproperty](https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md)  | Allen Wirfs-Brock                  | 2 |
 | 🚀 | [Rest/Spread Properties](https://github.com/sebmarkbage/ecmascript-rest-spread)                           | Sebastian Markbage                 | 2 |
-|   | [Shared memory and atomics](https://github.com/tc39/ecmascript_sharedmem)                                 | Lars T Hansen                      | 2 |
+| 🚀 | [Shared memory and atomics](https://github.com/tc39/ecmascript_sharedmem)                                 | Lars T Hansen                      | 2 |
 |   | [System.global](https://github.com/tc39/proposal-global)                                                  | Jordan Harband                     | 2 |
-|   | [Lifting Template Literal Restriction](https://github.com/disnet/template-literal-revision)               | Tim Disney                         | 2 |
+| 🚀 | [Lifting Template Literal Restriction](https://github.com/disnet/template-literal-revision)               | Tim Disney                         | 2 |
 |   | [ArrayBuffer.transfer](https://gist.github.com/lukewagner/2735af7eea411e18cf20)                           | Luke Wagneer & Allen Wirfs-Brock   | 1 |
 | 🚀 | [`export * as ns from "mod";` statements](https://github.com/leebyron/ecmascript-export-ns-from)          | Lee Byron                          | 1 |
 | 🚀 | [`export v from "mod";` statements](https://github.com/leebyron/ecmascript-export-default-from)           | Lee Byron                          | 1 |
