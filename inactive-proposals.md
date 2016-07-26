@@ -9,5 +9,6 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Error.isError](https://github.com/ljharb/proposal-is-error) | Jordan Harband | Withdrawn: in favor of a future proposal to standardize Error stack traces |
 | [Set/Map.prototype.toJSON](https://github.com/DavidBruant/Map-Set.prototype.toJSON) | David Bruant and Jordan Harband | Rejected: better solved by a custom replacer function. |
 | [Typed Objects](https://github.com/dslomov/typed-objects-es7) | Dmitry Lomov, Niko Matsakis | [Abandoned](https://github.com/tc39/ecma262/commit/02455e5e2964f62b13818c6fd23289381ecafdf8). |
+| [Object enumerables](https://github.com/leobalter/object-enumerables) | Leo Balter & John-David Dalton | Rejected
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [finished proposals](finished-proposals.md) documents.
