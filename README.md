@@ -15,13 +15,13 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | 🚀 | [Rest/Spread Properties](https://github.com/sebmarkbage/ecmascript-rest-spread)                           | Sebastian Markbage                 | 2 |
 | 🚀 | [Shared memory and atomics](https://github.com/tc39/ecmascript_sharedmem)                                 | Lars T Hansen                      | 2 |
 |   | [System.global](https://github.com/tc39/proposal-global)                                                  | Jordan Harband                     | 2 |
+|   | [String.prototype.{trimStart,trimEnd}](https://github.com/sebmarkbage/ecmascript-string-left-right-trim)  | Sebastian Markbage                 | 2 |
 |   | [Public Class Fields](http://jeffmo.github.io/es-class-public-fields/)                                    | Jeff Morrison                      | 2 |
 |   | [Promise.prototype.finally](https://github.com/ljharb/proposal-promise-finally)                           | Jordan Harband                     | 2 |
 |   | [ArrayBuffer.transfer](https://gist.github.com/lukewagner/2735af7eea411e18cf20)                           | Luke Wagneer & Allen Wirfs-Brock   | 1 |
 | 🚀 | [`export * as ns from "mod";` statements](https://github.com/leebyron/ecmascript-export-ns-from)          | Lee Byron                          | 1 |
 | 🚀 | [`export v from "mod";` statements](https://github.com/leebyron/ecmascript-export-default-from)           | Lee Byron                          | 1 |
 | 🚀 | [Class and Property Decorators](https://github.com/wycats/javascript-decorators/blob/master/README.md)    | Yehuda Katz and Jonathan Turner    | 1 |
-| 🚀 | [String.prototype.{trimStart,trimEnd}](https://github.com/sebmarkbage/ecmascript-string-left-right-trim) | Sebastian Markbage                 | 1 |
 |   | [Observable](https://github.com/zenparsing/es-observable)                                                 | Kevin Smith & Jafar Husain         | 1 |
 |   | [String#matchAll](https://github.com/tc39/String.prototype.matchAll)                                      | Jordan Harband                     | 1 |
 |   | [Private Fields](https://github.com/zenparsing/es-private-fields)                                         | Kevin Smith                        | 1 |
