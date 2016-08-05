@@ -18,6 +18,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Public Class Fields](http://jeffmo.github.io/es-class-public-fields/)                                    | Jeff Morrison                      | 2 |
 |   | [Promise.prototype.finally](https://github.com/ljharb/proposal-promise-finally)                           | Jordan Harband                     | 2 |
 |   | [Class and Property Decorators](https://github.com/wycats/javascript-decorators/blob/master/README.md)    | Yehuda Katz and Jonathan Turner    | 2 |
+|   | [Date.parse fallback semantics](https://github.com/mrrrgn/proposal-date-time-string-format)               | Morgan Phillips                    | 1 |            
 |   | [ArrayBuffer.transfer](https://gist.github.com/lukewagner/2735af7eea411e18cf20)                           | Luke Wagneer & Allen Wirfs-Brock   | 1 |
 | 🚀 | [`export * as ns from "mod";` statements](https://github.com/leebyron/ecmascript-export-ns-from)          | Lee Byron                          | 1 |
 | 🚀 | [`export v from "mod";` statements](https://github.com/leebyron/ecmascript-export-default-from)           | Lee Byron                          | 1 |
