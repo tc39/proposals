@@ -8,7 +8,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |---|-----------------------------------------------------------------------------------------------------------|------------------------------------|-------|
 |   | [SIMD.JS - SIMD APIs](https://docs.google.com/presentation/d/1MY9NHrHmL7ma7C8dyNXvmYNNGgVmmxXk8ZIiQtPlfH4/edit?usp=sharing) + [polyfill](http://tc39.github.io/ecmascript_simd/) | John McCutchan, Peter Jensen, Dan Gohman, Daniel Ehrenberg | 3 |
 |   | [`Function.prototype.toString` revision](https://github.com/tc39/Function-prototype-toString-revision)    | Michael Ficarra                    | 3 |
-|   | [Lifting Template Literal Restriction](https://github.com/disnet/template-literal-revision)               | Tim Disney                         | 3 |
+|   | [Lifting Template Literal Restriction](https://github.com/tc39/proposal-template-literal-revision)               | Tim Disney                         | 3 |
 |   | [Asynchronous Iterators](https://github.com/tc39/proposal-async-iteration)                                | Kevin Smith                        | 2 |
 |   | [function.sent metaproperty](https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md)  | Allen Wirfs-Brock                  | 2 |
 | 🚀 | [Rest/Spread Properties](https://github.com/sebmarkbage/ecmascript-rest-spread)                           | Sebastian Markbage                 | 2 |
