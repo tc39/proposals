@@ -28,7 +28,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [WeakRefs](https://github.com/tc39/proposal-weakrefs)                                                     | Dean Tribble                       | 1 |
 |   | [Frozen Realms](https://github.com/FUDCo/frozen-realms)                                      | Mark S. Miller, Chip Morningstar, Caridy Patiño | 1 |
 |   | [Cancelable Promises](https://docs.google.com/presentation/d/1V4vmC54gJkwAss1nfEt9ywc-QOVOfleRxD5qtpMpc8U/edit?usp=sharing) | Domenic Denicola | 1 |
-|   | [RegExp Unicode Property Escapes](https://github.com/mathiasbynens/es-regex-unicode-property-escapes) | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | 1 |
+| 🚀 | [RegExp Unicode Property Escapes](https://github.com/mathiasbynens/es-regex-unicode-property-escapes) | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | 1 |
 |   | [Math Extensions](https://github.com/rwaldron/proposal-math-extensions)                                   | Rick Waldron                       | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
