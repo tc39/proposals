@@ -25,6 +25,7 @@ Stage 0 proposals are either
 | 🚀 | [Unicode property escapes `\p{…}` and `\P{…}` in regular expressions](https://github.com/mathiasbynens/es-regexp-unicode-property-escapes) | Mathias Bynens, Daniel Ehrenberg, Brian Terlson   | 0     |
 | 🚀? | [Nested `import` declarations](https://github.com/tc39/ecma262/pull/646) | Ben Newman, Meteor Development Group | 0 |
 | 🚀 | [`s` (`dotAll`) flag for regular expressions](https://github.com/mathiasbynens/es-regexp-dotall-flag) | Mathias Bynens, Brian Terlson   | 0     |
+| 🚀 | [Set, Map, WeakMap, WeakSet `of` and `from` methods](https://github.com/leobalter/proposal-setmap-offrom) [spec](https://leobalter.github.io/proposal-setmap-offrom/) | Allen Wirfs-Brock, Leo Balter | 0 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
