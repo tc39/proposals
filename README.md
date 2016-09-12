@@ -33,10 +33,10 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
 ## Proposals
- - [Stage 0 Proposals](stage-0-proposals.md)
- - [Finished Proposals](finished-proposals.md)
- - [Inactive Proposals](inactive-proposals.md)
+ - [Stage 0 Proposals](https://github.com/tc39/proposals/blob/master/stage-0-proposals.md)
+ - [Finished Proposals](https://github.com/tc39/proposals/blob/master/finished-proposals.md)
+ - [Inactive Proposals](https://github.com/tc39/proposals/blob/master/inactive-proposals.md)
 
 ### Contributing New Proposals
 
-Please see [Contributing to ECMAScript](/CONTRIBUTING.md) for the most up-to-date information on contributing proposals to this standard.
+Please see [Contributing to ECMAScript](https://github.com/tc39/proposals/blob/master/CONTRIBUTING.md) for the most up-to-date information on contributing proposals to this standard.
