@@ -23,8 +23,8 @@ Stage 0 proposals are either
 | 🚀 | [Zones](https://github.com/domenic/zones) ([spec](https://domenic.github.io/zones/))                                                     | Domenic Denicola & Miško Hevery | 0     |
 |   | [Updates to Tail Calls to include an explicit syntactic opt-in](https://github.com/tc39/proposal-ptc-syntax)                             | Brian Terlson & Eric Faust      | 0     |
 | 🚀 | [Unicode property escapes `\p{…}` and `\P{…}` in regular expressions](https://github.com/mathiasbynens/es-regexp-unicode-property-escapes) | Mathias Bynens, Daniel Ehrenberg, Brian Terlson   | 0     |
-| 🚀? | [Nested `import` declarations](https://github.com/tc39/ecma262/pull/646) | Ben Newman, Meteor Development Group | 0 |
-| 🚀 | [`s` (`dotAll`) flag for regular expressions](https://github.com/mathiasbynens/es-regexp-dotall-flag) | Mathias Bynens, Brian Terlson   | 0     |
+| 🚀?| [Nested `import` declarations](https://github.com/tc39/ecma262/pull/646)                                                            | Ben Newman, Meteor Development Group | 0     |
+| 🚀 | [`s` (`dotAll`) flag for regular expressions](https://github.com/mathiasbynens/es-regexp-dotall-flag)                                    | Mathias Bynens, Brian Terlson   | 0     |
 | 🚀 | [Set, Map, WeakMap, WeakSet `of` and `from` methods](https://github.com/leobalter/proposal-setmap-offrom) [spec](https://leobalter.github.io/proposal-setmap-offrom/) | Allen Wirfs-Brock, Leo Balter | 0 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
