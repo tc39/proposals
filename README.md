@@ -9,7 +9,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [SIMD.JS - SIMD APIs](https://docs.google.com/presentation/d/1MY9NHrHmL7ma7C8dyNXvmYNNGgVmmxXk8ZIiQtPlfH4/edit?usp=sharing) + [polyfill](http://tc39.github.io/ecmascript_simd/) | John McCutchan, Peter Jensen, Dan Gohman, Daniel Ehrenberg | 3 |
 |   | [`Function.prototype.toString` revision](https://github.com/tc39/Function-prototype-toString-revision)    | Michael Ficarra                    | 3 |
 |   | [Lifting Template Literal Restriction](https://github.com/tc39/proposal-template-literal-revision)        | Tim Disney                         | 3 |
-|   | [Asynchronous Iterators](https://github.com/tc39/proposal-async-iteration)                                | Kevin Smith                        | 2 |
+|   | [Asynchronous Iterators](https://github.com/tc39/proposal-async-iteration)                                | Domenic Denicola                        | 2 |
 |   | [function.sent metaproperty](https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md)  | Allen Wirfs-Brock                  | 2 |
 | 🚀 | [Rest/Spread Properties](https://github.com/sebmarkbage/ecmascript-rest-spread)                           | Sebastian Markbage                 | 2 |
 | 🚀 | [Shared memory and atomics](https://github.com/tc39/ecmascript_sharedmem)                                 | Lars T Hansen                      | 2 |
@@ -21,9 +21,9 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Date.parse fallback semantics](https://github.com/mrrrgn/proposal-date-time-string-format)               | Morgan Phillips                    | 1 |
 | 🚀 | [`export * as ns from "mod";` statements](https://github.com/leebyron/ecmascript-export-ns-from)          | Lee Byron                          | 1 |
 | 🚀 | [`export v from "mod";` statements](https://github.com/leebyron/ecmascript-export-default-from)           | Lee Byron                          | 1 |
-|   | [Observable](https://github.com/zenparsing/es-observable)                                                 | Kevin Smith & Jafar Husain         | 1 |
+|   | [Observable](https://github.com/tc39/proposal-observable)                                                 | Jafar Husain         | 1 |
 |   | [String#matchAll](https://github.com/tc39/String.prototype.matchAll)                                      | Jordan Harband                     | 1 |
-|   | [Private Fields](https://github.com/zenparsing/es-private-fields)                                         | Kevin Smith                        | 1 |
+|   | [Private Fields](https://github.com/tc39/proposal-private-fields)                                         | Daniel Ehrenberg                        | 1 |
 |   | [WeakRefs](https://github.com/tc39/proposal-weakrefs)                                                     | Dean Tribble                       | 1 |
 |   | [Frozen Realms](https://github.com/FUDCo/frozen-realms)                                      | Mark S. Miller, Chip Morningstar, Caridy Patiño | 1 |
 |   | [Cancelable Promises](https://github.com/tc39/proposal-cancelable-promises) | Domenic Denicola | 1 |
