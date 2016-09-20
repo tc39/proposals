@@ -14,7 +14,7 @@ Stage 0 proposals are either
 |   | Annex B - HTML Attribute Event Handlers                                                                                                  | Allen Wirfs-Brock               | 0     |
 |   | [Reflect.isCallable/Reflect.isConstructor](https://github.com/caitp/TC39-Proposals/blob/master/tc39-reflect-isconstructor-iscallable.md) | Caitlin Potter                  | 0     |
 |   | [Additional metaproperties](https://github.com/allenwb/ESideas/blob/master/ES7MetaProps.md)                                              | Allen Wirfs-Brock               | 0     |
-|   | [Function Bind Syntax](https://github.com/zenparsing/es-function-bind)                                                                   | Kevin Smith                     | 0     |
+|   | [Function Bind Syntax](https://github.com/zenparsing/es-function-bind)                                                                   | Brian Terlson & Matthew Podwysocki | 0     |
 |   | [Do Expressions](http://wiki.ecmascript.org/doku.php?id=strawman:do_expressions)                                                         | Andreas Rossberg                | 0     |
 |   | [RegExp](https://github.com/goyakin/es-regexp)                                                                                | Gorkem Yakin, Brian Terlson, & Nozomu Katō | 0     |
 |   | [64-Bit Integer Operations](https://gist.github.com/BrendanEich/4294d5c212a6d2254703)                                                    | Brendan Eich                    | 0     |
