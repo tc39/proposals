@@ -41,3 +41,13 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 ### Contributing New Proposals
 
 Please see [Contributing to ECMAScript](/CONTRIBUTING.md) for the most up-to-date information on contributing proposals to this standard.
+
+### Onboarding Existing Proposals
+
+Proposals that are Stage 1 and above must be transferred to the TC39 GitHub organization for discoverability and archival purposes. To onboard a proposal that lives outside the TC39 organization:
+
+1. Transfer your repository to @bterlson
+2. Email @bterlson at brian.terlson AT microsoft.com notifying me of the transfer (github's transfer notification is not the most obvious thing and there's only a short window to accept the transfer)
+3. @bterlson will transfer your repository to the TC39 organization.
+
+Note that as part of the onboarding process your repository name may be normalized. Don't worry, redirects will continue to work.
