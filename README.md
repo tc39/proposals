@@ -19,6 +19,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Promise.prototype.finally](https://github.com/tc39/proposal-promise-finally)                             | Jordan Harband                     | 2 |
 |   | [Class and Property Decorators](http://tc39.github.io/proposal-decorators/)                               | Yehuda Katz and Brian Terlson      | 2 |
 |   | [Legacy RegExp features in JavaScript](https://github.com/claudepache/es-regexp-legacy-static-properties) | Mark Miller, Claude Pache          | 2 |
+| 🚀 | [RegExp Unicode Property Escapes](https://github.com/mathiasbynens/es-regex-unicode-property-escapes) | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | 2 |
 |   | [Date.parse fallback semantics](https://github.com/mrrrgn/proposal-date-time-string-format)               | Morgan Phillips                    | 1 |
 | 🚀 | [`export * as ns from "mod";` statements](https://github.com/leebyron/ecmascript-export-ns-from)          | Lee Byron                          | 1 |
 | 🚀 | [`export v from "mod";` statements](https://github.com/leebyron/ecmascript-export-default-from)           | Lee Byron                          | 1 |
@@ -28,7 +29,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [WeakRefs](https://github.com/tc39/proposal-weakrefs)                                                     | Dean Tribble                       | 1 |
 |   | [Frozen Realms](https://github.com/FUDCo/frozen-realms)                                      | Mark S. Miller, Chip Morningstar, Caridy Patiño | 1 |
 |   | [Cancelable Promises](https://github.com/tc39/proposal-cancelable-promises)                               | Domenic Denicola                   | 1 |
-| 🚀 | [RegExp Unicode Property Escapes](https://github.com/mathiasbynens/es-regex-unicode-property-escapes) | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | 1 |
 |   | [Math Extensions](https://github.com/rwaldron/proposal-math-extensions)                                   | Rick Waldron                       | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
