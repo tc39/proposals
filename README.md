@@ -30,6 +30,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Frozen Realms](https://github.com/FUDCo/frozen-realms)                                      | Mark S. Miller, Chip Morningstar, Caridy Patiño | 1 |
 |   | [Cancelable Promises](https://github.com/tc39/proposal-cancelable-promises)                               | Domenic Denicola                   | 1 |
 |   | [Math Extensions](https://github.com/rwaldron/proposal-math-extensions)                                   | Rick Waldron                       | 1 |
+|   | [`of` and `from` on collection constructors](https://github.com/leobalter/proposal-setmap-offrom)         | Leo Balter                         | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
