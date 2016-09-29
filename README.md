@@ -10,9 +10,9 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [`Function.prototype.toString` revision](https://github.com/tc39/Function-prototype-toString-revision)    | Michael Ficarra                    | 3 |
 |   | [Lifting Template Literal Restriction](https://github.com/tc39/proposal-template-literal-revision)        | Tim Disney                         | 3 |
 |   | [global](https://github.com/tc39/proposal-global)                                                         | Jordan Harband                     | 3 |
+|   | [Rest/Spread Properties](https://github.com/sebmarkbage/ecmascript-rest-spread)                           | Sebastian Markbage                 | 3 |
 |   | [Asynchronous Iterators](https://github.com/tc39/proposal-async-iteration)                                | Domenic Denicola                   | 2 |
 |   | [function.sent metaproperty](https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md)  | Allen Wirfs-Brock                  | 2 |
-| 🚀 | [Rest/Spread Properties](https://github.com/sebmarkbage/ecmascript-rest-spread)                           | Sebastian Markbage                 | 2 |
 | 🚀 | [Shared memory and atomics](https://github.com/tc39/ecmascript_sharedmem)                                 | Lars T Hansen                      | 2 |
 |   | [String.prototype.{trimStart,trimEnd}](https://github.com/sebmarkbage/ecmascript-string-left-right-trim)  | Sebastian Markbage                 | 2 |
 |   | [Public Class Fields](https://tc39.github.io/proposal-class-public-fields/)                               | Jeff Morrison                      | 2 |
