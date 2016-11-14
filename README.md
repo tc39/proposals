@@ -20,7 +20,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Class and Property Decorators](http://tc39.github.io/proposal-decorators/)                               | Yehuda Katz and Brian Terlson      | 2 |
 |   | [Legacy RegExp features in JavaScript](https://github.com/tc39/proposal-regexp-legacy-features)           | Mark Miller, Claude Pache          | 2 |
 |   | [RegExp Unicode Property Escapes](https://github.com/mathiasbynens/es-regex-unicode-property-escapes) | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | 2 |
-|   | [import()](https://github.com/domenic/proposal-import-function)                                           | Domenic Denicola                   | 2 |
+|   | [import()](https://github.com/tc39/proposal-import-function)                                           | Domenic Denicola                   | 2 |
 |   | [Date.parse fallback semantics](https://github.com/mrrrgn/proposal-date-time-string-format)               | Morgan Phillips                    | 1 |
 | 🚀 | [`export * as ns from "mod";` statements](https://github.com/leebyron/ecmascript-export-ns-from)          | Lee Byron                          | 1 |
 | 🚀 | [`export v from "mod";` statements](https://github.com/leebyron/ecmascript-export-default-from)           | Lee Byron                          | 1 |
