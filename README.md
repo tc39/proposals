@@ -33,6 +33,8 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Math Extensions](https://github.com/rwaldron/proposal-math-extensions)                                   | Rick Waldron                       | 1 |
 |   | [`of` and `from` on collection constructors](https://github.com/leobalter/proposal-setmap-offrom)         | Leo Balter                         | 1 |
 |   | Generator arrow functions (`=>*`)                                                                         | Brendan Eich, Domenic Denicola     | 1 |
+|   | [RegExp named capture groups](https://github.com/tc39/proposal-regexp-named-groups)                               | Daniel Ehrenberg, Brian Terlson     | 1 |
+|   | [Intl.Segmenter](https://github.com/tc39/proposal-intl-segmenter)                                         | Daniel Ehrenberg     | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
