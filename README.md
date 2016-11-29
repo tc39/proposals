@@ -36,6 +36,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [RegExp named capture groups](https://github.com/tc39/proposal-regexp-named-groups)                       | Daniel Ehrenberg, Brian Terlson    | 1 |
 |   | [Intl.Segmenter](https://github.com/tc39/proposal-intl-segmenter)                                         | Daniel Ehrenberg                   | 1 |
 |   | [`s` (`dotAll`) flag for regular expressions](https://github.com/mathiasbynens/es-regexp-dotall-flag)     | Mathias Bynens, Brian Terlson      | 1 |
+|   | [`Promise.try`](https://github.com/ljharb/proposal-promise-try)                                           | Jordan Harband                     | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
