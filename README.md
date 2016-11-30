@@ -12,8 +12,8 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [global](https://github.com/tc39/proposal-global)                                                         | Jordan Harband                     | 3 |
 |   | [Rest/Spread Properties](https://github.com/sebmarkbage/ecmascript-rest-spread)                           | Sebastian Markbage                 | 3 |
 |   | [Asynchronous Iteration](https://github.com/tc39/proposal-async-iteration)                                | Domenic Denicola                   | 3 |
+|   | [Shared memory and atomics](https://github.com/tc39/ecmascript_sharedmem)                                 | Lars T Hansen                      | 3 |
 |   | [function.sent metaproperty](https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md)  | Allen Wirfs-Brock                  | 2 |
-| 🚀 | [Shared memory and atomics](https://github.com/tc39/ecmascript_sharedmem)                                 | Lars T Hansen                      | 2 |
 |   | [String.prototype.{trimStart,trimEnd}](https://github.com/sebmarkbage/ecmascript-string-left-right-trim)  | Sebastian Markbage                 | 2 |
 |   | [Public Class Fields](https://tc39.github.io/proposal-class-public-fields/)                               | Jeff Morrison                      | 2 |
 |   | [Promise.prototype.finally](https://github.com/tc39/proposal-promise-finally)                             | Jordan Harband                     | 2 |
