@@ -29,7 +29,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [String#matchAll](https://github.com/tc39/String.prototype.matchAll)                                      | Jordan Harband                     | 1 |
 |   | [WeakRefs](https://github.com/tc39/proposal-weakrefs)                                                     | Dean Tribble                       | 1 |
 |   | [Frozen Realms](https://github.com/FUDCo/frozen-realms)                                      | Mark S. Miller, Chip Morningstar, Caridy Patiño | 1 |
-|   | [Cancelable Promises](https://github.com/tc39/proposal-cancelable-promises)                               | Domenic Denicola                   | 1 |
 |   | [Math Extensions](https://github.com/rwaldron/proposal-math-extensions)                                   | Rick Waldron                       | 1 |
 |   | [`of` and `from` on collection constructors](https://github.com/leobalter/proposal-setmap-offrom)         | Leo Balter                         | 1 |
 |   | Generator arrow functions (`=>*`)                                                                         | Brendan Eich, Domenic Denicola     | 1 |
