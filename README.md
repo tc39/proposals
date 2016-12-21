@@ -37,6 +37,8 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Intl.Segmenter](https://github.com/tc39/proposal-intl-segmenter)                                         | Daniel Ehrenberg                   | 1 |
 |   | [`s` (`dotAll`) flag for regular expressions](https://github.com/mathiasbynens/es-regexp-dotall-flag)     | Mathias Bynens, Brian Terlson      | 1 |
 |   | [`Promise.try`](https://github.com/ljharb/proposal-promise-try)                                           | Jordan Harband                     | 1 |
+|   | [64-Bit Integer Operations](https://gist.github.com/BrendanEich/4294d5c212a6d2254703) [alt link](https://github.com/BrendanEich/ecma262/tree/int64) | Brendan Eich                       | 1 |
+|
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
