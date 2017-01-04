@@ -16,12 +16,10 @@ Stage 0 proposals are either
 |   | [Additional metaproperties](https://github.com/allenwb/ESideas/blob/master/ES7MetaProps.md)                                              | Allen Wirfs-Brock               | 0     |
 |   | [Function Bind Syntax](https://github.com/zenparsing/es-function-bind)                                                                   | Brian Terlson & Matthew Podwysocki | 0     |
 |   | [Do Expressions](http://wiki.ecmascript.org/doku.php?id=strawman:do_expressions)                                                         | Andreas Rossberg                | 0     |
-|   | [RegExp](https://github.com/goyakin/es-regexp)                                                                                | Gorkem Yakin, Brian Terlson, & Nozomu Katō | 0     |
 |   | [Method Parameter Decorators](https://goo.gl/r1XT9b)                                                                                     | Igor Minar                      | 0     |
 |   | [Function Expression Decorators](https://goo.gl/8MmCMG)                                                                                  | Igor Minar                      | 0     |
 | 🚀 | [Zones](https://github.com/domenic/zones) ([spec](https://domenic.github.io/zones/))                                                     | Domenic Denicola & Miško Hevery | 0     |
 |   | [Updates to Tail Calls to include an explicit syntactic opt-in](https://github.com/tc39/proposal-ptc-syntax)                             | Brian Terlson & Eric Faust      | 0     |
-| 🚀 | [Unicode property escapes `\p{…}` and `\P{…}` in regular expressions](https://github.com/mathiasbynens/es-regexp-unicode-property-escapes) | Mathias Bynens, Daniel Ehrenberg, Brian Terlson   | 0     |
 | 🚀?| [Nested `import` declarations](https://github.com/tc39/ecma262/pull/646)                                                            | Ben Newman, Meteor Development Group | 0     |
 |   | [is{Type} Methods](https://github.com/jasnell/proposal-istypes)                                                 | James M Snell    | 0     |
 
