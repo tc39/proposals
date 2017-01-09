@@ -1,6 +1,11 @@
 [ECMAScript](https://github.com/tc39/ecma262)
 ====
 
+## Proposals
+ - [Stage 0 Proposals](stage-0-proposals.md)
+ - [Finished Proposals](finished-proposals.md)
+ - [Inactive Proposals](inactive-proposals.md)
+
 ## Active Proposals
 Proposals follow [this process document](https://tc39.github.io/process-document/).
 
@@ -41,11 +46,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
-
-## Proposals
- - [Stage 0 Proposals](stage-0-proposals.md)
- - [Finished Proposals](finished-proposals.md)
- - [Inactive Proposals](inactive-proposals.md)
 
 ### Contributing New Proposals
 
