@@ -28,6 +28,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [RegExp Unicode Property Escapes](https://github.com/tc39/proposal-regexp-unicode-property-escapes) | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | 2 |
 |   | [Private Fields](https://github.com/tc39/proposal-private-fields)                                         | Daniel Ehrenberg                   | 2 |
 |   | [Intl.Segmenter](https://github.com/tc39/proposal-intl-segmenter)                                         | Daniel Ehrenberg                   | 2 |
+|   | [RegExp named capture groups](https://github.com/tc39/proposal-regexp-named-groups)                       | Daniel Ehrenberg, Brian Terlson    | 2 |
 |   | [Date.parse fallback semantics](https://github.com/mrrrgn/proposal-date-time-string-format)               | Morgan Phillips                    | 1 |
 | 🚀 | [`export * as ns from "mod";` statements](https://github.com/leebyron/ecmascript-export-ns-from)          | Lee Byron                          | 1 |
 | 🚀 | [`export v from "mod";` statements](https://github.com/leebyron/ecmascript-export-default-from)           | Lee Byron                          | 1 |
@@ -38,7 +39,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Math Extensions](https://github.com/rwaldron/proposal-math-extensions)                                   | Rick Waldron                       | 1 |
 |   | [`of` and `from` on collection constructors](https://github.com/leobalter/proposal-setmap-offrom)         | Leo Balter                         | 1 |
 |   | Generator arrow functions (`=>*`)                                                                         | Brendan Eich, Domenic Denicola     | 1 |
-|   | [RegExp named capture groups](https://github.com/tc39/proposal-regexp-named-groups)                       | Daniel Ehrenberg, Brian Terlson    | 1 |
 |   | [`s` (`dotAll`) flag for regular expressions](https://github.com/mathiasbynens/es-regexp-dotall-flag)     | Mathias Bynens, Brian Terlson      | 1 |
 |   | [`Promise.try`](https://github.com/ljharb/proposal-promise-try)                                           | Jordan Harband                     | 1 |
 |   | [64-Bit Integer Operations](https://gist.github.com/BrendanEich/4294d5c212a6d2254703) [alt link](https://github.com/BrendanEich/ecma262/tree/int64) | Brendan Eich | 1 |
