@@ -12,6 +12,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Object enumerables](https://github.com/leobalter/object-enumerables) | Leo Balter & John-David Dalton | Rejected |
 | [ArrayBuffer.transfer](https://gist.github.com/lukewagner/2735af7eea411e18cf20) | Luke Wagner & Allen Wirfs-Brock | Withdrawn |
 | [Cancelable Promises](https://github.com/tc39/proposal-cancelable-promises)                               | Domenic Denicola                   | Withdrawn |
+| [Proposed Grammar change to ES Modules](https://github.com/bmeck/UnambiguousJavaScriptGrammar) | Bradley Farias | Rejected: No consensus on this specific solution.
 
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [finished proposals](finished-proposals.md) documents.
