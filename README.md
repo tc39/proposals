@@ -11,7 +11,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 
 | 🚀 | Proposal                                                                                                  | Champion                           | Stage |
 |---|-----------------------------------------------------------------------------------------------------------|------------------------------------|-------|
-|   | [SIMD.JS - SIMD APIs](https://github.com/tc39/ecmascript_simd/) | John McCutchan, Peter Jensen, Dan Gohman, Daniel Ehrenberg | 3 |
+|   | [SIMD.JS - SIMD APIs](https://github.com/tc39/ecmascript_simd/) | John McCutchan, Peter Jensen, Dan Gohman, Daniel Ehrenberg                   | 3 |
 |   | [`Function.prototype.toString` revision](https://github.com/tc39/Function-prototype-toString-revision)    | Michael Ficarra                    | 3 |
 |   | [Lifting Template Literal Restriction](https://github.com/tc39/proposal-template-literal-revision)        | Tim Disney                         | 3 |
 |   | [global](https://github.com/tc39/proposal-global)                                                         | Jordan Harband                     | 3 |
@@ -32,7 +32,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Date.parse fallback semantics](https://github.com/mrrrgn/proposal-date-time-string-format)               | Morgan Phillips                    | 1 |
 | 🚀 | [`export * as ns from "mod";` statements](https://github.com/leebyron/ecmascript-export-ns-from)          | Lee Byron                          | 1 |
 | 🚀 | [`export v from "mod";` statements](https://github.com/leebyron/ecmascript-export-default-from)           | Lee Byron                          | 1 |
-|   | [Observable](https://github.com/tc39/proposal-observable)                                                 | Jafar Husain and Mark Miller             | 1 |
+|   | [Observable](https://github.com/tc39/proposal-observable)                                                 | Jafar Husain and Mark Miller       | 1 |
 |   | [String#matchAll](https://github.com/tc39/String.prototype.matchAll)                                      | Jordan Harband                     | 1 |
 |   | [WeakRefs](https://github.com/tc39/proposal-weakrefs)                                                     | Dean Tribble                       | 1 |
 |   | [Frozen Realms](https://github.com/FUDCo/frozen-realms)                                      | Mark S. Miller, Chip Morningstar, Caridy Patiño | 1 |
