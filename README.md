@@ -11,7 +11,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 
 | 🚀 | Proposal                                                                                                  | Champion                           | Stage |
 |---|-----------------------------------------------------------------------------------------------------------|------------------------------------|-------|
-|   | [SIMD.JS - SIMD APIs](https://github.com/tc39/ecmascript_simd/) | John McCutchan, Peter Jensen, Dan Gohman, Daniel Ehrenberg                   | 3 |
+|   | [SIMD.JS - SIMD APIs](https://github.com/tc39/ecmascript_simd/)                   | John McCutchan, Peter Jensen, Dan Gohman, Daniel Ehrenberg | 3 |
 |   | [`Function.prototype.toString` revision](https://github.com/tc39/Function-prototype-toString-revision)    | Michael Ficarra                    | 3 |
 |   | [Lifting Template Literal Restriction](https://github.com/tc39/proposal-template-literal-revision)        | Tim Disney                         | 3 |
 |   | [global](https://github.com/tc39/proposal-global)                                                         | Jordan Harband                     | 3 |
@@ -46,6 +46,8 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Null Propagation](https://docs.google.com/presentation/d/11O_wIBBbZgE1bMVRJI8kGnmC6dWCBOwutbN9SWOK0fU/view) | Gabriel Isenberg                | 1 |
 |   | [`Math.signbit`: IEEE-754 sign bit](http://jfbastien.github.io/papers/Math.signbit.html)                  | JF Bastien                         | 1 |
 |   | [Error stacks](https://github.com/ljharb/proposal-error-stacks)                                           | Jordan Harband                     | 1 |
+|   | ["do expressions"](https://gist.github.com/dherman/1c97dfb25179fa34a41b5fff040f9879)                      | Dave Herman                        | 1 |
+|   | [Realms](https://github.com/caridy/proposal-realms)                                                  | Dave Herman, Mark Miller, Caridy Patiño | 1 |
 
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
