@@ -15,7 +15,6 @@ Stage 0 proposals are either
 |   | [Reflect.isCallable/Reflect.isConstructor](https://github.com/caitp/TC39-Proposals/blob/master/tc39-reflect-isconstructor-iscallable.md) | Caitlin Potter                  | 0     |
 |   | [Additional metaproperties](https://github.com/allenwb/ESideas/blob/master/ES7MetaProps.md)                                              | Allen Wirfs-Brock               | 0     |
 |   | [Function Bind Syntax](https://github.com/zenparsing/es-function-bind)                                                                   | Brian Terlson & Matthew Podwysocki | 0     |
-|   | [Do Expressions](http://wiki.ecmascript.org/doku.php?id=strawman:do_expressions)                                                         | Andreas Rossberg                | 0     |
 |   | [Method Parameter Decorators](https://goo.gl/r1XT9b)                                                                                     | Igor Minar                      | 0     |
 |   | [Function Expression Decorators](https://goo.gl/8MmCMG)                                                                                  | Igor Minar                      | 0     |
 |   | [Zones](https://github.com/domenic/zones) ([spec](https://domenic.github.io/zones/))                                                     | Domenic Denicola & Miško Hevery | 0     |
