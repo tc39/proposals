@@ -42,7 +42,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [`s` (`dotAll`) flag for regular expressions](https://github.com/mathiasbynens/es-regexp-dotall-flag)     | Mathias Bynens, Brian Terlson      | 1 |
 |   | [`Promise.try`](https://github.com/ljharb/proposal-promise-try)                                           | Jordan Harband                     | 1 |
 |   | [64-Bit Integer Operations](https://gist.github.com/BrendanEich/4294d5c212a6d2254703) [alt link](https://github.com/BrendanEich/ecma262/tree/int64) | Brendan Eich | 1 |
-|   | [Dynamic Module Reform](https://github.com/caridy/proposal-dynamic-modules)                               | Caridy Patiño                      | 1 |
+| 🚀 | [Dynamic Module Reform](https://github.com/caridy/proposal-dynamic-modules)                               | Caridy Patiño                      | 1 |
 |   | [Null Propagation](https://docs.google.com/presentation/d/11O_wIBBbZgE1bMVRJI8kGnmC6dWCBOwutbN9SWOK0fU/view) | Gabriel Isenberg                | 1 |
 |   | [`Math.signbit`: IEEE-754 sign bit](http://jfbastien.github.io/papers/Math.signbit.html)                  | JF Bastien                         | 1 |
 |   | [Error stacks](https://github.com/ljharb/proposal-error-stacks)                                           | Jordan Harband                     | 1 |
