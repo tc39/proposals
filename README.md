@@ -13,7 +13,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |---|-----------------------------------------------------------------------------------------------------------|------------------------------------|-------|
 |   | [SIMD.JS - SIMD APIs](https://github.com/tc39/ecmascript_simd/)                   | John McCutchan, Peter Jensen, Dan Gohman, Daniel Ehrenberg | 3 |
 |   | [`Function.prototype.toString` revision](https://github.com/tc39/Function-prototype-toString-revision)    | Michael Ficarra                    | 3 |
-|   | [Lifting Template Literal Restriction](https://github.com/tc39/proposal-template-literal-revision)        | Tim Disney                         | 3 |
+| 🚀  | [Lifting Template Literal Restriction](https://github.com/tc39/proposal-template-literal-revision)        | Tim Disney                         | 3 |
 |   | [global](https://github.com/tc39/proposal-global)                                                         | Jordan Harband                     | 3 |
 |   | [Rest/Spread Properties](https://github.com/sebmarkbage/ecmascript-rest-spread)                           | Sebastian Markbage                 | 3 |
 |   | [Asynchronous Iteration](https://github.com/tc39/proposal-async-iteration)                                | Domenic Denicola                   | 3 |
