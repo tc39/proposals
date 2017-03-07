@@ -21,6 +21,7 @@ Stage 0 proposals are either
 |   | [Updates to Tail Calls to include an explicit syntactic opt-in](https://github.com/tc39/proposal-ptc-syntax)                             | Brian Terlson & Eric Faust      | 0     |
 |   | [Nested `import` declarations](https://github.com/tc39/ecma262/pull/646)                                                                 | Ben Newman, Meteor Development Group | 0     |
 |   | [is{Type} Methods](https://github.com/jasnell/proposal-istypes)                                                                          | James M Snell    | 0     |
+|   | [Orthogonal Class Member Syntax](https://github.com/erights/Orthogonal-Classes)                                                           | Mark Miller & Allen Wirfs-Brock | 0     |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
