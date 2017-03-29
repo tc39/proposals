@@ -30,6 +30,8 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Legacy RegExp features in JavaScript](https://github.com/tc39/proposal-regexp-legacy-features)           | Mark Miller, Claude Pache          | 2 |
 |   | [Private Fields](https://github.com/tc39/proposal-private-fields)                                         | Daniel Ehrenberg                   | 2 |
 |   | [Intl.Segmenter](https://github.com/tc39/proposal-intl-segmenter)                                         | Daniel Ehrenberg                   | 2 |
+|   | [Arbitrary-precision Integers](https://github.com/tc39/proposal-integer) | Daniel Ehrenberg | 2 |
+
 |   | [Date.parse fallback semantics](https://github.com/mrrrgn/proposal-date-time-string-format)               | Morgan Phillips                    | 1 |
 |   | [`export * as ns from "mod";` statements](https://github.com/leebyron/ecmascript-export-ns-from)          | Lee Byron                          | 1 |
 |   | [`export v from "mod";` statements](https://github.com/leebyron/ecmascript-export-default-from)           | Lee Byron                          | 1 |
@@ -41,7 +43,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [`of` and `from` on collection constructors](https://github.com/leobalter/proposal-setmap-offrom)         | Leo Balter                         | 1 |
 |   | Generator arrow functions (`=>*`)                                                                         | Brendan Eich, Domenic Denicola     | 1 |
 |   | [`Promise.try`](https://github.com/ljharb/proposal-promise-try)                                           | Jordan Harband                     | 1 |
-|   | [64-Bit Integer Operations](https://gist.github.com/BrendanEich/4294d5c212a6d2254703) [alt link](https://github.com/BrendanEich/ecma262/tree/int64) | Brendan Eich | 1 |
 | 🚀 | [Dynamic Module Reform](https://github.com/caridy/proposal-dynamic-modules)                               | Caridy Patiño                      | 1 |
 |   | [Null Propagation](https://docs.google.com/presentation/d/11O_wIBBbZgE1bMVRJI8kGnmC6dWCBOwutbN9SWOK0fU/view) | Gabriel Isenberg                | 1 |
 |   | [`Math.signbit`: IEEE-754 sign bit](http://jfbastien.github.io/papers/Math.signbit.html)                  | JF Bastien                         | 1 |
