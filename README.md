@@ -30,8 +30,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Legacy RegExp features in JavaScript](https://github.com/tc39/proposal-regexp-legacy-features)           | Mark Miller, Claude Pache          | 2 |
 |   | [Private Fields](https://github.com/tc39/proposal-private-fields)                                         | Daniel Ehrenberg                   | 2 |
 |   | [Intl.Segmenter](https://github.com/tc39/proposal-intl-segmenter)                                         | Daniel Ehrenberg                   | 2 |
-|   | [Arbitrary-precision Integers](https://github.com/tc39/proposal-integer) | Daniel Ehrenberg | 2 |
-
+|   | [Arbitrary-precision Integers](https://github.com/tc39/proposal-integer)                                  | Daniel Ehrenberg | 2 |
 |   | [Date.parse fallback semantics](https://github.com/mrrrgn/proposal-date-time-string-format)               | Morgan Phillips                    | 1 |
 |   | [`export * as ns from "mod";` statements](https://github.com/leebyron/ecmascript-export-ns-from)          | Lee Byron                          | 1 |
 |   | [`export v from "mod";` statements](https://github.com/leebyron/ecmascript-export-default-from)           | Lee Byron                          | 1 |
