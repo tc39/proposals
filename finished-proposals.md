@@ -12,5 +12,6 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Trailing commas in function parameter lists and calls](https://github.com/tc39/proposal-trailing-function-commas)      | Jeff Morrison | [July 2016](https://github.com/rwaldron/tc39-notes/blob/master/es7/2016-07/jul-26.md#9ie-trailing-commas-in-functions) | 2017
 | [Async Functions](https://github.com/tc39/ecmascript-asyncawait)                       | Brian Terlson                  | [July 2016](https://github.com/rwaldron/tc39-notes/blob/master/es7/2016-07/jul-28.md#10iv-async-functions) | 2017
 | [Shared memory and atomics](https://github.com/tc39/ecmascript_sharedmem)              | Lars T Hansen                  | January 2017 | 2017
+| [Lifting Template Literal Restriction](https://github.com/tc39/proposal-template-literal-revision) | Tim Disney         | March 2017 | 2018
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md) documents.

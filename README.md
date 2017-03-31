@@ -13,7 +13,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |---|-----------------------------------------------------------------------------------------------------------|------------------------------------|-------|
 |   | [SIMD.JS - SIMD APIs](https://github.com/tc39/ecmascript_simd/)                   | John McCutchan, Peter Jensen, Dan Gohman, Daniel Ehrenberg | 3 |
 |   | [`Function.prototype.toString` revision](https://github.com/tc39/Function-prototype-toString-revision)    | Michael Ficarra                    | 3 |
-| 🚀  | [Lifting Template Literal Restriction](https://github.com/tc39/proposal-template-literal-revision)        | Tim Disney                         | 3 |
 |   | [global](https://github.com/tc39/proposal-global)                                                         | Jordan Harband                     | 3 |
 |   | [Rest/Spread Properties](https://github.com/sebmarkbage/ecmascript-rest-spread)                           | Sebastian Markbage                 | 3 |
 |   | [Asynchronous Iteration](https://github.com/tc39/proposal-async-iteration)                                | Domenic Denicola                   | 3 |
@@ -25,12 +24,12 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [function.sent metaproperty](https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md)  | Allen Wirfs-Brock                  | 2 |
 |   | [String.prototype.{trimStart,trimEnd}](https://github.com/sebmarkbage/ecmascript-string-left-right-trim)  | Sebastian Markbage                 | 2 |
 |   | [Public Class Fields](https://tc39.github.io/proposal-class-public-fields/)                               | Jeff Morrison                      | 2 |
-|   | [Promise.prototype.finally](https://github.com/tc39/proposal-promise-finally)                             | Jordan Harband                     | 2 |
+| 🚀 | [Promise.prototype.finally](https://github.com/tc39/proposal-promise-finally)                             | Jordan Harband                     | 2 |
 |   | [Class and Property Decorators](http://tc39.github.io/proposal-decorators/)                               | Yehuda Katz and Brian Terlson      | 2 |
-|   | [Legacy RegExp features in JavaScript](https://github.com/tc39/proposal-regexp-legacy-features)           | Mark Miller, Claude Pache          | 2 |
+| 🚀 | [Legacy RegExp features in JavaScript](https://github.com/tc39/proposal-regexp-legacy-features)           | Mark Miller, Claude Pache          | 2 |
 |   | [Private Fields](https://github.com/tc39/proposal-private-fields)                                         | Daniel Ehrenberg                   | 2 |
 |   | [Intl.Segmenter](https://github.com/tc39/proposal-intl-segmenter)                                         | Daniel Ehrenberg                   | 2 |
-|   | [Arbitrary-precision Integers](https://github.com/tc39/proposal-integer)                                  | Daniel Ehrenberg | 2 |
+|   | [Arbitrary-precision Integers](https://github.com/tc39/proposal-integer)                                  | Daniel Ehrenberg                   | 2 |
 |   | [Date.parse fallback semantics](https://github.com/mrrrgn/proposal-date-time-string-format)               | Morgan Phillips                    | 1 |
 |   | [`export * as ns from "mod";` statements](https://github.com/leebyron/ecmascript-export-ns-from)          | Lee Byron                          | 1 |
 |   | [`export v from "mod";` statements](https://github.com/leebyron/ecmascript-export-default-from)           | Lee Byron                          | 1 |
