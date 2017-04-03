@@ -47,6 +47,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [Error stacks](https://github.com/ljharb/proposal-error-stacks)                                           | Jordan Harband                     | 1 |
 |   | ["do expressions"](https://gist.github.com/dherman/1c97dfb25179fa34a41b5fff040f9879)                      | Dave Herman                        | 1 |
 |   | [Realms](https://github.com/caridy/proposal-realms)                                                  | Dave Herman, Mark Miller, Caridy Patiño | 1 |
+|   | [Temporal](https://github.com/maggiepint/proposal-temporal)                                                  | Maggie Pint, Brian Terlson | 1 |
 
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
