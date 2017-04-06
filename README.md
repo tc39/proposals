@@ -41,7 +41,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [`of` and `from` on collection constructors](https://github.com/leobalter/proposal-setmap-offrom)         | Leo Balter                         | 1 |
 |   | Generator arrow functions (`=>*`)                                                                         | Brendan Eich, Domenic Denicola     | 1 |
 |   | [`Promise.try`](https://github.com/ljharb/proposal-promise-try)                                           | Jordan Harband                     | 1 |
-| 🚀 | [Dynamic Module Reform](https://github.com/caridy/proposal-dynamic-modules)                               | Caridy Patiño                      | 1 |
 |   | [Null Propagation](https://docs.google.com/presentation/d/11O_wIBBbZgE1bMVRJI8kGnmC6dWCBOwutbN9SWOK0fU/view) | Gabriel Isenberg                | 1 |
 |   | [`Math.signbit`: IEEE-754 sign bit](http://jfbastien.github.io/papers/Math.signbit.html)                  | JF Bastien                         | 1 |
 |   | [Error stacks](https://github.com/ljharb/proposal-error-stacks)                                           | Jordan Harband                     | 1 |
