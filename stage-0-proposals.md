@@ -22,6 +22,7 @@ Stage 0 proposals are either
 |   | [Nested `import` declarations](https://github.com/tc39/ecma262/pull/646)                                                                 | Ben Newman, Meteor Development Group | 0     |
 |   | [is{Type} Methods](https://github.com/jasnell/proposal-istypes)                                                                          | James M Snell    | 0     |
 |🚀| [Cancellation API](https://github.com/tc39/proposal-cancellation) | Ron Buckton, Brian Terlson | 0 |
+|   | [Orthogonal Classes](https://github.com/erights/Orthogonal-Classes) | Mark S. Miller, Allen Wirfs-Brock | 0 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
