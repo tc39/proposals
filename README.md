@@ -14,7 +14,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 |   | [SIMD.JS - SIMD APIs](https://github.com/tc39/ecmascript_simd/)                   | John McCutchan, Peter Jensen, Dan Gohman, Daniel Ehrenberg | 3 |
 |   | [`Function.prototype.toString` revision](https://github.com/tc39/Function-prototype-toString-revision)    | Michael Ficarra                    | 3 |
 |   | [global](https://github.com/tc39/proposal-global)                                                         | Jordan Harband                     | 3 |
-|   | [Rest/Spread Properties](https://github.com/sebmarkbage/ecmascript-rest-spread)                           | Sebastian Markbage                 | 3 |
+|   | [Rest/Spread Properties](https://github.com/tc39/proposal-object-rest-spread)                           | Sebastian Markbage                 | 3 |
 |   | [Asynchronous Iteration](https://github.com/tc39/proposal-async-iteration)                                | Domenic Denicola                   | 3 |
 |   | [import()](https://github.com/tc39/proposal-dynamic-import)                                               | Domenic Denicola                   | 3 |
 |   | [RegExp Lookbehind Assertions](https://github.com/tc39/proposal-regexp-lookbehind)                        | Daniel Ehrenberg                   | 3 |
