@@ -30,7 +30,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Private Fields](https://github.com/tc39/proposal-private-fields)                                           | Daniel Ehrenberg                   | 2 |
 |   | [`Intl.Segmenter`](https://github.com/tc39/proposal-intl-segmenter)                                         | Daniel Ehrenberg                   | 2 |
 |   | [Arbitrary-precision Integers](https://github.com/tc39/proposal-integer)                                    | Daniel Ehrenberg                   | 2 |
-|   | [`import.meta`](https://github.com/tc39/proposal-import-meta)                                               | Domenic Denicola                    | 2 |
+|   | [`import.meta`](https://github.com/tc39/proposal-import-meta)                                               | Domenic Denicola                   | 2 |
 |   | [`Date.parse` fallback semantics](https://github.com/mrrrgn/proposal-date-time-string-format)               | Morgan Phillips                    | 1 |
 |   | [`export * as ns from "mod";` statements](https://github.com/leebyron/ecmascript-export-ns-from)            | Lee Byron                          | 1 |
 |   | [`export v from "mod";` statements](https://github.com/leebyron/ecmascript-export-default-from)             | Lee Byron                          | 1 |
@@ -42,12 +42,12 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [`of` and `from` on collection constructors](https://github.com/leobalter/proposal-setmap-offrom)           | Leo Balter                         | 1 |
 |   | Generator arrow functions (`=>*`)                                                                           | Brendan Eich, Domenic Denicola     | 1 |
 |   | [`Promise.try`](https://github.com/ljharb/proposal-promise-try)                                             | Jordan Harband                     | 1 |
-|   | [Null Propagation](https://docs.google.com/presentation/d/11O_wIBBbZgE1bMVRJI8kGnmC6dWCBOwutbN9SWOK0fU/view) | Gabriel Isenberg                | 1 |
-|   | [`Math.signbit`: IEEE-754 sign bit](http://jfbastien.github.io/papers/Math.signbit.html)                     | JF Bastien                         | 1 |
-|   | [Error stacks](https://github.com/ljharb/proposal-error-stacks)                                              | Jordan Harband                     | 1 |
-|   | [`do` expressions](https://gist.github.com/dherman/1c97dfb25179fa34a41b5fff040f9879)                         | Dave Herman                        | 1 |
+|   | [Null Propagation](https://docs.google.com/presentation/d/11O_wIBBbZgE1bMVRJI8kGnmC6dWCBOwutbN9SWOK0fU/view) | Gabriel Isenberg                  | 1 |
+|   | [`Math.signbit`: IEEE-754 sign bit](http://jfbastien.github.io/papers/Math.signbit.html)                     | JF Bastien                        | 1 |
+|   | [Error stacks](https://github.com/ljharb/proposal-error-stacks)                                              | Jordan Harband                    | 1 |
+|   | [`do` expressions](https://gist.github.com/dherman/1c97dfb25179fa34a41b5fff040f9879)                         | Dave Herman                       | 1 |
 |   | [Realms](https://github.com/caridy/proposal-realms)                                                          | Dave Herman, Mark Miller, Caridy Patiño | 1 |
-|   | [Temporal](https://github.com/maggiepint/proposal-temporal)                                                  | Maggie Pint, Brian Terlson | 1 |
+|   | [Temporal](https://github.com/maggiepint/proposal-temporal)                                                  | Maggie Pint, Brian Terlson        | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
