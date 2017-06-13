@@ -21,12 +21,12 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [RegExp Unicode Property Escapes](https://github.com/tc39/proposal-regexp-unicode-property-escapes)         | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | 3 |
 |   | [RegExp named capture groups](https://github.com/tc39/proposal-regexp-named-groups)                         | Daniel Ehrenberg, Brian Terlson    | 3 |
 |   | [`s` (`dotAll`) flag for regular expressions](https://github.com/mathiasbynens/es-regexp-dotall-flag)       | Mathias Bynens, Brian Terlson      | 3 |
+|   | [Legacy RegExp features in JavaScript](https://github.com/tc39/proposal-regexp-legacy-features)             | Mark Miller, Claude Pache          | 3 |
 |   | [`function.sent` metaproperty](https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md)  | Allen Wirfs-Brock                  | 2 |
 |   | [`String.prototype.{trimStart,trimEnd}`](https://github.com/sebmarkbage/ecmascript-string-left-right-trim)  | Sebastian Markbage                 | 2 |
 |   | [Public Class Fields](https://tc39.github.io/proposal-class-public-fields/)                                 | Jeff Morrison                      | 2 |
 | 🚀 | [`Promise.prototype.finally`](https://github.com/tc39/proposal-promise-finally)                             | Jordan Harband                     | 2 |
 |   | [Class and Property Decorators](http://tc39.github.io/proposal-decorators/)                                 | Yehuda Katz and Brian Terlson      | 2 |
-| 🚀 | [Legacy RegExp features in JavaScript](https://github.com/tc39/proposal-regexp-legacy-features)             | Mark Miller, Claude Pache          | 2 |
 |   | [Private Fields](https://github.com/tc39/proposal-private-fields)                                           | Daniel Ehrenberg                   | 2 |
 |   | [`Intl.Segmenter`](https://github.com/tc39/proposal-intl-segmenter)                                         | Daniel Ehrenberg                   | 2 |
 |   | [Arbitrary-precision Integers](https://github.com/tc39/proposal-integer)                                    | Daniel Ehrenberg                   | 2 |
@@ -48,6 +48,9 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [`do` expressions](https://gist.github.com/dherman/1c97dfb25179fa34a41b5fff040f9879)                         | Dave Herman                       | 1 |
 |   | [Realms](https://github.com/caridy/proposal-realms)                                                          | Dave Herman, Mark Miller, Caridy Patiño | 1 |
 |   | [Temporal](https://github.com/maggiepint/proposal-temporal)                                                  | Maggie Pint, Brian Terlson        | 1 |
+|   | [Float16 on TypedArrays, DataView, Math.hfround](https://docs.google.com/presentation/d/1Ta_IbravBUOvu7LUhlN49SvLU-8G8bIQnsS08P3Z4vY/edit?usp=sharing) | Leo Balter | 1 |
+|   | [Atomics.waitNonblocking](https://github.com/lars-t-hansen/moz-sandbox/blob/master/sab/waitNonblocking.md)   | Shu-yu Guo, Lars Hansen           | 1 |
+|   | [Numeric separators](https://github.com/samuelgoto/proposal-numeric-separator)                               | Sam Goto                          | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 

@@ -23,6 +23,7 @@ Stage 0 proposals are either
 |   | [`is{Type}` methods](https://github.com/jasnell/proposal-istypes)                                                                        | James M Snell                   | 0     |
 |🚀| [Cancellation API](https://github.com/tc39/proposal-cancellation)                                                                          | Ron Buckton, Brian Terlson      | 0     |
 |   | [Orthogonal classes](https://github.com/erights/Orthogonal-Classes)                                                                      | Mark S. Miller, Allen Wirfs-Brock | 0   |
+|   | [Normative ICU Reference](https://github.com/tc39/tc39-notes/blob/master/es8/2017-05/may-23.md#normative-icu-reference)                                                                      | Domenic Denicola | 0   |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
