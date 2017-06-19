@@ -25,6 +25,7 @@ Stage 0 proposals are either
 |   | [Orthogonal classes](https://github.com/erights/Orthogonal-Classes)                                                                      | Mark S. Miller, Allen Wirfs-Brock | 0   |
 |   | [Normative ICU Reference](https://github.com/tc39/tc39-notes/blob/master/es8/2017-05/may-23.md#normative-icu-reference)                  | Domenic Denicola                | 0     |
 |   | [WHATWG URL](https://github.com/jasnell/proposal-url)                                                                                    | James M Snell                   | 0     |
+|   | [`%contstructor%.construct(thisArg[, arguments])`](https://github.com/jasnell/proposal-construct)                                        | James M Snell                   | 0     |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
