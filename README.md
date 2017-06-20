@@ -11,7 +11,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | 🚀 | Proposal                                                                                                    | Champion                           | Stage |
 |---|-------------------------------------------------------------------------------------------------------------|------------------------------------|-------|
-|   | [SIMD.JS - SIMD APIs](https://github.com/tc39/ecmascript_simd/)                                             | John McCutchan, Peter Jensen, Dan Gohman, Daniel Ehrenberg | 3 |
 |   | [`Function.prototype.toString` revision](https://github.com/tc39/Function-prototype-toString-revision)      | Michael Ficarra                    | 3 |
 |   | [`global`](https://github.com/tc39/proposal-global)                                                         | Jordan Harband                     | 3 |
 |   | [Rest/Spread Properties](https://github.com/tc39/proposal-object-rest-spread)                               | Sebastian Markbage                 | 3 |
