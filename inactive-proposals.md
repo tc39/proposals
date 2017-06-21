@@ -14,7 +14,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Cancelable Promises](https://github.com/tc39/proposal-cancelable-promises)                               | Domenic Denicola                   | Withdrawn |
 | [Proposed Grammar change to ES Modules](https://github.com/bmeck/UnambiguousJavaScriptGrammar)            | Bradley Farias | Rejected: No consensus on this specific solution.
 | [Dynamic Module Reform](https://github.com/caridy/proposal-dynamic-modules)                               | Caridy Patiño | Withdrawn: we decided to preserve the current semantics
-| [SIMD.JS - SIMD APIs](https://github.com/tc39/ecmascript_simd/)                                           | John McCutchan, Peter Jensen, Dan Gohman, Daniel Ehrenberg | [Withdrawn](https://github.com/rwaldron/tc39-notes/blob/master/es8/2017-03/mar-21.md#conclusionresolution-10)
+| [SIMD.JS - SIMD APIs](https://github.com/tc39/ecmascript_simd/)                                           | Peter Jensen, Yehuda Katz | [Stage 1](https://github.com/rwaldron/tc39-notes/blob/master/es8/2017-03/mar-21.md#conclusionresolution-10)
 
 
 
