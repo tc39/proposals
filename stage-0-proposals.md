@@ -10,6 +10,7 @@ Stage 0 proposals are either
 |   | [Additional metaproperties](https://github.com/allenwb/ESideas/blob/master/ES7MetaProps.md)                                              | Allen Wirfs-Brock               | 0     |
 |   | Annex B — HTML Attribute Event Handlers                                                                                                  | Allen Wirfs-Brock               | 0     |
 |🚀| [Cancellation API](https://github.com/tc39/proposal-cancellation)                                                                          | Ron Buckton, Brian Terlson      | 0     |
+|   | [`%contstructor%.construct(thisArg[, arguments])`](https://github.com/jasnell/proposal-construct)                                        | James M Snell                   | 0     |
 |   | [Defensible Classes](http://wiki.ecmascript.org/doku.php?id=strawman:defensible_classes)                                                 | Mark Miller & Doug Crockford    | 0     |
 |   | [Function bind syntax](https://github.com/zenparsing/es-function-bind)                                                                   | Brian Terlson & Matthew Podwysocki | 0  |
 |   | [Function expression decorators](https://goo.gl/8MmCMG)                                                                                  | Igor Minar                      | 0     |
@@ -25,7 +26,7 @@ Stage 0 proposals are either
 |   | [Updates to Tail Calls to include an explicit syntactic opt-in](https://github.com/tc39/proposal-ptc-syntax)                             | Brian Terlson & Eric Faust      | 0     |
 |   | [WHATWG URL](https://github.com/jasnell/proposal-url)                                                                                    | James M Snell                   | 0     |
 |   | [Zones](https://github.com/domenic/zones) ([spec](https://domenic.github.io/zones/))                                                     | Domenic Denicola & Miško Hevery | 0     |
-|   | [`%contstructor%.construct(thisArg[, arguments])`](https://github.com/jasnell/proposal-construct)                                        | James M Snell                   | 0     |
+
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
