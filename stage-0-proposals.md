@@ -23,7 +23,6 @@ Stage 0 proposals are either
 |   | [Relationships](http://wiki.ecmascript.org/doku.php?id=strawman:relationships)                                                           | Mark Miller & Waldemar Horwat   | 0     |
 |   | [`String.prototype.at`](https://github.com/mathiasbynens/String.prototype.at)                                                            | Mathias Bynens & Rick Waldron   | 0     |
 |   | [Structured Clone](https://github.com/dslomov-chromium/ecmascript-structured-clone)                                                      | Dmitry Lomov                    | 0     |
-|   | [Updates to Tail Calls to include an explicit syntactic opt-in](https://github.com/tc39/proposal-ptc-syntax)                             | Brian Terlson & Eric Faust      | 0     |
 |   | [WHATWG URL](https://github.com/jasnell/proposal-url)                                                                                    | James M Snell                   | 0     |
 |   | [Zones](https://github.com/domenic/zones) ([spec](https://domenic.github.io/zones/))                                                     | Domenic Denicola & Miško Hevery | 0     |
 

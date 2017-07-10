@@ -15,7 +15,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Proposed Grammar change to ES Modules](https://github.com/bmeck/UnambiguousJavaScriptGrammar)            | Bradley Farias | Rejected: No consensus on this specific solution.
 | [Dynamic Module Reform](https://github.com/caridy/proposal-dynamic-modules)                               | Caridy Patiño | Withdrawn: we decided to preserve the current semantics
 | [SIMD.JS - SIMD APIs](https://github.com/tc39/ecmascript_simd/)                                           | Peter Jensen, Yehuda Katz | [Stage 1](https://github.com/rwaldron/tc39-notes/blob/master/es8/2017-03/mar-21.md#conclusionresolution-10): Start with SIMD in WASM; implementations not pursuing SIMD.js for now.
-
+| [Updates to Tail Calls to include an explicit syntactic opt-in](https://github.com/tc39/proposal-ptc-syntax) | Brian Terlson & Eric Faust | Withdrawn in favor of ES6 PTC |
 
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [finished proposals](finished-proposals.md) documents.
