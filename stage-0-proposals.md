@@ -19,6 +19,7 @@ Stage 0 proposals are either
 |   | [Nested `import` declarations](https://github.com/tc39/ecma262/pull/646)                                                                 | Ben Newman, Meteor Development Group | 0 |
 |   | [Normative ICU Reference](https://github.com/tc39/tc39-notes/blob/master/es8/2017-05/may-23.md#normative-icu-reference)                  | Domenic Denicola                | 0     |
 |   | [Orthogonal classes](https://github.com/erights/Orthogonal-Classes)                                                                      | Mark S. Miller, Allen Wirfs-Brock | 0   |
+|   | [Pattern Matching](https://github.com/tc39/proposal-pattern-matching)                                                                    | Brian Terlson, Sebastian Markbåge | 0   |
 |   | [`Reflect.isCallable`/`Reflect.isConstructor`](https://github.com/caitp/TC39-Proposals/blob/master/tc39-reflect-isconstructor-iscallable.md) | Caitlin Potter              | 0     |
 |   | [Relationships](http://wiki.ecmascript.org/doku.php?id=strawman:relationships)                                                           | Mark Miller & Waldemar Horwat   | 0     |
 |   | [`String.prototype.at`](https://github.com/mathiasbynens/String.prototype.at)                                                            | Mathias Bynens & Rick Waldron   | 0     |
