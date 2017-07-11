@@ -10,7 +10,7 @@ Stage 0 proposals are either
 |   | [Additional metaproperties](https://github.com/allenwb/ESideas/blob/master/ES7MetaProps.md)                                              | Allen Wirfs-Brock               | 0     |
 |   | Annex B — HTML Attribute Event Handlers                                                                                                  | Allen Wirfs-Brock               | 0     |
 |🚀| [Cancellation API](https://github.com/tc39/proposal-cancellation)                                                                          | Ron Buckton, Brian Terlson      | 0     |
-|   | [`%contstructor%.construct(thisArg[, arguments])`](https://github.com/jasnell/proposal-construct)                                        | James M Snell                   | 0     |
+|   | [`%constructor%.construct(thisArg[, arguments])`](https://github.com/jasnell/proposal-construct)                                        | James M Snell                   | 0     |
 |   | [Defensible Classes](http://wiki.ecmascript.org/doku.php?id=strawman:defensible_classes)                                                 | Mark Miller & Doug Crockford    | 0     |
 |   | [Function bind syntax](https://github.com/zenparsing/es-function-bind)                                                                   | Brian Terlson & Matthew Podwysocki | 0  |
 |   | [Function expression decorators](https://goo.gl/8MmCMG)                                                                                  | Igor Minar                      | 0     |
