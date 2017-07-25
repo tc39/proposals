@@ -29,6 +29,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [`Intl.Segmenter`](https://github.com/tc39/proposal-intl-segmenter)                                         | Daniel Ehrenberg                   | 2 |
 |   | [Arbitrary-precision Integers](https://github.com/tc39/proposal-integer)                                    | Daniel Ehrenberg                   | 2 |
 |   | [`import.meta`](https://github.com/tc39/proposal-import-meta)                                               | Domenic Denicola                   | 2 |
+|   | [`Intl.RelativeTimeFormat`](https://github.com/tc39/proposal-intl-relative-time)                            | Zibi Braniecki, Daniel Ehrenberg   | 2 |
 |   | [`Date.parse` fallback semantics](https://github.com/mrrrgn/proposal-date-time-string-format)               | Morgan Phillips                    | 1 |
 |   | [`export * as ns from "mod";` statements](https://github.com/tc39/proposal-export-ns-from)                  | Ben Newman and John-David Dalton   | 1 |
 |   | [`export v from "mod";` statements](https://github.com/tc39/proposal-export-default-from)                   | Ben Newman and John-David Dalton   | 1 |
