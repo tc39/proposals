@@ -49,6 +49,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Float16 on TypedArrays, DataView, Math.hfround](https://docs.google.com/presentation/d/1Ta_IbravBUOvu7LUhlN49SvLU-8G8bIQnsS08P3Z4vY/edit?usp=sharing) | Leo Balter | 1 |
 |   | [Atomics.waitNonblocking](https://github.com/lars-t-hansen/moz-sandbox/blob/master/sab/waitNonblocking.md)   | Shu-yu Guo, Lars Hansen           | 1 |
 |   | [Numeric separators](https://github.com/samuelgoto/proposal-numeric-separator)                               | Sam Goto                          | 1 |
+|   | [`Symbol.prototype.description`](https://github.com/michaelficarra/Symbol-description-proposal/)             | Michael Ficarra                   | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
