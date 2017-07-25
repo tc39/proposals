@@ -21,10 +21,10 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [RegExp named capture groups](https://github.com/tc39/proposal-regexp-named-groups)                         | Daniel Ehrenberg, Brian Terlson    | 3 |
 |   | [`s` (`dotAll`) flag for regular expressions](https://github.com/mathiasbynens/es-regexp-dotall-flag)       | Mathias Bynens, Brian Terlson      | 3 |
 |   | [Legacy RegExp features in JavaScript](https://github.com/tc39/proposal-regexp-legacy-features)             | Mark Miller, Claude Pache          | 3 |
+|   | [`Promise.prototype.finally`](https://github.com/tc39/proposal-promise-finally)                             | Jordan Harband                     | 3 |
 |   | [`function.sent` metaproperty](https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md)  | Allen Wirfs-Brock                  | 2 |
 |   | [`String.prototype.{trimStart,trimEnd}`](https://github.com/sebmarkbage/ecmascript-string-left-right-trim)  | Sebastian Markbage                 | 2 |
 |   | [Class Fields](https://github.com/tc39/proposal-class-fields)                                               | Daniel Ehrenberg, Jeff Morrison    | 2 |
-| 🚀 | [`Promise.prototype.finally`](https://github.com/tc39/proposal-promise-finally)                             | Jordan Harband                     | 2 |
 |   | [Class and Property Decorators](http://tc39.github.io/proposal-decorators/)                                 | Yehuda Katz and Brian Terlson      | 2 |
 |   | [`Intl.Segmenter`](https://github.com/tc39/proposal-intl-segmenter)                                         | Daniel Ehrenberg                   | 2 |
 |   | [Arbitrary-precision Integers](https://github.com/tc39/proposal-integer)                                    | Daniel Ehrenberg                   | 2 |
