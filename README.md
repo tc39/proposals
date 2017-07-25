@@ -30,8 +30,8 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Arbitrary-precision Integers](https://github.com/tc39/proposal-integer)                                    | Daniel Ehrenberg                   | 2 |
 |   | [`import.meta`](https://github.com/tc39/proposal-import-meta)                                               | Domenic Denicola                   | 2 |
 |   | [`Date.parse` fallback semantics](https://github.com/mrrrgn/proposal-date-time-string-format)               | Morgan Phillips                    | 1 |
-|   | [`export * as ns from "mod";` statements](https://github.com/leebyron/ecmascript-export-ns-from)            | Lee Byron                          | 1 |
-|   | [`export v from "mod";` statements](https://github.com/leebyron/ecmascript-export-default-from)             | Lee Byron                          | 1 |
+|   | [`export * as ns from "mod";` statements](https://github.com/tc39/proposal-export-ns-from)                  | Ben Newman and John-David Dalton   | 1 |
+|   | [`export v from "mod";` statements](https://github.com/tc39/proposal-export-default-from)                   | Ben Newman and John-David Dalton   | 1 |
 | 🚀 | [Observable](https://github.com/tc39/proposal-observable)                                                   | Jafar Husain and Mark Miller       | 1 |
 |   | [`String#matchAll`](https://github.com/tc39/String.prototype.matchAll)                                      | Jordan Harband                     | 1 |
 |   | [WeakRefs](https://github.com/tc39/proposal-weakrefs)                                                       | Dean Tribble                       | 1 |
