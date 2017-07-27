@@ -52,6 +52,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Atomics.waitNonblocking](https://github.com/lars-t-hansen/moz-sandbox/blob/master/sab/waitNonblocking.md)  | Shu-yu Guo, Lars Hansen            | 1 |
 |   | [Numeric separators](https://github.com/samuelgoto/proposal-numeric-separator)                              | Sam Goto                           | 1 |
 |   | [`Symbol.prototype.description`](https://github.com/michaelficarra/Symbol-description-proposal/)            | Michael Ficarra                    | 1 |
+|   | change Number.parseInt/parseFloat to not coerce null/undefined/NaN (repo link TBD)                          | Brendan Eich                       | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
