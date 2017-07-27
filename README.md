@@ -57,6 +57,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [`Symbol.prototype.description`](https://github.com/michaelficarra/Symbol-description-proposal/)            | Michael Ficarra                    | 1 |
 |   | change Number.parseInt/parseFloat to not coerce null/undefined/NaN (repo link TBD)                          | Brendan Eich                       | 1 |
 |   | [Array.prototype.flat{Map,ten}](https://github.com/tc39/proposal-flatMap)                                   | Brian Terlson, Michael Ficarra     | 1 |
+|   | [Throw expressions](https://github.com/rbuckton/proposal-throw-expressions)                                 | Rob Buckton                        | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
