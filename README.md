@@ -31,6 +31,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Arbitrary-precision Integers](https://github.com/tc39/proposal-integer)                                    | Daniel Ehrenberg                   | 2 |
 |   | [`import.meta`](https://github.com/tc39/proposal-import-meta)                                               | Domenic Denicola                   | 2 |
 |   | [`Intl.RelativeTimeFormat`](https://github.com/tc39/proposal-intl-relative-time)                            | Zibi Braniecki, Daniel Ehrenberg   | 2 |
+|   | [Numeric separators](https://github.com/samuelgoto/proposal-numeric-separator)                              | Sam Goto                           | 2 |
 |   | [`Date.parse` fallback semantics](https://github.com/mrrrgn/proposal-date-time-string-format)               | Morgan Phillips                    | 1 |
 |   | [`export * as ns from "mod";` statements](https://github.com/tc39/proposal-export-ns-from)                  | Ben Newman and John-David Dalton   | 1 |
 |   | [`export v from "mod";` statements](https://github.com/tc39/proposal-export-default-from)                   | Ben Newman and John-David Dalton   | 1 |
@@ -50,7 +51,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Temporal](https://github.com/maggiepint/proposal-temporal)                                                 | Maggie Pint, Brian Terlson         | 1 |
 |   | [Float16 on TypedArrays, DataView, Math.hfround](https://docs.google.com/presentation/d/1Ta_IbravBUOvu7LUhlN49SvLU-8G8bIQnsS08P3Z4vY/edit?usp=sharing) | Leo Balter | 1 |
 |   | [Atomics.waitNonblocking](https://github.com/lars-t-hansen/moz-sandbox/blob/master/sab/waitNonblocking.md)  | Shu-yu Guo, Lars Hansen            | 1 |
-|   | [Numeric separators](https://github.com/samuelgoto/proposal-numeric-separator)                              | Sam Goto                           | 1 |
 |   | [`Symbol.prototype.description`](https://github.com/michaelficarra/Symbol-description-proposal/)            | Michael Ficarra                    | 1 |
 |   | change Number.parseInt/parseFloat to not coerce null/undefined/NaN (repo link TBD)                          | Brendan Eich                       | 1 |
 
