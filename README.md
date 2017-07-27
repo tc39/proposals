@@ -32,8 +32,8 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [`import.meta`](https://github.com/tc39/proposal-import-meta)                                               | Domenic Denicola                   | 2 |
 |   | [`Intl.RelativeTimeFormat`](https://github.com/tc39/proposal-intl-relative-time)                            | Zibi Braniecki, Daniel Ehrenberg   | 2 |
 |   | [Numeric separators](https://github.com/samuelgoto/proposal-numeric-separator)                              | Sam Goto                           | 2 |
+|   | [`export * as ns from "mod";` statements](https://github.com/tc39/proposal-export-ns-from)                  | Ben Newman and John-David Dalton   | 2 |
 |   | [`Date.parse` fallback semantics](https://github.com/mrrrgn/proposal-date-time-string-format)               | Morgan Phillips                    | 1 |
-|   | [`export * as ns from "mod";` statements](https://github.com/tc39/proposal-export-ns-from)                  | Ben Newman and John-David Dalton   | 1 |
 |   | [`export v from "mod";` statements](https://github.com/tc39/proposal-export-default-from)                   | Ben Newman and John-David Dalton   | 1 |
 | 🚀 | [Observable](https://github.com/tc39/proposal-observable)                                                   | Jafar Husain and Mark Miller       | 1 |
 |   | [`String#matchAll`](https://github.com/tc39/String.prototype.matchAll)                                      | Jordan Harband                     | 1 |
