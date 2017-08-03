@@ -24,10 +24,10 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [`Promise.prototype.finally`](https://github.com/tc39/proposal-promise-finally)                             | Jordan Harband                     | 3 |
 |   | [BigInt](https://github.com/tc39/proposal-bigint)                                                           | Daniel Ehrenberg                   | 3 |
 |   | [Class Fields](https://github.com/tc39/proposal-class-fields)                                               | Daniel Ehrenberg, Jeff Morrison    | 3 |
-|   | [Optional catch binding](https://tc39.github.io/proposal-optional-catch-binding/)                           | Michael Ficarra                    | 3 |
+|   | [Optional catch binding](https://github.com/tc39/proposal-optional-catch-binding/)                           | Michael Ficarra                    | 3 |
 |   | [`function.sent` metaproperty](https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md)  | Allen Wirfs-Brock                  | 2 |
 |   | [`String.prototype.{trimStart,trimEnd}`](https://github.com/sebmarkbage/ecmascript-string-left-right-trim)  | Sebastian Markbage                 | 2 |
-|   | [Class and Property Decorators](http://tc39.github.io/proposal-decorators/)                                 | Yehuda Katz and Brian Terlson      | 2 |
+|   | [Class and Property Decorators](http://github.com/tc39/proposal-decorators/)                                 | Yehuda Katz and Brian Terlson      | 2 |
 |   | [`Intl.Segmenter`](https://github.com/tc39/proposal-intl-segmenter)                                         | Daniel Ehrenberg                   | 2 |
 |   | [`import.meta`](https://github.com/tc39/proposal-import-meta)                                               | Domenic Denicola                   | 2 |
 |   | [`Intl.RelativeTimeFormat`](https://github.com/tc39/proposal-intl-relative-time)                            | Zibi Braniecki, Daniel Ehrenberg   | 2 |
@@ -53,7 +53,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Temporal](https://github.com/maggiepint/proposal-temporal)                                                 | Maggie Pint, Brian Terlson         | 1 |
 |   | [Float16 on TypedArrays, DataView, Math.hfround](https://docs.google.com/presentation/d/1Ta_IbravBUOvu7LUhlN49SvLU-8G8bIQnsS08P3Z4vY/edit?usp=sharing) | Leo Balter | 1 |
 |   | [Atomics.waitNonblocking](https://github.com/lars-t-hansen/moz-sandbox/blob/master/sab/waitNonblocking.md)  | Shu-yu Guo, Lars Hansen            | 1 |
-|   | [`Symbol.prototype.description`](https://tc39.github.io/proposal-Symbol-description/)                       | Michael Ficarra                    | 1 |
+|   | [`Symbol.prototype.description`](https://github.com/tc39/proposal-Symbol-description/)                       | Michael Ficarra                    | 1 |
 |   | change Number.parseInt/parseFloat to not coerce null/undefined/NaN (repo link TBD)                          | Brendan Eich                       | 1 |
 |   | [Array.prototype.flat{Map,ten}](https://github.com/tc39/proposal-flatMap)                                   | Brian Terlson, Michael Ficarra     | 1 |
 |   | [Throw expressions](https://github.com/rbuckton/proposal-throw-expressions)                                 | Rob Buckton                        | 1 |
