@@ -83,7 +83,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [lookbehind]: https://github.com/tc39/proposal-regexp-lookbehind
 [unicode-escapes]: https://github.com/tc39/proposal-regexp-unicode-property-escapes
 [named-groups]: https://github.com/tc39/proposal-regexp-named-groups
-[dot-all]: https://github.com/tc39/proposal-regexp-legacy-features
+[dot-all]: https://github.com/tc39/proposal-regexp-dotall-flag
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features
 [finally]: https://github.com/tc39/proposal-promise-finally
 [bigint]: https://github.com/tc39/proposal-bigint
