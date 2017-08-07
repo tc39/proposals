@@ -115,7 +115,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [realms]: https://github.com/caridy/proposal-realms
 [temporal]: https://github.com/maggiepint/proposal-temporal
 [float16s]: https://docs.google.com/presentation/d/1Ta_IbravBUOvu7LUhlN49SvLU-8G8bIQnsS08P3Z4vY/edit?usp=sharing
-[nonblocking]: https://github.com/lars-t-hansen/moz-sandbox/blob/master/sab/waitNonblocking.md
+[nonblocking]: https://github.com/tc39/proposal-atomics-wait-async
 [symbol-description]: https://github.com/tc39/proposal-Symbol-description
 [flat]: https://github.com/tc39/proposal-flatMap
 [throw-expressions]: https://github.com/rbuckton/proposal-throw-expressions
