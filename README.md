@@ -27,14 +27,13 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Optional catch binding][optional-catch]                         | Michael Ficarra                                 | 3 |
 |   | [`function.sent` metaproperty][function-sent]                    | Allen Wirfs-Brock                               | 2 |
 |   | [`String.prototype.{trimStart,trimEnd}`][trims]                  | Sebastian Markbage                              | 2 |
-|   | [Class and Property Decorators][decorators]                      | Yehuda Katz and Brian Terlson                   | 2 |
+|   | [Class and Property Decorators][decorators] ([update][unified-class]) | Yehuda Katz and Brian Terlson                   | 2 |
 |   | [`Intl.Segmenter`][intl-segmenter]                               | Daniel Ehrenberg                                | 2 |
 |   | [`import.meta`][import-meta]                                     | Domenic Denicola                                | 2 |
 |   | [`Intl.RelativeTimeFormat`][relative-time]                       | Zibi Braniecki, Daniel Ehrenberg                | 2 |
 |   | [Numeric separators][numeric_separators]                         | Sam Goto                                        | 2 |
 |   | [`export * as ns from "mod";` statements][export-ns-from]        | Ben Newman and John-David Dalton                | 2 |
 |   | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 | 2 |
-|   | [Unified class features][unified-class]                          | Daniel Ehrenberg, Yehuda Katz, Brian Terlson    | 2 |
 |   | [`Date.parse` fallback semantics][date-parse]                    | Morgan Phillips                                 | 1 |
 |   | [`export v from "mod";` statements][export-from]                 | Ben Newman and John-David Dalton                | 1 |
 | 🚀 | [Observable][observable]                                         | Jafar Husain and Mark Miller                    | 1 |
