@@ -31,7 +31,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [`Intl.Segmenter`][intl-segmenter]                               | Daniel Ehrenberg                                | 2 |
 |   | [`import.meta`][import-meta]                                     | Domenic Denicola                                | 2 |
 |   | [`Intl.RelativeTimeFormat`][relative-time]                       | Zibi Braniecki, Daniel Ehrenberg                | 2 |
-|   | [Numeric separators][numeric_separators]                         | Sam Goto                                        | 2 |
+|   | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          | 2 |
 |   | [`export * as ns from "mod";` statements][export-ns-from]        | Ben Newman and John-David Dalton                | 2 |
 |   | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 | 2 |
 |   | [`Date.parse` fallback semantics][date-parse]                    | Morgan Phillips                                 | 1 |
