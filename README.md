@@ -27,7 +27,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Optional catch binding][optional-catch]                         | Michael Ficarra                                 | 3 |
 |   | [`function.sent` metaproperty][function-sent]                    | Allen Wirfs-Brock                               | 2 |
 |   | [`String.prototype.{trimStart,trimEnd}`][trims]                  | Sebastian Markbage                              | 2 |
-|   | [Class and Property Decorators][decorators] ([update][unified-class]) | Yehuda Katz and Brian Terlson                   | 2 |
+|   | [Class and Property Decorators][decorators] ([update][unified-class]) | Yehuda Katz and Brian Terlson              | 2 |
 |   | [`Intl.Segmenter`][intl-segmenter]                               | Daniel Ehrenberg                                | 2 |
 |   | [`import.meta`][import-meta]                                     | Domenic Denicola                                | 2 |
 |   | [`Intl.RelativeTimeFormat`][relative-time]                       | Zibi Braniecki, Daniel Ehrenberg                | 2 |
