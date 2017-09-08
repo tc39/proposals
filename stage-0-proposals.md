@@ -27,6 +27,7 @@ Stage 0 proposals are either
 |   | [Structured Clone][clone]                                                  | Dmitry Lomov                         | 0     |
 |   | [WHATWG URL][url]                                                          | James M Snell                        | 0     |
 |   | [Zones][zones] ([spec][zones-spec])                                        | Domenic Denicola & Miško Hevery      | 0     |
+|   | [Object.shallowEqual][shallow-equal]                                       | Sebastian Markbage                   | 0     |
 
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
@@ -53,3 +54,4 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [url]: https://github.com/jasnell/proposal-url
 [zones]: https://github.com/domenic/zones
 [zones-spec]: https://domenic.github.io/zones/
+[shallow-equal]: https://github.com/sebmarkbage/ecmascript-shallow-equal
