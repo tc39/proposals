@@ -112,7 +112,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [chaining]: https://github.com/tc39/proposal-optional-chaining
 [signbit]: http://jfbastien.github.io/papers/Math.signbit.html
 [stacks]: https://github.com/ljharb/proposal-error-stacks
-[do]: https://gist.github.com/dherman/1c97dfb25179fa34a41b5fff040f9879
+[do]: https://github.com/tc39/proposal-do-expressions
 [realms]: https://github.com/caridy/proposal-realms
 [temporal]: https://github.com/maggiepint/proposal-temporal
 [float16s]: https://docs.google.com/presentation/d/1Ta_IbravBUOvu7LUhlN49SvLU-8G8bIQnsS08P3Z4vY/edit?usp=sharing
