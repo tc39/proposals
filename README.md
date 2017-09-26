@@ -32,7 +32,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [`import.meta`][import-meta]                                     | Domenic Denicola                                | 2 |
 |   | [`Intl.RelativeTimeFormat`][relative-time]                       | Zibi Braniecki, Daniel Ehrenberg                | 2 |
 |   | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          | 2 |
-|   | [`export * as ns from "mod";` statements][export-ns-from]        | Ben Newman and John-David Dalton                | 2 |
 |   | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 | 2 |
 |   | [`Date.parse` fallback semantics][date-parse]                    | Morgan Phillips                                 | 1 |
 |   | [`export v from "mod";` statements][export-from]                 | Ben Newman and John-David Dalton                | 1 |
@@ -98,7 +97,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [import-meta]: https://github.com/tc39/proposal-import-meta
 [relative-time]: https://github.com/tc39/proposal-intl-relative-time
 [numeric_separators]: https://github.com/samuelgoto/proposal-numeric-separator
-[export-ns-from]: https://github.com/tc39/proposal-export-ns-from
 [private-methods]: https://github.com/littledan/proposal-private-methods
 [unified-class]: https://github.com/littledan/proposal-unified-class-features
 [date-parse]: https://github.com/mrrrgn/proposal-date-time-string-format
