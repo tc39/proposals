@@ -57,6 +57,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Array.prototype.flat{Map,ten}][flat]                            | Brian Terlson, Michael Ficarra                  | 1 |
 |   | [Throw expressions][throw-expressions]                           | Rob Buckton                                     | 1 |
 |   | [Binary AST][binary-ast]                                         | Shu-yu Guo                                      | 1 |
+|   | [Pipeline Operator][pipeline]                                    | Daniel Ehrenberg                                | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -119,3 +120,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [flat]: https://github.com/tc39/proposal-flatMap
 [throw-expressions]: https://github.com/rbuckton/proposal-throw-expressions
 [binary-ast]: https://github.com/syg/ecmascript-binary-ast
+[pipeline]: https://github.com/tc39/proposal-pipeline-operator
