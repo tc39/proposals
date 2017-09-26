@@ -59,6 +59,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Binary AST][binary-ast]                                         | Shu-yu Guo                                      | 1 |
 |   | [Pipeline Operator][pipeline]                                    | Daniel Ehrenberg                                | 1 |
 |   | [Extensible numeric literals][extensible-literals]               | Daniel Ehrenberg                                | 1 |
+|   | [First-Class Protocols][protocols]                               | Michael Ficarra                                 | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -123,3 +124,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [binary-ast]: https://github.com/syg/ecmascript-binary-ast
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [extensible-literals]: https://github.com/littledan/proposal-extensible-numeric-literals
+[protocols]: https://github.com/michaelficarra/proposal-first-class-protocols
