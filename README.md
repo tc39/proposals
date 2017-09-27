@@ -34,6 +34,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          | 2 |
 |   | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 | 2 |
 |   | [Array.prototype.flat{Map,ten}][flat]                            | Brian Terlson, Michael Ficarra                  | 2 |
+|   | [Throw expressions][throw-expressions]                           | Rob Buckton                                     | 2 |
 |   | [`Date.parse` fallback semantics][date-parse]                    | Morgan Phillips                                 | 1 |
 |   | [`export v from "mod";` statements][export-from]                 | Ben Newman and John-David Dalton                | 1 |
 | 🚀 | [Observable][observable]                                         | Jafar Husain and Mark Miller                    | 1 |
@@ -54,7 +55,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Atomics.waitNonblocking][nonblocking]                           | Shu-yu Guo, Lars Hansen                         | 1 |
 |   | [`Symbol.prototype.description`][symbol-description]             | Michael Ficarra                                 | 1 |
 |   | change Number.parseInt/parseFloat to not coerce null/undefined/NaN (repo link TBD) | Brendan Eich                  | 1 |
-|   | [Throw expressions][throw-expressions]                           | Rob Buckton                                     | 1 |
 |   | [Binary AST][binary-ast]                                         | Shu-yu Guo                                      | 1 |
 |   | [Pipeline Operator][pipeline]                                    | Daniel Ehrenberg                                | 1 |
 |   | [Extensible numeric literals][extensible-literals]               | Daniel Ehrenberg                                | 1 |
