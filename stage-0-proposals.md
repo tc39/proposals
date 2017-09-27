@@ -15,7 +15,6 @@ Stage 0 proposals are either
 |   | [Function bind syntax][bind-syntax]                                        | Brian Terlson & Matthew Podwysocki   | 0     |
 |   | [Function expression decorators][func-expr-decorators]                     | Igor Minar                           | 0     |
 |   | [`is{Type}` methods][is-types]                                             | James M Snell                        | 0     |
-|   | [JSON superset][json-superset]                                             | Mark Miller, Richard Gibson          | 0     |
 |   | [Method parameter decorators][method-param-decorators]                     | Igor Minar                           | 0     |
 |   | [Nested `import` declarations][nested-imports]                             | Ben Newman, Meteor Development Group | 0     |
 |   | [Normative ICU Reference][icu]                                             | Domenic Denicola                     | 0     |

@@ -59,6 +59,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Pipeline Operator][pipeline]                                    | Daniel Ehrenberg                                | 1 |
 |   | [Extensible numeric literals][extensible-literals]               | Daniel Ehrenberg                                | 1 |
 |   | [First-Class Protocols][protocols]                               | Michael Ficarra                                 | 1 |
+|   | [JSON superset][json-superset]                                   | Mark Miller, Richard Gibson, Mathias Bynens     | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
