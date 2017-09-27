@@ -40,7 +40,6 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [bind-syntax]: https://github.com/zenparsing/es-function-bind
 [func-expr-decorators]: https://goo.gl/8MmCMG
 [is-types]: https://github.com/jasnell/proposal-istypes
-[json-superset]: https://github.com/gibson042/ecma262-proposal-json-superset
 [method-param-decorators]: https://goo.gl/r1XT9b
 [nested-imports]: https://github.com/tc39/ecma262/pull/646
 [icu]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-05/may-23.md#normative-icu-reference
