@@ -60,6 +60,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Extensible numeric literals][extensible-literals]               | Daniel Ehrenberg                                | 1 |
 |   | [First-Class Protocols][protocols]                               | Michael Ficarra                                 | 1 |
 |   | [JSON superset][json-superset]                                   | Mark Miller, Richard Gibson, Mathias Bynens     | 1 |
+|   | [Nullary coalescing operator][[nullary-coalescing]               | Gabriel Isenberg                                | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -125,3 +126,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [extensible-literals]: https://github.com/littledan/proposal-extensible-numeric-literals
 [protocols]: https://github.com/michaelficarra/proposal-first-class-protocols
 [json-superset]: https://github.com/tc39/proposal-json-superset
+[nullary-coalescing]: https://github.com/gisenberg/proposal-nullary-coalescing
