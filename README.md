@@ -35,10 +35,10 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 | 2 |
 |   | [Array.prototype.flat{Map,ten}][flat]                            | Brian Terlson, Michael Ficarra                  | 2 |
 |   | [Throw expressions][throw-expressions]                           | Rob Buckton                                     | 2 |
+|   | [`String#matchAll`][matchall]                                    | Jordan Harband                                  | 2 |
 |   | [`Date.parse` fallback semantics][date-parse]                    | Morgan Phillips                                 | 1 |
 |   | [`export v from "mod";` statements][export-from]                 | Ben Newman and John-David Dalton                | 1 |
 | 🚀 | [Observable][observable]                                         | Jafar Husain and Mark Miller                    | 1 |
-|   | [`String#matchAll`][matchall]                                    | Jordan Harband                                  | 1 |
 |   | [WeakRefs][weakrefs]                                             | Dean Tribble                                    | 1 |
 |   | [Frozen Realms][frozen-realms]                                   | Mark S. Miller, Chip Morningstar, Caridy Patiño | 1 |
 |   | [`Math` Extensions][more-math]                                   | Rick Waldron                                    | 1 |
