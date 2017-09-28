@@ -25,11 +25,11 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [BigInt][bigint]                                                 | Daniel Ehrenberg                                | 3 |
 |   | [Class Fields][class-fields]                                     | Daniel Ehrenberg, Jeff Morrison                 | 3 |
 |   | [Optional catch binding][optional-catch]                         | Michael Ficarra                                 | 3 |
+|   | [`import.meta`][import-meta]                                     | Domenic Denicola                                | 3 |
 |   | [`function.sent` metaproperty][function-sent]                    | Allen Wirfs-Brock                               | 2 |
 |   | [`String.prototype.{trimStart,trimEnd}`][trims]                  | Sebastian Markbage                              | 2 |
 |   | [Class and Property Decorators][decorators] ([update][unified-class]) | Yehuda Katz and Brian Terlson              | 2 |
 |   | [`Intl.Segmenter`][intl-segmenter]                               | Daniel Ehrenberg                                | 2 |
-|   | [`import.meta`][import-meta]                                     | Domenic Denicola                                | 2 |
 |   | [`Intl.RelativeTimeFormat`][relative-time]                       | Zibi Braniecki, Daniel Ehrenberg                | 2 |
 |   | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          | 2 |
 |   | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 | 2 |
@@ -61,6 +61,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [First-Class Protocols][protocols]                               | Michael Ficarra                                 | 1 |
 |   | [JSON superset][json-superset]                                   | Mark Miller, Richard Gibson, Mathias Bynens     | 1 |
 |   | [Nullary coalescing operator][nullary-coalescing]                | Gabriel Isenberg                                | 1 |
+|   | [Partial application][partial-application]                       | Ron Buckton                                     | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -127,3 +128,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [protocols]: https://github.com/michaelficarra/proposal-first-class-protocols
 [json-superset]: https://github.com/tc39/proposal-json-superset
 [nullary-coalescing]: https://github.com/gisenberg/proposal-nullary-coalescing
+[partial-application]: https://github.com/rbuckton/proposal-partial-application
