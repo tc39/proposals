@@ -124,4 +124,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [extensible-literals]: https://github.com/littledan/proposal-extensible-numeric-literals
 [protocols]: https://github.com/michaelficarra/proposal-first-class-protocols
-[json-superset]: https://github.com/gibson042/ecma262-proposal-json-superset
+[json-superset]: https://github.com/tc39/proposal-json-superset
