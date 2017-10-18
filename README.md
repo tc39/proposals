@@ -1,4 +1,4 @@
-# [ECMAScript](https://github.com/tc39/ecma262) proposals
+# [ECMAScript](https://github.com/tc39/ecma262) and [ECMAScript Internationalization API Specification](https://tc39.github.io/ecma402/) proposals
 
  - [Stage 0 Proposals](stage-0-proposals.md)
  - [Finished Proposals](finished-proposals.md)
@@ -8,6 +8,8 @@
 
 Proposals follow [this process document](https://tc39.github.io/process-document/).
 This list contains only stage 1 proposals and higher that have not yet been withdrawn/rejected, or become finished.
+
+### ECMA-262
 
 | 🚀 | Proposal                                                         | Champion                                        | Stage |
 |---|------------------------------------------------------------------|-------------------------------------------------|-------|
@@ -62,6 +64,19 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [JSON superset][json-superset]                                   | Mark Miller, Richard Gibson, Mathias Bynens     | 1 |
 |   | [Nullary coalescing operator][nullary-coalescing]                | Gabriel Isenberg                                | 1 |
 |   | [Partial application][partial-application]                       | Ron Buckton                                     | 1 |
+
+## ECMA-402
+
+| 🚀 | Proposal                                                         | Champion                                        | Stage |
+|---|------------------------------------------------------------------|-------------------------------------------------| ------|
+|   | [Intl.Segmenter: Unicode segmentation in JavaScript][]           | Daniel Ehrenberg                                | 3 |
+|   | [Intl.RelativeTimeFormat][]                                      | Caridy Patiño, Eric Ferraiuolo                  | 2 |
+|   | [Intl.ListFormat][]                                              | Zibi Braniecki                                  | 2 |
+|   | [Exposing Abstract Operations & Locale Info][]                   | Zibi Braniecki                                  | 2 |
+|   | [Intl.Locale][]                                                  | Zibi Braniecki, Daniel Ehrenberg                | 1 |
+|   | [Intl.DurationFormat][]                                          | Zibi Braniecki                                  | 1 |
+|   | [Intl.UnitFormat][]                                              | Zibi Braniecki                                  | 1 |
+|   | [DateTimeFormat dateStyle & timeStyle][]                         | Zibi Braniecki                                  | 1 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -129,3 +144,15 @@ Note that as part of the onboarding process your repository name may be normaliz
 [json-superset]: https://github.com/tc39/proposal-json-superset
 [nullary-coalescing]: https://github.com/gisenberg/proposal-nullary-coalescing
 [partial-application]: https://github.com/rbuckton/proposal-partial-application
+
+[Intl.Segmenter: Unicode segmentation in JavaScript]: https://github.com/tc39/proposal-intl-segmenter
+[Intl.ListFormat]: https://github.com/zbraniecki/proposal-intl-list-format
+[Intl.RelativeTimeFormat]: https://github.com/tc39/proposal-intl-relative-time
+[Intl.DurationFormat]: https://github.com/tc39/ecma402/issues/47
+[Intl.UnitFormat]: https://github.com/tc39/ecma402/issues/32
+[Intl.PluralRules]: https://github.com/tc39/proposal-intl-plural-rules
+[Intl.DateTimeFormat.prototype.formatToParts]: https://github.com/tc39/proposal-intl-formatToParts
+[Intl.NumberFormat.prototype.formatToParts]: https://github.com/tc39/proposal-intl-formatToParts
+[Exposing Abstract Operations & Locale Info]: https://github.com/tc39/ecma402/issues/46
+[DateTimeFormat dateStyle & timeStyle]: https://github.com/zbraniecki/proposal-ecma402-datetime-style
+[Intl.Locale]: https://github.com/zbraniecki/proposal-intl-locale
