@@ -65,7 +65,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [Nullary coalescing operator][nullary-coalescing]                | Gabriel Isenberg                                | 1 |
 |   | [Partial application][partial-application]                       | Ron Buckton                                     | 1 |
 
-## ECMA-402
+### ECMA-402
 
 | 🚀 | Proposal                                                         | Champion                                        | Stage |
 |---|------------------------------------------------------------------|-------------------------------------------------| ------|
