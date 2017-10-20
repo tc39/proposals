@@ -5,8 +5,6 @@ Stage 0 proposals are either
 * planned to be presented to the committee by a TC39 champion, or
 * have been presented to the committee and not rejected definitively, but have not yet achieved any of the criteria to get into stage 1.
 
-## ECMA-262
-
 | 🚀 | Proposal                                                                   | Champion                             | Stage |
 |---|----------------------------------------------------------------------------|--------------------------------------|-------|
 |   | [Additional metaproperties][metaprops]                                     | Allen Wirfs-Brock                    | 0     |
@@ -33,12 +31,6 @@ Stage 0 proposals are either
 |   | [`Builtins.typeOf()` and `Builtins.is()`][is-types]                        | James M Snell                        | 0     |
 |   | [`ArrayBuffer.transfer`][buffer-transfer]                                  | Domenic Denicola                     | 0     |
 
-## ECMA-402
-
-| 🚀 | Proposal                                                         | Champion                                        | Stage |
-|---|------------------------------------------------------------------|-------------------------------------------------| ------|
-|   | [Fix 9.2.3 LookupMatcher algorithm][]                            | Rafael Xavier                                   | 0 |
-|   | [Intl.NumberFormat round option][]                               | Rafael Xavier                                   | 0 |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -67,6 +59,3 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [object-shorthand-improvements]: https://github.com/rbuckton/proposal-shorthand-improvements
 [is-types]: https://github.com/jasnell/proposal-istypes
 [buffer-transfer]: https://gist.github.com/lukewagner/2735af7eea411e18cf20
-
-[Fix 9.2.3 LookupMatcher algorithm]: https://github.com/rxaviers/ecma402-fix-lookup-matcher
-[Intl.NumberFormat round option]: https://github.com/rxaviers/ecma402-number-format-round-option

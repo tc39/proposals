@@ -1,8 +1,6 @@
 # Finished Proposals
 
-Finished proposals are proposals that have reached stage 4, and are included in the latest draft of [ECMAScript](https://tc39.github.io/ecma262/) or [ECMAScript Internationalization API](https://tc39.github.io/ecma402/) specification.
-
-## ECMA-262
+Finished proposals are proposals that have reached stage 4, and are included in the [latest draft](https://tc39.github.io/ecma262/) of the specification.
 
 | Proposal                                                                 | Champion(s)                        | TC39 meeting notes | Expected Publication Year |
 |--------------------------------------------------------------------------|------------------------------------|--------------------|---------------------------|
@@ -15,13 +13,6 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Async functions][async-await]                                           | Brian Terlson                      | [July 2016][async-await-notes]            | 2017
 | [Shared memory and atomics][atomics]                                     | Lars T Hansen                      | [January 2017][atomics-notes]             | 2017
 | [Lifting template literal restriction][template-literal-lift]            | Tim Disney                         | [March 2017][template-literal-lift-notes] | 2018
-
-## ECMA-402
-| Proposal                                                                 | Champion                           | TC39 meeting notes | Expected Publication Year |
-|--------------------------------------------------------------------------|------------------------------------|--------------------|---------------------------|
-| [Intl.DateTimeFormat.prototype.formatToParts][]                          | Zibi Braniecki                     | [July 2016][Intl.DateTimeFormat.prototype.formatToParts-notes] | 2017
-| [Intl.NumberFormat.prototype.formatToParts][]                            | Zibi Braniecki                     | [September 2017][Intl.NumberFormat.prototype.formatToParts-notes] | 2018
-| [Intl.PluralRules][]                                                     | Caridy Patiño, Eric Ferraiuolo     | [September 2017][Intl.PluralRules]        | 2018
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -43,10 +34,3 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [atomics-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es7/2017-01/jan-24.md#13if-seeking-stage-4-for-sharedarraybuffer
 [template-literal-lift]: https://github.com/tc39/proposal-template-literal-revision
 [template-literal-lift-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es8/2017-03/mar-21.md#10ia-template-literal-updates
-
-[Intl.DateTimeFormat.prototype.formatToParts]: https://github.com/tc39/proposal-intl-formatToParts
-[Intl.DateTimeFormat.prototype.formatToParts-notes]: https://github.com/tc39/tc39-notes/blob/master/es7/2016-07/jul-27.md#9ii-ecma-402-formattoparts
-[Intl.NumberFormat.prototype.formatToParts]: https://github.com/tc39/proposal-intl-formatToParts
-[Intl.NumberFormat.prototype.formatToParts-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-09/sep-26.md#12ia-intlnumberformatprototypeformattoparts-for-stage-4
-[Intl.PluralRules]: https://github.com/tc39/proposal-intl-plural-rules
-[Intl.PluralRules-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-09/sep-26.md#12ig-intlpluralrules-for-stage-4
