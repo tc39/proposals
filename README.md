@@ -4,7 +4,7 @@
  - [Finished Proposals](finished-proposals.md)
  - [Inactive Proposals](inactive-proposals.md)
  
-[ECMAScript Internationalization API Specification](ecma420/README.md) proposals
+[ECMAScript Internationalization API Specification](ecma402/README.md) proposals
 
 ## Active proposals
 
