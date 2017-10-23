@@ -3,7 +3,7 @@
  - [Stage 0 Proposals](stage-0-proposals.md)
  - [Finished Proposals](finished-proposals.md)
  - [Inactive Proposals](inactive-proposals.md)
- 
+
 [ECMAScript Internationalization API Specification](ecma402/README.md) proposals
 
 ## Active proposals
@@ -31,8 +31,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [`function.sent` metaproperty][function-sent]                    | Allen Wirfs-Brock                               | 2 |
 |   | [`String.prototype.{trimStart,trimEnd}`][trims]                  | Sebastian Markbage                              | 2 |
 |   | [Class and Property Decorators][decorators] ([update][unified-class]) | Yehuda Katz and Brian Terlson              | 2 |
-|   | [`Intl.Segmenter`][intl-segmenter]                               | Daniel Ehrenberg                                | 2 |
-|   | [`Intl.RelativeTimeFormat`][relative-time]                       | Zibi Braniecki, Daniel Ehrenberg                | 2 |
 |   | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          | 2 |
 |   | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 | 2 |
 |   | [Array.prototype.flat{Map,ten}][flat]                            | Brian Terlson, Michael Ficarra                  | 2 |
@@ -77,9 +75,9 @@ Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub org
 
 1. Transfer your repository to the [@tc39-transfer](http://github.com/tc39-transfer) organization
   - if you are a TC39 delegate, but not an admin in that organization, please contact @LJHarb
-2. @bterlson will transfer your repository to the TC39 organization the next chance he gets.
+2. @bterlson or @littledan will transfer your repository to the TC39 organization the next chance they get.
 
-Note that as part of the onboarding process your repository name may be normalized. Don't worry, redirects will continue to work.
+Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work - although Github Pages redirects will be broken (please update your links!).
 
 [function-to-string]: https://github.com/tc39/Function-prototype-toString-revision
 [global]: https://github.com/tc39/proposal-global
@@ -98,9 +96,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [function-sent]: https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md
 [trims]: https://github.com/sebmarkbage/ecmascript-string-left-right-trim
 [decorators]: http://github.com/tc39/proposal-decorators
-[intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
 [import-meta]: https://github.com/tc39/proposal-import-meta
-[relative-time]: https://github.com/tc39/proposal-intl-relative-time
 [numeric_separators]: https://github.com/samuelgoto/proposal-numeric-separator
 [private-methods]: https://github.com/littledan/proposal-private-methods
 [unified-class]: https://github.com/littledan/proposal-unified-class-features

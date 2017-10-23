@@ -1,8 +1,8 @@
-# [ECMAScript Internationalization API Specification](https://github.com/tc39/ecma402) proposals   
+# [ECMAScript Internationalization API Specification](https://github.com/tc39/ecma402) proposals
 
  - [Stage 0 Proposals](stage-0-proposals.md)
  - [Finished Proposals](finished-proposals.md)
- 
+
  [ECMAScript](../README.md) proposals
 
 ## Active proposals
@@ -13,7 +13,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | 🚀 | Proposal                                                         | Champion                                        | Stage |
 |---|------------------------------------------------------------------|-------------------------------------------------| ------|
 |   | [Intl.Segmenter: Unicode segmentation in JavaScript][]           | Daniel Ehrenberg                                | 3 |
-|   | [Intl.RelativeTimeFormat][]                                      | Caridy Patiño, Eric Ferraiuolo                  | 2 |
+|   | [Intl.RelativeTimeFormat][]                                      | Zibi Braniecki, Daniel Ehrenberg                | 2 |
 |   | [Intl.ListFormat][]                                              | Zibi Braniecki                                  | 2 |
 |   | [Exposing Abstract Operations & Locale Info][]                   | Zibi Braniecki                                  | 2 |
 |   | [Intl.Locale][]                                                  | Zibi Braniecki, Daniel Ehrenberg                | 1 |
@@ -33,9 +33,9 @@ Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub org
 
 1. Transfer your repository to the [@tc39-transfer](http://github.com/tc39-transfer) organization
   - if you are a TC39 delegate, but not an admin in that organization, please contact @LJHarb
-2. @bterlson will transfer your repository to the TC39 organization the next chance he gets.
+2. @bterlson or @littledan will transfer your repository to the TC39 organization the next chance they get.
 
-Note that as part of the onboarding process your repository name may be normalized. Don't worry, redirects will continue to work.
+Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work - although Github Pages redirects will be broken (please update your links!).
 
 [Intl.Segmenter: Unicode segmentation in JavaScript]: https://github.com/tc39/proposal-intl-segmenter
 [Intl.ListFormat]: https://github.com/zbraniecki/proposal-intl-list-format
