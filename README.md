@@ -31,8 +31,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [`function.sent` metaproperty][function-sent]                    | Allen Wirfs-Brock                               | 2 |
 |   | [`String.prototype.{trimStart,trimEnd}`][trims]                  | Sebastian Markbage                              | 2 |
 |   | [Class and Property Decorators][decorators] ([update][unified-class]) | Yehuda Katz and Brian Terlson              | 2 |
-|   | [`Intl.Segmenter`][intl-segmenter]                               | Daniel Ehrenberg                                | 2 |
-|   | [`Intl.RelativeTimeFormat`][relative-time]                       | Zibi Braniecki, Daniel Ehrenberg                | 2 |
 |   | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          | 2 |
 |   | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 | 2 |
 |   | [Array.prototype.flat{Map,ten}][flat]                            | Brian Terlson, Michael Ficarra                  | 2 |
@@ -98,9 +96,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [function-sent]: https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md
 [trims]: https://github.com/sebmarkbage/ecmascript-string-left-right-trim
 [decorators]: http://github.com/tc39/proposal-decorators
-[intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
 [import-meta]: https://github.com/tc39/proposal-import-meta
-[relative-time]: https://github.com/tc39/proposal-intl-relative-time
 [numeric_separators]: https://github.com/samuelgoto/proposal-numeric-separator
 [private-methods]: https://github.com/littledan/proposal-private-methods
 [unified-class]: https://github.com/littledan/proposal-unified-class-features

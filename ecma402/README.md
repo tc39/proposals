@@ -1,8 +1,8 @@
-# [ECMAScript Internationalization API Specification](https://github.com/tc39/ecma402) proposals   
+# [ECMAScript Internationalization API Specification](https://github.com/tc39/ecma402) proposals
 
  - [Stage 0 Proposals](stage-0-proposals.md)
  - [Finished Proposals](finished-proposals.md)
- 
+
  [ECMAScript](../README.md) proposals
 
 ## Active proposals
@@ -13,7 +13,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | 🚀 | Proposal                                                         | Champion                                        | Stage |
 |---|------------------------------------------------------------------|-------------------------------------------------| ------|
 |   | [Intl.Segmenter: Unicode segmentation in JavaScript][]           | Daniel Ehrenberg                                | 3 |
-|   | [Intl.RelativeTimeFormat][]                                      | Caridy Patiño, Eric Ferraiuolo                  | 2 |
+|   | [Intl.RelativeTimeFormat][]                                      | Zibi Braniecki, Daniel Ehrenberg                | 2 |
 |   | [Intl.ListFormat][]                                              | Zibi Braniecki                                  | 2 |
 |   | [Exposing Abstract Operations & Locale Info][]                   | Zibi Braniecki                                  | 2 |
 |   | [Intl.Locale][]                                                  | Zibi Braniecki, Daniel Ehrenberg                | 1 |
