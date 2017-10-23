@@ -33,9 +33,9 @@ Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub org
 
 1. Transfer your repository to the [@tc39-transfer](http://github.com/tc39-transfer) organization
   - if you are a TC39 delegate, but not an admin in that organization, please contact @LJHarb
-2. @bterlson will transfer your repository to the TC39 organization the next chance he gets.
+2. @bterlson or @littledan will transfer your repository to the TC39 organization the next chance they get.
 
-Note that as part of the onboarding process your repository name may be normalized. Don't worry, redirects will continue to work.
+Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work - although Github Pages redirects will be broken (please update your links!).
 
 [Intl.Segmenter: Unicode segmentation in JavaScript]: https://github.com/tc39/proposal-intl-segmenter
 [Intl.ListFormat]: https://github.com/zbraniecki/proposal-intl-list-format
