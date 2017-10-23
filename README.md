@@ -3,6 +3,8 @@
  - [Stage 0 Proposals](stage-0-proposals.md)
  - [Finished Proposals](finished-proposals.md)
  - [Inactive Proposals](inactive-proposals.md)
+ 
+[ECMAScript Internationalization API Specification](ecma402/README.md) proposals
 
 ## Active proposals
 
