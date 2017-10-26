@@ -11,59 +11,59 @@
 Proposals follow [this process document](https://tc39.github.io/process-document/).
 This list contains only stage 1 proposals and higher that have not yet been withdrawn/rejected, or become finished.
 
-| 🚀 | Proposal                                                         | Champion                                        | Stage |
-|---|------------------------------------------------------------------|-------------------------------------------------|-------|
-|   | [`Function.prototype.toString` revision][function-to-string]     | Michael Ficarra                                 | 3 |
-|   | [`global`][global]                                               | Jordan Harband                                  | 3 |
-|   | [Rest/Spread Properties][object-rest-spread]                     | Sebastian Markbage                              | 3 |
-|   | [Asynchronous Iteration][async-iteration]                        | Domenic Denicola                                | 3 |
-|   | [`import()`][dynamic-import]                                     | Domenic Denicola                                | 3 |
-|   | [RegExp Lookbehind Assertions][lookbehind]                       | Daniel Ehrenberg                                | 3 |
-|   | [RegExp Unicode Property Escapes][unicode-escapes]               | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | 3 |
-|   | [RegExp named capture groups][named-groups]                      | Daniel Ehrenberg, Brian Terlson                 | 3 |
-|   | [`s` (`dotAll`) flag for regular expressions][dot-all]           | Mathias Bynens, Brian Terlson                   | 3 |
-|   | [Legacy RegExp features in JavaScript][regexp-legacy]            | Mark Miller, Claude Pache                       | 3 |
-|   | [`Promise.prototype.finally`][finally]                           | Jordan Harband                                  | 3 |
-|   | [BigInt][bigint]                                                 | Daniel Ehrenberg                                | 3 |
-|   | [Class Fields][class-fields]                                     | Daniel Ehrenberg, Jeff Morrison                 | 3 |
-|   | [Optional catch binding][optional-catch]                         | Michael Ficarra                                 | 3 |
-|   | [`import.meta`][import-meta]                                     | Domenic Denicola                                | 3 |
-|   | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 | 3 |
-|   | [`function.sent` metaproperty][function-sent]                    | Allen Wirfs-Brock                               | 2 |
-|   | [`String.prototype.{trimStart,trimEnd}`][trims]                  | Sebastian Markbage                              | 2 |
-|   | [Class and Property Decorators][decorators] ([update][unified-class]) | Yehuda Katz and Brian Terlson              | 2 |
-|   | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          | 2 |
-|   | [Array.prototype.flat{Map,ten}][flat]                            | Brian Terlson, Michael Ficarra                  | 2 |
-|   | [Throw expressions][throw-expressions]                           | Rob Buckton                                     | 2 |
-|   | [`String#matchAll`][matchall]                                    | Jordan Harband                                  | 2 |
-|   | [`Date.parse` fallback semantics][date-parse]                    | Morgan Phillips                                 | 1 |
-|   | [`export v from "mod";` statements][export-from]                 | Ben Newman and John-David Dalton                | 1 |
-| 🚀 | [Observable][observable]                                         | Jafar Husain and Mark Miller                    | 1 |
-|   | [WeakRefs][weakrefs]                                             | Dean Tribble                                    | 1 |
-|   | [Frozen Realms][frozen-realms]                                   | Mark S. Miller, Chip Morningstar, Caridy Patiño | 1 |
-|   | [`Math` Extensions][more-math]                                   | Rick Waldron                                    | 1 |
-|   | [`of` and `from` on collection constructors][collection-of-from] | Leo Balter                                      | 1 |
-|   | Generator arrow functions (`=>*`)                                | Brendan Eich, Domenic Denicola                  | 1 |
-|   | [`Promise.try`][try]                                             | Jordan Harband                                  | 1 |
-|   | [Optional Chaining][chaining]                                    | Gabriel Isenberg                                | 1 |
-|   | [`Math.signbit`: IEEE-754 sign bit][signbit]                     | JF Bastien                                      | 1 |
-|   | [Error stacks][stacks]                                           | Jordan Harband                                  | 1 |
-|   | [`do` expressions][do]                                           | Dave Herman                                     | 1 |
-|   | [Realms][realms]                                                 | Dave Herman, Mark Miller, Caridy Patiño         | 1 |
-|   | [Temporal][temporal]                                             | Maggie Pint, Brian Terlson                      | 1 |
-|   | [Float16 on TypedArrays, DataView, Math.hfround][float16s]       | Leo Balter                                      | 1 |
-|   | [Atomics.waitNonblocking][nonblocking]                           | Shu-yu Guo, Lars Hansen                         | 1 |
-|   | [`Symbol.prototype.description`][symbol-description]             | Michael Ficarra                                 | 1 |
-|   | change Number.parseInt/parseFloat to not coerce null/undefined/NaN (repo link TBD) | Brendan Eich                  | 1 |
-|   | [Binary AST][binary-ast]                                         | Shu-yu Guo                                      | 1 |
-|   | [Pipeline Operator][pipeline]                                    | Daniel Ehrenberg                                | 1 |
-|   | [Extensible numeric literals][extensible-literals]               | Daniel Ehrenberg                                | 1 |
-|   | [First-Class Protocols][protocols]                               | Michael Ficarra                                 | 1 |
-|   | [JSON superset][json-superset]                                   | Mark Miller, Richard Gibson, Mathias Bynens     | 1 |
-|   | [Nullary coalescing operator][nullary-coalescing]                | Gabriel Isenberg                                | 1 |
-|   | [Partial application][partial-application]                       | Ron Buckton                                     | 1 |
+| :rocket: | Proposal                                                 | Champion                                        | Stage |
+|--|------------------------------------------------------------------|-------------------------------------------------|-------|
+|  | [`Function.prototype.toString` revision][function-to-string]     | Michael Ficarra                                 | 3 |
+|  | [`global`][global]                                               | Jordan Harband                                  | 3 |
+|  | [Rest/Spread Properties][object-rest-spread]                     | Sebastian Markbage                              | 3 |
+|  | [Asynchronous Iteration][async-iteration]                        | Domenic Denicola                                | 3 |
+|  | [`import()`][dynamic-import]                                     | Domenic Denicola                                | 3 |
+|  | [RegExp Lookbehind Assertions][lookbehind]                       | Daniel Ehrenberg                                | 3 |
+|  | [RegExp Unicode Property Escapes][unicode-escapes]               | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | 3 |
+|  | [RegExp named capture groups][named-groups]                      | Daniel Ehrenberg, Brian Terlson                 | 3 |
+|  | [`s` (`dotAll`) flag for regular expressions][dot-all]           | Mathias Bynens, Brian Terlson                   | 3 |
+|  | [Legacy RegExp features in JavaScript][regexp-legacy]            | Mark Miller, Claude Pache                       | 3 |
+|  | [`Promise.prototype.finally`][finally]                           | Jordan Harband                                  | 3 |
+|  | [BigInt][bigint]                                                 | Daniel Ehrenberg                                | 3 |
+|  | [Class Fields][class-fields]                                     | Daniel Ehrenberg, Jeff Morrison                 | 3 |
+|  | [Optional catch binding][optional-catch]                         | Michael Ficarra                                 | 3 |
+|  | [`import.meta`][import-meta]                                     | Domenic Denicola                                | 3 |
+|  | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 | 3 |
+|  | [`function.sent` metaproperty][function-sent]                    | Allen Wirfs-Brock                               | 2 |
+|  | [`String.prototype.{trimStart,trimEnd}`][trims]                  | Sebastian Markbage                              | 2 |
+|  | [Class and Property Decorators][decorators] ([update][unified-class]) | Yehuda Katz and Brian Terlson              | 2 |
+|  | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          | 2 |
+|  | [Array.prototype.flat{Map,ten}][flat]                            | Brian Terlson, Michael Ficarra                  | 2 |
+|  | [Throw expressions][throw-expressions]                           | Rob Buckton                                     | 2 |
+|  | [`String#matchAll`][matchall]                                    | Jordan Harband                                  | 2 |
+|  | [`Date.parse` fallback semantics][date-parse]                    | Morgan Phillips                                 | 1 |
+|  | [`export v from "mod";` statements][export-from]                 | Ben Newman and John-David Dalton                | 1 |
+| :rocket: | [Observable][observable]                                 | Jafar Husain and Mark Miller                    | 1 |
+|  | [WeakRefs][weakrefs]                                             | Dean Tribble                                    | 1 |
+|  | [Frozen Realms][frozen-realms]                                   | Mark S. Miller, Chip Morningstar, Caridy Patiño | 1 |
+|  | [`Math` Extensions][more-math]                                   | Rick Waldron                                    | 1 |
+|  | [`of` and `from` on collection constructors][collection-of-from] | Leo Balter                                      | 1 |
+|  | Generator arrow functions (`=>*`)                                | Brendan Eich, Domenic Denicola                  | 1 |
+|  | [`Promise.try`][try]                                             | Jordan Harband                                  | 1 |
+|  | [Optional Chaining][chaining]                                    | Gabriel Isenberg                                | 1 |
+|  | [`Math.signbit`: IEEE-754 sign bit][signbit]                     | JF Bastien                                      | 1 |
+|  | [Error stacks][stacks]                                           | Jordan Harband                                  | 1 |
+|  | [`do` expressions][do]                                           | Dave Herman                                     | 1 |
+|  | [Realms][realms]                                                 | Dave Herman, Mark Miller, Caridy Patiño         | 1 |
+|  | [Temporal][temporal]                                             | Maggie Pint, Brian Terlson                      | 1 |
+|  | [Float16 on TypedArrays, DataView, Math.hfround][float16s]       | Leo Balter                                      | 1 |
+|  | [Atomics.waitNonblocking][nonblocking]                           | Shu-yu Guo, Lars Hansen                         | 1 |
+|  | [`Symbol.prototype.description`][symbol-description]             | Michael Ficarra                                 | 1 |
+|  | change Number.parseInt/parseFloat to not coerce null/undefined/NaN (repo link TBD) | Brendan Eich                  | 1 |
+|  | [Binary AST][binary-ast]                                         | Shu-yu Guo                                      | 1 |
+|  | [Pipeline Operator][pipeline]                                    | Daniel Ehrenberg                                | 1 |
+|  | [Extensible numeric literals][extensible-literals]               | Daniel Ehrenberg                                | 1 |
+|  | [First-Class Protocols][protocols]                               | Michael Ficarra                                 | 1 |
+|  | [JSON superset][json-superset]                                   | Mark Miller, Richard Gibson, Mathias Bynens     | 1 |
+|  | [Nullary coalescing operator][nullary-coalescing]                | Gabriel Isenberg                                | 1 |
+|  | [Partial application][partial-application]                       | Ron Buckton                                     | 1 |
 
-🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
+:rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
 ### Contributing new proposals
 
