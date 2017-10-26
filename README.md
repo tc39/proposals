@@ -27,12 +27,13 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |   | [BigInt][bigint]                                                 | Daniel Ehrenberg                                | 3 |
 |   | [Class Fields][class-fields]                                     | Daniel Ehrenberg, Jeff Morrison                 | 3 |
 |   | [Optional catch binding][optional-catch]                         | Michael Ficarra                                 | 3 |
-|   | [`import.meta`][import-meta]                                     | Domenic Denicola                                | 3 |
+|   | [`import.meta`][import-meta]                                     | Domenic Denicola                                | 3
+|
+|   | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 | 3 |
 |   | [`function.sent` metaproperty][function-sent]                    | Allen Wirfs-Brock                               | 2 |
 |   | [`String.prototype.{trimStart,trimEnd}`][trims]                  | Sebastian Markbage                              | 2 |
 |   | [Class and Property Decorators][decorators] ([update][unified-class]) | Yehuda Katz and Brian Terlson              | 2 |
 |   | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          | 2 |
-|   | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 | 2 |
 |   | [Array.prototype.flat{Map,ten}][flat]                            | Brian Terlson, Michael Ficarra                  | 2 |
 |   | [Throw expressions][throw-expressions]                           | Rob Buckton                                     | 2 |
 |   | [`String#matchAll`][matchall]                                    | Jordan Harband                                  | 2 |
