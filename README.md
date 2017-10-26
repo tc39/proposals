@@ -40,7 +40,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |  | [`String.prototype.{trimStart,trimEnd}`][trims]                  | Sebastian Markbage                              |
 |  | [Class and Property Decorators][decorators] ([update][unified-class]) | Yehuda Katz and Brian Terlson              |
 |  | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          |
-|  | [Array.prototype.flat{Map,ten}][flat]                            | Brian Terlson, Michael Ficarra                  |
+| :rocket: | [Array.prototype.flat{Map,ten}][flat]                    | Brian Terlson, Michael Ficarra                  |
 |  | [Throw expressions][throw-expressions]                           | Rob Buckton                                     |
 |  | [`String#matchAll`][matchall]                                    | Jordan Harband                                  |
 
