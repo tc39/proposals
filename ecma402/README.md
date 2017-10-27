@@ -10,18 +10,30 @@
 Proposals follow [this process document](https://tc39.github.io/process-document/).
 This list contains only stage 1 proposals and higher that have not yet been withdrawn/rejected, or become finished.
 
-| 🚀 | Proposal                                                         | Champion                                        | Stage |
-|---|------------------------------------------------------------------|-------------------------------------------------| ------|
-|   | [Intl.Segmenter: Unicode segmentation in JavaScript][]           | Daniel Ehrenberg                                | 3 |
-|   | [Intl.RelativeTimeFormat][]                                      | Zibi Braniecki, Daniel Ehrenberg                | 2 |
-|   | [Intl.ListFormat][]                                              | Zibi Braniecki                                  | 2 |
-|   | [Exposing Abstract Operations & Locale Info][]                   | Zibi Braniecki                                  | 2 |
-|   | [Intl.Locale][]                                                  | Zibi Braniecki, Daniel Ehrenberg                | 1 |
-|   | [Intl.DurationFormat][]                                          | Zibi Braniecki                                  | 1 |
-|   | [Intl.UnitFormat][]                                              | Zibi Braniecki                                  | 1 |
-|   | [DateTimeFormat dateStyle & timeStyle][]                         | Zibi Braniecki                                  | 1 |
+### Stage 3
 
-🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
+| :rocket: | Proposal                                                 | Champion                                        |
+|--|------------------------------------------------------------------|-------------------------------------------------|
+|  | [Intl.Segmenter: Unicode segmentation in JavaScript][]           | Daniel Ehrenberg                                |
+
+### Stage 2
+
+| :rocket: | Proposal                                                 | Champion                                        |
+|--|------------------------------------------------------------------|-------------------------------------------------|
+|  | [Intl.RelativeTimeFormat][]                                      | Zibi Braniecki, Daniel Ehrenberg                |
+|  | [Intl.ListFormat][]                                              | Zibi Braniecki                                  |
+|  | [Exposing Abstract Operations & Locale Info][]                   | Zibi Braniecki                                  |
+
+### Stage 1
+
+| :rocket: | Proposal                                                 | Champion                                        |
+|--|------------------------------------------------------------------|-------------------------------------------------|
+|  | [Intl.Locale][]                                                  | Zibi Braniecki, Daniel Ehrenberg                |
+|  | [Intl.DurationFormat][]                                          | Zibi Braniecki                                  |
+|  | [Intl.UnitFormat][]                                              | Zibi Braniecki                                  |
+|  | [DateTimeFormat dateStyle & timeStyle][]                         | Zibi Braniecki                                  |
+
+:rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
 ### Contributing new proposals
 
