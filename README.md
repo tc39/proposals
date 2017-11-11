@@ -38,7 +38,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |--|------------------------------------------------------------------|-------------------------------------------------|
 |  | [`function.sent` metaproperty][function-sent]                    | Allen Wirfs-Brock                               |
 |  | [`String.prototype.{trimStart,trimEnd}`][trims]                  | Sebastian Markbage                              |
-|  | [Class and Property Decorators][decorators] ([update][unified-class]) | Yehuda Katz and Brian Terlson              |
+|  | [Decorators][decorators]                                         | Yehuda Katz, Brian Terlson and Daniel Ehrenberg |
 |  | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          |
 | :rocket: | [Array.prototype.flat{Map,ten}][flat]                    | Brian Terlson, Michael Ficarra                  |
 |  | [Throw expressions][throw-expressions]                           | Rob Buckton                                     |
@@ -111,7 +111,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [import-meta]: https://github.com/tc39/proposal-import-meta
 [numeric_separators]: https://github.com/samuelgoto/proposal-numeric-separator
 [private-methods]: https://github.com/littledan/proposal-private-methods
-[unified-class]: https://github.com/littledan/proposal-unified-class-features
 [date-parse]: https://github.com/mrrrgn/proposal-date-time-string-format
 [export-from]: https://github.com/tc39/proposal-export-default-from
 [observable]: https://github.com/tc39/proposal-observable
