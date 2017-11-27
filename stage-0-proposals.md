@@ -14,7 +14,6 @@ Stage 0 proposals are either
 |   | [Defensible Classes][defensible-classes]                                   | Mark Miller & Doug Crockford         | 0     |
 |   | [Function bind syntax][bind-syntax]                                        | Brian Terlson & Matthew Podwysocki   | 0     |
 |   | [Function expression decorators][func-expr-decorators]                     | Igor Minar                           | 0     |
-|   | [`is{Type}` methods][is-types]                                             | James M Snell                        | 0     |
 |   | [Method parameter decorators][method-param-decorators]                     | Igor Minar                           | 0     |
 |   | [Nested `import` declarations][nested-imports]                             | Ben Newman, Meteor Development Group | 0     |
 |   | [Normative ICU Reference][icu]                                             | Domenic Denicola                     | 0     |
@@ -43,7 +42,6 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [defensible-classes]: http://wiki.ecmascript.org/doku.php?id=strawman:defensible_classes
 [bind-syntax]: https://github.com/zenparsing/es-function-bind
 [func-expr-decorators]: https://goo.gl/8MmCMG
-[is-types]: https://github.com/jasnell/proposal-istypes
 [method-param-decorators]: https://goo.gl/r1XT9b
 [nested-imports]: https://github.com/tc39/ecma262/pull/646
 [icu]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-05/may-23.md#normative-icu-reference
