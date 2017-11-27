@@ -26,7 +26,6 @@ Stage 0 proposals are either
 |   | [Structured Clone][clone]                                                  | Dmitry Lomov                         | 0     |
 |   | [WHATWG URL][url]                                                          | James M Snell                        | 0     |
 |   | [Zones][zones] ([spec][zones-spec])                                        | Domenic Denicola & Miško Hevery      | 0     |
-|   | [Object.shallowEqual][shallow-equal]                                       | Sebastian Markbage                   | 0     |
 |   | [Object Shorthand Improvements][object-shorthand-improvements]             | Ron Buckton                          | 0     |
 |   | [`Builtins.typeOf()` and `Builtins.is()`][is-types]                        | James M Snell                        | 0     |
 |   | [`ArrayBuffer.transfer`][buffer-transfer]                                  | Domenic Denicola                     | 0     |
@@ -56,7 +55,6 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [url]: https://github.com/jasnell/proposal-url
 [zones]: https://github.com/domenic/zones
 [zones-spec]: https://domenic.github.io/zones/
-[shallow-equal]: https://github.com/sebmarkbage/ecmascript-shallow-equal
 [object-shorthand-improvements]: https://github.com/rbuckton/proposal-shorthand-improvements
 [is-types]: https://github.com/jasnell/proposal-istypes
 [buffer-transfer]: https://gist.github.com/lukewagner/2735af7eea411e18cf20
