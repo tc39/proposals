@@ -75,6 +75,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |  | [Nullary coalescing operator][nullary-coalescing]                | Gabriel Isenberg                                |
 |  | [Partial application][partial-application]                       | Ron Buckton                                     |
 |  | [InterpreterDirective][interpreter-directive]                    | Bradley Farias                                  |
+|  | [`String.prototype.replaceAll`][replace-all]                     | Mathias Bynens                                  |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -140,3 +141,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [nullary-coalescing]: https://github.com/gisenberg/proposal-nullary-coalescing
 [partial-application]: https://github.com/rbuckton/proposal-partial-application
 [interpreter-directive]: https://gist.github.com/bmeck/59cf8c16959eccffd8b7e9828826a842
+[replace-all]: https://github.com/psmarshall/string-replace-all-proposal

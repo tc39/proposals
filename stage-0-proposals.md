@@ -28,7 +28,6 @@ Stage 0 proposals are either
 |   | [Object Shorthand Improvements][object-shorthand-improvements]             | Ron Buckton                          | 0     |
 |   | [`Builtins.typeOf()` and `Builtins.is()`][is-types]                        | James M Snell                        | 0     |
 |   | [`ArrayBuffer.transfer`][buffer-transfer]                                  | Domenic Denicola                     | 0     |
-|   | [`String.prototype.replaceAll`][replace-all]                               | Mathias Bynens                       | 0     |
 
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
@@ -56,4 +55,3 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [object-shorthand-improvements]: https://github.com/rbuckton/proposal-shorthand-improvements
 [is-types]: https://github.com/jasnell/proposal-istypes
 [buffer-transfer]: https://gist.github.com/lukewagner/2735af7eea411e18cf20
-[replace-all]: https://github.com/psmarshall/string-replace-all-proposal
