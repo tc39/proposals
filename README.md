@@ -43,7 +43,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | :rocket: | [Array.prototype.flat{Map,ten}][flat]                    | Brian Terlson, Michael Ficarra                  |
 |  | [Throw expressions][throw-expressions]                           | Rob Buckton                                     |
 |  | [`String#matchAll`][matchall]                                    | Jordan Harband                                  |
-|  | [Atomics.waitNonblocking][nonblocking]                           | Shu-yu Guo, Lars Hansen                         |
+|  | [Atomics.waitAsync][nonblocking]                                 | Shu-yu Guo, Lars Hansen                         |
 
 ### Stage 1
 
