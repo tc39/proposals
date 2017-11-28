@@ -31,6 +31,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |  | [Optional catch binding][optional-catch]                         | Michael Ficarra                                 |
 |  | [`import.meta`][import-meta]                                     | Domenic Denicola                                |
 |  | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 |
+|  | [Array.prototype.flat{Map,ten}][flat]                            | Brian Terlson, Michael Ficarra                  |
 
 ### Stage 2
 
@@ -40,7 +41,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |  | [`String.prototype.{trimStart,trimEnd}`][trims]                  | Sebastian Markbage                              |
 |  | [Decorators][decorators]                                         | Yehuda Katz, Brian Terlson and Daniel Ehrenberg |
 |  | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          |
-| :rocket: | [Array.prototype.flat{Map,ten}][flat]                    | Brian Terlson, Michael Ficarra                  |
 |  | [Throw expressions][throw-expressions]                           | Rob Buckton                                     |
 |  | [`String#matchAll`][matchall]                                    | Jordan Harband                                  |
 
