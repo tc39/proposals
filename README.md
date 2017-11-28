@@ -43,6 +43,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | :rocket: | [Array.prototype.flat{Map,ten}][flat]                    | Brian Terlson, Michael Ficarra                  |
 |  | [Throw expressions][throw-expressions]                           | Rob Buckton                                     |
 |  | [`String#matchAll`][matchall]                                    | Jordan Harband                                  |
+|  | [Atomics.waitNonblocking][nonblocking]                           | Shu-yu Guo, Lars Hansen                         |
 
 ### Stage 1
 
@@ -64,7 +65,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |  | [Realms][realms]                                                 | Dave Herman, Mark Miller, Caridy Patiño         |
 |  | [Temporal][temporal]                                             | Maggie Pint, Brian Terlson                      |
 |  | [Float16 on TypedArrays, DataView, Math.hfround][float16s]       | Leo Balter                                      |
-|  | [Atomics.waitNonblocking][nonblocking]                           | Shu-yu Guo, Lars Hansen                         |
 |  | [`Symbol.prototype.description`][symbol-description]             | Michael Ficarra                                 |
 |  | change Number.parseInt/parseFloat to not coerce null/undefined/NaN (repo link TBD) | Brendan Eich                  |
 |  | [Binary AST][binary-ast]                                         | Shu-yu Guo                                      |
