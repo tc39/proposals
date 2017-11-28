@@ -44,6 +44,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |  | [Throw expressions][throw-expressions]                           | Rob Buckton                                     |
 |  | [`String#matchAll`][matchall]                                    | Jordan Harband                                  |
 |  | [Atomics.waitAsync][nonblocking]                                 | Shu-yu Guo, Lars Hansen                         |
+|  | [JSON superset][json-superset]                                   | Mark Miller, Richard Gibson, Mathias Bynens     |
 
 ### Stage 1
 
@@ -71,7 +72,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |  | [Pipeline Operator][pipeline]                                    | Daniel Ehrenberg                                |
 |  | [Extensible numeric literals][extensible-literals]               | Daniel Ehrenberg                                |
 |  | [First-Class Protocols][protocols]                               | Michael Ficarra                                 |
-|  | [JSON superset][json-superset]                                   | Mark Miller, Richard Gibson, Mathias Bynens     |
 |  | [Nullary coalescing operator][nullary-coalescing]                | Gabriel Isenberg                                |
 |  | [Partial application][partial-application]                       | Ron Buckton                                     |
 |  | [InterpreterDirective][interpreter-directive]                    | Bradley Farias                                  |
