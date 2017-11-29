@@ -5,29 +5,29 @@ Stage 0 proposals are either
 * planned to be presented to the committee by a TC39 champion, or
 * have been presented to the committee and not rejected definitively, but have not yet achieved any of the criteria to get into stage 1.
 
-| 🚀 | Proposal                                                                   | Champion                             | Stage |
-|---|----------------------------------------------------------------------------|--------------------------------------|-------|
-|   | [Additional metaproperties][metaprops]                                     | Allen Wirfs-Brock                    | 0     |
-|   | Annex B — HTML Attribute Event Handlers                                    | Allen Wirfs-Brock                    | 0     |
-|🚀| [Cancellation API][cancel-api]                                               | Ron Buckton, Brian Terlson           | 0     |
-|   | [`%constructor%.construct(thisArg[, arguments])`][construct]               | James M Snell                        | 0     |
-|   | [Defensible Classes][defensible-classes]                                   | Mark Miller & Doug Crockford         | 0     |
-|   | [Function bind syntax][bind-syntax]                                        | Brian Terlson & Matthew Podwysocki   | 0     |
-|   | [Function expression decorators][func-expr-decorators]                     | Igor Minar                           | 0     |
-|   | [Method parameter decorators][method-param-decorators]                     | Igor Minar                           | 0     |
-|   | [Nested `import` declarations][nested-imports]                             | Ben Newman, Meteor Development Group | 0     |
-|   | [Normative ICU Reference][icu]                                             | Domenic Denicola                     | 0     |
-|   | [Orthogonal classes][ortho]                                                | Mark S. Miller, Allen Wirfs-Brock    | 0     |
-|   | [Pattern Matching][matching]                                               | Brian Terlson, Sebastian Markbåge    | 0     |
-|   | [`Reflect.isCallable`/`Reflect.isConstructor`][is-callable-is-constructor] | Caitlin Potter                       | 0     |
-|   | [Relationships][relationships]                                             | Mark Miller & Waldemar Horwat        | 0     |
-|   | [`String.prototype.at`][string-at]                                         | Mathias Bynens & Rick Waldron        | 0     |
-|   | [Structured Clone][clone]                                                  | Dmitry Lomov                         | 0     |
-|   | [WHATWG URL][url]                                                          | James M Snell                        | 0     |
-|   | [Zones][zones] ([spec][zones-spec])                                        | Domenic Denicola & Miško Hevery      | 0     |
-|   | [Object Shorthand Improvements][object-shorthand-improvements]             | Ron Buckton                          | 0     |
-|   | [`Builtins.typeOf()` and `Builtins.is()`][is-types]                        | James M Snell                        | 0     |
-|   | [`ArrayBuffer.transfer`][buffer-transfer]                                  | Domenic Denicola                     | 0     |
+| :rocket: | Proposal                                                                   | Champion                             |
+|----------|----------------------------------------------------------------------------|--------------------------------------|
+|          | [Additional metaproperties][metaprops]                                     | Allen Wirfs-Brock                    |
+|          | Annex B — HTML Attribute Event Handlers                                    | Allen Wirfs-Brock                    |
+| :rocket: | [Cancellation API][cancel-api]                                             | Ron Buckton, Brian Terlson           |
+|          | [`%constructor%.construct(thisArg[, arguments])`][construct]               | James M Snell                        |
+|          | [Defensible Classes][defensible-classes]                                   | Mark Miller & Doug Crockford         |
+|          | [Function bind syntax][bind-syntax]                                        | Brian Terlson & Matthew Podwysocki   |
+|          | [Function expression decorators][func-expr-decorators]                     | Igor Minar                           |
+|          | [Method parameter decorators][method-param-decorators]                     | Igor Minar                           |
+|          | [Nested `import` declarations][nested-imports]                             | Ben Newman, Meteor Development Group |
+|          | [Normative ICU Reference][icu]                                             | Domenic Denicola                     |
+|          | [Orthogonal classes][ortho]                                                | Mark S. Miller, Allen Wirfs-Brock    |
+|          | [Pattern Matching][matching]                                               | Brian Terlson, Sebastian Markbåge    |
+|          | [`Reflect.isCallable`/`Reflect.isConstructor`][is-callable-is-constructor] | Caitlin Potter                       |
+|          | [Relationships][relationships]                                             | Mark Miller & Waldemar Horwat        |
+|          | [`String.prototype.at`][string-at]                                         | Mathias Bynens & Rick Waldron        |
+|          | [Structured Clone][clone]                                                  | Dmitry Lomov                         |
+|          | [WHATWG URL][url]                                                          | James M Snell                        |
+|          | [Zones][zones] ([spec][zones-spec])                                        | Domenic Denicola & Miško Hevery      |
+|          | [Object Shorthand Improvements][object-shorthand-improvements]             | Ron Buckton                          |
+|          | [`Builtins.typeOf()` and `Builtins.is()`][is-types]                        | James M Snell                        |
+|          | [`ArrayBuffer.transfer`][buffer-transfer]                                  | Domenic Denicola                     |
 
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
