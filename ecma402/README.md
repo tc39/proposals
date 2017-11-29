@@ -23,12 +23,12 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |  | [Intl.RelativeTimeFormat][]                                      | Zibi Braniecki, Daniel Ehrenberg                |
 |  | [Intl.ListFormat][]                                              | Zibi Braniecki                                  |
 |  | [Exposing Abstract Operations & Locale Info][]                   | Zibi Braniecki                                  |
+|  | [Intl.Locale][]                                                  | Zibi Braniecki, Daniel Ehrenberg                |
 
 ### Stage 1
 
 | :rocket: | Proposal                                                 | Champion                                        |
 |--|------------------------------------------------------------------|-------------------------------------------------|
-|  | [Intl.Locale][]                                                  | Zibi Braniecki, Daniel Ehrenberg                |
 |  | [Intl.DurationFormat][]                                          | Zibi Braniecki                                  |
 |  | [Intl.UnitFormat][]                                              | Zibi Braniecki                                  |
 |  | [DateTimeFormat dateStyle & timeStyle][]                         | Zibi Braniecki                                  |
