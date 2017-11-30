@@ -27,7 +27,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |  | [Legacy RegExp features in JavaScript][regexp-legacy]            | Mark Miller, Claude Pache                       |
 |  | [`Promise.prototype.finally`][finally]                           | Jordan Harband                                  |
 |  | [BigInt][bigint]                                                 | Daniel Ehrenberg                                |
-|  | [Class Fields][class-fields]                                     | Daniel Ehrenberg, Jeff Morrison                 |
 |  | [Optional catch binding][optional-catch]                         | Michael Ficarra                                 |
 |  | [`import.meta`][import-meta]                                     | Domenic Denicola                                |
 |  | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 |
@@ -38,6 +37,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | :rocket: | Proposal                                                 | Champion                                        |
 |--|------------------------------------------------------------------|-------------------------------------------------|
+|  | [Class Fields][class-fields]                                     | Daniel Ehrenberg, Jeff Morrison                 |
 |  | [`function.sent` metaproperty][function-sent]                    | Allen Wirfs-Brock                               |
 |  | [`String.prototype.{trimStart,trimEnd}`][trims]                  | Sebastian Markbage                              |
 |  | [Decorators][decorators]                                         | Yehuda Katz, Brian Terlson and Daniel Ehrenberg |
