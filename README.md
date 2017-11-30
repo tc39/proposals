@@ -79,6 +79,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |  | [`String.prototype.codePoints`][codepoints]                      | Ingvar Stepanyan, Mathias Bynens                |
 |  | [Distinguishing literal strings][distinguishing-literal-strings] | Adam Klein, Mike West                           |
 |  | [Object.freeze + Object.seal syntax][freeze-seal-syntax]         | Keith Cirkel                                    |
+|  | [Block Params][block-params]                                     | Sam Goto                                        |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -148,3 +149,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [codepoints]: https://github.com/RReverser/string-prototype-codepoints
 [distinguishing-literal-strings]: https://github.com/mikewest/tc39-proposal-literals
 [freeze-seal-syntax]: https://github.com/keithamus/object-freeze-seal-syntax
+[block-params]: https://github.com/samuelgoto/proposal-block-params
