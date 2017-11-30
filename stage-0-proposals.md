@@ -28,6 +28,7 @@ Stage 0 proposals are either
 |          | [Object Shorthand Improvements][object-shorthand-improvements]             | Ron Buckton                          |
 |          | [`Builtins.typeOf()` and `Builtins.is()`][is-types]                        | James M Snell                        |
 |          | [`ArrayBuffer.transfer`][buffer-transfer]                                  | Domenic Denicola                     |
+|          | [Decimal][decimal]                                                         | Andrew Paprocki, Daniel Ehrenberg    |
 
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
@@ -55,3 +56,4 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [object-shorthand-improvements]: https://github.com/rbuckton/proposal-shorthand-improvements
 [is-types]: https://github.com/jasnell/proposal-istypes
 [buffer-transfer]: https://gist.github.com/lukewagner/2735af7eea411e18cf20
+[decimal]: https://docs.google.com/presentation/d/1jPsw7EGsS6BW59_BDRu9o0o3UwSXQeUhi38QG55ZoPI/edit?pli=1#slide=id.p
