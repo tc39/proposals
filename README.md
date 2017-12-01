@@ -34,6 +34,8 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |  | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          | [:construction:](https://github.com/tc39/test262/issues/1051)     |
 |  | [Class Public Instance Fields & Private Instance Fields & Methods][class-fields] | Daniel Ehrenberg, Jeff Morrison | [:question:](https://github.com/tc39/test262/issues/1161)         |
 
+
+
 ### Stage 2
 
 | :rocket: | Proposal                                                 | Champion                                        |
@@ -83,6 +85,12 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |  | [Block Params][block-params]                                     | Sam Goto                                        |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
+
+:white_check_mark: means a pull request for tests was merged.
+
+:question: means there is no pull request for tests yet.
+
+:construction: means a pull request for tests was created, but not merged yet.
 
 ### Contributing new proposals
 
