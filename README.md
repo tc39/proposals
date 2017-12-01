@@ -32,12 +32,13 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |  | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 |
 |  | [Array.prototype.flatMap/flatten][flat]                          | Brian Terlson, Michael Ficarra                  |
 |  | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          |
+|  | [Class Public Instance Fields & Private Instance Fields & Methods][class-fields] | Daniel Ehrenberg, Jeff Morrison |
 
 ### Stage 2
 
 | :rocket: | Proposal                                                 | Champion                                        |
 |--|------------------------------------------------------------------|-------------------------------------------------|
-|  | [Class Fields][class-fields]                                     | Daniel Ehrenberg, Jeff Morrison                 |
+|  | [Class Static Fields (Public & Private)][class-fields]           | Daniel Ehrenberg, Jeff Morrison                 |
 |  | [`function.sent` metaproperty][function-sent]                    | Allen Wirfs-Brock                               |
 |  | [`String.prototype.{trimStart,trimEnd}`][trims]                  | Sebastian Markbage                              |
 |  | [Decorators][decorators]                                         | Yehuda Katz, Brian Terlson and Daniel Ehrenberg |
