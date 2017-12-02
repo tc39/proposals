@@ -38,7 +38,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | :rocket: | Proposal                                                 | Champion                                        |
 |--|------------------------------------------------------------------|-------------------------------------------------|
-|  | [Class Static Fields (Public & Private)][class-fields]           | Daniel Ehrenberg, Jeff Morrison                 |
 |  | [`function.sent` metaproperty][function-sent]                    | Allen Wirfs-Brock                               |
 |  | [`String.prototype.{trimStart,trimEnd}`][trims]                  | Sebastian Markbage                              |
 |  | [Decorators][decorators]                                         | Yehuda Katz, Brian Terlson and Daniel Ehrenberg |
