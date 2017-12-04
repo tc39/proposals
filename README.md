@@ -13,7 +13,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 3
 
-| :rocket: | Proposal                                                                         | Author                                      | Tests                                           | Champion                                                          |
+| :rocket: | Proposal                                                                         | Author                                      | Champion                                        | Tests                                                          |
 | -------- | -------------------------------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------- | ----------------------------------------------------------------- |
 |          | [`Function.prototype.toString` revision][function-to-string]                     | Michael Ficarra                             | Michael Ficarra                                 | [:white_check_mark:](https://github.com/tc39/test262/issues/1163) |
 |          | [`global`][global]                                                               | Jordan Harband                              | Jordan Harband                                  | [:white_check_mark:](https://github.com/tc39/test262/issues/765)  |
