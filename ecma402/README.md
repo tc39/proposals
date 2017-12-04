@@ -12,26 +12,26 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 3
 
-| :rocket: | Proposal                                                 | Champion                                        |
-|--|------------------------------------------------------------------|-------------------------------------------------|
-|  | [Intl.Segmenter: Unicode segmentation in JavaScript][]           | Daniel Ehrenberg                                |
+| :rocket: | Proposal                                                               | Author           | Champion         |
+| -------- | ---------------------------------------------------------------------- | ---------------- | ---------------- |
+|          | [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg | Daniel Ehrenberg |
 
 ### Stage 2
 
-| :rocket: | Proposal                                                 | Champion                                        |
-|--|------------------------------------------------------------------|-------------------------------------------------|
-|  | [Intl.RelativeTimeFormat][]                                      | Zibi Braniecki, Daniel Ehrenberg                |
-|  | [Intl.ListFormat][]                                              | Zibi Braniecki                                  |
-|  | [Exposing Abstract Operations & Locale Info][]                   | Zibi Braniecki                                  |
-|  | [Intl.Locale][]                                                  | Zibi Braniecki, Daniel Ehrenberg                |
+| :rocket: | Proposal                                                  | Author                           | Champion                         |
+| -------- | --------------------------------------------------------- | -------------------------------- | -------------------------------- |
+|          | [`Intl.RelativeTimeFormat`][]                             | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
+|          | [`Intl.ListFormat`][]                                     | Zibi Braniecki                   | Zibi Braniecki                   |
+|          | [Exposing Abstract Operations & Locale Info][locale-info] | Zibi Braniecki                   | Zibi Braniecki                   |
+|          | [`Intl.Locale`][]                                         | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
 
 ### Stage 1
 
-| :rocket: | Proposal                                                 | Champion                                        |
-|--|------------------------------------------------------------------|-------------------------------------------------|
-|  | [Intl.DurationFormat][]                                          | Zibi Braniecki                                  |
-|  | [Intl.UnitFormat][]                                              | Zibi Braniecki                                  |
-|  | [DateTimeFormat dateStyle & timeStyle][]                         | Zibi Braniecki                                  |
+| :rocket: | Proposal                                       | Author         | Champion       |
+| -------- | ---------------------------------------------- | -------------- | -------------- |
+|          | [`Intl.DurationFormat`][]                      | Zibi Braniecki | Zibi Braniecki |
+|          | [`Intl.UnitFormat`][]                          | Zibi Braniecki | Zibi Braniecki |
+|          | [`DateTimeFormat` `dateStyle` & `timeStyle`][] | Zibi Braniecki | Zibi Braniecki |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -49,14 +49,14 @@ Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub org
 
 Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work - although Github Pages redirects will be broken (please update your links!).
 
-[Intl.Segmenter: Unicode segmentation in JavaScript]: https://github.com/tc39/proposal-intl-segmenter
-[Intl.ListFormat]: https://github.com/zbraniecki/proposal-intl-list-format
-[Intl.RelativeTimeFormat]: https://github.com/tc39/proposal-intl-relative-time
-[Intl.DurationFormat]: https://github.com/tc39/ecma402/issues/47
-[Intl.UnitFormat]: https://github.com/tc39/ecma402/issues/32
-[Intl.PluralRules]: https://github.com/tc39/proposal-intl-plural-rules
-[Intl.DateTimeFormat.prototype.formatToParts]: https://github.com/tc39/proposal-intl-formatToParts
-[Intl.NumberFormat.prototype.formatToParts]: https://github.com/tc39/proposal-intl-formatToParts
-[Exposing Abstract Operations & Locale Info]: https://github.com/tc39/ecma402/issues/46
-[DateTimeFormat dateStyle & timeStyle]: https://github.com/zbraniecki/proposal-ecma402-datetime-style
-[Intl.Locale]: https://github.com/zbraniecki/proposal-intl-locale
+[intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
+[intl.listformat]: https://github.com/zbraniecki/proposal-intl-list-format
+[intl.relativetimeformat]: https://github.com/tc39/proposal-intl-relative-time
+[intl.durationformat]: https://github.com/tc39/ecma402/issues/47
+[intl.unitformat]: https://github.com/tc39/ecma402/issues/32
+[intl.pluralrules]: https://github.com/tc39/proposal-intl-plural-rules
+[intl.datetimeformat.prototype.formattoparts]: https://github.com/tc39/proposal-intl-formatToParts
+[intl.numberformat.prototype.formattoparts]: https://github.com/tc39/proposal-intl-formatToParts
+[locale-info]: https://github.com/tc39/ecma402/issues/46
+[datetimeformat datestyle & timestyle]: https://github.com/zbraniecki/proposal-ecma402-datetime-style
+[intl.locale]: https://github.com/zbraniecki/proposal-intl-locale
