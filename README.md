@@ -13,26 +13,28 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 3
 
-| :rocket: | Proposal                                                 | Champion                                        |
-|--|------------------------------------------------------------------|-------------------------------------------------|
-|  | [`Function.prototype.toString` revision][function-to-string]     | Michael Ficarra                                 |
-|  | [`global`][global]                                               | Jordan Harband                                  |
-|  | [Rest/Spread Properties][object-rest-spread]                     | Sebastian Markbage                              |
-|  | [Asynchronous Iteration][async-iteration]                        | Domenic Denicola                                |
-|  | [`import()`][dynamic-import]                                     | Domenic Denicola                                |
-|  | [RegExp Lookbehind Assertions][lookbehind]                       | Daniel Ehrenberg                                |
-|  | [RegExp Unicode Property Escapes][unicode-escapes]               | Brian Terlson, Daniel Ehrenberg, Mathias Bynens |
-|  | [RegExp named capture groups][named-groups]                      | Daniel Ehrenberg, Brian Terlson                 |
-|  | [`s` (`dotAll`) flag for regular expressions][dot-all]           | Mathias Bynens, Brian Terlson                   |
-|  | [Legacy RegExp features in JavaScript][regexp-legacy]            | Mark Miller, Claude Pache                       |
-|  | [`Promise.prototype.finally`][finally]                           | Jordan Harband                                  |
-|  | [BigInt][bigint]                                                 | Daniel Ehrenberg                                |
-|  | [Optional catch binding][optional-catch]                         | Michael Ficarra                                 |
-|  | [`import.meta`][import-meta]                                     | Domenic Denicola                                |
-|  | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 |
-|  | [Array.prototype.flatMap/flatten][flat]                          | Brian Terlson, Michael Ficarra                  |
-|  | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          |
-|  | [Class Public Instance Fields & Private Instance Fields & Methods][class-fields] | Daniel Ehrenberg, Jeff Morrison |
+| :rocket: | Proposal                                                 | Champion                                        | Tests |
+|--|------------------------------------------------------------------|-------------------------------------------------|-------|
+|  | [`Function.prototype.toString` revision][function-to-string]     | Michael Ficarra                                 | [:white_check_mark:](https://github.com/tc39/test262/issues/1163) |
+|  | [`global`][global]                                               | Jordan Harband                                  | [:white_check_mark:](https://github.com/tc39/test262/issues/765)  |
+|  | [Rest/Spread Properties][object-rest-spread]                     | Sebastian Markbage                              | [:white_check_mark:](https://github.com/tc39/test262/issues/865)  |
+|  | [Asynchronous Iteration][async-iteration]                        | Domenic Denicola                                | [:construction:](https://github.com/tc39/test262/issues/923)      |
+|  | [`import()`][dynamic-import]                                     | Domenic Denicola                                | [:question:](https://github.com/tc39/test262/issues/1164)         |
+|  | [RegExp Lookbehind Assertions][lookbehind]                       | Daniel Ehrenberg                                | [:white_check_mark:](https://github.com/tc39/test262/issues/999)  |
+|  | [RegExp Unicode Property Escapes][unicode-escapes]               | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | [:white_check_mark:](https://github.com/tc39/test262/issues/1014) |
+|  | [RegExp named capture groups][named-groups]                      | Daniel Ehrenberg, Brian Terlson                 | [:white_check_mark:](https://github.com/tc39/test262/issues/998)  |
+|  | [`s` (`dotAll`) flag for regular expressions][dot-all]           | Mathias Bynens, Brian Terlson                   | [:white_check_mark:](https://github.com/tc39/test262/issues/997)  |
+|  | [Legacy RegExp features in JavaScript][regexp-legacy]            | Mark Miller, Claude Pache                       | [:white_check_mark:](https://github.com/tc39/test262/issues/1165) |
+|  | [`Promise.prototype.finally`][finally]                           | Jordan Harband                                  | [:construction:](https://github.com/tc39/test262/issues/866)      |
+|  | [BigInt][bigint]                                                 | Daniel Ehrenberg                                | [:construction:](https://github.com/tc39/test262/issues/1056)     |
+|  | [Optional catch binding][optional-catch]                         | Michael Ficarra                                 | [:white_check_mark:](https://github.com/tc39/test262/issues/1166) |
+|  | [`import.meta`][import-meta]                                     | Domenic Denicola                                | [:question:](https://github.com/tc39/test262/issues/1342)         |
+|  | [Private methods and accessors][private-methods]                 | Daniel Ehrenberg, Kevin Gibbons                 | [:question:](https://github.com/tc39/test262/issues/1343)         |
+|  | [Array.prototype.flatMap/flatten][flat]                          | Brian Terlson, Michael Ficarra                  | [:question:](https://github.com/tc39/test262/issues/new)          |
+|  | [Numeric separators][numeric_separators]                         | Sam Goto, Rick Waldron                          | [:construction:](https://github.com/tc39/test262/issues/1051)     |
+|  | [Class Public Instance Fields & Private Instance Fields & Methods][class-fields] | Daniel Ehrenberg, Jeff Morrison | [:question:](https://github.com/tc39/test262/issues/1161)         |
+
+
 
 ### Stage 2
 
@@ -83,6 +85,12 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |  | [Block Params][block-params]                                     | Sam Goto                                        |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
+
+:white_check_mark: means a pull request for tests was merged.
+
+:question: means there is no pull request for tests yet.
+
+:construction: means a pull request for tests was created, but not merged yet.
 
 ### Contributing new proposals
 
