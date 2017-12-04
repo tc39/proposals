@@ -13,26 +13,26 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 3
 
-| :rocket: | Proposal                                                                         | Author                                      | Champion                                        | Tests                                                          |
-| -------- | -------------------------------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------- | ----------------------------------------------------------------- |
-|          | [`Function.prototype.toString` revision][function-to-string]                     | Michael Ficarra                             | Michael Ficarra                                 | [:white_check_mark:](https://github.com/tc39/test262/issues/1163) |
-|          | [`global`][global]                                                               | Jordan Harband                              | Jordan Harband                                  | [:white_check_mark:](https://github.com/tc39/test262/issues/765)  |
-|          | [Rest/Spread Properties][object-rest-spread]                                     | Sebastian Markbåge                          | Sebastian Markbåge                              | [:white_check_mark:](https://github.com/tc39/test262/issues/865)  |
-|          | [Asynchronous Iteration][async-iteration]                                        | Domenic Denicola                            | Domenic Denicola                                | [:construction:](https://github.com/tc39/test262/issues/923)      |
-|          | [`import()`][dynamic-import]                                                     | Domenic Denicola                            | Domenic Denicola                                | [:question:](https://github.com/tc39/test262/issues/1164)         |
-|          | [RegExp Lookbehind Assertions][lookbehind]                                       | Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg | Daniel Ehrenberg, Mathias Bynens                | [:white_check_mark:](https://github.com/tc39/test262/issues/999)  |
-|          | [RegExp Unicode Property Escapes][unicode-escapes]                               | Mathias Bynens                              | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | [:white_check_mark:](https://github.com/tc39/test262/issues/1014) |
-| :rocket: | [RegExp named capture groups][named-groups]                                      | Gorkem Yakin, Daniel Ehrenberg              | Daniel Ehrenberg, Brian Terlson                 | [:white_check_mark:](https://github.com/tc39/test262/issues/998)  |
-| :rocket: | [`s` (`dotAll`) flag for regular expressions][dot-all]                           | Mathias Bynens                              | Brian Terlson, Mathias Bynens                   | [:white_check_mark:](https://github.com/tc39/test262/issues/997)  |
-|          | [Legacy RegExp features in JavaScript][regexp-legacy]                            | Claude Pache                                | Mark Miller, Claude Pache                       | [:white_check_mark:](https://github.com/tc39/test262/issues/1165) |
-|          | [`Promise.prototype.finally`][finally]                                           | Jordan Harband                              | Jordan Harband                                  | [:construction:](https://github.com/tc39/test262/issues/866)      |
-|          | [`BigInt`][bigint]                                                               | Daniel Ehrenberg                            | Daniel Ehrenberg                                | [:construction:](https://github.com/tc39/test262/issues/1056)     |
-|          | [Optional `catch` binding][optional-catch]                                       | Michael Ficarra                             | Michael Ficarra                                 | [:white_check_mark:](https://github.com/tc39/test262/issues/1166) |
-|          | [`import.meta`][import-meta]                                                     | Domenic Denicola                            | Domenic Denicola                                | [:question:](https://github.com/tc39/test262/issues/1342)         |
-|          | [Private methods and accessors][private-methods]                                 | Daniel Ehrenberg                            | Daniel Ehrenberg, Kevin Gibbons                 | [:question:](https://github.com/tc39/test262/issues/1343)         |
-|          | [`Array.prototype.{flatMap,flatten}`][flat]                                      | Brian Terlson, Michael Ficarra              | Brian Terlson, Michael Ficarra                  | [:question:](https://github.com/tc39/test262/issues/new)          |
-|          | [Numeric separators][numeric_separators]                                         | Sam Goto, Rick Waldron                      | Sam Goto, Rick Waldron                          | [:construction:](https://github.com/tc39/test262/issues/1051)     |
-|          | [Class Public Instance Fields & Private Instance Fields & Methods][class-fields] | Daniel Ehrenberg                            | Daniel Ehrenberg, Jeff Morrison                 | [:question:](https://github.com/tc39/test262/issues/1161)         |
+| :rocket: | Proposal                                                                         | Author                                      | Champion                                        | Tests                                          |
+| -------- | -------------------------------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------- | ---------------------------------------------- |
+|          | [`Function.prototype.toString` revision][function-to-string]                     | Michael Ficarra                             | Michael Ficarra                                 | [:white_check_mark:][tests-function-to-string] |
+|          | [`global`][global]                                                               | Jordan Harband                              | Jordan Harband                                  | [:white_check_mark:][tests-global]             |
+|          | [Rest/Spread Properties][object-rest-spread]                                     | Sebastian Markbåge                          | Sebastian Markbåge                              | [:white_check_mark:][tests-object-rest-spread] |
+|          | [Asynchronous Iteration][async-iteration]                                        | Domenic Denicola                            | Domenic Denicola                                | [:construction:][tests-async-iteration]        |
+|          | [`import()`][dynamic-import]                                                     | Domenic Denicola                            | Domenic Denicola                                | [:question:][tests-dynamic-import]             |
+|          | [RegExp Lookbehind Assertions][lookbehind]                                       | Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg | Daniel Ehrenberg, Mathias Bynens                | [:white_check_mark:][tests-lookbehind]         |
+|          | [RegExp Unicode Property Escapes][unicode-escapes]                               | Mathias Bynens                              | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | [:white_check_mark:][tests-unicode-escapes]    |
+| :rocket: | [RegExp named capture groups][named-groups]                                      | Gorkem Yakin, Daniel Ehrenberg              | Daniel Ehrenberg, Brian Terlson                 | [:white_check_mark:][tests-named-groups]       |
+| :rocket: | [`s` (`dotAll`) flag for regular expressions][dot-all]                           | Mathias Bynens                              | Brian Terlson, Mathias Bynens                   | [:white_check_mark:][tests-dot-all]            |
+|          | [Legacy RegExp features in JavaScript][regexp-legacy]                            | Claude Pache                                | Mark Miller, Claude Pache                       | [:white_check_mark:][tests-regexp-legacy]      |
+|          | [`Promise.prototype.finally`][finally]                                           | Jordan Harband                              | Jordan Harband                                  | [:construction:][tests-finally]                |
+|          | [`BigInt`][bigint]                                                               | Daniel Ehrenberg                            | Daniel Ehrenberg                                | [:construction:][tests-bigint]                 |
+|          | [Optional `catch` binding][optional-catch]                                       | Michael Ficarra                             | Michael Ficarra                                 | [:white_check_mark:][tests-optional-catch]     |
+|          | [`import.meta`][import-meta]                                                     | Domenic Denicola                            | Domenic Denicola                                | [:question:][tests-import-meta]                |
+|          | [Private methods and accessors][private-methods]                                 | Daniel Ehrenberg                            | Daniel Ehrenberg, Kevin Gibbons                 | [:question:][tests-private-methods]            |
+|          | [`Array.prototype.{flatMap,flatten}`][flat]                                      | Brian Terlson, Michael Ficarra              | Brian Terlson, Michael Ficarra                  | [:question:][tests-flat]                       |
+|          | [Numeric separators][numeric_separators]                                         | Sam Goto, Rick Waldron                      | Sam Goto, Rick Waldron                          | [:construction:][tests-numeric_separators]     |
+|          | [Class Public Instance Fields & Private Instance Fields & Methods][class-fields] | Daniel Ehrenberg                            | Daniel Ehrenberg, Jeff Morrison                 | [:question:][tests-class-fields]               |
 
 ### Stage 2
 
@@ -157,3 +157,21 @@ Note that as part of the onboarding process your repository name may be normaliz
 [distinguishing-literal-strings]: https://github.com/mikewest/tc39-proposal-literals
 [freeze-seal-syntax]: https://github.com/keithamus/object-freeze-seal-syntax
 [block-params]: https://github.com/samuelgoto/proposal-block-params
+[tests-function-to-string]: https://github.com/tc39/test262/issues/1163
+[tests-global]: https://github.com/tc39/test262/issues/765
+[tests-object-rest-spread]: https://github.com/tc39/test262/issues/865
+[tests-async-iteration]: https://github.com/tc39/test262/issues/923
+[tests-dynamic-import]: https://github.com/tc39/test262/issues/1164
+[tests-lookbehind]: https://github.com/tc39/test262/issues/999
+[tests-unicode-escapes]: https://github.com/tc39/test262/issues/1014
+[tests-named-groups]: https://github.com/tc39/test262/issues/998
+[tests-dot-all]: https://github.com/tc39/test262/issues/997
+[tests-regexp-legacy]: https://github.com/tc39/test262/issues/1165
+[tests-finally]: https://github.com/tc39/test262/issues/866
+[tests-bigint]: https://github.com/tc39/test262/issues/1056
+[tests-optional-catch]: https://github.com/tc39/test262/issues/1166
+[tests-import-meta]: https://github.com/tc39/test262/issues/1342
+[tests-private-methods]: https://github.com/tc39/test262/issues/1343
+[tests-flat]: https://github.com/tc39/test262/issues/new
+[tests-numeric_separators]: https://github.com/tc39/test262/issues/1051
+[tests-class-fields]: https://github.com/tc39/test262/issues/1161
