@@ -25,7 +25,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | :rocket: | [RegExp named capture groups][named-groups]                                      | Gorkem Yakin, Daniel Ehrenberg              | Daniel Ehrenberg, Brian Terlson                 | [:white_check_mark:][tests-named-groups]       |
 | :rocket: | [`s` (`dotAll`) flag for regular expressions][dot-all]                           | Mathias Bynens                              | Brian Terlson, Mathias Bynens                   | [:white_check_mark:][tests-dot-all]            |
 |          | [Legacy RegExp features in JavaScript][regexp-legacy]                            | Claude Pache                                | Mark Miller, Claude Pache                       | [:white_check_mark:][tests-regexp-legacy]      |
-|          | [`Promise.prototype.finally`][finally]                                           | Jordan Harband                              | Jordan Harband                                  | [:construction:][tests-finally]                |
+| :rocket: | [`Promise.prototype.finally`][finally]                                           | Jordan Harband                              | Jordan Harband                                  | [:construction:][tests-finally]                |
 |          | [`BigInt`][bigint]                                                               | Daniel Ehrenberg                            | Daniel Ehrenberg                                | [:construction:][tests-bigint]                 |
 |          | [Optional `catch` binding][optional-catch]                                       | Michael Ficarra                             | Michael Ficarra                                 | [:white_check_mark:][tests-optional-catch]     |
 |          | [`import.meta`][import-meta]                                                     | Domenic Denicola                            | Domenic Denicola                                | [:question:][tests-import-meta]                |
@@ -43,7 +43,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`String.prototype.{trimStart,trimEnd}`][trims]        | Sebastian Markbåge | Sebastian Markbåge                           |
 |          | [Decorators][decorators]                               | Daniel Ehrenberg   | Yehuda Katz, Brian Terlson, Daniel Ehrenberg |
 |          | [`throw` expressions][throw-expressions]               | Rob Buckton        | Rob Buckton                                  |
-|          | [`String#matchAll`][matchall]                          | Jordan Harband     | Jordan Harband                               |
+| :rocket: | [`String#matchAll`][matchall]                          | Jordan Harband     | Jordan Harband                               |
 |          | [`Atomics.waitAsync`][nonblocking]                     | Lars Hansen        | Shu-yu Guo, Lars Hansen                      |
 |          | [JSON superset][json-superset]                         | Richard Gibson     | Mark Miller, Mathias Bynens                  |
 
