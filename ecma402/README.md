@@ -20,18 +20,18 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | :rocket: | Proposal                                                  | Author                           | Champion                         |
 | -------- | --------------------------------------------------------- | -------------------------------- | -------------------------------- |
-|          | [`Intl.RelativeTimeFormat`][]                             | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
-|          | [`Intl.ListFormat`][]                                     | Zibi Braniecki                   | Zibi Braniecki                   |
+|          | [`Intl.RelativeTimeFormat`][intl.relativetimeformat]                             | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
+|          | [`Intl.ListFormat`][intl.listformat]                                     | Zibi Braniecki                   | Zibi Braniecki                   |
 |          | [Exposing Abstract Operations & Locale Info][locale-info] | Zibi Braniecki                   | Zibi Braniecki                   |
-|          | [`Intl.Locale`][]                                         | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
+|          | [`Intl.Locale`][intl.locale]                                         | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
 
 ### Stage 1
 
 | :rocket: | Proposal                                       | Author         | Champion       |
 | -------- | ---------------------------------------------- | -------------- | -------------- |
-|          | [`Intl.DurationFormat`][]                      | Zibi Braniecki | Zibi Braniecki |
-|          | [`Intl.UnitFormat`][]                          | Zibi Braniecki | Zibi Braniecki |
-|          | [`DateTimeFormat` `dateStyle` & `timeStyle`][] | Zibi Braniecki | Zibi Braniecki |
+|          | [`Intl.DurationFormat`][intl.durationformat]                      | Zibi Braniecki | Zibi Braniecki |
+|          | [`Intl.UnitFormat`][intl.unitformat]                          | Zibi Braniecki | Zibi Braniecki |
+|          | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat] | Zibi Braniecki | Zibi Braniecki |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -58,5 +58,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl.datetimeformat.prototype.formattoparts]: https://github.com/tc39/proposal-intl-formatToParts
 [intl.numberformat.prototype.formattoparts]: https://github.com/tc39/proposal-intl-formatToParts
 [locale-info]: https://github.com/tc39/ecma402/issues/46
-[datetimeformat datestyle & timestyle]: https://github.com/zbraniecki/proposal-ecma402-datetime-style
+[datetimeformat]: https://github.com/zbraniecki/proposal-ecma402-datetime-style
 [intl.locale]: https://github.com/zbraniecki/proposal-intl-locale
