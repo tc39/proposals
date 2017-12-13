@@ -22,7 +22,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | -------- | --------------------------------------------------------- | -------------------------------- | -------------------------------- |
 |          | [`Intl.RelativeTimeFormat`][intl.relativetimeformat]                             | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
 |          | [`Intl.ListFormat`][intl.listformat]                                     | Zibi Braniecki                   | Zibi Braniecki                   |
-|          | [Exposing Abstract Operations & Locale Info][locale-info] | Zibi Braniecki                   | Zibi Braniecki                   |
 |          | [`Intl.Locale`][intl.locale]                                         | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
 
 ### Stage 1
