@@ -23,7 +23,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [RegExp Lookbehind Assertions][lookbehind]                                       | Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg | Daniel Ehrenberg, Mathias Bynens                | [:white_check_mark:][tests-lookbehind]         |
 |          | [RegExp Unicode Property Escapes][unicode-escapes]                               | Mathias Bynens                              | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | [:white_check_mark:][tests-unicode-escapes]    |
 | :rocket: | [RegExp named capture groups][named-groups]                                      | Gorkem Yakin, Daniel Ehrenberg              | Daniel Ehrenberg, Brian Terlson                 | [:white_check_mark:][tests-named-groups]       |
-| :rocket: | [`s` (`dotAll`) flag for regular expressions][dot-all]                           | Mathias Bynens                              | Brian Terlson, Mathias Bynens                   | [:white_check_mark:][tests-dot-all]            |
 |          | [Legacy RegExp features in JavaScript][regexp-legacy]                            | Claude Pache                                | Mark Miller, Claude Pache                       | [:white_check_mark:][tests-regexp-legacy]      |
 | :rocket: | [`Promise.prototype.finally`][finally]                                           | Jordan Harband                              | Jordan Harband                                  | [:construction:][tests-finally]                |
 |          | [`BigInt`][bigint]                                                               | Daniel Ehrenberg                            | Daniel Ehrenberg                                | [:construction:][tests-bigint]                 |
@@ -112,7 +111,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [lookbehind]: https://github.com/tc39/proposal-regexp-lookbehind
 [unicode-escapes]: https://github.com/tc39/proposal-regexp-unicode-property-escapes
 [named-groups]: https://github.com/tc39/proposal-regexp-named-groups
-[dot-all]: https://github.com/tc39/proposal-regexp-dotall-flag
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features
 [finally]: https://github.com/tc39/proposal-promise-finally
 [bigint]: https://github.com/tc39/proposal-bigint
@@ -165,7 +163,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-lookbehind]: https://github.com/tc39/test262/issues/999
 [tests-unicode-escapes]: https://github.com/tc39/test262/issues/1014
 [tests-named-groups]: https://github.com/tc39/test262/issues/998
-[tests-dot-all]: https://github.com/tc39/test262/issues/997
 [tests-regexp-legacy]: https://github.com/tc39/test262/issues/1165
 [tests-finally]: https://github.com/tc39/test262/issues/866
 [tests-bigint]: https://github.com/tc39/test262/issues/1056

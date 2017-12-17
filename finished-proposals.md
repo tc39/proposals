@@ -13,6 +13,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Async functions][async-await]                                           | Brian Terlson                      | Brian Terlson                      | [July 2016][async-await-notes]            | 2017                      |
 | [Shared memory and atomics][atomics]                                     | Lars T Hansen                      | Lars T Hansen                      | [January 2017][atomics-notes]             | 2017                      |
 | [Lifting template literal restriction][template-literal-lift]            | Tim Disney                         | Tim Disney                         | [March 2017][template-literal-lift-notes] | 2018                      |
+| [`s` (`dotAll`) flag for regular expressions][dot-all]                   | Mathias Bynens                     | Brian Terlson, Mathias Bynens      | [November 2017][dot-all-notes]            | 2018                      |
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -34,3 +35,5 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [atomics-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es7/2017-01/jan-24.md#13if-seeking-stage-4-for-sharedarraybuffer
 [template-literal-lift]: https://github.com/tc39/proposal-template-literal-revision
 [template-literal-lift-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es8/2017-03/mar-21.md#10ia-template-literal-updates
+[dot-all]: https://github.com/tc39/proposal-regexp-dotall-flag
+[dot-all-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es8/2017-11/nov-28.md#9ie-regexp-dotall-status-update
