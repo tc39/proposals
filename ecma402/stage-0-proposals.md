@@ -5,10 +5,10 @@ Stage 0 proposals are either
 * planned to be presented to the committee by a TC39 champion, or
 * have been presented to the committee and not rejected definitively, but have not yet achieved any of the criteria to get into stage 1.
 
-| :rocket: | Proposal                               | Author        | Champion      |
-| -------- | -------------------------------------- | ------------- | ------------- |
-|          | [Fix 9.2.3 LookupMatcher algorithm][]  | Rafael Xavier | Rafael Xavier |
-|          | [`Intl.NumberFormat` `round` option][] | Rafael Xavier | Rafael Xavier |
+| :rocket: | Proposal                                                             | Author        | Champion      |
+| -------- | -------------------------------------------------------------------- | ------------- | ------------- |
+|          | [Fix 9.2.3 LookupMatcher algorithm][]                                | Rafael Xavier | Rafael Xavier |
+|          | [`Intl.NumberFormat` `round` option][intl.numberformat round option] | Rafael Xavier | Rafael Xavier |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
