@@ -28,16 +28,16 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`BigInt`][bigint]                                                               | Daniel Ehrenberg                            | Daniel Ehrenberg                                | [:construction:][tests-bigint]                 |
 |          | [Optional `catch` binding][optional-catch]                                       | Michael Ficarra                             | Michael Ficarra                                 | [:white_check_mark:][tests-optional-catch]     |
 |          | [`import.meta`][import-meta]                                                     | Domenic Denicola                            | Domenic Denicola                                | [:question:][tests-import-meta]                |
-|          | [Private methods and accessors][private-methods]                                 | Daniel Ehrenberg                            | Daniel Ehrenberg, Kevin Gibbons                 | [:question:][tests-private-methods]            |
+|          | [Private instance methods and accessors][private-methods]                             | Daniel Ehrenberg                            | Daniel Ehrenberg, Kevin Gibbons                 | [:question:][tests-private-methods]            |
 |          | [`Array.prototype.{flatMap,flatten}`][flat]                                      | Brian Terlson, Michael Ficarra              | Brian Terlson, Michael Ficarra                  | [:question:][tests-flat]                       |
 |          | [Numeric separators][numeric_separators]                                         | Sam Goto, Rick Waldron                      | Sam Goto, Rick Waldron                          | [:construction:][tests-numeric_separators]     |
-|          | [Class Public Instance Fields & Private Instance Fields & Methods][class-fields] | Daniel Ehrenberg                            | Daniel Ehrenberg, Jeff Morrison                 | [:question:][tests-class-fields]               |
+|          | [Class Public Instance Fields & Private Instance Fields][class-fields]                | Daniel Ehrenberg. Kevin Gibbons                            | Daniel Ehrenberg, Jeff Morrison, Kevin Smith, Kevin Gibbons                 | [:question:][tests-class-fields]               |
 
 ### Stage 2
 
 | :rocket: | Proposal                                               | Author             | Champion                                     |
 | -------- | ------------------------------------------------------ | ------------------ | -------------------------------------------- |
-|          | [Class Static Fields (Public & Private)][class-fields] | Daniel Ehrenberg   | Daniel Ehrenberg, Jeff Morrison              |
+|          | [Static class fields and private static methods][static-class-features]         | Daniel Ehrenberg, Kevin Gibbons, Jeff Morrison, Kevin Smith   | Daniel Ehrenberg              |
 |          | [`function.sent` metaproperty][function-sent]          | Allen Wirfs-Brock  | Allen Wirfs-Brock                            |
 |          | [`String.prototype.{trimStart,trimEnd}`][trims]        | Sebastian Markbåge | Sebastian Markbåge                           |
 |          | [Decorators][decorators]                               | Daniel Ehrenberg   | Yehuda Katz, Brian Terlson, Daniel Ehrenberg |
@@ -155,6 +155,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [distinguishing-literal-strings]: https://github.com/mikewest/tc39-proposal-literals
 [freeze-seal-syntax]: https://github.com/keithamus/object-freeze-seal-syntax
 [block-params]: https://github.com/samuelgoto/proposal-block-params
+[static-class-features]: http://github.com/tc39/proposal-static-class-features/
 [tests-function-to-string]: https://github.com/tc39/test262/issues/1163
 [tests-global]: https://github.com/tc39/test262/issues/765
 [tests-object-rest-spread]: https://github.com/tc39/test262/issues/865
