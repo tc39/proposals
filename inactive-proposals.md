@@ -8,7 +8,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Callable class constructors][callable-constructors]                 | Yehuda Katz and Allen Wirfs-Brock    | Withdrawn: can be solved with decorators |
 | [`Error.isError`][is-error]                                          | Jordan Harband                       | Withdrawn: in favor of a future proposal to standardize `Error` stack traces |
 | [`{Set,Map}.prototype.toJSON`][collection-json]                      | David Bruant and Jordan Harband      | Rejected: better solved by a custom replacer function. |
-| [Typed Objects][typed-objects]                                       | Dmitry Lomov, Niko Matsakis, Till Schneidereit          | Postponed: waiting for WebAssembly requirements to become clearer |
+| [Typed Objects][typed-objects]                                       | Till Schneidereit (previously Dmitry Lomov, Niko Matsakis)         | Postponed: waiting for WebAssembly requirements to become clearer |
 | [Object enumerables][object-enums]                                   | Leo Balter & John-David Dalton       | Rejected |
 | [`ArrayBuffer.transfer`][buffer-transfer]                            | Luke Wagner & Allen Wirfs-Brock      | Withdrawn |
 | [Cancelable Promises][cancel-promise]                                | Domenic Denicola                     | Withdrawn |
