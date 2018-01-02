@@ -8,7 +8,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Callable class constructors][callable-constructors]                 | Yehuda Katz and Allen Wirfs-Brock    | Withdrawn: can be solved with decorators |
 | [`Error.isError`][is-error]                                          | Jordan Harband                       | Withdrawn: in favor of a future proposal to standardize `Error` stack traces |
 | [`{Set,Map}.prototype.toJSON`][collection-json]                      | David Bruant and Jordan Harband      | Rejected: better solved by a custom replacer function. |
-| [Typed Objects][typed-objects]                                       | Dmitry Lomov, Niko Matsakis          | [Abandoned][typed-objects-notes] |
+| [Typed Objects][typed-objects]                                       | Till Schneidereit (previously Dmitry Lomov, Niko Matsakis)         | Postponed: waiting for WebAssembly requirements to become clearer |
 | [Object enumerables][object-enums]                                   | Leo Balter & John-David Dalton       | Rejected |
 | [`ArrayBuffer.transfer`][buffer-transfer]                            | Luke Wagner & Allen Wirfs-Brock      | Withdrawn |
 | [Cancelable Promises][cancel-promise]                                | Domenic Denicola                     | Withdrawn |
@@ -27,7 +27,6 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [is-error]: https://github.com/ljharb/proposal-is-error
 [collection-json]: https://github.com/DavidBruant/Map-Set.prototype.toJSON
 [typed-objects]: https://github.com/dslomov/typed-objects-es7
-[typed-objects-notes]: https://github.com/tc39/ecma262/commit/02455e5e2964f62b13818c6fd23289381ecafdf8
 [object-enums]: https://github.com/leobalter/object-enumerables
 [buffer-transfer]: https://gist.github.com/lukewagner/2735af7eea411e18cf20
 [cancel-promise]: https://github.com/tc39/proposal-cancelable-promises
