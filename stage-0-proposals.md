@@ -9,7 +9,6 @@ Stage 0 proposals are either
 |----------|----------------------------------------------------------------------------|----------------------------------- | -----------------------------------|
 |          | [Additional metaproperties][metaprops]                                     | Allen Wirfs-Brock                  | Allen Wirfs-Brock                  |
 |          | Annex B — HTML Attribute Event Handlers                                    | Allen Wirfs-Brock                  | Allen Wirfs-Brock                  |
-| :rocket: | [Cancellation API][cancel-api]                                             | Ron Buckton                        | Ron Buckton & Brian Terlson        |
 |          | [`%constructor%.construct(thisArg[, arguments])`][construct]               | James M Snell                      | James M Snell                      |
 |          | [Defensible Classes][defensible-classes]                                   | Mark Miller & Doug Crockford       | Mark Miller & Doug Crockford       |
 |          | [Function bind syntax][bind-syntax]                                        | Kevin Smith                        | Brian Terlson & Matthew Podwysocki |

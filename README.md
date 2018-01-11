@@ -74,6 +74,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [First-class protocols][protocols]                                                           | Michael Ficarra                              | Michael Ficarra                              |
 |          | [Nullish coalescing Operator][nullish-coalescing]                                            | Gabriel Isenberg                             | Gabriel Isenberg                             |
 |          | [Partial application][partial-application]                                                   | Ron Buckton                                  | Ron Buckton                                  |
+|          | [Cancellation API][cancel-api]                                                               | Ron Buckton                                  | Ron Buckton & Brian Terlson                  |
 |          | [`InterpreterDirective`][interpreter-directive]                                              | Bradley Farias                               | Bradley Farias                               |
 |          | [`String.prototype.replaceAll`][replace-all]                                                 | Peter Marshall, Jakob Gruber, Mathias Bynens | Mathias Bynens                               |
 |          | [`String.prototype.codePoints`][codepoints]                                                  | Ingvar Stepanyan                             | Mathias Bynens                               |
