@@ -17,7 +17,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | -------- | -------------------------------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------- | ---------------------------------------------- |
 | :rocket: | [`Function.prototype.toString` revision][function-to-string]                     | Michael Ficarra                             | Michael Ficarra                                 | [:white_check_mark:][tests-function-to-string] |
 |          | [`global`][global]                                                               | Jordan Harband                              | Jordan Harband                                  | [:white_check_mark:][tests-global]             |
-|          | [Rest/Spread Properties][object-rest-spread]                                     | Sebastian Markbåge                          | Sebastian Markbåge                              | [:white_check_mark:][tests-object-rest-spread] |
+| :rocket: | [Rest/Spread Properties][object-rest-spread]                                     | Sebastian Markbåge                          | Sebastian Markbåge                              | [:white_check_mark:][tests-object-rest-spread] |
 |          | [Asynchronous Iteration][async-iteration]                                        | Domenic Denicola                            | Domenic Denicola                                | [:construction:][tests-async-iteration]        |
 |          | [`import()`][dynamic-import]                                                     | Domenic Denicola                            | Domenic Denicola                                | [:question:][tests-dynamic-import]             |
 |          | [RegExp Lookbehind Assertions][lookbehind]                                       | Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg | Daniel Ehrenberg, Mathias Bynens                | [:white_check_mark:][tests-lookbehind]         |
@@ -39,7 +39,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | -------- | ------------------------------------------------------ | ------------------ | -------------------------------------------- |
 |          | [Static class fields and private static methods][static-class-features]         | Daniel Ehrenberg, Kevin Gibbons, Jeff Morrison, Kevin Smith   | Daniel Ehrenberg              |
 |          | [`function.sent` metaproperty][function-sent]          | Allen Wirfs-Brock  | Allen Wirfs-Brock                            |
-|          | [`String.prototype.{trimStart,trimEnd}`][trims]        | Sebastian Markbåge | Sebastian Markbåge                           |
+| :rocket: | [`String.prototype.{trimStart,trimEnd}`][trims]        | Sebastian Markbåge | Sebastian Markbåge                           |
 |          | [Decorators][decorators]                               | Daniel Ehrenberg   | Yehuda Katz, Brian Terlson, Daniel Ehrenberg |
 |          | [`throw` expressions][throw-expressions]               | Ron Buckton        | Ron Buckton                                  |
 | :rocket: | [`String#matchAll`][matchall]                          | Jordan Harband     | Jordan Harband                               |
