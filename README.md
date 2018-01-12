@@ -150,6 +150,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [json-superset]: https://github.com/tc39/proposal-json-superset
 [nullish-coalescing]: https://github.com/tc39/proposal-nullish-coalescing
 [partial-application]: https://github.com/rbuckton/proposal-partial-application
+[cancel-api]: https://github.com/tc39/proposal-cancellation
 [interpreter-directive]: https://gist.github.com/bmeck/59cf8c16959eccffd8b7e9828826a842
 [replace-all]: https://github.com/psmarshall/string-replace-all-proposal
 [codepoints]: https://github.com/RReverser/string-prototype-codepoints

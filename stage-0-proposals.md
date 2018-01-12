@@ -34,7 +34,6 @@ Stage 0 proposals are either
 See also the [finished proposals](finished-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md).
 
 [metaprops]: https://github.com/allenwb/ESideas/blob/master/ES7MetaProps.md
-[cancel-api]: https://github.com/tc39/proposal-cancellation
 [construct]: https://github.com/jasnell/proposal-construct
 [defensible-classes]: http://wiki.ecmascript.org/doku.php?id=strawman:defensible_classes
 [bind-syntax]: https://github.com/zenparsing/es-function-bind
