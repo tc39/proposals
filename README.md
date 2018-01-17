@@ -41,7 +41,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`function.sent` metaproperty][function-sent]          | Allen Wirfs-Brock  | Allen Wirfs-Brock                            |
 | :rocket: | [`String.prototype.{trimStart,trimEnd}`][trims]        | Sebastian Markbåge | Sebastian Markbåge                           |
 |          | [Decorators][decorators]                               | Daniel Ehrenberg   | Yehuda Katz, Brian Terlson, Daniel Ehrenberg |
-|          | [`throw` expressions][throw-expressions]               | Ron Buckton        | Ron Buckton                                  |
+| :rocket: | [`throw` expressions][throw-expressions]               | Ron Buckton        | Ron Buckton                                  |
 | :rocket: | [`String#matchAll`][matchall]                          | Jordan Harband     | Jordan Harband                               |
 |          | [`Atomics.waitAsync`][nonblocking]                     | Lars Hansen        | Shu-yu Guo, Lars Hansen                      |
 |          | [JSON superset][json-superset]                         | Richard Gibson     | Mark Miller, Mathias Bynens                  |
