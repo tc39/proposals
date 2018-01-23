@@ -17,7 +17,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | -------- | -------------------------------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------- | ---------------------------------------------- |
 | :rocket: | [`Function.prototype.toString` revision][function-to-string]                     | Michael Ficarra                             | Michael Ficarra                                 | [:white_check_mark:][tests-function-to-string] |
 |          | [`global`][global]                                                               | Jordan Harband                              | Jordan Harband                                  | [:white_check_mark:][tests-global]             |
-| :rocket: | [Rest/Spread Properties][object-rest-spread]                                     | Sebastian Markbåge                          | Sebastian Markbåge                              | [:white_check_mark:][tests-object-rest-spread] |
 |          | [Asynchronous Iteration][async-iteration]                                        | Domenic Denicola                            | Domenic Denicola                                | [:construction:][tests-async-iteration]        |
 |          | [`import()`][dynamic-import]                                                     | Domenic Denicola                            | Domenic Denicola                                | [:question:][tests-dynamic-import]             |
 |          | [RegExp Lookbehind Assertions][lookbehind]                                       | Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg | Daniel Ehrenberg, Mathias Bynens                | [:white_check_mark:][tests-lookbehind]         |
@@ -108,7 +107,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 
 [function-to-string]: https://github.com/tc39/Function-prototype-toString-revision
 [global]: https://github.com/tc39/proposal-global
-[object-rest-spread]: https://github.com/tc39/proposal-object-rest-spread
 [async-iteration]: https://github.com/tc39/proposal-async-iteration
 [dynamic-import]: https://github.com/tc39/proposal-dynamic-import
 [lookbehind]: https://github.com/tc39/proposal-regexp-lookbehind
