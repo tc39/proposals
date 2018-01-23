@@ -45,6 +45,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Decorators][decorators]                               | Daniel Ehrenberg   | Yehuda Katz, Brian Terlson, Daniel Ehrenberg |
 | :rocket: | [`throw` expressions][throw-expressions]               | Ron Buckton        | Ron Buckton                                  |
 |          | [`Atomics.waitAsync`][nonblocking]                     | Lars Hansen        | Shu-yu Guo, Lars Hansen                      |
+|          | [`Symbol.prototype.description`][symbol-description]   | Michael Ficarra    | Michael Ficarra                              |
 
 ### Stage 1
 
@@ -66,7 +67,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Realms][realms]                                                                             | Caridy Patiño, Jean-Francois Paradis         | Dave Herman, Mark Miller, Caridy Patiño      |
 |          | [Temporal][temporal]                                                                         | Maggie Pint, Matt Johnson                    | Maggie Pint, Brian Terlson                   |
 |          | [Float16 on TypedArrays, DataView, `Math.hfround`][float16s]                                 | Leo Balter                                   | Leo Balter                                   |
-| :rocket: | [`Symbol.prototype.description`][symbol-description]                                         | Michael Ficarra                              | Michael Ficarra                              |
 |          | Change `Number.parseInt`/`parseFloat` to not coerce `null`/`undefined`/`NaN` (repo link TBD) |                                              | Brendan Eich                                 |
 |          | [Binary AST][binary-ast]                                                                     | Shu-yu Guo                                   | Shu-yu Guo                                   |
 |          | [Pipeline Operator][pipeline]                                                                | Daniel Ehrenberg                             | Daniel Ehrenberg                             |
