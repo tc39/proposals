@@ -82,6 +82,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`Object.freeze` + `Object.seal` syntax][freeze-seal-syntax]                                 | Keith Cirkel                                 | Keith Cirkel                                 |
 |          | [Block Params][block-params]                                                                 | Sam Goto                                     | Sam Goto                                     |
 |          | [`{BigInt,Number}.fromString`][from-string]                                                  | Mathias Bynens                               | Mathias Bynens                               |
+|          | [`Math.seededRandoms()`][seeded-randoms]                                                     | Tab Atkins                                   | Tab Atkins
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -177,3 +178,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-numeric_separators]: https://github.com/tc39/test262/issues/1051
 [tests-class-fields]: https://github.com/tc39/test262/issues/1161
 [from-string]: https://github.com/mathiasbynens/proposal-number-fromstring
+[seeded-randoms]: https://github.com/tabatkins/js-seeded-random
