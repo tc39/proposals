@@ -32,6 +32,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`Array.prototype.{flatMap,flatten}`][flat]                                      | Brian Terlson, Michael Ficarra              | Brian Terlson, Michael Ficarra                  | [:question:][tests-flat]                       |
 |          | [Numeric separators][numeric_separators]                                         | Sam Goto, Rick Waldron                      | Sam Goto, Rick Waldron                          | [:construction:][tests-numeric_separators]     |
 |          | [Class Public Instance Fields & Private Instance Fields][class-fields]                | Daniel Ehrenberg. Kevin Gibbons                            | Daniel Ehrenberg, Jeff Morrison, Kevin Smith, Kevin Gibbons                 | [:question:][tests-class-fields]               |
+|          | [JSON superset][json-superset]                         | Richard Gibson     | Mark Miller, Mathias Bynens                  |
 
 ### Stage 2
 
@@ -44,7 +45,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | :rocket: | [`throw` expressions][throw-expressions]               | Ron Buckton        | Ron Buckton                                  |
 | :rocket: | [`String#matchAll`][matchall]                          | Jordan Harband     | Jordan Harband                               |
 |          | [`Atomics.waitAsync`][nonblocking]                     | Lars Hansen        | Shu-yu Guo, Lars Hansen                      |
-|          | [JSON superset][json-superset]                         | Richard Gibson     | Mark Miller, Mathias Bynens                  |
 
 ### Stage 1
 
