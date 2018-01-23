@@ -34,6 +34,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Class Public Instance Fields & Private Instance Fields][class-fields]                | Daniel Ehrenberg. Kevin Gibbons                            | Daniel Ehrenberg, Jeff Morrison, Kevin Smith, Kevin Gibbons                 | [:question:][tests-class-fields]               |
 |          | [JSON superset][json-superset]                         | Richard Gibson     | Mark Miller, Mathias Bynens                  |
 |          | [`String.prototype.{trimStart,trimEnd}`][trims]        | Sebastian Markbåge | Sebastian Markbåge                           |
+|          | [`String.prototype.matchAll`][matchall]                          | Jordan Harband     | Jordan Harband                               |
 
 ### Stage 2
 
@@ -43,7 +44,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`function.sent` metaproperty][function-sent]          | Allen Wirfs-Brock  | Allen Wirfs-Brock                            |
 |          | [Decorators][decorators]                               | Daniel Ehrenberg   | Yehuda Katz, Brian Terlson, Daniel Ehrenberg |
 | :rocket: | [`throw` expressions][throw-expressions]               | Ron Buckton        | Ron Buckton                                  |
-| :rocket: | [`String#matchAll`][matchall]                          | Jordan Harband     | Jordan Harband                               |
 |          | [`Atomics.waitAsync`][nonblocking]                     | Lars Hansen        | Shu-yu Guo, Lars Hansen                      |
 
 ### Stage 1
