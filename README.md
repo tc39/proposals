@@ -81,6 +81,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Distinguishing literal strings][distinguishing-literal-strings]                             | Mike West                                    | Adam Klein, Mike West                        |
 |          | [`Object.freeze` + `Object.seal` syntax][freeze-seal-syntax]                                 | Keith Cirkel                                 | Keith Cirkel                                 |
 |          | [Block Params][block-params]                                                                 | Sam Goto                                     | Sam Goto                                     |
+|          | [`{BigInt,Number}.fromString`][from-string]                                                  | Mathias Bynens                               | Mathias Bynens                               |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -175,3 +176,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-flat]: https://github.com/tc39/test262/issues/new
 [tests-numeric_separators]: https://github.com/tc39/test262/issues/1051
 [tests-class-fields]: https://github.com/tc39/test262/issues/1161
+[from-string]: https://github.com/mathiasbynens/proposal-number-fromstring
