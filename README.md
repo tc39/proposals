@@ -19,8 +19,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`global`][global]                                                               | Jordan Harband                              | Jordan Harband                                  | [:white_check_mark:][tests-global]             |
 |          | [Asynchronous Iteration][async-iteration]                                        | Domenic Denicola                            | Domenic Denicola                                | [:construction:][tests-async-iteration]        |
 |          | [`import()`][dynamic-import]                                                     | Domenic Denicola                            | Domenic Denicola                                | [:question:][tests-dynamic-import]             |
-|          | [RegExp Lookbehind Assertions][lookbehind]                                       | Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg | Daniel Ehrenberg, Mathias Bynens                | [:white_check_mark:][tests-lookbehind]         |
-|          | [RegExp Unicode Property Escapes][unicode-escapes]                               | Mathias Bynens                              | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | [:white_check_mark:][tests-unicode-escapes]    |
 |          | [Legacy RegExp features in JavaScript][regexp-legacy]                            | Claude Pache                                | Mark Miller, Claude Pache                       | [:white_check_mark:][tests-regexp-legacy]      |
 | :rocket: | [`Promise.prototype.finally`][finally]                                           | Jordan Harband                              | Jordan Harband                                  | [:construction:][tests-finally]                |
 |          | [`BigInt`][bigint]                                                               | Daniel Ehrenberg                            | Daniel Ehrenberg                                | [:construction:][tests-bigint]                 |
@@ -109,8 +107,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [global]: https://github.com/tc39/proposal-global
 [async-iteration]: https://github.com/tc39/proposal-async-iteration
 [dynamic-import]: https://github.com/tc39/proposal-dynamic-import
-[lookbehind]: https://github.com/tc39/proposal-regexp-lookbehind
-[unicode-escapes]: https://github.com/tc39/proposal-regexp-unicode-property-escapes
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features
 [finally]: https://github.com/tc39/proposal-promise-finally
 [bigint]: https://github.com/tc39/proposal-bigint
@@ -162,8 +158,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-object-rest-spread]: https://github.com/tc39/test262/issues/865
 [tests-async-iteration]: https://github.com/tc39/test262/issues/923
 [tests-dynamic-import]: https://github.com/tc39/test262/issues/1164
-[tests-lookbehind]: https://github.com/tc39/test262/issues/999
-[tests-unicode-escapes]: https://github.com/tc39/test262/issues/1014
 [tests-regexp-legacy]: https://github.com/tc39/test262/issues/1165
 [tests-finally]: https://github.com/tc39/test262/issues/866
 [tests-bigint]: https://github.com/tc39/test262/issues/1056
