@@ -155,7 +155,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [static-class-features]: http://github.com/tc39/proposal-static-class-features/
 [tests-function-to-string]: https://github.com/tc39/test262/issues/1163
 [tests-global]: https://github.com/tc39/test262/issues/765
-[tests-object-rest-spread]: https://github.com/tc39/test262/issues/865
 [tests-async-iteration]: https://github.com/tc39/test262/issues/923
 [tests-dynamic-import]: https://github.com/tc39/test262/issues/1164
 [tests-regexp-legacy]: https://github.com/tc39/test262/issues/1165
