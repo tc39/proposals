@@ -18,6 +18,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Rest/Spread Properties][object-rest-spread]                             | Sebastian Markbåge                          | Sebastian Markbåge                              | January 2018                              | 2018
 | [RegExp Lookbehind Assertions][lookbehind]                               | Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg | Daniel Ehrenberg, Mathias Bynens                | January 2018
 | [RegExp Unicode Property Escapes][unicode-escapes]                       | Mathias Bynens                              | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | January 2018
+| [`Promise.prototype.finally`][finally]                                   | Jordan Harband                              | Jordan Harband                                  | January 2018
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -46,3 +47,4 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [object-rest-spread]: https://github.com/tc39/proposal-object-rest-spread
 [lookbehind]: https://github.com/tc39/proposal-regexp-lookbehind
 [unicode-escapes]: https://github.com/tc39/proposal-regexp-unicode-property-escapes
+[finally]: https://github.com/tc39/proposal-promise-finally

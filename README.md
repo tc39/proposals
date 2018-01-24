@@ -20,7 +20,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Asynchronous Iteration][async-iteration]                                        | Domenic Denicola                            | Domenic Denicola                                | [:construction:][tests-async-iteration]        |
 |          | [`import()`][dynamic-import]                                                     | Domenic Denicola                            | Domenic Denicola                                | [:question:][tests-dynamic-import]             |
 |          | [Legacy RegExp features in JavaScript][regexp-legacy]                            | Claude Pache                                | Mark Miller, Claude Pache                       | [:white_check_mark:][tests-regexp-legacy]      |
-| :rocket: | [`Promise.prototype.finally`][finally]                                           | Jordan Harband                              | Jordan Harband                                  | [:construction:][tests-finally]                |
 |          | [`BigInt`][bigint]                                                               | Daniel Ehrenberg                            | Daniel Ehrenberg                                | [:construction:][tests-bigint]                 |
 |          | [Optional `catch` binding][optional-catch]                                       | Michael Ficarra                             | Michael Ficarra                                 | [:white_check_mark:][tests-optional-catch]     |
 |          | [`import.meta`][import-meta]                                                     | Domenic Denicola                            | Domenic Denicola                                | [:question:][tests-import-meta]                |
@@ -108,7 +107,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [async-iteration]: https://github.com/tc39/proposal-async-iteration
 [dynamic-import]: https://github.com/tc39/proposal-dynamic-import
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features
-[finally]: https://github.com/tc39/proposal-promise-finally
 [bigint]: https://github.com/tc39/proposal-bigint
 [class-fields]: https://github.com/tc39/proposal-class-fields
 [optional-catch]: https://github.com/tc39/proposal-optional-catch-binding
@@ -158,7 +156,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-async-iteration]: https://github.com/tc39/test262/issues/923
 [tests-dynamic-import]: https://github.com/tc39/test262/issues/1164
 [tests-regexp-legacy]: https://github.com/tc39/test262/issues/1165
-[tests-finally]: https://github.com/tc39/test262/issues/866
 [tests-bigint]: https://github.com/tc39/test262/issues/1056
 [tests-optional-catch]: https://github.com/tc39/test262/issues/1166
 [tests-import-meta]: https://github.com/tc39/test262/issues/1342
