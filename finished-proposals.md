@@ -19,6 +19,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [RegExp Lookbehind Assertions][lookbehind]                               | Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg | Daniel Ehrenberg, Mathias Bynens                | January 2018
 | [RegExp Unicode Property Escapes][unicode-escapes]                       | Mathias Bynens                              | Brian Terlson, Daniel Ehrenberg, Mathias Bynens | January 2018
 | [`Promise.prototype.finally`][finally]                                   | Jordan Harband                              | Jordan Harband                                  | January 2018
+| [Asynchronous Iteration][async-iteration]                                | Domenic Denicola                            | Domenic Denicola                                | January 2018
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -48,3 +49,4 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [lookbehind]: https://github.com/tc39/proposal-regexp-lookbehind
 [unicode-escapes]: https://github.com/tc39/proposal-regexp-unicode-property-escapes
 [finally]: https://github.com/tc39/proposal-promise-finally
+[async-iteration]: https://github.com/tc39/proposal-async-iteration
