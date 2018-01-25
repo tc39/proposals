@@ -23,7 +23,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Optional `catch` binding][optional-catch]                                       | Michael Ficarra                             | Michael Ficarra                                             | [:white_check_mark:][tests-optional-catch]     |
 |          | [`import.meta`][import-meta]                                                     | Domenic Denicola                            | Domenic Denicola                                            | [:question:][tests-import-meta]                |
 |          | [Private instance methods and accessors][private-methods]                        | Daniel Ehrenberg                            | Daniel Ehrenberg, Kevin Gibbons                             | [:question:][tests-private-methods]            |
-|          | [`Array.prototype.{flatMap,flatten}`][flat]                                      | Brian Terlson, Michael Ficarra              | Brian Terlson, Michael Ficarra                              | [:question:][tests-flat]                       |
+|          | [`Array.prototype.{flatMap,flatten}`][flat]                                      | Brian Terlson, Michael Ficarra              | Brian Terlson, Michael Ficarra                              | [:white_check_mark:][tests-flat]               |
 |          | [Numeric separators][numeric_separators]                                         | Sam Goto, Rick Waldron                      | Sam Goto, Rick Waldron                                      | [:construction:][tests-numeric_separators]     |
 |          | [Class Public Instance Fields & Private Instance Fields][class-fields]           | Daniel Ehrenberg, Kevin Gibbons             | Daniel Ehrenberg, Jeff Morrison, Kevin Smith, Kevin Gibbons | [:question:][tests-class-fields]               |
 |          | [JSON superset][json-superset]                                                   | Richard Gibson                              | Mark Miller, Mathias Bynens                                 |
@@ -160,7 +160,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-optional-catch]: https://github.com/tc39/test262/issues/1166
 [tests-import-meta]: https://github.com/tc39/test262/issues/1342
 [tests-private-methods]: https://github.com/tc39/test262/issues/1343
-[tests-flat]: https://github.com/tc39/test262/issues/new
+[tests-flat]: https://github.com/tc39/test262/pull/1388
 [tests-numeric_separators]: https://github.com/tc39/test262/issues/1051
 [tests-class-fields]: https://github.com/tc39/test262/issues/1161
 [from-string]: https://github.com/mathiasbynens/proposal-number-fromstring
