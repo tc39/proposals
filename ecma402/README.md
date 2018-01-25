@@ -16,13 +16,13 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | -------- | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- |
 |          | [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg                 | Daniel Ehrenberg                 |
 |          | [`Intl.ListFormat`][intl.listformat]                                   | Zibi Braniecki                   | Zibi Braniecki                   |
+|          | [`Intl.RelativeTimeFormat`][intl.relativetimeformat]                   | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
 
 ### Stage 2
 
 | :rocket: | Proposal                                                  | Author                           | Champion                         |
 | -------- | --------------------------------------------------------- | -------------------------------- | -------------------------------- |
 |          | [`Intl.Locale`][intl.locale]                              | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
-|          | [`Intl.RelativeTimeFormat`][intl.relativetimeformat]      | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
 
 ### Stage 1
 
