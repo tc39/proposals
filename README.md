@@ -13,33 +13,33 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 3
 
-| :rocket: | Proposal                                                                         | Author                                      | Champion                                        | Tests                                          |
-| -------- | -------------------------------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------- | ---------------------------------------------- |
-| :rocket: | [`Function.prototype.toString` revision][function-to-string]                     | Michael Ficarra                             | Michael Ficarra                                 | [:white_check_mark:][tests-function-to-string] |
-|          | [`global`][global]                                                               | Jordan Harband                              | Jordan Harband                                  | [:white_check_mark:][tests-global]             |
-|          | [`import()`][dynamic-import]                                                     | Domenic Denicola                            | Domenic Denicola                                | [:question:][tests-dynamic-import]             |
-|          | [Legacy RegExp features in JavaScript][regexp-legacy]                            | Claude Pache                                | Mark Miller, Claude Pache                       | [:white_check_mark:][tests-regexp-legacy]      |
-|          | [`BigInt`][bigint]                                                               | Daniel Ehrenberg                            | Daniel Ehrenberg                                | [:construction:][tests-bigint]                 |
-|          | [Optional `catch` binding][optional-catch]                                       | Michael Ficarra                             | Michael Ficarra                                 | [:white_check_mark:][tests-optional-catch]     |
-|          | [`import.meta`][import-meta]                                                     | Domenic Denicola                            | Domenic Denicola                                | [:question:][tests-import-meta]                |
-|          | [Private instance methods and accessors][private-methods]                             | Daniel Ehrenberg                            | Daniel Ehrenberg, Kevin Gibbons                 | [:question:][tests-private-methods]            |
-|          | [`Array.prototype.{flatMap,flatten}`][flat]                                      | Brian Terlson, Michael Ficarra              | Brian Terlson, Michael Ficarra                  | [:question:][tests-flat]                       |
-|          | [Numeric separators][numeric_separators]                                         | Sam Goto, Rick Waldron                      | Sam Goto, Rick Waldron                          | [:construction:][tests-numeric_separators]     |
-|          | [Class Public Instance Fields & Private Instance Fields][class-fields]                | Daniel Ehrenberg. Kevin Gibbons                            | Daniel Ehrenberg, Jeff Morrison, Kevin Smith, Kevin Gibbons                 | [:question:][tests-class-fields]               |
-|          | [JSON superset][json-superset]                         | Richard Gibson     | Mark Miller, Mathias Bynens                  |
-|          | [`String.prototype.{trimStart,trimEnd}`][trims]        | Sebastian Markbåge | Sebastian Markbåge                           |
-|          | [`String.prototype.matchAll`][matchall]                          | Jordan Harband     | Jordan Harband                               |
+| :rocket: | Proposal                                                                         | Author                                      | Champion                                                    | Tests                                          |
+| -------- | -------------------------------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------- |
+| :rocket: | [`Function.prototype.toString` revision][function-to-string]                     | Michael Ficarra                             | Michael Ficarra                                             | [:white_check_mark:][tests-function-to-string] |
+|          | [`global`][global]                                                               | Jordan Harband                              | Jordan Harband                                              | [:white_check_mark:][tests-global]             |
+|          | [`import()`][dynamic-import]                                                     | Domenic Denicola                            | Domenic Denicola                                            | [:question:][tests-dynamic-import]             |
+|          | [Legacy RegExp features in JavaScript][regexp-legacy]                            | Claude Pache                                | Mark Miller, Claude Pache                                   | [:white_check_mark:][tests-regexp-legacy]      |
+|          | [`BigInt`][bigint]                                                               | Daniel Ehrenberg                            | Daniel Ehrenberg                                            | [:construction:][tests-bigint]                 |
+|          | [Optional `catch` binding][optional-catch]                                       | Michael Ficarra                             | Michael Ficarra                                             | [:white_check_mark:][tests-optional-catch]     |
+|          | [`import.meta`][import-meta]                                                     | Domenic Denicola                            | Domenic Denicola                                            | [:question:][tests-import-meta]                |
+|          | [Private instance methods and accessors][private-methods]                        | Daniel Ehrenberg                            | Daniel Ehrenberg, Kevin Gibbons                             | [:question:][tests-private-methods]            |
+|          | [`Array.prototype.{flatMap,flatten}`][flat]                                      | Brian Terlson, Michael Ficarra              | Brian Terlson, Michael Ficarra                              | [:question:][tests-flat]                       |
+|          | [Numeric separators][numeric_separators]                                         | Sam Goto, Rick Waldron                      | Sam Goto, Rick Waldron                                      | [:construction:][tests-numeric_separators]     |
+|          | [Class Public Instance Fields & Private Instance Fields][class-fields]           | Daniel Ehrenberg, Kevin Gibbons             | Daniel Ehrenberg, Jeff Morrison, Kevin Smith, Kevin Gibbons | [:question:][tests-class-fields]               |
+|          | [JSON superset][json-superset]                                                   | Richard Gibson                              | Mark Miller, Mathias Bynens                                 |
+|          | [`String.prototype.{trimStart,trimEnd}`][trims]                                  | Sebastian Markbåge                          | Sebastian Markbåge                                          | [:white_check_mark:][tests-trims]              |
+|          | [`String.prototype.matchAll`][matchall]                                          | Jordan Harband                              | Jordan Harband                                              |
 
 ### Stage 2
 
-| :rocket: | Proposal                                               | Author             | Champion                                     |
-| -------- | ------------------------------------------------------ | ------------------ | -------------------------------------------- |
-|          | [Static class fields and private static methods][static-class-features]         | Daniel Ehrenberg, Kevin Gibbons, Jeff Morrison, Kevin Smith   | Daniel Ehrenberg              |
-|          | [`function.sent` metaproperty][function-sent]          | Allen Wirfs-Brock  | Allen Wirfs-Brock                            |
-|          | [Decorators][decorators]                               | Daniel Ehrenberg   | Yehuda Katz, Brian Terlson, Daniel Ehrenberg |
-| :rocket: | [`throw` expressions][throw-expressions]               | Ron Buckton        | Ron Buckton                                  |
-|          | [`Atomics.waitAsync`][nonblocking]                     | Lars Hansen        | Shu-yu Guo, Lars Hansen                      |
-|          | [`Symbol.prototype.description`][symbol-description]   | Michael Ficarra    | Michael Ficarra                              |
+| :rocket: | Proposal                                                                    | Author                                                      | Champion                                     |
+| -------- | --------------------------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------- |
+|          | [Static class fields and private static methods][static-class-features]     | Daniel Ehrenberg, Kevin Gibbons, Jeff Morrison, Kevin Smith | Daniel Ehrenberg                             |
+|          | [`function.sent` metaproperty][function-sent]                               | Allen Wirfs-Brock                                           | Allen Wirfs-Brock                            |
+|          | [Decorators][decorators]                                                    | Daniel Ehrenberg                                            | Yehuda Katz, Brian Terlson, Daniel Ehrenberg |
+| :rocket: | [`throw` expressions][throw-expressions]                                    | Ron Buckton                                                 | Ron Buckton                                  |
+|          | [`Atomics.waitAsync`][nonblocking]                                          | Lars Hansen                                                 | Shu-yu Guo, Lars Hansen                      |
+|          | [`Symbol.prototype.description`][symbol-description]                        | Michael Ficarra                                             | Michael Ficarra                              |
 
 ### Stage 1
 
@@ -76,10 +76,10 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`Object.freeze` + `Object.seal` syntax][freeze-seal-syntax]                                 | Keith Cirkel                                 | Keith Cirkel                                 |
 |          | [Block Params][block-params]                                                                 | Sam Goto                                     | Sam Goto                                     |
 |          | [`{BigInt,Number}.fromString`][from-string]                                                  | Mathias Bynens                               | Mathias Bynens                               |
-|          | [`Math.seededRandoms()`][seeded-randoms]                                                     | Tab Atkins                                   | Tab Atkins
-|          | [`Function.prototype.toString()` censorship][censorship]                                     | Domenic Denicola                             | Domenic Denicola
-|          | [Top-level `await`][await]                                                                   | Myles Borins                                 | Myles Borins
-|          | [Maximally minimal mixins][mixins]                                                           | Justin Fagnani                               | Justin Fagnani
+|          | [`Math.seededRandoms()`][seeded-randoms]                                                     | Tab Atkins                                   | Tab Atkins                                   |
+|          | [`Function.prototype.toString()` censorship][censorship]                                     | Domenic Denicola                             | Domenic Denicola                             |
+|          | [Top-level `await`][await]                                                                   | Myles Borins                                 | Myles Borins                                 |
+|          | [Maximally minimal mixins][mixins]                                                           | Justin Fagnani                               | Justin Fagnani                               |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -112,6 +112,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [optional-catch]: https://github.com/tc39/proposal-optional-catch-binding
 [function-sent]: https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md
 [trims]: https://github.com/sebmarkbage/ecmascript-string-left-right-trim
+[tests-trims]: https://github.com/tc39/test262/pull/1246
 [decorators]: http://github.com/tc39/proposal-decorators
 [import-meta]: https://github.com/tc39/proposal-import-meta
 [numeric_separators]: https://github.com/tc39/proposal-numeric-separator
