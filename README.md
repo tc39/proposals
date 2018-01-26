@@ -167,4 +167,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [seeded-randoms]: https://github.com/tabatkins/js-seeded-random
 [censorship]: https://github.com/domenic/proposal-function-prototype-tostring-censorship
 [await]: https://github.com/MylesBorins/proposal-top-level-await
-[mixins]: https://gist.github.com/justinfagnani/9502b5f46599f474a67a5fce2f7af910
+[mixins]: https://github.com/justinfagnani/proposal-mixins
