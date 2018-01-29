@@ -80,6 +80,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`Function.prototype.toString()` censorship][censorship]                                     | Domenic Denicola                             | Domenic Denicola                             |
 |          | [Top-level `await`][await]                                                                   | Myles Borins                                 | Myles Borins                                 |
 |          | [Maximally minimal mixins][mixins]                                                           | Justin Fagnani                               | Justin Fagnani                               |
+| :rocket: | [Getting last element of Array][arraylast]                                                   | Keith Cirkel                                 | Keith Cirkel                                 |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -168,3 +169,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [censorship]: https://github.com/domenic/proposal-function-prototype-tostring-censorship
 [await]: https://github.com/MylesBorins/proposal-top-level-await
 [mixins]: https://github.com/justinfagnani/proposal-mixins
+[arraylast]: https://github.com/keithamus/proposal-array-last
