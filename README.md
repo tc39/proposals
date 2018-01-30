@@ -81,6 +81,8 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Top-level `await`][await]                                                                   | Myles Borins                                 | Myles Borins                                 |
 |          | [Maximally minimal mixins][mixins]                                                           | Justin Fagnani                               | Justin Fagnani                               |
 | :rocket: | [Getting last element of Array][arraylast]                                                   | Keith Cirkel                                 | Keith Cirkel                                 |
+|          | [New Set methods][set-methods]                                                               | Michał Wadas                                 | Sathya Gunasekaran                           |
+|          | [Collection methods][collection-methods]                                                     | Michał Wadas                                 | Sathya Gunasekaran                           |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -170,3 +172,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [await]: https://github.com/MylesBorins/proposal-top-level-await
 [mixins]: https://github.com/justinfagnani/proposal-mixins
 [arraylast]: https://github.com/keithamus/proposal-array-last
+[set-methods]: https://github.com/Ginden/set-methods
+[collection-methods]: https://github.com/Ginden/collection-methods
