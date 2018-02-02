@@ -172,5 +172,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [await]: https://github.com/MylesBorins/proposal-top-level-await
 [mixins]: https://github.com/justinfagnani/proposal-mixins
 [arraylast]: https://github.com/keithamus/proposal-array-last
-[set-methods]: https://github.com/Ginden/set-methods
-[collection-methods]: https://github.com/Ginden/collection-methods
+[set-methods]: https://github.com/tc39/set-methods
+[collection-methods]: https://github.com/tc39/collection-methods
