@@ -14,6 +14,7 @@ Stage 0 proposals are either
 |          | [Function bind syntax][bind-syntax]                                        | Kevin Smith                        | Brian Terlson & Matthew Podwysocki |
 |          | [Function expression decorators][func-expr-decorators]                     | Igor Minar                         | Igor Minar                         |
 |          | [Method parameter decorators][method-param-decorators]                     | Igor Minar                         | Igor Minar                         |
+|          | [Module Keys][module-keys]                                                 | Mike Samuel                        | Mike Samuel                        |
 |          | [Nested `import` declarations][nested-imports]                             | Ben Newman                         | Ben Newman                         |
 |          | [Normative ICU Reference][icu]                                             | Domenic Denicola                   | Domenic Denicola                   |
 |          | [Orthogonal Classes][ortho]                                                | Mark Miller & Allen Wirfs-Brock    | Mark Miller & Allen Wirfs-Brock    |
@@ -54,3 +55,4 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [is-types]: https://github.com/jasnell/proposal-istypes
 [buffer-transfer]: https://gist.github.com/lukewagner/2735af7eea411e18cf20
 [decimal]: https://docs.google.com/presentation/d/1jPsw7EGsS6BW59_BDRu9o0o3UwSXQeUhi38QG55ZoPI/edit?pli=1#slide=id.p
+[module-keys]: https://github.com/mikesamuel/tc39-module-keys
