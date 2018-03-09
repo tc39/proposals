@@ -5,30 +5,30 @@ Stage 0 proposals are either
 * planned to be presented to the committee by a TC39 champion, or
 * have been presented to the committee and not rejected definitively, but have not yet achieved any of the criteria to get into stage 1.
 
-| :rocket: | Proposal                                                                   | Author                             | Champion                           |
-|----------|----------------------------------------------------------------------------|----------------------------------- | -----------------------------------|
-|          | [Additional metaproperties][metaprops]                                     | Allen Wirfs-Brock                  | Allen Wirfs-Brock                  |
-|          | Annex B — HTML Attribute Event Handlers                                    | Allen Wirfs-Brock                  | Allen Wirfs-Brock                  |
-|          | [`%constructor%.construct(thisArg[, arguments])`][construct]               | James M Snell                      | James M Snell                      |
-|          | [Defensible Classes][defensible-classes]                                   | Mark Miller & Doug Crockford       | Mark Miller & Doug Crockford       |
-|          | [Function bind syntax][bind-syntax]                                        | Kevin Smith                        | Brian Terlson & Matthew Podwysocki |
-|          | [Function expression decorators][func-expr-decorators]                     | Igor Minar                         | Igor Minar                         |
-|          | [Method parameter decorators][method-param-decorators]                     | Igor Minar                         | Igor Minar                         |
-|          | [Module Keys][module-keys]                                                 | Mike Samuel                        | Mike Samuel                        |
-|          | [Nested `import` declarations][nested-imports]                             | Ben Newman                         | Ben Newman                         |
-|          | [Normative ICU Reference][icu]                                             | Domenic Denicola                   | Domenic Denicola                   |
-|          | [Orthogonal Classes][ortho]                                                | Mark Miller & Allen Wirfs-Brock    | Mark Miller & Allen Wirfs-Brock    |
-|          | [Pattern Matching][matching]                                               | Brian Terlson                      | Brian Terlson & Sebastian Markbåge |
-|          | [`Reflect.isCallable`/`Reflect.isConstructor`][is-callable-is-constructor] | Caitlin Potter                     | Caitlin Potter                     |
-|          | [Relationships][relationships]                                             | Mark Miller & Waldemar Horwat      | Mark Miller & Waldemar Horwat      |
-|          | [`String.prototype.at`][string-at]                                         | Mathias Bynens                     | Mathias Bynens & Rick Waldron      |
-|          | [Structured Clone][clone]                                                  | Dmitry Lomov                       | Dmitry Lomov                       |
-|          | [WHATWG URL][url]                                                          | James M Snell                      | James M Snell                      |
-|          | [Zones][zones] ([spec][zones-spec])                                        | Domenic Denicola                   | Domenic Denicola & Miško Hevery    |
-|          | [Object Shorthand Improvements][object-shorthand-improvements]             | Ron Buckton                        | Ron Buckton                        |
-|          | [`Builtins.typeOf()` and `Builtins.is()`][is-types]                        | James M Snell                      | James M Snell                      |
-|          | [`ArrayBuffer.transfer`][buffer-transfer]                                  | Domenic Denicola                   | Domenic Denicola                   |
-|          | [Decimal][decimal]                                                         | Andrew Paprocki & Daniel Ehrenberg | Andrew Paprocki & Daniel Ehrenberg |
+| :rocket: | Proposal                                                                   | Author                             | Champion                           | Last Presented              |
+|----------|----------------------------------------------------------------------------|----------------------------------- | -----------------------------------|-----------------------------|
+|          | [Additional metaproperties][metaprops]                                     | Allen Wirfs-Brock                  | Allen Wirfs-Brock                  |                             |
+|          | Annex B — HTML Attribute Event Handlers                                    | Allen Wirfs-Brock                  | Allen Wirfs-Brock                  |                             |
+|          | [`%constructor%.construct(thisArg[, arguments])`][construct]               | James M Snell                      | James M Snell                      |                             |
+|          | [Defensible Classes][defensible-classes]                                   | Mark Miller & Doug Crockford       | Mark Miller & Doug Crockford       |                             |
+|          | [Function bind syntax][bind-syntax]                                        | Kevin Smith                        | Brian Terlson & Matthew Podwysocki | [March 2015][bind-notes]    |
+|          | [Function expression decorators][func-expr-decorators]                     | Igor Minar                         | Igor Minar                         |                             |
+|          | [Method parameter decorators][method-param-decorators]                     | Igor Minar                         | Igor Minar                         |                             |
+|          | [Module Keys][module-keys]                                                 | Mike Samuel                        | Mike Samuel                        |                             |
+|          | [Nested `import` declarations][nested-imports]                             | Ben Newman                         | Ben Newman                         | [July 2016][nested-notes]   |
+|          | [Normative ICU Reference][icu]                                             | Domenic Denicola                   | Domenic Denicola                   | [May 2017][icu-notes]       |
+|          | [Orthogonal Classes][ortho]                                                | Mark Miller & Allen Wirfs-Brock    | Mark Miller & Allen Wirfs-Brock    | [March 2017][ortho-notes]   |
+|          | [Pattern Matching][matching]                                               | Brian Terlson                      | Brian Terlson & Sebastian Markbåge |                             |
+|          | [`Reflect.isCallable`/`Reflect.isConstructor`][is-callable-is-constructor] | Caitlin Potter                     | Caitlin Potter                     |                             |
+|          | [Relationships][relationships]                                             | Mark Miller & Waldemar Horwat      | Mark Miller & Waldemar Horwat      |                             |
+|          | [`String.prototype.at`][string-at]                                         | Mathias Bynens                     | Mathias Bynens & Rick Waldron      |                             |
+|          | [Structured Clone][clone]                                                  | Dmitry Lomov                       | Dmitry Lomov                       | [Jan 2014][clone-notes]     |
+|          | [WHATWG URL][url]                                                          | James M Snell                      | James M Snell                      |                             |
+|          | [Zones][zones] ([spec][zones-spec])                                        | Domenic Denicola                   | Domenic Denicola & Miško Hevery    | [March 2016][zones-notes]   |
+|          | [Object Shorthand Improvements][object-shorthand-improvements]             | Ron Buckton                        | Ron Buckton                        | [Sep 2017][shorthand-notes] |
+|          | [`Builtins.typeOf()` and `Builtins.is()`][is-types]                        | James M Snell                      | James M Snell                      | [Sep 2017][builtins-notes]  |
+|          | [`ArrayBuffer.transfer`][buffer-transfer]                                  | Domenic Denicola                   | Domenic Denicola                   | [Sep 2017][transfer-notes]  |
+|          | [Decimal][decimal]                                                         | Andrew Paprocki & Daniel Ehrenberg | Andrew Paprocki & Daniel Ehrenberg | [Nov 2017][decimal-notes]   |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -56,3 +56,14 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [buffer-transfer]: https://gist.github.com/lukewagner/2735af7eea411e18cf20
 [decimal]: https://docs.google.com/presentation/d/1jPsw7EGsS6BW59_BDRu9o0o3UwSXQeUhi38QG55ZoPI/edit?pli=1#slide=id.p
 [module-keys]: https://github.com/mikesamuel/tc39-module-keys
+
+[bind-notes]: https://github.com/tc39/tc39-notes/blob/b8da60318b564f136cbe8385f17f42abc0666cdd/es6/2015-03/mar-25.md#6vi-function-bind-and-private-fields-redux-kevin-smith
+[nested-notes]: https://github.com/tc39/tc39-notes/blob/b8da60318b564f136cbe8385f17f42abc0666cdd/es7/2016-07/jul-27.md#10iiic-nested-import-declaration
+[icu-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-05/may-23.md#normative-icu-reference
+[ortho-notes]: https://github.com/tc39/tc39-notes/blob/61dc2f45829a0663af0b4b1d6690717dc70d30d9/es8/2017-03/mar-22.md#10iiia-orthogonal-classes
+[clone-notes]: https://github.com/tc39/tc39-notes/blob/b8da60318b564f136cbe8385f17f42abc0666cdd/es6/2014-01/jan-30.md#structured-clone
+[zones-notes]: https://github.com/tc39/tc39-notes/blob/61dc2f45829a0663af0b4b1d6690717dc70d30d9/es7/2016-03/march-29.md#zones-update
+[shorthand-notes]: https://github.com/tc39/tc39-notes/blob/61dc2f45829a0663af0b4b1d6690717dc70d30d9/es8/2017-09/sep-28.md#13i-object-shorthand-improvements
+[builtins-notes]: https://github.com/tc39/tc39-notes/blob/61dc2f45829a0663af0b4b1d6690717dc70d30d9/es8/2017-09/sep-28.md#14ia-builtinstypeof-and-builtinsis
+[transfer-notes]: https://github.com/tc39/tc39-notes/blob/61dc2f45829a0663af0b4b1d6690717dc70d30d9/es8/2017-09/sep-28.md#arraybuffertransfer
+[decimal-notes]: https://github.com/rwaldron/tc39-notes/blob/b8da60318b564f136cbe8385f17f42abc0666cdd/es8/2017-11/nov-29.md#9ivb-decimal-for-stage-0
