@@ -17,6 +17,7 @@ Stage 0 proposals are either
 |          | [Module Keys][module-keys]                                         | Mike Samuel                           | Mike Samuel                           |                             |
 |          | [Nested `import` declarations][nested-imports]                     | Ben Newman                            | Ben Newman                            | [July 2016][nested-notes]   |
 |          | [Normative ICU Reference][icu]                                     | Domenic Denicola                      | Domenic Denicola                      | [May 2017][icu-notes]       |
+| :rocket: | [`Object.fromEntries`][object-from-entries]                        | Darien Maillet Valentine              | Jordan Harband<br />Kevin Gibbons     |                             |
 |          | [Orthogonal Classes][ortho]                                        | Mark Miller<br />Allen Wirfs-Brock    | Mark Miller<br />Allen Wirfs-Brock    | [March 2017][ortho-notes]   |
 |          | [Pattern Matching][matching]                                       | Brian Terlson                         | Brian Terlson<br />Sebastian Markbåge |                             |
 |          | [`Reflect.{isCallable,isConstructor}`][is-callable-is-constructor] | Caitlin Potter                        | Caitlin Potter                        |                             |
@@ -56,6 +57,7 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [buffer-transfer]: https://gist.github.com/lukewagner/2735af7eea411e18cf20
 [decimal]: https://docs.google.com/presentation/d/1jPsw7EGsS6BW59_BDRu9o0o3UwSXQeUhi38QG55ZoPI/edit?pli=1#slide=id.p
 [module-keys]: https://github.com/mikesamuel/tc39-module-keys
+[object-from-entries]: https://github.com/bakkot/object-from-entries
 
 [bind-notes]: https://github.com/tc39/tc39-notes/blob/b8da60318b564f136cbe8385f17f42abc0666cdd/es6/2015-03/mar-25.md#6vi-function-bind-and-private-fields-redux-kevin-smith
 [nested-notes]: https://github.com/tc39/tc39-notes/blob/b8da60318b564f136cbe8385f17f42abc0666cdd/es7/2016-07/jul-27.md#10iiic-nested-import-declaration
