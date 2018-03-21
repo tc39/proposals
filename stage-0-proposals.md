@@ -9,7 +9,6 @@ Stage 0 proposals are either
 | -------- | ------------------------------------------------------------------ | ------------------------------------- | ------------------------------------- | --------------------------- |
 |          | [Additional metaproperties][metaprops]                             | Allen Wirfs-Brock                     | Allen Wirfs-Brock                     |                             |
 |          | Annex B — HTML Attribute Event Handlers                            | Allen Wirfs-Brock                     | Allen Wirfs-Brock                     |                             |
-|          | [`%constructor%.construct`][construct]                             | James M Snell                         | James M Snell                         |                             |
 |          | [Defensible Classes][defensible-classes]                           | Mark Miller<br />Doug Crockford       | Mark Miller<br />Doug Crockford       |                             |
 |          | [Function bind syntax][bind-syntax]                                | Kevin Smith                           | Brian Terlson<br />Matthew Podwysocki | [March 2015][bind-notes]    |
 |          | [Function expression decorators][func-expr-decorators]             | Igor Minar                            | Igor Minar                            |                             |
@@ -26,7 +25,6 @@ Stage 0 proposals are either
 |          | [WHATWG URL][url]                                                  | James M Snell                         | James M Snell                         |                             |
 |          | [Zones][zones] ([spec][zones-spec])                                | Domenic Denicola                      | Domenic Denicola<br />Miško Hevery    | [March 2016][zones-notes]   |
 |          | [Object Shorthand Improvements][object-shorthand-improvements]     | Ron Buckton                           | Ron Buckton                           | [Sep 2017][shorthand-notes] |
-|          | [`Builtins.typeOf()` and `Builtins.is()`][is-types]                | James M Snell                         | James M Snell                         | [Sep 2017][builtins-notes]  |
 |          | [`ArrayBuffer.transfer`][buffer-transfer]                          | Domenic Denicola                      | Domenic Denicola                      | [Sep 2017][transfer-notes]  |
 |          | [Decimal][decimal]                                                 | Andrew Paprocki<br />Daniel Ehrenberg | Andrew Paprocki<br />Daniel Ehrenberg | [Nov 2017][decimal-notes]   |
 |          | [`deprecated`][deprecated]                                         | James M Snell                         | James M Snell                         |                             |
@@ -36,7 +34,6 @@ Stage 0 proposals are either
 See also the [finished proposals](finished-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md).
 
 [metaprops]: https://github.com/allenwb/ESideas/blob/master/ES7MetaProps.md
-[construct]: https://github.com/jasnell/proposal-construct
 [defensible-classes]: http://wiki.ecmascript.org/doku.php?id=strawman:defensible_classes
 [bind-syntax]: https://github.com/zenparsing/es-function-bind
 [func-expr-decorators]: https://goo.gl/8MmCMG
@@ -53,7 +50,6 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [zones]: https://github.com/domenic/zones
 [zones-spec]: https://domenic.github.io/zones/
 [object-shorthand-improvements]: https://github.com/rbuckton/proposal-shorthand-improvements
-[is-types]: https://github.com/jasnell/proposal-istypes
 [buffer-transfer]: https://gist.github.com/lukewagner/2735af7eea411e18cf20
 [decimal]: https://docs.google.com/presentation/d/1jPsw7EGsS6BW59_BDRu9o0o3UwSXQeUhi38QG55ZoPI/edit?pli=1#slide=id.p
 [module-keys]: https://github.com/mikesamuel/tc39-module-keys

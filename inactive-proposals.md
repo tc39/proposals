@@ -17,7 +17,8 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [SIMD.JS - SIMD APIs][simd]                                          | Peter Jensen, Yehuda Katz            | [Stage 1][simd-notes]: Start with SIMD in WASM; implementations not pursuing SIMD.js for now.
 | [Updates to Tail Calls to include an explicit syntactic opt-in][ptc] | Brian Terlson & Eric Faust           | Inactive |
 | [Object.shallowEqual][shallow-equal]                                 | Sebastian Markbage                   | Withdrawn |
-
+| [`%constructor%.construct`][construct]                               | James M Snell                        | Withdrawn |
+| [`Builtins.typeOf()` and `Builtins.is()`][is-types]                  | James M Snell                        | Withdrawn: can be solved in other ways |
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -36,3 +37,5 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [simd-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es8/2017-03/mar-21.md#conclusionresolution-10
 [ptc]: https://github.com/tc39/proposal-ptc-syntax
 [shallow-equal]: https://github.com/sebmarkbage/ecmascript-shallow-equal
+[construct]: https://github.com/jasnell/proposal-construct
+[is-types]: https://github.com/jasnell/proposal-istypes
