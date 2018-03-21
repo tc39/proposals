@@ -40,6 +40,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | :rocket: | [`throw` expressions][throw-expressions]                                | Ron Buckton                                                             | Ron Buckton                                          |
 |          | [`Atomics.waitAsync`][nonblocking]                                      | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                          |
 |          | [`Symbol.prototype.description`][symbol-description]                    | Michael Ficarra                                                         | Michael Ficarra                                      |
+|          | [Hashbang Grammar][hashbang-grammar]                                    | Bradley Farias                                                          | Bradley Farias
 
 ### Stage 1
 
@@ -176,3 +177,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [set-methods]: https://github.com/tc39/set-methods
 [collection-methods]: https://github.com/tc39/collection-methods
 [object-from-entries]: https://github.com/bakkot/object-from-entries
+[hashbang-grammar]: https://github.com/bmeck/proposal-hashbang
