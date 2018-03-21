@@ -83,7 +83,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | :rocket: | [Getting last element of Array][arraylast]                                                   | Keith Cirkel                                         | Keith Cirkel                                         |
 |          | [New Set methods][set-methods]                                                               | Michał Wadas                                         | Sathya Gunasekaran                                   |
 |          | [Collection methods][collection-methods]                                                     | Michał Wadas                                         | Sathya Gunasekaran                                   |
-|          | [`Object.fromEntries`][object-from-entries]                                                  | Darien Maillet Valentine                             | Jordan Harband<br />Kevin Gibbons     |
+| :rocket: | [`Object.fromEntries`][object-from-entries]                                                  | Darien Maillet Valentine                             | Jordan Harband<br />Kevin Gibbons     |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
