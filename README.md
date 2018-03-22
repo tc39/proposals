@@ -85,7 +85,8 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [New Set methods][set-methods]                                                               | Michał Wadas                                         | Sathya Gunasekaran                                   |
 |          | [Collection methods][collection-methods]                                                     | Michał Wadas                                         | Sathya Gunasekaran                                   |
 | :rocket: | [`Object.fromEntries`][object-from-entries]                                                  | Darien Maillet Valentine                             | Jordan Harband<br />Kevin Gibbons     |
-|          | [Richer Keys][richer-keys]                                                       | Bradley Farias                                       | Bradley Farias
+|          | [Richer Keys][richer-keys]                                                                   | Bradley Farias                                       | Bradley Farias
+|          | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                   | Sathya Gunasekaran
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -180,3 +181,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [object-from-entries]: https://github.com/bakkot/object-from-entries
 [hashbang-grammar]: https://github.com/bmeck/proposal-hashbang
 [richer-keys]: https://docs.google.com/presentation/d/1q3CGeXqskL1gHTATH_VE9Dhj0VGTIAOzJ1cR0dYqDBk/edit#slide=id.p
+[slice-notation]: https://github.com/gsathya/proposal-slice-notation/
