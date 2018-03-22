@@ -41,6 +41,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`Atomics.waitAsync`][nonblocking]                                      | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                          |
 |          | [`Symbol.prototype.description`][symbol-description]                    | Michael Ficarra                                                         | Michael Ficarra                                      |
 |          | [Hashbang Grammar][hashbang-grammar]                                    | Bradley Farias                                                          | Bradley Farias
+|          | [WeakRefs][weakrefs]                                                    | Dean Tribble                                                            | Dean Tribble                                         |
 
 ### Stage 1
 
@@ -49,7 +50,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`Date.parse` fallback semantics][date-parse]                                                | Morgan Phillips                                      | Morgan Phillips                                      |
 |          | [`export v from "mod";` statements][export-from]                                             | Lee Byron                                            | Ben Newman<br />John-David Dalton                    |
 | :rocket: | [Observable][observable]                                                                     | Jafar Husain                                         | Jafar Husain<br />Mark Miller                        |
-|          | [WeakRefs][weakrefs]                                                                         | Dean Tribble                                         | Dean Tribble                                         |
 |          | [Frozen Realms][frozen-realms]                                                               | Mark Miller<br />Chip Morningstar<br />Caridy Patiño | Mark Miller<br />Chip Morningstar<br />Caridy Patiño |
 |          | [`Math` Extensions][more-math]                                                               | Rick Waldron                                         | Rick Waldron                                         |
 |          | [`of` and `from` on collection constructors][collection-of-from]                             | Leo Balter                                           | Leo Balter                                           |
