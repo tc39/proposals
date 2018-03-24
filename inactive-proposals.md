@@ -6,7 +6,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 |----------------------------------------------------------------------|----------|-----------|
 | [`RegExp.escape`][escape]                                            | Domenic Denicola, Benjamin Gruenbaum | [Rejected][escape-notes]: in favor of exploring a template tag function solution
 | [Callable class constructors][callable-constructors]                 | Yehuda Katz and Allen Wirfs-Brock    | Withdrawn: can be solved with decorators |
-| [`Error.isError`][is-error]                                          | Jordan Harband                       | Withdrawn: in favor of a future proposal to standardize `Error` stack traces |
+| [`Error.isError`][is-error]                                          | Jordan Harband                       | Withdrawn: in favor of [`Error` stack traces][error-stacks] proposal |
 | [`{Set,Map}.prototype.toJSON`][collection-json]                      | David Bruant and Jordan Harband      | Rejected: better solved by a custom replacer function. |
 | [Typed Objects][typed-objects]                                       | Till Schneidereit (previously Dmitry Lomov, Niko Matsakis)         | Postponed: waiting for WebAssembly requirements to become clearer |
 | [Object enumerables][object-enums]                                   | Leo Balter & John-David Dalton       | Rejected |
@@ -39,3 +39,4 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [shallow-equal]: https://github.com/sebmarkbage/ecmascript-shallow-equal
 [construct]: https://github.com/jasnell/proposal-construct
 [is-types]: https://github.com/jasnell/proposal-istypes
+[error-stacks]: https://github.com/ljharb/proposal-error-stacks
