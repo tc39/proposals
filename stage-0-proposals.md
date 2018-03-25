@@ -22,7 +22,7 @@ Stage 0 proposals are either
 |          | [Relationships][relationships]                                     | Mark Miller<br />Waldemar Horwat      | Mark Miller<br />Waldemar Horwat      |                             |
 |          | [`String.prototype.at`][string-at]                                 | Mathias Bynens                        | Mathias Bynens<br />Rick Waldron      |                             |
 |          | [Structured Clone][clone]                                          | Dmitry Lomov                          | Dmitry Lomov                          | [Jan 2014][clone-notes]     |
-|          | [Well-formed JSON.stringify][well-formed-stringify]                | Richard Gibson                        |                                       |                             |
+|          | [Well-formed `JSON.stringify`][well-formed-stringify]              | Richard Gibson                        | Mathias Bynens                        |                             |
 |          | [WHATWG URL][url]                                                  | James M Snell                         | James M Snell                         |                             |
 |          | [Zones][zones] ([spec][zones-spec])                                | Domenic Denicola                      | Domenic Denicola<br />Miško Hevery    | [March 2016][zones-notes]   |
 |          | [Object Shorthand Improvements][object-shorthand-improvements]     | Ron Buckton                           | Ron Buckton                           | [Sep 2017][shorthand-notes] |
