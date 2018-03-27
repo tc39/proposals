@@ -17,7 +17,7 @@ Stage 0 proposals are either
 |          | [Nested `import` declarations][nested-imports]                     | Ben Newman                            | Ben Newman                            | [July 2016][nested-notes]   |
 |          | [Normative ICU Reference][icu]                                     | Domenic Denicola                      | Domenic Denicola                      | [May 2017][icu-notes]       |
 |          | [Orthogonal Classes][ortho]                                        | Mark Miller<br />Allen Wirfs-Brock    | Mark Miller<br />Allen Wirfs-Brock    | [March 2017][ortho-notes]   |
-|          | [Pattern Matching][matching]                                       | Brian Terlson                         | Brian Terlson<br />Sebastian Markbåge |                             |
+|          | [Pattern Matching][matching]                                       | Kat Marchán<br />Brian Terlson        | Kat Marchán<br />Brian Terlson<br />Sebastian Markbåge |                             |
 |          | [`Reflect.{isCallable,isConstructor}`][is-callable-is-constructor] | Caitlin Potter                        | Caitlin Potter                        |                             |
 |          | [Relationships][relationships]                                     | Mark Miller<br />Waldemar Horwat      | Mark Miller<br />Waldemar Horwat      |                             |
 |          | [`String.prototype.at`][string-at]                                 | Mathias Bynens                        | Mathias Bynens<br />Rick Waldron      |                             |
