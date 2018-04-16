@@ -34,7 +34,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | :rocket: | Proposal                                                                | Author                                                                  | Champion                                             |
 | -------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------- |
-|          | [Static class fields and private static methods][static-class-features] | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Daniel Ehrenberg                                     |
+|          | [Static class fields and private static methods][static-class-features] | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo and Daniel Ehrenberg        |
 |          | [`function.sent` metaproperty][function-sent]                           | Allen Wirfs-Brock                                                       | Allen Wirfs-Brock                                    |
 |          | [Decorators][decorators]                                                | Daniel Ehrenberg                                                        | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg |
 | :rocket: | [`throw` expressions][throw-expressions]                                | Ron Buckton                                                             | Ron Buckton                                          |
