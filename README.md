@@ -42,6 +42,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [WeakRefs][weakrefs]                                                    | Dean Tribble                                                            | Dean Tribble                                         |
 |          | [`Object.fromEntries`][object-from-entries]                             | Darien Maillet Valentine                                                | Jordan Harband<br />Kevin Gibbons                    |
 |          | [Top-level `await`][await]                                              | Myles Borins                                                            | Myles Borins                                         |
+|          | [New Set methods][set-methods]          | Michał Wadas                  | Sathya Gunasekaran                                                      |
 
 ### Stage 1
 
@@ -81,7 +82,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`Function.prototype.toString()` censorship][censorship]                                     | Domenic Denicola                                     | Domenic Denicola                                     |
 |          | [Maximally minimal mixins][mixins]                                                           | Justin Fagnani                                       | Justin Fagnani                                       |
 | :rocket: | [Getting last element of Array][arraylast]                                                   | Keith Cirkel                                         | Keith Cirkel                                         |
-|          | [New Set methods][set-methods]                                                               | Michał Wadas                                         | Sathya Gunasekaran                                   |
 |          | [Collection methods][collection-methods]                                                     | Michał Wadas                                         | Sathya Gunasekaran                                   |
 |          | [Richer Keys][richer-keys]                                                                   | Bradley Farias                                       | Bradley Farias
 |          | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                   | Sathya Gunasekaran
