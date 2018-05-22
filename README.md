@@ -20,7 +20,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`import()`][dynamic-import]                                           | Domenic Denicola                    | Domenic Denicola                                                        | [:question:][tests-dynamic-import]             |
 |          | [Legacy RegExp features in JavaScript][regexp-legacy]                  | Claude Pache                        | Mark Miller<br />Claude Pache                                           | [:white_check_mark:][tests-regexp-legacy]      |
 |          | [`BigInt`][bigint]                                                     | Daniel Ehrenberg                    | Daniel Ehrenberg                                                        | [:construction:][tests-bigint]                 |
-| :rocket: | [Optional `catch` binding][optional-catch]                             | Michael Ficarra                     | Michael Ficarra                                                         | [:white_check_mark:][tests-optional-catch]     |
 |          | [`import.meta`][import-meta]                                           | Domenic Denicola                    | Domenic Denicola                                                        | [:question:][tests-import-meta]                |
 |          | [Private instance methods and accessors][private-methods]              | Daniel Ehrenberg                    | Daniel Ehrenberg<br />Kevin Gibbons                                     | [:question:][tests-private-methods]            |
 |          | [`Array.prototype.{flatMap,flatten}`][flat]                            | Brian Terlson<br />Michael Ficarra  | Brian Terlson<br />Michael Ficarra                                      | [:white_check_mark:][tests-flat]               |
@@ -117,7 +116,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features
 [bigint]: https://github.com/tc39/proposal-bigint
 [class-fields]: https://github.com/tc39/proposal-class-fields
-[optional-catch]: https://github.com/tc39/proposal-optional-catch-binding
 [function-sent]: https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md
 [trims]: https://github.com/sebmarkbage/ecmascript-string-left-right-trim
 [tests-trims]: https://github.com/tc39/test262/pull/1246
