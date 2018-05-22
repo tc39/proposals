@@ -15,11 +15,11 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Lifting template literal restriction][template-literal-lift]            | Tim Disney                                  | Tim Disney                                      | [March 2017][template-literal-lift-notes] | 2018                      |
 | [`s` (`dotAll`) flag for regular expressions][dot-all]                   | Mathias Bynens                              | Brian Terlson<br />Mathias Bynens                   | [November 2017][dot-all-notes]        | 2018                      |
 | [RegExp named capture groups][named-groups]                              | Gorkem Yakin<br />Daniel Ehrenberg          | Daniel Ehrenberg<br />Brian Terlson<br />Mathias Bynens | [November 2017][named-groups-notes] | 2018                      |
-| [Rest/Spread Properties][object-rest-spread]                             | Sebastian Markbåge                          | Sebastian Markbåge                              | January 2018                              | 2018
-| [RegExp Lookbehind Assertions][lookbehind]                               | Gorkem Yakin<br />Nozomu Katō<br />Daniel Ehrenberg | Daniel Ehrenberg<br />Mathias Bynens                | January 2018                  | 2018
-| [RegExp Unicode Property Escapes][unicode-escapes]                       | Mathias Bynens                              | Brian Terlson<br />Daniel Ehrenberg<br />Mathias Bynens | January 2018                      | 2018
-| [`Promise.prototype.finally`][finally]                                   | Jordan Harband                              | Jordan Harband                                  | January 2018                              | 2018
-| [Asynchronous Iteration][async-iteration]                                | Domenic Denicola                            | Domenic Denicola                                | January 2018                              | 2018
+| [Rest/Spread Properties][object-rest-spread]                             | Sebastian Markbåge                          | Sebastian Markbåge                              | [January 2018][object-rest-spread-notes]  | 2018
+| [RegExp Lookbehind Assertions][lookbehind]                               | Gorkem Yakin<br />Nozomu Katō<br />Daniel Ehrenberg | Daniel Ehrenberg<br />Mathias Bynens                | [January 2018][lookbehind-notes] | 2018
+| [RegExp Unicode Property Escapes][unicode-escapes]                       | Mathias Bynens                              | Brian Terlson<br />Daniel Ehrenberg<br />Mathias Bynens | [January 2018][unicode-escapes-notes] | 2018
+| [`Promise.prototype.finally`][finally]                                   | Jordan Harband                              | Jordan Harband                                  | [January 2018][finally-notes]             | 2018
+| [Asynchronous Iteration][async-iteration]                                | Domenic Denicola                            | Domenic Denicola                                | [January 2018][async-iteration-notes]     | 2018
 | [Optional `catch` binding][optional-catch]                               | Michael Ficarra                             | Michael Ficarra                                 | May 2018                                  | 2019
 | [JSON superset][json-superset]                                           | Richard Gibson                              | Mark Miller<br />Mathias Bynens                 | May 2018                                  | 2019
 
@@ -48,9 +48,14 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [named-groups]: https://github.com/tc39/proposal-regexp-named-groups
 [named-groups-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es8/2017-11/nov-28.md#9if-regexp-named-captures-status-update
 [object-rest-spread]: https://github.com/tc39/proposal-object-rest-spread
+[object-rest-spread-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es8/2018-01/jan-23.md#restspread-properties-for-stage-4
 [lookbehind]: https://github.com/tc39/proposal-regexp-lookbehind
+[lookbehind-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es8/2018-01/jan-23.md#conclusionresolution-16
 [unicode-escapes]: https://github.com/tc39/proposal-regexp-unicode-property-escapes
+[unicode-escapes-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es8/2018-01/jan-24.md#conclusionresolution-1
 [finally]: https://github.com/tc39/proposal-promise-finally
+[finally-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es8/2018-01/jan-24.md#conclusionresolution-2
 [async-iteration]: https://github.com/tc39/proposal-async-iteration
+[async-iteration-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es8/2018-01/jan-25.md#conclusionresolution
 [optional-catch]: https://github.com/tc39/proposal-optional-catch-binding
 [json-superset]: https://github.com/tc39/proposal-json-superset
