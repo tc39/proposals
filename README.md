@@ -25,7 +25,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`Array.prototype.{flatMap,flatten}`][flat]                            | Brian Terlson<br />Michael Ficarra  | Brian Terlson<br />Michael Ficarra                                      | [:white_check_mark:][tests-flat]               |
 |          | [Numeric separators][numeric_separators]                               | Sam Goto<br />Rick Waldron          | Sam Goto<br />Rick Waldron                                              | [:white_check_mark:][tests-numeric_separators] |
 |          | [Class Public Instance Fields & Private Instance Fields][class-fields] | Daniel Ehrenberg<br />Kevin Gibbons | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:question:][tests-class-fields]               |
-|          | [JSON superset][json-superset]                                         | Richard Gibson                      | Mark Miller<br />Mathias Bynens                                         |
 |          | [`String.prototype.{trimStart,trimEnd}`][trims]                        | Sebastian Markbåge                  | Sebastian Markbåge                                                      | [:white_check_mark:][tests-trims]              |
 |          | [`String.prototype.matchAll`][matchall]                                | Jordan Harband                      | Jordan Harband                                                          |
 
@@ -147,7 +146,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [extensible-literals]: https://github.com/littledan/proposal-extensible-numeric-literals
 [protocols]: https://github.com/michaelficarra/proposal-first-class-protocols
-[json-superset]: https://github.com/tc39/proposal-json-superset
 [nullish-coalescing]: https://github.com/tc39/proposal-nullish-coalescing
 [partial-application]: https://github.com/tc39/proposal-partial-application
 [cancel-api]: https://github.com/tc39/proposal-cancellation

@@ -21,6 +21,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Promise.prototype.finally`][finally]                                   | Jordan Harband                              | Jordan Harband                                  | January 2018
 | [Asynchronous Iteration][async-iteration]                                | Domenic Denicola                            | Domenic Denicola                                | January 2018
 | [Optional `catch` binding][optional-catch]                               | Michael Ficarra                             | Michael Ficarra                                 | May 2018
+| [JSON superset][json-superset]                                           | Richard Gibson                              | Mark Miller<br />Mathias Bynens                 | May 2018
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -52,3 +53,4 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [finally]: https://github.com/tc39/proposal-promise-finally
 [async-iteration]: https://github.com/tc39/proposal-async-iteration
 [optional-catch]: https://github.com/tc39/proposal-optional-catch-binding
+[json-superset]: https://github.com/tc39/proposal-json-superset
