@@ -40,6 +40,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`Atomics.waitAsync`][nonblocking]                                      | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                          |
 |          | [Hashbang Grammar][hashbang-grammar]                                    | Bradley Farias                                                          | Bradley Farias
 |          | [WeakRefs][weakrefs]                                                    | Dean Tribble                                                            | Dean Tribble                                         |
+|          | [`Object.fromEntries`][object-from-entries]                             | Darien Maillet Valentine                                                | Jordan Harband<br />Kevin Gibbons                    |
 
 ### Stage 1
 
@@ -82,7 +83,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | :rocket: | [Getting last element of Array][arraylast]                                                   | Keith Cirkel                                         | Keith Cirkel                                         |
 |          | [New Set methods][set-methods]                                                               | Michał Wadas                                         | Sathya Gunasekaran                                   |
 |          | [Collection methods][collection-methods]                                                     | Michał Wadas                                         | Sathya Gunasekaran                                   |
-| :rocket: | [`Object.fromEntries`][object-from-entries]                                                  | Darien Maillet Valentine                             | Jordan Harband<br />Kevin Gibbons     |
 |          | [Richer Keys][richer-keys]                                                                   | Bradley Farias                                       | Bradley Farias
 |          | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                   | Sathya Gunasekaran
 |          | [Logical Assignment Operators][logical-assignment]                                           | Justin Ridgewell                                     | Justin Ridgewell
