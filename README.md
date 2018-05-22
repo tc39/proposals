@@ -42,6 +42,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [WeakRefs][weakrefs]                                                    | Dean Tribble                                                            | Dean Tribble                                         |
 |          | [`Object.fromEntries`][object-from-entries]                             | Darien Maillet Valentine                                                | Jordan Harband<br />Kevin Gibbons                    |
 |          | [Top-level `await`][await]                                              | Myles Borins                                                            | Myles Borins                                         |
+|          | [`Function.prototype.toString()` censorship][censorship] | Domenic Denicola | Domenic Denicola                                                    |
 |          | [New Set methods][set-methods]          | Michał Wadas                  | Sathya Gunasekaran                                                      |
 |          | [Well-formed `JSON.stringify`][well-formed-stringify] | Richard Gibson  | Mathias Bynens                                                          |
 
@@ -80,7 +81,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Block Params][block-params]                                                                 | Sam Goto                                             | Sam Goto                                             |
 |          | [`{BigInt,Number}.fromString`][from-string]                                                  | Mathias Bynens                                       | Mathias Bynens                                       |
 |          | [`Math.seededRandoms()`][seeded-randoms]                                                     | Tab Atkins                                           | Tab Atkins                                           |
-|          | [`Function.prototype.toString()` censorship][censorship]                                     | Domenic Denicola                                     | Domenic Denicola                                     |
 |          | [Maximally minimal mixins][mixins]                                                           | Justin Fagnani                                       | Justin Fagnani                                       |
 | :rocket: | [Getting last element of Array][arraylast]                                                   | Keith Cirkel                                         | Keith Cirkel                                         |
 |          | [Collection methods][collection-methods]                                                     | Michał Wadas                                         | Sathya Gunasekaran                                   |
