@@ -86,6 +86,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Richer Keys][richer-keys]                                                                   | Bradley Farias                                       | Bradley Farias
 |          | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                   | Sathya Gunasekaran
 |          | [Logical Assignment Operators][logical-assignment]                                           | Justin Ridgewell                                     | Justin Ridgewell
+|          | [Sequence properties in Unicode property escapes][unicode-sequence-properties]               | Mathias Bynens                                       | Mathias Bynens
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -180,3 +181,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [richer-keys]: https://docs.google.com/presentation/d/1q3CGeXqskL1gHTATH_VE9Dhj0VGTIAOzJ1cR0dYqDBk/edit#slide=id.p
 [slice-notation]: https://github.com/gsathya/proposal-slice-notation/
 [logical-assignment]: https://github.com/jridgewell/proposal-logical-assignment
+[unicode-sequence-properties]: https://github.com/mathiasbynens/proposal-regexp-unicode-sequence-properties
