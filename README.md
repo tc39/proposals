@@ -43,6 +43,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`Object.fromEntries`][object-from-entries]                             | Darien Maillet Valentine                                                | Jordan Harband<br />Kevin Gibbons                    |
 |          | [Top-level `await`][await]                                              | Myles Borins                                                            | Myles Borins                                         |
 |          | [New Set methods][set-methods]          | Michał Wadas                  | Sathya Gunasekaran                                                      |
+|          | [Well-formed `JSON.stringify`][well-formed-stringify] | Richard Gibson  | Mathias Bynens                                                          |
 
 ### Stage 1
 
@@ -182,3 +183,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [slice-notation]: https://github.com/gsathya/proposal-slice-notation/
 [logical-assignment]: https://github.com/jridgewell/proposal-logical-assignment
 [unicode-sequence-properties]: https://github.com/mathiasbynens/proposal-regexp-unicode-sequence-properties
+[well-formed-stringify]: https://github.com/gibson042/ecma262-proposal-well-formed-stringify

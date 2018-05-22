@@ -22,7 +22,6 @@ Stage 0 proposals are either
 |          | [Relationships][relationships]                                     | Mark Miller<br />Waldemar Horwat      | Mark Miller<br />Waldemar Horwat      |                             |
 |          | [`String.prototype.at`][string-at]                                 | Mathias Bynens                        | Mathias Bynens<br />Rick Waldron      |                             |
 |          | [Structured Clone][clone]                                          | Dmitry Lomov                          | Dmitry Lomov                          | [Jan 2014][clone-notes]     |
-|          | [Well-formed `JSON.stringify`][well-formed-stringify]              | Richard Gibson                        | Mathias Bynens                        |                             |
 |          | [WHATWG URL][url]                                                  | James M Snell                         | James M Snell                         |                             |
 |          | [Zones][zones] ([spec][zones-spec])                                | Domenic Denicola                      | Domenic Denicola<br />Miško Hevery    | [March 2016][zones-notes]   |
 |          | [Object Shorthand Improvements][object-shorthand-improvements]     | Ron Buckton                           | Ron Buckton                           | [Sep 2017][shorthand-notes] |
@@ -48,7 +47,6 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [relationships]: http://wiki.ecmascript.org/doku.php?id=strawman:relationships
 [string-at]: https://github.com/mathiasbynens/String.prototype.at
 [clone]: https://github.com/dslomov-chromium/ecmascript-structured-clone
-[well-formed-stringify]: https://github.com/gibson042/ecma262-proposal-well-formed-stringify
 [url]: https://github.com/jasnell/proposal-url
 [zones]: https://github.com/domenic/zones
 [zones-spec]: https://domenic.github.io/zones/
