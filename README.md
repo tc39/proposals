@@ -171,7 +171,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [from-string]: https://github.com/mathiasbynens/proposal-number-fromstring
 [seeded-randoms]: https://github.com/tabatkins/js-seeded-random
 [censorship]: https://github.com/domenic/proposal-function-prototype-tostring-censorship
-[await]: https://github.com/MylesBorins/proposal-top-level-await
+[await]: https://github.com/tc39/proposal-top-level-await
 [mixins]: https://github.com/justinfagnani/proposal-mixins
 [arraylast]: https://github.com/keithamus/proposal-array-last
 [set-methods]: https://github.com/tc39/set-methods
