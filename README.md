@@ -27,6 +27,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Class Public Instance Fields & Private Instance Fields][class-fields] | Daniel Ehrenberg<br />Kevin Gibbons | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:question:][tests-class-fields]               |
 |          | [`String.prototype.{trimStart,trimEnd}`][trims]                        | Sebastian Markbåge                  | Sebastian Markbåge                                                      | [:white_check_mark:][tests-trims]              |
 |          | [`String.prototype.matchAll`][matchall]                                | Jordan Harband                      | Jordan Harband                                                          |
+|          | [`Symbol.prototype.description`][symbol-description]                   | Michael Ficarra                     | Michael Ficarra                                                         |
 
 ### Stage 2
 
@@ -37,7 +38,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Decorators][decorators]                                                | Daniel Ehrenberg                                                        | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg |
 | :rocket: | [`throw` expressions][throw-expressions]                                | Ron Buckton                                                             | Ron Buckton                                          |
 |          | [`Atomics.waitAsync`][nonblocking]                                      | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                          |
-| :rocket: | [`Symbol.prototype.description`][symbol-description]                    | Michael Ficarra                                                         | Michael Ficarra                                      |
 |          | [Hashbang Grammar][hashbang-grammar]                                    | Bradley Farias                                                          | Bradley Farias
 |          | [WeakRefs][weakrefs]                                                    | Dean Tribble                                                            | Dean Tribble                                         |
 
