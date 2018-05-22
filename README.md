@@ -41,6 +41,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Hashbang Grammar][hashbang-grammar]                                    | Bradley Farias                                                          | Bradley Farias
 |          | [WeakRefs][weakrefs]                                                    | Dean Tribble                                                            | Dean Tribble                                         |
 |          | [`Object.fromEntries`][object-from-entries]                             | Darien Maillet Valentine                                                | Jordan Harband<br />Kevin Gibbons                    |
+|          | [Top-level `await`][await]                                              | Myles Borins                                                            | Myles Borins                                         |
 
 ### Stage 1
 
@@ -78,7 +79,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`{BigInt,Number}.fromString`][from-string]                                                  | Mathias Bynens                                       | Mathias Bynens                                       |
 |          | [`Math.seededRandoms()`][seeded-randoms]                                                     | Tab Atkins                                           | Tab Atkins                                           |
 |          | [`Function.prototype.toString()` censorship][censorship]                                     | Domenic Denicola                                     | Domenic Denicola                                     |
-|          | [Top-level `await`][await]                                                                   | Myles Borins                                         | Myles Borins                                         |
 |          | [Maximally minimal mixins][mixins]                                                           | Justin Fagnani                                       | Justin Fagnani                                       |
 | :rocket: | [Getting last element of Array][arraylast]                                                   | Keith Cirkel                                         | Keith Cirkel                                         |
 |          | [New Set methods][set-methods]                                                               | Michał Wadas                                         | Sathya Gunasekaran                                   |
