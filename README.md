@@ -109,7 +109,7 @@ Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub org
   - if you are a TC39 delegate, but not an admin in that organization, please contact [@LJHarb](https://github.com/ljharb)
 2. [@bterlson](https://github.com/bterlson), [@littledan](https://github.com/littledan), or [@leobalter](https://github.com/leobalter) will transfer your repository to the TC39 organization the next chance they get.
 
-Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work - although Github Pages redirects will be broken (please update your links!).
+Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work **as long as** you never create a fork, or a new repository, with the same name - although Github Pages redirects will be broken (please update your links!).
 
 [function-to-string]: https://github.com/tc39/Function-prototype-toString-revision
 [global]: https://github.com/tc39/proposal-global
