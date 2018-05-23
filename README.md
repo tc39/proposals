@@ -90,6 +90,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Sequence properties in Unicode property escapes][unicode-sequence-properties]               | Mathias Bynens                                       | Mathias Bynens
 |          | [Module Keys][module-keys]                                                                   | Mike Samuel                                          | Mike Samuel
 |          | [Class Static Block][static-blocks]                                                          | Ron Buckton                                          | Ron Buckton
+|          | [class Access Expressions][class-access-expressions]                                         | Ron Buckton                                          | Ron Buckton
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -188,3 +189,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [well-formed-stringify]: https://github.com/gibson042/ecma262-proposal-well-formed-stringify
 [module-keys]: https://github.com/mikesamuel/tc39-module-keys
 [static-blocks]: https://github.com/rbuckton/proposal-class-static-block#readme
+[class-access-expressions]: https://github.com/rbuckton/proposal-class-access-expressions
