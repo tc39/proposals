@@ -88,6 +88,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                   | Sathya Gunasekaran
 |          | [Logical Assignment Operators][logical-assignment]                                           | Justin Ridgewell                                     | Justin Ridgewell
 |          | [Sequence properties in Unicode property escapes][unicode-sequence-properties]               | Mathias Bynens                                       | Mathias Bynens
+|          | [Module Keys][module-keys]                                                                   | Mike Samuel                                          | Mike Samuel
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -184,3 +185,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [logical-assignment]: https://github.com/jridgewell/proposal-logical-assignment
 [unicode-sequence-properties]: https://github.com/mathiasbynens/proposal-regexp-unicode-sequence-properties
 [well-formed-stringify]: https://github.com/gibson042/ecma262-proposal-well-formed-stringify
+[module-keys]: https://github.com/mikesamuel/tc39-module-keys

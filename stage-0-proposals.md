@@ -13,7 +13,6 @@ Stage 0 proposals are either
 |          | [Function bind syntax][bind-syntax]                                | Kevin Smith                           | Brian Terlson<br />Matthew Podwysocki | [March 2015][bind-notes]    |
 |          | [Function expression decorators][func-expr-decorators]             | Igor Minar                            | Igor Minar                            |                             |
 |          | [Method parameter decorators][method-param-decorators]             | Igor Minar                            | Igor Minar                            |                             |
-|          | [Module Keys][module-keys]                                         | Mike Samuel                           | Mike Samuel                           |                             |
 |          | [Nested `import` declarations][nested-imports]                     | Ben Newman                            | Ben Newman                            | [July 2016][nested-notes]   |
 |          | [Normative ICU Reference][icu]                                     | Domenic Denicola                      | Domenic Denicola                      | [May 2017][icu-notes]       |
 |          | [Orthogonal Classes][ortho]                                        | Mark Miller<br />Allen Wirfs-Brock    | Mark Miller<br />Allen Wirfs-Brock    | [March 2017][ortho-notes]   |
@@ -53,7 +52,6 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [object-shorthand-improvements]: https://github.com/rbuckton/proposal-shorthand-improvements
 [buffer-transfer]: https://gist.github.com/lukewagner/2735af7eea411e18cf20
 [decimal]: https://docs.google.com/presentation/d/1jPsw7EGsS6BW59_BDRu9o0o3UwSXQeUhi38QG55ZoPI/edit?pli=1#slide=id.p
-[module-keys]: https://github.com/mikesamuel/tc39-module-keys
 [deprecated]: https://github.com/jasnell/proposal-deprecated
 [as-patterns]: https://github.com/zkat/proposal-as-patterns
 
