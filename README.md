@@ -45,6 +45,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`Function.prototype.toString()` censorship][censorship] | Domenic Denicola | Domenic Denicola                                                    |
 |          | [New Set methods][set-methods]          | Michał Wadas                  | Sathya Gunasekaran                                                      |
 |          | [Well-formed `JSON.stringify`][well-formed-stringify] | Richard Gibson  | Mathias Bynens                                                          |
+|          | [Realms][realms]                        | Caridy Patiño<br />Jean-Francois Paradis | Dave Herman<br />Mark Miller<br />Caridy Patiño              |
 
 ### Stage 1
 
@@ -62,7 +63,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`Math.signbit`: IEEE-754 sign bit][signbit]                                                 | JF Bastien                                           | JF Bastien                                           |
 |          | [Error stacks][stacks]                                                                       | Jordan Harband                                       | Jordan Harband                                       |
 |          | [`do` expressions][do]                                                                       | Dave Herman                                          | Dave Herman                                          |
-|          | [Realms][realms]                                                                             | Caridy Patiño<br />Jean-Francois Paradis             | Dave Herman<br />Mark Miller<br />Caridy Patiño      |
 |          | [Temporal][temporal]                                                                         | Maggie Pint<br />Matt Johnson                        | Maggie Pint<br />Brian Terlson                       |
 |          | [Float16 on TypedArrays, DataView, `Math.hfround`][float16s]                                 | Leo Balter                                           | Leo Balter                                           |
 |          | Change `Number.parseInt`/`parseFloat` to not coerce `null`/`undefined`/`NaN` (repo link TBD) |                                                      | Brendan Eich                                         |
