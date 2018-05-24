@@ -23,7 +23,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`import.meta`][import-meta]                                           | Domenic Denicola                    | Domenic Denicola                                                        | [:question:][tests-import-meta]                |
 |          | [Private instance methods and accessors][private-methods]              | Daniel Ehrenberg                    | Daniel Ehrenberg<br />Kevin Gibbons                                     | [:question:][tests-private-methods]            |
 |          | [`Array.prototype.{flat,flatMap}`][flat]                                   | Brian Terlson<br />Michael Ficarra  | Brian Terlson<br />Michael Ficarra                                      | [:white_check_mark:][tests-flat]               |
-|          | [Numeric separators][numeric_separators]                               | Sam Goto<br />Rick Waldron          | Sam Goto<br />Rick Waldron                                              | [:white_check_mark:][tests-numeric_separators] |
 |          | [Class Public Instance Fields & Private Instance Fields][class-fields] | Daniel Ehrenberg<br />Kevin Gibbons | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:question:][tests-class-fields]               |
 |          | [Static class fields and private static methods][static-class-features] | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo and Daniel Ehrenberg    |
 |          | [`String.prototype.{trimStart,trimEnd}`][trims]                        | Sebastian Markbåge                  | Sebastian Markbåge                                                      | [:white_check_mark:][tests-trims]              |
@@ -34,6 +33,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | :rocket: | Proposal                                                                | Author                                                                  | Champion                                             |
 | -------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------- |
+|          | [Numeric separators][numeric_separators]                                | Sam Goto<br />Rick Waldron                                              | Sam Goto<br />Rick Waldron
 |          | [`function.sent` metaproperty][function-sent]                           | Allen Wirfs-Brock                                                       | Allen Wirfs-Brock                                    |
 |          | [Decorators][decorators]                                                | Daniel Ehrenberg                                                        | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg |
 | :rocket: | [`throw` expressions][throw-expressions]                                | Ron Buckton                                                             | Ron Buckton                                          |
