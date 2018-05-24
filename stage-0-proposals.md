@@ -16,7 +16,6 @@ Stage 0 proposals are either
 |          | [Nested `import` declarations][nested-imports]                     | Ben Newman                            | Ben Newman                            | [July 2016][nested-notes]   |
 |          | [Normative ICU Reference][icu]                                     | Domenic Denicola                      | Domenic Denicola                      | [May 2017][icu-notes]       |
 |          | [Orthogonal Classes][ortho]                                        | Mark Miller<br />Allen Wirfs-Brock    | Mark Miller<br />Allen Wirfs-Brock    | [March 2017][ortho-notes]   |
-|          | [Pattern Matching][matching]                                       | Kat Marchán<br />Brian Terlson        | Kat Marchán<br />Brian Terlson<br />Sebastian Markbåge |                             |
 |          | [`Reflect.{isCallable,isConstructor}`][is-callable-is-constructor] | Caitlin Potter                        | Caitlin Potter                        |                             |
 |          | [Relationships][relationships]                                     | Mark Miller<br />Waldemar Horwat      | Mark Miller<br />Waldemar Horwat      |                             |
 |          | [`String.prototype.at`][string-at]                                 | Mathias Bynens                        | Mathias Bynens<br />Rick Waldron      |                             |
@@ -41,7 +40,6 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [nested-imports]: https://github.com/benjamn/reify/blob/master/PROPOSAL.md
 [icu]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-05/may-23.md#normative-icu-reference
 [ortho]: https://github.com/erights/Orthogonal-Classes
-[matching]: https://github.com/tc39/proposal-pattern-matching
 [is-callable-is-constructor]: https://github.com/caitp/TC39-Proposals/blob/master/tc39-reflect-isconstructor-iscallable.md
 [relationships]: http://wiki.ecmascript.org/doku.php?id=strawman:relationships
 [string-at]: https://github.com/mathiasbynens/String.prototype.at

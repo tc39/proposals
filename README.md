@@ -91,6 +91,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Module Keys][module-keys]                                                                   | Mike Samuel                                          | Mike Samuel
 |          | [Class Static Block][static-blocks]                                                          | Ron Buckton                                          | Ron Buckton
 |          | [class Access Expressions][class-access-expressions]                                         | Ron Buckton                                          | Ron Buckton
+|          | [Pattern Matching][matching]                                                                 | Kat Marchán<br />Brian Terlson                       | Kat Marchán<br />Brian Terlson<br />Sebastian Markbåge
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -190,3 +191,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [module-keys]: https://github.com/mikesamuel/tc39-module-keys
 [static-blocks]: https://github.com/rbuckton/proposal-class-static-block#readme
 [class-access-expressions]: https://github.com/rbuckton/proposal-class-access-expressions
+[matching]: https://github.com/tc39/proposal-pattern-matching
