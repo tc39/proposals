@@ -28,8 +28,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | :rocket: | Proposal                                                     | Author         | Champion       |
 | -------- | ------------------------------------------------------------ | -------------- | -------------- |
-|          | [`Intl.DurationFormat`][intl.durationformat]                 | Zibi Braniecki | Zibi Braniecki |
-|          | [`Intl.UnitFormat`][intl.unitformat]                         | Zibi Braniecki | Zibi Braniecki |
 |          | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat] | Zibi Braniecki | Zibi Braniecki |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
