@@ -10,7 +10,7 @@ Stage 0 proposals are either
 |          | [Fix 9.2.3 LookupMatcher algorithm][]                                | Rafael Xavier    | Rafael Xavier      |
 |          | [`Intl.NumberFormat` `round` option][intl.numberformat round option] | Rafael Xavier    | Rafael Xavier      |
 |          | [Additional NumberFormat options][numberformat options]              | Shane Carr       | Shane Carr         |
-|          | [Intl.DateFormat.prototype.formatRange][formatrange]                 | Felipe Balbontín | Sathya Gunasekaran |
+|          | [`Intl.DateFormat.prototype.formatRange`][formatrange]               | Felipe Balbontín | Sathya Gunasekaran |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
