@@ -129,7 +129,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [import-meta]: https://github.com/tc39/proposal-import-meta
 [numeric_separators]: https://github.com/tc39/proposal-numeric-separator
 [private-methods]: https://github.com/tc39/proposal-private-methods
-[date-parse]: https://github.com/mrrrgn/proposal-date-time-string-format
+[date-parse]: https://github.com/tc39-transfer/proposal-date-time-string-format
 [export-from]: https://github.com/tc39/proposal-export-default-from
 [observable]: https://github.com/tc39/proposal-observable
 [matchall]: https://github.com/tc39/String.prototype.matchAll
