@@ -16,6 +16,7 @@ Stage 0 proposals are either
 |          | [Nested `import` declarations][nested-imports]                     | Ben Newman                            | Ben Newman                            | [July 2016][nested-notes]   |
 |          | [Normative ICU Reference][icu]                                     | Domenic Denicola                      | Domenic Denicola                      | [May 2017][icu-notes]       |
 |          | [Orthogonal Classes][ortho]                                        | Mark Miller<br />Allen Wirfs-Brock    | Mark Miller<br />Allen Wirfs-Brock    | [March 2017][ortho-notes]   |
+|          | [Promise.allSettled][allsettled]                                   | Jason Williams                        | Mathias Bynens                        |                             |
 |          | [`Reflect.{isCallable,isConstructor}`][is-callable-is-constructor] | Caitlin Potter                        | Caitlin Potter                        |                             |
 |          | [Relationships][relationships]                                     | Mark Miller<br />Waldemar Horwat      | Mark Miller<br />Waldemar Horwat      |                             |
 |          | [`String.prototype.at`][string-at]                                 | Mathias Bynens                        | Mathias Bynens<br />Rick Waldron      |                             |
@@ -33,6 +34,7 @@ Stage 0 proposals are either
 
 See also the [finished proposals](finished-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md).
 
+[allsettled]: https://github.com/jasonwilliams/proposal-promise-allSettled
 [metaprops]: https://github.com/allenwb/ESideas/blob/master/ES7MetaProps.md
 [defensible-classes]: http://wiki.ecmascript.org/doku.php?id=strawman:defensible_classes
 [bind-syntax]: https://github.com/zenparsing/es-function-bind
