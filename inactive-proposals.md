@@ -10,7 +10,6 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [`{Set,Map}.prototype.toJSON`][collection-json]                      | David Bruant and Jordan Harband      | Rejected: better solved by a custom replacer function. |
 | [Typed Objects][typed-objects]                                       | Till Schneidereit (previously Dmitry Lomov, Niko Matsakis)         | Postponed: waiting for WebAssembly requirements to become clearer |
 | [Object enumerables][object-enums]                                   | Leo Balter & John-David Dalton       | Rejected |
-| [`ArrayBuffer.transfer`][buffer-transfer]                            | Luke Wagner & Allen Wirfs-Brock      | Withdrawn |
 | [Cancelable Promises][cancel-promise]                                | Domenic Denicola                     | Withdrawn |
 | [Proposed Grammar change to ES Modules][module-unambig]              | Bradley Farias                       | Rejected: No consensus on this specific solution.
 | [Dynamic Module Reform][dynamic-module-reform]                       | Caridy Patiño                        | Withdrawn: we decided to preserve the current semantics
@@ -30,7 +29,6 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [collection-json]: https://github.com/DavidBruant/Map-Set.prototype.toJSON
 [typed-objects]: https://github.com/dslomov/typed-objects-es7
 [object-enums]: https://github.com/leobalter/object-enumerables
-[buffer-transfer]: https://gist.github.com/lukewagner/2735af7eea411e18cf20
 [cancel-promise]: https://github.com/tc39/proposal-cancelable-promises
 [module-unambig]: https://github.com/bmeck/UnambiguousJavaScriptGrammar
 [dynamic-module-reform]: https://github.com/caridy/proposal-dynamic-modules

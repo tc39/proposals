@@ -46,6 +46,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [New Set methods][set-methods]          | Michał Wadas                  | Sathya Gunasekaran                                                      |
 |          | [Well-formed `JSON.stringify`][well-formed-stringify] | Richard Gibson  | Mathias Bynens                                                          |
 |          | [Realms][realms]                        | Caridy Patiño<br />Jean-Francois Paradis | Dave Herman<br />Mark Miller<br />Caridy Patiño              |
+|          | [`ArrayBuffer.transfer`][buffer-transfer]                               | Domenic Denicola                                                        | Domenic Denicola
 
 ### Stage 1
 
@@ -194,3 +195,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [class-access-expressions]: https://github.com/rbuckton/proposal-class-access-expressions
 [matching]: https://github.com/tc39/proposal-pattern-matching
 [regex-offsets]: https://github.com/rbuckton/proposal-regexp-match-offsets
+[buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer/

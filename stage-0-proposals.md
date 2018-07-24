@@ -24,7 +24,6 @@ Stage 0 proposals are either
 |          | [WHATWG URL][url]                                                  | James M Snell                         | James M Snell                         |                             |
 |          | [Zones][zones] ([spec][zones-spec])                                | Domenic Denicola                      | Domenic Denicola<br />Miško Hevery    | [March 2016][zones-notes]   |
 |          | [Object Shorthand Improvements][object-shorthand-improvements]     | Ron Buckton                           | Ron Buckton                           | [Sep 2017][shorthand-notes] |
-|          | [`ArrayBuffer.transfer`][buffer-transfer]                          | Domenic Denicola                      | Domenic Denicola                      | [Sep 2017][transfer-notes]  |
 |          | [Decimal][decimal]                                                 | Andrew Paprocki<br />Daniel Ehrenberg | Andrew Paprocki<br />Daniel Ehrenberg | [Nov 2017][decimal-notes]   |
 |          | [`deprecated`][deprecated]                                         | James M Snell                         | James M Snell                         |                             |
 |          | [`as` destructuring patterns][as-patterns]                         | Kat Marchán                           | Kat Marchán                           |                             |
@@ -51,7 +50,6 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [zones]: https://github.com/domenic/zones
 [zones-spec]: https://domenic.github.io/zones/
 [object-shorthand-improvements]: https://github.com/rbuckton/proposal-shorthand-improvements
-[buffer-transfer]: https://gist.github.com/lukewagner/2735af7eea411e18cf20
 [decimal]: https://docs.google.com/presentation/d/1jPsw7EGsS6BW59_BDRu9o0o3UwSXQeUhi38QG55ZoPI/edit?pli=1#slide=id.p
 [deprecated]: https://github.com/jasnell/proposal-deprecated
 [as-patterns]: https://github.com/zkat/proposal-as-patterns
@@ -64,6 +62,5 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [zones-notes]: https://github.com/tc39/tc39-notes/blob/61dc2f45829a0663af0b4b1d6690717dc70d30d9/es7/2016-03/march-29.md#zones-update
 [shorthand-notes]: https://github.com/tc39/tc39-notes/blob/61dc2f45829a0663af0b4b1d6690717dc70d30d9/es8/2017-09/sep-28.md#13i-object-shorthand-improvements
 [builtins-notes]: https://github.com/tc39/tc39-notes/blob/61dc2f45829a0663af0b4b1d6690717dc70d30d9/es8/2017-09/sep-28.md#14ia-builtinstypeof-and-builtinsis
-[transfer-notes]: https://github.com/tc39/tc39-notes/blob/61dc2f45829a0663af0b4b1d6690717dc70d30d9/es8/2017-09/sep-28.md#arraybuffertransfer
 [decimal-notes]: https://github.com/rwaldron/tc39-notes/blob/b8da60318b564f136cbe8385f17f42abc0666cdd/es8/2017-11/nov-29.md#9ivb-decimal-for-stage-0
 [symbol-thenable]: https://github.com/devsnek/proposal-symbol-thenable
