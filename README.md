@@ -28,6 +28,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`String.prototype.{trimStart,trimEnd}`][trims]                        | Sebastian Markbåge                  | Sebastian Markbåge                                                      | [:white_check_mark:][tests-trims]              |
 |          | [`String.prototype.matchAll`][matchall]                                | Jordan Harband                      | Jordan Harband                                                          |
 |          | [`Symbol.prototype.description`][symbol-description]                   | Michael Ficarra                     | Michael Ficarra                                                         |
+|          | [`Object.fromEntries`][object-from-entries]                            | Darien Maillet Valentine            | Jordan Harband<br />Kevin Gibbons
 
 ### Stage 2
 
@@ -40,7 +41,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`Atomics.waitAsync`][nonblocking]                                      | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                          |
 |          | [Hashbang Grammar][hashbang-grammar]                                    | Bradley Farias                                                          | Bradley Farias
 |          | [WeakRefs][weakrefs]                                                    | Dean Tribble                                                            | Dean Tribble                                         |
-|          | [`Object.fromEntries`][object-from-entries]                             | Darien Maillet Valentine                                                | Jordan Harband<br />Kevin Gibbons                    |
 |          | [Top-level `await`][await]                                              | Myles Borins                                                            | Myles Borins                                         |
 |          | [`Function.prototype.toString()` censorship][censorship] | Domenic Denicola | Domenic Denicola                                                    |
 |          | [New Set methods][set-methods]          | Michał Wadas                  | Sathya Gunasekaran                                                      |
