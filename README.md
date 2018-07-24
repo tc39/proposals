@@ -46,7 +46,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [New Set methods][set-methods]          | Michał Wadas                  | Sathya Gunasekaran                                                      |
 |          | [Well-formed `JSON.stringify`][well-formed-stringify] | Richard Gibson  | Mathias Bynens                                                          |
 |          | [Realms][realms]                        | Caridy Patiño<br />Jean-Francois Paradis | Dave Herman<br />Mark Miller<br />Caridy Patiño              |
-|          | [`ArrayBuffer.transfer`][buffer-transfer]                               | Domenic Denicola                                                        | Domenic Denicola
+|          | [`ArrayBuffer.prototype.transfer`][buffer-transfer]                               | Domenic Denicola                                                        | Domenic Denicola
 
 ### Stage 1
 
