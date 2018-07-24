@@ -23,6 +23,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | :rocket: | Proposal                                                  | Author                           | Champion                         |
 | -------- | --------------------------------------------------------- | -------------------------------- | -------------------------------- |
+|          | [`Intl.DateFormat.prototype.formatRange`][formatrange]    | Felipe Balbontín                 | Sathya Gunasekaran               |
 
 ### Stage 1
 
@@ -57,3 +58,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [locale-info]: https://github.com/tc39/ecma402/issues/46
 [datetimeformat]: https://github.com/zbraniecki/proposal-ecma402-datetime-style
 [intl.locale]: https://github.com/zbraniecki/proposal-intl-locale
+[formatrange]: https://github.com/fabalbon/proposal-intl-DateTimeFormat-formatRange
