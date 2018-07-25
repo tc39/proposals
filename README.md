@@ -46,7 +46,8 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [New Set methods][set-methods]          | Michał Wadas                  | Sathya Gunasekaran                                                      |
 |          | [Well-formed `JSON.stringify`][well-formed-stringify] | Richard Gibson  | Mathias Bynens                                                          |
 |          | [Realms][realms]                        | Caridy Patiño<br />Jean-Francois Paradis | Dave Herman<br />Mark Miller<br />Caridy Patiño              |
-|          | [`ArrayBuffer.prototype.transfer`][buffer-transfer]                               | Domenic Denicola                                                        | Domenic Denicola
+|          | [`ArrayBuffer.prototype.transfer`][buffer-transfer]                     | Domenic Denicola                                                        | Domenic Denicola
+|          | [RegExp Match array offsets][regex-offsets]                             | Ron Buckton                                                             | Ron Buckton
 
 ### Stage 1
 
@@ -93,7 +94,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Class Static Block][static-blocks]                                                          | Ron Buckton                                          | Ron Buckton
 |          | [class Access Expressions][class-access-expressions]                                         | Ron Buckton                                          | Ron Buckton
 |          | [Pattern Matching][matching]                                                                 | Kat Marchán<br />Brian Terlson                       | Kat Marchán<br />Brian Terlson<br />Sebastian Markbåge
-|          | [RegExp Match array offsets][regex-offsets]                                                  | Ron Buckton                                          | Ron Buckton
 |          | [Explicit Resource Management][resource-management]                                          | Ron Buckton                                          | Ron Buckton
 |          | [Dynamic Modules][dynamic-modules]                                                           | Bradley Farias                                       | Bradley Farias
 
