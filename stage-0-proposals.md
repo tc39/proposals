@@ -53,7 +53,6 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [decimal]: https://docs.google.com/presentation/d/1jPsw7EGsS6BW59_BDRu9o0o3UwSXQeUhi38QG55ZoPI/edit?pli=1#slide=id.p
 [deprecated]: https://github.com/jasnell/proposal-deprecated
 [as-patterns]: https://github.com/zkat/proposal-as-patterns
-
 [bind-notes]: https://github.com/tc39/tc39-notes/blob/b8da60318b564f136cbe8385f17f42abc0666cdd/es6/2015-03/mar-25.md#6vi-function-bind-and-private-fields-redux-kevin-smith
 [nested-notes]: https://github.com/tc39/tc39-notes/blob/b8da60318b564f136cbe8385f17f42abc0666cdd/es7/2016-07/jul-27.md#10iiic-nested-import-declaration
 [icu-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-05/may-23.md#normative-icu-reference

@@ -2,23 +2,23 @@
 
 Inactive proposals are proposals that at one point were presented to the committee but were subsequently abandoned, withdrawn, or rejected.
 
-| Proposal                                                             | Champion | Rationale |
-|----------------------------------------------------------------------|----------|-----------|
-| [`RegExp.escape`][escape]                                            | Domenic Denicola, Benjamin Gruenbaum | [Rejected][escape-notes]: in favor of exploring a template tag function solution
-| [Callable class constructors][callable-constructors]                 | Yehuda Katz and Allen Wirfs-Brock    | Withdrawn: can be solved with decorators |
-| [`Error.isError`][is-error]                                          | Jordan Harband                       | Withdrawn: in favor of [`Error` stack traces][error-stacks] proposal |
-| [`{Set,Map}.prototype.toJSON`][collection-json]                      | David Bruant and Jordan Harband      | Rejected: better solved by a custom replacer function. |
-| [Typed Objects][typed-objects]                                       | Till Schneidereit (previously Dmitry Lomov, Niko Matsakis)         | Postponed: waiting for WebAssembly requirements to become clearer |
-| [Object enumerables][object-enums]                                   | Leo Balter & John-David Dalton       | Rejected |
-| [Cancelable Promises][cancel-promise]                                | Domenic Denicola                     | Withdrawn |
-| [Proposed Grammar change to ES Modules][module-unambig]              | Bradley Farias                       | Rejected: No consensus on this specific solution.
-| [Dynamic Module Reform][dynamic-module-reform]                       | Caridy Patiño                        | Withdrawn: we decided to preserve the current semantics
-| [SIMD.JS - SIMD APIs][simd]                                          | Peter Jensen, Yehuda Katz            | [Stage 1][simd-notes]: Start with SIMD in WASM; implementations not pursuing SIMD.js for now.
-| [Updates to Tail Calls to include an explicit syntactic opt-in][ptc] | Brian Terlson & Eric Faust           | Inactive |
-| [Object.shallowEqual][shallow-equal]                                 | Sebastian Markbage                   | Withdrawn |
-| [`%constructor%.construct`][construct]                               | James M Snell                        | Withdrawn |
-| [`Builtins.typeOf()` and `Builtins.is()`][is-types]                  | James M Snell                        | Withdrawn: can be solved in other ways |
-| [Tagged Collection Literals][collection-literals]                    | Kat Marchán                          | Withdrawn: pursuing `when new` syntax and other alternatives |
+| Proposal                                                             | Champion                                                   | Rationale                                                                                     |
+| -------------------------------------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [`RegExp.escape`][escape]                                            | Domenic Denicola, Benjamin Gruenbaum                       | [Rejected][escape-notes]: in favor of exploring a template tag function solution              |
+| [Callable class constructors][callable-constructors]                 | Yehuda Katz and Allen Wirfs-Brock                          | Withdrawn: can be solved with decorators                                                      |
+| [`Error.isError`][is-error]                                          | Jordan Harband                                             | Withdrawn: in favor of [`Error` stack traces][error-stacks] proposal                          |
+| [`{Set,Map}.prototype.toJSON`][collection-json]                      | David Bruant and Jordan Harband                            | Rejected: better solved by a custom replacer function.                                        |
+| [Typed Objects][typed-objects]                                       | Till Schneidereit (previously Dmitry Lomov, Niko Matsakis) | Postponed: waiting for WebAssembly requirements to become clearer                             |
+| [Object enumerables][object-enums]                                   | Leo Balter & John-David Dalton                             | Rejected                                                                                      |
+| [Cancelable Promises][cancel-promise]                                | Domenic Denicola                                           | Withdrawn                                                                                     |
+| [Proposed Grammar change to ES Modules][module-unambig]              | Bradley Farias                                             | Rejected: No consensus on this specific solution.                                             |
+| [Dynamic Module Reform][dynamic-module-reform]                       | Caridy Patiño                                              | Withdrawn: we decided to preserve the current semantics                                       |
+| [SIMD.JS - SIMD APIs][simd]                                          | Peter Jensen, Yehuda Katz                                  | [Stage 1][simd-notes]: Start with SIMD in WASM; implementations not pursuing SIMD.js for now. |
+| [Updates to Tail Calls to include an explicit syntactic opt-in][ptc] | Brian Terlson & Eric Faust                                 | Inactive                                                                                      |
+| [Object.shallowEqual][shallow-equal]                                 | Sebastian Markbage                                         | Withdrawn                                                                                     |
+| [`%constructor%.construct`][construct]                               | James M Snell                                              | Withdrawn                                                                                     |
+| [`Builtins.typeOf()` and `Builtins.is()`][is-types]                  | James M Snell                                              | Withdrawn: can be solved in other ways                                                        |
+| [Tagged Collection Literals][collection-literals]                    | Kat Marchán                                                | Withdrawn: pursuing `when new` syntax and other alternatives                                  |
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [finished proposals](finished-proposals.md) documents.
 
