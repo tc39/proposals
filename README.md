@@ -95,6 +95,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Pattern Matching][matching]                                                                 | Kat Marchán<br />Brian Terlson                       | Kat Marchán<br />Brian Terlson<br />Sebastian Markbåge
 |          | [RegExp Match array offsets][regex-offsets]                                                  | Ron Buckton                                          | Ron Buckton
 |          | [Explicit Resource Management][resource-management]                                          | Ron Buckton                                          | Ron Buckton
+|          | [Dynamic Modules][dynamic-modules]                                                           | Bradley Farias                                       | Bradley Farias
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -198,3 +199,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [regex-offsets]: https://github.com/rbuckton/proposal-regexp-match-offsets
 [buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer/
 [resource-management]: https://github.com/rbuckton/proposal-using-statement
+[dynamic-modules]: https://github.com/guybedford/proposal-dynamic-modules
