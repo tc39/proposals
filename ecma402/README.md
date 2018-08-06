@@ -24,6 +24,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | :rocket: | Proposal                                                  | Author                           | Champion                         |
 | -------- | --------------------------------------------------------- | -------------------------------- | -------------------------------- |
 |          | [`Intl.DateFormat.prototype.formatRange`][formatrange]    | Felipe Balbontín                 | Sathya Gunasekaran               |
+|          | [Intl.NumberFormat Unified API Proposal][numberformat]    | Shane Carr                       | Shane Carr                       |
 
 ### Stage 1
 
@@ -59,3 +60,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [datetimeformat]: https://github.com/zbraniecki/proposal-ecma402-datetime-style
 [intl.locale]: https://github.com/zbraniecki/proposal-intl-locale
 [formatrange]: https://github.com/fabalbon/proposal-intl-DateTimeFormat-formatRange
+[numberformat]: https://github.com/sffc/proposal-unified-intl-numberformat
