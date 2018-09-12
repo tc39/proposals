@@ -35,7 +35,7 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 
 [allsettled]: https://github.com/jasonwilliams/proposal-promise-allSettled
 [metaprops]: https://github.com/allenwb/ESideas/blob/master/ES7MetaProps.md
-[defensible-classes]: http://wiki.ecmascript.org/doku.php?id=strawman:defensible_classes
+[defensible-classes]: https://web.archive.org/web/20160804042547/http://wiki.ecmascript.org/doku.php?id=strawman:defensible_classes
 [bind-syntax]: https://github.com/zenparsing/es-function-bind
 [func-expr-decorators]: https://goo.gl/8MmCMG
 [method-param-decorators]: https://goo.gl/r1XT9b
@@ -43,7 +43,7 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [icu]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-05/may-23.md#normative-icu-reference
 [ortho]: https://github.com/erights/Orthogonal-Classes
 [is-callable-is-constructor]: https://github.com/caitp/TC39-Proposals/blob/master/tc39-reflect-isconstructor-iscallable.md
-[relationships]: http://wiki.ecmascript.org/doku.php?id=strawman:relationships
+[relationships]: https://web.archive.org/web/20160804042554/http://wiki.ecmascript.org/doku.php?id=strawman:relationships
 [string-at]: https://github.com/mathiasbynens/String.prototype.at
 [clone]: https://github.com/dslomov-chromium/ecmascript-structured-clone
 [url]: https://github.com/jasnell/proposal-url
