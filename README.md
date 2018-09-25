@@ -98,6 +98,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Dynamic Modules][dynamic-modules]                                                           | Bradley Farias                                       | Bradley Farias                                         |
 |          | [JavaScript Standard Library][standard-library]                                              | Michael Saboff<br />Mattijs Hoitink                  | Michael Saboff<br />Mattijs Hoitink                    |
 |          | [`"use module"`][modules-pragma]                                                             | Dave Herman                                          | Dave Herman                                            |
+|          | [`for-in` mechanics][for-in-mechanics]         |                                             | Kevin Gibbons                                        | Kevin Gibbons
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -204,3 +205,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [dynamic-modules]: https://github.com/guybedford/proposal-dynamic-modules
 [standard-library]: https://github.com/msaboff/JavaScript-Standard-Library
 [modules-pragma]: https://github.com/tc39/proposal-modules-pragma
+[for-in-mechanics]: https://github.com/bakkot/for-in-exploration
