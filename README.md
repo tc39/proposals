@@ -96,8 +96,8 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Pattern Matching][matching]                                                                 | Kat Marchán<br />Brian Terlson                       | Kat Marchán<br />Brian Terlson<br />Sebastian Markbåge |
 |          | [Explicit Resource Management][resource-management]                                          | Ron Buckton                                          | Ron Buckton                                            |
 |          | [Dynamic Modules][dynamic-modules]                                                           | Bradley Farias                                       | Bradley Farias                                         |
-|          | [JavaScript Standard Library][standard-library]                                              | Michael Saboff                                       | Michael Saboff
-|          | [`"use module"`][modules-pragma]             |                                               | Dave Herman
+|          | [JavaScript Standard Library][standard-library]                                              | Michael Saboff<br />Mattijs Hoitink                  | Michael Saboff<br />Mattijs Hoitink                    |
+|          | [`"use module"`][modules-pragma]                                                             | Dave Herman                                          | Dave Herman                                            |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
