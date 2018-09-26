@@ -49,6 +49,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`ArrayBuffer.prototype.transfer`][buffer-transfer]      | Domenic Denicola                         | Domenic Denicola                                     |
 |          | [RegExp Match array offsets][regex-offsets]              | Ron Buckton                              | Ron Buckton                                          |
 |          | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens     | Mathias Bynens                                       |
+|          | [`InterpreterDirective`][interpreter-directive]          | Bradley Farias                           | Bradley Farias                                       |
 
 ### Stage 1
 
@@ -76,7 +77,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Nullish coalescing Operator][nullish-coalescing]                                            | Gabriel Isenberg                                     | Gabriel Isenberg                                       |
 |          | [Partial application][partial-application]                                                   | Ron Buckton                                          | Ron Buckton                                            |
 |          | [Cancellation API][cancel-api]                                                               | Ron Buckton                                          | Ron Buckton & Brian Terlson                            |
-|          | [`InterpreterDirective`][interpreter-directive]                                              | Bradley Farias                                       | Bradley Farias                                         |
 |          | [`String.prototype.replaceAll`][replace-all]                                                 | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens | Mathias Bynens                                         |
 |          | [`String.prototype.codePoints`][codepoints]                                                  | Ingvar Stepanyan                                     | Mathias Bynens                                         |
 |          | [Distinguishing literal strings][distinguishing-literal-strings]                             | Mike West                                            | Adam Klein<br />Mike West                              |
