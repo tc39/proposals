@@ -48,6 +48,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Realms][realms]                                         | Caridy Patiño<br />Jean-Francois Paradis | Dave Herman<br />Mark Miller<br />Caridy Patiño      |
 |          | [`ArrayBuffer.prototype.transfer`][buffer-transfer]      | Domenic Denicola                         | Domenic Denicola                                     |
 |          | [RegExp Match array offsets][regex-offsets]              | Ron Buckton                              | Ron Buckton                                          |
+|          | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens     | Mathias Bynens                                       |
 
 ### Stage 1
 
@@ -89,7 +90,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Richer Keys][richer-keys]                                                                   | Bradley Farias                                       | Bradley Farias                                         |
 |          | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                   | Sathya Gunasekaran                                     |
 |          | [Logical Assignment Operators][logical-assignment]                                           | Justin Ridgewell                                     | Justin Ridgewell                                       |
-|          | [Sequence properties in Unicode property escapes][unicode-sequence-properties]               | Mathias Bynens                                       | Mathias Bynens                                         |
 |          | [Module Keys][module-keys]                                                                   | Mike Samuel                                          | Mike Samuel                                            |
 |          | [Class Static Block][static-blocks]                                                          | Ron Buckton                                          | Ron Buckton                                            |
 |          | [class Access Expressions][class-access-expressions]                                         | Ron Buckton                                          | Ron Buckton                                            |
