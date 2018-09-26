@@ -19,6 +19,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [`%constructor%.construct`][construct]                               | James M Snell                                              | Withdrawn                                                                                     |
 | [`Builtins.typeOf()` and `Builtins.is()`][is-types]                  | James M Snell                                              | Withdrawn: can be solved in other ways                                                        |
 | [Tagged Collection Literals][collection-literals]                    | Kat Marchán                                                | Withdrawn: pursuing `when new` syntax and other alternatives                                  |
+| [`Date.parse` fallback semantics][date-parse]                        | Morgan Phillips                                            | Inactive; likely replaced by [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -40,3 +41,5 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [is-types]: https://github.com/jasnell/proposal-istypes
 [error-stacks]: https://github.com/ljharb/proposal-error-stacks
 [collection-literals]: https://github.com/zkat/proposal-collection-literals
+[date-parse]: https://github.com/tc39-transfer/proposal-date-time-string-format
+[uniform-date-parse]: https://github.com/gibson042/ecma262-proposal-uniform-interchange-date-parsing

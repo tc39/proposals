@@ -55,7 +55,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | :rocket: | Proposal                                                                                     | Author                                               | Champion                                               |
 | -------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ |
-|          | [`Date.parse` fallback semantics][date-parse]                                                | Morgan Phillips                                      | Morgan Phillips                                        |
 |          | [`export v from "mod";` statements][export-from]                                             | Lee Byron                                            | Ben Newman<br />John-David Dalton                      |
 | :rocket: | [Observable][observable]                                                                     | Jafar Husain                                         | Jafar Husain<br />Mark Miller                          |
 |          | [Frozen Realms][frozen-realms]                                                               | Mark Miller<br />Chip Morningstar<br />Caridy Patiño | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   |
@@ -99,6 +98,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [JavaScript Standard Library][standard-library]                                              | Michael Saboff<br />Mattijs Hoitink                  | Michael Saboff<br />Mattijs Hoitink                    |
 |          | [`"use module"`][modules-pragma]                                                             | Dave Herman                                          | Dave Herman                                            |
 |          | [`for-in` mechanics][for-in-mechanics]         |                                             | Kevin Gibbons                                        | Kevin Gibbons
+|          | [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]                   | Richard Gibson                                       | Richard Gibson
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -135,7 +135,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [import-meta]: https://github.com/tc39/proposal-import-meta
 [numeric_separators]: https://github.com/tc39/proposal-numeric-separator
 [private-methods]: https://github.com/tc39/proposal-private-methods
-[date-parse]: https://github.com/tc39-transfer/proposal-date-time-string-format
 [export-from]: https://github.com/tc39/proposal-export-default-from
 [observable]: https://github.com/tc39/proposal-observable
 [matchall]: https://github.com/tc39/String.prototype.matchAll
@@ -206,3 +205,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [standard-library]: https://github.com/msaboff/JavaScript-Standard-Library
 [modules-pragma]: https://github.com/tc39/proposal-modules-pragma
 [for-in-mechanics]: https://github.com/bakkot/for-in-exploration
+[uniform-date-parse]: https://github.com/gibson042/ecma262-proposal-uniform-interchange-date-parsing
