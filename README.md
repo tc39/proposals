@@ -50,6 +50,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [RegExp Match array offsets][regex-offsets]              | Ron Buckton                              | Ron Buckton                                          |
 |          | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens     | Mathias Bynens                                       |
 |          | [`InterpreterDirective`][interpreter-directive]          | Bradley Farias                           | Bradley Farias                                       |
+|          | [Temporal][temporal]                                     | Maggie Pint<br />Matt Johnson            | Maggie Pint<br />Brian Terlson                       |
 
 ### Stage 1
 
@@ -66,7 +67,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`Math.signbit`: IEEE-754 sign bit][signbit]                                                 | JF Bastien                                           | JF Bastien                                             |
 |          | [Error stacks][stacks]                                                                       | Jordan Harband                                       | Jordan Harband                                         |
 |          | [`do` expressions][do]                                                                       | Dave Herman                                          | Dave Herman                                            |
-|          | [Temporal][temporal]                                                                         | Maggie Pint<br />Matt Johnson                        | Maggie Pint<br />Brian Terlson                         |
 |          | [Float16 on TypedArrays, DataView, `Math.hfround`][float16s]                                 | Leo Balter                                           | Leo Balter                                             |
 |          | Change `Number.parseInt`/`parseFloat` to not coerce `null`/`undefined`/`NaN` (repo link TBD) |                                                      | Brendan Eich                                           |
 |          | [Binary AST][binary-ast]                                                                     | Shu-yu Guo                                           | Shu-yu Guo                                             |
