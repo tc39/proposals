@@ -99,6 +99,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`"use module"`][modules-pragma]                                                             | Dave Herman                                          | Dave Herman                                            |
 |          | [`for-in` mechanics][for-in-mechanics]         |                                             | Kevin Gibbons                                        | Kevin Gibbons
 |          | [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]                   | Richard Gibson                                       | Richard Gibson
+|          | [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                       | Richard Gibson
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -206,3 +207,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [modules-pragma]: https://github.com/tc39/proposal-modules-pragma
 [for-in-mechanics]: https://github.com/bakkot/for-in-exploration
 [uniform-date-parse]: https://github.com/gibson042/ecma262-proposal-uniform-interchange-date-parsing
+[json-parse-source]: https://github.com/gibson042/ecma262-proposal-JSON-parse-with-source
