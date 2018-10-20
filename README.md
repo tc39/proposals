@@ -13,44 +13,44 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 3
 
-| :rocket: | Proposal                                                                | Author                                                                  | Champion                                                                | Tests                                          |
-| -------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------- |
-| :rocket: | [`Function.prototype.toString` revision][function-to-string]            | Michael Ficarra                                                         | Michael Ficarra                                                         | [:white_check_mark:][tests-function-to-string] |
-|          | [`globalThis`][globalThis]                                                      | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-global]             |
-|          | [`import()`][dynamic-import]                                            | Domenic Denicola                                                        | Domenic Denicola                                                        | [:question:][tests-dynamic-import]             |
-|          | [Legacy RegExp features in JavaScript][regexp-legacy]                   | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | [:white_check_mark:][tests-regexp-legacy]      |
-|          | [`BigInt`][bigint]                                                      | Daniel Ehrenberg                                                        | Daniel Ehrenberg                                                        | [:construction:][tests-bigint]                 |
-|          | [`import.meta`][import-meta]                                            | Domenic Denicola                                                        | Domenic Denicola                                                        | [:question:][tests-import-meta]                |
-|          | [Private instance methods and accessors][private-methods]               | Daniel Ehrenberg                                                        | Daniel Ehrenberg<br />Kevin Gibbons                                     | [:question:][tests-private-methods]            |
-| :rocket: | [`Array.prototype.{flat,flatMap}`][flat]                                | Brian Terlson<br />Michael Ficarra                                      | Brian Terlson<br />Michael Ficarra                                      | [:white_check_mark:][tests-flat]               |
-|          | [Class Public Instance Fields & Private Instance Fields][class-fields]  | Daniel Ehrenberg<br />Kevin Gibbons                                     | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:question:][tests-class-fields]               |
-|          | [Static class fields and private static methods][static-class-features] | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo and Daniel Ehrenberg                                         |
-|          | [`String.prototype.{trimStart,trimEnd}`][trims]                         | Sebastian Markbåge                                                      | Sebastian Markbåge                                                      | [:white_check_mark:][tests-trims]              |
-|          | [`String.prototype.matchAll`][matchall]                                 | Jordan Harband                                                          | Jordan Harband                                                          |
-|          | [`Symbol.prototype.description`][symbol-description]                    | Michael Ficarra                                                         | Michael Ficarra                                                         |
-|          | [`Object.fromEntries`][object-from-entries]                             | Darien Maillet Valentine                                                | Jordan Harband<br />Kevin Gibbons                                       |
+| :rocket: | Proposal                                                                       | Author                                                                  | Champion                                                                | Tests                                          |
+| -------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------- |
+| :rocket: | [`Function.prototype.toString` revision][function-to-string]                   | Michael Ficarra                                                         | Michael Ficarra                                                         | [:white_check_mark:][tests-function-to-string] |
+|          | [`globalThis`][globalThis]                                                     | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-global]             |
+|          | [`import()`][dynamic-import]                                                   | Domenic Denicola                                                        | Domenic Denicola                                                        | [:question:][tests-dynamic-import]             |
+|          | [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | [:white_check_mark:][tests-regexp-legacy]      |
+|          | [`BigInt`][bigint]                                                             | Daniel Ehrenberg                                                        | Daniel Ehrenberg                                                        | [:construction:][tests-bigint]                 |
+|          | [`import.meta`][import-meta]                                                   | Domenic Denicola                                                        | Domenic Denicola                                                        | [:question:][tests-import-meta]                |
+|          | [Private instance methods and accessors][private-methods]                      | Daniel Ehrenberg                                                        | Daniel Ehrenberg<br />Kevin Gibbons                                     | [:question:][tests-private-methods]            |
+| :rocket: | [`Array.prototype.{flat,flatMap}`][flat]                                       | Brian Terlson<br />Michael Ficarra                                      | Brian Terlson<br />Michael Ficarra                                      | [:white_check_mark:][tests-flat]               |
+|          | [Class Public Instance Fields & Private Instance Fields][class-fields]         | Daniel Ehrenberg<br />Kevin Gibbons                                     | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:question:][tests-class-fields]               |
+|          | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo and Daniel Ehrenberg                                         |                                                |
+|          | [`String.prototype.{trimStart,trimEnd}`][trims]                                | Sebastian Markbåge                                                      | Sebastian Markbåge                                                      | [:white_check_mark:][tests-trims]              |
+|          | [`String.prototype.matchAll`][matchall]                                        | Jordan Harband                                                          | Jordan Harband                                                          |                                                |
+|          | [`Symbol.prototype.description`][symbol-description]                           | Michael Ficarra                                                         | Michael Ficarra                                                         |                                                |
+|          | [`Object.fromEntries`][object-from-entries]                                    | Darien Maillet Valentine                                                | Jordan Harband<br />Kevin Gibbons                                       |                                                |
+|          | [Well-formed `JSON.stringify`][well-formed-stringify]                          | Richard Gibson                                                          | Mathias Bynens                                                          |                                                |
 
 ### Stage 2
 
-| :rocket: | Proposal                                                 | Author                                   | Champion                                             |
-| -------- | -------------------------------------------------------- | ---------------------------------------- | ---------------------------------------------------- |
-|          | [Numeric separators][numeric_separators]                 | Sam Goto<br />Rick Waldron               | Sam Goto<br />Rick Waldron                           |
-|          | [`function.sent` metaproperty][function-sent]            | Allen Wirfs-Brock                        | Allen Wirfs-Brock                                    |
-|          | [Decorators][decorators]                                 | Daniel Ehrenberg                         | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg |
-| :rocket: | [`throw` expressions][throw-expressions]                 | Ron Buckton                              | Ron Buckton                                          |
-|          | [`Atomics.waitAsync`][nonblocking]                       | Lars Hansen                              | Shu-yu Guo<br />Lars Hansen                          |
-|          | [Hashbang Grammar][hashbang-grammar]                     | Bradley Farias                           | Bradley Farias                                       |
-|          | [WeakRefs][weakrefs]                                     | Dean Tribble                             | Dean Tribble                                         |
-|          | [Top-level `await`][await]                               | Myles Borins                             | Myles Borins                                         |
-|          | [`Function.prototype.toString()` censorship][censorship] | Domenic Denicola                         | Domenic Denicola                                     |
-|          | [New Set methods][set-methods]                           | Michał Wadas                             | Sathya Gunasekaran                                   |
-|          | [Well-formed `JSON.stringify`][well-formed-stringify]    | Richard Gibson                           | Mathias Bynens                                       |
-|          | [Realms][realms]                                         | Caridy Patiño<br />Jean-Francois Paradis | Dave Herman<br />Mark Miller<br />Caridy Patiño      |
-|          | [`ArrayBuffer.prototype.transfer`][buffer-transfer]      | Domenic Denicola                         | Domenic Denicola                                     |
-|          | [RegExp Match array offsets][regex-offsets]              | Ron Buckton                              | Ron Buckton                                          |
-|          | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens     | Mathias Bynens                                       |
-|          | [`InterpreterDirective`][interpreter-directive]          | Bradley Farias                           | Bradley Farias                                       |
-|          | [Temporal][temporal]                                     | Maggie Pint<br />Matt Johnson            | Maggie Pint<br />Brian Terlson                       |
+| :rocket: | Proposal                                                                       | Author                                   | Champion                                             |
+| -------- | ------------------------------------------------------------------------------ | ---------------------------------------- | ---------------------------------------------------- |
+|          | [Numeric separators][numeric_separators]                                       | Sam Goto<br />Rick Waldron               | Sam Goto<br />Rick Waldron                           |
+|          | [`function.sent` metaproperty][function-sent]                                  | Allen Wirfs-Brock                        | Allen Wirfs-Brock                                    |
+|          | [Decorators][decorators]                                                       | Daniel Ehrenberg                         | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg |
+| :rocket: | [`throw` expressions][throw-expressions]                                       | Ron Buckton                              | Ron Buckton                                          |
+|          | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                              | Shu-yu Guo<br />Lars Hansen                          |
+|          | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                           | Bradley Farias                                       |
+|          | [WeakRefs][weakrefs]                                                           | Dean Tribble                             | Dean Tribble                                         |
+|          | [Top-level `await`][await]                                                     | Myles Borins                             | Myles Borins                                         |
+|          | [`Function.prototype.toString()` censorship][censorship]                       | Domenic Denicola                         | Domenic Denicola                                     |
+|          | [New Set methods][set-methods]                                                 | Michał Wadas                             | Sathya Gunasekaran                                   |
+|          | [Realms][realms]                                                               | Caridy Patiño<br />Jean-Francois Paradis | Dave Herman<br />Mark Miller<br />Caridy Patiño      |
+|          | [`ArrayBuffer.prototype.transfer`][buffer-transfer]                            | Domenic Denicola                         | Domenic Denicola                                     |
+|          | [RegExp Match array offsets][regex-offsets]                                    | Ron Buckton                              | Ron Buckton                                          |
+|          | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                           | Mathias Bynens                                                          |                                                |
+|          | [`InterpreterDirective`][interpreter-directive]                                | Bradley Farias                           | Bradley Farias                                       |
+|          | [Temporal][temporal]                                                           | Maggie Pint<br />Matt Johnson            | Maggie Pint<br />Brian Terlson                       |
 
 ### Stage 1
 
@@ -97,9 +97,11 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Dynamic Modules][dynamic-modules]                                                           | Bradley Farias                                       | Bradley Farias                                         |
 |          | [JavaScript Standard Library][standard-library]                                              | Michael Saboff<br />Mattijs Hoitink                  | Michael Saboff<br />Mattijs Hoitink                    |
 |          | [`"use module"`][modules-pragma]                                                             | Dave Herman                                          | Dave Herman                                            |
-|          | [`for-in` mechanics][for-in-mechanics]         |                                             | Kevin Gibbons                                        | Kevin Gibbons
-|          | [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]                   | Richard Gibson                                       | Richard Gibson
-|          | [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                       | Richard Gibson
+|          | [`for-in` mechanics][for-in-mechanics]         |                                             | Kevin Gibbons                                        | Kevin Gibbons                                          |
+|          | [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]                   | Richard Gibson                                       | Richard Gibson                                         |
+|          | [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                       | Richard Gibson                                         |
+|          | [Promise.allSettled][allsettled]                                                             | Jason Williams                                       | Mathias Bynens                                         |
+|          | [IDL for ECMAScript][idl]                                                                    | Daniel Ehrenberg                                     | Daniel Ehrenberg                                       |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -208,3 +210,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [for-in-mechanics]: https://github.com/bakkot/for-in-exploration
 [uniform-date-parse]: https://github.com/gibson042/ecma262-proposal-uniform-interchange-date-parsing
 [json-parse-source]: https://github.com/gibson042/ecma262-proposal-JSON-parse-with-source
+[allsettled]: https://github.com/jasonwilliams/proposal-promise-allSettled
+[idl]: https://github.com/littledan/proposal-idl
