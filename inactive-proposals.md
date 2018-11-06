@@ -28,7 +28,7 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [callable-constructors]: https://github.com/tc39/ecma262/blob/master/workingdocs/callconstructor.md
 [is-error]: https://github.com/ljharb/proposal-is-error
 [collection-json]: https://github.com/DavidBruant/Map-Set.prototype.toJSON
-[typed-objects]: https://github.com/dslomov/typed-objects-es7
+[typed-objects]: https://github.com/tschneidereit/typed-objects-explainer
 [object-enums]: https://github.com/leobalter/object-enumerables
 [cancel-promise]: https://github.com/tc39/proposal-cancelable-promises
 [module-unambig]: https://github.com/bmeck/UnambiguousJavaScriptGrammar
