@@ -113,7 +113,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Contributing new proposals
 
-Please see [Contributing to ECMAScript](/CONTRIBUTING.md) for the most up-to-date information on contributing proposals to this standard.
+Please see [Contributing to ECMAScript](https://github.com/tc39/ecma262/blob/master/CONTRIBUTING.md) for the most up-to-date information on contributing proposals to this standard.
 
 ### Onboarding existing proposals
 
