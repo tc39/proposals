@@ -213,6 +213,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [for-in-mechanics]: https://github.com/bakkot/for-in-exploration
 [uniform-date-parse]: https://github.com/gibson042/ecma262-proposal-uniform-interchange-date-parsing
 [json-parse-source]: https://github.com/gibson042/ecma262-proposal-JSON-parse-with-source
-[allsettled]: https://github.com/jasonwilliams/proposal-promise-allSettled
+[allsettled]: https://github.com/tc39/proposal-promise-allSettled
 [idl]: https://github.com/littledan/proposal-idl
 [tests-fromentries]: https://github.com/tc39/test262/pull/1676
