@@ -27,7 +27,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo and Daniel Ehrenberg                                         |                                                |
 |          | [`String.prototype.{trimStart,trimEnd}`][trims]                                | Sebastian Markbåge                                                      | Sebastian Markbåge                                                      | [:white_check_mark:][tests-trims]              |
 |          | [`String.prototype.matchAll`][matchall]                                        | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-matchall]           |
-|          | [`Symbol.prototype.description`][symbol-description]                           | Michael Ficarra                                                         | Michael Ficarra                                                         | [:white_check_mark:][tests-symbol-description] |
 |          | [`Object.fromEntries`][object-from-entries]                                    | Darien Maillet Valentine                                                | Jordan Harband<br />Kevin Gibbons                                       | [:white_check_mark:][tests-fromentries]        |
 |          | [Well-formed `JSON.stringify`][well-formed-stringify]                          | Richard Gibson                                                          | Mathias Bynens                                                          | [:white_check_mark:][tests-well-formd-strngfy] |
 
@@ -155,8 +154,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [temporal]: https://github.com/maggiepint/proposal-temporal
 [float16s]: https://docs.google.com/presentation/d/1Ta_IbravBUOvu7LUhlN49SvLU-8G8bIQnsS08P3Z4vY/edit?usp=sharing
 [nonblocking]: https://github.com/tc39/proposal-atomics-wait-async
-[symbol-description]: https://github.com/tc39/proposal-Symbol-description
-[tests-symbol-description]: https://github.com/tc39/test262/pull/1590
 [flat]: https://github.com/tc39/proposal-flatMap
 [throw-expressions]: https://github.com/rbuckton/proposal-throw-expressions
 [binary-ast]: https://github.com/syg/ecmascript-binary-ast
