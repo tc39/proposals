@@ -15,7 +15,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | :rocket: | Proposal                                                                       | Author                                                                  | Champion                                                                | Tests                                          |
 | -------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------- |
-| :rocket: | [`Function.prototype.toString` revision][function-to-string]                   | Michael Ficarra                                                         | Michael Ficarra                                                         | [:white_check_mark:][tests-function-to-string] |
 |          | [`globalThis`][globalThis]                                                     | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-global]             |
 |          | [`import()`][dynamic-import]                                                   | Domenic Denicola                                                        | Domenic Denicola                                                        | [:white_check_mark:][tests-dynamic-import]     |
 |          | [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | [:white_check_mark:][tests-regexp-legacy]      |
@@ -124,7 +123,6 @@ Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub org
 
 Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work **as long as** you never create a fork, or a new repository, with the same name - although Github Pages redirects will be broken (please update your links!).
 
-[function-to-string]: https://github.com/tc39/Function-prototype-toString-revision
 [globalThis]: https://github.com/tc39/proposal-global
 [dynamic-import]: https://github.com/tc39/proposal-dynamic-import
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features

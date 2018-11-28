@@ -23,6 +23,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Optional `catch` binding][optional-catch]                               | Michael Ficarra                                     | Michael Ficarra                                         | May 2018                                  | 2019                      |
 | [JSON superset][json-superset]                                           | Richard Gibson                                      | Mark Miller<br />Mathias Bynens                         | May 2018                                  | 2019                      |
 | [`Symbol.prototype.description`][symbol-description]                     | Michael Ficarra                                     | Michael Ficarra                                         | November 2018                             | 2019
+| [`Function.prototype.toString` revision][function-to-string]             | Michael Ficarra                                     | Michael Ficarra                                         | November 2018                             | 2019
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -61,3 +62,4 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [optional-catch]: https://github.com/tc39/proposal-optional-catch-binding
 [json-superset]: https://github.com/tc39/proposal-json-superset
 [symbol-description]: https://github.com/tc39/proposal-Symbol-description
+[function-to-string]: https://github.com/tc39/Function-prototype-toString-revision
