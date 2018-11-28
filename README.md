@@ -99,6 +99,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                       | Richard Gibson                                         |
 |          | [Promise.allSettled][allsettled]                                                             | Jason Williams                                       | Mathias Bynens                                         |
 |          | [IDL for ECMAScript][idl]                                                                    | Daniel Ehrenberg                                     | Daniel Ehrenberg                                       |
+|          | [Asset References]                                                                           | Sebastian Markbage                                   | Sebastian Markbage                                     |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -209,3 +210,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [allsettled]: https://github.com/tc39/proposal-promise-allSettled
 [idl]: https://github.com/littledan/proposal-idl
 [tests-fromentries]: https://github.com/tc39/test262/pull/1676
+[asset-references]: https://github.com/sebmarkbage/ecmascript-asset-references
