@@ -76,7 +76,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Cancellation API][cancel-api]                                                               | Ron Buckton                                          | Ron Buckton & Brian Terlson                            |
 |          | [`String.prototype.replaceAll`][replace-all]                                                 | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens | Mathias Bynens                                         |
 |          | [`String.prototype.codePoints`][codepoints]                                                  | Ingvar Stepanyan                                     | Mathias Bynens                                         |
-|          | [Distinguishing literal strings][distinguishing-literal-strings]                             | Mike West                                            | Adam Klein<br />Mike West                              |
 |          | [`Object.freeze` + `Object.seal` syntax][freeze-seal-syntax]                                 | Keith Cirkel                                         | Keith Cirkel                                           |
 |          | [Block Params][block-params]                                                                 | Sam Goto                                             | Sam Goto                                               |
 |          | [`{BigInt,Number}.fromString`][from-string]                                                  | Mathias Bynens                                       | Mathias Bynens                                         |
@@ -164,7 +163,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [interpreter-directive]: https://gist.github.com/bmeck/59cf8c16959eccffd8b7e9828826a842
 [replace-all]: https://github.com/psmarshall/string-replace-all-proposal
 [codepoints]: https://github.com/RReverser/string-prototype-codepoints
-[distinguishing-literal-strings]: https://github.com/mikewest/tc39-proposal-literals
 [freeze-seal-syntax]: https://github.com/keithamus/object-freeze-seal-syntax
 [block-params]: https://github.com/samuelgoto/proposal-block-params
 [static-class-features]: http://github.com/tc39/proposal-static-class-features/

@@ -19,10 +19,12 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [`%constructor%.construct`][construct]                               | James M Snell                                              | Withdrawn                                                                                     |
 | [`Builtins.typeOf()` and `Builtins.is()`][is-types]                  | James M Snell                                              | Withdrawn: can be solved in other ways                                                        |
 | [Tagged Collection Literals][collection-literals]                    | Kat Marchán                                                | Withdrawn: pursuing `when new` syntax and other alternatives                                  |
-| [`Date.parse` fallback semantics][date-parse]                        | Morgan Phillips                                            | Inactive; likely replaced by [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]
+| [`Date.parse` fallback semantics][date-parse]                        | Morgan Phillips                                            | Inactive; likely replaced by [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse] |
+| [Distinguishing literal strings][distinguishing-literal-strings]     | Mike West & Adam Klein                                     | Withdrawn: [Trusted Types](https://github.com/WICG/trusted-types) no longer a dependent |
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [finished proposals](finished-proposals.md) documents.
 
+[distinguishing-literal-strings]: https://github.com/mikewest/tc39-proposal-literals
 [escape]: https://github.com/benjamingr/RegExp.escape
 [escape-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es7/2015-07/july-28.md#62-regexpescape
 [callable-constructors]: https://github.com/tc39/ecma262/blob/master/workingdocs/callconstructor.md
