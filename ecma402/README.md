@@ -36,17 +36,17 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Contributing new proposals
 
-Please see [Contributing to ECMAScript](/CONTRIBUTING.md) for the most up-to-date information on contributing proposals to this standard.
+Please see [Contributing to ECMAScript](https://github.com/tc39/ecma262/blob/master/CONTRIBUTING.md) for the most up-to-date information on contributing proposals to this standard.
 
 ### Onboarding existing proposals
 
 Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub organization](https://github.com/tc39) for discoverability and archival purposes. To onboard a proposal that lives outside the TC39 organization:
 
 1. Transfer your repository to the [@tc39-transfer](http://github.com/tc39-transfer) organization
-  - if you are a TC39 delegate, but not an admin in that organization, please contact @LJHarb
-2. @bterlson or @littledan will transfer your repository to the TC39 organization the next chance they get.
+  - if you are a TC39 delegate, but not an admin in that organization, please contact [@LJHarb](https://github.com/ljharb)
+2. [@bterlson](https://github.com/bterlson), [@gesa](https://github.com/gesa), or [@codehag](https://github.com/codehag) will transfer your repository to the TC39 organization the next chance they get.
 
-Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work - although Github Pages redirects will be broken (please update your links!).
+Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work **as long as** you never create a fork, or a new repository, with the same name - although Github Pages redirects will be broken (please update your links!).
 
 [intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
 [intl.listformat]: https://github.com/zbraniecki/proposal-intl-list-format
