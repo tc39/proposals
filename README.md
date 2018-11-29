@@ -99,7 +99,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                       | Richard Gibson                                         |
 |          | [Promise.allSettled][allsettled]                                                             | Jason Williams                                       | Mathias Bynens                                         |
 |          | [IDL for ECMAScript][idl]                                                                    | Daniel Ehrenberg                                     | Daniel Ehrenberg                                       |
-|          | [Asset References]                                                                           | Sebastian Markbage                                   | Sebastian Markbage                                     |
+|          | [Asset References][asset-references]                                                         | Sebastian Markbage                                   | Sebastian Markbage                                     |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
