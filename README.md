@@ -28,7 +28,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`String.prototype.matchAll`][matchall]                                        | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-matchall]           |
 |          | [`Object.fromEntries`][object-from-entries]                                    | Darien Maillet Valentine                                                | Jordan Harband<br />Kevin Gibbons                                       | [:white_check_mark:][tests-fromentries]        |
 |          | [Well-formed `JSON.stringify`][well-formed-stringify]                          | Richard Gibson                                                          | Mathias Bynens                                                          | [:white_check_mark:][tests-well-formd-strngfy] |
-
+|          | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          |                                                |
 ### Stage 2
 
 | :rocket: | Proposal                                                                       | Author                                   | Champion                                             |
@@ -38,7 +38,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Decorators][decorators]                                                       | Daniel Ehrenberg                         | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg |
 | :rocket: | [`throw` expressions][throw-expressions]                                       | Ron Buckton                              | Ron Buckton                                          |
 |          | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                              | Shu-yu Guo<br />Lars Hansen                          |
-|          | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                           | Bradley Farias                                       |
 |          | [WeakRefs][weakrefs]                                                           | Dean Tribble                             | Dean Tribble                                         |
 |          | [Top-level `await`][await]                                                     | Myles Borins                             | Myles Borins                                         |
 |          | [`Function.prototype.toString()` censorship][censorship]                       | Domenic Denicola                         | Domenic Denicola                                     |
