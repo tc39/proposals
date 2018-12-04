@@ -22,15 +22,16 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 2
 
-| :rocket: | Proposal                                                  | Author                           | Champion                         |
-| -------- | --------------------------------------------------------- | -------------------------------- | -------------------------------- |
-|          | [`Intl.DateFormat.prototype.formatRange`][formatrange]    | Felipe Balbontín                 | Sathya Gunasekaran               |
+| :rocket: | Proposal                                                     | Author                           | Champion                         |
+| -------- | ------------------------------------------------------------ | -------------------------------- | -------------------------------- |
+|          | [`Intl.DateFormat.prototype.formatRange`][formatrange]       | Felipe Balbontín                 | Sathya Gunasekaran       |
+|          | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat] | Zibi Braniecki                   | Zibi Braniecki |                 |
 
 ### Stage 1
 
 | :rocket: | Proposal                                                     | Author         | Champion       |
 | -------- | ------------------------------------------------------------ | -------------- | -------------- |
-|          | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat] | Zibi Braniecki | Zibi Braniecki |
+
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
