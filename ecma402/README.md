@@ -12,29 +12,26 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 3
 
-| :rocket: | Proposal                                                               | Author                           | Champion                         |
-| -------- | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- |
-|          | [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg                 | Daniel Ehrenberg                 |
-|          | [`Intl.ListFormat`][intl.listformat]                                   | Zibi Braniecki                   | Zibi Braniecki                   |
-|          | [`Intl.Locale`][intl.locale]                                           | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
-|          | [`Intl.RelativeTimeFormat`][intl.relativetimeformat]                   | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
-|          | [Intl.NumberFormat Unified API Proposal][numberformat]                 | Shane Carr                       | Shane Carr                       |
+| Proposal                                                               | Author                           | Champion                         |
+| ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- |
+| [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg                 | Daniel Ehrenberg                 |
+| [`Intl.ListFormat`][intl.listformat]                                   | Zibi Braniecki                   | Zibi Braniecki                   |
+| [`Intl.Locale`][intl.locale]                                           | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
+| [`Intl.RelativeTimeFormat`][intl.relativetimeformat]                   | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
+| [Intl.NumberFormat Unified API Proposal][numberformat]                 | Shane Carr                       | Shane Carr                       |
 
 ### Stage 2
 
-| :rocket: | Proposal                                                     | Author                           | Champion                         |
-| -------- | ------------------------------------------------------------ | -------------------------------- | -------------------------------- |
-|          | [`Intl.DateFormat.prototype.formatRange`][formatrange]       | Felipe Balbontín                 | Sathya Gunasekaran       |
-|          | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat] | Zibi Braniecki                   | Zibi Braniecki |                 |
+| Proposal                                                     | Author                           | Champion                         |
+| ------------------------------------------------------------ | -------------------------------- | -------------------------------- |
+| [`Intl.DateFormat.prototype.formatRange`][formatrange]       | Felipe Balbontín                 | Sathya Gunasekaran       |
+| [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat] | Zibi Braniecki                   | Zibi Braniecki |                 |
 
 ### Stage 1
 
-| :rocket: | Proposal                                                     | Author         | Champion       |  <sub>Last Presented</sub>                                        |
-| -------- | ------------------------------------------------------------ | -------------- | -------------- | ----------------------------------------------------------------- |
-|          | [Intl.DisplayNames][proposal-intl-displaynames]              | Frank Tang     | Frank Tang     | <sub>[January&nbsp;2019][proposal-intl-displaynames-notes]</sub>  |
-
-
-:rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
+| Proposal                                                     | Author         | Champion       |  <sub>Last Presented</sub>                                        |
+| ------------------------------------------------------------ | -------------- | -------------- | ----------------------------------------------------------------- |
+| [Intl.DisplayNames][proposal-intl-displaynames]              | Frank Tang     | Frank Tang     | <sub>[January&nbsp;2019][proposal-intl-displaynames-notes]</sub>  |
 
 ### Contributing new proposals
 
