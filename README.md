@@ -41,7 +41,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [WeakRefs][weakrefs]                                                           | Dean Tribble                             | Dean Tribble                                         |
 |          | [Top-level `await`][await]                                                     | Myles Borins                             | Myles Borins                                         |
 |          | [`Function.prototype.toString()` censorship][censorship]                       | Domenic Denicola                         | Domenic Denicola                                     |
-|          | [New Set methods][set-methods]                                                 | Michał Wadas                             | Sathya Gunasekaran                                   |
+|          | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran                             | Sathya Gunasekaran                                   |
 |          | [Realms][realms]                                                               | Caridy Patiño<br />Jean-Francois Paradis | Dave Herman<br />Mark Miller<br />Caridy Patiño      |
 |          | [`ArrayBuffer.prototype.transfer`][buffer-transfer]                            | Domenic Denicola                         | Domenic Denicola                                     |
 |          | [RegExp Match array offsets][regex-offsets]                                    | Ron Buckton                              | Ron Buckton                                          |
