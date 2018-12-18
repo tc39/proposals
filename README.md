@@ -137,7 +137,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [decorators]: http://github.com/tc39/proposal-decorators
 [import-meta]: https://github.com/tc39/proposal-import-meta
 [numeric_separators]: https://github.com/tc39/proposal-numeric-separator
-[numeric_separators]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-24.md#numeric-separators-update
+[numeric_separators-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-24.md#numeric-separators-update
 [private-methods]: https://github.com/tc39/proposal-private-methods
 [export-from]: https://github.com/tc39/proposal-export-default-from
 [observable]: https://github.com/tc39/proposal-observable
