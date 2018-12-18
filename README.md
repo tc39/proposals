@@ -16,11 +16,11 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | :rocket: | Proposal                                                                       | Author                                                                  | Champion                                                                | Tests                                          | <sub>Last Presented</sub>                               |
 | -------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------|
 |          | [`globalThis`][globalThis]                                                     | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-global]             | <sub>November&nbsp;2018</sub>                           |
-|          | [`import()`][dynamic-import]                                                   | Domenic Denicola                                                        | Domenic Denicola                                                        | [:white_check_mark:][tests-dynamic-import]     |                                                         |
-|          | [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | [:white_check_mark:][tests-regexp-legacy]      |                                                         |
+|          | [`import()`][dynamic-import]                                                   | Domenic Denicola                                                        | Domenic Denicola                                                        | [:white_check_mark:][tests-dynamic-import]     | <sub>[November&nbsp;2016][dynamic-import-notes]</sub>   |
+|          | [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | [:white_check_mark:][tests-regexp-legacy]      | <sub>[May&nbsp;2017][regexp-legacy-notes]</sub>         |
 |          | [`BigInt`][bigint]                                                             | Daniel Ehrenberg                                                        | Daniel Ehrenberg                                                        | [:white_check_mark:][tests-bigint]             | <sub>[May&nbsp;2018][bigint-notes]</sub>                |
-|          | [`import.meta`][import-meta]                                                   | Domenic Denicola                                                        | Domenic Denicola                                                        | [:question:][tests-import-meta]                |                                                         |
-|          | [Private instance methods and accessors][private-methods]                      | Daniel Ehrenberg                                                        | Daniel Ehrenberg<br />Kevin Gibbons                                     | [:question:][tests-private-methods]            |                                                         |
+|          | [`import.meta`][import-meta]                                                   | Domenic Denicola                                                        | Domenic Denicola                                                        | [:question:][tests-import-meta]                | <sub>[September&nbsp;2017][import-meta-notes]</sub>     |
+|          | [Private instance methods and accessors][private-methods]                      | Daniel Ehrenberg                                                        | Daniel Ehrenberg<br />Kevin Gibbons                                     | [:question:][tests-private-methods]            | <sub>[September&nbsp;2018][private-methods-notes]</sub> |
 | :rocket: | [`Array.prototype.{flat,flatMap}`][flat]                                       | Brian Terlson<br />Michael Ficarra                                      | Brian Terlson<br />Michael Ficarra                                      | [:white_check_mark:][tests-flat]               | <sub>[September&nbsp;2018][flat-notes]</sub>            |
 |          | [Class Public Instance Fields & Private Instance Fields][class-fields]         | Daniel Ehrenberg<br />Kevin Gibbons                                     | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:question:][tests-class-fields]               | <sub>[September&nbsp;2018][class-fields-notes]</sub>    |
 |          | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo and Daniel Ehrenberg                                         |                                                | <sub>[May&nbsp;2018][static-class-features-notes]</sub> |
@@ -37,7 +37,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Numeric separators][numeric_separators]                                       | Sam Goto<br />Rick Waldron               | Sam Goto<br />Rick Waldron                           | <sub>[May&nbsp;2018][numeric_separators-notes]</sub>                |
 |          | [`function.sent` metaproperty][function-sent]                                  | Allen Wirfs-Brock                        | Allen Wirfs-Brock                                    | <sub>[November&nbsp;2015][function-sent-notes]</sub>                |
 |          | [Decorators][decorators]                                                       | Daniel Ehrenberg                         | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg | <sub>November 2018</sub>                                            |
-| :rocket: | [`throw` expressions][throw-expressions]                                       | Ron Buckton                              | Ron Buckton                                          |                                                                     |
+| :rocket: | [`throw` expressions][throw-expressions]                                       | Ron Buckton                              | Ron Buckton                                          | <sub>[January&nbsp;2018][throw-expressions-notes]</sub>             |
 |          | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                              | Shu-yu Guo<br />Lars Hansen                          | <sub>[September&nbsp;2017][nonblocking-notes]</sub>                 |
 |          | [WeakRefs][weakrefs]                                                           | Dean Tribble                             | Dean Tribble                                         | <sub>[March&nbsp;2018][weakrefs-notes]</sub>                        |
 |          | [Top-level `await`][await]                                                     | Myles Borins                             | Myles Borins                                         | <sub>[May&nbsp;2018][await-notes]</sub>                             |
@@ -68,24 +68,24 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Float16 on TypedArrays, DataView, `Math.hfround`][float16s]                                 | Leo Balter                                            | Leo Balter                                             |                                                            |
 |          | Change `Number.parseInt`/`parseFloat` to not coerce `null`/`undefined`/`NaN` (repo link TBD) |                                                       | Brendan Eich                                           |                                                            |
 |          | [Binary AST][binary-ast]                                                                     | Shu-yu Guo                                            | Shu-yu Guo                                             | <sub>[May&nbsp;2018][binary-ast-notes]</sub>               |
-|          | [Pipeline Operator][pipeline]                                                                | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       |                                                            |
-|          | [Extensible numeric literals][extensible-literals]                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       |                                                            |
+|          | [Pipeline Operator][pipeline]                                                                | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[March&nbsp;2018][pipeline-notes]</sub>               |
+|          | [Extensible numeric literals][extensible-literals]                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[September&nbsp;2017][extensible-literals-notes]      |
 |          | [First-class protocols][protocols]                                                           | Michael Ficarra                                       | Michael Ficarra                                        | <sub>[July&nbsp;2018][protocols-notes]</sub>               |
-|          | [Nullish coalescing Operator][nullish-coalescing]                                            | Gabriel Isenberg                                      | Gabriel Isenberg                                       |                                                            |
+|          | [Nullish coalescing Operator][nullish-coalescing]                                            | Gabriel Isenberg                                      | Gabriel Isenberg                                       | <sub>[March&nbsp;2018][nullish-coalescing-notes]</sub>     |
 |          | [Partial application][partial-application]                                                   | Ron Buckton                                           | Ron Buckton                                            | <sub>[July&nbsp;2018][partial-application-notes]</sub>     |
 |          | [Cancellation API][cancel-api]                                                               | Ron Buckton                                           | Ron Buckton & Brian Terlson                            | <sub>[July&nbsp;2018][cancel-api-notes]</sub>              |
-|          | [`String.prototype.replaceAll`][replace-all]                                                 | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens  | Mathias Bynens                                         |                                                            |
+|          | [`String.prototype.replaceAll`][replace-all]                                                 | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens  | Mathias Bynens                                         | <sub>[November&nbsp;2017][replace-all-notes]</sub>         |
 |          | [`String.prototype.codePoints`][codepoints]                                                  | Ingvar Stepanyan                                      | Mathias Bynens                                         | <sub>[May&nbsp;2018][codepoints-notes]</sub>               |
 |          | [`Object.freeze` + `Object.seal` syntax][freeze-seal-syntax]                                 | Keith Cirkel                                          | Keith Cirkel                                           |                                                            |
 |          | [Block Params][block-params]                                                                 | Sam Goto                                              | Sam Goto                                               |                                                            |
-|          | [`{BigInt,Number}.fromString`][from-string]                                                  | Mathias Bynens                                        | Mathias Bynens                                         |                                                            |
-|          | [`Math.seededRandoms()`][seeded-randoms]                                                     | Tab Atkins                                            | Tab Atkins                                             |                                                            |
-|          | [Maximally minimal mixins][mixins]                                                           | Justin Fagnani                                        | Justin Fagnani                                         |                                                            |
-|          | [Getting last element of Array][arraylast]                                                   | Keith Cirkel                                          | Keith Cirkel                                           |                                                            |
+|          | [`{BigInt,Number}.fromString`][from-string]                                                  | Mathias Bynens                                        | Mathias Bynens                                         | <sub>[January&nbsp;2018][from-string-notes]</sub>          |
+|          | [`Math.seededRandoms()`][seeded-randoms]                                                     | Tab Atkins                                            | Tab Atkins                                             | <sub>[January&nbsp;2018][seeded-randoms-notes]</sub>       |
+|          | [Maximally minimal mixins][mixins]                                                           | Justin Fagnani                                        | Justin Fagnani                                         | <sub>[January&nbsp;2018][mixins-notes]</sub>               |
+|          | [Getting last element of Array][arraylast]                                                   | Keith Cirkel                                          | Keith Cirkel                                           | <sub>[January&nbsp;2018][arraylast-notes]</sub>            |
 |          | [Collection methods][collection-methods]                                                     | Michał Wadas                                          | Sathya Gunasekaran                                     |                                                            |
-|          | [Richer Keys][richer-keys]                                                                   | Bradley Farias                                        | Bradley Farias                                         |                                                            |
-|          | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                    | Sathya Gunasekaran                                     |                                                            |
-|          | [Logical Assignment Operators][logical-assignment]                                           | Justin Ridgewell                                      | Justin Ridgewell                                       |                                                            |
+|          | [Richer Keys][richer-keys]                                                                   | Bradley Farias                                        | Bradley Farias                                         | <sub>[March&nbsp;2018][richer-keys-notes]</sub>            |
+|          | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                    | Sathya Gunasekaran                                     | <sub>[March&nbsp;2018][slice-notation-notes]</sub>         |
+|          | [Logical Assignment Operators][logical-assignment]                                           | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[March&nbsp;2018][logical-assignment-notes]</sub>     |
 |          | [Module Keys][module-keys]                                                                   | Mike Samuel                                           | Mike Samuel                                            | <sub>[May&nbsp;2018][module-keys-notes]</sub>              |
 |          | [Class Static Block][static-blocks]                                                          | Ron Buckton                                           | Ron Buckton                                            | <sub>[May&nbsp;2018][static-blocks-notes]</sub>            |
 |          | [class Access Expressions][class-access-expressions]                                         | Ron Buckton                                           | Ron Buckton                                            | <sub>[May&nbsp;2018][class-access-expressions-notes]</sub> |
@@ -93,7 +93,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Explicit Resource Management][resource-management]                                          | Ron Buckton                                           | Ron Buckton                                            | <sub>[July&nbsp;2018][resource-management-notes]</sub>     |
 |          | [Dynamic Modules][dynamic-modules]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[July&nbsp;2018][dynamic-modules-notes]</sub>         |
 |          | [JavaScript Standard Library][standard-library]                                              | Michael Saboff<br />Mattijs Hoitink                   | Michael Saboff<br />Mattijs Hoitink                    | <sub>[July&nbsp;2018][standard-library-notes]</sub>        |
-|          | [`"use module"`][modules-pragma]                                                             | Dave Herman                                           | Dave Herman                                            |                                                            |
+|          | [`"use module"`][modules-pragma]                                                             | Dave Herman                                           | Dave Herman                                            | <sub>[July&nbsp;2017][modules-pragma-notes]</sub>                                                        |
 |          | [`for-in` mechanics][for-in-mechanics]                                                       | Kevin Gibbons                                         | Kevin Gibbons                                          | <sub>[September&nbsp;2018][for-in-mechanics-notes]</sub>   |
 |          | [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]                   | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][uniform-date-parse-notes]</sub> |
 |          | [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][json-parse-source-notes]</sub>  |
@@ -126,7 +126,9 @@ Note that as part of the onboarding process your repository name may be normaliz
 [globalThis]: https://github.com/tc39/proposal-global
 [globalThis-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-25.md#revisit-global-name
 [dynamic-import]: https://github.com/tc39/proposal-dynamic-import
+[dynamic-import-notes]: https://github.com/tc39/tc39-notes/blob/master/es7/2016-11/dec-1.md#14ii-import-open-issues-and-stage-3-discussion
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features
+[regexp-legacy-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-05/may-25.md#15ia-regexp-legacy-features-for-stage-3
 [bigint]: https://github.com/tc39/proposal-bigint
 [bigint-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-22.md#bigint-status-update
 [class-fields]: https://github.com/tc39/proposal-class-fields
@@ -138,9 +140,11 @@ Note that as part of the onboarding process your repository name may be normaliz
 [trim-notes]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es8/2018-01/jan-23.md#13iid-stringprototypetrimstarttrimend-for-stage-3
 [decorators]: http://github.com/tc39/proposal-decorators
 [import-meta]: https://github.com/tc39/proposal-import-meta
+[import-meta-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-09/sep-27.md#12iiic-importmeta-for-stage-3
 [numeric_separators]: https://github.com/tc39/proposal-numeric-separator
 [numeric_separators-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-24.md#numeric-separators-update
 [private-methods]: https://github.com/tc39/proposal-private-methods
+[private-methods-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-26.md#class-fields-and-private-methods-stage-3-update
 [export-from]: https://github.com/tc39/proposal-export-default-from
 [observable]: https://github.com/tc39/proposal-observable
 [matchall]: https://github.com/tc39/String.prototype.matchAll
@@ -167,13 +171,17 @@ Note that as part of the onboarding process your repository name may be normaliz
 [flat]: https://github.com/tc39/proposal-flatMap
 [flat-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-26.md#arrayprototypeflatmap-for-stage-4-
 [throw-expressions]: https://github.com/rbuckton/proposal-throw-expressions
+[throw-expressions-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2018-01/jan-24.md#13iiii-throw-expressions-for-stage-3
 [binary-ast]: https://github.com/syg/ecmascript-binary-ast
 [binary-ast-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-24.md#binary-ast
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
+[pipeline-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-03/mar-22.md#pipeline-operator
 [extensible-literals]: https://github.com/littledan/proposal-extensible-numeric-literals
+[extensible-literals-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-09/sep-26.md#11iic-extensible-literals
 [protocols]: https://github.com/michaelficarra/proposal-first-class-protocols
 [protocols-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-25.md#updates-on-first-class-protocols
 [nullish-coalescing]: https://github.com/tc39/proposal-nullish-coalescing
+[nullish-coalescing-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-03/mar-22.md#10iif-nullish-coalescing-for-stage-2
 [partial-application]: https://github.com/tc39/proposal-partial-application
 [partial-application-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-25.md#partial-application
 [cancel-api]: https://github.com/tc39/proposal-cancellation
@@ -181,6 +189,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [interpreter-directive]: https://gist.github.com/bmeck/59cf8c16959eccffd8b7e9828826a842
 [interpreter-directive-notes]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es8/2017-11/nov-28.md
 [replace-all]: https://github.com/psmarshall/string-replace-all-proposal
+[replace-all-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-11/nov-28.md#10ih-stringprototypereplaceall-for-stage-1
 [codepoints]: https://github.com/tc39/proposal-string-prototype-codepoints
 [codepoints-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-22.md#stringprototypecodepoints-for-stage-2
 [freeze-seal-syntax]: https://github.com/keithamus/object-freeze-seal-syntax
@@ -199,13 +208,17 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-numeric_separators]: https://github.com/tc39/test262/issues/1051
 [tests-class-fields]: https://github.com/tc39/test262/issues/1161
 [from-string]: https://github.com/mathiasbynens/proposal-number-fromstring
+[from-string-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2018-01/jan-23.md#13iic-bigintnumberfromstring-for-stage-1
 [seeded-randoms]: https://github.com/tabatkins/js-seeded-random
+[seeded-randoms-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
 [censorship]: https://github.com/domenic/proposal-function-prototype-tostring-censorship
 [censorship-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-24.md#functionprototypetostring-censorship-for-stage-2-continued-discussion
 [await]: https://github.com/tc39/proposal-top-level-await
 [await-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-22.md#top-level-await
 [mixins]: https://github.com/justinfagnani/proposal-mixins
+[mixins-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal
 [arraylast]: https://github.com/keithamus/proposal-array-last
+[arraylast-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2018-01/jan-24.md#13iiim-getting-last-item-from-array-for-stage-2
 [set-methods]: https://github.com/tc39/set-methods
 [set-methods-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-22.md#set-methods
 [collection-methods]: https://github.com/tc39/collection-methods
@@ -214,8 +227,11 @@ Note that as part of the onboarding process your repository name may be normaliz
 [hashbang-grammar]: https://github.com/bmeck/proposal-hashbang
 [tests-hashbang-grammar]: https://github.com/tc39/test262/pull/1983
 [richer-keys]: https://docs.google.com/presentation/d/1q3CGeXqskL1gHTATH_VE9Dhj0VGTIAOzJ1cR0dYqDBk/edit#slide=id.p
+[richer-keys-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-03/mar-21.md#10iib-richer-keys-for-stage-1
 [slice-notation]: https://github.com/gsathya/proposal-slice-notation/
+[slice-notation-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-03/mar-22.md#slice-notation-for-stage-1
 [logical-assignment]: https://github.com/jridgewell/proposal-logical-assignment
+[logical-assignment-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-03/mar-22.md#10ie-logical-assignment-operators-for-stage-1-cont
 [unicode-sequence-properties]: https://github.com/mathiasbynens/proposal-regexp-unicode-sequence-properties
 [unicode-sequence-properties-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-26.md#sequence-properties-in-unicode-property-escapes-for-stage-2
 [well-formed-stringify]: https://github.com/gibson042/ecma262-proposal-well-formed-stringify
@@ -240,6 +256,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [standard-library]: https://github.com/msaboff/JavaScript-Standard-Library
 [standard-library-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-26.md#javascript-standard-library
 [modules-pragma]: https://github.com/tc39/proposal-modules-pragma
+[modules-pragma-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
 [for-in-mechanics]: https://github.com/bakkot/for-in-exploration
 [for-in-mechanics-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-25.md#for-in-mechanics
 [uniform-date-parse]: https://github.com/gibson042/ecma262-proposal-uniform-interchange-date-parsing
