@@ -155,7 +155,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [do]: https://github.com/tc39/proposal-do-expressions
 [do-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-24.md#update-on-do-expressions
 [realms]: https://github.com/caridy/proposal-realms
-[realms]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-23.md#realms
+[realms-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-23.md#realms
 [temporal]: https://github.com/maggiepint/proposal-temporal
 [temporal-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-27.md#temporal-for-stage-2
 [float16s]: https://docs.google.com/presentation/d/1Ta_IbravBUOvu7LUhlN49SvLU-8G8bIQnsS08P3Z4vY/edit?usp=sharing
