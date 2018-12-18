@@ -28,7 +28,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`String.prototype.matchAll`][matchall]                                        | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-matchall]           | <sub>[September&nbsp;2018][matchall-notes]</sub>        |
 | :rocket: | [`Object.fromEntries`][object-from-entries]                                    | Darien Maillet Valentine                                                | Jordan Harband<br />Kevin Gibbons                                       | [:white_check_mark:][tests-fromentries]        | <sub>[July&nbsp;2018][object-from-entries-notes]</sub>  |
 |          | [Well-formed `JSON.stringify`][well-formed-stringify]                          | Richard Gibson                                                          | Mathias Bynens                                                          | [:white_check_mark:][tests-well-formd-strngfy] | <sub>[September&nbsp;2018][well-formd-notes]</sub>      |
-|          | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          |                                                | <sub>November&nbsp;2018</sub>                           |
+|          | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:construction:][tests-hashbang-grammar]       | <sub>November&nbsp;2018</sub>                           |
 
 ### Stage 2
 
@@ -212,6 +212,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [object-from-entries]: https://github.com/bakkot/object-from-entries
 [object-from-entries-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-24.md#objectfromentries-to-stage-3
 [hashbang-grammar]: https://github.com/bmeck/proposal-hashbang
+[tests-hashbang-grammar]: https://github.com/tc39/test262/pull/1983
 [richer-keys]: https://docs.google.com/presentation/d/1q3CGeXqskL1gHTATH_VE9Dhj0VGTIAOzJ1cR0dYqDBk/edit#slide=id.p
 [slice-notation]: https://github.com/gsathya/proposal-slice-notation/
 [logical-assignment]: https://github.com/jridgewell/proposal-logical-assignment
