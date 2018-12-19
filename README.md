@@ -15,7 +15,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | :rocket: | Proposal                                                                       | Author                                                                  | Champion                                                                | Tests                                          | <sub>Last Presented</sub>                               |
 | -------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------|
-|          | [`globalThis`][globalThis]                                                     | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-global]             | <sub>November&nbsp;2018</sub>                           |
+|          | [`globalThis`][globalThis]                                                     | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-global]             | <sub>[November&nbsp;2018](globalThis-notes)</sub>                           |
 |          | [`import()`][dynamic-import]                                                   | Domenic Denicola                                                        | Domenic Denicola                                                        | [:white_check_mark:][tests-dynamic-import]     | <sub>[November&nbsp;2016][dynamic-import-notes]</sub>   |
 |          | [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | [:white_check_mark:][tests-regexp-legacy]      | <sub>[May&nbsp;2017][regexp-legacy-notes]</sub>         |
 |          | [`BigInt`][bigint]                                                             | Daniel Ehrenberg                                                        | Daniel Ehrenberg                                                        | [:white_check_mark:][tests-bigint]             | <sub>[May&nbsp;2018][bigint-notes]</sub>                |
@@ -28,7 +28,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`String.prototype.matchAll`][matchall]                                        | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-matchall]           | <sub>[September&nbsp;2018][matchall-notes]</sub>        |
 | :rocket: | [`Object.fromEntries`][object-from-entries]                                    | Darien Maillet Valentine                                                | Jordan Harband<br />Kevin Gibbons                                       | [:white_check_mark:][tests-fromentries]        | <sub>[July&nbsp;2018][object-from-entries-notes]</sub>  |
 |          | [Well-formed `JSON.stringify`][well-formed-stringify]                          | Richard Gibson                                                          | Mathias Bynens                                                          | [:white_check_mark:][tests-well-formd-strngfy] | <sub>[September&nbsp;2018][well-formd-notes]</sub>      |
-|          | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:construction:][tests-hashbang-grammar]       | <sub>November&nbsp;2018</sub>                           |
+|          | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:construction:][tests-hashbang-grammar]       | <sub>[November&nbsp;2018][hashbang-notes]</sub>                           |
 
 ### Stage 2
 
@@ -36,7 +36,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | -------- | ------------------------------------------------------------------------------ | ---------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------- |
 |          | [Numeric separators][numeric_separators]                                       | Sam Goto<br />Rick Waldron               | Sam Goto<br />Rick Waldron                           | <sub>[May&nbsp;2018][numeric_separators-notes]</sub>                |
 |          | [`function.sent` metaproperty][function-sent]                                  | Allen Wirfs-Brock                        | Allen Wirfs-Brock                                    | <sub>[November&nbsp;2015][function-sent-notes]</sub>                |
-|          | [Decorators][decorators]                                                       | Daniel Ehrenberg                         | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg | <sub>November 2018</sub>                                            |
+|          | [Decorators][decorators]                                                       | Daniel Ehrenberg                         | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg | <sub>[November&nbsp;2018][decorators-notes]</sub>                                            |
 | :rocket: | [`throw` expressions][throw-expressions]                                       | Ron Buckton                              | Ron Buckton                                          | <sub>[January&nbsp;2018][throw-expressions-notes]</sub>             |
 |          | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                              | Shu-yu Guo<br />Lars Hansen                          | <sub>[September&nbsp;2017][nonblocking-notes]</sub>                 |
 |          | [WeakRefs][weakrefs]                                                           | Dean Tribble                             | Dean Tribble                                         | <sub>[March&nbsp;2018][weakrefs-notes]</sub>                        |
@@ -61,7 +61,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`of` and `from` on collection constructors][collection-of-from]                             | Leo Balter                                            | Leo Balter                                             |                                                            |
 |          | Generator arrow functions (`=>*`)                                                            |                                                       | Brendan Eich<br />Domenic Denicola                     |                                                            |
 |          | [`Promise.try`][try]                                                                         | Jordan Harband                                        | Jordan Harband                                         |                                                            |
-|          | [Optional Chaining][chaining]                                                                | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery | Gabriel Isenberg<br />Dustin Savery                    | <sub>November&nbsp;2018</sub>                              |
+|          | [Optional Chaining][chaining]                                                                | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery | Gabriel Isenberg<br />Dustin Savery                    | <sub>[November&nbsp;2018][chaining-notes]</sub>            |
 |          | [`Math.signbit`: IEEE-754 sign bit][signbit]                                                 | JF Bastien                                            | JF Bastien                                             |                                                            |
 |          | [Error stacks][stacks]                                                                       | Jordan Harband                                        | Jordan Harband                                         |                                                            |
 |          | [`do` expressions][do]                                                                       | Dave Herman                                           | Dave Herman                                            | <sub>[July&nbsp;2018][do-notes]</sub>                      |
@@ -99,7 +99,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][json-parse-source-notes]</sub>  |
 |          | [Promise.allSettled][allsettled]                                                             | Jason Williams                                        | Mathias Bynens                                         | <sub>[September&nbsp;2018][allsettled-notes]</sub>         |
 |          | [IDL for ECMAScript][idl]                                                                    | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[September&nbsp;2018][idl-notes]</sub>                |
-|          | [Asset References][asset-references]                                                         | Sebastian Markbage                                    | Sebastian Markbage                                     | <sub>November&nbsp;2018</sub>                              |
+|          | [Asset References][asset-references]                                                         | Sebastian Markbage                                    | Sebastian Markbage                                     | <sub>[November&nbsp;2018][asset-references-notes]</sub>    |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -124,7 +124,7 @@ Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub org
 Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work **as long as** you never create a fork, or a new repository, with the same name - although Github Pages redirects will be broken (please update your links!).
 
 [globalThis]: https://github.com/tc39/proposal-global
-[globalThis-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-25.md#revisit-global-name
+[globalThis-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-11/nov-29.md#kevins-1pm-talk
 [dynamic-import]: https://github.com/tc39/proposal-dynamic-import
 [dynamic-import-notes]: https://github.com/tc39/tc39-notes/blob/master/es7/2016-11/dec-1.md#14ii-import-open-issues-and-stage-3-discussion
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features
@@ -139,6 +139,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-trims]: https://github.com/tc39/test262/pull/1246
 [trim-notes]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es8/2018-01/jan-23.md#13iid-stringprototypetrimstarttrimend-for-stage-3
 [decorators]: http://github.com/tc39/proposal-decorators
+[decorators-notes]: https://github.com/tc39/tc39-notes/blob/927f4e98d8e0fef59fb69e52fb40ec6619a6eacb/es9/2018-11/nov-28.md#decorators-stage-2-update
 [import-meta]: https://github.com/tc39/proposal-import-meta
 [import-meta-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-09/sep-27.md#12iiic-importmeta-for-stage-3
 [numeric_separators]: https://github.com/tc39/proposal-numeric-separator
@@ -157,6 +158,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [collection-of-from]: https://github.com/leobalter/proposal-setmap-offrom
 [try]: https://github.com/ljharb/proposal-promise-try
 [chaining]: https://github.com/tc39/proposal-optional-chaining
+[chaining-notes]: https://github.com/tc39/tc39-notes/blob/927f4e98d8e0fef59fb69e52fb40ec6619a6eacb/es9/2018-11/nov-28.md#update-on-optional-chaining
 [signbit]: http://jfbastien.github.io/papers/Math.signbit.html
 [stacks]: https://github.com/ljharb/proposal-error-stacks
 [do]: https://github.com/tc39/proposal-do-expressions
@@ -226,6 +228,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [object-from-entries-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-24.md#objectfromentries-to-stage-3
 [hashbang-grammar]: https://github.com/bmeck/proposal-hashbang
 [tests-hashbang-grammar]: https://github.com/tc39/test262/pull/1983
+[hashbang-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-11/nov-28.md#hash-bang-grammar
 [richer-keys]: https://docs.google.com/presentation/d/1q3CGeXqskL1gHTATH_VE9Dhj0VGTIAOzJ1cR0dYqDBk/edit#slide=id.p
 [richer-keys-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-03/mar-21.md#10iib-richer-keys-for-stage-1
 [slice-notation]: https://github.com/gsathya/proposal-slice-notation/
@@ -269,3 +272,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [idl-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-27.md#idl-for-javascript
 [tests-fromentries]: https://github.com/tc39/test262/pull/1676
 [asset-references]: https://github.com/sebmarkbage/ecmascript-asset-references
+[asset-references-notes]: https://github.com/tc39/tc39-notes/blob/927f4e98d8e0fef59fb69e52fb40ec6619a6eacb/es9/2018-11/nov-28.md#asset-references-for-stage-1
