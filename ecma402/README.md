@@ -52,12 +52,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
 [intl.listformat]: https://github.com/zbraniecki/proposal-intl-list-format
 [intl.relativetimeformat]: https://github.com/tc39/proposal-intl-relative-time
-[intl.durationformat]: https://github.com/tc39/ecma402/issues/47
-[intl.unitformat]: https://github.com/tc39/ecma402/issues/32
-[intl.pluralrules]: https://github.com/tc39/proposal-intl-plural-rules
-[intl.datetimeformat.prototype.formattoparts]: https://github.com/tc39/proposal-intl-formatToParts
-[intl.numberformat.prototype.formattoparts]: https://github.com/tc39/proposal-intl-formatToParts
-[locale-info]: https://github.com/tc39/ecma402/issues/46
 [datetimeformat]: https://github.com/zbraniecki/proposal-ecma402-datetime-style
 [intl.locale]: https://github.com/zbraniecki/proposal-intl-locale
 [formatrange]: https://github.com/fabalbon/proposal-intl-DateTimeFormat-formatRange
