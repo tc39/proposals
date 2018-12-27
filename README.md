@@ -82,7 +82,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Maximally minimal mixins][mixins]                                                           | Justin Fagnani                                        | Justin Fagnani                                         | <sub>[January&nbsp;2018][mixins-notes]</sub>               |
 |          | [Getting last element of Array][arraylast]                                                   | Keith Cirkel                                          | Keith Cirkel                                           | <sub>[January&nbsp;2018][arraylast-notes]</sub>            |
 |          | [Collection methods][collection-methods]                                                     | Michał Wadas                                          | Sathya Gunasekaran                                     |                                                            |
-|          | [Richer Keys][richer-keys]                                                                   | Bradley Farias                                        | Bradley Farias                                         | <sub>[March&nbsp;2018][richer-keys-notes]</sub>            |
+| :rocket: | [Richer Keys][richer-keys]                                                                   | Bradley Farias                                        | Bradley Farias                                         | <sub>[March&nbsp;2018][richer-keys-notes]</sub>            |
 |          | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                    | Sathya Gunasekaran                                     | <sub>[March&nbsp;2018][slice-notation-notes]</sub>         |
 |          | [Logical Assignment Operators][logical-assignment]                                           | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[March&nbsp;2018][logical-assignment-notes]</sub>     |
 |          | [Module Keys][module-keys]                                                                   | Mike Samuel                                           | Mike Samuel                                            | <sub>[May&nbsp;2018][module-keys-notes]</sub>              |
@@ -226,7 +226,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [hashbang-grammar]: https://github.com/bmeck/proposal-hashbang
 [tests-hashbang-grammar]: https://github.com/tc39/test262/pull/1983
 [hashbang-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-11/nov-28.md#hash-bang-grammar
-[richer-keys]: https://docs.google.com/presentation/d/1q3CGeXqskL1gHTATH_VE9Dhj0VGTIAOzJ1cR0dYqDBk/edit#slide=id.p
+[richer-keys]: https://github.com/tc39/proposal-richer-keys
 [richer-keys-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-03/mar-21.md#10iib-richer-keys-for-stage-1
 [slice-notation]: https://github.com/gsathya/proposal-slice-notation/
 [slice-notation-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-03/mar-22.md#slice-notation-for-stage-1
