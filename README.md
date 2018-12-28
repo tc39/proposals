@@ -47,7 +47,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`ArrayBuffer.prototype.transfer`][buffer-transfer]                            | Domenic Denicola                         | Domenic Denicola                                     | <sub>[July&nbsp;2018][buffer-transfer-notes]</sub>                  |
 |          | [RegExp Match array offsets][regex-offsets]                                    | Ron Buckton                              | Ron Buckton                                          | <sub>[July&nbsp;2018][regex-offsets-notes]</sub>                    |
 |          | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                           | Mathias Bynens                                       | <sub>[September&nbsp;2018][unicode-sequence-properties-notes]</sub> |
-|          | [`InterpreterDirective`][interpreter-directive]                                | Bradley Farias                           | Bradley Farias                                       | <sub>[November&nbsp;2017][interpreter-directive-notes]</sub>        |
 |          | [Temporal][temporal]                                                           | Maggie Pint<br />Matt Johnson            | Maggie Pint<br />Brian Terlson                       | <sub>[September&nbsp;2018][temporal-notes]</sub>                    |
 
 ### Stage 1
