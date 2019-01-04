@@ -187,8 +187,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [partial-application-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-25.md#partial-application
 [cancel-api]: https://github.com/tc39/proposal-cancellation
 [cancel-api-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-25.md#cancellation-update
-[interpreter-directive]: https://gist.github.com/bmeck/59cf8c16959eccffd8b7e9828826a842
-[interpreter-directive-notes]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es8/2017-11/nov-28.md
 [replace-all]: https://github.com/psmarshall/string-replace-all-proposal
 [replace-all-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-11/nov-28.md#10ih-stringprototypereplaceall-for-stage-1
 [codepoints]: https://github.com/tc39/proposal-string-prototype-codepoints
