@@ -23,7 +23,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Private instance methods and accessors][private-methods]                      | Daniel Ehrenberg                                                        | Daniel Ehrenberg<br />Kevin Gibbons                                     | [:question:][tests-private-methods]            | <sub>[September&nbsp;2018][private-methods-notes]</sub> |
 | :rocket: | [`Array.prototype.{flat,flatMap}`][flat]                                       | Brian Terlson<br />Michael Ficarra                                      | Brian Terlson<br />Michael Ficarra                                      | [:white_check_mark:][tests-flat]               | <sub>[September&nbsp;2018][flat-notes]</sub>            |
 |          | [Class Public Instance Fields & Private Instance Fields][class-fields]         | Daniel Ehrenberg<br />Kevin Gibbons                                     | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:question:][tests-class-fields]               | <sub>[September&nbsp;2018][class-fields-notes]</sub>    |
-|          | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo and Daniel Ehrenberg                                         |                                                | <sub>[May&nbsp;2018][static-class-features-notes]</sub> |
+|          | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg                                        |                                                | <sub>[May&nbsp;2018][static-class-features-notes]</sub> |
 |          | [`String.prototype.{trimStart,trimEnd}`][trims]                                | Sebastian Markbåge                                                      | Sebastian Markbåge                                                      | [:white_check_mark:][tests-trims]              | <sub>[January&nbsp;2018][trim-notes]</sub>              |
 |          | [`String.prototype.matchAll`][matchall]                                        | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-matchall]           | <sub>[September&nbsp;2018][matchall-notes]</sub>        |
 | :rocket: | [`Object.fromEntries`][object-from-entries]                                    | Darien Maillet Valentine                                                | Jordan Harband<br />Kevin Gibbons                                       | [:white_check_mark:][tests-fromentries]        | <sub>[July&nbsp;2018][object-from-entries-notes]</sub>  |
@@ -72,7 +72,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [First-class protocols][protocols]                                                           | Michael Ficarra                                       | Michael Ficarra                                        | <sub>[July&nbsp;2018][protocols-notes]</sub>               |
 |          | [Nullish coalescing Operator][nullish-coalescing]                                            | Gabriel Isenberg                                      | Gabriel Isenberg                                       | <sub>[March&nbsp;2018][nullish-coalescing-notes]</sub>     |
 |          | [Partial application][partial-application]                                                   | Ron Buckton                                           | Ron Buckton                                            | <sub>[July&nbsp;2018][partial-application-notes]</sub>     |
-|          | [Cancellation API][cancel-api]                                                               | Ron Buckton                                           | Ron Buckton & Brian Terlson                            | <sub>[July&nbsp;2018][cancel-api-notes]</sub>              |
+|          | [Cancellation API][cancel-api]                                                               | Ron Buckton                                           | Ron Buckton<br />Brian Terlson                         | <sub>[July&nbsp;2018][cancel-api-notes]</sub>              |
 |          | [`String.prototype.replaceAll`][replace-all]                                                 | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens  | Mathias Bynens                                         | <sub>[November&nbsp;2017][replace-all-notes]</sub>         |
 |          | [`String.prototype.codePoints`][codepoints]                                                  | Ingvar Stepanyan                                      | Mathias Bynens                                         | <sub>[May&nbsp;2018][codepoints-notes]</sub>               |
 |          | [`Object.freeze` + `Object.seal` syntax][freeze-seal-syntax]                                 | Keith Cirkel                                          | Keith Cirkel                                           |                                                            |
@@ -134,7 +134,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [class-fields-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-26.md#class-fields-and-private-methods-stage-3-update
 [function-sent]: https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md
 [function-sent-notes]: https://github.com/tc39/tc39-notes/blob/7b808eae2192f7e5d2abe035519583cd13d7a30c/es7/2015-11/nov-17.md#functionsent
-[trims]: https://github.com/sebmarkbage/ecmascript-string-left-right-trim
+[trims]: https://github.com/tc39/proposal-string-left-right-trim
 [tests-trims]: https://github.com/tc39/test262/pull/1246
 [trim-notes]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es8/2018-01/jan-23.md#13iid-stringprototypetrimstarttrimend-for-stage-3
 [decorators]: http://github.com/tc39/proposal-decorators
@@ -152,32 +152,32 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-matchall]: https://github.com/tc39/test262/pull/1500
 [weakrefs]: https://github.com/tc39/proposal-weakrefs
 [weakrefs-notes]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es9/2018-03/mar-22.md#weak-references-for-stage-2
-[frozen-realms]: https://github.com/FUDCo/frozen-realms
+[frozen-realms]: https://github.com/tc39/proposal-frozen-realms
 [more-math]: https://github.com/rwaldron/proposal-math-extensions
 [collection-of-from]: https://github.com/leobalter/proposal-setmap-offrom
-[try]: https://github.com/ljharb/proposal-promise-try
+[try]: https://github.com/tc39/proposal-promise-try
 [chaining]: https://github.com/tc39/proposal-optional-chaining
 [chaining-notes]: https://github.com/tc39/tc39-notes/blob/927f4e98d8e0fef59fb69e52fb40ec6619a6eacb/es9/2018-11/nov-28.md#update-on-optional-chaining
 [signbit]: http://jfbastien.github.io/papers/Math.signbit.html
-[stacks]: https://github.com/ljharb/proposal-error-stacks
+[stacks]: https://github.com/tc39/proposal-error-stacks
 [do]: https://github.com/tc39/proposal-do-expressions
 [do-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-24.md#update-on-do-expressions
-[realms]: https://github.com/caridy/proposal-realms
+[realms]: https://github.com/tc39/proposal-realms
 [realms-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-23.md#realms
-[temporal]: https://github.com/maggiepint/proposal-temporal
+[temporal]: https://github.com/tc39/proposal-temporal
 [temporal-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-27.md#temporal-for-stage-2
 [float16s]: https://docs.google.com/presentation/d/1Ta_IbravBUOvu7LUhlN49SvLU-8G8bIQnsS08P3Z4vY/edit?usp=sharing
 [nonblocking]: https://github.com/tc39/proposal-atomics-wait-async
 [nonblocking-notes]: https://github.com/tc39/tc39-notes/blob/7b7efb7b26d058dbf5ae2faeefe6cac1c5d2d2de/es8/2017-09/sept-26.md#12ig--atomicswaitasync-for-stage-2
 [flat]: https://github.com/tc39/proposal-flatMap
 [flat-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-26.md#arrayprototypeflatmap-for-stage-4-
-[throw-expressions]: https://github.com/rbuckton/proposal-throw-expressions
+[throw-expressions]: https://github.com/tc39/proposal-throw-expressions
 [throw-expressions-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2018-01/jan-24.md#13iiii-throw-expressions-for-stage-3
-[binary-ast]: https://github.com/syg/ecmascript-binary-ast
+[binary-ast]: https://github.com/tc39/proposal-binary-ast
 [binary-ast-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-24.md#binary-ast
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [pipeline-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-03/mar-22.md#pipeline-operator
-[extensible-literals]: https://github.com/littledan/proposal-extensible-numeric-literals
+[extensible-literals]: https://github.com/tc39/proposal-extended-numeric-literals
 [extensible-literals-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-09/sep-26.md#11iic-extensible-literals
 [protocols]: https://github.com/michaelficarra/proposal-first-class-protocols
 [protocols-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-25.md#updates-on-first-class-protocols
