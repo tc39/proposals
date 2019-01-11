@@ -10,6 +10,7 @@ Stage 0 proposals are either
 |          | [Fix 9.2.3 LookupMatcher algorithm][]                                | Rafael Xavier    | Rafael Xavier      |
 |          | [`Intl.NumberFormat` `round` option][intl.numberformat round option] | Rafael Xavier    | Rafael Xavier      |
 |          | [Additional NumberFormat options][numberformat options]              | Shane Carr       | Shane Carr         |
+|          | [Intl.DisplayNames][proposal-intl-displaynames]                      | Frank Tang       | Frank Tang         |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -18,3 +19,4 @@ See also the [finished proposals](finished-proposals.md), and [active proposals]
 [fix 9.2.3 lookupmatcher algorithm]: https://github.com/rxaviers/ecma402-fix-lookup-matcher
 [intl.numberformat round option]: https://github.com/rxaviers/ecma402-number-format-round-option
 [numberformat options]: https://github.com/sffc/proposal-unified-intl-numberformat
+[proposal-intl-displaynames]: https://github.com/tc39-transfer/proposal-intl-displaynames
