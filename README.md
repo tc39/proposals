@@ -53,19 +53,19 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | :rocket: | Proposal                                                                                     | Author                                                | Champion                                               | <sub>Last Presented</sub>                                  |
 | -------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- |
-|          | [`export v from "mod";` statements][export-from]                                             | Lee Byron                                             | Ben Newman<br />John-David Dalton                      |                                                            |
-|          | [Observable][observable]                                                                     | Jafar Husain                                          | Jafar Husain<br />Mark Miller                          |                                                            |
-|          | [Frozen Realms][frozen-realms]                                                               | Mark Miller<br />Chip Morningstar<br />Caridy Patiño  | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   |                                                            |
-|          | [`Math` Extensions][more-math]                                                               | Rick Waldron                                          | Rick Waldron                                           |                                                            |
-|          | [`of` and `from` on collection constructors][collection-of-from]                             | Leo Balter                                            | Leo Balter                                             |                                                            |
-|          | Generator arrow functions (`=>*`)                                                            |                                                       | Brendan Eich<br />Domenic Denicola                     |                                                            |
-|          | [`Promise.try`][try]                                                                         | Jordan Harband                                        | Jordan Harband                                         |                                                            |
+|          | [`export v from "mod";` statements][export-from]                                             | Lee Byron                                             | Ben Newman<br />John-David Dalton                      | <sub>[July&nbsp;2017][export-from-notes]</sub>                                                           |
+|          | [Observable][observable]                                                                     | Jafar Husain                                          | Jafar Husain<br />Mark Miller                          | <sub>[May&nbsp;2017][observable-notes]</sub>                                                           |
+|          | [Frozen Realms][frozen-realms]                                                               | Mark Miller<br />Chip Morningstar<br />Caridy Patiño  | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   | <sub>[March&nbsp;2018][frozen-realms-notes]</sub>                                                           |
+|          | [`Math` Extensions][more-math]                                                               | Rick Waldron                                          | Rick Waldron                                           | <sub>[July&nbsp;2016][more-math-notes]</sub>                                                          |
+|          | [`of` and `from` on collection constructors][collection-of-from]                             | Leo Balter                                            | Leo Balter                                             | <sub>[September&nbsp;2016][collection-of-from-notes]</sub>               |
+|          | Generator arrow functions (`=>*`)                                                            |                                                       | Brendan Eich<br />Domenic Denicola                     | <sub>[September&nbsp;2016][generator-arrow-functions-notes]</sub>                                                           |
+|          | [`Promise.try`][try]                                                                         | Jordan Harband                                        | Jordan Harband                                         | <sub>[November&nbsp;2016][try-notes]</sub>                                                           |
 |          | [Optional Chaining][chaining]                                                                | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery | Gabriel Isenberg<br />Dustin Savery                    | <sub>[November&nbsp;2018][chaining-notes]</sub>            |
-|          | [`Math.signbit`: IEEE-754 sign bit][signbit]                                                 | JF Bastien                                            | JF Bastien                                             |                                                            |
-|          | [Error stacks][stacks]                                                                       | Jordan Harband                                        | Jordan Harband                                         |                                                            |
+|          | [`Math.signbit`: IEEE-754 sign bit][signbit]                                                 | JF Bastien                                            | JF Bastien                                             | <sub>[May&nbsp;2017][signbit-notes]</sub>                                                           |
+|          | [Error stacks][stacks]                                                                       | Jordan Harband                                        | Jordan Harband                                         | <sub>[January&nbsp;2017][stacks-notes]</sub>                                                           |
 |          | [`do` expressions][do]                                                                       | Dave Herman                                           | Dave Herman                                            | <sub>[July&nbsp;2018][do-notes]</sub>                      |
-|          | [Float16 on TypedArrays, DataView, `Math.hfround`][float16s]                                 | Leo Balter                                            | Leo Balter                                             |                                                            |
-|          | Change `Number.parseInt`/`parseFloat` to not coerce `null`/`undefined`/`NaN` (repo link TBD) |                                                       | Brendan Eich                                           |                                                            |
+|          | [Float16 on TypedArrays, DataView, `Math.hfround`][float16s]                                 | Leo Balter                                            | Leo Balter                                             | <sub>[May&nbsp;2017][float16s-notes]</sub>                                                           |
+|          | Change `Number.parseInt`/`parseFloat` to not coerce `null`/`undefined`/`NaN` (repo link TBD) |                                                       | Brendan Eich                                           | <sub>[July&nbsp;2017][parseInt-to-parseFloat]</sub>                                                           |
 |          | [Binary AST][binary-ast]                                                                     | Shu-yu Guo                                            | Shu-yu Guo                                             | <sub>[May&nbsp;2018][binary-ast-notes]</sub>               |
 |          | [Pipeline Operator][pipeline]                                                                | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[March&nbsp;2018][pipeline-notes]</sub>               |
 |          | [Extensible numeric literals][extensible-literals]                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[September&nbsp;2017][extensible-literals-notes]      |
@@ -75,13 +75,13 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Cancellation API][cancel-api]                                                               | Ron Buckton                                           | Ron Buckton<br />Brian Terlson                         | <sub>[July&nbsp;2018][cancel-api-notes]</sub>              |
 |          | [`String.prototype.replaceAll`][replace-all]                                                 | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens  | Mathias Bynens                                         | <sub>[November&nbsp;2017][replace-all-notes]</sub>         |
 |          | [`String.prototype.codePoints`][codepoints]                                                  | Ingvar Stepanyan                                      | Mathias Bynens                                         | <sub>[May&nbsp;2018][codepoints-notes]</sub>               |
-|          | [`Object.freeze` + `Object.seal` syntax][freeze-seal-syntax]                                 | Keith Cirkel                                          | Keith Cirkel                                           |                                                            |
-|          | [Block Params][block-params]                                                                 | Sam Goto                                              | Sam Goto                                               |                                                            |
+|          | [`Object.freeze` + `Object.seal` syntax][freeze-seal-syntax]                                 | Keith Cirkel                                          | Keith Cirkel                                           | <sub>[November&nbsp;2017][freeze-seal-syntax]</sub>                                                           |
+|          | [Block Params][block-params]                                                                 | Sam Goto                                              | Sam Goto                                               | <sub>[November&nbsp;2017][block-params-notes]</sub>                                                           |
 |          | [`{BigInt,Number}.fromString`][from-string]                                                  | Mathias Bynens                                        | Mathias Bynens                                         | <sub>[January&nbsp;2018][from-string-notes]</sub>          |
 |          | [`Math.seededRandoms()`][seeded-randoms]                                                     | Tab Atkins                                            | Tab Atkins                                             | <sub>[January&nbsp;2018][seeded-randoms-notes]</sub>       |
 |          | [Maximally minimal mixins][mixins]                                                           | Justin Fagnani                                        | Justin Fagnani                                         | <sub>[January&nbsp;2018][mixins-notes]</sub>               |
 |          | [Getting last element of Array][arraylast]                                                   | Keith Cirkel                                          | Keith Cirkel                                           | <sub>[January&nbsp;2018][arraylast-notes]</sub>            |
-|          | [Collection methods][collection-methods]                                                     | Michał Wadas                                          | Sathya Gunasekaran                                     |                                                            |
+|          | [Collection methods][collection-methods]                                                     | Michał Wadas                                          | Sathya Gunasekaran                                     | <sub>[January&nbsp;2018][collection-methods-notes] </sub>                                                           |
 | :rocket: | [Richer Keys][richer-keys]                                                                   | Bradley Farias                                        | Bradley Farias                                         | <sub>[March&nbsp;2018][richer-keys-notes]</sub>            |
 |          | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                    | Sathya Gunasekaran                                     | <sub>[March&nbsp;2018][slice-notation-notes]</sub>         |
 |          | [Logical Assignment Operators][logical-assignment]                                           | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[March&nbsp;2018][logical-assignment-notes]</sub>     |
@@ -146,20 +146,28 @@ Note that as part of the onboarding process your repository name may be normaliz
 [private-methods]: https://github.com/tc39/proposal-private-methods
 [private-methods-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-26.md#class-fields-and-private-methods-stage-3-update
 [export-from]: https://github.com/tc39/proposal-export-default-from
+[export-from-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-07/jul-27.md#export-default-from
 [observable]: https://github.com/tc39/proposal-observable
+[observable-notes]: https://github.com/tc39/tc39-notes/blob/1d2cb2c585b301732ec9e83ea41f543b38398291/es8/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2
 [matchall]: https://github.com/tc39/String.prototype.matchAll
 [matchall-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-25.md#update-on-stringprototypematchall
 [tests-matchall]: https://github.com/tc39/test262/pull/1500
 [weakrefs]: https://github.com/tc39/proposal-weakrefs
 [weakrefs-notes]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es9/2018-03/mar-22.md#weak-references-for-stage-2
 [frozen-realms]: https://github.com/tc39/proposal-frozen-realms
+[frozen-realms-notes]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es9/2018-03/mar-20.md#10ia-update-on-frozen-realms-in-light-of-meltdown-and-spectre
 [more-math]: https://github.com/rwaldron/proposal-math-extensions
+[more-math-notes]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es7/2016-07/jul-26.md#9iie-math-extensions
 [collection-of-from]: https://github.com/leobalter/proposal-setmap-offrom
+[collection-of-from-notes]: https://github.com/tc39/tc39-notes/blob/be8c2af6d6dcfc9630e00ea15bbabf1a415245cb/es7/2016-09/sept-29.md#11iic-set-map-weakset-and-weakmap-of-and-from-methods
 [try]: https://github.com/tc39/proposal-promise-try
+[try-notes]: https://github.com/tc39/tc39-notes/blob/be8c2af6d6dcfc9630e00ea15bbabf1a415245cb/es7/2016-11/nov-29.md#11iib-promisetry
 [chaining]: https://github.com/tc39/proposal-optional-chaining
 [chaining-notes]: https://github.com/tc39/tc39-notes/blob/927f4e98d8e0fef59fb69e52fb40ec6619a6eacb/es9/2018-11/nov-28.md#update-on-optional-chaining
 [signbit]: http://jfbastien.github.io/papers/Math.signbit.html
+[signbit-notes]: https://github.com/tc39/tc39-notes/blob/be8c2af6d6dcfc9630e00ea15bbabf1a415245cb/es8/2017-05/may-23.md#16ib-mathsignbit-proposal
 [stacks]: https://github.com/tc39/proposal-error-stacks
+[stacks-notes]: https://github.com/tc39/tc39-notes/blob/be8c2af6d6dcfc9630e00ea15bbabf1a415245cb/es7/2017-01/jan-25.md#15iiia-error-stacks-seeking-stage-1
 [do]: https://github.com/tc39/proposal-do-expressions
 [do-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-24.md#update-on-do-expressions
 [realms]: https://github.com/tc39/proposal-realms
@@ -167,6 +175,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [temporal]: https://github.com/tc39/proposal-temporal
 [temporal-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-27.md#temporal-for-stage-2
 [float16s]: https://docs.google.com/presentation/d/1Ta_IbravBUOvu7LUhlN49SvLU-8G8bIQnsS08P3Z4vY/edit?usp=sharing
+[float16s-notes]: https://github.com/tc39/tc39-notes/blob/1d2cb2c585b301732ec9e83ea41f543b38398291/es8/2017-05/may-23.md#16ig-float16-on-typedarrays-dataview-mathhfround-for-stage-1
 [nonblocking]: https://github.com/tc39/proposal-atomics-wait-async
 [nonblocking-notes]: https://github.com/tc39/tc39-notes/blob/7b7efb7b26d058dbf5ae2faeefe6cac1c5d2d2de/es8/2017-09/sept-26.md#12ig--atomicswaitasync-for-stage-2
 [flat]: https://github.com/tc39/proposal-flatMap
@@ -192,7 +201,9 @@ Note that as part of the onboarding process your repository name may be normaliz
 [codepoints]: https://github.com/tc39/proposal-string-prototype-codepoints
 [codepoints-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-22.md#stringprototypecodepoints-for-stage-2
 [freeze-seal-syntax]: https://github.com/keithamus/object-freeze-seal-syntax
+[freeze-seal-syntax-notes]: https://github.com/tc39/tc39-notes/blob/be8c2af6d6dcfc9630e00ea15bbabf1a415245cb/es8/2017-11/nov-30.md#10ivd-objectfreeze--objectseal-syntax-proposal-for-stage-0
 [block-params]: https://github.com/samuelgoto/proposal-block-params
+[block-params-notes]: https://github.com/tc39/tc39-notes/blob/be8c2af6d6dcfc9630e00ea15bbabf1a415245cb/es8/2017-11/nov-30.md#9iiia-block-params-to-stage-1
 [static-class-features]: http://github.com/tc39/proposal-static-class-features/
 [static-class-features-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-23.md#static-class-features-for-stage-3
 [tests-function-to-string]: https://github.com/tc39/test262/issues/1163
@@ -221,6 +232,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [set-methods]: https://github.com/tc39/set-methods
 [set-methods-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-22.md#set-methods
 [collection-methods]: https://github.com/tc39/collection-methods
+[collection-methods-notes]: https://github.com/tc39/tc39-notes/blob/be8c2af6d6dcfc9630e00ea15bbabf1a415245cb/es8/2018-01/jan-23.md#13iiik-new-set-builtin-methods-for-stage-2
 [object-from-entries]: https://github.com/bakkot/object-from-entries
 [object-from-entries-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-24.md#objectfromentries-to-stage-3
 [hashbang-grammar]: https://github.com/bmeck/proposal-hashbang
@@ -270,3 +282,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-fromentries]: https://github.com/tc39/test262/pull/1676
 [asset-references]: https://github.com/sebmarkbage/ecmascript-asset-references
 [asset-references-notes]: https://github.com/tc39/tc39-notes/blob/927f4e98d8e0fef59fb69e52fb40ec6619a6eacb/es9/2018-11/nov-28.md#asset-references-for-stage-1
+[generator-arrow-functions-notes]: https://github.com/tc39/tc39-notes/blob/1d2cb2c585b301732ec9e83ea41f543b38398291/es7/2016-09/sept-27.md#11ic-generator-arrow-functions
+[parseInt-to-parseFloat]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es8/2017-07/jul-26.md#13iib-consider-changing-numberparseint-and-numberparsefloat
