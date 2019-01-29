@@ -27,6 +27,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Object.fromEntries`][object-from-entries]                              | Darien Maillet Valentine                            | Jordan Harband<br />Kevin Gibbons                       | January 2019                              | 2019
 | [Well-formed `JSON.stringify`][well-formed-stringify]                    | Richard Gibson                                      | Mathias Bynens                                          | January 2019                              | 2019
 | [`String.prototype.{trimStart,trimEnd}`][trims]                          | Sebastian Markbåge                                  | Sebastian Markbåge                                      | January 2019                              | 2019
+| [`Array.prototype.{flat,flatMap}`][flat]                                 | Brian Terlson<br />Michael Ficarra                  | Brian Terlson<br />Michael Ficarra                      | January 2019                              | 2019
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -71,3 +72,4 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [object-from-entries]: https://github.com/tc39/object-from-entries
 [well-formed-stringify]: https://github.com/gibson042/ecma262-proposal-well-formed-stringify
 [trims]: https://github.com/tc39/proposal-string-left-right-trim
+[flat]: https://github.com/tc39/proposal-flatMap
