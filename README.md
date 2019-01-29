@@ -24,7 +24,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | :rocket: | [`Array.prototype.{flat,flatMap}`][flat]                                       | Brian Terlson<br />Michael Ficarra                                      | Brian Terlson<br />Michael Ficarra                                      | [:white_check_mark:][tests-flat]               | <sub>[September&nbsp;2018][flat-notes]</sub>            |
 |          | [Class Public Instance Fields & Private Instance Fields][class-fields]         | Daniel Ehrenberg<br />Kevin Gibbons                                     | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:question:][tests-class-fields]               | <sub>[September&nbsp;2018][class-fields-notes]</sub>    |
 |          | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg                                        |                                                | <sub>[May&nbsp;2018][static-class-features-notes]</sub> |
-|          | [`String.prototype.{trimStart,trimEnd}`][trims]                                | Sebastian Markbåge                                                      | Sebastian Markbåge                                                      | [:white_check_mark:][tests-trims]              | <sub>[January&nbsp;2018][trim-notes]</sub>              |
 |          | [`String.prototype.matchAll`][matchall]                                        | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-matchall]           | <sub>[September&nbsp;2018][matchall-notes]</sub>        |
 |          | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:construction:][tests-hashbang-grammar]       | <sub>[November&nbsp;2018][hashbang-notes]</sub>                           |
 
@@ -132,9 +131,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [class-fields-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-26.md#class-fields-and-private-methods-stage-3-update
 [function-sent]: https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md
 [function-sent-notes]: https://github.com/tc39/tc39-notes/blob/7b808eae2192f7e5d2abe035519583cd13d7a30c/es7/2015-11/nov-17.md#functionsent
-[trims]: https://github.com/tc39/proposal-string-left-right-trim
-[tests-trims]: https://github.com/tc39/test262/pull/1246
-[trim-notes]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es8/2018-01/jan-23.md#13iid-stringprototypetrimstarttrimend-for-stage-3
 [decorators]: http://github.com/tc39/proposal-decorators
 [decorators-notes]: https://github.com/tc39/tc39-notes/blob/927f4e98d8e0fef59fb69e52fb40ec6619a6eacb/es9/2018-11/nov-28.md#decorators-stage-2-update
 [import-meta]: https://github.com/tc39/proposal-import-meta
