@@ -26,7 +26,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg                                        |                                                | <sub>[May&nbsp;2018][static-class-features-notes]</sub> |
 |          | [`String.prototype.{trimStart,trimEnd}`][trims]                                | Sebastian Markbåge                                                      | Sebastian Markbåge                                                      | [:white_check_mark:][tests-trims]              | <sub>[January&nbsp;2018][trim-notes]</sub>              |
 |          | [`String.prototype.matchAll`][matchall]                                        | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-matchall]           | <sub>[September&nbsp;2018][matchall-notes]</sub>        |
-|          | [Well-formed `JSON.stringify`][well-formed-stringify]                          | Richard Gibson                                                          | Mathias Bynens                                                          | [:white_check_mark:][tests-well-formd-strngfy] | <sub>[September&nbsp;2018][well-formd-notes]</sub>      |
 |          | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:construction:][tests-hashbang-grammar]       | <sub>[November&nbsp;2018][hashbang-notes]</sub>                           |
 
 ### Stage 2
@@ -243,9 +242,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [logical-assignment-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-03/mar-22.md#10ie-logical-assignment-operators-for-stage-1-cont
 [unicode-sequence-properties]: https://github.com/mathiasbynens/proposal-regexp-unicode-sequence-properties
 [unicode-sequence-properties-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-26.md#sequence-properties-in-unicode-property-escapes-for-stage-2
-[well-formed-stringify]: https://github.com/gibson042/ecma262-proposal-well-formed-stringify
-[tests-well-formd-strngfy]: https://github.com/tc39/test262/pull/1787
-[well-formd-notes]: https://github.com/tc39/tc39-notes/blob/7b7efb7b26d058dbf5ae2faeefe6cac1c5d2d2de/es9/2018-09/sept-26.md#well-formed-jsonstringify-for-stage-3
 [module-keys]: https://github.com/mikesamuel/tc39-module-keys
 [module-keys-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-23.md#module-keys-strawman-for-stage-1
 [static-blocks]: https://github.com/rbuckton/proposal-class-static-block#readme
