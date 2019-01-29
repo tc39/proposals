@@ -69,7 +69,7 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [json-superset-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-22.md#conclusionresolution-8
 [symbol-description]: https://github.com/tc39/proposal-Symbol-description
 [function-to-string]: https://github.com/tc39/Function-prototype-toString-revision
-[object-from-entries]: https://github.com/tc39/object-from-entries
+[object-from-entries]: https://github.com/tc39/proposal-object-from-entries
 [well-formed-stringify]: https://github.com/gibson042/ecma262-proposal-well-formed-stringify
 [trims]: https://github.com/tc39/proposal-string-left-right-trim
 [flat]: https://github.com/tc39/proposal-flatMap
