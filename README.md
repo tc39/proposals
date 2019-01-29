@@ -26,7 +26,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg                                        |                                                | <sub>[May&nbsp;2018][static-class-features-notes]</sub> |
 |          | [`String.prototype.{trimStart,trimEnd}`][trims]                                | Sebastian Markbåge                                                      | Sebastian Markbåge                                                      | [:white_check_mark:][tests-trims]              | <sub>[January&nbsp;2018][trim-notes]</sub>              |
 |          | [`String.prototype.matchAll`][matchall]                                        | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-matchall]           | <sub>[September&nbsp;2018][matchall-notes]</sub>        |
-| :rocket: | [`Object.fromEntries`][object-from-entries]                                    | Darien Maillet Valentine                                                | Jordan Harband<br />Kevin Gibbons                                       | [:white_check_mark:][tests-fromentries]        | <sub>[July&nbsp;2018][object-from-entries-notes]</sub>  |
 |          | [Well-formed `JSON.stringify`][well-formed-stringify]                          | Richard Gibson                                                          | Mathias Bynens                                                          | [:white_check_mark:][tests-well-formd-strngfy] | <sub>[September&nbsp;2018][well-formd-notes]</sub>      |
 |          | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:construction:][tests-hashbang-grammar]       | <sub>[November&nbsp;2018][hashbang-notes]</sub>                           |
 
@@ -233,8 +232,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [set-methods-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-22.md#set-methods
 [collection-methods]: https://github.com/tc39/collection-methods
 [collection-methods-notes]: https://github.com/tc39/tc39-notes/blob/be8c2af6d6dcfc9630e00ea15bbabf1a415245cb/es8/2018-01/jan-23.md#13iiik-new-set-builtin-methods-for-stage-2
-[object-from-entries]: https://github.com/bakkot/object-from-entries
-[object-from-entries-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-07/july-24.md#objectfromentries-to-stage-3
 [hashbang-grammar]: https://github.com/bmeck/proposal-hashbang
 [tests-hashbang-grammar]: https://github.com/tc39/test262/pull/1983
 [hashbang-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-11/nov-28.md#hash-bang-grammar
