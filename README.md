@@ -44,6 +44,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [RegExp Match array offsets][regex-offsets]                                    | Ron Buckton                              | Ron Buckton                                                 | <sub>[July&nbsp;2018][regex-offsets-notes]</sub>                    |
 |          | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                           | Mathias Bynens                                              | <sub>[September&nbsp;2018][unicode-sequence-properties-notes]</sub> |
 |          | [Temporal][temporal]                                                           | Maggie Pint<br />Matt Johnson<br />Philipp Dunkel | Maggie Pint<br />Philipp Dunkel<br />Brian Terlson | <sub>[September&nbsp;2018][temporal-notes]</sub>                    |
+|          | [Promise.allSettled][allsettled]                                               | Jason Williams                           | Mathias Bynens                                              | <sub>January&nbsp;2019</sub>                                        |
 
 ### Stage 1
 
@@ -92,7 +93,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`for-in` mechanics][for-in-mechanics]                                                       | Kevin Gibbons                                         | Kevin Gibbons                                          | <sub>[September&nbsp;2018][for-in-mechanics-notes]</sub>   |
 |          | [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]                   | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][uniform-date-parse-notes]</sub> |
 |          | [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][json-parse-source-notes]</sub>  |
-|          | [Promise.allSettled][allsettled]                                                             | Jason Williams                                        | Mathias Bynens                                         | <sub>[September&nbsp;2018][allsettled-notes]</sub>         |
 |          | [IDL for ECMAScript][idl]                                                                    | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[September&nbsp;2018][idl-notes]</sub>                |
 |          | [Asset References][asset-references]                                                         | Sebastian Markbage                                    | Sebastian Markbage                                     | <sub>[November&nbsp;2018][asset-references-notes]</sub>    |
 
