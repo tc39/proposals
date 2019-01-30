@@ -22,8 +22,8 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Asynchronous Iteration][async-iteration]                                | Domenic Denicola                                    | Domenic Denicola                                        | [January 2018][async-iteration-notes]     | 2018                      |
 | [Optional `catch` binding][optional-catch]                               | Michael Ficarra                                     | Michael Ficarra                                         | [May 2018][optional-catch-notes]          | 2019                      |
 | [JSON superset][json-superset]                                           | Richard Gibson                                      | Mark Miller<br />Mathias Bynens                         | [May 2018][json-superset-notes]           | 2019                      |
-| [`Symbol.prototype.description`][symbol-description]                     | Michael Ficarra                                     | Michael Ficarra                                         | November 2018                             | 2019
-| [`Function.prototype.toString` revision][function-to-string]             | Michael Ficarra                                     | Michael Ficarra                                         | November 2018                             | 2019
+| [`Symbol.prototype.description`][symbol-description]                     | Michael Ficarra                                     | Michael Ficarra                                         | [November 2018][symbol-description-notes] | 2019
+| [`Function.prototype.toString` revision][function-to-string]             | Michael Ficarra                                     | Michael Ficarra                                         | [November 2018][function-to-string-notes] | 2019
 | [`Object.fromEntries`][object-from-entries]                              | Darien Maillet Valentine                            | Jordan Harband<br />Kevin Gibbons                       | January 2019                              | 2019
 | [Well-formed `JSON.stringify`][well-formed-stringify]                    | Richard Gibson                                      | Mathias Bynens                                          | January 2019                              | 2019
 | [`String.prototype.{trimStart,trimEnd}`][trims]                          | Sebastian Markbåge                                  | Sebastian Markbåge                                      | January 2019                              | 2019
@@ -39,7 +39,7 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [object-values-entries-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es7/2016-03/march-29.md#objectvalues--objectentries
 [string-padding]: https://github.com/tc39/proposal-string-pad-start-end
 [string-padding-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es7/2016-05/may-25.md#stringprototypepadstartend-jhd
-[object-gopds]: https://github.com/ljharb/proposal-object-getownpropertydescriptors
+[object-gopds]: https://github.com/tc39/proposal-object-getownpropertydescriptors
 [object-gopds-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es7/2016-05/may-25.md#objectgetownpropertydescriptors-jhd
 [function-commas]: https://github.com/tc39/proposal-trailing-function-commas
 [function-commas-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es7/2016-07/jul-26.md#9ie-trailing-commas-in-functions
@@ -68,8 +68,10 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [json-superset]: https://github.com/tc39/proposal-json-superset
 [json-superset-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-22.md#conclusionresolution-8
 [symbol-description]: https://github.com/tc39/proposal-Symbol-description
+[symbol-description-notes]: https://github.com/rwaldron/tc39-notes/blob/be8c2af6d6dcfc9630e00ea15bbabf1a415245cb/es9/2018-11/nov-27.md#conclusionresolution-12
 [function-to-string]: https://github.com/tc39/Function-prototype-toString-revision
+[function-to-string-notes]: https://github.com/rwaldron/tc39-notes/blob/be8c2af6d6dcfc9630e00ea15bbabf1a415245cb/es9/2018-11/nov-27.md#conclusionresolution-13
 [object-from-entries]: https://github.com/tc39/proposal-object-from-entries
-[well-formed-stringify]: https://github.com/gibson042/ecma262-proposal-well-formed-stringify
+[well-formed-stringify]: https://github.com/tc39/ecma262-proposal-well-formed-stringify
 [trims]: https://github.com/tc39/proposal-string-left-right-trim
 [flat]: https://github.com/tc39/proposal-flatMap
