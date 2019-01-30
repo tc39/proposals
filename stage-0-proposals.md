@@ -27,6 +27,7 @@ Stage 0 proposals are either
 |          | [`deprecated`][deprecated]                                         | James M Snell                         | James M Snell                         |                             |
 |          | [`as` destructuring patterns][as-patterns]                         | Kat Marchán                           | Kat Marchán                           |                             |
 |          | [`Symbol.thenable`][symbol-thenable]                               | Gus Caplan                            | Jordan Harband<br />Myles Borins      |
+|          | [`Promise.any`][promise-any]                                       | Mathias Bynens                        | Mathias Bynens                        |
 
 🚀 means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -61,3 +62,4 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [builtins-notes]: https://github.com/tc39/tc39-notes/blob/61dc2f45829a0663af0b4b1d6690717dc70d30d9/es8/2017-09/sep-28.md#14ia-builtinstypeof-and-builtinsis
 [decimal-notes]: https://github.com/rwaldron/tc39-notes/blob/b8da60318b564f136cbe8385f17f42abc0666cdd/es8/2017-11/nov-29.md#9ivb-decimal-for-stage-0
 [symbol-thenable]: https://github.com/devsnek/proposal-symbol-thenable
+[promise-any]: https://github.com/tc39/proposal-promise-any
