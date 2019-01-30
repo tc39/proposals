@@ -72,6 +72,6 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [function-to-string]: https://github.com/tc39/Function-prototype-toString-revision
 [function-to-string-notes]: https://github.com/rwaldron/tc39-notes/blob/be8c2af6d6dcfc9630e00ea15bbabf1a415245cb/es9/2018-11/nov-27.md#conclusionresolution-13
 [object-from-entries]: https://github.com/tc39/proposal-object-from-entries
-[well-formed-stringify]: https://github.com/tc39/ecma262-proposal-well-formed-stringify
+[well-formed-stringify]: https://github.com/tc39/proposal-well-formed-stringify
 [trims]: https://github.com/tc39/proposal-string-left-right-trim
 [flat]: https://github.com/tc39/proposal-flatMap
