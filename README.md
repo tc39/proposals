@@ -96,6 +96,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][json-parse-source-notes]</sub>  |
 |          | [IDL for ECMAScript][idl]                                                                    | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[September&nbsp;2018][idl-notes]</sub>                |
 |          | [Asset References][asset-references]                                                         | Sebastian Markbage                                    | Sebastian Markbage                                     | <sub>[November&nbsp;2018][asset-references-notes]</sub>    |
+|          | [Freezing prototypes][freeze-proto]                                                          | Kevin Gibbons                                         | Kevin Gibbons                                          | <sub>January&nbsp;2019</sub>                               |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -272,3 +273,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [generator-arrow-functions-notes]: https://github.com/tc39/tc39-notes/blob/1d2cb2c585b301732ec9e83ea41f543b38398291/es7/2016-09/sept-27.md#11ic-generator-arrow-functions
 [parseInt-to-parseFloat]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es8/2017-07/jul-26.md#13iib-consider-changing-numberparseint-and-numberparsefloat
 [collection-rekey]: https://github.com/tc39-transfer/proposal-collection-normalization
+[freeze-proto]: https://github.com/bakkot/proposal-freeze-prototype
