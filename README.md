@@ -97,6 +97,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [IDL for ECMAScript][idl]                                                                    | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[September&nbsp;2018][idl-notes]</sub>                |
 |          | [Asset References][asset-references]                                                         | Sebastian Markbage                                    | Sebastian Markbage                                     | <sub>[November&nbsp;2018][asset-references-notes]</sub>    |
 |          | [Freezing prototypes][freeze-proto]                                                          | Kevin Gibbons                                         | Kevin Gibbons                                          | <sub>January&nbsp;2019</sub>                               |
+|          | [`new.initialize`][new.initialize]                                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>January&nbsp;2019</sub>                               |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -274,3 +275,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [parseInt-to-parseFloat]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es8/2017-07/jul-26.md#13iib-consider-changing-numberparseint-and-numberparsefloat
 [collection-rekey]: https://github.com/tc39-transfer/proposal-collection-normalization
 [freeze-proto]: https://github.com/bakkot/proposal-freeze-prototype
+[new.initialize]: https://github.com/littledan/proposal-new-initialize
