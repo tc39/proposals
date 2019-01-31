@@ -31,6 +31,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | :rocket: | Proposal                                                     | Author         | Champion       |
 | -------- | ------------------------------------------------------------ | -------------- | -------------- |
+|          | [Intl.DisplayNames][proposal-intl-displaynames]              | Frank Tang     | Frank Tang     |
 
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
@@ -56,3 +57,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl.locale]: https://github.com/zbraniecki/proposal-intl-locale
 [formatrange]: https://github.com/fabalbon/proposal-intl-DateTimeFormat-formatRange
 [numberformat]: https://github.com/sffc/proposal-unified-intl-numberformat
+[proposal-intl-displaynames]: https://github.com/tc39-transfer/proposal-intl-displaynames
