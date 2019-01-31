@@ -45,6 +45,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                                    | Mathias Bynens                                       | <sub>[September&nbsp;2018][unicode-sequence-properties-notes]</sub> |
 |          | [Temporal][temporal]                                                           | Maggie Pint<br />Matt Johnson<br />Philipp Dunkel | Maggie Pint<br />Philipp Dunkel<br />Brian Terlson   | <sub>[September&nbsp;2018][temporal-notes]</sub>                    |
 |          | [`Promise.allSettled`][allsettled]                                             | Jason Williams<br />Robert Pamely                 | Mathias Bynens                                       | <sub>January&nbsp;2019</sub>                                        |
+|          | [collection normalization][collection-rekey]                                   | Bradley Farias                                    | Bradley Farias                                       | <sub>January&nbsp;2019</sub>                                        |
 
 ### Stage 1
 
@@ -270,3 +271,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [asset-references-notes]: https://github.com/tc39/tc39-notes/blob/927f4e98d8e0fef59fb69e52fb40ec6619a6eacb/es9/2018-11/nov-28.md#asset-references-for-stage-1
 [generator-arrow-functions-notes]: https://github.com/tc39/tc39-notes/blob/1d2cb2c585b301732ec9e83ea41f543b38398291/es7/2016-09/sept-27.md#11ic-generator-arrow-functions
 [parseInt-to-parseFloat]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es8/2017-07/jul-26.md#13iib-consider-changing-numberparseint-and-numberparsefloat
+[collection-rekey]: https://github.com/tc39-transfer/proposal-collection-normalization
