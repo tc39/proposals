@@ -98,6 +98,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [Asset References][asset-references]                                                         | Sebastian Markbage                                    | Sebastian Markbage                                     | <sub>[November&nbsp;2018][asset-references-notes]</sub>    |
 |          | [Freezing prototypes][freeze-proto]                                                          | Kevin Gibbons                                         | Kevin Gibbons                                          | <sub>January&nbsp;2019</sub>                               |
 |          | [`new.initialize`][new.initialize]                                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>January&nbsp;2019</sub>                               |
+|          | [Iterator helpers][iterator-helpers]                                                         | Gus Caplan                                            | Domenic Denicola                                       | <sub>January&nbsp;2019</sub>                               |
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
 
@@ -276,3 +277,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [collection-rekey]: https://github.com/tc39-transfer/proposal-collection-normalization
 [freeze-proto]: https://github.com/bakkot/proposal-freeze-prototype
 [new.initialize]: https://github.com/littledan/proposal-new-initialize
+[iterator-helpers]: https://github.com/devsnek/proposal-iterator-helpers
