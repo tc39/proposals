@@ -19,7 +19,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 |          | [`import()`][dynamic-import]                                                   | Domenic Denicola                                                        | Domenic Denicola                                                        | [:white_check_mark:][tests-dynamic-import]     | <sub>[November&nbsp;2016][dynamic-import-notes]</sub>   |
 |          | [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | [:white_check_mark:][tests-regexp-legacy]      | <sub>[May&nbsp;2017][regexp-legacy-notes]</sub>         |
 |          | [`BigInt`][bigint]                                                             | Daniel Ehrenberg                                                        | Daniel Ehrenberg                                                        | [:white_check_mark:][tests-bigint]             | <sub>[May&nbsp;2018][bigint-notes]</sub>                |
-|          | [`import.meta`][import-meta]                                                   | Domenic Denicola                                                        | Domenic Denicola                                                        | [:question:][tests-import-meta]                | <sub>[September&nbsp;2017][import-meta-notes]</sub>     |
+|          | [`import.meta`][import-meta]                                                   | Domenic Denicola                                                        | Domenic Denicola                                                        | [:white_check_mark:][tests-import-meta]                | <sub>[September&nbsp;2017][import-meta-notes]</sub>     |
 |          | [Private instance methods and accessors][private-methods]                      | Daniel Ehrenberg                                                        | Daniel Ehrenberg<br />Kevin Gibbons                                     | [:question:][tests-private-methods]            | <sub>[September&nbsp;2018][private-methods-notes]</sub> |
 |          | [Class Public Instance Fields & Private Instance Fields][class-fields]         | Daniel Ehrenberg<br />Kevin Gibbons                                     | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:question:][tests-class-fields]               | <sub>[September&nbsp;2018][class-fields-notes]</sub>    |
 |          | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg                                        |                                                | <sub>[May&nbsp;2018][static-class-features-notes]</sub> |
@@ -204,10 +204,10 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-function-to-string]: https://github.com/tc39/test262/issues/1163
 [tests-global]: https://github.com/tc39/test262/issues/765
 [tests-dynamic-import]: https://github.com/tc39/test262/issues/1164
+[tests-import-meta]: https://github.com/tc39/test262/pull/1888
 [tests-regexp-legacy]: https://github.com/tc39/test262/issues/1165
 [tests-bigint]: https://github.com/tc39/test262/issues/1056
 [tests-optional-catch]: https://github.com/tc39/test262/issues/1166
-[tests-import-meta]: https://github.com/tc39/test262/issues/1342
 [tests-private-methods]: https://github.com/tc39/test262/issues/1343
 [tests-flat]: https://github.com/tc39/test262/pull/1388
 [tests-numeric_separators]: https://github.com/tc39/test262/issues/1051
