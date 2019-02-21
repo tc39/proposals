@@ -29,9 +29,9 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 1
 
-| :rocket: | Proposal                                                     | Author         | Champion       |
-| -------- | ------------------------------------------------------------ | -------------- | -------------- |
-|          | [Intl.DisplayNames][proposal-intl-displaynames]              | Frank Tang     | Frank Tang     |
+| :rocket: | Proposal                                                     | Author         | Champion       |  <sub>Last Presented</sub>                                        |
+| -------- | ------------------------------------------------------------ | -------------- | -------------- | ----------------------------------------------------------------- |
+|          | [Intl.DisplayNames][proposal-intl-displaynames]              | Frank Tang     | Frank Tang     | <sub>[January&nbsp;2019][proposal-intl-displaynames-notes]</sub>  |
 
 
 :rocket: means the champion thinks it's ready to advance but has not yet presented to the committee.
@@ -58,3 +58,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [formatrange]: https://github.com/fabalbon/proposal-intl-DateTimeFormat-formatRange
 [numberformat]: https://github.com/sffc/proposal-unified-intl-numberformat
 [proposal-intl-displaynames]: https://github.com/tc39-transfer/proposal-intl-displaynames
+[proposal-intl-displaynames-notes]: https://github.com/tc39-transfer/proposal-intl-displaynames
