@@ -24,7 +24,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [Class Public Instance Fields & Private Instance Fields][class-fields]         | Daniel Ehrenberg<br />Kevin Gibbons                                     | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:question:][tests-class-fields]               | <sub>[January&nbsp;2019][class-fields-notes]</sub>      |
 | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg                                        |                                                | <sub>[January&nbsp;2019][class-fields-notes]</sub>      |
 | [`String.prototype.matchAll`][matchall]                                        | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-matchall]           | <sub>[September&nbsp;2018][matchall-notes]</sub>        |
-| [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:construction:][tests-hashbang-grammar]       | <sub>[November&nbsp;2018][hashbang-notes]</sub>         |
+| [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:white_check_mark:][tests-hashbang-grammar]   | <sub>[November&nbsp;2018][hashbang-notes]</sub>         |
 
 ### Stage 2
 
@@ -227,7 +227,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [collection-methods]: https://github.com/tc39/collection-methods
 [collection-methods-notes]: https://github.com/tc39/tc39-notes/blob/be8c2af6d6dcfc9630e00ea15bbabf1a415245cb/es8/2018-01/jan-23.md#13iiik-new-set-builtin-methods-for-stage-2
 [hashbang-grammar]: https://github.com/bmeck/proposal-hashbang
-[tests-hashbang-grammar]: https://github.com/tc39/test262/pull/1983
+[tests-hashbang-grammar]: https://github.com/tc39/test262/pull/2065
 [hashbang-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-11/nov-28.md#hash-bang-grammar
 [richer-keys]: https://github.com/tc39/proposal-richer-keys
 [richer-keys-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2019-01/jan-30.md#richer-keys-for-stage-2
