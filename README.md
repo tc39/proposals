@@ -37,7 +37,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                       | Shu-yu Guo<br />Lars Hansen                          | <sub>[September&nbsp;2017][nonblocking-notes]</sub>                 |
 | [WeakRefs][weakrefs]                                                           | Dean Tribble                                      | Dean Tribble                                         | <sub>[March&nbsp;2018][weakrefs-notes]</sub>                        |
 | [Top-level `await`][await]                                                     | Myles Borins                                      | Myles Borins                                         | <sub>[May&nbsp;2018][await-notes]</sub>                             |
-| [`Function.prototype.toString()` censorship][censorship]                       | Domenic Denicola                                  | Domenic Denicola                                     | <sub>[May&nbsp;2018][censorship-notes]</sub>                        |
+| [Function implementation hiding][censorship]         | Domenic Denicola                                  | Domenic Denicola                                     | <sub>[May&nbsp;2018][censorship-notes]</sub>                        |
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran              | Sathya Gunasekaran                                   | <sub>[January&nbsp;2019][set-methods-notes]</sub>                   |
 | [Realms][realms]                                                               | Caridy Patiño<br />Jean-Francois Paradis          | Dave Herman<br />Mark Miller<br />Caridy Patiño      | <sub>[May&nbsp;2018][realms-notes]</sub>                            |
 | [`ArrayBuffer.prototype.transfer`][buffer-transfer]                            | Domenic Denicola                                  | Domenic Denicola                                     | <sub>[July&nbsp;2018][buffer-transfer-notes]</sub>                  |
@@ -214,7 +214,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [from-string-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2018-01/jan-23.md#13iic-bigintnumberfromstring-for-stage-1
 [seeded-randoms]: https://github.com/tabatkins/js-seeded-random
 [seeded-randoms-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
-[censorship]: https://github.com/domenic/proposal-function-prototype-tostring-censorship
+[censorship]: https://github.com/domenic/proposal-function-implementation-hiding
 [censorship-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-24.md#functionprototypetostring-censorship-for-stage-2-continued-discussion
 [await]: https://github.com/tc39/proposal-top-level-await
 [await-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-22.md#top-level-await
