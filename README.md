@@ -23,7 +23,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [Private instance methods and accessors][private-methods]                      | Daniel Ehrenberg                                                        | Daniel Ehrenberg<br />Kevin Gibbons                                     | [:question:][tests-private-methods]            | <sub>[January&nbsp;2019][class-fields-notes]</sub>      |
 | [Class Public Instance Fields & Private Instance Fields][class-fields]         | Daniel Ehrenberg<br />Kevin Gibbons                                     | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:question:][tests-class-fields]               | <sub>[January&nbsp;2019][class-fields-notes]</sub>      |
 | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg                                        | :question: | <sub>[January&nbsp;2019][class-fields-notes]</sub>      |
-| [`String.prototype.matchAll`][matchall]                                        | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-matchall]           | <sub>[September&nbsp;2018][matchall-notes]</sub>        |
 | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:white_check_mark:][tests-hashbang-grammar]   | <sub>[November&nbsp;2018][hashbang-notes]</sub>         |
 
 ### Stage 2
@@ -144,9 +143,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [export-from-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-07/jul-27.md#export-default-from
 [observable]: https://github.com/tc39/proposal-observable
 [observable-notes]: https://github.com/tc39/tc39-notes/blob/1d2cb2c585b301732ec9e83ea41f543b38398291/es8/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2
-[matchall]: https://github.com/tc39/String.prototype.matchAll
-[matchall-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-25.md#update-on-stringprototypematchall
-[tests-matchall]: https://github.com/tc39/test262/pull/1500
 [weakrefs]: https://github.com/tc39/proposal-weakrefs
 [weakrefs-notes]: https://github.com/tc39/tc39-notes/blob/c2aaad7ef4a348b7ab019cca9f19b07f7484478a/es9/2018-03/mar-22.md#weak-references-for-stage-2
 [frozen-realms]: https://github.com/tc39/proposal-frozen-realms

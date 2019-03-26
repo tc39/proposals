@@ -28,6 +28,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Well-formed `JSON.stringify`][well-formed-stringify]                    | Richard Gibson                                         | Mathias Bynens                                          | [January 2019][well-formed-stringify-notes] | 2019                      |
 | [`String.prototype.{trimStart,trimEnd}`][trims]                          | Sebastian Markbåge                                     | Sebastian Markbåge<br />Mathias Bynens                  | [January 2019][trims-notes]                 | 2019                      |
 | [`Array.prototype.{flat,flatMap}`][flat]                                 | Brian Terlson<br />Michael Ficarra<br />Mathias Bynens | Brian Terlson<br />Michael Ficarra                      | [January 2019][flat-notes]                  | 2019                      |
+| [`String.prototype.matchAll`][matchall]                                  | Jordan Harband                                         | Jordan Harband                                          | March&nbsp;2019                             | 2020                      |
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -79,3 +80,5 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [trims-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2019-01/jan-29,md#stringprototypetrimstarttrimend-for-stage-4
 [flat]: https://github.com/tc39/proposal-flatMap
 [flat-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2019-01/jan-29.md#arrayprototypeflatflatmap-for-stage-4
+[matchall]: https://github.com/tc39/String.prototype.matchAll
+[matchall-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-25.md#update-on-stringprototypematchall
