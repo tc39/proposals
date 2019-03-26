@@ -19,13 +19,13 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [`Intl.Locale`][intl.locale]                                           | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
 | [`Intl.RelativeTimeFormat`][intl.relativetimeformat]                   | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
 | [Intl.NumberFormat Unified API Proposal][numberformat]                 | Shane Carr                       | Shane Carr                       |
+| [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]           | Zibi Braniecki                   | Zibi Braniecki                   |
 
 ### Stage 2
 
 | Proposal                                                     | Author                           | Champion                         |
 | ------------------------------------------------------------ | -------------------------------- | -------------------------------- |
 | [`Intl.DateFormat.prototype.formatRange`][formatrange]       | Felipe Balbontín                 | Sathya Gunasekaran       |
-| [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat] | Zibi Braniecki                   | Zibi Braniecki |                 |
 
 ### Stage 1
 
