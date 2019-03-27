@@ -98,6 +98,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [Freezing prototypes][freeze-proto]                                                          | Kevin Gibbons                                         | Kevin Gibbons                                          | <sub>[January&nbsp;2019][freeze-proto-notes]</sub>                |
 | [`new.initialize`][new.initialize]                                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[January&nbsp;2019][new.initialize-notes]</sub>              |
 | [Iterator helpers][iterator-helpers]                                                         | Gus Caplan                                            | Domenic Denicola                                       | <sub>[January&nbsp;2019][iterator-helpers-notes]</sub>            |
+| [`Promise.any`][promise-any]                                                                 | Mathias Bynens                                        | Mathias Bynens                                         | <sub>March&nbsp;2019</sub>                                        |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -275,3 +276,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [new.initialize-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2019-01/jan-31.md#newinitialize-for-stage-1
 [iterator-helpers]: https://github.com/devsnek/proposal-iterator-helpers
 [iterator-helpers-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2019-01/jan-31.md#iterator-helpers-for-stage-1
+[promise-any]: https://github.com/tc39/proposal-promise-any
