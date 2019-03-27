@@ -9,6 +9,7 @@ Stage 0 proposals are either
 | ------------------------------------------------------------------ | ------------------------------------- | ------------------------------------- | --------------------------- |
 | [Additional metaproperties][metaprops]                             | Allen Wirfs-Brock                     | Allen Wirfs-Brock                     |                             |
 | Annex B — HTML Attribute Event Handlers                            | Allen Wirfs-Brock                     | Allen Wirfs-Brock                     |                             |
+| [Array.isTemplateObject][isTemplateObject]                         | Mike Samuel                           | Mike Samuel                               |                             |
 | [Defensible Classes][defensible-classes]                           | Mark Miller<br />Doug Crockford       | Mark Miller<br />Doug Crockford       |                             |
 | [Function bind syntax][bind-syntax]                                | Kevin Smith                           | Brian Terlson<br />Matthew Podwysocki | [March 2015][bind-notes]    |
 | [Function expression decorators][func-expr-decorators]             | Igor Minar                            | Igor Minar                            |                             |
@@ -61,3 +62,4 @@ See also the [finished proposals](finished-proposals.md), [active proposals](REA
 [decimal-notes]: https://github.com/rwaldron/tc39-notes/blob/b8da60318b564f136cbe8385f17f42abc0666cdd/es8/2017-11/nov-29.md#9ivb-decimal-for-stage-0
 [symbol-thenable]: https://github.com/devsnek/proposal-symbol-thenable
 [promise-any]: https://github.com/tc39/proposal-promise-any
+[isTemplateObject]: https://github.com/mikesamuel/proposal-array-is-template-object
