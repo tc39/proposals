@@ -14,7 +14,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                               | Author                           | Champion                         |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- |
-| [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg                 | Daniel Ehrenberg                 |
 | [`Intl.ListFormat`][intl.listformat]                                   | Zibi Braniecki                   | Zibi Braniecki                   |
 | [`Intl.Locale`][intl.locale]                                           | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
 | [`Intl.RelativeTimeFormat`][intl.relativetimeformat]                   | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |
@@ -26,6 +25,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                     | Author                           | Champion                         |
 | ------------------------------------------------------------ | -------------------------------- | -------------------------------- |
+| [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg       | Daniel Ehrenberg                 |
 
 ### Stage 1
 
