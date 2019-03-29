@@ -30,7 +30,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Array.prototype.{flat,flatMap}`][flat]                                 | Brian Terlson<br />Michael Ficarra<br />Mathias Bynens | Brian Terlson<br />Michael Ficarra                      | [January 2019][flat-notes]                  | 2019                      |
 | [`String.prototype.matchAll`][matchall]                                  | Jordan Harband                                         | Jordan Harband                                          | March&nbsp;2019                             | 2020                      |
 
-See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md) documents.
+See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
 [array-includes]: https://github.com/tc39/Array.prototype.includes
 [array-includes-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es7/2015-11/nov-17.md#arrayprototypeincludes

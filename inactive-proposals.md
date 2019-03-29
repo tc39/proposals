@@ -22,7 +22,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [`Date.parse` fallback semantics][date-parse]                        | Morgan Phillips                                            | Inactive; likely replaced by [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse] |
 | [Distinguishing literal strings][distinguishing-literal-strings]     | Mike West & Adam Klein                                     | Withdrawn: [Trusted Types](https://github.com/WICG/trusted-types) no longer a dependent |
 
-See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [finished proposals](finished-proposals.md) documents.
+See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
 [distinguishing-literal-strings]: https://github.com/mikewest/tc39-proposal-literals
 [escape]: https://github.com/benjamingr/RegExp.escape

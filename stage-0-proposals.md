@@ -31,7 +31,7 @@ Stage 0 proposals are either
 | [`as` destructuring patterns][as-patterns]                         | Kat Marchán                           | Kat Marchán                           |                             |
 | [`Symbol.thenable`][symbol-thenable]                               | Gus Caplan                            | Jordan Harband<br />Myles Borins      |
 
-See also the [finished proposals](finished-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md).
+See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
 [metaprops]: https://github.com/allenwb/ESideas/blob/master/ES7MetaProps.md
 [defensible-classes]: https://web.archive.org/web/20160804042547/http://wiki.ecmascript.org/doku.php?id=strawman:defensible_classes
