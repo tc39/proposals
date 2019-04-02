@@ -25,7 +25,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg                                        | :question:                                     | <sub>[January&nbsp;2019][class-fields-notes]</sub>      |
 | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:white_check_mark:][tests-hashbang-grammar]   | <sub>[November&nbsp;2018][hashbang-notes]</sub>         |
 | [`Promise.allSettled`][allsettled]                                             | Jason Williams<br />Robert Pamely<br />Mathias Bynens                   | Mathias Bynens                                                          | :question:                                     | <sub>March&nbsp;2019</sub>                              |
-| [Numeric separators][numeric_separators]                                       | Sam Goto<br />Rick Waldron                                              | Sam Goto<br />Rick Waldron                                              | :question:                                     | <sub>March&nbsp;2019</sub>                              |
+| [Numeric separators][numeric_separators]                                       | Sam Goto<br />Rick Waldron                                              | Sam Goto<br />Rick Waldron                                              | [:white_check_mark:][tests-numeric_separators] | <sub>March&nbsp;2019</sub>                              |
 
 ### Stage 2
 
@@ -139,6 +139,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [import-meta-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-09/sep-27.md#12iiic-importmeta-for-stage-3
 [numeric_separators]: https://github.com/tc39/proposal-numeric-separator
 [numeric_separators-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-24.md#numeric-separators-update
+[tests-numeric_separators]: https://test262.report/features/numeric-separator-literal
 [private-methods]: https://github.com/tc39/proposal-private-methods
 [private-methods-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2019-01/jan-30.md#private-fields-and-methods-refresher
 [export-from]: https://github.com/tc39/proposal-export-default-from
