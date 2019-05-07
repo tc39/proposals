@@ -26,8 +26,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Class Public Instance Fields & Private Instance Fields][class-fields]         | Daniel Ehrenberg<br />Kevin Gibbons                                     | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:question:][tests-class-fields]               | <sub>[January&nbsp;2019][class-fields-notes]</sub>      |
 | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg                                        | :question:                                     | <sub>[January&nbsp;2019][class-fields-notes]</sub>      |
 | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:white_check_mark:][tests-hashbang-grammar]   | <sub>[November&nbsp;2018][hashbang-notes]</sub>         |
-| [`Promise.allSettled`][allsettled]                                             | Jason Williams<br />Robert Pamely<br />Mathias Bynens                   | Mathias Bynens                                                          | [:white_check_mark:][tests-allsettled]                                     | <sub>March&nbsp;2019</sub>                              |
-| [Numeric separators][numeric_separators]                                       | Sam Goto<br />Rick Waldron                                              | Sam Goto<br />Rick Waldron                                              | [:white_check_mark:][tests-numeric_separators] | <sub>March&nbsp;2019</sub>                              |
+| [`Promise.allSettled`][allsettled]                                             | Jason Williams<br />Robert Pamely<br />Mathias Bynens                   | Mathias Bynens                                                          | [:white_check_mark:][tests-allsettled]         | <sub>[March&nbsp;2019][allsettled-notes]</sub>          |
+| [Numeric separators][numeric_separators]                                       | Sam Goto<br />Rick Waldron                                              | Sam Goto<br />Rick Waldron                                              | [:white_check_mark:][tests-numeric_separators] | <sub>[March&nbsp;2019][numeric_separators-notes]</sub>  |
 
 ### Stage 2
 
@@ -47,7 +47,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                                       | Mathias Bynens                                       | <sub>[September&nbsp;2018][unicode-sequence-properties-notes]</sub> |
 | [Temporal][temporal]                                                           | Maggie Pint<br />Matt Johnson<br />Philipp Dunkel    | Maggie Pint<br />Philipp Dunkel<br />Brian Terlson   | <sub>[September&nbsp;2018][temporal-notes]</sub>                    |
 | [collection normalization][collection-rekey]                                   | Bradley Farias                                       | Bradley Farias                                       | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                   |
-| [`String.prototype.replaceAll`][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens | Mathias Bynens                                       | <sub>March&nbsp;2019</sub>                                          |
+| [`String.prototype.replaceAll`][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens | Mathias Bynens                                       | <sub>[March&nbsp;2019][replace-all-notes]</sub>                     |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -86,7 +86,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [import-meta]: https://github.com/tc39/proposal-import-meta
 [import-meta-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-09/sep-27.md#12iiic-importmeta-for-stage-3
 [numeric_separators]: https://github.com/tc39/proposal-numeric-separator
-[numeric_separators-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-24.md#numeric-separators-update
+[numeric_separators-notes]: https://github.com/tc39/tc39-notes/blob/master/es10/2019-03/mar-28.md#decorator-based-extended-numeric-literals-status-update-and-numeric-separators-for-stage-3
 [tests-numeric_separators]: https://test262.report/features/numeric-separator-literal
 [private-methods]: https://github.com/tc39/proposal-private-methods
 [private-methods-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2019-01/jan-30.md#private-fields-and-methods-refresher
@@ -101,7 +101,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [throw-expressions]: https://github.com/tc39/proposal-throw-expressions
 [throw-expressions-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2018-01/jan-24.md#13iiii-throw-expressions-for-stage-3
 [replace-all]: https://github.com/tc39/proposal-string-replaceall
-[replace-all-notes]: https://github.com/tc39/tc39-notes/blob/master/es8/2017-11/nov-28.md#10ih-stringprototypereplaceall-for-stage-1
+[replace-all-notes]: https://github.com/tc39/tc39-notes/blob/master/es10/2019-03/mar-26.md#stringprototypereplaceall-for-stage-2
 [static-class-features]: http://github.com/tc39/proposal-static-class-features/
 [static-class-features-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-05/may-23.md#static-class-features-for-stage-3
 [tests-global]: https://github.com/tc39/test262/issues/765
@@ -159,7 +159,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
 [json-parse-source-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2018-09/sept-27.md#jsonparse-source-text-access
 [allsettled]: https://github.com/tc39/proposal-promise-allSettled
-[allsettled-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2019-01/jan-30.md#promiseallsettled
+[allsettled-notes]: https://github.com/tc39/tc39-notes/blob/master/es10/2019-03/mar-26.md#promiseallsettled-for-stage-3
 [collection-rekey]: https://github.com/tc39-transfer/proposal-collection-normalization
 [freeze-proto]: https://github.com/tc39/proposal-freeze-prototype
 [freeze-proto-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2019-01/jan-31.md#freezing-prototypes-for-stage-1

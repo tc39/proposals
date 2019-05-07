@@ -53,8 +53,8 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Freezing prototypes][freeze-proto]                                                          | Kevin Gibbons                                         | Kevin Gibbons                                          | <sub>[January&nbsp;2019][freeze-proto-notes]</sub>                |
 | [`new.initialize`][new.initialize]                                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[January&nbsp;2019][new.initialize-notes]</sub>              |
 | [Iterator helpers][iterator-helpers]                                                         | Gus Caplan                                            | Domenic Denicola                                       | <sub>[January&nbsp;2019][iterator-helpers-notes]</sub>            |
-| [`Promise.any`][promise-any]                                                                 | Mathias Bynens                                        | Mathias Bynens                                         | <sub>March&nbsp;2019</sub>                                        |
-| [Private declarations][private-declarations]                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>March&nbsp;2019</sub>                                        |
+| [`Promise.any`][promise-any]                                                                 | Mathias Bynens                                        | Mathias Bynens                                         | <sub>[March&nbsp;2019][promise-any-notes]</sub>                   |
+| [Private declarations][private-declarations]                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[March&nbsp;2019][private-declarations-notes]</sub>          |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -152,4 +152,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [iterator-helpers]: https://github.com/tc39/proposal-iterator-helpers
 [iterator-helpers-notes]: https://github.com/tc39/tc39-notes/blob/master/es9/2019-01/jan-31.md#iterator-helpers-for-stage-1
 [promise-any]: https://github.com/tc39/proposal-promise-any
+[promise-any-notes]: https://github.com/tc39/tc39-notes/blob/master/es10/2019-03/mar-27.md#promiseany
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
+[private-declarations-notes]: https://github.com/tc39/tc39-notes/blob/master/es10/2019-03/mar-28.md#private-declarations-for-stage-1

@@ -9,12 +9,12 @@ Stage 0 proposals are either
 | ------------------------------------------------------------------ | ------------------------------------- | ------------------------------------- | --------------------------- |
 | [Additional metaproperties][metaprops]                             | Allen Wirfs-Brock                     | Allen Wirfs-Brock                     |                             |
 | Annex B — HTML Attribute Event Handlers                            | Allen Wirfs-Brock                     | Allen Wirfs-Brock                     |                             |
-| [Array.isTemplateObject][isTemplateObject]                         | Mike Samuel                           | Mike Samuel                               |                             |
+| [Array.isTemplateObject][isTemplateObject]                         | Mike Samuel                           | Mike Samuel                           |                             |
 | [Defensible Classes][defensible-classes]                           | Mark Miller<br />Doug Crockford       | Mark Miller<br />Doug Crockford       |                             |
-| [evalable][]                                                       | Mike Samuel                           | Mike Samuel                            |                             |
+| [evalable][]                                                       | Mike Samuel                           | Mike Samuel                           |                             |
 | [Function bind syntax][bind-syntax]                                | Kevin Smith                           | Brian Terlson<br />Matthew Podwysocki | [March 2015][bind-notes]    |
 | [Function expression decorators][func-expr-decorators]             | Igor Minar                            | Igor Minar                            |                             |
-| [HostEnsureCanCompileStrings passthrough][heccspt]                 | Mike Samuel                           | Mike Samuel                               |                             |
+| [HostEnsureCanCompileStrings passthrough][heccspt]                 | Mike Samuel                           | Mike Samuel                           |                             |
 | [Method parameter decorators][method-param-decorators]             | Igor Minar                            | Igor Minar                            |                             |
 | [Nested `import` declarations][nested-imports]                     | Ben Newman                            | Ben Newman                            | [July 2016][nested-notes]   |
 | [Normative ICU Reference][icu]                                     | Domenic Denicola                      | Domenic Denicola                      | [May 2017][icu-notes]       |
