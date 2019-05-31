@@ -26,7 +26,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 
 [distinguishing-literal-strings]: https://github.com/mikewest/tc39-proposal-literals
 [escape]: https://github.com/benjamingr/RegExp.escape
-[escape-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es7/2015-07/july-28.md#62-regexpescape
+[escape-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2015-07/july-28.md#62-regexpescape
 [callable-constructors]: https://github.com/tc39/ecma262/blob/master/workingdocs/callconstructor.md
 [is-error]: https://github.com/ljharb/proposal-is-error
 [collection-json]: https://github.com/DavidBruant/Map-Set.prototype.toJSON
@@ -36,7 +36,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [module-unambig]: https://github.com/bmeck/UnambiguousJavaScriptGrammar
 [dynamic-module-reform]: https://github.com/caridy/proposal-dynamic-modules
 [simd]: https://github.com/tc39/ecmascript_simd/
-[simd-notes]: https://github.com/rwaldron/tc39-notes/blob/master/es8/2017-03/mar-21.md#conclusionresolution-10
+[simd-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2017-03/mar-21.md#conclusionresolution-10
 [ptc]: https://github.com/tc39/proposal-ptc-syntax
 [shallow-equal]: https://github.com/sebmarkbage/ecmascript-shallow-equal
 [construct]: https://github.com/jasnell/proposal-construct

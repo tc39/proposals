@@ -51,10 +51,10 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl.listformat]: https://github.com/zbraniecki/proposal-intl-list-format
 [intl.relativetimeformat]: https://github.com/tc39/proposal-intl-relative-time
 [datetimeformat]: https://github.com/zbraniecki/proposal-ecma402-datetime-style
-[datetimeformat-notes]: https://github.com/tc39/tc39-notes/blob/master/es10/2019-03/mar-26.md#datestyletimestyle-for-stage-3
+[datetimeformat-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-26.md#datestyletimestyle-for-stage-3
 [intl.locale]: https://github.com/zbraniecki/proposal-intl-locale
 [formatrange]: https://github.com/fabalbon/proposal-intl-DateTimeFormat-formatRange
-[formatrange-notes]: https://github.com/tc39/tc39-notes/blob/master/es10/2019-03/mar-26.md#intldatetimeformatprototypeformatrange-for-stage-3
+[formatrange-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-26.md#intldatetimeformatprototypeformatrange-for-stage-3
 [numberformat]: https://github.com/sffc/proposal-unified-intl-numberformat
 [proposal-intl-displaynames]: https://github.com/tc39-transfer/proposal-intl-displaynames
 [proposal-intl-displaynames-notes]: https://github.com/tc39-transfer/proposal-intl-displaynames
