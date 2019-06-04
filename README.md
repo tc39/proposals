@@ -19,7 +19,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------|
 | [`globalThis`][globalThis]                                                     | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-global]             | <sub>[November&nbsp;2018][globalThis-notes]</sub>       |
 | [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | [:white_check_mark:][tests-regexp-legacy]      | <sub>[May&nbsp;2017][regexp-legacy-notes]</sub>         |
-| [`BigInt`][bigint]                                                             | Daniel Ehrenberg                                                        | Daniel Ehrenberg                                                        | [:white_check_mark:][tests-bigint]             | <sub>[June&nbsp;2019][bigint-notes]</sub>               |
 | [`import.meta`][import-meta]                                                   | Domenic Denicola                                                        | (none)                                                                  | [:white_check_mark:][tests-import-meta]        | <sub>[September&nbsp;2017][import-meta-notes]</sub>     |
 | [Private instance methods and accessors][private-methods]                      | Daniel Ehrenberg                                                        | Daniel Ehrenberg<br />Kevin Gibbons                                     | [:question:][tests-private-methods]            | <sub>[January&nbsp;2019][class-fields-notes]</sub>      |
 | [Class Public Instance Fields & Private Instance Fields][class-fields]         | Daniel Ehrenberg<br />Kevin Gibbons                                     | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:question:][tests-class-fields]               | <sub>[January&nbsp;2019][class-fields-notes]</sub>      |
@@ -79,8 +78,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [globalThis-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-11/nov-29.md#kevins-1pm-talk
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features
 [regexp-legacy-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-05/may-25.md#15ia-regexp-legacy-features-for-stage-3
-[bigint]: https://github.com/tc39/proposal-bigint
-[bigint-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-4.md#bigint-to-stage-4
 [class-fields]: https://github.com/tc39/proposal-class-fields
 [class-fields-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-30.md#private-fields-and-methods-refresher
 [function-sent]: https://github.com/tc39/proposal-function.sent
@@ -112,7 +109,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-global]: https://github.com/tc39/test262/issues/765
 [tests-import-meta]: https://github.com/tc39/test262/pull/1888
 [tests-regexp-legacy]: https://github.com/tc39/test262/issues/1165
-[tests-bigint]: https://github.com/tc39/test262/issues/1056
 [tests-private-methods]: https://github.com/tc39/test262/issues/1343
 [tests-numeric_separators]: https://github.com/tc39/test262/issues/1051
 [tests-class-fields]: https://github.com/tc39/test262/issues/1161
