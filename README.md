@@ -48,6 +48,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Temporal][temporal]                                                           | Maggie Pint<br />Matt Johnson<br />Philipp Dunkel    | Maggie Pint<br />Philipp Dunkel<br />Brian Terlson   | <sub>[September&nbsp;2018][temporal-notes]</sub>                    |
 | [collection normalization][collection-rekey]                                   | Bradley Farias                                       | Bradley Farias                                       | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                   |
 | [`String.prototype.replaceAll`][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens | Mathias Bynens                                       | <sub>[March&nbsp;2019][replace-all-notes]</sub>                     |
+| [`for-in` mechanics][for-in-mechanics]                                         | Kevin Gibbons                                        | Kevin Gibbons                                        | <sub>June&nbsp;2019</sub>          |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -169,3 +170,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [iterator-helpers-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-31.md#iterator-helpers-for-stage-1
 [promise-any]: https://github.com/tc39/proposal-promise-any
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
+[for-in-mechanics]: https://github.com/bakkot/for-in-exploration
+[for-in-mechanics-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-09/sept-25.md#for-in-mechanics
