@@ -9,7 +9,6 @@ Stage 0 proposals are either
 | ------------------------------------------------------------------ | ------------------------------------- | ------------------------------------- | --------------------------- |
 | [Additional metaproperties][metaprops]                             | Allen Wirfs-Brock                     | Allen Wirfs-Brock                     |                             |
 | Annex B — HTML Attribute Event Handlers                            | Allen Wirfs-Brock                     | Allen Wirfs-Brock                     |                             |
-| [Array.isTemplateObject][isTemplateObject]                         | Mike Samuel                           | Mike Samuel                           |                             |
 | [Defensible Classes][defensible-classes]                           | Mark Miller<br />Doug Crockford       | Mark Miller<br />Doug Crockford       |                             |
 | [evalable][]                                                       | Mike Samuel                           | Mike Samuel                           |                             |
 | [Function bind syntax][bind-syntax]                                | Kevin Smith                           | Brian Terlson<br />Matthew Podwysocki | [March 2015][bind-notes]    |
@@ -62,6 +61,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [builtins-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-09/sept-28.md#14ia-builtinstypeof-and-builtinsis
 [decimal-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2017-11/nov-29.md#9ivb-decimal-for-stage-0
 [symbol-thenable]: https://github.com/devsnek/proposal-symbol-thenable
-[isTemplateObject]: https://github.com/mikesamuel/proposal-array-is-template-object
 [heccspt]: https://github.com/mikesamuel/proposal-hostensurecancompilestrings-passthru
 [evalable]: https://github.com/mikesamuel/evalable
