@@ -53,6 +53,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [`Promise.any`][promise-any]                                                                 | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov | Mathias Bynens                                         | <sub>[March&nbsp;2019][promise-any-notes]</sub>                   |
 | [Private declarations][private-declarations]                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[March&nbsp;2019][private-declarations-notes]</sub>          |
 | [Emitter][emitter]                                                                           | Shu-yu Guo<br />Pedram Emrouznejad                    | Shu-yu Guo<br />Pedram Emrouznejad                     | <sub>June&nbsp;2019</sub>                                         |
+| [evalable][]                                                                                 | Mike Samuel                                           | Mike Samuel                                            | <sub>June&nbsp;2019</sub>                                         |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -148,3 +149,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [private-declarations-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-28.md#private-declarations-for-stage-1
 [emitter]: https://github.com/pemrouz/proposal-emitter
+[evalable]: https://github.com/mikesamuel/evalable
