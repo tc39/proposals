@@ -26,12 +26,12 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | Proposal                                                     | Author                           | Champion                         |
 | ------------------------------------------------------------ | -------------------------------- | -------------------------------- |
 | [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg       | Daniel Ehrenberg                 |
+| [Intl.DisplayNames][proposal-intl-displaynames]              | Frank Tang     | Frank Tang      | <sub>June&nbsp;2019</sub>  |
 
 ### Stage 1
 
 | Proposal                                                     | Author         | Champion       |  <sub>Last Presented</sub>                                        |
 | ------------------------------------------------------------ | -------------- | -------------- | ----------------------------------------------------------------- |
-| [Intl.DisplayNames][proposal-intl-displaynames]              | Frank Tang     | Frank Tang     | <sub>[January&nbsp;2019][proposal-intl-displaynames-notes]</sub>  |
 
 ### Contributing new proposals
 
