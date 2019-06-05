@@ -50,7 +50,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`String.prototype.replaceAll`][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens | Mathias Bynens                                       | <sub>[March&nbsp;2019][replace-all-notes]</sub>                     |
 | [`for-in` mechanics][for-in-mechanics]                                         | Kevin Gibbons                                        | Kevin Gibbons                                        | <sub>June&nbsp;2019</sub>          |
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel                                          | Mike Samuel                           |              | <sub>June&nbsp;2019</sub>          |
-| [Optional Chaining][chaining]                   | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell</br />Daniel Rosenwasser | <sub>June&nbsp;2019</sub>          |
+| [Optional Chaining][chaining]                   | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser | <sub>June&nbsp;2019</sub>          |
 | [Nullish coalescing Operator][nullish-coalescing]                              | Gabriel Isenberg                          | Gabriel Isenberg<br />Justin Ridgewell<br />Daniel Rosenwasser  | <sub>June&nbsp;2019</sub>          |
 
 :white_check_mark: means a pull request for tests was merged.
