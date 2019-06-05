@@ -13,7 +13,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [`of` and `from` on collection constructors][collection-of-from]                             | Leo Balter                                            | Leo Balter                                             | <sub>[September&nbsp;2016][collection-of-from-notes]</sub>        |
 | Generator arrow functions (`=>*`)                                                            |                                                       | Brendan Eich<br />Domenic Denicola                     | <sub>[September&nbsp;2016][generator-arrow-functions-notes]</sub> |
 | [`Promise.try`][try]                                                                         | Jordan Harband                                        | Jordan Harband                                         | <sub>[November&nbsp;2016][try-notes]</sub>                        |
-| [Optional Chaining][chaining]                                                                | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery | Gabriel Isenberg<br />Dustin Savery                    | <sub>[November&nbsp;2018][chaining-notes]</sub>                   |
 | [`Math.signbit`: IEEE-754 sign bit][signbit]                                                 | JF Bastien                                            | JF Bastien                                             | <sub>[May&nbsp;2017][signbit-notes]</sub>                         |
 | [Error stacks][stacks]                                                                       | Jordan Harband                                        | Jordan Harband                                         | <sub>[January&nbsp;2017][stacks-notes]</sub>                      |
 | [`do` expressions][do]                                                                       | Dave Herman                                           | Dave Herman                                            | <sub>[July&nbsp;2018][do-notes]</sub>                             |
@@ -72,8 +71,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [generator-arrow-functions-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-09/sept-27.md#11ic-generator-arrow-functions
 [try]: https://github.com/tc39/proposal-promise-try
 [try-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-11/nov-29.md#11iib-promisetry
-[chaining]: https://github.com/tc39/proposal-optional-chaining
-[chaining-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-11/nov-28.md#update-on-optional-chaining
 [signbit]: http://jfbastien.github.io/papers/Math.signbit.html
 [signbit-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-05/may-23.md#16ib-mathsignbit-proposal
 [stacks]: https://github.com/tc39/proposal-error-stacks

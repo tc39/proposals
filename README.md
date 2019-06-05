@@ -50,6 +50,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`String.prototype.replaceAll`][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens | Mathias Bynens                                       | <sub>[March&nbsp;2019][replace-all-notes]</sub>                     |
 | [`for-in` mechanics][for-in-mechanics]                                         | Kevin Gibbons                                        | Kevin Gibbons                                        | <sub>June&nbsp;2019</sub>          |
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel                                          | Mike Samuel                           |              | <sub>June&nbsp;2019</sub>          |
+| [Optional Chaining][chaining]                   | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell</br />Daniel Rosenwasser | <sub>June&nbsp;2019</sub>          |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -174,3 +175,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [for-in-mechanics]: https://github.com/bakkot/for-in-exploration
 [for-in-mechanics-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-09/sept-25.md#for-in-mechanics
 [isTemplateObject]: https://github.com/tc39-transfer/proposal-array-is-template-object
+[chaining]: https://github.com/tc39/proposal-optional-chaining
+[chaining-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-11/nov-28.md#update-on-optional-chaining
