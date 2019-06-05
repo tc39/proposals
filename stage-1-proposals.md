@@ -22,7 +22,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Pipeline Operator][pipeline]                                                                | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[March&nbsp;2018][pipeline-notes]</sub>                      |
 | [Extensible numeric literals][extensible-literals]                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[January&nbsp;2019][extensible-literals-notes]               |
 | [First-class protocols][protocols]                                                           | Michael Ficarra                                       | Michael Ficarra                                        | <sub>[July&nbsp;2018][protocols-notes]</sub>                      |
-| [Nullish coalescing Operator][nullish-coalescing]                                            | Gabriel Isenberg                                      | Gabriel Isenberg                                       | <sub>[March&nbsp;2018][nullish-coalescing-notes]</sub>            |
 | [Partial application][partial-application]                                                   | Ron Buckton                                           | Ron Buckton                                            | <sub>[July&nbsp;2018][partial-application-notes]</sub>            |
 | [Cancellation API][cancel-api]                                                               | Ron Buckton                                           | Ron Buckton<br />Brian Terlson                         | <sub>[July&nbsp;2018][cancel-api-notes]</sub>                     |
 | [`String.prototype.codePoints`][codepoints]                                                  | Ingvar Stepanyan                                      | Mathias Bynens                                         | <sub>[May&nbsp;2018][codepoints-notes]</sub>                      |
@@ -88,8 +87,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [extensible-literals-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-30.md#extended-numeric-literals-status-update-and-consider-restoring-numeric-separators-to-stage-3
 [protocols]: https://github.com/michaelficarra/proposal-first-class-protocols
 [protocols-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-25.md#updates-on-first-class-protocols
-[nullish-coalescing]: https://github.com/tc39/proposal-nullish-coalescing
-[nullish-coalescing-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-22.md#10iif-nullish-coalescing-for-stage-2
 [partial-application]: https://github.com/tc39/proposal-partial-application
 [partial-application-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-25.md#partial-application
 [cancel-api]: https://github.com/tc39/proposal-cancellation

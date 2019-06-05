@@ -51,6 +51,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`for-in` mechanics][for-in-mechanics]                                         | Kevin Gibbons                                        | Kevin Gibbons                                        | <sub>June&nbsp;2019</sub>          |
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel                                          | Mike Samuel                           |              | <sub>June&nbsp;2019</sub>          |
 | [Optional Chaining][chaining]                   | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell</br />Daniel Rosenwasser | <sub>June&nbsp;2019</sub>          |
+| [Nullish coalescing Operator][nullish-coalescing]                              | Gabriel Isenberg                          | Gabriel Isenberg<br />Justin Ridgewell<br />Daniel Rosenwasser  | <sub>June&nbsp;2019</sub>          |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -177,3 +178,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [isTemplateObject]: https://github.com/tc39-transfer/proposal-array-is-template-object
 [chaining]: https://github.com/tc39/proposal-optional-chaining
 [chaining-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-11/nov-28.md#update-on-optional-chaining
+[nullish-coalescing]: https://github.com/tc39/proposal-nullish-coalescing
+[nullish-coalescing-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-22.md#10iif-nullish-coalescing-for-stage-2
