@@ -12,7 +12,6 @@ Stage 0 proposals are either
 | [Defensible Classes][defensible-classes]                           | Mark Miller<br />Doug Crockford       | Mark Miller<br />Doug Crockford       |                             |
 | [Function bind syntax][bind-syntax]                                | Kevin Smith                           | Brian Terlson<br />Matthew Podwysocki | [March 2015][bind-notes]    |
 | [Function expression decorators][func-expr-decorators]             | Igor Minar                            | Igor Minar                            |                             |
-| [HostEnsureCanCompileStrings passthrough][heccspt]                 | Mike Samuel                           | Mike Samuel                           |                             |
 | [Method parameter decorators][method-param-decorators]             | Igor Minar                            | Igor Minar                            |                             |
 | [Nested `import` declarations][nested-imports]                     | Ben Newman                            | Ben Newman                            | [July 2016][nested-notes]   |
 | [Normative ICU Reference][icu]                                     | Domenic Denicola                      | Domenic Denicola                      | [May 2017][icu-notes]       |
@@ -60,4 +59,3 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [builtins-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-09/sept-28.md#14ia-builtinstypeof-and-builtinsis
 [decimal-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2017-11/nov-29.md#9ivb-decimal-for-stage-0
 [symbol-thenable]: https://github.com/devsnek/proposal-symbol-thenable
-[heccspt]: https://github.com/mikesamuel/proposal-hostensurecancompilestrings-passthru
