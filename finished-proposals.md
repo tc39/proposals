@@ -28,7 +28,8 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Well-formed `JSON.stringify`][well-formed-stringify]                    | Richard Gibson                                         | Mathias Bynens                                          | [January 2019][well-formed-stringify-notes] | 2019                      |
 | [`String.prototype.{trimStart,trimEnd}`][trims]                          | Sebastian Markbåge                                     | Sebastian Markbåge<br />Mathias Bynens                  | [January 2019][trims-notes]                 | 2019                      |
 | [`Array.prototype.{flat,flatMap}`][flat]                                 | Brian Terlson<br />Michael Ficarra<br />Mathias Bynens | Brian Terlson<br />Michael Ficarra                      | [January 2019][flat-notes]                  | 2019                      |
-| [`String.prototype.matchAll`][matchall]                                  | Jordan Harband                                         | Jordan Harband                                          | [March&nbsp;2019][matchall-notes]           | 2020                      |
+| [`String.prototype.matchAll`][matchall]                                  | Jordan Harband                                         | Jordan Harband                                          | [March 2019][matchall-notes]                | 2020                      |
+| [`import()`][dynamic-import]                                             | Domenic Denicola                                       | Domenic Denicola                                        | June 2019                                   | 2020                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -82,3 +83,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [flat-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-29.md#arrayprototypeflatflatmap-for-stage-4
 [matchall]: https://github.com/tc39/String.prototype.matchAll
 [matchall-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-26.md#stringprototypematchall-for-stage-4
+[dynamic-import]: https://github.com/tc39/proposal-dynamic-import
+[dynamic-import-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-11/dec-1.md#14ii-import-open-issues-and-stage-3-discussion

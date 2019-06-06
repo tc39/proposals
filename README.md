@@ -18,7 +18,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | Proposal                                                                       | Author                                                                  | Champion                                                                | Tests                                          | <sub>Last Presented</sub>                               |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------|
 | [`globalThis`][globalThis]                                                     | Jordan Harband                                                          | Jordan Harband                                                          | [:white_check_mark:][tests-global]             | <sub>[November&nbsp;2018][globalThis-notes]</sub>       |
-| [`import()`][dynamic-import]                                                   | Domenic Denicola                                                        | Domenic Denicola                                                        | [:white_check_mark:][tests-dynamic-import]     | <sub>[November&nbsp;2016][dynamic-import-notes]</sub>   |
 | [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | [:white_check_mark:][tests-regexp-legacy]      | <sub>[May&nbsp;2017][regexp-legacy-notes]</sub>         |
 | [`BigInt`][bigint]                                                             | Daniel Ehrenberg                                                        | Daniel Ehrenberg                                                        | [:white_check_mark:][tests-bigint]             | <sub>[May&nbsp;2018][bigint-notes]</sub>                |
 | [`import.meta`][import-meta]                                                   | Domenic Denicola                                                        | Domenic Denicola                                                        | [:white_check_mark:][tests-import-meta]        | <sub>[September&nbsp;2017][import-meta-notes]</sub>     |
@@ -75,8 +74,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 
 [globalThis]: https://github.com/tc39/proposal-global
 [globalThis-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-11/nov-29.md#kevins-1pm-talk
-[dynamic-import]: https://github.com/tc39/proposal-dynamic-import
-[dynamic-import-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-11/dec-1.md#14ii-import-open-issues-and-stage-3-discussion
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features
 [regexp-legacy-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-05/may-25.md#15ia-regexp-legacy-features-for-stage-3
 [bigint]: https://github.com/tc39/proposal-bigint
@@ -109,7 +106,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [static-class-features]: http://github.com/tc39/proposal-static-class-features/
 [static-class-features-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-23.md#static-class-features-for-stage-3
 [tests-global]: https://github.com/tc39/test262/issues/765
-[tests-dynamic-import]: https://github.com/tc39/test262/issues/1164
 [tests-import-meta]: https://github.com/tc39/test262/pull/1888
 [tests-regexp-legacy]: https://github.com/tc39/test262/issues/1165
 [tests-bigint]: https://github.com/tc39/test262/issues/1056
