@@ -28,6 +28,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Promise.allSettled`][allsettled]                                             | Jason Williams<br />Robert Pamely<br />Mathias Bynens                   | Mathias Bynens                                                          | [:white_check_mark:][tests-allsettled]         | <sub>[March&nbsp;2019][allsettled-notes]</sub>          |
 | [Numeric separators][numeric_separators]                                       | Sam Goto<br />Rick Waldron                                              | Sam Goto<br />Rick Waldron                                              | [:white_check_mark:][tests-numeric_separators] | <sub>[March&nbsp;2019][numeric_separators-notes]</sub>  |
 | [Top-level `await`][await]                                                     | Myles Borins                                                            | Myles Borins                                                            | :question:                                     | <sub>June&nbsp;2019</sub>                               |
+| [WeakRefs][weakrefs]                                                           | Dean Tribble                                         | Dean Tribble<br />Mark Miller<br />Till Schneidereit |  :question: | <sub>[June&nbsp;2019] </sub>                        |
+
 
 ### Stage 2
 
@@ -37,7 +39,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Decorators][decorators]                                                       | Daniel Ehrenberg                                     | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg | <sub>[January&nbsp;2019][decorators-notes]</sub>                    |
 | [`throw` expressions][throw-expressions]                                       | Ron Buckton                                          | Ron Buckton                                          | <sub>[January&nbsp;2018][throw-expressions-notes]</sub>             |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                          | Shu-yu Guo<br />Lars Hansen                          | <sub>[September&nbsp;2017][nonblocking-notes]</sub>                 |
-| [WeakRefs][weakrefs]                                                           | Dean Tribble                                         | Dean Tribble<br />Mark Miller<br />Till Schneidereit | <sub>[March&nbsp;2018][weakrefs-notes]</sub>                        |
 | [Function implementation hiding][censorship]                                   | Domenic Denicola<br />Michael Ficarra                | Domenic Denicola<br />Michael Ficarra                | <sub>[May&nbsp;2018][censorship-notes]</sub>                        |
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran                 | Sathya Gunasekaran                                   | <sub>[January&nbsp;2019][set-methods-notes]</sub>                   |
 | [Realms][realms]                                                               | Caridy Patiño<br />Jean-Francois Paradis             | Dave Herman<br />Mark Miller<br />Caridy Patiño      | <sub>[May&nbsp;2018][realms-notes]</sub>                            |
