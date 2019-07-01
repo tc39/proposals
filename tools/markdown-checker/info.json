@@ -1,0 +1,13 @@
+{
+  "name": "markdownChecker",
+  "version": "1.0.0",
+  "description": "a script that tracks changes of proposal status",
+  "main": "index.js",
+  "repository": "https://github.com/tc39/proposals",
+  "author": "Ozer Y.",
+  "license": "MIT",
+  "devDependencies": {
+    "remark-parse": "^6.0.3",
+    "unified": "^7.1.0"
+  }
+}
