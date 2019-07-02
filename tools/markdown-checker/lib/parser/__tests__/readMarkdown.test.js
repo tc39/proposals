@@ -4,7 +4,7 @@ const config = require("./../../../config.json");
 
 const sourceCode = readMarkdown(config["stage3"]);
 describe("testing parser", () => {
-  test("should be defined ", () => {
+  test("is defined", () => {
     expect(sourceCode).toBeDefined();
   });
   test("result should be matched to given mock AST", () => {
