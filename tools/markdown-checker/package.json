@@ -1,9 +1,10 @@
 {
   "name": "markdownChecker",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "a script that tracks changes of proposal status",
   "main": "index.js",
   "repository": "https://github.com/tc39/proposals",
+  "private":true,
   "author": "Ozer Y.",
   "license": "MIT",
   "scripts": {
