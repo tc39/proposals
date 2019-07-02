@@ -6,7 +6,7 @@
  module.exports = function traverseChildren(node, callBackLogic) {
   node.forEach(n => {
     callBackLogic();
-    if (n["children"]) {
+    if (n.children) {
       traverseChildren(n);
     }
   });
