@@ -7,7 +7,8 @@ describe("testing parser", () => {
   test("is defined", () => {
     expect(sourceCode).toBeDefined();
   });
-  test("result should be matched to given mock AST", () => {
+
+  test("result is matched to given mock AST", () => {
     expect(sourceCode).toEqual(mock);
   });
 });
