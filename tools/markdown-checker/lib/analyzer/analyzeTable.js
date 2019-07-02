@@ -15,6 +15,5 @@ const detectHeader = require("./detectHeaders");
 
 module.exports = function generateTable(node, linkDefinitions) {
   const table = node.children && detectTables(node);
-  const rows =
-    table && table.children && detectHeader(table);
+  const rows = table && table.children && detectHeader(table);
 };
