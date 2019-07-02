@@ -4,7 +4,7 @@
   "description": "a script that tracks changes of proposal status",
   "main": "index.js",
   "repository": "https://github.com/tc39/proposals",
-  "private":true,
+  "private": true,
   "author": "Ozer Y.",
   "license": "MIT",
   "scripts": {
