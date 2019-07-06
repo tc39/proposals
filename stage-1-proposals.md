@@ -83,7 +83,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [binary-ast]: https://github.com/tc39/proposal-binary-ast
 [binary-ast-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-24.md#binary-ast
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
-[pipeline-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-22.md#pipeline-operator
+[pipeline-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-22.md#10ive-pipeline-operator
 [extensible-literals]: https://github.com/tc39/proposal-extended-numeric-literals
 [extensible-literals-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-30.md#extended-numeric-literals-status-update-and-consider-restoring-numeric-separators-to-stage-3
 [protocols]: https://github.com/michaelficarra/proposal-first-class-protocols
