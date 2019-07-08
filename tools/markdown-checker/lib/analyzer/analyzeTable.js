@@ -4,8 +4,8 @@
  *
  */
 
-const detectTables = require("./detectTables");
-const detectHeader = require("./detectHeaders");
+const detectTables = require('./detectTables');
+const detectHeader = require('./detectHeaders');
 
 /**
  *
