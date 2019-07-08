@@ -4,7 +4,7 @@ const { traverseChildren } = require('./../transformer/traverser');
  * @returns {Object} - collected header template
  */
 module.exports = function detectHeaders(tableRow) {
-  const cellSize = tableRow.align.length;
-  const [headerNode] = tableRow.children;
+  let cellSize = tableRow.align.length;
+  let [headerNode] = tableRow.children;
   // create header template here
 };
