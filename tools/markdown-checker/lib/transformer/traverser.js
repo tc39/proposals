@@ -1,10 +1,10 @@
 /**
- * @param {Object} Node 
- * @param {function} callBackLogic 
+ * @param {Object} Node
+ * @param {function} callBackLogic
  */
 
- module.exports = function traverseChildren(node, callBackLogic) {
-  node.forEach(n => {
+module.exports = function traverseChildren(node, callBackLogic) {
+  node.forEach((n) => {
     callBackLogic();
     if (n.children) {
       traverseChildren(n);

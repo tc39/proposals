@@ -10,9 +10,13 @@
   "scripts": {
     "check-markdown": "node index.js",
     "test": "jest --no-cache --verbose",
-    "test:coverage": "jest --no-cache --verbose --coverage"
+    "test:coverage": "jest --no-cache --verbose --coverage",
+    "lint": "eslint --fix --ext .js lib/**"
   },
   "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
     "jest": "^24.8.0",
     "remark-parse": "^6.0.3",
     "unified": "^7.1.0"

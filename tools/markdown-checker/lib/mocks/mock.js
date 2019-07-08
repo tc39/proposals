@@ -1,14 +1,14 @@
-let globalThis = "`globalThis`";
-let bigInt = "`BigInt`";
-let importMeta = "`import.meta`";
-let settled = "`Promise.allSettled`";
-let _await = "`await`";
-let functionSent = "`function.sent`";
-let arrayTransfer = "`ArrayBuffer.prototype.transfer`";
-let _throw = "`throw`";
-let waitAsync = "`Atomics.waitAsync`";
-let replaceAll = "`String.prototype.replaceAll`";
-let for_in = "`for-in`";
+const globalThis = '`globalThis`';
+const bigInt = '`BigInt`';
+const importMeta = '`import.meta`';
+const settled = '`Promise.allSettled`';
+const _await = '`await`';
+const functionSent = '`function.sent`';
+const arrayTransfer = '`ArrayBuffer.prototype.transfer`';
+const _throw = '`throw`';
+const waitAsync = '`Atomics.waitAsync`';
+const replaceAll = '`String.prototype.replaceAll`';
+const forIn = '`for-in`';
 
 module.exports = `# [ECMAScript](https://github.com/tc39/ecma262) proposals
 
@@ -60,7 +60,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Temporal][temporal]                                                           | Maggie Pint<br />Matt Johnson<br />Philipp Dunkel    | Maggie Pint<br />Philipp Dunkel<br />Brian Terlson   | <sub>[September&nbsp;2018][temporal-notes]</sub>                    |
 | [collection normalization][collection-rekey]                                   | Bradley Farias                                       | Bradley Farias                                       | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                   |
 | [${replaceAll}][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens | Mathias Bynens                                       | <sub>[March&nbsp;2019][replace-all-notes]</sub>                     |
-| [${for_in} mechanics][for-in-mechanics]                                         | Kevin Gibbons                                        | Kevin Gibbons                                        | <sub>June&nbsp;2019</sub>                                           |
+| [${forIn} mechanics][for-in-mechanics]                                         | Kevin Gibbons                                        | Kevin Gibbons                                        | <sub>June&nbsp;2019</sub>                                           |
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel                                          | Mike Samuel                                          | <sub>June&nbsp;2019</sub>                                           |
 | [Optional Chaining][chaining]                    | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser | <sub>June&nbsp;2019</sub>                                           |
 | [Nullish coalescing Operator][nullish-coalescing]                              | Gabriel Isenberg                          | Gabriel Isenberg<br />Justin Ridgewell<br />Daniel Rosenwasser  | <sub>June&nbsp;2019</sub>                                           |
