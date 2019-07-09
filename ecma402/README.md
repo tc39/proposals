@@ -23,10 +23,10 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 2
 
-| Proposal                                                     | Author                           | Champion                         |
-| ------------------------------------------------------------ | -------------------------------- | -------------------------------- |
-| [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg       | Daniel Ehrenberg                 |
-| [Intl.DisplayNames][proposal-intl-displaynames]              | Frank Tang     | Frank Tang      | <sub>June&nbsp;2019</sub>  |
+| Proposal                                                     | Author                           | Champion                                                       |
+| ------------------------------------------------------------ | -------------------------------- | -------------------------------------------------------------- |
+| [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg       | Daniel Ehrenberg                                               |
+| [Intl.DisplayNames][proposal-intl-displaynames]              | Frank Tang     | Frank Tang      | <sub>[June&nbsp;2019][proposal-intl-displaynames-notes]</sub>  |
 
 ### Stage 1
 
@@ -57,4 +57,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [formatrange-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-26.md#intldatetimeformatprototypeformatrange-for-stage-3
 [numberformat]: https://github.com/sffc/proposal-unified-intl-numberformat
 [proposal-intl-displaynames]: https://github.com/tc39-transfer/proposal-intl-displaynames
-[proposal-intl-displaynames-notes]: https://github.com/tc39-transfer/proposal-intl-displaynames
+[proposal-intl-displaynames-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#ecma-402-intldisplaynames

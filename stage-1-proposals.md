@@ -41,7 +41,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Pattern Matching][matching]                                                                 | Kat Marchán<br />Brian Terlson                        | Kat Marchán<br />Brian Terlson<br />Sebastian Markbåge | <sub>[May&nbsp;2018][matching-notes]</sub>                        |
 | [Explicit Resource Management][resource-management]                                          | Ron Buckton                                           | Ron Buckton                                            | <sub>[July&nbsp;2018][resource-management-notes]</sub>            |
 | [Dynamic Modules][dynamic-modules]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[July&nbsp;2018][dynamic-modules-notes]</sub>                |
-| [JavaScript Standard Library][standard-library]                                              | Michael Saboff<br />Mattijs Hoitink                   | Michael Saboff<br />Mattijs Hoitink                    | <sub>[July&nbsp;2018][standard-library-notes]</sub>               |
+| [JavaScript Standard Library][standard-library]                                              | Michael Saboff<br />Mattijs Hoitink                   | Michael Saboff<br />Mattijs Hoitink                    | <sub>[June&nbsp;2019][standard-library-notes]</sub>               |
 | [`"use module"`][modules-pragma]                                                             | Dave Herman                                           | Dave Herman                                            | <sub>[July&nbsp;2017][modules-pragma-notes]</sub>                 |
 | [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]                   | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][uniform-date-parse-notes]</sub>        |
 | [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][json-parse-source-notes]</sub>         |
@@ -50,10 +50,10 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Freezing prototypes][freeze-proto]                                                          | Kevin Gibbons                                         | Kevin Gibbons                                          | <sub>[January&nbsp;2019][freeze-proto-notes]</sub>                |
 | [`new.initialize`][new.initialize]                                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[January&nbsp;2019][new.initialize-notes]</sub>              |
 | [Iterator helpers][iterator-helpers]                                                         | Gus Caplan                                            | Domenic Denicola                                       | <sub>[January&nbsp;2019][iterator-helpers-notes]</sub>            |
-| [`Promise.any`][promise-any]                                                                 | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov | Mathias Bynens                                         | <sub>[March&nbsp;2019][promise-any-notes]</sub>                   |
+| [`Promise.any`][promise-any]                                                                 | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov | Mathias Bynens                                         | <sub>[June&nbsp;2019][promise-any-notes]</sub>                    |
 | [Private declarations][private-declarations]                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[March&nbsp;2019][private-declarations-notes]</sub>          |
-| [Emitter][emitter]                                                                           | Shu-yu Guo<br />Pedram Emrouznejad                    | Shu-yu Guo<br />Pedram Emrouznejad                     | <sub>June&nbsp;2019</sub>                                         |
-| [dynamic-code-brand-checks][]                                                                | Mike Samuel                                           | Mike Samuel                                            | <sub>June&nbsp;2019</sub>                                         |
+| [Emitter][emitter]                                                                           | Shu-yu Guo<br />Pedram Emrouznejad                    | Shu-yu Guo<br />Pedram Emrouznejad                     | <sub>[June&nbsp;2019][emitter-notes]</sub>                        |
+| [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[June&nbsp;2019][dynamic-code-brand-checks-notes]</sub>      |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -127,7 +127,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [dynamic-modules]: https://github.com/guybedford/proposal-dynamic-modules
 [dynamic-modules-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-25.md#dynamic-modules
 [standard-library]: https://github.com/tc39/proposal-javascript-standard-library
-[standard-library-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-26.md#javascript-standard-library
+[standard-library-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#javascript-standard-library-for-stage-2--part-2-
 [modules-pragma]: https://github.com/tc39/proposal-modules-pragma
 [modules-pragma-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
 [uniform-date-parse]: https://github.com/tc39/proposal-uniform-interchange-date-parsing
@@ -145,8 +145,10 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [iterator-helpers]: https://github.com/tc39/proposal-iterator-helpers
 [iterator-helpers-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-31.md#iterator-helpers-for-stage-1
 [promise-any]: https://github.com/tc39/proposal-promise-any
-[promise-any-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-27.md#promiseany
+[promise-any-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#promiseany
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [private-declarations-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-28.md#private-declarations-for-stage-1
 [emitter]: https://github.com/pemrouz/proposal-emitter
+[emitter-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#emitter-for-stage-1
 [dynamic-code-brand-checks]: https://github.com/tc39-transfer/dynamic-code-brand-checks
+[dynamic-code-brand-checks-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#evalable-for-stage-1-or-2
