@@ -8,7 +8,6 @@ Stage 0 proposals are either
 | Proposal                                                           | Author                                | Champion                              | Last Presented                    |
 | ------------------------------------------------------------------ | ------------------------------------- | ------------------------------------- | --------------------------------- |
 | [Additional metaproperties][metaprops]                             | Allen Wirfs-Brock                     | Allen Wirfs-Brock                     |                                   |
-| Annex B — HTML Attribute Event Handlers                            | Allen Wirfs-Brock                     | Allen Wirfs-Brock                     |                                   |
 | [Defensible Classes][defensible-classes]                           | Mark Miller<br />Doug Crockford       | Mark Miller<br />Doug Crockford       |                                   |
 | [Function bind syntax][bind-syntax]                                | Kevin Smith                           | Brian Terlson<br />Matthew Podwysocki | [March 2015][bind-notes]          |
 | [Function expression decorators][func-expr-decorators]             | Igor Minar                            | Igor Minar                            |                                   |
