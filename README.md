@@ -29,6 +29,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Numeric separators][numeric_separators]                                       | Sam Goto<br />Rick Waldron                                              | Sam Goto<br />Rick Waldron                                              | [:white_check_mark:][tests-numeric_separators] | <sub>[June&nbsp;2019][numeric_separators-notes]</sub>   |
 | [Top-level `await`][await]                                                     | Myles Borins                                                            | Myles Borins                                                            | :question:                                     | <sub>[June&nbsp;2019][await-notes]</sub>                |
 | [WeakRefs][weakrefs]                                                           | Dean Tribble                                                            | Dean Tribble<br />Mark Miller<br />Till Schneidereit                    | [:white_check_mark:][tests-weakrefs]           | <sub>[June&nbsp;2019][weakrefs-notes]</sub>             |
+| [Nullish coalescing Operator][nullish-coalescing]                              | Gabriel Isenberg                                                        | Gabriel Isenberg<br />Justin Ridgewell<br />Daniel Rosenwasser          | <sub>July 2019</sub>                                                                                     |
 
 
 ### Stage 2
@@ -51,7 +52,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`for-in` mechanics][for-in-mechanics]                                         | Kevin Gibbons                                        | Kevin Gibbons                                        | <sub>[June&nbsp;2019][for-in-mechanics-notes]</sub>                 |
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel                                          | Mike Samuel                                          | <sub>[June&nbsp;2019][isTemplateObject-notes]</sub>                 |
 | [Optional Chaining][chaining]                    | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser | <sub>[June&nbsp;2019][chaining-notes]</sub>                         |
-| [Nullish coalescing Operator][nullish-coalescing]                              | Gabriel Isenberg                          | Gabriel Isenberg<br />Justin Ridgewell<br />Daniel Rosenwasser  | <sub>[June&nbsp;2019][nullish-coalescing-notes]</sub>               |
 
 :white_check_mark: means a pull request for tests was merged.
 
