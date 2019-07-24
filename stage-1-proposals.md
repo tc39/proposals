@@ -54,6 +54,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Private declarations][private-declarations]                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[March&nbsp;2019][private-declarations-notes]</sub>          |
 | [Emitter][emitter]                                                                           | Shu-yu Guo<br />Pedram Emrouznejad                    | Shu-yu Guo<br />Pedram Emrouznejad                     | <sub>[June&nbsp;2019][emitter-notes]</sub>                        |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[June&nbsp;2019][dynamic-code-brand-checks-notes]</sub>      |
+| [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>July 2019</sub>                                              |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -152,3 +153,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [emitter-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#emitter-for-stage-1
 [dynamic-code-brand-checks]: https://github.com/tc39-transfer/dynamic-code-brand-checks
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#evalable-for-stage-1-or-2
+[reverse-iteration]: https://github.com/tc39/proposal-reverseIterator
