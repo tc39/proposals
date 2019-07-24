@@ -50,7 +50,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Freezing prototypes][freeze-proto]                                                          | Kevin Gibbons                                         | Kevin Gibbons                                          | <sub>[January&nbsp;2019][freeze-proto-notes]</sub>                |
 | [`new.initialize`][new.initialize]                                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[January&nbsp;2019][new.initialize-notes]</sub>              |
 | [Iterator helpers][iterator-helpers]                                                         | Gus Caplan                                            | Domenic Denicola                                       | <sub>[January&nbsp;2019][iterator-helpers-notes]</sub>            |
-| [`Promise.any`][promise-any]                                                                 | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov | Mathias Bynens                                         | <sub>[June&nbsp;2019][promise-any-notes]</sub>                    |
 | [Private declarations][private-declarations]                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[March&nbsp;2019][private-declarations-notes]</sub>          |
 | [Emitter][emitter]                                                                           | Shu-yu Guo<br />Pedram Emrouznejad                    | Shu-yu Guo<br />Pedram Emrouznejad                     | <sub>[June&nbsp;2019][emitter-notes]</sub>                        |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[June&nbsp;2019][dynamic-code-brand-checks-notes]</sub>      |
@@ -145,8 +144,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [new.initialize-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-31.md#newinitialize-for-stage-1
 [iterator-helpers]: https://github.com/tc39/proposal-iterator-helpers
 [iterator-helpers-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-31.md#iterator-helpers-for-stage-1
-[promise-any]: https://github.com/tc39/proposal-promise-any
-[promise-any-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#promiseany
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [private-declarations-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-28.md#private-declarations-for-stage-1
 [emitter]: https://github.com/pemrouz/proposal-emitter

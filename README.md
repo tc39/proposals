@@ -51,6 +51,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`for-in` mechanics][for-in-mechanics]                                         | Kevin Gibbons                                         | Kevin Gibbons                                                                     | <sub>[June&nbsp;2019][for-in-mechanics-notes]</sub>                 |
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel                                           | Mike Samuel                                                                       | <sub>[June&nbsp;2019][isTemplateObject-notes]</sub>                 |
 | [Optional Chaining][chaining]                                                  | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser | <sub>[June&nbsp;2019][chaining-notes]</sub>                         |
+| [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov | Mathias Bynens                                                                    | <sub>July 2019</sub>                                                |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -165,7 +166,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [new.initialize-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-31.md#newinitialize-for-stage-1
 [iterator-helpers]: https://github.com/tc39/proposal-iterator-helpers
 [iterator-helpers-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-31.md#iterator-helpers-for-stage-1
-[promise-any]: https://github.com/tc39/proposal-promise-any
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [for-in-mechanics]: https://github.com/bakkot/for-in-exploration
 [for-in-mechanics-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-09/sept-25.md#for-in-mechanics
@@ -175,3 +175,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [chaining-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#optional-chaining-for-stage-2
 [nullish-coalescing]: https://github.com/tc39/proposal-nullish-coalescing
 [nullish-coalescing-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#nullish-coalescing-for-stage-2
+[promise-any]: https://github.com/tc39/proposal-promise-any
+[promise-any-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#promiseany
