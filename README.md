@@ -25,7 +25,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Class Public Instance Fields & Private Instance Fields][class-fields]         | Daniel Ehrenberg<br />Kevin Gibbons                                     | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:question:][tests-class-fields]               | <sub>[January&nbsp;2019][class-fields-notes]</sub>      |
 | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg                                        | :question:                                     | <sub>[January&nbsp;2019][class-fields-notes]</sub>      |
 | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:white_check_mark:][tests-hashbang-grammar]   | <sub>[November&nbsp;2018][hashbang-notes]</sub>         |
-| [`Promise.allSettled`][allsettled]                                             | Jason Williams<br />Robert Pamely<br />Mathias Bynens                   | Mathias Bynens                                                          | [:white_check_mark:][tests-allsettled]         | <sub>[March&nbsp;2019][allsettled-notes]</sub>          |
 | [Numeric separators][numeric_separators]                                       | Sam Goto<br />Rick Waldron                                              | Sam Goto<br />Rick Waldron                                              | [:white_check_mark:][tests-numeric_separators] | <sub>[June&nbsp;2019][numeric_separators-notes]</sub>   |
 | [Top-level `await`][await]                                                     | Myles Borins                                                            | Myles Borins                                                            | :question:                                     | <sub>[June&nbsp;2019][await-notes]</sub>                |
 | [WeakRefs][weakrefs]                                                           | Dean Tribble                                                            | Dean Tribble<br />Mark Miller<br />Till Schneidereit                    | [:white_check_mark:][tests-weakrefs]           | <sub>[June&nbsp;2019][weakrefs-notes]</sub>             |
@@ -114,7 +113,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-private-methods]: https://github.com/tc39/test262/issues/1343
 [tests-numeric_separators]: https://github.com/tc39/test262/issues/1051
 [tests-class-fields]: https://github.com/tc39/test262/issues/1161
-[tests-allsettled]: https://github.com/tc39/test262/pull/2124
 [censorship]: https://github.com/domenic/proposal-function-implementation-hiding
 [censorship-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-24.md#functionprototypetostring-censorship-for-stage-2-continued-discussion
 [await]: https://github.com/tc39/proposal-top-level-await
@@ -160,8 +158,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [uniform-date-parse-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
 [json-parse-source-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-09/sept-27.md#jsonparse-source-text-access
-[allsettled]: https://github.com/tc39/proposal-promise-allSettled
-[allsettled-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-26.md#promiseallsettled-for-stage-3
 [collection-rekey]: https://github.com/tc39-transfer/proposal-collection-normalization
 [freeze-proto]: https://github.com/tc39/proposal-freeze-prototype
 [freeze-proto-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-31.md#freezing-prototypes-for-stage-1
