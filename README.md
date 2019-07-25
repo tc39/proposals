@@ -52,6 +52,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel                                           | Mike Samuel                                                                       | <sub>[June&nbsp;2019][isTemplateObject-notes]</sub>                 |
 | [Optional Chaining][chaining]                                                  | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser | <sub>[June&nbsp;2019][chaining-notes]</sub>                         |
 | [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov | Mathias Bynens                                                                    | <sub>July 2019</sub>                                                |
+| [Iterator helpers][iterator-helpers]                                           | Gus Caplan                                            | Domenic Denicola                                                                  | <sub>July 2019</sub>                                                |
 
 :white_check_mark: means a pull request for tests was merged.
 
