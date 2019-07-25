@@ -26,7 +26,6 @@ Stage 0 proposals are either
 | [`deprecated`][deprecated]                                         | James M Snell                         | James M Snell                         |                                   |
 | [`as` destructuring patterns][as-patterns]                         | Kat Marchán                           | Kat Marchán                           |                                   |
 | [`Symbol.thenable`][symbol-thenable]                               | Gus Caplan                            | Jordan Harband<br />Myles Borins      | [May 2018][symbol-thenable-notes] |
-| [Dynamic Import Host Adjustment][]                                 | Mike Samuel                           | Mike Samuel                           |                                   |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -60,4 +59,3 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [decimal-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2017-11/nov-29.md#9ivb-decimal-for-stage-0
 [symbol-thenable]: https://github.com/devsnek/proposal-symbol-thenable
 [symbol-thenable-notes]: https://github.com/rwaldron/tc39-notes/blob/def2ee0c04bc91612576237314a4f3b1fe2edaef/meetings/2018-05/may-24.md#symbolthenable-for-stage-1-or-2
-[Dynamic Import Host Adjustment]: https://github.com/mikesamuel/dynamic-import-host-adjustment/blob/master/README.md
