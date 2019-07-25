@@ -54,6 +54,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[June&nbsp;2019][dynamic-code-brand-checks-notes]</sub>      |
 | [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>July 2019</sub>                                              |
 | [Dynamic Import Host Adjustment][]                                                           | Mike Samuel                                           | Mike Samuel                                            | <sub>July 2019</sub>                                              |
+| [`Map.prototype.updateOrInsert`][map-upsert]                                                 | Bradley Farias                                        | Bradley Farias                                         | <sub>July 2019</sub>
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -150,3 +151,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#evalable-for-stage-1-or-2
 [reverse-iteration]: https://github.com/tc39/proposal-reverseIterator
 [Dynamic Import Host Adjustment]: https://github.com/mikesamuel/dynamic-import-host-adjustment/blob/master/README.md
+[map-upsert]: https://docs.google.com/presentation/d/1_xtrGSoN1-l2Q74eCXPHBbbrBHsVyqArWN0ebnW-pVQ/edit#slide=id.p
