@@ -53,6 +53,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel                                           | Mike Samuel                                                                       | <sub>[June&nbsp;2019][isTemplateObject-notes]</sub>                 |
 | [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov | Mathias Bynens                                                                    | <sub>July 2019</sub>                                                |
 | [Iterator helpers][iterator-helpers]                                           | Gus Caplan                                            | Domenic Denicola                                                                  | <sub>July 2019</sub>                                                |
+| [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>July 2019</sub>                                                |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -178,3 +179,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [nullish-coalescing-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#nullish-coalescing-for-stage-2
 [promise-any]: https://github.com/tc39/proposal-promise-any
 [promise-any-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#promiseany
+[resource-management]: https://github.com/tc39/proposal-using-statement
+[resource-management-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-24.md#explicit-resource-management
