@@ -8,7 +8,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
 | [`export v from "mod";` statements][export-from]                                             | Lee Byron                                             | Ben Newman<br />John-David Dalton                      | <sub>[July&nbsp;2017][export-from-notes]</sub>                    |
 | [Observable][observable]                                                                     | Jafar Husain                                          | Jafar Husain<br />Mark Miller                          | <sub>[May&nbsp;2017][observable-notes]</sub>                      |
-| [Frozen Realms][frozen-realms]                                                               | Mark Miller<br />Chip Morningstar<br />Caridy Patiño  | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   | <sub>[March&nbsp;2018][frozen-realms-notes]</sub>                 |
+| [SES (Secure EcmaScript)][secure-ecmascript]                                                 | Mark Miller<br />Chip Morningstar<br />Caridy Patiño  | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   | <sub>July&nbsp;2019</sub>                                         |
 | [`Math` Extensions][more-math]                                                               | Rick Waldron                                          | Rick Waldron                                           | <sub>[July&nbsp;2016][more-math-notes]</sub>                      |
 | [`of` and `from` on collection constructors][collection-of-from]                             | Leo Balter                                            | Leo Balter                                             | <sub>[September&nbsp;2016][collection-of-from-notes]</sub>        |
 | Generator arrow functions (`=>*`)                                                            |                                                       | Brendan Eich<br />Domenic Denicola                     | <sub>[September&nbsp;2016][generator-arrow-functions-notes]</sub> |
@@ -62,8 +62,8 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [export-from-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-07/jul-27.md#export-default-from
 [observable]: https://github.com/tc39/proposal-observable
 [observable-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2
-[frozen-realms]: https://github.com/tc39/proposal-frozen-realms
-[frozen-realms-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-20.md#10ia-update-on-frozen-realms-in-light-of-meltdown-and-spectre
+[secure-ecmascript]: https://github.com/tc39/proposal-ses
+[ses-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-20.md#10ia-update-on-frozen-realms-in-light-of-meltdown-and-spectre
 [more-math]: https://github.com/rwaldron/proposal-math-extensions
 [more-math-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-07/jul-26.md#9iie-math-extensions
 [collection-of-from]: https://github.com/leobalter/proposal-setmap-offrom
