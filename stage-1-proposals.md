@@ -8,7 +8,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
 | [`export v from "mod";` statements][export-from]                                             | Lee Byron                                             | Ben Newman<br />John-David Dalton                      | <sub>[July&nbsp;2017][export-from-notes]</sub>                    |
 | [Observable][observable]                                                                     | Jafar Husain                                          | Jafar Husain<br />Mark Miller                          | <sub>[May&nbsp;2017][observable-notes]</sub>                      |
-| [SES (Secure EcmaScript)][secure-ecmascript]                                                 | Mark Miller<br />Chip Morningstar<br />Caridy Patiño  | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   | <sub>July&nbsp;2019</sub>                                         |
+| [SES (Secure EcmaScript)][secure-ecmascript]                                                 | Mark Miller<br />Chip Morningstar<br />Caridy Patiño  | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   | <sub>[July&nbsp;2019][secure-ecmascript-notes]</sub>              |
 | [`Math` Extensions][more-math]                                                               | Rick Waldron                                          | Rick Waldron                                           | <sub>[July&nbsp;2016][more-math-notes]</sub>                      |
 | [`of` and `from` on collection constructors][collection-of-from]                             | Leo Balter                                            | Leo Balter                                             | <sub>[September&nbsp;2016][collection-of-from-notes]</sub>        |
 | Generator arrow functions (`=>*`)                                                            |                                                       | Brendan Eich<br />Domenic Denicola                     | <sub>[September&nbsp;2016][generator-arrow-functions-notes]</sub> |
@@ -51,9 +51,9 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Private declarations][private-declarations]                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[March&nbsp;2019][private-declarations-notes]</sub>          |
 | [Emitter][emitter]                                                                           | Shu-yu Guo<br />Pedram Emrouznejad                    | Shu-yu Guo<br />Pedram Emrouznejad                     | <sub>[June&nbsp;2019][emitter-notes]</sub>                        |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[June&nbsp;2019][dynamic-code-brand-checks-notes]</sub>      |
-| [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>July 2019</sub>                                              |
-| [Dynamic Import Host Adjustment][]                                                           | Mike Samuel                                           | Mike Samuel                                            | <sub>July 2019</sub>                                              |
-| [`Map.prototype.updateOrInsert`][map-upsert]                                                 | Bradley Farias                                        | Bradley Farias                                         | <sub>July 2019</sub>
+| [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>[July 2019][reverse-iteration-notes]</sub>                   |
+| [Dynamic Import Host Adjustment][]                                                           | Mike Samuel                                           | Mike Samuel                                            | <sub>[July 2019][Dynamic Import Host Adjustment notes]</sub>      |
+| [`Map.prototype.updateOrInsert`][map-upsert]                                                 | Bradley Farias                                        | Bradley Farias                                         | <sub>[July 2019][map-upsert-notes]</sub>                          |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -63,6 +63,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [observable]: https://github.com/tc39/proposal-observable
 [observable-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2
 [secure-ecmascript]: https://github.com/tc39/proposal-ses
+[secure-ecmascript-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#status-of-secure-ecmascript
 [ses-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-20.md#10ia-update-on-frozen-realms-in-light-of-meltdown-and-spectre
 [more-math]: https://github.com/rwaldron/proposal-math-extensions
 [more-math-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-07/jul-26.md#9iie-math-extensions
@@ -147,5 +148,8 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [dynamic-code-brand-checks]: https://github.com/tc39-transfer/dynamic-code-brand-checks
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#evalable-for-stage-1-or-2
 [reverse-iteration]: https://github.com/tc39/proposal-reverseIterator
+[reverse-iteration-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-23.md#symbolreverse
 [Dynamic Import Host Adjustment]: https://github.com/mikesamuel/dynamic-import-host-adjustment/blob/master/README.md
+[Dynamic Import Host Adjustment notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#dynamic-import-host-adjustment-for-stage-1-or-2
 [map-upsert]: https://docs.google.com/presentation/d/1_xtrGSoN1-l2Q74eCXPHBbbrBHsVyqArWN0ebnW-pVQ/edit#slide=id.p
+[map-upsert-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#mapupdateorinsert

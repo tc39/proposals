@@ -30,7 +30,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Array.prototype.{flat,flatMap}`][flat]                                 | Brian Terlson<br />Michael Ficarra<br />Mathias Bynens | Brian Terlson<br />Michael Ficarra                      | [January 2019][flat-notes]                  | 2019                      |
 | [`String.prototype.matchAll`][matchall]                                  | Jordan Harband                                         | Jordan Harband                                          | [March 2019][matchall-notes]                | 2020                      |
 | [`import()`][dynamic-import]                                             | Domenic Denicola                                       | Domenic Denicola                                        | [June 2019][dynamic-import-notes]           | 2020                      |
-| [`Promise.allSettled`][allsettled]                                       | Jason Williams<br />Robert Pamely<br />Mathias Bynens  | Mathias Bynens                                          | July 2019                                   | 2020
+| [`Promise.allSettled`][allsettled]                                       | Jason Williams<br />Robert Pamely<br />Mathias Bynens  | Mathias Bynens                                          | [July 2019][allsettled-notes]               | 2020
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -87,4 +87,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [dynamic-import]: https://github.com/tc39/proposal-dynamic-import
 [dynamic-import-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-4.md#dynamic-import-for-stage-4
 [allsettled]: https://github.com/tc39/proposal-promise-allSettled
-[allsettled-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-26.md#promiseallsettled-for-stage-3
+[allsettled-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-24.md#promiseallsettled

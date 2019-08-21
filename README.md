@@ -27,17 +27,17 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:white_check_mark:][tests-hashbang-grammar]   | <sub>[November&nbsp;2018][hashbang-notes]</sub>         |
 | [Numeric separators][numeric_separators]                                       | Sam Goto<br />Rick Waldron                                              | Sam Goto<br />Rick Waldron                                              | [:white_check_mark:][tests-numeric_separators] | <sub>[June&nbsp;2019][numeric_separators-notes]</sub>   |
 | [Top-level `await`][await]                                                     | Myles Borins                                                            | Myles Borins                                                            | :question:                                     | <sub>[June&nbsp;2019][await-notes]</sub>                |
-| [WeakRefs][weakrefs]                                                           | Dean Tribble<br />Sathya Gunasekaran                                                            | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran                    | [:white_check_mark:][tests-weakrefs]           | <sub>[June&nbsp;2019][weakrefs-notes]</sub>             |
-| [Nullish coalescing Operator][nullish-coalescing]                              | Gabriel Isenberg                                                        | Gabriel Isenberg<br />Justin Ridgewell<br />Daniel Rosenwasser          | :question:                                     | <sub>July 2019</sub>                                    |
-| [RegExp Match array offsets][regex-offsets]                                    | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                     | <sub>July 2019</sub>                                    |
-| [Optional Chaining][chaining]                                                  | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery         | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser | :question:                                     | <sub>July 2019</sub>                                    |
+| [WeakRefs][weakrefs]                                                           | Dean Tribble<br />Sathya Gunasekaran                          | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran      | [:white_check_mark:][tests-weakrefs]           | <sub>[June&nbsp;2019][weakrefs-notes]</sub>             |
+| [Nullish coalescing Operator][nullish-coalescing]                              | Gabriel Isenberg                                                        | Gabriel Isenberg<br />Justin Ridgewell<br />Daniel Rosenwasser          | :question:                                     | <sub>[July 2019][nullish-coalescing-notes]</sub>        |
+| [RegExp Match array offsets][regex-offsets]                                    | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                     | <sub>[July 2019][regex-offsets-notes]</sub>             |
+| [Optional Chaining][chaining]                                                  | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery         | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser | :question:                                     | <sub>[July 2019][chaining-notes]</sub>                  |
 
 
 ### Stage 2
 
 | Proposal                                                                       | Author                                                | Champion                                                                          | <sub>Last Presented</sub>                                           |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| [`function.sent` metaproperty][function-sent]                                  | Allen Wirfs-Brock                                     | 贺师俊 (HE Shi-Jun)                                                               | <sub>July 2019</sub>                                                |
+| [`function.sent` metaproperty][function-sent]                                  | Allen Wirfs-Brock                                     | 贺师俊 (HE Shi-Jun)                                                               | <sub>[July 2019][function-sent-notes]</sub>                         |
 | [Decorators][decorators]                                                       | Daniel Ehrenberg                                      | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg                              | <sub>[January&nbsp;2019][decorators-notes]</sub>                    |
 | [`throw` expressions][throw-expressions]                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[January&nbsp;2018][throw-expressions-notes]</sub>             |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                           | Shu-yu Guo<br />Lars Hansen                                                       | <sub>[June&nbsp;2019][nonblocking-notes]</sub>                      |
@@ -51,9 +51,9 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`String.prototype.replaceAll`][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens  | Mathias Bynens                                                                    | <sub>[March&nbsp;2019][replace-all-notes]</sub>                     |
 | [`for-in` mechanics][for-in-mechanics]                                         | Kevin Gibbons                                         | Kevin Gibbons                                                                     | <sub>[June&nbsp;2019][for-in-mechanics-notes]</sub>                 |
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel                                           | Mike Samuel                                                                       | <sub>[June&nbsp;2019][isTemplateObject-notes]</sub>                 |
-| [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov | Mathias Bynens                                                                    | <sub>July 2019</sub>                                                |
-| [Iterator helpers][iterator-helpers]                                           | Gus Caplan                                            | Domenic Denicola                                                                  | <sub>July 2019</sub>                                                |
-| [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>July 2019</sub>                                                |
+| [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov | Mathias Bynens                                                                    | <sub>[July 2019][promise-any-notes]</sub>                           |
+| [Iterator helpers][iterator-helpers]                                           | Gus Caplan                                            | Domenic Denicola                                                                  | <sub>[July 2019][iterator-helpers-notes]</sub>                      |
+| [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[July 2019][resource-management-notes]</sub>                   |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -84,7 +84,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [class-fields]: https://github.com/tc39/proposal-class-fields
 [class-fields-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-30.md#private-fields-and-methods-refresher
 [function-sent]: https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md
-[function-sent-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2015-11/nov-17.md#functionsent
+[function-sent-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-23.md#making-functionsent-inactive
 [decorators]: http://github.com/tc39/proposal-decorators
 [decorators-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-30.md#decorators-for-stage-3
 [import-meta]: https://github.com/tc39/proposal-import-meta
@@ -144,11 +144,11 @@ Note that as part of the onboarding process your repository name may be normaliz
 [matching]: https://github.com/tc39/proposal-pattern-matching
 [matching-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-24.md#pattern-matching-for-stage-1
 [regex-offsets]: https://github.com/tc39/proposal-regexp-match-offsets
-[regex-offsets-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-25.md#regexp-match-offsets
+[regex-offsets-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-24.md#regexp-match-offsets-update
 [buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer/
 [buffer-transfer-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-24.md#arraybufferprototypetransfer
 [resource-management]: https://github.com/tc39/proposal-using-statement
-[resource-management-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-24.md#explicit-resource-management
+[resource-management-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#explicit-resource-management-for-stage-2-continuation-from-tuesday
 [dynamic-modules]: https://github.com/guybedford/proposal-dynamic-modules
 [dynamic-modules-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-25.md#dynamic-modules
 [standard-library]: https://github.com/tc39/proposal-javascript-standard-library
@@ -167,17 +167,17 @@ Note that as part of the onboarding process your repository name may be normaliz
 [new.initialize]: https://github.com/littledan/proposal-new-initialize
 [new.initialize-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-31.md#newinitialize-for-stage-1
 [iterator-helpers]: https://github.com/tc39/proposal-iterator-helpers
-[iterator-helpers-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-31.md#iterator-helpers-for-stage-1
+[iterator-helpers-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-24.md#iterator-methods-update--stage-2
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [for-in-mechanics]: https://github.com/bakkot/for-in-exploration
 [for-in-mechanics-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-09/sept-25.md#for-in-mechanics
 [isTemplateObject]: https://github.com/tc39-transfer/proposal-array-is-template-object
 [isTemplateObject-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#arrayistemplateobject-for-stage-1-or-2
 [chaining]: https://github.com/tc39/proposal-optional-chaining
-[chaining-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#optional-chaining-for-stage-2
+[chaining-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#optional-chaining-for-stage-3
 [nullish-coalescing]: https://github.com/tc39/proposal-nullish-coalescing
-[nullish-coalescing-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#nullish-coalescing-for-stage-2
+[nullish-coalescing-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-23.md#nullish-coalescing
 [promise-any]: https://github.com/tc39/proposal-promise-any
-[promise-any-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#promiseany
+[promise-any-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-24.md#promiseany
 [resource-management]: https://github.com/tc39/proposal-using-statement
 [resource-management-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-24.md#explicit-resource-management
