@@ -83,7 +83,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [bigint-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-4.md#bigint-to-stage-4
 [class-fields]: https://github.com/tc39/proposal-class-fields
 [class-fields-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-30.md#private-fields-and-methods-refresher
-[function-sent]: https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md
+[function-sent]: https://github.com/tc39/proposal-function.sent
 [function-sent-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-23.md#making-functionsent-inactive
 [decorators]: http://github.com/tc39/proposal-decorators
 [decorators-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-30.md#decorators-for-stage-3
