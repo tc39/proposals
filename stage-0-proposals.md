@@ -28,7 +28,7 @@ Stage 0 proposals are either
 | [`Symbol.thenable`][symbol-thenable]                               | Gus Caplan                            | Jordan Harband<br />Myles Borins      | [May 2018][symbol-thenable-notes] |
 | [Infix Bang][infix-bang]                           | Mark S. Miller<br >Michael Fig | Mark S. Miller<br />Michael Fig<br />Chip Morningstar        | [July 2019][infix-bang-notes]     |
 | [Const Value Types][const-value-types]                             | Robin Ricard<br />Richard Button      | Robin Ricard<br />Richard Button      |                                   |
-| [Declarations in Conditionals](declarations-in-conditionals) | Devin Rousso |  Devin Rousso | |
+| [Declarations in Conditionals][declarations-in-conditionals] | Devin Rousso |  Devin Rousso | |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
