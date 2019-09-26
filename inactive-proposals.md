@@ -22,6 +22,9 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [`Date.parse` fallback semantics][date-parse]                        | Morgan Phillips                                            | Inactive; likely replaced by [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse] |
 | [Distinguishing literal strings][distinguishing-literal-strings]     | Mike West & Adam Klein                                     | Withdrawn: [Trusted Types](https://github.com/WICG/trusted-types) no longer a dependent |
 | Annex B — HTML Attribute Event Handlers                              | Allen Wirfs-Brock                                          | Withdrawn per [PR comment](https://github.com/tc39/ecma262/issues/1595#issuecomment-509348434) |
+| [Normative ICU Reference][icu]                                       | Domenic Denicola                                           | Withdrawn; champion is no longer participating in TC39                                         |
+| [Zones][zones]                                                       | Domenic Denicola & Miško Hevery                            | Withdrawn; champion is no longer participating in TC39                                         |
+| [Blöcks][blocks]                                                     | Domenic Denicola                                           | Withdrawn; champion is no longer participating in TC39                                         |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -46,3 +49,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [collection-literals]: https://github.com/zkat/proposal-collection-literals
 [date-parse]: https://github.com/tc39-transfer/proposal-date-time-string-format
 [uniform-date-parse]: https://github.com/gibson042/ecma262-proposal-uniform-interchange-date-parsing
+[icu]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-05/may-23.md#normative-icu-reference
+[zones]: https://github.com/domenic/zones
+[blocks]: https://github.com/domenic/proposal-blocks
