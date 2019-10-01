@@ -155,5 +155,5 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [Dynamic Import Host Adjustment notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#dynamic-import-host-adjustment-for-stage-1-or-2
 [map-upsert]: https://docs.google.com/presentation/d/1_xtrGSoN1-l2Q74eCXPHBbbrBHsVyqArWN0ebnW-pVQ/edit#slide=id.p
 [map-upsert-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#mapupdateorinsert
-[object-map]: https://github.com/tc39-transfer/proposal-object-map
+[object-map]: https://github.com/tc39/proposal-object-map
 [const-value-types]: https://github.com/rricard/proposal-const-value-types
