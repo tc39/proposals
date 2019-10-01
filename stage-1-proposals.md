@@ -53,7 +53,8 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[June&nbsp;2019][dynamic-code-brand-checks-notes]</sub>      |
 | [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>[July 2019][reverse-iteration-notes]</sub>                   |
 | [Dynamic Import Host Adjustment][]                                                           | Mike Samuel                                           | Mike Samuel                                            | <sub>[July 2019][Dynamic Import Host Adjustment notes]</sub>      |
-| [`Map.prototype.updateOrInsert`][map-upsert]                                                 | Bradley Farias                                        | Erica Pramer                                         | <sub>[July 2019][map-upsert-notes]</sub>                          |
+| [`Map.prototype.updateOrInsert`][map-upsert]                                                 | Bradley Farias                                        | Erica Pramer                                          | <sub>[July 2019][map-upsert-notes]</sub>                           |
+| [Making mapping over Objects more concise][object-map]                                       | Jonathan Keslin                                       | Jonathan Keslin                                       | <sub>October 2019</sub>                                            |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -153,3 +154,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [Dynamic Import Host Adjustment notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#dynamic-import-host-adjustment-for-stage-1-or-2
 [map-upsert]: https://docs.google.com/presentation/d/1_xtrGSoN1-l2Q74eCXPHBbbrBHsVyqArWN0ebnW-pVQ/edit#slide=id.p
 [map-upsert-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#mapupdateorinsert
+[object-map]: https://github.com/tc39-transfer/proposal-object-map
