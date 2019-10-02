@@ -55,7 +55,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Dynamic Import Host Adjustment][]                                                           | Mike Samuel                                           | Mike Samuel                                            | <sub>[July 2019][Dynamic Import Host Adjustment notes]</sub>      |
 | [`Map.prototype.updateOrInsert`][map-upsert]                                                 | Bradley Farias                                        | Erica Pramer                                          | <sub>[July 2019][map-upsert-notes]</sub>                           |
 | [Making mapping over Objects more concise][object-map]                                       | Jonathan Keslin                                       | Jonathan Keslin                                       | <sub>October 2019</sub>                                            |
-| [Const Value Types][const-value-types]                                                       | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                      | <sub>October 2019</sub>                                            |
+| [Record & Tuple][record-tuple]                                                               | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                      | <sub>October 2019</sub>                                            |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -156,4 +156,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [map-upsert]: https://docs.google.com/presentation/d/1_xtrGSoN1-l2Q74eCXPHBbbrBHsVyqArWN0ebnW-pVQ/edit#slide=id.p
 [map-upsert-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#mapupdateorinsert
 [object-map]: https://github.com/tc39/proposal-object-map
-[const-value-types]: https://github.com/rricard/proposal-const-value-types
+[record-tuple]: https://github.com/tc39/proposal-record-tuple
