@@ -20,13 +20,13 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [Intl.NumberFormat Unified API Proposal][numberformat]                 | Shane Carr                       | Shane Carr                       |                                         |
 | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]           | Zibi Braniecki                   | Zibi Braniecki                   | [March&nbsp;2019][datetimeformat-notes] |
 | [`Intl.DateFormat.prototype.formatRange`][formatrange]                 | Felipe Balbontín                 | Sathya Gunasekaran               | [March&nbsp;2019][formatrange-notes]    |
+| [Intl.DisplayNames][proposal-intl-displaynames]                        | Frank Tang                       | Frank Tang                       | October&nbsp;2019                       |
 
 ### Stage 2
 
 | Proposal                                                     | Author                           | Champion                                                       |
 | ------------------------------------------------------------ | -------------------------------- | -------------------------------------------------------------- |
 | [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg       | Daniel Ehrenberg                                               |
-| [Intl.DisplayNames][proposal-intl-displaynames]              | Frank Tang     | Frank Tang      | <sub>[June&nbsp;2019][proposal-intl-displaynames-notes]</sub>  |
 
 ### Stage 1
 
