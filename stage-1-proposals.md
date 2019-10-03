@@ -57,6 +57,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Record & Tuple][record-tuple]                                                               | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                      | <sub>October 2019</sub>                                            |
 | [UUID][uuid]                                                                                 | Benjamin Coe<br />Robert Kieffer <br />Christoph Tavan | Bejamin Coe                                          | <sub>October 2019</sub>                                            |
 | [Readonly Collections][readonly-collections]                                                 | Mark Miller<br />Peter Hoddie                         | Mark Miller<br />Peter Hoddie                         | <sub>October 2019</sub>                                            |
+| [Support for Distributed Promise Pipelining][eventual-send]                                  | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig    | <sub>October 2019</sub>                                            |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -158,3 +159,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
 [uuid]: https://github.com/tc39-transfer/proposal-uuid
 [readonly-collections]: https://github.com/Agoric/proposal-readonly-collections
+[eventual-send]: https://github.com/Agoric/proposal-eventual-send
