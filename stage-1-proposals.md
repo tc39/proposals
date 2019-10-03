@@ -56,6 +56,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Making mapping over Objects more concise][object-map]                                       | Jonathan Keslin                                       | Jonathan Keslin                                       | <sub>October 2019</sub>                                            |
 | [Record & Tuple][record-tuple]                                                               | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                      | <sub>October 2019</sub>                                            |
 | [UUID][uuid]                                                                                 | Benjamin Coe<br />Robert Kieffer <br />Christoph Tavan | Bejamin Coe                                          | <sub>October 2019</sub>                                            |
+| [Readonly Collections][readonly-collections]                                                 | Mark Miller<br />Peter Hoddie                         | Mark Miller<br />Peter Hoddie                         | <sub>October 2019</sub>                                            |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -156,3 +157,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [object-map]: https://github.com/tc39/proposal-object-map
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
 [uuid]: https://github.com/tc39-transfer/proposal-uuid
+[readonly-collections]: https://github.com/Agoric/proposal-readonly-collections
