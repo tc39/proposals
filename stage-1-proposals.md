@@ -55,6 +55,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Dynamic Import Host Adjustment][]                                                           | Mike Samuel                                           | Mike Samuel                                            | <sub>[July 2019][Dynamic Import Host Adjustment notes]</sub>      |
 | [Making mapping over Objects more concise][object-map]                                       | Jonathan Keslin                                       | Jonathan Keslin                                       | <sub>October 2019</sub>                                            |
 | [Record & Tuple][record-tuple]                                                               | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                      | <sub>October 2019</sub>                                            |
+| [Declarations in Conditionals][declarations-in-conditionals]                                 | Devin Rousso                                          | Devin Rousso                                          | <sub>October 2019</sub>                                            |
 | [UUID][uuid]                                                                                 | Benjamin Coe<br />Robert Kieffer <br />Christoph Tavan | Bejamin Coe                                          | <sub>October 2019</sub>                                            |
 | [Readonly Collections][readonly-collections]                                                 | Mark Miller<br />Peter Hoddie                         | Mark Miller<br />Peter Hoddie                         | <sub>October 2019</sub>                                            |
 | [Support for Distributed Promise Pipelining][eventual-send]                                  | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig    | <sub>October 2019</sub>                                            |
@@ -157,6 +158,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [Dynamic Import Host Adjustment notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#dynamic-import-host-adjustment-for-stage-1-or-2
 [object-map]: https://github.com/tc39/proposal-object-map
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
+[declarations-in-conditionals]: https://github.com/tc39/proposal-Declarations-in-Conditionals
 [uuid]: https://github.com/tc39-transfer/proposal-uuid
 [readonly-collections]: https://github.com/Agoric/proposal-readonly-collections
 [eventual-send]: https://github.com/Agoric/proposal-eventual-send
