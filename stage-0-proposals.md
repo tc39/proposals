@@ -24,12 +24,9 @@ Stage 0 proposals are either
 | [`deprecated`][deprecated]                                         | James M Snell                         | James M Snell                         |                                   |
 | [`as` destructuring patterns][as-patterns]                         | Kat Marchán                           | Kat Marchán                           |                                   |
 | [`Symbol.thenable`][symbol-thenable]                               | Gus Caplan                            | Jordan Harband<br />Myles Borins      | [May 2018][symbol-thenable-notes] |
-| [Infix Bang][infix-bang]                           | Mark S. Miller<br >Michael Fig | Mark S. Miller<br />Michael Fig<br />Chip Morningstar        | [July 2019][infix-bang-notes]     |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
-[infix-bang]: https://github.com/Agoric/proposal-infix-bang
-[infix-bang-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#infix-bang
 [metaprops]: https://github.com/allenwb/ESideas/blob/master/ES7MetaProps.md
 [defensible-classes]: https://web.archive.org/web/20160804042547/http://wiki.ecmascript.org/doku.php?id=strawman:defensible_classes
 [bind-syntax]: https://github.com/zenparsing/es-function-bind
