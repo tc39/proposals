@@ -41,7 +41,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Decorators][decorators]                                                       | Daniel Ehrenberg                                      | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg                              | <sub>[January&nbsp;2019][decorators-notes]</sub>                    |
 | [`throw` expressions][throw-expressions]                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[January&nbsp;2018][throw-expressions-notes]</sub>             |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                           | Shu-yu Guo<br />Lars Hansen                                                       | <sub>[June&nbsp;2019][nonblocking-notes]</sub>                      |
-| [Function implementation hiding][censorship]                                   | Domenic Denicola<br />Michael Ficarra                 | Michael Ficarra                                             | <sub>[May&nbsp;2018][censorship-notes]</sub>                        |
+| [Function implementation hiding][censorship]                                   | Domenic Denicola<br />Michael Ficarra                 | Michael Ficarra                                             | <sub>[July&nbsp;2019][censorship-notes]</sub>                        |
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran                  | Sathya Gunasekaran                                                                | <sub>[January&nbsp;2019][set-methods-notes]</sub>                   |
 | [Realms][realms]                                                               | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño                                   | <sub>[May&nbsp;2018][realms-notes]</sub>                            |
 | [`ArrayBuffer.prototype.transfer`][buffer-transfer]                            | Domenic Denicola                                      | Shu-yu Guo                                                                  | <sub>[July&nbsp;2018][buffer-transfer-notes]</sub>                  |
@@ -108,7 +108,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [static-class-features]: http://github.com/tc39/proposal-static-class-features/
 [static-class-features-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-23.md#static-class-features-for-stage-3
 [censorship]: https://github.com/domenic/proposal-function-implementation-hiding
-[censorship-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-24.md#functionprototypetostring-censorship-for-stage-2-continued-discussion
+[censorship-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-24.md#update-on-function-implementation-hiding
 [await]: https://github.com/tc39/proposal-top-level-await
 [await-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-6.md#top-level-await-for-stage-3
 [tests-await]: https://github.com/tc39/test262/pull/2274
