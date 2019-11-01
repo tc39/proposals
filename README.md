@@ -30,8 +30,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [RegExp Match array offsets][regex-offsets]                                    | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                     | <sub>[July 2019][regex-offsets-notes]</sub>             |
 | [Optional Chaining][chaining]                                                  | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery         | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser | [:white_check_mark:][tests-chaining]           | <sub>[July 2019][chaining-notes]</sub>                  |
 | [`for-in` mechanics][for-in-mechanics]                                         | Kevin Gibbons                                                           | Kevin Gibbons                                                           | :question:                                     | <sub>October&nbsp;2019</sub>                            |
-| [`String.prototype.replaceAll`][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens                    | Mathias Bynens                                                                    | :question:                                     | <sub>October&nbsp;2019</sub>                            |
-| [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov                   | Mathias Bynens                                                                    | :question:                                     | <sub>October 2019</sub>                                 |
+| [`String.prototype.replaceAll`][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens                    | Mathias Bynens                                                          | :question:                                     | <sub>October&nbsp;2019</sub>                            |
+| [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov                   | Mathias Bynens                                                          | [:question:][tests-promise-any]                | <sub>October 2019</sub>                                 |
 
 ### Stage 2
 
@@ -147,6 +147,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-nullish-coalescing]: https://github.com/tc39/test262/pull/2402
 [promise-any]: https://github.com/tc39/proposal-promise-any
 [promise-any-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-24.md#promiseany
+[tests-promise-any]: https://github.com/tc39/test262/issues/2410
 [resource-management]: https://github.com/tc39/proposal-using-statement
 [resource-management-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-24.md#explicit-resource-management
 [map-upsert]: https://github.com/thumbsupep/proposal-upsert
