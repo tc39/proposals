@@ -80,7 +80,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [generator-arrow-functions-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-09/sept-27.md#11ic-generator-arrow-functions
 [try]: https://github.com/tc39/proposal-promise-try
 [try-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-11/nov-29.md#11iib-promisetry
-[signbit]: http://jfbastien.github.io/papers/Math.signbit.html
+[signbit]: https://github.com/tc39/proposal-Math.signbit
 [signbit-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-05/may-23.md#16ib-mathsignbit-proposal
 [stacks]: https://github.com/tc39/proposal-error-stacks
 [stacks-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-01/jan-25.md#15iiia-error-stacks-seeking-stage-1
