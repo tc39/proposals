@@ -29,7 +29,10 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`String.prototype.{trimStart,trimEnd}`][trims]                          | Sebastian Markbåge                                     | Sebastian Markbåge<br />Mathias Bynens                  | [January 2019][trims-notes]                 | 2019                      |
 | [`Array.prototype.{flat,flatMap}`][flat]                                 | Brian Terlson<br />Michael Ficarra<br />Mathias Bynens | Brian Terlson<br />Michael Ficarra                      | [January 2019][flat-notes]                  | 2019                      |
 | [`String.prototype.matchAll`][matchall]                                  | Jordan Harband                                         | Jordan Harband                                          | [March 2019][matchall-notes]                | 2020                      |
-| [`import()`][dynamic-import]                                             | Domenic Denicola                                       | Domenic Denicola                                        | June 2019                                   | 2020                      |
+| [`import()`][dynamic-import]                                             | Domenic Denicola                                       | Domenic Denicola                                        | [June 2019][dynamic-import-notes]           | 2020                      |
+| [`BigInt`][bigint]                                                       | Daniel Ehrenberg                                       | Daniel Ehrenberg                                        | [June 2019][bigint-notes]                   | 2020                      |
+| [`Promise.allSettled`][allsettled]                                       | Jason Williams<br />Robert Pamely<br />Mathias Bynens  | Mathias Bynens                                          | [July 2019][allsettled-notes]               | 2020
+| [`globalThis`][globalThis]                                               | Jordan Harband                                         | Jordan Harband                                          | <sub>October&nbsp;2019</sub>                | 2020
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -84,4 +87,10 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [matchall]: https://github.com/tc39/String.prototype.matchAll
 [matchall-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-26.md#stringprototypematchall-for-stage-4
 [dynamic-import]: https://github.com/tc39/proposal-dynamic-import
-[dynamic-import-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-11/dec-1.md#14ii-import-open-issues-and-stage-3-discussion
+[dynamic-import-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-4.md#dynamic-import-for-stage-4
+[allsettled]: https://github.com/tc39/proposal-promise-allSettled
+[allsettled-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-24.md#promiseallsettled
+[bigint]: https://github.com/tc39/proposal-bigint
+[bigint-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2019-06/june-4.md#bigint-to-stage-4
+[globalThis]: https://github.com/tc39/proposal-global
+[globalThis-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-11/nov-29.md#kevins-1pm-talk

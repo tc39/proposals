@@ -8,10 +8,10 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
 | [`export v from "mod";` statements][export-from]                                             | Lee Byron                                             | Ben Newman<br />John-David Dalton                      | <sub>[July&nbsp;2017][export-from-notes]</sub>                    |
 | [Observable][observable]                                                                     | Jafar Husain                                          | Jafar Husain<br />Mark Miller                          | <sub>[May&nbsp;2017][observable-notes]</sub>                      |
-| [Frozen Realms][frozen-realms]                                                               | Mark Miller<br />Chip Morningstar<br />Caridy Patiño  | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   | <sub>[March&nbsp;2018][frozen-realms-notes]</sub>                 |
+| [SES (Secure EcmaScript)][secure-ecmascript]                                                 | Mark Miller<br />Chip Morningstar<br />Caridy Patiño  | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   | <sub>[July&nbsp;2019][secure-ecmascript-notes]</sub>              |
 | [`Math` Extensions][more-math]                                                               | Rick Waldron                                          | Rick Waldron                                           | <sub>[July&nbsp;2016][more-math-notes]</sub>                      |
 | [`of` and `from` on collection constructors][collection-of-from]                             | Leo Balter                                            | Leo Balter                                             | <sub>[September&nbsp;2016][collection-of-from-notes]</sub>        |
-| Generator arrow functions (`=>*`)                                                            |                                                       | Brendan Eich<br />Domenic Denicola                     | <sub>[September&nbsp;2016][generator-arrow-functions-notes]</sub> |
+| [Generator arrow functions][generator-arrow-functions]                                       | Sergey Rubanov                                        | Brendan Eich                                           | <sub>[September&nbsp;2016][generator-arrow-functions-notes]</sub> |
 | [`Promise.try`][try]                                                                         | Jordan Harband                                        | Jordan Harband                                         | <sub>[November&nbsp;2016][try-notes]</sub>                        |
 | [`Math.signbit`: IEEE-754 sign bit][signbit]                                                 | JF Bastien                                            | JF Bastien                                             | <sub>[May&nbsp;2017][signbit-notes]</sub>                         |
 | [Error stacks][stacks]                                                                       | Jordan Harband                                        | Jordan Harband                                         | <sub>[January&nbsp;2017][stacks-notes]</sub>                      |
@@ -39,9 +39,8 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Class Static Block][static-blocks]                                                          | Ron Buckton                                           | Ron Buckton                                            | <sub>[May&nbsp;2018][static-blocks-notes]</sub>                   |
 | [class Access Expressions][class-access-expressions]                                         | Ron Buckton                                           | Ron Buckton                                            | <sub>[May&nbsp;2018][class-access-expressions-notes]</sub>        |
 | [Pattern Matching][matching]                                                                 | Kat Marchán<br />Brian Terlson                        | Kat Marchán<br />Brian Terlson<br />Sebastian Markbåge | <sub>[May&nbsp;2018][matching-notes]</sub>                        |
-| [Explicit Resource Management][resource-management]                                          | Ron Buckton                                           | Ron Buckton                                            | <sub>[July&nbsp;2018][resource-management-notes]</sub>            |
 | [Dynamic Modules][dynamic-modules]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[July&nbsp;2018][dynamic-modules-notes]</sub>                |
-| [JavaScript Standard Library][standard-library]                                              | Michael Saboff<br />Mattijs Hoitink                   | Michael Saboff<br />Mattijs Hoitink                    | <sub>[July&nbsp;2018][standard-library-notes]</sub>               |
+| [JavaScript Standard Library][standard-library]                                              | Michael Saboff<br />Mattijs Hoitink                   | Michael Saboff<br />Mattijs Hoitink                    | <sub>[June&nbsp;2019][standard-library-notes]</sub>               |
 | [`"use module"`][modules-pragma]                                                             | Dave Herman                                           | Dave Herman                                            | <sub>[July&nbsp;2017][modules-pragma-notes]</sub>                 |
 | [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]                   | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][uniform-date-parse-notes]</sub>        |
 | [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][json-parse-source-notes]</sub>         |
@@ -49,11 +48,19 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Asset References][asset-references]                                                         | Sebastian Markbage                                    | Sebastian Markbage                                     | <sub>[November&nbsp;2018][asset-references-notes]</sub>           |
 | [Freezing prototypes][freeze-proto]                                                          | Kevin Gibbons                                         | Kevin Gibbons                                          | <sub>[January&nbsp;2019][freeze-proto-notes]</sub>                |
 | [`new.initialize`][new.initialize]                                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[January&nbsp;2019][new.initialize-notes]</sub>              |
-| [Iterator helpers][iterator-helpers]                                                         | Gus Caplan                                            | Domenic Denicola                                       | <sub>[January&nbsp;2019][iterator-helpers-notes]</sub>            |
-| [`Promise.any`][promise-any]                                                                 | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov | Mathias Bynens                                         | <sub>[March&nbsp;2019][promise-any-notes]</sub>                   |
 | [Private declarations][private-declarations]                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[March&nbsp;2019][private-declarations-notes]</sub>          |
-| [Emitter][emitter]                                                                           | Shu-yu Guo<br />Pedram Emrouznejad                    | Shu-yu Guo<br />Pedram Emrouznejad                     | <sub>June&nbsp;2019</sub>                                         |
-| [dynamic-code-brand-checks][]                                                                | Mike Samuel                                           | Mike Samuel                                            | <sub>June&nbsp;2019</sub>                                         |
+| [Emitter][emitter]                                                                           | Shu-yu Guo<br />Pedram Emrouznejad                    | Shu-yu Guo<br />Pedram Emrouznejad                     | <sub>[June&nbsp;2019][emitter-notes]</sub>                        |
+| [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[June&nbsp;2019][dynamic-code-brand-checks-notes]</sub>      |
+| [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>[July 2019][reverse-iteration-notes]</sub>                   |
+| [Dynamic Import Host Adjustment][]                                                           | Mike Samuel                                           | Mike Samuel                                            | <sub>[July 2019][Dynamic Import Host Adjustment notes]</sub>      |
+| [Making mapping over Objects more concise][object-map]                                       | Jonathan Keslin                                       | Jonathan Keslin                                       | <sub>October 2019</sub>                                            |
+| [Record & Tuple][record-tuple]                                                               | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                      | <sub>October 2019</sub>                                            |
+| [Declarations in Conditionals][declarations-in-conditionals]                                 | Devin Rousso                                          | Devin Rousso                                          | <sub>October 2019</sub>                                            |
+| [UUID][uuid]                                                                                 | Benjamin Coe<br />Robert Kieffer <br />Christoph Tavan | Bejamin Coe                                          | <sub>October 2019</sub>                                            |
+| [Readonly Collections][readonly-collections]                                                 | Mark Miller<br />Peter Hoddie                         | Mark Miller<br />Peter Hoddie                         | <sub>October 2019</sub>                                            |
+| [Support for Distributed Promise Pipelining][eventual-send]                                  | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig    | <sub>October 2019</sub>                                            |
+| [Wavy Dot: Syntactic Support for Promise Pipelining][wavy-dot]                               | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig    | <sub>October 2019</sub>                                            |
+| [OOM Fails Fast][oom]                                                                        | Mark Miller                                           | Mark Miller                                           | <sub>October 2019</sub>                                            |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -62,12 +69,14 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [export-from-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-07/jul-27.md#export-default-from
 [observable]: https://github.com/tc39/proposal-observable
 [observable-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2
-[frozen-realms]: https://github.com/tc39/proposal-frozen-realms
-[frozen-realms-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-20.md#10ia-update-on-frozen-realms-in-light-of-meltdown-and-spectre
+[secure-ecmascript]: https://github.com/tc39/proposal-ses
+[secure-ecmascript-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#status-of-secure-ecmascript
+[ses-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-20.md#10ia-update-on-frozen-realms-in-light-of-meltdown-and-spectre
 [more-math]: https://github.com/rwaldron/proposal-math-extensions
 [more-math-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-07/jul-26.md#9iie-math-extensions
 [collection-of-from]: https://github.com/leobalter/proposal-setmap-offrom
 [collection-of-from-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-09/sept-29.md#11iic-set-map-weakset-and-weakmap-of-and-from-methods
+[generator-arrow-functions]: https://github.com/tc39/proposal-generator-arrow-functions
 [generator-arrow-functions-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-09/sept-27.md#11ic-generator-arrow-functions
 [try]: https://github.com/tc39/proposal-promise-try
 [try-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-11/nov-29.md#11iib-promisetry
@@ -83,7 +92,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [binary-ast]: https://github.com/tc39/proposal-binary-ast
 [binary-ast-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-24.md#binary-ast
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
-[pipeline-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-22.md#pipeline-operator
+[pipeline-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-22.md#10ive-pipeline-operator
 [extensible-literals]: https://github.com/tc39/proposal-extended-numeric-literals
 [extensible-literals-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-30.md#extended-numeric-literals-status-update-and-consider-restoring-numeric-separators-to-stage-3
 [protocols]: https://github.com/michaelficarra/proposal-first-class-protocols
@@ -122,12 +131,10 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [class-access-expressions-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-23.md#class-access-expressions
 [matching]: https://github.com/tc39/proposal-pattern-matching
 [matching-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-24.md#pattern-matching-for-stage-1
-[resource-management]: https://github.com/tc39/proposal-using-statement
-[resource-management-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-24.md#explicit-resource-management
 [dynamic-modules]: https://github.com/guybedford/proposal-dynamic-modules
 [dynamic-modules-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-25.md#dynamic-modules
 [standard-library]: https://github.com/tc39/proposal-javascript-standard-library
-[standard-library-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-26.md#javascript-standard-library
+[standard-library-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#javascript-standard-library-for-stage-2--part-2-
 [modules-pragma]: https://github.com/tc39/proposal-modules-pragma
 [modules-pragma-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
 [uniform-date-parse]: https://github.com/tc39/proposal-uniform-interchange-date-parsing
@@ -142,11 +149,21 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [freeze-proto-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-31.md#freezing-prototypes-for-stage-1
 [new.initialize]: https://github.com/littledan/proposal-new-initialize
 [new.initialize-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-31.md#newinitialize-for-stage-1
-[iterator-helpers]: https://github.com/tc39/proposal-iterator-helpers
-[iterator-helpers-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-31.md#iterator-helpers-for-stage-1
-[promise-any]: https://github.com/tc39/proposal-promise-any
-[promise-any-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-27.md#promiseany
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [private-declarations-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-28.md#private-declarations-for-stage-1
 [emitter]: https://github.com/pemrouz/proposal-emitter
+[emitter-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#emitter-for-stage-1
 [dynamic-code-brand-checks]: https://github.com/tc39-transfer/dynamic-code-brand-checks
+[dynamic-code-brand-checks-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#evalable-for-stage-1-or-2
+[reverse-iteration]: https://github.com/tc39/proposal-reverseIterator
+[reverse-iteration-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-23.md#symbolreverse
+[Dynamic Import Host Adjustment]: https://github.com/mikesamuel/dynamic-import-host-adjustment/blob/master/README.md
+[Dynamic Import Host Adjustment notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#dynamic-import-host-adjustment-for-stage-1-or-2
+[object-map]: https://github.com/tc39/proposal-object-map
+[record-tuple]: https://github.com/tc39/proposal-record-tuple
+[declarations-in-conditionals]: https://github.com/tc39/proposal-Declarations-in-Conditionals
+[uuid]: https://github.com/tc39-transfer/proposal-uuid
+[readonly-collections]: https://github.com/Agoric/proposal-readonly-collections
+[eventual-send]: https://github.com/Agoric/proposal-eventual-send
+[wavy-dot]: https://github.com/Agoric/proposal-wavy-dot
+[oom]: https://github.com/Agoric/proposal-oom-fails-fast
