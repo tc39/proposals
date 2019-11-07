@@ -1,57 +1,31 @@
-const readMarkdown = require("../readMarkdown");
-const config = require("./../../../config.json");
-const parseToAST = require("./../parseToAst");
-
+const readMarkdown = require('../readMarkdown');
+const config = require('./../../../config.json');
+const parseToAST = require('./../parseToAst');
+const checkHasTokenizationRererences = require('../__tests__/parserTokenTester');
 const sourceCode = readMarkdown(config.stage3);
 
-function checkHasTokenizationRererences(node) {
-  if(node.length){
-    for(n of node){
-      tokenState = checkPosition(n);
-      n.children && checkHasTokenizationRererences(n.children);
-    }
-    return tokenState;
-  }
-  node.children && checkHasTokenizationRererences(node.children);
-  return tokenState;
-}
-
-function checkPosition(node) {
-  return (
-    !!node.position &&
-    !!node.position.start &&
-    !!node.position.start.line &&
-    !!node.position.start.column &&
-    !!node.position.start.offset >= 0 &&
-    !!node.position.end &&
-    !!node.position.end.line &&
-    !!node.position.end.column &&
-    !!node.position.end.offset >= 0
-  );
-}
-
-describe("testing path resolver and reader", () => {
-  test("is defined", () => {
+describe('testing path resolver and reader', () => {
+  test('is defined', () => {
     expect(sourceCode).toBeDefined();
   });
 
-  test("is resolved and read as a string", () => {
-    expect(typeof sourceCode).toBe("string");
+  test('is resolved and read as a string', () => {
+    expect(typeof sourceCode).toBe('string');
   });
 });
 
-describe("testing parser and crated AST", () => {
+describe('testing parser and crated AST', () => {
   const parsedFile = parseToAST(sourceCode);
 
-  test("is defined", () => {
+  test('is defined', () => {
     expect(parsedFile).toBeDefined();
   });
 
-  test("parsed file is an object", () => {
-    expect(typeof parsedFile).toBe("object");
+  test('parsed file is an object', () => {
+    expect(typeof parsedFile).toBe('object');
   });
 
-  test("root node has tokenization references", () => {
+  test('root node has tokenization references', () => {
     expect(
       parsedFile.position &&
         parsedFile.position.start &&
@@ -65,18 +39,17 @@ describe("testing parser and crated AST", () => {
     ).toBeDefined();
   });
 
-  test("child nodes of the tree are created ", () => {
+  test('child nodes of the tree are created ', () => {
     expect(parsedFile.children).toBeDefined();
     expect(parsedFile.children.length).toBeDefined();
   });
 });
 
-describe("testing AST children nodes", () => {
+describe('testing AST children nodes', () => {
   const parsedFile = parseToAST(sourceCode);
 
-  test("all nodes have tokenization references", () => {
+  test('all nodes have tokenization references', () => {
     const { children } = parsedFile;
-    debugger;
     expect(checkHasTokenizationRererences(children)).not.toBe(false);
   });
 });

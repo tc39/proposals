@@ -4,13 +4,25 @@
  */
 function collectLinkDefinitions(AST) {
   const definitions = {};
-  AST.children.forEach((node) => {
-    if (node.type === 'definition') {
-      const { label } = node;
-      definitions[label] = node.url;
-    }
+  AST.children.forEach(node => {
+    node.type === 'definition' && addLinkIntoDefintions(definitions, node);
   });
   return definitions;
 }
 
-module.exports = collectLinkDefinitions;
+/**
+ *
+ * @param {Object} definitions
+ * @param {Object} node
+ * @returns {Object}
+ */
+function addLinkIntoDefintions(definitions, node) {
+  const { label, url } = node;
+  definitions[label] = url;
+  return {
+    label,
+    url
+  };
+}
+
+module.exports = { collectLinkDefinitions, addLinkIntoDefintions };
