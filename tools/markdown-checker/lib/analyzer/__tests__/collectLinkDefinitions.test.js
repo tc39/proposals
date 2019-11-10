@@ -39,7 +39,5 @@ describe('testing collectLinkDefiniton function', () => {
     expect(allLinkDefinitions['private-methods']).toBe(
       'https://github.com/tc39/proposal-private-methods'
     );
-
-    debugger;
   });
 });
