@@ -5,15 +5,29 @@
  */
 
 const detectTables = require('./detectTables');
-const detectHeader = require('./detectHeaders');
-
+const detectHeaders = require('./detectHeaders');
+const checkNodeHasChildren = require('./../transformer/nodeChildrenChecker');
 /**
  *
  * @param {Object} node - current node of the parsed AST
  * @param {Object} linkDefinitions - represents all of the link shortcuts
  */
 
-module.exports = function generateTable(node, linkDefinitions) {
-  const table = node.children && detectTables(node);
-  const rows = table && table.children && detectHeader(table);
-};
+function generateTable(node, linkDefinitions) {
+  const tables = extractAllTablesFromTree(node);
+  const rows = tables && detectHeaders(table);
+}
+
+/**
+ *
+ * @param {Object} node
+ * @returns {Array}
+ */
+function extractAllTablesFromTree(node) {
+  if (checkNodeHasChildren(node)) {
+    return detectTables(node);
+  }
+  return [];
+}
+
+module.exports = { generateTable, extractAllTablesFromTree };

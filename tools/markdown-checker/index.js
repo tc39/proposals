@@ -3,7 +3,7 @@ const parseToAST = require('./lib/parser/parseToAst');
 const {
   collectLinkDefinitions
 } = require('./lib/analyzer/collectLinkDefinitions');
-const tableAnalyzer = require('./lib/analyzer/analyzeTable');
+const { generateTable } = require('./lib/analyzer/analyzeTable');
 const config = require('./config.json');
 
 function processStage3({ stage3 } = config) {
@@ -13,7 +13,7 @@ function processStage3({ stage3 } = config) {
 
   // transform stage
   const collectedLinkDefinitions = collectLinkDefinitions(parsedFile);
-  const tableStage1 = tableAnalyzer(parsedFile, collectedLinkDefinitions);
+  const tableStage1 = generateTable(parsedFile, collectedLinkDefinitions);
 
   // generate stage
 }

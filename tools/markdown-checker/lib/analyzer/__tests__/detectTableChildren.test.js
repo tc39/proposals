@@ -1,13 +1,11 @@
-const detectTables = require('./../detectTables');
-const parsedMarkdownTree = require('./../../../mocks/parsedMarkdownTree');
+const detectTables = require('../detectTables');
+const detectHeaders = require('../detectHeaders');
+const parsedMarkdownTree = require('../../../mocks/parsedMarkdownTree');
+
+const markdownTables = detectTables(parsedMarkdownTree);
+const [child] = markdownTables;
 
 describe('testing detectTables function', () => {
-  let markdownTables;
-  let child;
-  beforeAll(() => {
-    markdownTables = detectTables(parsedMarkdownTree);
-    [child] = markdownTables;
-  });
   test('is defined', () => {
     expect(detectTables).toBeDefined();
   });
@@ -28,3 +26,16 @@ describe('testing detectTables function', () => {
     expect(cellChild.type).toBe('tableCell');
   });
 });
+
+describe('testing detectHeaders function', () => {
+  let rowChild;
+  beforeAll(() => {
+    [rowChild] = child.children;
+  });
+  test('is defined', ()=>{
+    expect(detectHeaders).toBeDefined();
+  })
+  test('is defined', ()=>{
+    rowChild;
+  })
+})
