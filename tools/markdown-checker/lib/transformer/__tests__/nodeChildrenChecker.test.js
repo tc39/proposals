@@ -14,7 +14,7 @@ describe('testing nodeChildrenChecker function', () => {
     test('has children', () => {
         expect(nodeChildrenChecker(tree)).toBe(true);
     });
-    test('has not any children', () => {
+    test('has no children', () => {
         expect(nodeChildrenChecker(emptyTree)).toBe(false);
     });
 })
