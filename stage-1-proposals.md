@@ -53,117 +53,125 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[June&nbsp;2019][dynamic-code-brand-checks-notes]</sub>      |
 | [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>[July 2019][reverse-iteration-notes]</sub>                   |
 | [Dynamic Import Host Adjustment][]                                                           | Mike Samuel                                           | Mike Samuel                                            | <sub>[July 2019][Dynamic Import Host Adjustment notes]</sub>      |
-| [Making mapping over Objects more concise][object-map]                                       | Jonathan Keslin                                       | Jonathan Keslin                                       | <sub>October 2019</sub>                                            |
-| [Record & Tuple][record-tuple]                                                               | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                      | <sub>October 2019</sub>                                            |
-| [Declarations in Conditionals][declarations-in-conditionals]                                 | Devin Rousso                                          | Devin Rousso                                          | <sub>October 2019</sub>                                            |
-| [UUID][uuid]                                                                                 | Benjamin Coe<br />Robert Kieffer <br />Christoph Tavan | Bejamin Coe                                          | <sub>October 2019</sub>                                            |
-| [Readonly Collections][readonly-collections]                                                 | Mark Miller<br />Peter Hoddie                         | Mark Miller<br />Peter Hoddie                         | <sub>October 2019</sub>                                            |
-| [Support for Distributed Promise Pipelining][eventual-send]                                  | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig    | <sub>October 2019</sub>                                            |
-| [Wavy Dot: Syntactic Support for Promise Pipelining][wavy-dot]                               | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig    | <sub>October 2019</sub>                                            |
-| [OOM Fails Fast][oom]                                                                        | Mark Miller                                           | Mark Miller                                           | <sub>October 2019</sub>                                            |
+| [Making mapping over Objects more concise][object-map]                                       | Jonathan Keslin                                       | Jonathan Keslin                                        | <sub>[October 2019][object-map-notes]</sub>                       |
+| [Record & Tuple][record-tuple]                                                               | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                       | <sub>[October 2019][record-tuple-notes]</sub>                     |
+| [Declarations in Conditionals][declarations-in-conditionals]                                 | Devin Rousso                                          | Devin Rousso                                           | <sub>[October 2019][declarations-in-conditionals-notes]</sub>     |
+| [UUID][uuid]                                                                                | Benjamin Coe<br />Robert Kieffer <br />Christoph Tavan | Benjamin Coe                                           | <sub>[October 2019][uuid-notes]</sub>                             |
+| [Readonly Collections][readonly-collections]                                                 | Mark Miller<br />Peter Hoddie                         | Mark Miller<br />Peter Hoddie                          | <sub>[October 2019][readonly-collections-notes]</sub>             |
+| [Support for Distributed Promise Pipelining][eventual-send]                                  | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>[October 2019][eventual-send-notes]</sub>                    |
+| [Wavy Dot: Syntactic Support for Promise Pipelining][wavy-dot]                               | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>[October 2019][wavy-dot-notes]</sub>                         |
+| [OOM Fails Fast][oom]                                                                        | Mark Miller                                           | Mark Miller                                            | <sub>[October 2019][oom-notes]</sub>                              |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
 
 [export-from]: https://github.com/tc39/proposal-export-default-from
-[export-from-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-07/jul-27.md#export-default-from
+[export-from-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-07/jul-27.md#export-default-from
 [observable]: https://github.com/tc39/proposal-observable
-[observable-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2
+[observable-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2
 [secure-ecmascript]: https://github.com/tc39/proposal-ses
-[secure-ecmascript-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#status-of-secure-ecmascript
-[ses-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-20.md#10ia-update-on-frozen-realms-in-light-of-meltdown-and-spectre
+[secure-ecmascript-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-25.md#status-of-secure-ecmascript
+[ses-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-03/mar-20.md#10ia-update-on-frozen-realms-in-light-of-meltdown-and-spectre
 [more-math]: https://github.com/rwaldron/proposal-math-extensions
-[more-math-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-07/jul-26.md#9iie-math-extensions
+[more-math-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-07/jul-26.md#9iie-math-extensions
 [collection-of-from]: https://github.com/leobalter/proposal-setmap-offrom
-[collection-of-from-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-09/sept-29.md#11iic-set-map-weakset-and-weakmap-of-and-from-methods
+[collection-of-from-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-09/sept-29.md#11iic-set-map-weakset-and-weakmap-of-and-from-methods
 [generator-arrow-functions]: https://github.com/tc39/proposal-generator-arrow-functions
-[generator-arrow-functions-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-09/sept-27.md#11ic-generator-arrow-functions
+[generator-arrow-functions-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-09/sept-27.md#11ic-generator-arrow-functions
 [try]: https://github.com/tc39/proposal-promise-try
-[try-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2016-11/nov-29.md#11iib-promisetry
+[try-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-11/nov-29.md#11iib-promisetry
 [signbit]: https://github.com/tc39/proposal-Math.signbit
-[signbit-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-05/may-23.md#16ib-mathsignbit-proposal
+[signbit-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-05/may-23.md#16ib-mathsignbit-proposal
 [stacks]: https://github.com/tc39/proposal-error-stacks
-[stacks-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-01/jan-25.md#15iiia-error-stacks-seeking-stage-1
+[stacks-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-01/jan-25.md#15iiia-error-stacks-seeking-stage-1
 [do]: https://github.com/tc39/proposal-do-expressions
-[do-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-24.md#update-on-do-expressions
+[do-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-24.md#update-on-do-expressions
 [float16s]: https://docs.google.com/presentation/d/1Ta_IbravBUOvu7LUhlN49SvLU-8G8bIQnsS08P3Z4vY/edit?usp=sharing
-[float16s-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-05/may-23.md#16ig-float16-on-typedarrays-dataview-mathhfround-for-stage-1
-[parseInt-to-parseFloat]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-07/jul-26.md#13iib-consider-changing-numberparseint-and-numberparsefloat
+[float16s-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-05/may-23.md#16ig-float16-on-typedarrays-dataview-mathhfround-for-stage-1
+[parseInt-to-parseFloat]: https://github.com/tc39/notes/blob/master/meetings/2017-07/jul-26.md#13iib-consider-changing-numberparseint-and-numberparsefloat
 [binary-ast]: https://github.com/tc39/proposal-binary-ast
-[binary-ast-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-24.md#binary-ast
+[binary-ast-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-24.md#binary-ast
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
-[pipeline-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-22.md#10ive-pipeline-operator
+[pipeline-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-03/mar-22.md#10ive-pipeline-operator
 [extensible-literals]: https://github.com/tc39/proposal-extended-numeric-literals
-[extensible-literals-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-30.md#extended-numeric-literals-status-update-and-consider-restoring-numeric-separators-to-stage-3
+[extensible-literals-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-30.md#extended-numeric-literals-status-update-and-consider-restoring-numeric-separators-to-stage-3
 [protocols]: https://github.com/michaelficarra/proposal-first-class-protocols
-[protocols-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-25.md#updates-on-first-class-protocols
+[protocols-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-25.md#updates-on-first-class-protocols
 [partial-application]: https://github.com/tc39/proposal-partial-application
-[partial-application-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-25.md#partial-application
+[partial-application-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-25.md#partial-application
 [cancel-api]: https://github.com/tc39/proposal-cancellation
-[cancel-api-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-25.md#cancellation-update
+[cancel-api-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-25.md#cancellation-update
 [codepoints]: https://github.com/tc39/proposal-string-prototype-codepoints
-[codepoints-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-22.md#stringprototypecodepoints-for-stage-2
+[codepoints-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-22.md#stringprototypecodepoints-for-stage-2
 [freeze-seal-syntax]: https://github.com/keithamus/object-freeze-seal-syntax
-[freeze-seal-syntax-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-11/nov-30.md#10ivd-objectfreeze--objectseal-syntax-proposal-for-stage-0
+[freeze-seal-syntax-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-11/nov-30.md#10ivd-objectfreeze--objectseal-syntax-proposal-for-stage-0
 [block-params]: https://github.com/samuelgoto/proposal-block-params
-[block-params-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-11/nov-30.md#9iiia-block-params-to-stage-1
+[block-params-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-11/nov-30.md#9iiia-block-params-to-stage-1
 [from-string]: https://github.com/mathiasbynens/proposal-number-fromstring
-[from-string-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-01/jan-23.md#13iic-bigintnumberfromstring-for-stage-1
+[from-string-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-01/jan-23.md#13iic-bigintnumberfromstring-for-stage-1
 [seeded-randoms]: https://github.com/tabatkins/js-seeded-random
-[seeded-randoms-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
+[seeded-randoms-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
 [mixins]: https://github.com/justinfagnani/proposal-mixins
-[mixins-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal
+[mixins-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal
 [arraylast]: https://github.com/keithamus/proposal-array-last
-[arraylast-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-01/jan-24.md#13iiim-getting-last-item-from-array-for-stage-2
+[arraylast-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-01/jan-24.md#13iiim-getting-last-item-from-array-for-stage-2
 [collection-methods]: https://github.com/tc39/collection-methods
-[collection-methods-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-01/jan-23.md#13iiik-new-set-builtin-methods-for-stage-2
+[collection-methods-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-01/jan-23.md#13iiik-new-set-builtin-methods-for-stage-2
 [richer-keys]: https://github.com/tc39/proposal-richer-keys
-[richer-keys-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
+[richer-keys-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
 [slice-notation]: https://github.com/tc39/proposal-slice-notation/
-[slice-notation-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-22.md#slice-notation-for-stage-1
+[slice-notation-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-03/mar-22.md#slice-notation-for-stage-1
 [logical-assignment]: https://github.com/tc39/proposal-logical-assignment
-[logical-assignment-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-03/mar-22.md#10ie-logical-assignment-operators-for-stage-1-cont
+[logical-assignment-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-03/mar-22.md#10ie-logical-assignment-operators-for-stage-1-cont
 [module-keys]: https://github.com/tc39/tc39-module-keys
-[module-keys-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-23.md#module-keys-strawman-for-stage-1
+[module-keys-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#module-keys-strawman-for-stage-1
 [static-blocks]: https://github.com/tc39/proposal-class-static-block#readme
-[static-blocks-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-23.md#class-static-block
+[static-blocks-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#class-static-block
 [class-access-expressions]: https://github.com/tc39/proposal-class-access-expressions
-[class-access-expressions-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-23.md#class-access-expressions
+[class-access-expressions-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#class-access-expressions
 [matching]: https://github.com/tc39/proposal-pattern-matching
-[matching-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-24.md#pattern-matching-for-stage-1
+[matching-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-24.md#pattern-matching-for-stage-1
 [dynamic-modules]: https://github.com/guybedford/proposal-dynamic-modules
-[dynamic-modules-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-07/july-25.md#dynamic-modules
+[dynamic-modules-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-25.md#dynamic-modules
 [standard-library]: https://github.com/tc39/proposal-javascript-standard-library
-[standard-library-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#javascript-standard-library-for-stage-2--part-2-
+[standard-library-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-06/june-5.md#javascript-standard-library-for-stage-2--part-2-
 [modules-pragma]: https://github.com/tc39/proposal-modules-pragma
-[modules-pragma-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
+[modules-pragma-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
 [uniform-date-parse]: https://github.com/tc39/proposal-uniform-interchange-date-parsing
-[uniform-date-parse-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
+[uniform-date-parse-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
-[json-parse-source-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-09/sept-27.md#jsonparse-source-text-access
+[json-parse-source-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-09/sept-27.md#jsonparse-source-text-access
 [idl]: https://github.com/littledan/proposal-idl
-[idl-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-09/sept-27.md#idl-for-javascript
+[idl-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-09/sept-27.md#idl-for-javascript
 [asset-references]: https://github.com/sebmarkbage/ecmascript-asset-references
-[asset-references-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-11/nov-28.md#asset-references-for-stage-1
+[asset-references-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-11/nov-28.md#asset-references-for-stage-1
 [freeze-proto]: https://github.com/tc39/proposal-freeze-prototype
-[freeze-proto-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-31.md#freezing-prototypes-for-stage-1
+[freeze-proto-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-31.md#freezing-prototypes-for-stage-1
 [new.initialize]: https://github.com/littledan/proposal-new-initialize
-[new.initialize-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-31.md#newinitialize-for-stage-1
+[new.initialize-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-31.md#newinitialize-for-stage-1
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
-[private-declarations-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-28.md#private-declarations-for-stage-1
+[private-declarations-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-28.md#private-declarations-for-stage-1
 [emitter]: https://github.com/pemrouz/proposal-emitter
-[emitter-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#emitter-for-stage-1
+[emitter-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-06/june-5.md#emitter-for-stage-1
 [dynamic-code-brand-checks]: https://github.com/tc39-transfer/dynamic-code-brand-checks
-[dynamic-code-brand-checks-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-5.md#evalable-for-stage-1-or-2
+[dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-06/june-5.md#evalable-for-stage-1-or-2
 [reverse-iteration]: https://github.com/tc39/proposal-reverseIterator
-[reverse-iteration-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-23.md#symbolreverse
+[reverse-iteration-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-23.md#symbolreverse
 [Dynamic Import Host Adjustment]: https://github.com/mikesamuel/dynamic-import-host-adjustment/blob/master/README.md
-[Dynamic Import Host Adjustment notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-25.md#dynamic-import-host-adjustment-for-stage-1-or-2
+[Dynamic Import Host Adjustment notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-25.md#dynamic-import-host-adjustment-for-stage-1-or-2
 [object-map]: https://github.com/tc39/proposal-object-map
+[object-map-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-1.md#objectmap-for-stage-1
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
+[record-tuple-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-1.md#records--tuples-for-stage-1
 [declarations-in-conditionals]: https://github.com/tc39/proposal-Declarations-in-Conditionals
+[declarations-in-conditionals-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#declarations-in-conditionals
 [uuid]: https://github.com/tc39-transfer/proposal-uuid
+[uuid-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#uuid-for-stage-1
 [readonly-collections]: https://github.com/Agoric/proposal-readonly-collections
+[readonly-collections-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#readonly-collections-for-stage-1
 [eventual-send]: https://github.com/Agoric/proposal-eventual-send
+[eventual-send-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#eventual-send-support-for-distributed-promise-pipelining
 [wavy-dot]: https://github.com/Agoric/proposal-wavy-dot
+[wavy-dot-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#wavy-dot-syntax-for-promise-pipelining-for-stage-1
 [oom]: https://github.com/Agoric/proposal-oom-fails-fast
+[oom-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#oom-fails-fast-for-stage-1
