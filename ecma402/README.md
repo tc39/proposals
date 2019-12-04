@@ -16,7 +16,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
 | [`Intl.ListFormat`][intl.listformat]                                   | Zibi Braniecki                   | Zibi Braniecki                   |                                                       |
 | [`Intl.Locale`][intl.locale]                                           | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |                                                       |
-| [`Intl.RelativeTimeFormat`][intl.relativetimeformat]                   | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |                                                       |
 | [Intl.NumberFormat Unified API Proposal][numberformat]                 | Shane Carr                       | Shane Carr                       |                                                       |
 | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]           | Zibi Braniecki                   | Zibi Braniecki                   | [March&nbsp;2019][datetimeformat-notes]               |
 | [`Intl.DateFormat.prototype.formatRange`][formatrange]                 | Felipe Balbontín                 | Sathya Gunasekaran               | [March&nbsp;2019][formatrange-notes]                  |
@@ -49,7 +48,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 
 [intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
 [intl.listformat]: https://github.com/zbraniecki/proposal-intl-list-format
-[intl.relativetimeformat]: https://github.com/tc39/proposal-intl-relative-time
 [datetimeformat]: https://github.com/zbraniecki/proposal-ecma402-datetime-style
 [datetimeformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#datestyletimestyle-for-stage-3
 [intl.locale]: https://github.com/zbraniecki/proposal-intl-locale
