@@ -28,7 +28,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [WeakRefs][weakrefs]                                                           | Dean Tribble<br />Sathya Gunasekaran                          | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran      | [:white_check_mark:][tests-weakrefs]           | <sub>[June&nbsp;2019][weakrefs-notes]</sub>             |
 | [Nullish coalescing Operator][nullish-coalescing]                              | Gabriel Isenberg                                                        | Gabriel Isenberg<br />Justin Ridgewell<br />Daniel Rosenwasser          | [:white_check_mark:][tests-nullish-coalescing] | <sub>[July 2019][nullish-coalescing-notes]</sub>        |
 | [RegExp Match array offsets][regex-offsets]                                    | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                     | <sub>[July 2019][regex-offsets-notes]</sub>             |
-| [Optional Chaining][chaining]                                                  | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery         | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser | [:white_check_mark:][tests-chaining]           | <sub>[July 2019][chaining-notes]</sub>                  |
 | [`String.prototype.replaceAll`][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens                    | Mathias Bynens                                                          | :question:                                     | <sub>[October&nbsp;2019][replace-all-notes]</sub>       |
 | [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov                   | Mathias Bynens                                                          | [:question:][tests-promise-any]                | <sub>[October 2019][promise-any-notes]</sub>            |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | :question:                                     | <sub>December&nbsp;2019</sub>                           |
@@ -134,9 +133,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [isTemplateObject]: https://github.com/tc39-transfer/proposal-array-is-template-object
 [isTemplateObject-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-06/june-5.md#arrayistemplateobject-for-stage-1-or-2
-[chaining]: https://github.com/tc39/proposal-optional-chaining
-[chaining-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-25.md#optional-chaining-for-stage-3
-[tests-chaining]: https://github.com/tc39/test262/pull/2212
 [nullish-coalescing]: https://github.com/tc39/proposal-nullish-coalescing
 [nullish-coalescing-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-23.md#nullish-coalescing
 [tests-nullish-coalescing]: https://github.com/tc39/test262/pull/2402
