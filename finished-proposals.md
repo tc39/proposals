@@ -33,6 +33,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`BigInt`][bigint]                                                       | Daniel Ehrenberg                                       | Daniel Ehrenberg                                        | [June 2019][bigint-notes]                   | 2020                      |
 | [`Promise.allSettled`][allsettled]                                       | Jason Williams<br />Robert Pamely<br />Mathias Bynens  | Mathias Bynens                                          | [July 2019][allsettled-notes]               | 2020                      |
 | [`globalThis`][globalThis]                                               | Jordan Harband                                         | Jordan Harband                                          | [October&nbsp;2019][globalThis-notes]       | 2020                      |
+| [`for-in` mechanics][for-in-mechanics]                                   | Kevin Gibbons                                          | Kevin Gibbons                                           | <sub>December&nbsp;2019</sub>               | 2020                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -94,3 +95,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [bigint-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-06/june-4.md#bigint-to-stage-4
 [globalThis]: https://github.com/tc39/proposal-global
 [globalThis-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-1.md#globalthis-to-stage-4
+[for-in-mechanics]: https://github.com/bakkot/for-in-exploration
+[for-in-mechanics-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-1.md#for-in-order-for-stage-3
