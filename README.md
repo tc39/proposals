@@ -49,6 +49,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Iterator helpers][iterator-helpers]                                           | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin                                              | <sub>[July 2019][iterator-helpers-notes]</sub>                      |
 | [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[July 2019][resource-management-notes]</sub>                   |
 | [`Map.prototype.upsert`][map-upsert]                                           | Bradley Farias                                        | Erica Pramer                                                                      | <sub>[October 2019][map-upsert-notes]</sub>                         |
+| [Dynamic Import Host Adjustment][]                                             | Mike Samuel                                           | Mike Samuel                                                                       | <sub>December 2019</sub>                                            |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -139,3 +140,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [resource-management-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-24.md#explicit-resource-management
 [map-upsert]: https://github.com/thumbsupep/proposal-upsert
 [map-upsert-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#mapupsert--previously-mapinsertorupdate
+[Dynamic Import Host Adjustment]: https://github.com/mikesamuel/dynamic-import-host-adjustment/blob/master/README.md
+[Dynamic Import Host Adjustment notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-25.md#dynamic-import-host-adjustment-for-stage-1-or-2
