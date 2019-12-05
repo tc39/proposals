@@ -62,6 +62,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [OOM Fails Fast][oom]                                                                        | Mark Miller                                           | Mark Miller                                            | <sub>[October 2019][oom-notes]</sub>                              |
 | [Array reject][array-reject]                                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>December 2019</sub>                                          |
 | [Operator overloading][overloading]                                                          | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>December 2019</sub>                                          |
+| [Module Attributes][module-attributes]                            | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>December 2019</sub>                                          |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -176,3 +177,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [oom-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#oom-fails-fast-for-stage-1
 [array-reject]: https://github.com/jridgewell/proposal-array-select-reject
 [overloading]: https://github.com/littledan/proposal-operator-overloading
+[module-attributes]: https://github.com/littledan/proposal-module-attributes
