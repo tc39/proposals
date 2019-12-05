@@ -7,7 +7,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Intl.DateTimeFormat.prototype.formatToParts`][intl.datetimeformat.prototype.formattoparts] | Zibi Braniecki                   | Zibi Braniecki                   | [July 2016][intl.datetimeformat.prototype.formattoparts-notes]    | 2017                      |
 | [`Intl.NumberFormat.prototype.formatToParts`][intl.numberformat.prototype.formattoparts]     | Zibi Braniecki                   | Zibi Braniecki                   | [September 2017][intl.numberformat.prototype.formattoparts-notes] | 2018                      |
 | [`Intl.PluralRules`][intl.pluralrules]                                                       | Caridy Patiño, Eric Ferraiuolo   | Caridy Patiño, Eric Ferraiuolo   | [September 2017][intl.pluralrules-notes]                          | 2018                      |
-| [`Intl.RelativeTimeFormat`][intl.relativetimeformat]                                         | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg | December 2019
+| [`Intl.RelativeTimeFormat`][intl.relativetimeformat]                                         | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg | December 2019                                                     | 2020                      |
 
 See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](README.md) documents.
 
