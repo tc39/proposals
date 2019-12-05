@@ -61,6 +61,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Wavy Dot: Syntactic Support for Promise Pipelining][wavy-dot]                               | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>[October 2019][wavy-dot-notes]</sub>                         |
 | [OOM Fails Fast][oom]                                                                        | Mark Miller                                           | Mark Miller                                            | <sub>[October 2019][oom-notes]</sub>                              |
 | [Array reject][array-reject]                                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>December 2019</sub>                                          |
+| [Operator overloading][overloading]                                                          | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>December 2019</sub>                                          |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -174,3 +175,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [oom]: https://github.com/Agoric/proposal-oom-fails-fast
 [oom-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#oom-fails-fast-for-stage-1
 [array-reject]: https://github.com/jridgewell/proposal-array-select-reject
+[overloading]: https://github.com/littledan/proposal-operator-overloading
