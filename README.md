@@ -26,7 +26,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Numeric separators][numeric_separators]                                       | Sam Goto<br />Rick Waldron                                              | Sam Goto<br />Rick Waldron                                              | [:white_check_mark:][tests-numeric_separators] | <sub>[June&nbsp;2019][numeric_separators-notes]</sub>   |
 | [Top-level `await`][await]                                                     | Myles Borins                                                            | Myles Borins                                                            | [:white_check_mark:][tests-await]              | <sub>[June&nbsp;2019][await-notes]</sub>                |
 | [WeakRefs][weakrefs]                                                           | Dean Tribble<br />Sathya Gunasekaran                          | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran      | [:white_check_mark:][tests-weakrefs]           | <sub>[June&nbsp;2019][weakrefs-notes]</sub>             |
-| [RegExp Match array offsets][regex-offsets]                                    | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                     | <sub>[July 2019][regex-offsets-notes]</sub>             |
+| [RegExp Match Indices][regex-match-indices]                                    | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                     | <sub>[July 2019][regex-match-indices-notes]</sub>             |
 | [`String.prototype.replaceAll`][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens                    | Mathias Bynens                                                          | :question:                                     | <sub>[October&nbsp;2019][replace-all-notes]</sub>       |
 | [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov                   | Mathias Bynens                                                          | [:question:][tests-promise-any]                | <sub>[October 2019][promise-any-notes]</sub>            |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | :question:                                     | <sub>December&nbsp;2019</sub>                           |
@@ -119,8 +119,8 @@ Note that as part of the onboarding process your repository name may be normaliz
 [richer-keys-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
 [unicode-sequence-properties]: https://github.com/tc39/proposal-regexp-unicode-sequence-properties
 [unicode-sequence-properties-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-31.md#update-on-sequence-properties-in-unicode-property-escapes
-[regex-offsets]: https://github.com/tc39/proposal-regexp-match-offsets
-[regex-offsets-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-24.md#regexp-match-offsets-update
+[regex-match-indices]: https://github.com/tc39/proposal-regexp-match-Indices
+[regex-match-indices-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-24.md#regexp-match-offsets-update
 [buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer/
 [buffer-transfer-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-24.md#arraybufferprototypetransfer
 [resource-management]: https://github.com/tc39/proposal-using-statement
