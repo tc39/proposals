@@ -25,7 +25,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                     | Author                           | Champion                                                       |
 | ------------------------------------------------------------ | -------------------------------- | -------------------------------------------------------------- |
-| [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg       | Daniel Ehrenberg                                               |
+| [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg and Richard Gibson       | Richard Gibson                                               |
 
 ### Stage 1
 
