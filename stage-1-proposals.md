@@ -8,7 +8,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
 | [`export v from "mod";` statements][export-from]                                             | Lee Byron                                             | Ben Newman<br />John-David Dalton                      | <sub>[July&nbsp;2017][export-from-notes]</sub>                    |
 | [Observable][observable]                                                                     | Jafar Husain                                          | Jafar Husain<br />Mark Miller                          | <sub>[May&nbsp;2017][observable-notes]</sub>                      |
-| [SES (Secure EcmaScript)][secure-ecmascript]                                                 | Mark Miller<br />Chip Morningstar<br />Caridy Patiño  | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   | <sub>[July&nbsp;2019][secure-ecmascript-notes]</sub>              |
+| [SES (Secure EcmaScript)][secure-ecmascript]                                                 | Mark Miller<br />Chip Morningstar<br />Caridy Patiño  | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   | <sub>[December&nbsp;2019][secure-ecmascript-notes]</sub>          |
 | [`Math` Extensions][more-math]                                                               | Rick Waldron                                          | Rick Waldron                                           | <sub>[July&nbsp;2016][more-math-notes]</sub>                      |
 | [`of` and `from` on collection constructors][collection-of-from]                             | Leo Balter                                            | Leo Balter                                             | <sub>[September&nbsp;2016][collection-of-from-notes]</sub>        |
 | [Generator arrow functions][generator-arrow-functions]                                       | Sergey Rubanov                                        | Brendan Eich                                           | <sub>[September&nbsp;2016][generator-arrow-functions-notes]</sub> |
@@ -50,7 +50,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [`new.initialize`][new.initialize]                                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[January&nbsp;2019][new.initialize-notes]</sub>              |
 | [Private declarations][private-declarations]                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[March&nbsp;2019][private-declarations-notes]</sub>          |
 | [Emitter][emitter]                                                                           | Shu-yu Guo<br />Pedram Emrouznejad                    | Shu-yu Guo<br />Pedram Emrouznejad                     | <sub>[June&nbsp;2019][emitter-notes]</sub>                        |
-| [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[June&nbsp;2019][dynamic-code-brand-checks-notes]</sub>      |
+| [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[December&nbsp;2019][dynamic-code-brand-checks-notes]</sub>  |
 | [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>[July 2019][reverse-iteration-notes]</sub>                   |
 | [Improving iteration on Objects][object-iteration]                                           | Jonathan Keslin                                       | Jonathan Keslin                                        | <sub>[October 2019][object-iteration-notes]</sub>                       |
 | [Record & Tuple][record-tuple]                                                               | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                       | <sub>[October 2019][record-tuple-notes]</sub>                     |
@@ -58,11 +58,11 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [UUID][uuid]                                                                                | Benjamin Coe<br />Robert Kieffer <br />Christoph Tavan | Benjamin Coe                                           | <sub>[October 2019][uuid-notes]</sub>                             |
 | [Readonly Collections][readonly-collections]                                                 | Mark Miller<br />Peter Hoddie                         | Mark Miller<br />Peter Hoddie                          | <sub>[October 2019][readonly-collections-notes]</sub>             |
 | [Support for Distributed Promise Pipelining][eventual-send]                                  | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>[October 2019][eventual-send-notes]</sub>                    |
-| [Wavy Dot: Syntactic Support for Promise Pipelining][wavy-dot]                               | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>[October 2019][wavy-dot-notes]</sub>                         |
-| [OOM Fails Fast][oom]                                                                        | Mark Miller                                           | Mark Miller                                            | <sub>[October 2019][oom-notes]</sub>                              |
-| [Array reject][array-reject]                                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>December 2019</sub>                                          |
-| [Operator overloading][overloading]                                                          | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>December 2019</sub>                                          |
-| [Module Attributes][module-attributes]                            | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>December 2019</sub>                                          |
+| [Wavy Dot: Syntactic Support for Promise Pipelining][promise-pipelining]                     | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>[December 2019][promise-pipelining-notes]</sub>              |
+| [OOM Fails Fast][oom]                                                                        | Mark Miller                                           | Mark Miller                                            | <sub>[December 2019][oom-notes]</sub>                             |
+| [Array reject][array-reject]                                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[December 2019][array-reject-notes]</sub>                    |
+| [Operator overloading][overloading]                                                          | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[December 2019][overloading-notes]</sub>                     |
+| [Module Attributes][module-attributes]                            | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>[December 2019][module-attributes-notes]</sub>               |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -72,8 +72,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [observable]: https://github.com/tc39/proposal-observable
 [observable-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2
 [secure-ecmascript]: https://github.com/tc39/proposal-ses
-[secure-ecmascript-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-25.md#status-of-secure-ecmascript
-[ses-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-03/mar-20.md#10ia-update-on-frozen-realms-in-light-of-meltdown-and-spectre
+[secure-ecmascript-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#update-on-ses
 [more-math]: https://github.com/rwaldron/proposal-math-extensions
 [more-math-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-07/jul-26.md#9iie-math-extensions
 [collection-of-from]: https://github.com/leobalter/proposal-setmap-offrom
@@ -156,7 +155,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [emitter]: https://github.com/pemrouz/proposal-emitter
 [emitter-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-06/june-5.md#emitter-for-stage-1
 [dynamic-code-brand-checks]: https://github.com/tc39-transfer/dynamic-code-brand-checks
-[dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-06/june-5.md#evalable-for-stage-1-or-2
+[dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
 [reverse-iteration]: https://github.com/tc39/proposal-reverseIterator
 [reverse-iteration-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-23.md#symbolreverse
 [object-iteration]: https://github.com/tc39/proposal-object-iteration
@@ -171,10 +170,13 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [readonly-collections-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#readonly-collections-for-stage-1
 [eventual-send]: https://github.com/Agoric/proposal-eventual-send
 [eventual-send-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#eventual-send-support-for-distributed-promise-pipelining
-[wavy-dot]: https://github.com/Agoric/proposal-wavy-dot
-[wavy-dot-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#wavy-dot-syntax-for-promise-pipelining-for-stage-1
+[promise-pipelining]: https://github.com/Agoric/proposal-promise-pipelining
+[promise-pipelining-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#update-on-promise-pipelining
 [oom]: https://github.com/Agoric/proposal-oom-fails-fast
-[oom-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#oom-fails-fast-for-stage-1
+[oom-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#update-on-oom-must-fail-fast
 [array-reject]: https://github.com/jridgewell/proposal-array-select-reject
+[array-reject-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#array-selectreject-for-stage-1
 [overloading]: https://github.com/littledan/proposal-operator-overloading
+[overloading-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
 [module-attributes]: https://github.com/littledan/proposal-module-attributes
+[module-attributes-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#module-attributes-continuation-of-earlier-discussion
