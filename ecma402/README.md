@@ -47,12 +47,12 @@ Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub org
 Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work **as long as** you never create a fork, or a new repository, with the same name - although Github Pages redirects will be broken (please update your links!).
 
 [intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
-[intl.listformat]: https://github.com/zbraniecki/proposal-intl-list-format
-[datetimeformat]: https://github.com/zbraniecki/proposal-ecma402-datetime-style
+[intl.listformat]: https://github.com/tc39/proposal-intl-list-format
+[datetimeformat]: https://github.com/tc39/proposal-intl-datetime-style
 [datetimeformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#datestyletimestyle-for-stage-3
-[intl.locale]: https://github.com/zbraniecki/proposal-intl-locale
-[formatrange]: https://github.com/fabalbon/proposal-intl-DateTimeFormat-formatRange
+[intl.locale]: https://github.com/tc39/proposal-intl-locale
+[formatrange]: https://github.com/tc39/proposal-intl-DateTimeFormat-formatRange
 [formatrange-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#intldatetimeformatprototypeformatrange-for-stage-3
-[numberformat]: https://github.com/sffc/proposal-unified-intl-numberformat
-[proposal-intl-displaynames]: https://github.com/tc39-transfer/proposal-intl-displaynames
+[numberformat]: https://github.com/tc39/proposal-unified-intl-numberformat
+[proposal-intl-displaynames]: https://github.com/tc39/proposal-intl-displaynames
 [proposal-intl-displaynames-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#intldisplaynames

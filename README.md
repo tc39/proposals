@@ -105,7 +105,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [replace-all-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#stringprototypereplaceall-for-stage-3
 [static-class-features]: http://github.com/tc39/proposal-static-class-features/
 [static-class-features-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#static-class-features-for-stage-3
-[censorship]: https://github.com/domenic/proposal-function-implementation-hiding
+[censorship]: https://github.com/tc39/proposal-function-implementation-hiding
 [censorship-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-4.md#update-on-function-implementation-hiding
 [await]: https://github.com/tc39/proposal-top-level-await
 [await-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-06/june-6.md#top-level-await-for-stage-3
@@ -127,18 +127,18 @@ Note that as part of the onboarding process your repository name may be normaliz
 [resource-management-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-25.md#explicit-resource-management-for-stage-2-continuation-from-tuesday
 [standard-library]: https://github.com/tc39/proposal-javascript-standard-library
 [standard-library-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-26.md#javascript-standard-library
-[collection-rekey]: https://github.com/tc39-transfer/proposal-collection-normalization
+[collection-rekey]: https://github.com/tc39/proposal-collection-normalization
 [iterator-helpers]: https://github.com/tc39/proposal-iterator-helpers
 [iterator-helpers-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-24.md#iterator-methods-update--stage-2
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
-[isTemplateObject]: https://github.com/tc39-transfer/proposal-array-is-template-object
+[isTemplateObject]: https://github.com/tc39/proposal-array-is-template-object
 [isTemplateObject-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-4.md#arrayistemplateobject-update
 [promise-any]: https://github.com/tc39/proposal-promise-any
 [promise-any-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#promiseany-reprise
 [tests-promise-any]: https://github.com/tc39/test262/issues/2410
 [resource-management]: https://github.com/tc39/proposal-using-statement
 [resource-management-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-24.md#explicit-resource-management
-[map-upsert]: https://github.com/thumbsupep/proposal-upsert
+[map-upsert]: https://github.com/tc39/proposal-upsert
 [map-upsert-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#mapupsert--previously-mapinsertorupdate
-[Dynamic Import Host Adjustment]: https://github.com/mikesamuel/dynamic-import-host-adjustment/blob/master/README.md
+[Dynamic Import Host Adjustment]: https://github.com/tc39/dynamic-import-host-adjustment/blob/master/README.md
 [Dynamic Import Host Adjustment notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#dynamic-import-host-adjustment-for-stage-2

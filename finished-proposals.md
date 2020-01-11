@@ -41,7 +41,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 
 [array-includes]: https://github.com/tc39/Array.prototype.includes
 [array-includes-notes]: https://github.com/tc39/notes/blob/master/meetings/2015-11/nov-17.md#arrayprototypeincludes
-[exponentiation]: https://github.com/rwaldron/exponentiation-operator
+[exponentiation]: https://github.com/tc39/proposal-exponentiation-operator
 [exponentiation-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-01/2016-01-28.md#5xviii-exponentiation-operator-rw
 [object-values-entries]: https://github.com/tc39/proposal-object-values-entries
 [object-values-entries-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-03/march-29.md#objectvalues--objectentries
@@ -97,7 +97,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [bigint-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-06/june-4.md#bigint-to-stage-4
 [globalThis]: https://github.com/tc39/proposal-global
 [globalThis-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-1.md#globalthis-to-stage-4
-[for-in-mechanics]: https://github.com/bakkot/for-in-exploration
+[for-in-mechanics]: https://github.com/tc39/proposal-for-in-order
 [for-in-mechanics-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-4.md#for-in-order-for-stage-4
 [chaining]: https://github.com/tc39/proposal-optional-chaining
 [chaining-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-4.md#optional-chaining-for-stage-4
