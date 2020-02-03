@@ -40,7 +40,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [clone]: https://github.com/dslomov-chromium/ecmascript-structured-clone
 [url]: https://github.com/jasnell/proposal-url
 [object-shorthand-improvements]: https://github.com/rbuckton/proposal-shorthand-improvements
-[decimal]: https://docs.google.com/presentation/d/1jPsw7EGsS6BW59_BDRu9o0o3UwSXQeUhi38QG55ZoPI/edit?pli=1#slide=id.p
+[decimal]: https://github.com/littledan/proposal-decimal
 [deprecated]: https://github.com/jasnell/proposal-deprecated
 [as-patterns]: https://github.com/zkat/proposal-as-patterns
 [bind-notes]: https://github.com/tc39/notes/blob/master/meetings/2015-03/mar-25.md#6vi-function-bind-and-private-fields-redux-kevin-smith
