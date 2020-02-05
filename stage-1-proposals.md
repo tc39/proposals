@@ -63,6 +63,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Array reject][array-reject]                                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[December 2019][array-reject-notes]</sub>                    |
 | [Operator overloading][overloading]                                                          | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[December 2019][overloading-notes]</sub>                     |
 | [Module Attributes][module-attributes]                            | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>[December 2019][module-attributes-notes]</sub>               |
+| [Async initialization][async-init]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>February 2020</sub>
 | [Decimal][decimal]                                                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>February 2020</sub>
 | [Preserve Host Virtualizability][virtualize]                    | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | <sub>February 2020</sub>
 | [Legacy reflection features for functions in JavaScript][legacy-reflection]                  | Mark Miller<br />Claude Pache<br />Jack Works         | Mark Miller<br />Claude Pache<br />Jack Works          | <sub>February 2020</sub>
@@ -186,3 +187,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [decimal]: https://github.com/littledan/proposal-decimal
 [virtualize]: https://github.com/Agoric/proposal-preserve-virtualizability
 [legacy-reflection]: https://github.com/claudepache/es-legacy-function-reflection
+[async-init]: https://docs.google.com/presentation/d/1DsjZAzBjn2gCrr4l0uZzCymPIWZTKM8KzcnMBF31HAg/edit#slide=id.g7d23d45064_0_196
