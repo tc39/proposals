@@ -65,6 +65,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Module Attributes][module-attributes]                            | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>[December 2019][module-attributes-notes]</sub>               |
 | [Decimal][decimal]                                                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>February 2020</sub>
 | [Preserve Host Virtualizability][virtualize]                    | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | <sub>February 2020</sub>
+| [Legacy reflection features for functions in JavaScript][legacy-reflection]                  | Mark Miller<br />Claude Pache<br />Jack Works         | Mark Miller<br />Claude Pache<br />Jack Works          | <sub>February 2020</sub>
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -184,3 +185,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [module-attributes-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#module-attributes-continuation-of-earlier-discussion
 [decimal]: https://github.com/littledan/proposal-decimal
 [virtualize]: https://github.com/Agoric/proposal-preserve-virtualizability
+[legacy-reflection]: https://github.com/claudepache/es-legacy-function-reflection
