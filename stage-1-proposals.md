@@ -63,6 +63,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Array reject][array-reject]                                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[December 2019][array-reject-notes]</sub>                    |
 | [Operator overloading][overloading]                                                          | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[December 2019][overloading-notes]</sub>                     |
 | [Module Attributes][module-attributes]                            | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>[December 2019][module-attributes-notes]</sub>               |
+| [Decimal][decimal]                                                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>February 2020</sub>
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -180,3 +181,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [overloading-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
 [module-attributes]: https://github.com/tc39/proposal-module-attributes
 [module-attributes-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#module-attributes-continuation-of-earlier-discussion
+[decimal]: https://github.com/littledan/proposal-decimal
