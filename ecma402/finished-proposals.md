@@ -8,7 +8,8 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Intl.NumberFormat.prototype.formatToParts`][intl.numberformat.prototype.formattoparts]     | Zibi Braniecki                   | Zibi Braniecki                   | [September 2017][intl.numberformat.prototype.formattoparts-notes] | 2018                      |
 | [`Intl.PluralRules`][intl.pluralrules]                                                       | Caridy Patiño, Eric Ferraiuolo   | Caridy Patiño, Eric Ferraiuolo   | [September 2017][intl.pluralrules-notes]                          | 2018                      |
 | [`Intl.RelativeTimeFormat`][intl.relativetimeformat]                                         | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg | [December 2019][intl.relativetimeformat-notes]                    | 2020                      |
-| [Intl.NumberFormat Unified API Proposal][intl.numberformat]                                  | Shane Carr                       | Shane Carr                       | February 2020                                                     | 2020                      |
+| [`Intl.NumberFormat` Unified API Proposal][intl.numberformat]                                | Shane Carr                       | Shane Carr                       | February 2020                                                     | 2020                      |
+| [`Intl.Locale`][intl.locale]                                                                 | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg | February 2020                                                     | 2020                      |
 
 See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](README.md) documents.
 
@@ -21,3 +22,4 @@ See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](R
 [intl.relativetimeformat]: https://github.com/tc39/proposal-intl-relative-time
 [intl.relativetimeformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-4.md#intlrelativetimeformat-for-stage-4
 [intl.numberformat]: https://github.com/tc39/proposal-unified-intl-numberformat
+[intl.locale]: https://github.com/tc39/proposal-intl-locale

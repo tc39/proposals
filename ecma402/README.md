@@ -15,7 +15,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | Proposal                                                               | Author                           | Champion                         | TC39 meeting notes                                    |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
 | [`Intl.ListFormat`][intl.listformat]                                   | Zibi Braniecki                   | Zibi Braniecki                   |                                                       |
-| [`Intl.Locale`][intl.locale]                                           | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg |                                                       |
 | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]           | Zibi Braniecki                   | Zibi Braniecki                   | [March&nbsp;2019][datetimeformat-notes]               |
 | [`Intl.DateFormat.prototype.formatRange`][formatrange]                 | Felipe Balbontín                 | Sathya Gunasekaran               | [March&nbsp;2019][formatrange-notes]                  |
 | [Intl.DisplayNames][proposal-intl-displaynames]                        | Frank Tang                       | Frank Tang                       | [October&nbsp;2019][proposal-intl-displaynames-notes] |
@@ -49,7 +48,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl.listformat]: https://github.com/tc39/proposal-intl-list-format
 [datetimeformat]: https://github.com/tc39/proposal-intl-datetime-style
 [datetimeformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#datestyletimestyle-for-stage-3
-[intl.locale]: https://github.com/tc39/proposal-intl-locale
 [formatrange]: https://github.com/tc39/proposal-intl-DateTimeFormat-formatRange
 [formatrange-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#intldatetimeformatprototypeformatrange-for-stage-3
 [proposal-intl-displaynames]: https://github.com/tc39/proposal-intl-displaynames
