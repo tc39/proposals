@@ -50,7 +50,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[July 2019][resource-management-notes]</sub>                   |
 | [`Map.prototype.upsert`][map-upsert]                                           | Bradley Farias                                        | Erica Pramer                                                                      | <sub>[October 2019][map-upsert-notes]</sub>                         |
 | [Dynamic Import Host Adjustment][]                                             | Mike Samuel                                           | Mike Samuel                                                                       | <sub>[December 2019][Dynamic Import Host Adjustment notes]</sub>    |
-| [Logical Assignment Operators][logical-assignment]                             | Justin Ridgewell <br /> Hemanth HM                    | Justin Ridgewell                                                                  | <sub>February&nbsp;2020</sub>                                       |
+| [Logical Assignment Operators][logical-assignment]                             | Justin Ridgewell                                      | Justin Ridgewell <br /> Hemanth HM                                                | <sub>February&nbsp;2020</sub>                                       |
 
 :white_check_mark: means a pull request for tests was merged.
 
