@@ -34,7 +34,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Collection methods][collection-methods]                                                     | Michał Wadas                                          | Sathya Gunasekaran                                     | <sub>[January&nbsp;2018][collection-methods-notes] </sub>         |
 | [Richer Keys][richer-keys]                                                                   | Bradley Farias                                        | Bradley Farias                                         | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                 |
 | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                    | Sathya Gunasekaran                                     | <sub>[March&nbsp;2018][slice-notation-notes]</sub>                |
-| [Logical Assignment Operators][logical-assignment]                                           | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[March&nbsp;2018][logical-assignment-notes]</sub>            |
 | [Module Keys][module-keys]                                                                   | Mike Samuel                                           | Mike Samuel                                            | <sub>[May&nbsp;2018][module-keys-notes]</sub>                     |
 | [Class Static Block][static-blocks]                                                          | Ron Buckton                                           | Ron Buckton                                            | <sub>[May&nbsp;2018][static-blocks-notes]</sub>                   |
 | [class Access Expressions][class-access-expressions]                                         | Ron Buckton                                           | Ron Buckton                                            | <sub>[May&nbsp;2018][class-access-expressions-notes]</sub>        |
@@ -126,8 +125,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [richer-keys-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
 [slice-notation]: https://github.com/tc39/proposal-slice-notation/
 [slice-notation-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-03/mar-22.md#slice-notation-for-stage-1
-[logical-assignment]: https://github.com/tc39/proposal-logical-assignment
-[logical-assignment-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-03/mar-22.md#10ie-logical-assignment-operators-for-stage-1-cont
 [module-keys]: https://github.com/tc39/tc39-module-keys
 [module-keys-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#module-keys-strawman-for-stage-1
 [static-blocks]: https://github.com/tc39/proposal-class-static-block#readme
