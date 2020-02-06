@@ -27,8 +27,9 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 1
 
-| Proposal                                                     | Author         | Champion       |  <sub>Last Presented</sub>                                        |
-| ------------------------------------------------------------ | -------------- | -------------- | ----------------------------------------------------------------- |
+| Proposal                                                     | Author          | Champion        | <sub>Last Presented</sub>                                        |
+| ------------------------------------------------------------ | --------------- | --------------- | ---------------------------------------------------------------- |
+| [`Intl.DurationFormat`][intl.durationformat]                 | Younies Mahmoud | Younies Mahmoud |                                                                  |
 
 ### Contributing new proposals
 
@@ -52,3 +53,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [formatrange-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#intldatetimeformatprototypeformatrange-for-stage-3
 [proposal-intl-displaynames]: https://github.com/tc39/proposal-intl-displaynames
 [proposal-intl-displaynames-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#intldisplaynames
+[intl.durationformat]: https://github.com/younies/proposal-intl-duration-format
