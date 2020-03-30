@@ -28,7 +28,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [WeakRefs][weakrefs]                                                           | Dean Tribble<br />Sathya Gunasekaran                          | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg | [:white_check_mark:][tests-weakrefs] | <sub>[June&nbsp;2019][weakrefs-notes]</sub>      |
 | [RegExp Match Indices][regex-match-indices]                                    | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                     | <sub>[December&nbsp;2019][regex-match-indices-notes]</sub> |
 | [`String.prototype.replaceAll`][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens                    | Mathias Bynens                                                          | :question:                                     | <sub>[October&nbsp;2019][replace-all-notes]</sub>       |
-| [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov                   | Mathias Bynens                                                          | [:question:][tests-promise-any]                | <sub>[October 2019][promise-any-notes]</sub>            |
+| [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov                   | Mathias Bynens                                                          | [:white_check_mark:][tests-promise-any]        | <sub>[October 2019][promise-any-notes]</sub>            |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | :question:                                     | <sub>[December&nbsp;2019][nonblocking-notes]</sub>      |
 
 ### Stage 2
@@ -136,7 +136,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [isTemplateObject-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-4.md#arrayistemplateobject-update
 [promise-any]: https://github.com/tc39/proposal-promise-any
 [promise-any-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#promiseany-reprise
-[tests-promise-any]: https://github.com/tc39/test262/issues/2410
+[tests-promise-any]: https://github.com/tc39/test262/pull/2533
 [resource-management]: https://github.com/tc39/proposal-using-statement
 [resource-management-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-24.md#explicit-resource-management
 [map-upsert]: https://github.com/tc39/proposal-upsert
