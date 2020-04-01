@@ -30,6 +30,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`String.prototype.replaceAll`][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens                    | Mathias Bynens                                                          | :question:                                     | <sub>[October&nbsp;2019][replace-all-notes]</sub>       |
 | [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov                   | Mathias Bynens                                                          | [:white_check_mark:][tests-promise-any]        | <sub>[October 2019][promise-any-notes]</sub>            |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | :question:                                     | <sub>[December&nbsp;2019][nonblocking-notes]</sub>      |
+| [Logical Assignment Operators][logical-assignment] | Justin Ridgewell | Justin Ridgewell <br /> Hemanth HM | [:white_check_mark:](https://github.com/tc39/test262/pull/2559) | <sub>March&nbsp;2020</sub> 
 
 ### Stage 2
 
@@ -50,7 +51,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[July 2019][resource-management-notes]</sub>                   |
 | [`Map.prototype.upsert`][map-upsert]                                           | Bradley Farias                                        | Erica Pramer                                                                      | <sub>[October 2019][map-upsert-notes]</sub>                         |
 | [Dynamic Import Host Adjustment][]                                             | Mike Samuel                                           | Mike Samuel                                                                       | <sub>[December 2019][Dynamic Import Host Adjustment notes]</sub>    |
-| [Logical Assignment Operators][logical-assignment]                             | Justin Ridgewell                                      | Justin Ridgewell <br /> Hemanth HM                                                | <sub>February&nbsp;2020</sub>                                       |
 
 :white_check_mark: means a pull request for tests was merged.
 
