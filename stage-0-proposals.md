@@ -20,7 +20,6 @@ Stage 0 proposals are either
 | [Structured Clone][clone]                                          | Dmitry Lomov                          | Dmitry Lomov                          | [Jan 2014][clone-notes]           |
 | [WHATWG URL][url]                                                  | James M Snell                         | James M Snell                         |                                   |
 | [Object Shorthand Improvements][object-shorthand-improvements]     | Ron Buckton                           | Ron Buckton                           | [Sep 2017][shorthand-notes]       |
-| [Decimal][decimal]                                                 | Andrew Paprocki<br />Daniel Ehrenberg | Andrew Paprocki<br />Daniel Ehrenberg | [Nov 2017][decimal-notes]         |
 | [`deprecated`][deprecated]                                         | James M Snell                         | James M Snell                         |                                   |
 | [`as` destructuring patterns][as-patterns]                         | Kat Marchán                           | Kat Marchán                           |                                   |
 | [`Symbol.thenable`][symbol-thenable]                               | Gus Caplan                            | Jordan Harband<br />Myles Borins      | [May 2018][symbol-thenable-notes] |
@@ -41,7 +40,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [clone]: https://github.com/dslomov-chromium/ecmascript-structured-clone
 [url]: https://github.com/jasnell/proposal-url
 [object-shorthand-improvements]: https://github.com/rbuckton/proposal-shorthand-improvements
-[decimal]: https://github.com/littledan/proposal-decimal
 [deprecated]: https://github.com/jasnell/proposal-deprecated
 [as-patterns]: https://github.com/zkat/proposal-as-patterns
 [bind-notes]: https://github.com/tc39/notes/blob/master/meetings/2015-03/mar-25.md#6vi-function-bind-and-private-fields-redux-kevin-smith
@@ -51,7 +49,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [zones-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-03/march-29.md#zones-update
 [shorthand-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-09/sept-28.md#13i-object-shorthand-improvements
 [builtins-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-09/sept-28.md#14ia-builtinstypeof-and-builtinsis
-[decimal-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-11/nov-29.md#9ivb-decimal-for-stage-0
 [symbol-thenable]: https://github.com/devsnek/proposal-symbol-thenable
 [symbol-thenable-notes]: https://github.com/tc39/notes/blob/def2ee0c04bc91612576237314a4f3b1fe2edaef/meetings/2018-05/may-24.md#symbolthenable-for-stage-1-or-2
 [private-fields-in-in]: https://github.com/ljharb/proposal-private-fields-in-in

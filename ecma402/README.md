@@ -12,7 +12,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 3
 
-| Proposal                                                               | Author                           | Champion                         | TC39 meeting notes                                    |
+| Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
 | [`Intl.ListFormat`][intl.listformat]                                   | Zibi Braniecki                   | Zibi Braniecki                   |                                                       |
 | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]           | Zibi Braniecki                   | Zibi Braniecki                   | [March&nbsp;2019][datetimeformat-notes]               |
@@ -21,15 +21,15 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 2
 
-| Proposal                                                     | Author                           | Champion                                                       |
-| ------------------------------------------------------------ | -------------------------------- | -------------------------------------------------------------- |
-| [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg and Richard Gibson       | Richard Gibson                                               |
+| Proposal                                                               | Author                                    | Champion                                                       | <sub>Last Presented</sub>             |
+| ---------------------------------------------------------------------- | ----------------------------------------- | -------------------------------------------------------------- | ------------------------------------- |
+| [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg and Richard Gibson       | Richard Gibson                                                 | [February 2020][intl-segmenter-notes] |
 
 ### Stage 1
 
 | Proposal                                                     | Author          | Champion        | <sub>Last Presented</sub>                                        |
 | ------------------------------------------------------------ | --------------- | --------------- | ---------------------------------------------------------------- |
-| [`Intl.DurationFormat`][intl.durationformat]                 | Younies Mahmoud | Younies Mahmoud |                                                                  |
+| [`Intl.DurationFormat`][intl.durationformat]                 | Younies Mahmoud | Younies Mahmoud | [February 2020][intl.durationformat-notes]                       |
 
 ### Contributing new proposals
 
@@ -46,6 +46,7 @@ Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub org
 Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work **as long as** you never create a fork, or a new repository, with the same name - although Github Pages redirects will be broken (please update your links!).
 
 [intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
+[intl-segmenter-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#intlsegmenter-stage-2-update
 [intl.listformat]: https://github.com/tc39/proposal-intl-list-format
 [datetimeformat]: https://github.com/tc39/proposal-intl-datetime-style
 [datetimeformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#datestyletimestyle-for-stage-3
@@ -54,3 +55,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [proposal-intl-displaynames]: https://github.com/tc39/proposal-intl-displaynames
 [proposal-intl-displaynames-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#intldisplaynames
 [intl.durationformat]: https://github.com/younies/proposal-intl-duration-format
+[intl.durationformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#time-duration-format-proposal-for-stage-1

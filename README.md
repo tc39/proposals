@@ -25,7 +25,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:white_check_mark:][tests-hashbang-grammar]   | <sub>[November&nbsp;2018][hashbang-notes]</sub>         |
 | [Numeric separators][numeric_separators]                                       | Sam Goto<br />Rick Waldron                                              | Sam Goto<br />Rick Waldron                                              | [:white_check_mark:][tests-numeric_separators] | <sub>[June&nbsp;2019][numeric_separators-notes]</sub>   |
 | [Top-level `await`][await]                                                     | Myles Borins                                                            | Myles Borins                                                            | [:white_check_mark:][tests-await]              | <sub>[June&nbsp;2019][await-notes]</sub>                |
-| [WeakRefs][weakrefs]                                                           | Dean Tribble<br />Sathya Gunasekaran                          | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg | [:white_check_mark:][tests-weakrefs] | <sub>[June&nbsp;2019][weakrefs-notes]</sub>      |
+| [WeakRefs][weakrefs]                                                           | Dean Tribble<br />Sathya Gunasekaran                          | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg | [:white_check_mark:][tests-weakrefs] | <sub>[February 2020][weakrefs-notes]</sub>       |
 | [RegExp Match Indices][regex-match-indices]                                    | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                     | <sub>[December&nbsp;2019][regex-match-indices-notes]</sub> |
 | [`String.prototype.replaceAll`][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens                    | Mathias Bynens                                                          | :question:                                     | <sub>[October&nbsp;2019][replace-all-notes]</sub>       |
 | [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov                   | Mathias Bynens                                                          | [:white_check_mark:][tests-promise-any]        | <sub>[October 2019][promise-any-notes]</sub>            |
@@ -41,14 +41,14 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`throw` expressions][throw-expressions]                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[January&nbsp;2018][throw-expressions-notes]</sub>             |
 | [Function implementation hiding][censorship]                                   | Domenic Denicola<br />Michael Ficarra                 | Michael Ficarra                                                                   | <sub>[December&nbsp;2019][censorship-notes]</sub>                   |
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran                  | Sathya Gunasekaran                                                                | <sub>[January&nbsp;2019][set-methods-notes]</sub>                   |
-| [Realms][realms]                                                               | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño                                   | <sub>[May&nbsp;2018][realms-notes]</sub>                            |
+| [Realms][realms]                                                               | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño                                   | <sub>[February 2020][realms-notes]</sub>                            |
 | [`ArrayBuffer.prototype.transfer`][buffer-transfer]                            | Domenic Denicola                                      | Shu-yu Guo                                                                        | <sub>[July&nbsp;2018][buffer-transfer-notes]</sub>                  |
 | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                                        | Mathias Bynens                                                                    | <sub>[October&nbsp;2019][unicode-sequence-properties-notes]</sub>   |
-| [Temporal][temporal]                                                           | Maggie Pint<br />Matt Johnson<br />Philipp Dunkel     | Maggie Pint<br />Philipp Dunkel<br />Brian Terlson                                | <sub>[September&nbsp;2018][temporal-notes]</sub>                    |
+| [Temporal][temporal]                                                           | Maggie Pint<br />Matt Johnson<br />Philipp Dunkel     | Maggie Pint<br />Philipp Dunkel<br />Brian Terlson                                | <sub>[February 2020][temporal-notes]</sub>                          |
 | [collection normalization][collection-rekey]                                   | Bradley Farias                                        | Bradley Farias                                                                    | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                   |
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel                                           | Mike Samuel                                                                       | <sub>[December&nbsp;2019][isTemplateObject-notes]</sub>             |
 | [Iterator helpers][iterator-helpers]                                           | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin                                              | <sub>[July 2019][iterator-helpers-notes]</sub>                      |
-| [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[July 2019][resource-management-notes]</sub>                   |
+| [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[February 2020][resource-management-notes]</sub>               |
 | [`Map.prototype.upsert`][map-upsert]                                           | Bradley Farias                                        | Erica Pramer                                                                      | <sub>[October 2019][map-upsert-notes]</sub>                         |
 | [Dynamic Import Host Adjustment][]                                             | Mike Samuel                                           | Mike Samuel                                                                       | <sub>[December 2019][Dynamic Import Host Adjustment notes]</sub>    |
 
@@ -92,12 +92,12 @@ Note that as part of the onboarding process your repository name may be normaliz
 [private-methods-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-30.md#private-fields-and-methods-refresher
 [tests-private-methods]: https://github.com/tc39/test262/issues/1343
 [weakrefs]: https://github.com/tc39/proposal-weakrefs
-[weakrefs-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-06/june-6.md#weakrefs
+[weakrefs-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#update-on-weakrefs
 [tests-weakrefs]: https://github.com/tc39/test262/pull/2192
 [realms]: https://github.com/tc39/proposal-realms
-[realms-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#realms
+[realms-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#update-on-realms
 [temporal]: https://github.com/tc39/proposal-temporal
-[temporal-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-09/sept-27.md#temporal-for-stage-2
+[temporal-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#strings-or-symbols-for-temporalcalendar-protocol
 [nonblocking]: https://github.com/tc39/proposal-atomics-wait-async
 [nonblocking-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-4.md#atomicswaitasync-for-stage-3
 [throw-expressions]: https://github.com/tc39/proposal-throw-expressions
@@ -125,7 +125,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer/
 [buffer-transfer-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-24.md#arraybufferprototypetransfer
 [resource-management]: https://github.com/tc39/proposal-using-statement
-[resource-management-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-25.md#explicit-resource-management-for-stage-2-continuation-from-tuesday
+[resource-management-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#updates-on-explicit-resource-management
 [standard-library]: https://github.com/tc39/proposal-javascript-standard-library
 [standard-library-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-26.md#javascript-standard-library
 [collection-rekey]: https://github.com/tc39/proposal-collection-normalization
@@ -144,4 +144,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [Dynamic Import Host Adjustment]: https://github.com/tc39/dynamic-import-host-adjustment/blob/master/README.md
 [Dynamic Import Host Adjustment notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#dynamic-import-host-adjustment-for-stage-2
 [logical-assignment]: https://github.com/tc39/proposal-logical-assignment
-[logical-assignment-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-03/mar-22.md#10ie-logical-assignment-operators-for-stage-1-cont
+[logical-assignment-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#logical-assignment-for-stage-2

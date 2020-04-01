@@ -8,7 +8,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
 | [`export v from "mod";` statements][export-from]                                             | Lee Byron                                             | Ben Newman<br />John-David Dalton                      | <sub>[July&nbsp;2017][export-from-notes]</sub>                    |
 | [Observable][observable]                                                                     | Jafar Husain                                          | Jafar Husain<br />Mark Miller                          | <sub>[May&nbsp;2017][observable-notes]</sub>                      |
-| [SES (Secure EcmaScript)][secure-ecmascript]                                                 | Mark Miller<br />Chip Morningstar<br />Caridy Patiño  | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   | <sub>[December&nbsp;2019][secure-ecmascript-notes]</sub>          |
+| [SES (Secure EcmaScript)][secure-ecmascript]                                                 | Mark Miller<br />Chip Morningstar<br />Caridy Patiño  | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   | <sub>[February 2020][secure-ecmascript-notes]</sub>               |
 | [`Math` Extensions][more-math]                                                               | Rick Waldron                                          | Rick Waldron                                           | <sub>[July&nbsp;2016][more-math-notes]</sub>                      |
 | [`of` and `from` on collection constructors][collection-of-from]                             | Leo Balter                                            | Leo Balter                                             | <sub>[September&nbsp;2016][collection-of-from-notes]</sub>        |
 | [Generator arrow functions][generator-arrow-functions]                                       | Sergey Rubanov                                        | Brendan Eich                                           | <sub>[September&nbsp;2016][generator-arrow-functions-notes]</sub> |
@@ -42,7 +42,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [JavaScript Standard Library][standard-library]                                              | Michael Saboff<br />Mattijs Hoitink                   | Michael Saboff<br />Mattijs Hoitink                    | <sub>[June&nbsp;2019][standard-library-notes]</sub>               |
 | [`"use module"`][modules-pragma]                                                             | Dave Herman                                           | Dave Herman                                            | <sub>[July&nbsp;2017][modules-pragma-notes]</sub>                 |
 | [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]                   | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][uniform-date-parse-notes]</sub>        |
-| [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][json-parse-source-notes]</sub>         |
+| [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                        | Richard Gibson                                         | <sub>[February 2020][json-parse-source-notes]</sub>               |
 | [IDL for ECMAScript][idl]                                                                    | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[September&nbsp;2018][idl-notes]</sub>                       |
 | [Asset References][asset-references]                                                         | Sebastian Markbage                                    | Sebastian Markbage                                     | <sub>[November&nbsp;2018][asset-references-notes]</sub>           |
 | [Freezing prototypes][freeze-proto]                                                          | Kevin Gibbons                                         | Kevin Gibbons                                          | <sub>[January&nbsp;2019][freeze-proto-notes]</sub>                |
@@ -51,7 +51,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Emitter][emitter]                                                                           | Shu-yu Guo<br />Pedram Emrouznejad                    | Shu-yu Guo<br />Pedram Emrouznejad                     | <sub>[June&nbsp;2019][emitter-notes]</sub>                        |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[December&nbsp;2019][dynamic-code-brand-checks-notes]</sub>  |
 | [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>[July 2019][reverse-iteration-notes]</sub>                   |
-| [Improving iteration on Objects][object-iteration]                                           | Jonathan Keslin                                       | Jonathan Keslin                                        | <sub>[October 2019][object-iteration-notes]</sub>                       |
+| [Improving iteration on Objects][object-iteration]                                           | Jonathan Keslin                                       | Jonathan Keslin                                        | <sub>[February 2020][object-iteration-notes]</sub>                |
 | [Record & Tuple][record-tuple]                                                               | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                       | <sub>[October 2019][record-tuple-notes]</sub>                     |
 | [Declarations in Conditionals][declarations-in-conditionals]                                 | Devin Rousso                                          | Devin Rousso                                           | <sub>[October 2019][declarations-in-conditionals-notes]</sub>     |
 | [UUID][uuid]                                                                                | Benjamin Coe<br />Robert Kieffer <br />Christoph Tavan | Benjamin Coe                                           | <sub>[October 2019][uuid-notes]</sub>                             |
@@ -59,15 +59,15 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Support for Distributed Promise Pipelining][eventual-send]                                  | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>[October 2019][eventual-send-notes]</sub>                    |
 | [Wavy Dot: Syntactic Support for Promise Pipelining][promise-pipelining]                     | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>[December 2019][promise-pipelining-notes]</sub>              |
 | [OOM Fails Fast][oom]                                                                        | Mark Miller                                           | Mark Miller                                            | <sub>[December 2019][oom-notes]</sub>                             |
-| [Array reject][array-reject]                                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[December 2019][array-reject-notes]</sub>                    |
+| [Array filtering][array-filtering]                                                           | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[February 2020][array-filtering-notes]</sub>                 |
 | [Operator overloading][overloading]                                                          | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[December 2019][overloading-notes]</sub>                     |
-| [Module Attributes][module-attributes]                            | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>[December 2019][module-attributes-notes]</sub>               |
-| [Async initialization][async-init]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>February 2020</sub>                                          |
-| [Decimal][decimal]                                                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>February 2020</sub>                                          |
-| [Preserve Host Virtualizability][virtualize]                    | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | <sub>February 2020</sub>              |
-| [Legacy reflection features for functions in JavaScript][legacy-reflection]                  | Mark Miller<br />Claude Pache<br />Jack Works         | Mark Miller<br />Claude Pache<br />Jack Works          | <sub>February 2020</sub>                                          |
-| [Cryptographically Secure Random Number Generation][csprng]                                  | Ron Buckton                                           | Ron Buckton                                            | <sub>February 2020</sub>                                          |
-| [ArrayBuffer view stride argument][arraybuffer-view-stride]                                  | Surma                                                 | Shu-yu Guo                                             | <sub>February 2020</sub>                                          |
+| [Module Attributes][module-attributes]                            | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>[February 2020][module-attributes-notes]</sub>               |
+| [Async initialization][async-init]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[February 2020][async-init-notes]</sub>                      |
+| [Decimal][decimal]                                                                           | Daniel Ehrenberg<br />Andrew Paprocki                 | Daniel Ehrenberg<br />Andrew Paprocki                  | <sub>[February 2020][decimal-notes]</sub>                         |
+| [Preserve Host Virtualizability][virtualize]                    | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | <sub>[February 2020][virtualize-notes]</sub> |
+| [Legacy reflection features for functions in JavaScript][legacy-reflection]                  | Mark Miller<br />Claude Pache<br />Jack Works         | Mark Miller<br />Claude Pache<br />Jack Works          | <sub>[February 2020][legacy-reflection-notes]</sub>               |
+| [Cryptographically Secure Random Number Generation][csprng]                                  | Ron Buckton                                           | Ron Buckton                                            | <sub>[February 2020][csprng-notes]</sub>                          |
+| [ArrayBuffer view stride argument][arraybuffer-view-stride]                                  | Surma                                                 | Shu-yu Guo                                             | <sub>[February 2020][arraybuffer-view-stride-notes]</sub>         |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -77,7 +77,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [observable]: https://github.com/tc39/proposal-observable
 [observable-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2
 [secure-ecmascript]: https://github.com/tc39/proposal-ses
-[secure-ecmascript-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#update-on-ses
+[secure-ecmascript-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#ses-compartments
 [more-math]: https://github.com/rwaldron/proposal-math-extensions
 [more-math-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-07/jul-26.md#9iie-math-extensions
 [collection-of-from]: https://github.com/tc39/proposal-setmap-offrom
@@ -144,7 +144,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [uniform-date-parse]: https://github.com/tc39/proposal-uniform-interchange-date-parsing
 [uniform-date-parse-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
-[json-parse-source-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-09/sept-27.md#jsonparse-source-text-access
+[json-parse-source-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#jsonparse-source-text-access-for-stage-2
 [idl]: https://github.com/tc39/proposal-idl
 [idl-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-09/sept-27.md#idl-for-javascript
 [asset-references]: https://github.com/sebmarkbage/ecmascript-asset-references
@@ -162,7 +162,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [reverse-iteration]: https://github.com/tc39/proposal-reverseIterator
 [reverse-iteration-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-23.md#symbolreverse
 [object-iteration]: https://github.com/tc39/proposal-object-iteration
-[object-iteration-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-1.md#objectmap-for-stage-1
+[object-iteration-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#object-iteration-for-stage-2
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
 [record-tuple-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-1.md#records--tuples-for-stage-1
 [declarations-in-conditionals]: https://github.com/tc39/proposal-Declarations-in-Conditionals
@@ -177,15 +177,21 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [promise-pipelining-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#update-on-promise-pipelining
 [oom]: https://github.com/tc39/proposal-oom-fails-fast
 [oom-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#update-on-oom-must-fail-fast
-[array-reject]: https://github.com/jridgewell/proposal-array-select-reject
-[array-reject-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#array-selectreject-for-stage-1
+[array-filtering]: https://github.com/tc39/proposal-array-filtering
+[array-filtering-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#status-update-on-array-filtering
 [overloading]: https://github.com/tc39/proposal-operator-overloading
 [overloading-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
 [module-attributes]: https://github.com/tc39/proposal-module-attributes
-[module-attributes-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#module-attributes-continuation-of-earlier-discussion
+[module-attributes-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#module-attributes-status-update
 [decimal]: https://github.com/littledan/proposal-decimal
+[decimal-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-4.md#bigdecimal-for-stage-1
 [virtualize]: https://github.com/Agoric/proposal-preserve-virtualizability
+[virtualize-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-4.md#preserve-host-virtualizability
 [legacy-reflection]: https://github.com/claudepache/es-legacy-function-reflection
+[legacy-reflection-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#legacy-reflection-features-for-functions-in-javascript-for-stage-1
 [async-init]: https://docs.google.com/presentation/d/1DsjZAzBjn2gCrr4l0uZzCymPIWZTKM8KzcnMBF31HAg/edit#slide=id.g7d23d45064_0_196
+[async-init-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-4.md#async-initialization-for-stage-1
 [csprng]: https://github.com/rbuckton/proposal-csprng
+[csprng-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#arraybufferfillrandom-for-stage-1
 [arraybuffer-view-stride]: https://github.com/surma/arraybufferview-stride-proposal
+[arraybuffer-view-stride-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#arraybuffer-view-stride-argument-for-stage-1
