@@ -70,6 +70,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [ArrayBuffer view stride argument][arraybuffer-view-stride]                                  | Surma                                                 | Shu-yu Guo                                             | <sub>[February&nbsp;2020][arraybuffer-view-stride-notes]</sub>         |
 | [Number.range & BigInt.range][number-bigint-range]                                           | Jack Works                                            | Jack Works                                             | <sub>March&nbsp;2020</sub>                                             |
 | [Ergonomic brand checks for Private Fields][private-fields-in-in]                            | Jordan Harband                                        | Jordan Harband                                         | <sub>March&nbsp;2020</sub>                                             |
+| [Compartments][proposal-compartments]                                                        | Bradley Farias                                        | Bradley Farias                                         | <sub>March&nbsp;2020</sub>                                             |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -199,3 +200,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [arraybuffer-view-stride-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#arraybuffer-view-stride-argument-for-stage-1
 [number-bigint-range]: https://github.com/Jack-Works/proposal-Number.range
 [private-fields-in-in]: https://github.com/ljharb/proposal-private-fields-in-in
+[proposal-compartments]: https://github.com/bmeck/proposal-compartments
