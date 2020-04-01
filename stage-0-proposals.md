@@ -26,6 +26,7 @@ Stage 0 proposals are either
 | [Ergonomic brand checks for Private Fields][private-fields-in-in]  | Jordan Harband                        | Jordan Harband                        |
 | [RefCollection][refcollection]                                     | Robin Ricard                          | Robin Ricard                          |
 | [Deep Path Properties for Records][deep-path-properties]           | Rick Button                           | Rick Button                           |
+| [Conflict comments][conflict-comments]                             | Mike Pennisi                          | Mike Pennisi                          |                                   |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -56,3 +57,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [private-fields-in-in]: https://github.com/ljharb/proposal-private-fields-in-in
 [refcollection]: https://github.com/rricard/proposal-refcollection/
 [deep-path-properties]: https://github.com/rickbutton/proposal-deep-path-properties-for-record/
+[conflict-comments]: https://github.com/jugglinmike/proposal-conflict-comment
