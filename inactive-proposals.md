@@ -25,6 +25,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Normative ICU Reference][icu]                                       | Domenic Denicola                                           | Withdrawn; champion is no longer participating in TC39                                         |
 | [Zones][zones]                                                       | Domenic Denicola & Miško Hevery                            | Withdrawn; champion is no longer participating in TC39                                         |
 | [Blöcks][blocks]                                                     | Domenic Denicola                                           | Withdrawn; champion is no longer participating in TC39                                         |
+| [RegExp Atomic Groups & Possessive Quantifiers][re-atomic-groups]    | Justin Ridgewell                                           | Never presented; engines are not interested in the feature, mainly because it doesn't solve backtracking for most users |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -52,3 +53,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [icu]: https://github.com/tc39/notes/blob/master/meetings/2017-05/may-23.md#normative-icu-reference
 [zones]: https://github.com/domenic/zones
 [blocks]: https://github.com/domenic/proposal-blocks
+[re-atomic-groups]: https://github.com/jridgewell/proposal-regexp-atomic-and-possessive
