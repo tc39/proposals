@@ -25,7 +25,6 @@ Stage 0 proposals are either
 | [`Symbol.thenable`][symbol-thenable]                               | Gus Caplan                            | Jordan Harband<br />Myles Borins      | [May 2018][symbol-thenable-notes] |
 | [RefCollection][refcollection]                                     | Robin Ricard                          | Robin Ricard                          |
 | [Deep Path Properties for Records][deep-path-properties]           | Rick Button                           | Rick Button                           |
-| [Conflict comments][conflict-comments]                             | Mike Pennisi                          | Mike Pennisi                          |                                   |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -55,4 +54,3 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [symbol-thenable-notes]: https://github.com/tc39/notes/blob/def2ee0c04bc91612576237314a4f3b1fe2edaef/meetings/2018-05/may-24.md#symbolthenable-for-stage-1-or-2
 [refcollection]: https://github.com/rricard/proposal-refcollection/
 [deep-path-properties]: https://github.com/rickbutton/proposal-deep-path-properties-for-record/
-[conflict-comments]: https://github.com/jugglinmike/proposal-conflict-comment
