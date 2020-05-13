@@ -36,7 +36,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`for-in` mechanics][for-in-mechanics]                                   | Kevin Gibbons                                          | Kevin Gibbons                                           | [December&nbsp;2019][for-in-mechanics-notes]| 2020                      |
 | [Optional Chaining][chaining]                                            | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery  | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser | [December 2019][chaining-notes] | 2020        |
 | [Nullish coalescing Operator][nullish-coalescing]                        | Gabriel Isenberg                                       | Gabriel Isenberg<br />Justin Ridgewell<br />Daniel Rosenwasser | [December 2019][nullish-coalescing-notes] | 2020                 |
-| [`import.meta`][import-meta]                                             | Domenic Denicola                                       | Gus Caplan                                              | March&nbsp;2020                             | 2020                      |
+| [`import.meta`][import-meta]                                             | Domenic Denicola                                       | Gus Caplan                                              | [March&nbsp;2020][import-meta-notes]        | 2020                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -105,4 +105,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [nullish-coalescing]: https://github.com/tc39/proposal-nullish-coalescing
 [nullish-coalescing-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-4.md#nullish-coalescing-for-stage-4
 [import-meta]: https://github.com/tc39/proposal-import-meta
-[import-meta-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-09/sept-27.md#12iiic-importmeta-for-stage-3
+[import-meta-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#importmeta-for-stage-4-continued-from-previous-day
