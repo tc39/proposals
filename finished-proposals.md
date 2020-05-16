@@ -28,6 +28,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Well-formed `JSON.stringify`][well-formed-stringify]                    | Richard Gibson                                         | Mathias Bynens                                          | [January 2019][well-formed-stringify-notes] | 2019                      |
 | [`String.prototype.{trimStart,trimEnd}`][trims]                          | Sebastian Markbåge                                     | Sebastian Markbåge<br />Mathias Bynens                  | [January 2019][trims-notes]                 | 2019                      |
 | [`Array.prototype.{flat,flatMap}`][flat]                                 | Brian Terlson<br />Michael Ficarra<br />Mathias Bynens | Brian Terlson<br />Michael Ficarra                      | [January 2019][flat-notes]                  | 2019                      |
+| [`export * as ns from "mod";` statements][export-ns-from]                | Lee Byron                                              | Valerie Young                                           | [March 2019][export-ns-from]                | 2020                      |
 | [`String.prototype.matchAll`][matchall]                                  | Jordan Harband                                         | Jordan Harband                                          | [March 2019][matchall-notes]                | 2020                      |
 | [`import()`][dynamic-import]                                             | Domenic Denicola                                       | Domenic Denicola                                        | [June 2019][dynamic-import-notes]           | 2020                      |
 | [`BigInt`][bigint]                                                       | Daniel Ehrenberg                                       | Daniel Ehrenberg                                        | [June 2019][bigint-notes]                   | 2020                      |
@@ -88,6 +89,8 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [trims-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-29,md#stringprototypetrimstarttrimend-for-stage-4
 [flat]: https://github.com/tc39/proposal-flatMap
 [flat-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-29.md#arrayprototypeflatflatmap-for-stage-4
+[export-ns-from]: https://github.com/tc39/proposal-export-ns-from
+[export-ns-from-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#normative-add-export--as-ns-from-mod-to-export-production-and-module-semantic
 [matchall]: https://github.com/tc39/String.prototype.matchAll
 [matchall-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#stringprototypematchall-for-stage-4
 [dynamic-import]: https://github.com/tc39/proposal-dynamic-import
