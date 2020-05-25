@@ -67,7 +67,8 @@ Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub org
 
 1. Transfer your repository to the [@tc39-transfer](http://github.com/tc39-transfer) organization
   - if you are a TC39 delegate, but not an admin in that organization, please contact [@LJHarb](https://github.com/ljharb)
-2. [@bterlson](https://github.com/bterlson), [@gesa](https://github.com/gesa), or [@codehag](https://github.com/codehag) will transfer your repository to the TC39 organization the next chance they get.
+2. Inform the chair group about the transfer on [the Admin and Business repository](https://github.com/tc39/Admin-and-Business).
+3. [@bterlson](https://github.com/bterlson), [@gesa](https://github.com/gesa), or [@codehag](https://github.com/codehag) will transfer your repository to the TC39 organization the next chance they get.
 
 Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work **as long as** you never create a fork, or a new repository, with the same name - although Github Pages redirects will be broken (please update your links!).
 
