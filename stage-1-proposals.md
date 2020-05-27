@@ -39,7 +39,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [class Access Expressions][class-access-expressions]                                         | Ron Buckton                                           | Ron Buckton                                            | <sub>[May&nbsp;2018][class-access-expressions-notes]</sub>        |
 | [Pattern Matching][matching]                                                                 | Kat Marchán<br />Brian Terlson                        | Jordan Harband                                         | <sub>[March&nbsp;2020][matching-notes]</sub>                      |
 | [Dynamic Modules][dynamic-modules]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[July&nbsp;2018][dynamic-modules-notes]</sub>                |
-| [JavaScript Standard Library][standard-library]                                              | Michael Saboff<br />Mattijs Hoitink                   | Michael Saboff<br />Mattijs Hoitink                    | <sub>[June&nbsp;2019][standard-library-notes]</sub>               |
+| [Built In Modules (aka JS Standard Library)][built-in-modules]                                              | Michael Saboff<br />Mattijs Hoitink                   | Michael Saboff<br />Mattijs Hoitink<br />Mark Miller                    | <sub>[July&nbsp;2019][built-in-modules-notes]</sub>               |
 | [`"use module"`][modules-pragma]                                                             | Dave Herman                                           | Dave Herman                                            | <sub>[July&nbsp;2017][modules-pragma-notes]</sub>                 |
 | [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]                   | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][uniform-date-parse-notes]</sub>        |
 | [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                        | Richard Gibson                                         | <sub>[February&nbsp;2020][json-parse-source-notes]</sub>               |
@@ -140,8 +140,8 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [matching-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/march-31.md#pattern-matching-update
 [dynamic-modules]: https://github.com/nodejs/dynamic-modules
 [dynamic-modules-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-25.md#dynamic-modules
-[standard-library]: https://github.com/tc39/proposal-javascript-standard-library
-[standard-library-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-06/june-5.md#javascript-standard-library-for-stage-2--part-2-
+[built-in-modules]: https://github.com/tc39/proposal-built-in-modules
+[built-in-modules-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-24.md#built-in-modules-aka-javascript-standard-library
 [modules-pragma]: https://github.com/tc39/proposal-modules-pragma
 [modules-pragma-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
 [uniform-date-parse]: https://github.com/tc39/proposal-uniform-interchange-date-parsing
