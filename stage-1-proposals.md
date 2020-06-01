@@ -69,7 +69,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Cryptographically Secure Random Number Generation][csprng]                                  | Ron Buckton                                           | Ron Buckton                                            | <sub>[February&nbsp;2020][csprng-notes]</sub>                          |
 | [TypedArray stride parameter][typedarray-stride-parameter]                                   | Surma                                                 | Shu-yu Guo                                             | <sub>[March&nbsp;2020][typedarray-stride-parameter]</sub>              |
 | [Number.range & BigInt.range][number-bigint-range]                                           | Jack Works                                            | Jack Works                                             | <sub>[March&nbsp;2020][number-bigint-range-notes]</sub>                |
-| [Ergonomic brand checks for Private Fields][private-fields-in-in]                            | Jordan Harband                                        | Jordan Harband                                         | <sub>[March&nbsp;2020][private-fields-in-in-notes]</sub>               |
 | [Compartments][proposal-compartments]                                                        | Bradley Farias                                        | Bradley Farias                                         | <sub>[March&nbsp;2020][proposal-compartments-notes]</sub>              |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
@@ -200,7 +199,5 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [typedarray-stride-parameter-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/march-31.md#typedarray-stride-parameter-for-stage-2
 [number-bigint-range]: https://github.com/Jack-Works/proposal-Number.range
 [number-bigint-range-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#numberrange-and-bigintrange-for-stage-1
-[private-fields-in-in]: https://github.com/ljharb/proposal-private-fields-in-in
-[private-fields-in-in-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#ergonomic-brand-checks-for-private-fields-for-stage-1
 [proposal-compartments]: https://github.com/bmeck/proposal-compartments
 [proposal-compartments-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#compartments-for-stage-1

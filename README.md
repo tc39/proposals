@@ -50,6 +50,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[February&nbsp;2020][resource-management-notes]</sub>               |
 | [`Map.prototype.upsert`][map-upsert]                                           | Bradley Farias                                        | Erica Pramer                                                                      | <sub>[October&nbsp;2019][map-upsert-notes]</sub>                         |
 | [Dynamic Import Host Adjustment][]                                             | Mike Samuel                                           | Mike Samuel                                                                       | <sub>[December&nbsp;2019][Dynamic Import Host Adjustment notes]</sub>    |
+| [Ergonomic brand checks for Private Fields][private-fields-in-in]              | Jordan Harband                                        | Jordan Harband                                                                    | <sub>June&nbsp;2020</sub>                                                |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -143,3 +144,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [Dynamic Import Host Adjustment notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#dynamic-import-host-adjustment-for-stage-2
 [logical-assignment]: https://github.com/tc39/proposal-logical-assignment
 [logical-assignment-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/march-31.md#logicalassignment-for-stage-3
+[private-fields-in-in]: https://github.com/tc39/proposal-private-fields-in-in
+[private-fields-in-in-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#ergonomic-brand-checks-for-private-fields-for-stage-1
