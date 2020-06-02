@@ -29,7 +29,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`String.prototype.replaceAll`][replace-all]                                   | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens                    | Mathias Bynens                                                          | :question:                                     | <sub>[October&nbsp;2019][replace-all-notes]</sub>       |
 | [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov                   | Mathias Bynens                                                          | [:white_check_mark:][tests-promise-any]        | <sub>[October&nbsp;2019][promise-any-notes]</sub>            |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | :question:                                     | <sub>[December&nbsp;2019][nonblocking-notes]</sub>      |
-| [Logical Assignment Operators][logical-assignment]                             | Justin Ridgewell                                                        | Justin Ridgewell <br /> Hemanth HM                                      | :question:                                     | <sub>[March&nbsp;2020][logical-assignment-notes]</sub>  |
+| [Logical Assignment Operators][logical-assignment]                             | Justin Ridgewell                                                        | Justin Ridgewell <br /> Hemanth HM                                      | [:white_check_mark:][tests-lgcl-assignment]    | <sub>[March&nbsp;2020][logical-assignment-notes]</sub>  |
 
 ### Stage 2
 
@@ -144,5 +144,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [Dynamic Import Host Adjustment notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#dynamic-import-host-adjustment-for-stage-2
 [logical-assignment]: https://github.com/tc39/proposal-logical-assignment
 [logical-assignment-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/march-31.md#logicalassignment-for-stage-3
+[tests-lgcl-assignment]: https://github.com/tc39/test262/tree/master/test/language/expressions/logical-assignment
 [private-fields-in-in]: https://github.com/tc39/proposal-private-fields-in-in
 [private-fields-in-in-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#ergonomic-brand-checks-for-private-fields-for-stage-1
