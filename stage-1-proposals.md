@@ -70,6 +70,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [TypedArray stride parameter][typedarray-stride-parameter]                                   | Surma                                                 | Shu-yu Guo                                             | <sub>[March&nbsp;2020][typedarray-stride-parameter]</sub>              |
 | [Number.range & BigInt.range][number-bigint-range]                                           | Jack Works                                            | Jack Works                                             | <sub>[March&nbsp;2020][number-bigint-range-notes]</sub>                |
 | [Compartments][proposal-compartments]                                                        | Bradley Farias                                        | Bradley Farias                                         | <sub>[March&nbsp;2020][proposal-compartments-notes]</sub>              |
+| [Symbols as WeakMap keys][symbols-weakmap]                                                   | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard | <sub>June 2020</sub>                                                  |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -201,3 +202,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [number-bigint-range-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#numberrange-and-bigintrange-for-stage-1
 [proposal-compartments]: https://github.com/bmeck/proposal-compartments
 [proposal-compartments-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#compartments-for-stage-1
+[symbols-weakmap]: https://github.com/rricard/proposal-symbols-as-weakmap-keys
