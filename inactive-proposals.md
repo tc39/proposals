@@ -22,10 +22,11 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [`Date.parse` fallback semantics][date-parse]                        | Morgan Phillips                                            | Inactive; likely replaced by [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse] |
 | [Distinguishing literal strings][distinguishing-literal-strings]     | Mike West & Adam Klein                                     | Withdrawn: [Trusted Types](https://github.com/WICG/trusted-types) no longer a dependent |
 | Annex B — HTML Attribute Event Handlers                              | Allen Wirfs-Brock                                          | Withdrawn per [PR comment](https://github.com/tc39/ecma262/issues/1595#issuecomment-509348434) |
-| [Normative ICU Reference][icu]                                       | Domenic Denicola                                           | Withdrawn; champion is no longer participating in TC39                                         |
-| [Zones][zones]                                                       | Domenic Denicola & Miško Hevery                            | Withdrawn; champion is no longer participating in TC39                                         |
-| [Blöcks][blocks]                                                     | Domenic Denicola                                           | Withdrawn; champion is no longer participating in TC39                                         |
+| [Normative ICU Reference][icu]                                       | Domenic Denicola                                           | Withdrawn; champion is no longer participating in TC39                                        |
+| [Zones][zones]                                                       | Domenic Denicola & Miško Hevery                            | Withdrawn; champion is no longer participating in TC39                                        |
+| [Blöcks][blocks]                                                     | Domenic Denicola                                           | Withdrawn; champion is no longer participating in TC39                                        |
 | [RegExp Atomic Groups & Possessive Quantifiers][re-atomic-groups]    | Justin Ridgewell                                           | Never presented; engines are not interested in the feature, mainly because it doesn't solve backtracking for most users |
+| [RefCollection][refcollection]                                       | Robin Ricard                                               | Withdrawn; replaced with [Symbols as WeakMap keys][symbols-weakmap]; also there were OCAP/membrane concerns around providing a globally available pre-instantiated RefCollection |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -54,3 +55,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [zones]: https://github.com/domenic/zones
 [blocks]: https://github.com/domenic/proposal-blocks
 [re-atomic-groups]: https://github.com/jridgewell/proposal-regexp-atomic-and-possessive
+[refcollection]: https://github.com/rricard/proposal-refcollection/
+[symbols-weakmap]: https://github.com/rricard/proposal-symbols-as-weakmap-keys

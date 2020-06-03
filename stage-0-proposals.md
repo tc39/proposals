@@ -23,7 +23,6 @@ Stage 0 proposals are either
 | [`deprecated`][deprecated]                                         | James M Snell                         | James M Snell                         |                                   |
 | [`as` destructuring patterns][as-patterns]                         | Kat Marchán                           | Kat Marchán                           |                                   |
 | [`Symbol.thenable`][symbol-thenable]                               | Gus Caplan                            | Jordan Harband<br />Myles Borins      | [May 2018][symbol-thenable-notes] |
-| [RefCollection][refcollection]                                     | Robin Ricard                          | Robin Ricard                          |
 | [Async Context][async-context]                                     | Chengzhong Wu                         | Chengzhong Wu                         | June 2020                         |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
@@ -51,5 +50,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [builtins-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-09/sept-28.md#14ia-builtinstypeof-and-builtinsis
 [symbol-thenable]: https://github.com/devsnek/proposal-symbol-thenable
 [symbol-thenable-notes]: https://github.com/tc39/notes/blob/def2ee0c04bc91612576237314a4f3b1fe2edaef/meetings/2018-05/may-24.md#symbolthenable-for-stage-1-or-2
-[refcollection]: https://github.com/rricard/proposal-refcollection/
 [async-context]: https://github.com/legendecas/proposal-async-context
