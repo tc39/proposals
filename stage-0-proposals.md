@@ -47,7 +47,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [nested-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-07/jul-27.md#10iiic-nested-import-declaration
 [ortho-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-03/mar-22.md#10iiia-orthogonal-classes
 [clone-notes]: https://github.com/tc39/notes/blob/master/meetings/2014-01/jan-30.md#structured-clone
-[zones-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-03/march-29.md#zones-update
 [shorthand-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-09/sept-28.md#13i-object-shorthand-improvements
 [builtins-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-09/sept-28.md#14ia-builtinstypeof-and-builtinsis
 [symbol-thenable]: https://github.com/devsnek/proposal-symbol-thenable
