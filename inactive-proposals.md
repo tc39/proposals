@@ -59,4 +59,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [refcollection]: https://github.com/rricard/proposal-refcollection/
 [symbols-weakmap]: https://github.com/rricard/proposal-symbols-as-weakmap-keys
 [spaceship]: https://github.com/hemanth/proposal-generic-comparison
-[array-equality]: https://github.com/hemanth/proposal-array-equality
+[array-equality]: https://github.com/tc39/proposal-array-equality
