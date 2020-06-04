@@ -74,6 +74,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Deep Path Properties in Record Literals][deep-path-properties]                              | Rick Button                                           | Rick Button                                            | <sub>June 2020</sub>                                                   |
 | [Restrict subclassing support in built-in methods][species-extinct]                          | Yulia Startsev<br />Shu-yu Guo                        | Yulia Startsev<br />Shu-yu Guo                         | <sub>June 2020</sub>                                                   |
 | [Array Equality][array-equality]                                                             | Hemanth HM<br />Jordan Harband                        | Hemanth HM<br />Jordan Harband                         | <sub>June 2020</sub>                                                   |
+| [`.item()`][item]                                                                            | Shu-yu Guo<br />Tab Atkins                            | Shu-yu Guo<br />Tab Atkins                             | <sub>June 2020</sub>                                                   |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -209,3 +210,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [deep-path-properties]: https://github.com/rickbutton/proposal-deep-path-properties-for-record
 [species-extinct]: https://github.com/syg/proposal-rm-builtin-subclassing
 [array-equality]: https://github.com/hemanth/proposal-array-equality
+[item]: https://github.com/tabatkins/proposal-item-method
