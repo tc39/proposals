@@ -61,7 +61,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [OOM Fails Fast][oom]                                                                        | Mark Miller                                           | Mark Miller                                            | <sub>[December&nbsp;2019][oom-notes]</sub>                             |
 | [Array filtering][array-filtering]                                                           | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[February&nbsp;2020][array-filtering-notes]</sub>                 |
 | [Operator overloading][overloading]                                                          | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[December&nbsp;2019][overloading-notes]</sub>                     |
-| [Module Attributes][module-attributes]                            | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>[February&nbsp;2020][module-attributes-notes]</sub>               |
 | [Async initialization][async-init]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[February&nbsp;2020][async-init-notes]</sub>                      |
 | [Decimal][decimal]                                                                           | Daniel Ehrenberg<br />Andrew Paprocki                 | Daniel Ehrenberg<br />Andrew Paprocki                  | <sub>[March&nbsp;2020][decimal-notes]</sub>                            |
 | [Preserve Host Virtualizability][virtualize]                    | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | <sub>[February&nbsp;2020][virtualize-notes]</sub> |
@@ -188,8 +187,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [array-filtering-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#status-update-on-array-filtering
 [overloading]: https://github.com/tc39/proposal-operator-overloading
 [overloading-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
-[module-attributes]: https://github.com/tc39/proposal-module-attributes
-[module-attributes-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#module-attributes-status-update
 [decimal]: https://github.com/littledan/proposal-decimal
 [decimal-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/march-31.md#decimal-update
 [virtualize]: https://github.com/Agoric/proposal-preserve-virtualizability
