@@ -18,6 +18,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]           | Zibi Braniecki                   | Zibi Braniecki                   | [March&nbsp;2019][datetimeformat-notes]               |
 | [`Intl.DateFormat.prototype.formatRange`][formatrange]                 | Felipe Balbontín                 | Sathya Gunasekaran               | [March&nbsp;2019][formatrange-notes]                  |
 | [Intl.DisplayNames][proposal-intl-displaynames]                        | Frank Tang                       | Frank Tang                       | [October&nbsp;2019][proposal-intl-displaynames-notes] |
+| [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [June&nbsp;2020][intl.durationformat-notes]           |
 
 ### Stage 2
 
@@ -29,7 +30,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                     | Author          | Champion        | <sub>Last Presented</sub>                                        |
 | ------------------------------------------------------------ | --------------- | --------------- | ---------------------------------------------------------------- |
-| [`Intl.DurationFormat`][intl.durationformat]                 | Younies Mahmoud | Younies Mahmoud | [February 2020][intl.durationformat-notes]                       |
 | [Intl.NumberFormat V3][intl-v3]                              | Shane Carr      | Shane Carr      | [March 2020][intl-v3-notes]                                      |
 | [Intl.Enumeration API][intl-enumeration]                     | Frank Tang      | Frank Tang      | June 2020                                                        |
 | [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | June 2020                                                        |
@@ -57,7 +57,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [formatrange-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#intldatetimeformatprototypeformatrange-for-stage-3
 [proposal-intl-displaynames]: https://github.com/tc39/proposal-intl-displaynames
 [proposal-intl-displaynames-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#intldisplaynames
-[intl.durationformat]: https://github.com/younies/proposal-intl-duration-format
+[intl.durationformat]: https://github.com/tc39/proposal-intl-duration-format
 [intl.durationformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#time-duration-format-proposal-for-stage-1
 [intl-v3]: https://github.com/sffc/proposal-intl-numberformat-v3
 [intl-v3-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#intlnumberformat-v3-for-stage-1
