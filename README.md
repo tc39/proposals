@@ -27,7 +27,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [WeakRefs][weakrefs]                                                           | Dean Tribble<br />Sathya Gunasekaran                          | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg | [:white_check_mark:][tests-weakrefs] | <sub>[March&nbsp;2020][weakrefs-notes]</sub>       |
 | [RegExp Match Indices][regex-match-indices]                                    | Ron Buckton                                                             | Ron Buckton                                                             | [:white_check_mark:][tests-regexp-match-indices] | <sub>[December&nbsp;2019][regex-match-indices-notes]</sub> |
 | [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov                   | Mathias Bynens                                                          | [:white_check_mark:][tests-promise-any]        | <sub>[October&nbsp;2019][promise-any-notes]</sub>            |
-| [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | :question:                                     | <sub>[December&nbsp;2019][nonblocking-notes]</sub>      |
+| [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | [:white_check_mark:][tests-nonblocking]                       | <sub>[December&nbsp;2019][nonblocking-notes]</sub>      |
 | [Logical Assignment Operators][logical-assignment]                             | Justin Ridgewell                                                        | Justin Ridgewell <br /> Hemanth HM                                      | [:white_check_mark:][tests-lgcl-assignment]    | <sub>[March&nbsp;2020][logical-assignment-notes]</sub>  |
 
 ### Stage 2
@@ -98,6 +98,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [temporal-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#temporal-update
 [nonblocking]: https://github.com/tc39/proposal-atomics-wait-async
 [nonblocking-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-4.md#atomicswaitasync-for-stage-3
+[tests-nonblocking]: https://github.com/tc39/test262/issues/2511
 [throw-expressions]: https://github.com/tc39/proposal-throw-expressions
 [throw-expressions-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-01/jan-24.md#13iiii-throw-expressions-for-stage-3
 [static-class-features]: http://github.com/tc39/proposal-static-class-features/
