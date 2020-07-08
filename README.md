@@ -50,7 +50,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Map.prototype.upsert`][map-upsert]                                           | Bradley Farias                                        | Erica Pramer                                                                      | <sub>[October&nbsp;2019][map-upsert-notes]</sub>                         |
 | [Dynamic Import Host Adjustment][]                                             | Mike Samuel                                           | Mike Samuel                                                                       | <sub>[December&nbsp;2019][Dynamic Import Host Adjustment notes]</sub>    |
 | [Ergonomic brand checks for Private Fields][private-fields-in-in]              | Jordan Harband                                        | Jordan Harband                                                                    | <sub>June&nbsp;2020</sub>                                                |
-| [Import Attributes][import-attributes]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>June&nbsp;2020</sub>                                                |
+| [Import Conditions][import-conditions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>June&nbsp;2020</sub>                                                |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -146,5 +146,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-lgcl-assignment]: https://github.com/tc39/test262/tree/master/test/language/expressions/logical-assignment
 [private-fields-in-in]: https://github.com/tc39/proposal-private-fields-in-in
 [private-fields-in-in-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#ergonomic-brand-checks-for-private-fields-for-stage-1
-[import-attributes]: https://github.com/tc39/proposal-import-attributes
-[import-attributes-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#module-attributes-status-update
+[import-conditions]: https://github.com/tc39/proposal-import-conditions
+[import-conditions-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#module-attributes-status-update
