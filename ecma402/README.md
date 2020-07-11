@@ -25,12 +25,12 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | ---------------------------------------------------------------------- | ----------------------------------------- | -------------------------------------------------------------- | ------------------------------------- |
 | [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg and Richard Gibson       | Richard Gibson                                                 | [February 2020][intl-segmenter-notes] |
 | [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [June&nbsp;2020][intl.durationformat-notes]           |
+| [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                                | Shane Carr                                                     | [June 2020][intl-v3-notes]            |
 
 ### Stage 1
 
 | Proposal                                                     | Author          | Champion        | <sub>Last Presented</sub>                                        |
 | ------------------------------------------------------------ | --------------- | --------------- | ---------------------------------------------------------------- |
-| [Intl.NumberFormat V3][intl-v3]                              | Shane Carr      | Shane Carr      | [March 2020][intl-v3-notes]                                      |
 | [Intl.Enumeration API][intl-enumeration]                     | Frank Tang      | Frank Tang      | June 2020                                                        |
 | [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | June 2020                                                        |
 
@@ -60,6 +60,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl.durationformat]: https://github.com/tc39/proposal-intl-duration-format
 [intl.durationformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#time-duration-format-proposal-for-stage-1
 [intl-v3]: https://github.com/sffc/proposal-intl-numberformat-v3
-[intl-v3-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#intlnumberformat-v3-for-stage-1
+[intl-v3-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-06/june-2.md#intlnumberformat-v3-for-stage-2
 [intl-enumeration]: https://github.com/FrankYFTang/proposal-intl-enumeration
 [smart-units]: https://github.com/younies/proposal-intl-number-format-usage
