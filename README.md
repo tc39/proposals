@@ -49,6 +49,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Import Conditions][import-conditions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>June&nbsp;2020</sub>                                                |
 | [WeakRefs `cleanupSome`][cleanup-some]                                         | Yulia Startsev<br />Daniel Ehrenberg                  | Yulia Startsev<br />Daniel Ehrenberg                                              | <sub>July&nbsp;2020</sub>                                                |
 | JSON Modules                                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>July&nbsp;2020</sub>                                                |
+| [`.item()`][item]                                                              | Shu-yu Guo<br />Tab Atkins                            | Shu-yu Guo<br />Tab Atkins                                                        | <sub>July&nbsp;2020</sub>                                                |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -136,3 +137,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [import-conditions]: https://github.com/tc39/proposal-import-conditions
 [import-conditions-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#module-attributes-status-update
 [cleanup-some]: https://github.com/codehag/proposal-cleanup-some
+[item]: https://github.com/tabatkins/proposal-item-method
