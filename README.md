@@ -24,7 +24,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:white_check_mark:][tests-hashbang-grammar]   | <sub>[November&nbsp;2018][hashbang-notes]</sub>         |
 | [Numeric separators][numeric_separators]                                       | Sam Goto<br />Rick Waldron                                              | Sam Goto<br />Rick Waldron                                              | [:white_check_mark:][tests-numeric_separators] | <sub>[June&nbsp;2019][numeric_separators-notes]</sub>   |
 | [Top-level `await`][await]                                                     | Myles Borins                                                            | Myles Borins                                                            | [:white_check_mark:][tests-await]              | <sub>[June&nbsp;2019][await-notes]</sub>                |
-| [WeakRefs][weakrefs]                                                           | Dean Tribble<br />Sathya Gunasekaran                          | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg | [:white_check_mark:][tests-weakrefs] | <sub>[March&nbsp;2020][weakrefs-notes]</sub>       |
 | [RegExp Match Indices][regex-match-indices]                                    | Ron Buckton                                                             | Ron Buckton                                                             | [:white_check_mark:][tests-regexp-match-indices] | <sub>[December&nbsp;2019][regex-match-indices-notes]</sub> |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | [:white_check_mark:][tests-nonblocking]                       | <sub>[December&nbsp;2019][nonblocking-notes]</sub>      |
 | [Logical Assignment Operators][logical-assignment]                             | Justin Ridgewell                                                        | Justin Ridgewell <br /> Hemanth HM                                      | [:white_check_mark:][tests-lgcl-assignment]    | <sub>[March&nbsp;2020][logical-assignment-notes]</sub>  |
@@ -50,6 +49,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Dynamic Import Host Adjustment][]                                             | Mike Samuel                                           | Mike Samuel                                                                       | <sub>[December&nbsp;2019][Dynamic Import Host Adjustment notes]</sub>    |
 | [Ergonomic brand checks for Private Fields][private-fields-in-in]              | Jordan Harband                                        | Jordan Harband                                                                    | <sub>June&nbsp;2020</sub>                                                |
 | [Import Conditions][import-conditions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>June&nbsp;2020</sub>                                                |
+| [WeakRefs `cleanupSome`][cleanup-some]                                         | Yulia Startsev<br />Daniel Ehrenberg                  | Yulia Startsev<br />Daniel Ehrenberg                                              | <sub>July&nbsp;2020</sub>                                                |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -89,9 +89,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [private-methods]: https://github.com/tc39/proposal-private-methods
 [private-methods-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-30.md#private-fields-and-methods-refresher
 [tests-private-methods]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Aclosed+private+methods
-[weakrefs]: https://github.com/tc39/proposal-weakrefs
-[weakrefs-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#weakrefs-finalizationregistry-api-change
-[tests-weakrefs]: https://github.com/tc39/test262/pull/2192
 [realms]: https://github.com/tc39/proposal-realms
 [realms-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#update-on-realms
 [temporal]: https://github.com/tc39/proposal-temporal
@@ -145,3 +142,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [private-fields-in-in-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#ergonomic-brand-checks-for-private-fields-for-stage-1
 [import-conditions]: https://github.com/tc39/proposal-import-conditions
 [import-conditions-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#module-attributes-status-update
+[cleanup-some]: https://github.com/codehag/proposal-cleanup-some

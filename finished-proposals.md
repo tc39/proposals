@@ -39,6 +39,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`import.meta`][import-meta]                                             | Domenic Denicola                                       | Gus Caplan                                              | [March 2020][import-meta-notes]        | 2020                      |
 | [`String.prototype.replaceAll`][replace-all]                             | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens   | Mathias Bynens                                          | June 2020                              | 2021
 | [`Promise.any`][promise-any]                                             | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov  | Mathias Bynens                                          | July 2020                              | 2021
+| [WeakRefs][weakrefs]                                                     | Dean Tribble<br />Sathya Gunasekaran                   | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg | July 2020 | 2021
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -111,3 +112,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [replace-all]: https://github.com/tc39/proposal-string-replaceall
 [promise-any]: https://github.com/tc39/proposal-promise-any
 [promise-any-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#promiseany-reprise
+[weakrefs]: https://github.com/tc39/proposal-weakrefs
+[weakrefs-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#weakrefs-finalizationregistry-api-change
