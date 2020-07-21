@@ -14,7 +14,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
-| [`Intl.ListFormat`][intl.listformat]                                   | Zibi Braniecki                   | Zibi Braniecki                   |                                                       |
 | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]           | Zibi Braniecki                   | Zibi Braniecki                   | [March&nbsp;2019][datetimeformat-notes]               |
 | [`Intl.DateFormat.prototype.formatRange`][formatrange]                 | Felipe Balbontín                 | Sathya Gunasekaran               | [March&nbsp;2019][formatrange-notes]                  |
 | [Intl.DisplayNames][proposal-intl-displaynames]                        | Frank Tang                       | Frank Tang                       | [October&nbsp;2019][proposal-intl-displaynames-notes] |
@@ -50,7 +49,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 
 [intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
 [intl-segmenter-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#intlsegmenter-stage-2-update
-[intl.listformat]: https://github.com/tc39/proposal-intl-list-format
 [datetimeformat]: https://github.com/tc39/proposal-intl-datetime-style
 [datetimeformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#datestyletimestyle-for-stage-3
 [formatrange]: https://github.com/tc39/proposal-intl-DateTimeFormat-formatRange

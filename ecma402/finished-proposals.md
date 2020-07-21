@@ -10,7 +10,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Intl.RelativeTimeFormat`][intl.relativetimeformat]                                         | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg | [December 2019][intl.relativetimeformat-notes]                    | 2020                      |
 | [`Intl.NumberFormat` Unified API Proposal][intl.numberformat]                                | Shane Carr                       | Shane Carr                       | [February 2020][intl.numberformat-notes]                          | 2020                      |
 | [`Intl.Locale`][intl.locale]                                                                 | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg | [February 2020][intl.locale-notes]                                | 2020                      |
-
+| [`Intl.ListFormat`][intl.listformat]                                                         | Zibi Braniecki                   | Zibi Braniecki                   | July 2020                                                         | 2021
 See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](README.md) documents.
 
 [intl.datetimeformat.prototype.formattoparts]: https://github.com/tc39/proposal-intl-formatToParts
@@ -25,3 +25,4 @@ See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](R
 [intl.numberformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#unified-number-format-for-stage-4
 [intl.locale]: https://github.com/tc39/proposal-intl-locale
 [intl.locale-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#intllocale-for-stage-4
+[intl.listformat]: https://github.com/tc39/proposal-intl-list-format
