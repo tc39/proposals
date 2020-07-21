@@ -26,7 +26,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Top-level `await`][await]                                                     | Myles Borins                                                            | Myles Borins                                                            | [:white_check_mark:][tests-await]              | <sub>[June&nbsp;2019][await-notes]</sub>                |
 | [WeakRefs][weakrefs]                                                           | Dean Tribble<br />Sathya Gunasekaran                          | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg | [:white_check_mark:][tests-weakrefs] | <sub>[March&nbsp;2020][weakrefs-notes]</sub>       |
 | [RegExp Match Indices][regex-match-indices]                                    | Ron Buckton                                                             | Ron Buckton                                                             | [:white_check_mark:][tests-regexp-match-indices] | <sub>[December&nbsp;2019][regex-match-indices-notes]</sub> |
-| [`Promise.any`][promise-any]                                                   | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov                   | Mathias Bynens                                                          | [:white_check_mark:][tests-promise-any]        | <sub>[October&nbsp;2019][promise-any-notes]</sub>            |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | [:white_check_mark:][tests-nonblocking]                       | <sub>[December&nbsp;2019][nonblocking-notes]</sub>      |
 | [Logical Assignment Operators][logical-assignment]                             | Justin Ridgewell                                                        | Justin Ridgewell <br /> Hemanth HM                                      | [:white_check_mark:][tests-lgcl-assignment]    | <sub>[March&nbsp;2020][logical-assignment-notes]</sub>  |
 
@@ -133,9 +132,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [isTemplateObject]: https://github.com/tc39/proposal-array-is-template-object
 [isTemplateObject-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-4.md#arrayistemplateobject-update
-[promise-any]: https://github.com/tc39/proposal-promise-any
-[promise-any-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-3.md#promiseany-reprise
-[tests-promise-any]: https://github.com/tc39/test262/pull/2533
 [resource-management]: https://github.com/tc39/proposal-using-statement
 [resource-management-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-24.md#explicit-resource-management
 [map-upsert]: https://github.com/tc39/proposal-upsert
