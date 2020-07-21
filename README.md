@@ -48,6 +48,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Ergonomic brand checks for Private Fields][private-fields-in-in]              | Jordan Harband                                        | Jordan Harband                                                                    | <sub>June&nbsp;2020</sub>                                                |
 | [Import Conditions][import-conditions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>June&nbsp;2020</sub>                                                |
 | [WeakRefs `cleanupSome`][cleanup-some]                                         | Yulia Startsev<br />Daniel Ehrenberg                  | Yulia Startsev<br />Daniel Ehrenberg                                              | <sub>July&nbsp;2020</sub>                                                |
+| JSON Modules                                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>July&nbsp;2020</sub>                                                |
 
 :white_check_mark: means a pull request for tests was merged.
 
