@@ -52,7 +52,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[December&nbsp;2019][dynamic-code-brand-checks-notes]</sub>  |
 | [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>[July&nbsp;2019][reverse-iteration-notes]</sub>                   |
 | [Improving iteration on Objects][object-iteration]                                           | Jonathan Keslin                                       | Jonathan Keslin                                        | <sub>[February&nbsp;2020][object-iteration-notes]</sub>                |
-| [Record & Tuple][record-tuple]                                                               | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                       | <sub>[March&nbsp;2020][record-tuple-notes]</sub>                       |
 | [Declarations in Conditionals][declarations-in-conditionals]                                 | Devin Rousso                                          | Devin Rousso                                           | <sub>[October&nbsp;2019][declarations-in-conditionals-notes]</sub>     |
 | [UUID][uuid]                                                                                | Benjamin Coe<br />Robert Kieffer <br />Christoph Tavan | Benjamin Coe                                           | <sub>[October&nbsp;2019][uuid-notes]</sub>                             |
 | [Readonly Collections][readonly-collections]                                                 | Mark Miller<br />Peter Hoddie                         | Mark Miller<br />Peter Hoddie                          | <sub>[October&nbsp;2019][readonly-collections-notes]</sub>             |
@@ -74,6 +73,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Restrict subclassing support in built-in methods][species-extinct]                          | Yulia Startsev<br />Shu-yu Guo                        | Yulia Startsev<br />Shu-yu Guo                         | <sub>June 2020</sub>                                                   |
 | [Array Equality][array-equality]                                                             | Hemanth HM<br />Jordan Harband                        | Hemanth HM<br />Jordan Harband                         | <sub>June 2020</sub>                                                   |
 | [await operations][await.ops]                                                                | Jack Works                                            | Jack Works<br />Jordan Harband                         | <sub>July 2020</sub>                                                   |
+| [`Array.prototype.unique()`][array-unique]                                                   | [TechQuery][https://github.com/TechQuery]             | Jack Works                                             | <sub>July 2020</sub>                                                   |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -169,8 +169,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [reverse-iteration-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-23.md#symbolreverse
 [object-iteration]: https://github.com/tc39/proposal-object-iteration
 [object-iteration-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#object-iteration-for-stage-2
-[record-tuple]: https://github.com/tc39/proposal-record-tuple
-[record-tuple-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#record-and-tuple-update
 [declarations-in-conditionals]: https://github.com/tc39/proposal-Declarations-in-Conditionals
 [declarations-in-conditionals-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#declarations-in-conditionals
 [uuid]: https://github.com/tc39/proposal-uuid
@@ -208,3 +206,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [species-extinct]: https://github.com/syg/proposal-rm-builtin-subclassing
 [array-equality]: https://github.com/tc39/proposal-array-equality
 [await.ops]: https://github.com/Jack-Works/proposal-await.ops
+[array-unique]: https://github.com/TechQuery/array-unique-proposal
