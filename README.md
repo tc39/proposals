@@ -51,6 +51,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | JSON Modules                                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>July&nbsp;2020</sub>                                                |
 | [`.item()`][item]                                                              | Shu-yu Guo<br />Tab Atkins                            | Shu-yu Guo<br />Tab Atkins                                                        | <sub>July&nbsp;2020</sub>                                                |
 | [Record & Tuple][record-tuple]                                                 | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                                                  | <sub>July&nbsp;2020</sub>                                                |
+| [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                    | <sub>July&nbsp;2020</sub>                                                |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -141,3 +142,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [item]: https://github.com/tabatkins/proposal-item-method
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
 [record-tuple-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#record-and-tuple-update
+[json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
+[json-parse-source-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#jsonparse-source-text-access-for-stage-2

@@ -42,7 +42,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Built In Modules (aka JS Standard Library)][built-in-modules]                                              | Michael Saboff<br />Mattijs Hoitink                   | Michael Saboff<br />Mattijs Hoitink<br />Mark Miller                    | <sub>[July&nbsp;2019][built-in-modules-notes]</sub>               |
 | [`"use module"`][modules-pragma]                                                             | Dave Herman                                           | Dave Herman                                            | <sub>[July&nbsp;2017][modules-pragma-notes]</sub>                 |
 | [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]                   | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][uniform-date-parse-notes]</sub>        |
-| [JSON.parse source text access][json-parse-source]                                           | Richard Gibson                                        | Richard Gibson                                         | <sub>[February&nbsp;2020][json-parse-source-notes]</sub>               |
 | [IDL for ECMAScript][idl]                                                                    | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[September&nbsp;2018][idl-notes]</sub>                       |
 | [Asset References][asset-references]                                                         | Sebastian Markbage                                    | Sebastian Markbage                                     | <sub>[November&nbsp;2018][asset-references-notes]</sub>           |
 | [Freezing prototypes][freeze-proto]                                                          | Kevin Gibbons                                         | Kevin Gibbons                                          | <sub>[January&nbsp;2019][freeze-proto-notes]</sub>                |
@@ -149,8 +148,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [modules-pragma-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
 [uniform-date-parse]: https://github.com/tc39/proposal-uniform-interchange-date-parsing
 [uniform-date-parse-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
-[json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
-[json-parse-source-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#jsonparse-source-text-access-for-stage-2
 [idl]: https://github.com/tc39/proposal-idl
 [idl-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-09/sept-27.md#idl-for-javascript
 [asset-references]: https://github.com/tc39/ecmascript-asset-references
