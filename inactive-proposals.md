@@ -8,7 +8,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Callable class constructors][callable-constructors]                 | Yehuda Katz and Allen Wirfs-Brock                          | Withdrawn: can be solved with decorators                                                      |
 | [`Error.isError`][is-error]                                          | Jordan Harband                                             | Withdrawn: in favor of [`Error` stack traces][error-stacks] proposal                          |
 | [`{Set,Map}.prototype.toJSON`][collection-json]                      | David Bruant and Jordan Harband                            | Rejected: better solved by a custom replacer function.                                        |
-| [Typed Objects][typed-objects]                                       | Till Schneidereit (previously Dmitry Lomov, Niko Matsakis) | Postponed: waiting for WebAssembly requirements to become clearer                             |
+| [Typed Objects][typed-objects-new]                                   | Till Schneidereit (previously [Dmitry Lomov, Niko Matsakis][typed-objects]) | Postponed: waiting for WebAssembly requirements to become clearer                             |
 | [Object enumerables][object-enums]                                   | Leo Balter & John-David Dalton                             | Rejected                                                                                      |
 | [Cancelable Promises][cancel-promise]                                | Domenic Denicola                                           | Withdrawn                                                                                     |
 | [Proposed Grammar change to ES Modules][module-unambig]              | Bradley Farias                                             | Rejected: No consensus on this specific solution.                                             |
@@ -39,6 +39,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [is-error]: https://github.com/ljharb/proposal-is-error
 [collection-json]: https://github.com/DavidBruant/Map-Set.prototype.toJSON
 [typed-objects]: https://github.com/dslomov/typed-objects-es7
+[typed-objects-new]: https://github.com/tschneidereit/proposal-typed-objects
 [object-enums]: https://github.com/leobalter/object-enumerables
 [cancel-promise]: https://github.com/tc39/proposal-cancelable-promises
 [module-unambig]: https://github.com/bmeck/UnambiguousJavaScriptGrammar
