@@ -9,7 +9,8 @@ Stage 0 proposals are either
 | -------------------------------------------------------------------- | ---------------- | ------------------ |
 | [Fix 9.2.3 LookupMatcher algorithm][]                                | Rafael Xavier    | Rafael Xavier      |
 | [`Intl.NumberFormat` `round` option][intl.numberformat round option] | Rafael Xavier    | Rafael Xavier      |
-| [`Intl.DisplayNames` v2][intl.displaynames-v2]                       | Frank Tang       | Frank Tang         |
+| [`Intl.DisplayNames v2`][intl.displaynames-v2]                      | Frank Tang       | Frank Tang         |
+| [`Intl Locale Info`][intl-locale-info]                               | Frank Tang       | Frank Tang         |
 
 See also the [finished proposals](finished-proposals.md), and [active proposals](README.md) documents.
 
@@ -17,3 +18,4 @@ See also the [finished proposals](finished-proposals.md), and [active proposals]
 [intl.numberformat round option]: https://github.com/rxaviers/ecma402-number-format-round-option
 [numberformat options]: https://github.com/sffc/proposal-unified-intl-numberformat
 [intl.displaynames-v2]: https://github.com/FrankYFTang/intl-displaynames-v2/
+[intl-locale-info]: https://github.com/FrankYFTang/proposal-intl-locale-info/
