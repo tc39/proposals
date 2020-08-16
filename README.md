@@ -53,11 +53,11 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Record & Tuple][record-tuple]                                                 | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                                                  | <sub>July&nbsp;2020</sub>                                                |
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                    | <sub>July&nbsp;2020</sub>                                                |
 
-:white_check_mark: means a pull request for tests was merged.
+:white_check_mark: means a pull request for tests was merged.
 
-:question: means there is no pull request for tests yet.
+:question: means there is no pull request for tests yet.
 
-:construction: means a pull request for tests was created, but not merged yet.
+:construction: means a pull request for tests was created, but not merged yet.
 
 ### Contributing new proposals
 
