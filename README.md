@@ -48,7 +48,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Ergonomic brand checks for Private Fields][private-fields-in-in]              | Jordan Harband                                        | Jordan Harband                                                                    | <sub>June&nbsp;2020</sub>                                                |
 | [Import Conditions][import-conditions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>June&nbsp;2020</sub>                                                |
 | [WeakRefs `cleanupSome`][cleanup-some]                                         | Yulia Startsev<br />Daniel Ehrenberg                  | Yulia Startsev<br />Daniel Ehrenberg                                              | <sub>July&nbsp;2020</sub>                                                |
-| JSON Modules                                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>July&nbsp;2020</sub>                                                |
+| [JSON Modules][json-modules]                                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>July&nbsp;2020</sub>                                                |
 | [`.item()`][item]                                                              | Shu-yu Guo<br />Tab Atkins                            | Shu-yu Guo<br />Tab Atkins                                                        | <sub>July&nbsp;2020</sub>                                                |
 | [Record & Tuple][record-tuple]                                                 | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                                                  | <sub>July&nbsp;2020</sub>                                                |
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                    | <sub>July&nbsp;2020</sub>                                                |
@@ -139,6 +139,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [import-conditions]: https://github.com/tc39/proposal-import-conditions
 [import-conditions-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#module-attributes-status-update
 [cleanup-some]: https://github.com/codehag/proposal-cleanup-some
+[json-modules]: https://github.com/tc39/proposal-json-modules
 [item]: https://github.com/tabatkins/proposal-item-method
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
 [record-tuple-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#record-and-tuple-update
