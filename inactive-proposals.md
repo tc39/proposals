@@ -29,6 +29,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [RefCollection][refcollection]                                       | Robin Ricard                                               | Withdrawn; replaced with [Symbols as WeakMap keys][symbols-weakmap]; also there were OCAP/membrane concerns around providing a globally available pre-instantiated RefCollection |
 | [Generic Comparison][spaceship]                                      | Hemanth HM & Jordan Harband                                | Withdrawn: replaced with [Array Equality][array-equality]
 | [`from ... import`][fromimport] | Bradley Farias | Never presented; preliminary feedback about syntax cost not being worth the weight |
+| [TypedArray stride parameter][typedarray-stride-parameter]           | Shu-yu Guo                                                 | Withdrawn: concern about performance implications, and the proposal is not expressive enough
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -63,3 +64,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [spaceship]: https://github.com/hemanth/proposal-generic-comparison
 [array-equality]: https://github.com/tc39/proposal-array-equality
 [fromimport]: https://github.com/bmeck/proposal-from-import
+[typedarray-stride-parameter]: https://github.com/tc39/arraybufferview-stride-proposal
