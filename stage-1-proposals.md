@@ -35,7 +35,6 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Richer Keys][richer-keys]                                                                   | Bradley Farias                                        | Bradley Farias                                         | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                 |
 | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                    | Sathya Gunasekaran                                     | <sub>[March&nbsp;2018][slice-notation-notes]</sub>                |
 | [Module Keys][module-keys]                                                                   | Mike Samuel                                           | Mike Samuel                                            | <sub>[May&nbsp;2018][module-keys-notes]</sub>                     |
-| [Class Static Block][static-blocks]                                                          | Ron Buckton                                           | Ron Buckton                                            | <sub>[May&nbsp;2018][static-blocks-notes]</sub>                   |
 | [class Access Expressions][class-access-expressions]                                         | Ron Buckton                                           | Ron Buckton                                            | <sub>[May&nbsp;2018][class-access-expressions-notes]</sub>        |
 | [Pattern Matching][matching]                                                                 | Kat Marchán<br />Brian Terlson                        | Jordan Harband                                         | <sub>[March&nbsp;2020][matching-notes]</sub>                      |
 | [Dynamic Modules][dynamic-modules]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[July&nbsp;2018][dynamic-modules-notes]</sub>                |
@@ -134,8 +133,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [slice-notation-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-03/mar-22.md#slice-notation-for-stage-1
 [module-keys]: https://github.com/tc39/tc39-module-keys
 [module-keys-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#module-keys-strawman-for-stage-1
-[static-blocks]: https://github.com/tc39/proposal-class-static-block#readme
-[static-blocks-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#class-static-block
 [class-access-expressions]: https://github.com/tc39/proposal-class-access-expressions
 [class-access-expressions-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#class-access-expressions
 [matching]: https://github.com/tc39/proposal-pattern-matching
