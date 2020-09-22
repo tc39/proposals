@@ -19,16 +19,16 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 2
 
-| Proposal                                                               | Author                                    | Champion                                                       | <sub>Last Presented</sub>             |
-| ---------------------------------------------------------------------- | ----------------------------------------- | -------------------------------------------------------------- | ------------------------------------- |
-| [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [June&nbsp;2020][intl.durationformat-notes]           |
-| [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                                | Shane Carr                                                     | [June 2020][intl-v3-notes]            |
+| Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                   |
+| ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ------------------------------------------- |
+| [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [June&nbsp;2020][intl.durationformat-notes] |
+| [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                       | Shane Carr                       | [June 2020][intl-v3-notes]                  |
+| [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | September 2020                              |
 
 ### Stage 1
 
 | Proposal                                                     | Author          | Champion        | <sub>Last Presented</sub>                                        |
 | ------------------------------------------------------------ | --------------- | --------------- | ---------------------------------------------------------------- |
-| [Intl Enumeration API][intl-enumeration]                     | Frank Tang      | Frank Tang      | June 2020                                                        |
 | [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | June 2020                                                        |
 
 ### Contributing new proposals
