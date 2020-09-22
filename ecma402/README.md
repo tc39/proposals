@@ -15,7 +15,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
 | [`Intl.DateFormat.prototype.formatRange`][formatrange]                 | Felipe Balbontín                 | Sathya Gunasekaran               | [March&nbsp;2019][formatrange-notes]                  |
-| [Intl.DisplayNames][proposal-intl-displaynames]                        | Frank Tang                       | Frank Tang                       | [October&nbsp;2019][proposal-intl-displaynames-notes] |
 | [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg, Richard Gibson | Richard Gibson                   | July&nbsp;2020                                        |
 
 ### Stage 2
@@ -50,8 +49,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl-segmenter-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#intlsegmenter-stage-2-update
 [formatrange]: https://github.com/tc39/proposal-intl-DateTimeFormat-formatRange
 [formatrange-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#intldatetimeformatprototypeformatrange-for-stage-3
-[proposal-intl-displaynames]: https://github.com/tc39/proposal-intl-displaynames
-[proposal-intl-displaynames-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#intldisplaynames
 [intl.durationformat]: https://github.com/tc39/proposal-intl-duration-format
 [intl.durationformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#time-duration-format-proposal-for-stage-1
 [intl-v3]: https://github.com/sffc/proposal-intl-numberformat-v3

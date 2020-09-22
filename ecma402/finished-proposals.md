@@ -12,6 +12,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Intl.Locale`][intl.locale]                                                                 | Zibi Braniecki, Daniel Ehrenberg | Zibi Braniecki, Daniel Ehrenberg | [February 2020][intl.locale-notes]                                | 2020                      |
 | [`Intl.ListFormat`][intl.listformat]                                                         | Zibi Braniecki                   | Zibi Braniecki                   | July 2020                                                         | 2021                      |
 | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]                                 | Zibi Braniecki                   | Zibi Braniecki                   | July 2020                                                         | 2021                      |
+| [Intl.DisplayNames][proposal-intl-displaynames]                                              | Frank Tang                       | Frank Tang                       | September 2020                                                    | 2021                      |
 
 See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](README.md) documents.
 
@@ -30,3 +31,4 @@ See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](R
 [intl.listformat]: https://github.com/tc39/proposal-intl-list-format
 [datetimeformat]: https://github.com/tc39/proposal-intl-datetime-style
 [datetimeformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#datestyletimestyle-for-stage-3
+[proposal-intl-displaynames]: https://github.com/tc39/proposal-intl-displaynames
