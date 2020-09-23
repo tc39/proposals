@@ -30,6 +30,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | Proposal                                                     | Author          | Champion        | <sub>Last Presented</sub>                                        |
 | ------------------------------------------------------------ | --------------- | --------------- | ---------------------------------------------------------------- |
 | [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | June 2020                                                        |
+| [`Intl.DisplayNames v2`][intl.displaynames-v2]               | Frank Tang      | Frank Tang      | September 2020
 
 ### Contributing new proposals
 
@@ -55,3 +56,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl-v3-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-06/june-2.md#intlnumberformat-v3-for-stage-2
 [intl-enumeration]: https://github.com/tc39/proposal-intl-enumeration
 [smart-units]: https://github.com/younies/proposal-intl-number-format-usage
+[intl.displaynames-v2]: https://github.com/FrankYFTang/intl-displaynames-v2/
