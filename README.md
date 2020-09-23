@@ -17,7 +17,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 
 | Proposal                                                                       | Author                                                                  | Champion                                                                | Tests                                          | <sub>Last Presented</sub>                               |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------|
-| [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | [:question:][tests-regexp-legacy]              | <sub>[May&nbsp;2017][regexp-legacy-notes]</sub>         |
+| [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | [:white_check_mark:][tests-regexp-legacy]      | <sub>[May&nbsp;2017][regexp-legacy-notes]</sub>         |
 | [Private instance methods and accessors][private-methods]                      | Daniel Ehrenberg                                                        | Daniel Ehrenberg<br />Kevin Gibbons                                     | [:white_check_mark:][tests-private-methods]    | <sub>[January&nbsp;2019][private-fields-and-methods-refresher-notes]</sub>      |
 | [Class Public Instance Fields & Private Instance Fields][class-fields]         | Daniel Ehrenberg<br />Kevin Gibbons                                     | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:white_check_mark:][tests-class-fields]       | <sub>[March&nbsp;2019][class-fields-notes]</sub> |
 | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg                                        | [:white_check_mark:][tests-static-class-fields] | <sub>[January&nbsp;2019][private-fields-and-methods-refresher-notes]</sub>      |
@@ -25,8 +25,9 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Top-level `await`][await]                                                     | Myles Borins                                                            | Myles Borins                                                            | [:white_check_mark:][tests-await]              | <sub>[June&nbsp;2019][await-notes]</sub>                |
 | [RegExp Match Indices][regex-match-indices]                                    | Ron Buckton                                                             | Ron Buckton                                                             | [:white_check_mark:][tests-regexp-match-indices] | <sub>[December&nbsp;2019][regex-match-indices-notes]</sub> |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | [:white_check_mark:][tests-nonblocking]        | <sub>[December&nbsp;2019][nonblocking-notes]</sub>      |
-| [`.item()`][item]                                                              | Shu-yu Guo<br />Tab Atkins                                              | Shu-yu Guo<br />Tab Atkins                                              | <sub>September&nbsp;2020</sub>                                                |
-| [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | <sub>September&nbsp;2020</sub>                                                |
+| [`.item()`][item]                                                              | Shu-yu Guo<br />Tab Atkins                                              | Shu-yu Guo<br />Tab Atkins                                              | [:construction:][tests-item]                   | <sub>September&nbsp;2020</sub>                          |
+| [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | :question:                                     | <sub>September&nbsp;2020</sub>                          |
+
 ### Stage 2
 
 | Proposal                                                                       | Author                                                | Champion                                                                          | <sub>Last Presented</sub>                                           |
@@ -75,7 +76,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features
 [regexp-legacy-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-05/may-25.md#15ia-regexp-legacy-features-for-stage-3
-[tests-regexp-legacy]: https://github.com/tc39/test262/issues/2371
+[tests-regexp-legacy]: https://github.com/tc39/test262/pull/2650
 [class-fields]: https://github.com/tc39/proposal-class-fields
 [class-fields-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/march-31.md#add-support-for-optionalchainprivateidentifier-in-class-features-proposals
 [private-fields-and-methods-refresher-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-30.md#private-fields-and-methods-refresher
@@ -139,6 +140,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [cleanup-some]: https://github.com/codehag/proposal-cleanup-some
 [json-modules]: https://github.com/tc39/proposal-json-modules
 [item]: https://github.com/tabatkins/proposal-item-method
+[tests-item]: https://github.com/tc39/test262/pull/2812
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
 [record-tuple-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#record-and-tuple-update
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
