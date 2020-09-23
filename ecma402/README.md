@@ -31,6 +31,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | ------------------------------------------------------------ | --------------- | --------------- | ---------------------------------------------------------------- |
 | [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | June 2020                                                        |
 | [`Intl.DisplayNames v2`][intl.displaynames-v2]               | Frank Tang      | Frank Tang      | September 2020
+| [`Intl Locale Info`][intl-locale-info]                       | Frank Tang      | Frank Tang      | September 2020
 
 ### Contributing new proposals
 
@@ -57,3 +58,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl-enumeration]: https://github.com/tc39/proposal-intl-enumeration
 [smart-units]: https://github.com/younies/proposal-intl-number-format-usage
 [intl.displaynames-v2]: https://github.com/FrankYFTang/intl-displaynames-v2/
+[intl-locale-info]: https://github.com/FrankYFTang/proposal-intl-locale-info/
