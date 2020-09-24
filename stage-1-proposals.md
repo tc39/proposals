@@ -73,6 +73,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [`Array.prototype.unique()`][array-unique]                                                   | [TechQuery][https://github.com/TechQuery]             | Jack Works                                             | <sub>July&nbsp;2020</sub>                                                   |
 | [String.dedent][string.dedent]                                                               | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell  | Hemanth HM<br />Justin Ridgewell                       | <sub>September&nbsp;2020</sub>                                              |
 | [Error Cause][error-cause]                                                                   | Chengzhong Wu                                         | Chengzhong Wu                                          | <sub>September&nbsp;2020</sub>                                              |
+| [Double-Ended Iterator and Destructuring][double-ended-iterator]                             | HE Shi-Jun                                            | HE Shi-Jun                                             | <sub>September&nbsp;2020</sub>                                              |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -202,3 +203,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [array-unique]: https://github.com/TechQuery/array-unique-proposal
 [string.dedent]: https://github.com/mmkal/proposal-multi-backtick-templates
 [error-cause]: https://github.com/legendecas/proposal-error-cause
+[double-ended-iterator]: https://github.com/hax/proposal-deiter
