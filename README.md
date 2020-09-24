@@ -53,6 +53,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Record & Tuple][record-tuple]                                                 | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                                                  | <sub>July&nbsp;2020</sub>                                                |
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                    | <sub>July&nbsp;2020</sub>                                                |
 | [Class Static Block][static-blocks]                                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>September&nbsp;2020</sub>                                           |
+| [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>September&nbsp;2020</sub>                                           |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -149,3 +150,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [import-assertions-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#module-attributes-status-update
 [static-blocks]: https://github.com/tc39/proposal-class-static-block#readme
 [static-blocks-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#class-static-block
+[resizable]: https://github.com/syg/proposal-resizablearraybuffer
