@@ -75,6 +75,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [Error Cause][error-cause]                                                                   | Chengzhong Wu                                         | Chengzhong Wu                                          | <sub>September&nbsp;2020</sub>                                              |
 | [Double-Ended Iterator and Destructuring][double-ended-iterator]                             | HE Shi-Jun                                            | HE Shi-Jun                                             | <sub>September&nbsp;2020</sub>                                              |
 | [Standardized Debug][debug]                                                                  | Gus Caplan                                            | Gus Caplan                                             | <sub>September&nbsp;2020</sub>                                              |
+| [Modulus and Additional Integer Math][modulus]                                               | Peter Hoddie                                          | Peter Hoddie                                           | <sub>September&nbsp;2020</sub>                                              |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -206,3 +207,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [error-cause]: https://github.com/legendecas/proposal-error-cause
 [double-ended-iterator]: https://github.com/hax/proposal-deiter
 [debug]: https://github.com/devsnek/proposal-standardized-debug
+[modulus]: https://github.com/phoddie/integer-and-modulus-math-proposal
