@@ -85,7 +85,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-static-class-fields]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Aclosed+static+fields+
 [function-sent]: https://github.com/tc39/proposal-function.sent
 [function-sent-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-23.md#making-functionsent-inactive
-[decorators]: http://github.com/tc39/proposal-decorators
+[decorators]: https://github.com/tc39/proposal-decorators
 [decorators-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-2.md#decorators-update--call-for-participation
 [private-methods]: https://github.com/tc39/proposal-private-methods
 [private-methods-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-30.md#private-fields-and-methods-refresher
@@ -99,14 +99,14 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-nonblocking]: https://github.com/tc39/test262/issues/2511
 [throw-expressions]: https://github.com/tc39/proposal-throw-expressions
 [throw-expressions-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-01/jan-24.md#13iiii-throw-expressions-for-stage-3
-[static-class-features]: http://github.com/tc39/proposal-static-class-features/
+[static-class-features]: https://github.com/tc39/proposal-static-class-features
 [static-class-features-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#static-class-features-for-stage-3
 [censorship]: https://github.com/tc39/proposal-function-implementation-hiding
 [censorship-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-4.md#update-on-function-implementation-hiding
 [await]: https://github.com/tc39/proposal-top-level-await
 [await-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-06/june-6.md#top-level-await-for-stage-3
 [tests-await]: https://github.com/tc39/test262/pull/2274
-[set-methods]: https://github.com/tc39/set-methods
+[set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-29.md#update-on-set-methods
 [hashbang-grammar]: https://github.com/tc39/proposal-hashbang
 [tests-hashbang-grammar]: https://github.com/tc39/test262/pull/2065
@@ -115,12 +115,12 @@ Note that as part of the onboarding process your repository name may be normaliz
 [richer-keys-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
 [unicode-sequence-properties]: https://github.com/tc39/proposal-regexp-unicode-sequence-properties
 [unicode-sequence-properties-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions
-[regex-match-indices]: https://github.com/tc39/proposal-regexp-match-Indices
+[regex-match-indices]: https://github.com/tc39/proposal-regexp-match-indices
 [regex-match-indices-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-3.md#regexp-match-indices-performance-feedback
 [tests-regexp-match-indices]: https://github.com/tc39/test262/pull/2309
-[buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer/
+[buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer
 [buffer-transfer-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-24.md#arraybufferprototypetransfer
-[resource-management]: https://github.com/tc39/proposal-using-statement
+[resource-management]: https://github.com/tc39/proposal-explicit-resource-management
 [resource-management-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#updates-on-explicit-resource-management
 [standard-library]: https://github.com/tc39/proposal-javascript-standard-library
 [standard-library-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-26.md#javascript-standard-library
@@ -130,17 +130,16 @@ Note that as part of the onboarding process your repository name may be normaliz
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [isTemplateObject]: https://github.com/tc39/proposal-array-is-template-object
 [isTemplateObject-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-4.md#arrayistemplateobject-update
-[resource-management]: https://github.com/tc39/proposal-using-statement
 [resource-management-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-24.md#explicit-resource-management
 [map-upsert]: https://github.com/tc39/proposal-upsert
 [map-upsert-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#mapupsert--previously-mapinsertorupdate
-[Dynamic Import Host Adjustment]: https://github.com/tc39/dynamic-import-host-adjustment/blob/master/README.md
+[Dynamic Import Host Adjustment]: https://github.com/tc39/dynamic-import-host-adjustment
 [Dynamic Import Host Adjustment notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#dynamic-import-host-adjustment-for-stage-2
 [private-fields-in-in]: https://github.com/tc39/proposal-private-fields-in-in
 [private-fields-in-in-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#ergonomic-brand-checks-for-private-fields-for-stage-1
-[cleanup-some]: https://github.com/codehag/proposal-cleanup-some
+[cleanup-some]: https://github.com/tc39/proposal-cleanup-some
 [json-modules]: https://github.com/tc39/proposal-json-modules
-[item]: https://github.com/tabatkins/proposal-item-method
+[item]: https://github.com/tc39/proposal-item-method
 [tests-item]: https://github.com/tc39/test262/pull/2812
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
 [record-tuple-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#record-and-tuple-update
@@ -148,6 +147,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [json-parse-source-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#jsonparse-source-text-access-for-stage-2
 [import-assertions]: https://github.com/tc39/proposal-import-assertions
 [import-assertions-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#module-attributes-status-update
-[static-blocks]: https://github.com/tc39/proposal-class-static-block#readme
+[static-blocks]: https://github.com/tc39/proposal-class-static-block
 [static-blocks-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#class-static-block
-[resizable]: https://github.com/syg/proposal-resizablearraybuffer
+[resizable]: https://github.com/tc39/proposal-resizablearraybuffer

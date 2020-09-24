@@ -29,7 +29,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 
 [metaprops]: https://github.com/allenwb/ESideas/blob/master/ES7MetaProps.md
 [defensible-classes]: https://web.archive.org/web/20160804042547/http://wiki.ecmascript.org/doku.php?id=strawman:defensible_classes
-[bind-syntax]: https://github.com/zenparsing/es-function-bind
+[bind-syntax]: https://github.com/tc39/proposal-bind-operator
 [func-expr-decorators]: https://goo.gl/8MmCMG
 [method-param-decorators]: https://goo.gl/r1XT9b
 [nested-imports]: https://github.com/benjamn/reify/blob/master/PROPOSAL.md
@@ -37,7 +37,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [is-callable-is-constructor]: https://github.com/caitp/TC39-Proposals/blob/master/tc39-reflect-isconstructor-iscallable.md
 [relationships]: https://web.archive.org/web/20160804042554/http://wiki.ecmascript.org/doku.php?id=strawman:relationships
 [string-at]: https://github.com/mathiasbynens/String.prototype.at
-[clone]: https://github.com/dslomov-chromium/ecmascript-structured-clone
+[clone]: https://github.com/dslomov/ecmascript-structured-clone
 [url]: https://github.com/jasnell/proposal-url
 [object-shorthand-improvements]: https://github.com/rbuckton/proposal-shorthand-improvements
 [deprecated]: https://github.com/jasnell/proposal-deprecated

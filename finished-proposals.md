@@ -93,7 +93,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [trims-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-29,md#stringprototypetrimstarttrimend-for-stage-4
 [flat]: https://github.com/tc39/proposal-flatMap
 [flat-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-29.md#arrayprototypeflatflatmap-for-stage-4
-[matchall]: https://github.com/tc39/String.prototype.matchAll
+[matchall]: https://github.com/tc39/proposal-string-matchall
 [matchall-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#stringprototypematchall-for-stage-4
 [dynamic-import]: https://github.com/tc39/proposal-dynamic-import
 [dynamic-import-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-06/june-4.md#dynamic-import-for-stage-4
