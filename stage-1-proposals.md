@@ -151,7 +151,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [uniform-date-parse-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
 [idl]: https://github.com/tc39/proposal-idl
 [idl-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-09/sept-27.md#idl-for-javascript
-[asset-references]: https://github.com/tc39/ecmascript-asset-references
+[asset-references]: https://github.com/tc39/proposal-asset-references
 [asset-references-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-11/nov-28.md#asset-references-for-stage-1
 [freeze-proto]: https://github.com/tc39/proposal-freeze-prototype
 [freeze-proto-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-31.md#freezing-prototypes-for-stage-1

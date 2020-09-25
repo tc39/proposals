@@ -44,8 +44,8 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [typed-objects-new]: https://github.com/tschneidereit/proposal-typed-objects
 [object-enums]: https://github.com/leobalter/object-enumerables
 [cancel-promise]: https://github.com/tc39/proposal-cancelable-promises
-[module-unambig]: https://github.com/bmeck/UnambiguousJavaScriptGrammar
-[dynamic-module-reform]: https://github.com/caridy/proposal-dynamic-modules
+[module-unambig]: https://github.com/tc39/proposal-UnambiguousJavaScriptGrammar
+[dynamic-module-reform]: https://github.com/tc39/proposal-dynamic-modules
 [simd]: https://github.com/tc39/ecmascript_simd/
 [simd-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-03/mar-21.md#conclusionresolution-10
 [ptc]: https://github.com/tc39/proposal-ptc-syntax
@@ -54,7 +54,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [is-types]: https://github.com/jasnell/proposal-istypes
 [error-stacks]: https://github.com/ljharb/proposal-error-stacks
 [collection-literals]: https://github.com/zkat/proposal-collection-literals
-[date-parse]: https://github.com/tc39-transfer/proposal-date-time-string-format
+[date-parse]: https://github.com/tc39/proposal-date-time-string-format
 [uniform-date-parse]: https://github.com/gibson042/ecma262-proposal-uniform-interchange-date-parsing
 [icu]: https://github.com/tc39/notes/blob/master/meetings/2017-05/may-23.md#normative-icu-reference
 [zones]: https://github.com/domenic/zones

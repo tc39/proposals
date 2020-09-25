@@ -53,9 +53,9 @@ Note that as part of the onboarding process your repository name may be normaliz
 [formatrange-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#intldatetimeformatprototypeformatrange-for-stage-3
 [intl.durationformat]: https://github.com/tc39/proposal-intl-duration-format
 [intl.durationformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#time-duration-format-proposal-for-stage-1
-[intl-v3]: https://github.com/sffc/proposal-intl-numberformat-v3
+[intl-v3]: https://github.com/tc39/proposal-intl-numberformat-v3
 [intl-v3-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-06/june-2.md#intlnumberformat-v3-for-stage-2
 [intl-enumeration]: https://github.com/tc39/proposal-intl-enumeration
-[smart-units]: https://github.com/younies/proposal-intl-number-format-usage
-[intl.displaynames-v2]: https://github.com/FrankYFTang/intl-displaynames-v2/
+[smart-units]: https://github.com/tc39/proposal-smart-unit-preferences
+[intl.displaynames-v2]: https://github.com/tc39/intl-displaynames-v2
 [intl-locale-info]: https://github.com/FrankYFTang/proposal-intl-locale-info/
