@@ -15,7 +15,7 @@ Proposals follow [this process document](https://tc39.github.io/process-document
 | [`Promise.try`][try]                                                                         | Jordan Harband                                        | Jordan Harband                                         | <sub>[November&nbsp;2016][try-notes]</sub>                        |
 | [`Math.signbit`: IEEE-754 sign bit][signbit]                                                 | JF Bastien                                            | JF Bastien                                             | <sub>[May&nbsp;2017][signbit-notes]</sub>                         |
 | [Error stacks][stacks]                                                                       | Jordan Harband                                        | Jordan Harband                                         | <sub>[January&nbsp;2017][stacks-notes]</sub>                      |
-| [`do` expressions][do]                                                                       | Dave Herman                                           | Kevin Gibbons                                          | <sub>May&nbsp;2020</sub>                                          |
+| [`do` expressions][do]                                                                       | Dave Herman                                           | Kevin Gibbons                                          | <sub>[June&nbsp;2020][do-notes]</sub>                             |
 | [Float16 on TypedArrays, DataView, `Math.hfround`][float16s]                                 | Leo Balter                                            | Leo Balter                                             | <sub>[May&nbsp;2017][float16s-notes]</sub>                        |
 | Change `Number.parseInt`/`parseFloat` to not coerce `null`/`undefined`/`NaN` (repo link TBD) |                                                       | Brendan Eich                                           | <sub>[July&nbsp;2017][parseInt-to-parseFloat]</sub>               |
 | [Binary AST][binary-ast]                                                                     | Shu-yu Guo                                            | Shu-yu Guo                                             | <sub>[May&nbsp;2018][binary-ast-notes]</sub>                      |
@@ -99,7 +99,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [stacks]: https://github.com/tc39/proposal-error-stacks
 [stacks-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-01/jan-25.md#15iiia-error-stacks-seeking-stage-1
 [do]: https://github.com/tc39/proposal-do-expressions
-[do-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-24.md#update-on-do-expressions
+[do-notes]: https://github.com/tc39/notes/blob/840c700dc7fa7b9f6d0a3c208bd66b333e304717/meetings/2020-06/june-1.md#do-expressions-for-stage-2
 [float16s]: https://docs.google.com/presentation/d/1Ta_IbravBUOvu7LUhlN49SvLU-8G8bIQnsS08P3Z4vY/edit?usp=sharing
 [float16s-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-05/may-23.md#16ig-float16-on-typedarrays-dataview-mathhfround-for-stage-1
 [parseInt-to-parseFloat]: https://github.com/tc39/notes/blob/master/meetings/2017-07/jul-26.md#13iib-consider-changing-numberparseint-and-numberparsefloat
