@@ -81,7 +81,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [class-fields]: https://github.com/tc39/proposal-class-fields
 [class-fields-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/march-31.md#add-support-for-optionalchainprivateidentifier-in-class-features-proposals
 [private-fields-and-methods-refresher-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-30.md#private-fields-and-methods-refresher
-[tests-class-fields]: https://github.com/tc39/test262/pulls?page=1&q=is%3Apr+is%3Aclosed+private+fields
+[tests-class-fields]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Aclosed+private+fields
 [tests-static-class-fields]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Aclosed+static+fields
 [function-sent]: https://github.com/tc39/proposal-function.sent
 [function-sent-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-23.md#making-functionsent-inactive
