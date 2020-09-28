@@ -1,0 +1,13 @@
+name: Link Checking
+
+on:
+  schedule:
+    - cron: 0 0 * * * # At 00:00 (UTC)
+
+jobs:
+  link-checking:
+    name: Link Checking
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: JSCIG/link-checker-action@v1
