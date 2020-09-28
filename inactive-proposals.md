@@ -20,7 +20,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [`Builtins.typeOf()` and `Builtins.is()`][is-types]                  | James M Snell                                              | Withdrawn: can be solved in other ways                                                        |
 | [Tagged Collection Literals][collection-literals]                    | Kat Marchán                                                | Withdrawn: pursuing `when new` syntax and other alternatives                                  |
 | [`Date.parse` fallback semantics][date-parse]                        | Morgan Phillips                                            | Inactive; likely replaced by [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse] |
-| [Distinguishing literal strings][distinguishing-literal-strings]     | Mike West<br />Adam Klein                                  | Withdrawn: [Trusted Types](https://github.com/WICG/trusted-types) no longer a dependent |
+| [Distinguishing literal strings][distinguishing-literal-strings]     | Mike West<br />Adam Klein                                  | Withdrawn: [Trusted Types](https://github.com/w3c/webappsec-trusted-types) no longer a dependent |
 | Annex B — HTML Attribute Event Handlers                              | Allen Wirfs-Brock                                          | Withdrawn per [PR comment](https://github.com/tc39/ecma262/issues/1595#issuecomment-509348434) |
 | [Normative ICU Reference][icu]                                       | Domenic Denicola                                           | Withdrawn; champion is no longer participating in TC39                                        |
 | [Zones][zones]                                                       | Domenic Denicola<br />Miško Hevery                         | Withdrawn; champion is no longer participating in TC39                                        |
@@ -52,16 +52,16 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [shallow-equal]: https://github.com/sebmarkbage/ecmascript-shallow-equal
 [construct]: https://github.com/jasnell/proposal-construct
 [is-types]: https://github.com/jasnell/proposal-istypes
-[error-stacks]: https://github.com/ljharb/proposal-error-stacks
+[error-stacks]: https://github.com/tc39/proposal-error-stacks
 [collection-literals]: https://github.com/zkat/proposal-collection-literals
 [date-parse]: https://github.com/tc39/proposal-date-time-string-format
-[uniform-date-parse]: https://github.com/gibson042/ecma262-proposal-uniform-interchange-date-parsing
+[uniform-date-parse]: https://github.com/tc39/proposal-uniform-interchange-date-parsing
 [icu]: https://github.com/tc39/notes/blob/master/meetings/2017-05/may-23.md#normative-icu-reference
 [zones]: https://github.com/domenic/zones
 [blocks]: https://github.com/domenic/proposal-blocks
 [re-atomic-groups]: https://github.com/jridgewell/proposal-regexp-atomic-and-possessive
 [refcollection]: https://github.com/rricard/proposal-refcollection/
-[symbols-weakmap]: https://github.com/rricard/proposal-symbols-as-weakmap-keys
+[symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
 [spaceship]: https://github.com/hemanth/proposal-generic-comparison
 [array-equality]: https://github.com/tc39/proposal-array-equality
 [fromimport]: https://github.com/bmeck/proposal-from-import

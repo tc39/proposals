@@ -7,7 +7,7 @@
 
 ## Active proposals
 
-Proposals follow [this process document](https://tc39.github.io/process-document/).
+Proposals follow [this process document](https://tc39.es/process-document/).
 This list contains only stage 1 proposals and higher that have not yet been withdrawn/rejected, or become finished.
 
 ### Stage 3

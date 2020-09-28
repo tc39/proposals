@@ -1,6 +1,6 @@
 # Finished Proposals
 
-Finished proposals are proposals that have reached stage 4, and are included in the [latest draft](https://tc39.github.io/ecma262/) of the specification.
+Finished proposals are proposals that have reached stage 4, and are included in the [latest draft](https://tc39.es/ecma262/) of the specification.
 
 | Proposal                                                                 | Author                                                 | Champion(s)                                             | TC39 meeting notes                          | Expected Publication Year |
 | ------------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------- | ------------------------- |
@@ -48,7 +48,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [array-includes]: https://github.com/tc39/Array.prototype.includes
 [array-includes-notes]: https://github.com/tc39/notes/blob/master/meetings/2015-11/nov-17.md#arrayprototypeincludes
 [exponentiation]: https://github.com/tc39/proposal-exponentiation-operator
-[exponentiation-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-01/2016-01-28.md#5xviii-exponentiation-operator-rw
+[exponentiation-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-01/jan-28.md#5xviii-exponentiation-operator-rw
 [object-values-entries]: https://github.com/tc39/proposal-object-values-entries
 [object-values-entries-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-03/march-29.md#objectvalues--objectentries
 [string-padding]: https://github.com/tc39/proposal-string-pad-start-end
@@ -90,7 +90,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [well-formed-stringify]: https://github.com/tc39/proposal-well-formed-stringify
 [well-formed-stringify-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-29.md#well-formed-jsonstringify-for-stage-4
 [trims]: https://github.com/tc39/proposal-string-left-right-trim
-[trims-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-29,md#stringprototypetrimstarttrimend-for-stage-4
+[trims-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-29.md#stringprototypetrimstarttrimend-for-stage-4
 [flat]: https://github.com/tc39/proposal-flatMap
 [flat-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-29.md#arrayprototypeflatflatmap-for-stage-4
 [matchall]: https://github.com/tc39/proposal-string-matchall

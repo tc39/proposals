@@ -1,6 +1,6 @@
 # Finished Proposals
 
-Finished proposals are proposals that have reached stage 4, and are included in the [latest draft](https://tc39.github.io/ecma402/) of the specification.
+Finished proposals are proposals that have reached stage 4, and are included in the [latest draft](https://tc39.es/ecma402/) of the specification.
 
 | Proposal                                                                                     | Author                               | Champion                             | TC39 meeting notes                                                | Expected Publication Year |
 | -------------------------------------------------------------------------------------------- | ------------------------------------ | ------------------------------------ | ----------------------------------------------------------------- | ----------------- |

@@ -2,7 +2,7 @@
 
 Stage 1 proposals represent problems that the committee is interested in spending time exploring solutions to.
 
-Proposals follow [this process document](https://tc39.github.io/process-document/).
+Proposals follow [this process document](https://tc39.es/process-document/).
 
 | Proposal                                                                                     | Author                                                | Champion                                               | <sub>Last Presented</sub>                                         |
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
