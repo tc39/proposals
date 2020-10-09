@@ -36,18 +36,12 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | ? | [`for-in` mechanics][for-in-mechanics]                                   | Kevin Gibbons                                          | Kevin Gibbons                                           | [December&nbsp;2019][for-in-mechanics-notes]| 2020                      |
 | [74](https://bugzilla.mozilla.org/show_bug.cgi?id=1566143) | [Optional Chaining][chaining]                                            | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery  | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser | [December 2019][chaining-notes] | 2020        |
 | [Fx72](https://bugzilla.mozilla.org/show_bug.cgi?id=1566141) | [Nullish coalescing Operator][nullish-coalescing]                        | Gabriel Isenberg                                       | Gabriel Isenberg<br />Justin Ridgewell<br />Daniel Rosenwasser | [December 2019][nullish-coalescing-notes] | 2020                 |
-<<<<<<< HEAD
 | [Fx62](https://bugzilla.mozilla.org/show_bug.cgi?id=1427610) | [`import.meta`][import-meta]                                             | Domenic Denicola                                       | Gus Caplan                                              | [March 2020][import-meta-notes]        | 2020                           |
 | [Fx72](https://bugzilla.mozilla.org/show_bug.cgi?id=1540021) | [`String.prototype.replaceAll`][replace-all]                             | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens   | Mathias Bynens                                          | June 2020                              | 2021                           |
 | [Fx72](https://bugzilla.mozilla.org/show_bug.cgi?id=1568903) | [`Promise.any`][promise-any]                                             | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov  | Mathias Bynens                                          | July 2020                              | 2021                           |
 | [In Progress](https://bugzilla.mozilla.org/show_bug.cgi?id=1561074) | [WeakRefs][weakrefs]                                                     | Dean Tribble<br />Sathya Gunasekaran                   | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg | July 2020 | 2021             |
 | [Fx77](https://bugzilla.mozilla.org/show_bug.cgi?id=1629106) | [Logical Assignment Operators][logical-assignment]                       | Justin Ridgewell                                       | Justin Ridgewell <br /> Hemanth HM                      | July 2020                              | 2021                           |
 | [Fx68](https://bugzilla.mozilla.org/show_bug.cgi?id=1421400) | [Numeric separators][numeric_separators]                                 | Sam Goto<br />Rick Waldron                             | Sam Goto<br />Rick Waldron                              | July 2020                              | 2021                           |
-=======
-| [Fx62](https://bugzilla.mozilla.org/show_bug.cgi?id=1427610) | [`import.meta`][import-meta]                                             | Domenic Denicola                                       | Gus Caplan                                              | [March&nbsp;2020][import-meta-notes]                             | 2020                      |
-| [Fx72](https://bugzilla.mozilla.org/show_bug.cgi?id=1540021) | [`String.prototype.replaceAll`][replace-all]                             | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens   | Mathias Bynens                                          | <sub>[October&nbsp;2019][replace-all-notes]</sub>       | 2021    |
-| [Available](https://bugzilla.mozilla.org/show_bug.cgi?id=1467846) | [`Atomics.waitAsync`][nonblocking]                                  | Lars Hansen                                            | Shu-yu Guo<br />Lars Hansen                             | <sub>[December&nbsp;2019][nonblocking-notes]</sub>      | 20201 |
->>>>>>> 56db142... add last meeting
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -116,7 +110,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [nullish-coalescing]: https://github.com/tc39/proposal-nullish-coalescing
 [nullish-coalescing-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-4.md#nullish-coalescing-for-stage-4
 [import-meta]: https://github.com/tc39/proposal-import-meta
-<<<<<<< HEAD
 [import-meta-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#importmeta-for-stage-4-continued-from-previous-day
 [replace-all]: https://github.com/tc39/proposal-string-replaceall
 [promise-any]: https://github.com/tc39/proposal-promise-any
@@ -127,8 +120,3 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [logical-assignment-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/march-31.md#logicalassignment-for-stage-3
 [numeric_separators]: https://github.com/tc39/proposal-numeric-separator
 [numeric_separators-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-28.md#decorator-based-extended-numeric-literals-status-update-and-numeric-separators-for-stage-3
-=======
-[import-meta-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-09/sept-27.md#12iiic-importmeta-for-stage-3
-[replace-all]: https://github.com/tc39/proposal-string-replaceall
-[replace-all-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#stringprototypereplaceall-for-stage-3
->>>>>>> 56db142... add last meeting

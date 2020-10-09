@@ -2,16 +2,6 @@
 
 Finished proposals are proposals that have reached stage 4, and are included in the [latest draft](https://tc39.es/ecma402/) of the specification.
 
-<<<<<<< HEAD
-| Proposal                                                                                     | Author                               | Champion                             | TC39 meeting notes                                                | Expected Publication Year |
-| -------------------------------------------------------------------------------------------- | ------------------------------------ | ------------------------------------ | ----------------------------------------------------------------- | ----------------- |
-| [`Intl.DateTimeFormat.prototype.formatToParts`][intl.datetimeformat.prototype.formattoparts] | Zibi Braniecki                       | Zibi Braniecki                       | [July 2016][intl.datetimeformat.prototype.formattoparts-notes]    | 2017              |
-| [`Intl.NumberFormat.prototype.formatToParts`][intl.numberformat.prototype.formattoparts]     | Zibi Braniecki                       | Zibi Braniecki                       | [September 2017][intl.numberformat.prototype.formattoparts-notes] | 2018              |
-| [`Intl.PluralRules`][intl.pluralrules]                                                       | Caridy Patiño<br />Eric Ferraiuolo   | Caridy Patiño<br />Eric Ferraiuolo   | [September 2017][intl.pluralrules-notes]                          | 2018              |
-| [`Intl.RelativeTimeFormat`][intl.relativetimeformat]                                         | Zibi Braniecki<br />Daniel Ehrenberg | Zibi Braniecki<br />Daniel Ehrenberg | [December 2019][intl.relativetimeformat-notes]                    | 2020              |
-| [`Intl.NumberFormat` Unified API Proposal][intl.numberformat]                                | Shane Carr                           | Shane Carr                           | [February 2020][intl.numberformat-notes]                          | 2020              |
-| [`Intl.Locale`][intl.locale]                                                                 | Zibi Braniecki<br />Daniel Ehrenberg | Zibi Braniecki<br />Daniel Ehrenberg | [February 2020][intl.locale-notes]                                | 2020              |
-=======
 | Fx Status | Proposal                                                                                     | Author                           | Champion                         | TC39 meeting notes                                                | Expected Publication Year |
 | ---------- | -------------------------------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------------------- | ------------------------- |
 | [Fx41](https://bugzilla.mozilla.org/show_bug.cgi?id=1260858) | [`Intl.DateTimeFormat.prototype.formatToParts`][intl.datetimeformat.prototype.formattoparts] | Zibi Braniecki                   | Zibi Braniecki                   | [July 2016][intl.datetimeformat.prototype.formattoparts-notes]    | 2017                      |

@@ -51,3 +51,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [symbol-thenable]: https://github.com/devsnek/proposal-symbol-thenable
 [symbol-thenable-notes]: https://github.com/tc39/notes/blob/def2ee0c04bc91612576237314a4f3b1fe2edaef/meetings/2018-05/may-24.md#symbolthenable-for-stage-1-or-2
 [async-context]: https://github.com/legendecas/proposal-async-context
+[async-context-notes]: https://github.com/tc39/notes/blob/4ea41d0d11292c3a4788040bb822e7a6d88784de/meetings/2020-07/july-23.md#async-context-updates--for-stage-1

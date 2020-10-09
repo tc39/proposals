@@ -50,7 +50,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[December&nbsp;2019][dynamic-code-brand-checks-notes]</sub>  |
 | [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>[July&nbsp;2019][reverse-iteration-notes]</sub>                   |
 | [Improving iteration on Objects][object-iteration]                                           | Jonathan Keslin                                       | Jonathan Keslin                                        | <sub>[February&nbsp;2020][object-iteration-notes]</sub>                |
-| [Record & Tuple][record-tuple]                                                               | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                       | <sub>[March&nbsp;2020][record-tuple-notes]</sub>                       |
 | [Declarations in Conditionals][declarations-in-conditionals]                                 | Devin Rousso                                          | Devin Rousso                                           | <sub>[October&nbsp;2019][declarations-in-conditionals-notes]</sub>     |
 | [UUID][uuid]                                                                                | Benjamin Coe<br />Robert Kieffer <br />Christoph Tavan | Benjamin Coe                                           | <sub>[October&nbsp;2019][uuid-notes]</sub>                             |
 | [Readonly Collections][readonly-collections]                                                 | Mark Miller<br />Peter Hoddie                         | Mark Miller<br />Peter Hoddie                          | <sub>[October&nbsp;2019][readonly-collections-notes]</sub>             |
@@ -64,7 +63,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Preserve Host Virtualizability][virtualize]                    | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | <sub>[February&nbsp;2020][virtualize-notes]</sub> |
 | [Legacy reflection features for functions in JavaScript][legacy-reflection]                  | Mark Miller<br />Claude Pache<br />Jack Works         | Mark Miller<br />Claude Pache<br />Jack Works          | <sub>[February&nbsp;2020][legacy-reflection-notes]</sub>               |
 | [Cryptographically Secure Random Number Generation][csprng]                                  | Ron Buckton                                           | Ron Buckton                                            | <sub>[February&nbsp;2020][csprng-notes]</sub>                          |
-<<<<<<< HEAD
 | [Number.range & BigInt.range][number-bigint-range]                                           | Jack Works                                            | Jack Works                                             | <sub>[March&nbsp;2020][number-bigint-range-notes]</sub>                |
 | [Compartments][proposal-compartments]                                                        | Bradley Farias                                        | Bradley Farias<br />Mark S. Miller<br />Caridy Patiño<br />J.F. Paradis<br />Patrick Soquet<br />Kris Kowal                                         | <sub>[March&nbsp;2020][proposal-compartments-notes]</sub>              |
 | [Symbols as WeakMap keys][symbols-weakmap]                                                   | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard | <sub>June&nbsp;2020</sub>                                                  |
@@ -78,15 +76,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Double-Ended Iterator and Destructuring][double-ended-iterator]                             | HE Shi-Jun                                            | HE Shi-Jun                                             | <sub>September&nbsp;2020</sub>                                              |
 | [Standardized Debug][debug]                                                                  | Gus Caplan                                            | Gus Caplan                                             | <sub>September&nbsp;2020</sub>                                              |
 | [Modulus and Additional Integer Math][modulus]                                               | Peter Hoddie                                          | Peter Hoddie                                           | <sub>September&nbsp;2020</sub>                                              |
-=======
-| [TypedArray stride parameter][typedarray-stride-parameter]                                   | Surma                                                 | Shu-yu Guo                                             | <sub>[March&nbsp;2020][typedarray-stride-parameter]</sub>              |
-| [Number.range & BigInt.range][number-bigint-range]                                           | Jack Works                                            | Jack Works                                             | <sub>[March&nbsp;2020][number-bigint-range-notes]</sub>                |
-| [Compartments][proposal-compartments]                                                        | Bradley Farias                                        | Bradley Farias                                         | <sub>[March&nbsp;2020][proposal-compartments-notes]</sub>              |
-| [Symbols as WeakMap keys][symbols-weakmap]                                                   | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard | <sub>June 2020</sub>                                                  |
-| [Deep Path Properties in Record Literals][deep-path-properties]                              | Rick Button                                           | Rick Button                                            | <sub>June 2020</sub>                                                   |
-| [Restrict subclassing support in built-in methods][species-extinct]                          | Yulia Startsev<br />Shu-yu Guo                        | Yulia Startsev<br />Shu-yu Guo                         | <sub>June 2020</sub>                                                   |
-| [Array Equality][array-equality]                                                             | Hemanth HM<br />Jordan Harband                        | Hemanth HM<br />Jordan Harband                         | <sub>June 2020</sub>                                                   |
-| [`.item()`][item]                                                                            | Shu-yu Guo<br />Tab Atkins                            | Shu-yu Guo<br />Tab Atkins                             | <sub>June 2020</sub>                                                   |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -162,7 +151,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [uniform-date-parse-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
 [idl]: https://github.com/tc39/proposal-idl
 [idl-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-09/sept-27.md#idl-for-javascript
-[asset-references]: https://github.com/tc39/ecmascript-asset-references
+[asset-references]: https://github.com/tc39/proposal-asset-references
 [asset-references-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-11/nov-28.md#asset-references-for-stage-1
 [freeze-proto]: https://github.com/tc39/proposal-freeze-prototype
 [freeze-proto-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-31.md#freezing-prototypes-for-stage-1
@@ -178,8 +167,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [reverse-iteration-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-23.md#symbolreverse
 [object-iteration]: https://github.com/tc39/proposal-object-iteration
 [object-iteration-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#object-iteration-for-stage-2
-[record-tuple]: https://github.com/tc39/proposal-record-tuple
-[record-tuple-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#record-and-tuple-update
 [declarations-in-conditionals]: https://github.com/tc39/proposal-Declarations-in-Conditionals
 [declarations-in-conditionals-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#declarations-in-conditionals
 [uuid]: https://github.com/tc39/proposal-uuid
