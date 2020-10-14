@@ -59,4 +59,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [smart-units]: https://github.com/tc39/proposal-smart-unit-preferences
 [smart-units-notes]: https://github.com/tc39/notes/blob/840c700dc7fa7b9f6d0a3c208bd66b333e304717/meetings/2020-06/june-4.md#smart-unit-preferences-in-intlnumberformat-for-stage-1
 [intl.displaynames-v2]: https://github.com/tc39/intl-displaynames-v2
-[intl-locale-info]: https://github.com/FrankYFTang/proposal-intl-locale-info/
+[intl-locale-info]: https://github.com/tc39/proposal-intl-locale-info
