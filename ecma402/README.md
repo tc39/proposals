@@ -23,15 +23,15 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ------------------------------------------- |
 | [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [June&nbsp;2020][intl.durationformat-notes] |
 | [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                       | Shane Carr                       | [June 2020][intl-v3-notes]                  |
-| [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | September 2020                              |
+| [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | [September 2020][intl-enumeration-notes]    |
 
 ### Stage 1
 
 | Proposal                                                     | Author          | Champion        | <sub>Last Presented</sub>                                        |
 | ------------------------------------------------------------ | --------------- | --------------- | ---------------------------------------------------------------- |
-| [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | [June 2020][smart-units-notes] |
-| [`Intl.DisplayNames v2`][intl.displaynames-v2]               | Frank Tang      | Frank Tang      | September 2020                 |
-| [`Intl Locale Info`][intl-locale-info]                       | Frank Tang      | Frank Tang      | September 2020                 |
+| [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | [June 2020][smart-units-notes]                                   |
+| [`Intl.DisplayNames v2`][intl.displaynames-v2]               | Frank Tang      | Frank Tang      | [September 2020][intl.displaynames-v2-notes]                     |
+| [`Intl Locale Info`][intl-locale-info]                       | Frank Tang      | Frank Tang      | [September 2020][intl-locale-info-notes]                         |
 
 ### Contributing new proposals
 
@@ -48,7 +48,7 @@ Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub org
 Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work **as long as** you never create a fork, or a new repository, with the same name - although Github Pages redirects will be broken (please update your links!).
 
 [intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
-[intl-segmenter-notes]: https://github.com/tc39/notes/blob/4ea41d0d11292c3a4788040bb822e7a6d88784de/meetings/2020-07/july-21.md#intlsegmenter-for-stage-3
+[intl-segmenter-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-21.md#intlsegmenter-for-stage-3
 [formatrange]: https://github.com/tc39/proposal-intl-DateTimeFormat-formatRange
 [formatrange-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#intldatetimeformatprototypeformatrange-for-stage-3
 [intl.durationformat]: https://github.com/tc39/proposal-intl-duration-format
@@ -56,7 +56,10 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl-v3]: https://github.com/tc39/proposal-intl-numberformat-v3
 [intl-v3-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-06/june-2.md#intlnumberformat-v3-for-stage-2
 [intl-enumeration]: https://github.com/tc39/proposal-intl-enumeration
+[intl-enumeration-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#intl-enumeration-api-for-stage-2
 [smart-units]: https://github.com/tc39/proposal-smart-unit-preferences
 [smart-units-notes]: https://github.com/tc39/notes/blob/840c700dc7fa7b9f6d0a3c208bd66b333e304717/meetings/2020-06/june-4.md#smart-unit-preferences-in-intlnumberformat-for-stage-1
 [intl.displaynames-v2]: https://github.com/tc39/intl-displaynames-v2
+[intl.displaynames-v2-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-23.md#intldisplaynames-v2-for-stage-1
 [intl-locale-info]: https://github.com/tc39/proposal-intl-locale-info
+[intl-locale-info-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-23.md#intl-locale-info-for-stage-1

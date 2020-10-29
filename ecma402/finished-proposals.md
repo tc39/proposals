@@ -12,7 +12,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Intl.Locale`][intl.locale]                                                                 | Zibi Braniecki<br />Daniel Ehrenberg | Zibi Braniecki<br />Daniel Ehrenberg | [February 2020][intl.locale-notes]                                | 2020              |
 | [`Intl.ListFormat`][intl.listformat]                                                         | Zibi Braniecki                       | Zibi Braniecki                       | [July 2020][intl.listformat-notes]                                | 2021              |
 | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]                                 | Zibi Braniecki                       | Zibi Braniecki                       | [July 2020][datetimeformat-notes]                                 | 2021              |
-| [Intl.DisplayNames][proposal-intl-displaynames]                                              | Frank Tang                           | Frank Tang                           | September 2020                                                    | 2021              |
+| [Intl.DisplayNames][proposal-intl-displaynames]                                              | Frank Tang                           | Frank Tang                           | [September 2020][proposal-intl-displaynames-notes]                | 2021              |
 
 See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](README.md) documents.
 
@@ -29,7 +29,8 @@ See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](R
 [intl.locale]: https://github.com/tc39/proposal-intl-locale
 [intl.locale-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#intllocale-for-stage-4
 [intl.listformat]: https://github.com/tc39/proposal-intl-list-format
-[intl.listformat-notes]: https://github.com/tc39/notes/blob/4ea41d0d11292c3a4788040bb822e7a6d88784de/meetings/2020-07/july-21.md#intllistformat-for-stage-4
+[intl.listformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-21.md#intllistformat-for-stage-4
 [datetimeformat]: https://github.com/tc39/proposal-intl-datetime-style
-[datetimeformat-notes]: https://github.com/tc39/notes/blob/4ea41d0d11292c3a4788040bb822e7a6d88784de/meetings/2020-07/july-21.md#intldatetimeformat-datestyletimestyle-for-stage-4
+[datetimeformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-21.md#intldatetimeformat-datestyletimestyle-for-stage-4
 [proposal-intl-displaynames]: https://github.com/tc39/proposal-intl-displaynames
+[proposal-intl-displaynames-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#intldisplaynames-for-stage-4

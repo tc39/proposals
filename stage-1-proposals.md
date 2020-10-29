@@ -8,7 +8,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------- |
 | [`export v from "mod";` statements][export-from]                                             | Lee Byron                                             | Ben Newman<br />John-David Dalton                      | <sub>[July&nbsp;2017][export-from-notes]</sub>                    |
 | [Observable][observable]                                                                     | Jafar Husain                                          | Jafar Husain<br />Mark Miller                          | <sub>[May&nbsp;2017][observable-notes]</sub>                      |
-| [SES (Secure EcmaScript)][secure-ecmascript]                                                 | Mark Miller<br />Chip Morningstar<br />Caridy Patiño  | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   | <sub>[February&nbsp;2020][secure-ecmascript-notes]</sub>               |
+| [SES (Secure EcmaScript)][secure-ecmascript]                                                 | Mark Miller<br />Chip Morningstar<br />Caridy Patiño  | Mark Miller<br />Chip Morningstar<br />Caridy Patiño   | <sub>[February&nbsp;2020][secure-ecmascript-notes]</sub>          |
 | [`Math` Extensions][more-math]                                                               | Rick Waldron                                          | Rick Waldron                                           | <sub>[July&nbsp;2016][more-math-notes]</sub>                      |
 | [`of` and `from` on collection constructors][collection-of-from]                             | Leo Balter                                            | Leo Balter                                             | <sub>[September&nbsp;2016][collection-of-from-notes]</sub>        |
 | [Generator arrow functions][generator-arrow-functions]                                       | Sergey Rubanov                                        | Brendan Eich                                           | <sub>[September&nbsp;2016][generator-arrow-functions-notes]</sub> |
@@ -20,7 +20,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | Change `Number.parseInt`/`parseFloat` to not coerce `null`/`undefined`/`NaN` (repo link TBD) |                                                       | Brendan Eich                                           | <sub>[July&nbsp;2017][parseInt-to-parseFloat]</sub>               |
 | [Binary AST][binary-ast]                                                                     | Shu-yu Guo                                            | Shu-yu Guo                                             | <sub>[May&nbsp;2018][binary-ast-notes]</sub>                      |
 | [Pipeline Operator][pipeline]                                                                | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[March&nbsp;2018][pipeline-notes]</sub>                      |
-| [Extensible numeric literals][extensible-literals]                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[January&nbsp;2019][extensible-literals-notes]               |
+| [Extensible numeric literals][extensible-literals]                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[September&nbsp;2020][extensible-literals-notes]             |
 | [First-class protocols][protocols]                                                           | Michael Ficarra                                       | Michael Ficarra                                        | <sub>[July&nbsp;2018][protocols-notes]</sub>                      |
 | [Partial application][partial-application]                                                   | Ron Buckton                                           | Ron Buckton                                            | <sub>[July&nbsp;2018][partial-application-notes]</sub>            |
 | [Cancellation API][cancel-api]                                                               | Ron Buckton                                           | Ron Buckton<br />Brian Terlson                         | <sub>[July&nbsp;2018][cancel-api-notes]</sub>                     |
@@ -33,12 +33,12 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Getting last element of Array][arraylast]                                                   | Keith Cirkel                                          | Keith Cirkel                                           | <sub>[January&nbsp;2018][arraylast-notes]</sub>                   |
 | [Collection methods][collection-methods]                                                     | Michał Wadas                                          | Sathya Gunasekaran                                     | <sub>[January&nbsp;2018][collection-methods-notes] </sub>         |
 | [Richer Keys][richer-keys]                                                                   | Bradley Farias                                        | Bradley Farias                                         | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                 |
-| [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                    | Sathya Gunasekaran                                     | <sub>[March&nbsp;2018][slice-notation-notes]</sub>                |
+| [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                    | Sathya Gunasekaran                                     | <sub>[July&nbsp;2020][slice-notation-notes]</sub>                 |
 | [Module Keys][module-keys]                                                                   | Mike Samuel                                           | Mike Samuel                                            | <sub>[May&nbsp;2018][module-keys-notes]</sub>                     |
-| [class Access Expressions][class-access-expressions]                                         | Ron Buckton                                           | Ron Buckton                                            | <sub>[May&nbsp;2018][class-access-expressions-notes]</sub>        |
+| [class Access Expressions][class-access-expressions]                                         | Ron Buckton                                           | Ron Buckton                                            | <sub>[September&nbsp;2020][class-access-expressions-notes]</sub>  |
 | [Pattern Matching][matching]                                                                 | Kat Marchán<br />Brian Terlson                        | Jordan Harband                                         | <sub>[March&nbsp;2020][matching-notes]</sub>                      |
 | [Dynamic Modules][dynamic-modules]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[July&nbsp;2018][dynamic-modules-notes]</sub>                |
-| [Built In Modules (aka JS Standard Library)][built-in-modules]                                              | Michael Saboff<br />Mattijs Hoitink                   | Michael Saboff<br />Mattijs Hoitink<br />Mark Miller                    | <sub>[July&nbsp;2019][built-in-modules-notes]</sub>               |
+| [Built In Modules (aka JS Standard Library)][built-in-modules]                               | Michael Saboff<br />Mattijs Hoitink                   | Michael Saboff<br />Mattijs Hoitink<br />Mark Miller   | <sub>[September&nbsp;2020][built-in-modules-notes]</sub>          |
 | [`"use module"`][modules-pragma]                                                             | Dave Herman                                           | Dave Herman                                            | <sub>[July&nbsp;2017][modules-pragma-notes]</sub>                 |
 | [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]                   | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][uniform-date-parse-notes]</sub>        |
 | [IDL for ECMAScript][idl]                                                                    | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[September&nbsp;2018][idl-notes]</sub>                       |
@@ -48,33 +48,33 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Private declarations][private-declarations]                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[March&nbsp;2019][private-declarations-notes]</sub>          |
 | [Emitter][emitter]                                                                           | Shu-yu Guo<br />Pedram Emrouznejad                    | Shu-yu Guo<br />Pedram Emrouznejad                     | <sub>[June&nbsp;2019][emitter-notes]</sub>                        |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[December&nbsp;2019][dynamic-code-brand-checks-notes]</sub>  |
-| [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>[July&nbsp;2019][reverse-iteration-notes]</sub>                   |
-| [Declarations in Conditionals][declarations-in-conditionals]                                 | Devin Rousso                                          | Devin Rousso                                           | <sub>[October&nbsp;2019][declarations-in-conditionals-notes]</sub>     |
-| [UUID][uuid]                                                                                | Benjamin Coe<br />Robert Kieffer <br />Christoph Tavan | Benjamin Coe                                           | <sub>[October&nbsp;2019][uuid-notes]</sub>                             |
-| [Readonly Collections][readonly-collections]                                                 | Mark Miller<br />Peter Hoddie                         | Mark Miller<br />Peter Hoddie                          | <sub>[October&nbsp;2019][readonly-collections-notes]</sub>             |
-| [Support for Distributed Promise Pipelining][eventual-send]                                  | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>[October&nbsp;2019][eventual-send-notes]</sub>                    |
-| [Wavy Dot: Syntactic Support for Promise Pipelining][promise-pipelining]                     | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>[December&nbsp;2019][promise-pipelining-notes]</sub>              |
-| [OOM Fails Fast][oom]                                                                        | Mark Miller                                           | Mark Miller                                            | <sub>[December&nbsp;2019][oom-notes]</sub>                             |
-| [Array filtering][array-filtering]                                                           | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[February&nbsp;2020][array-filtering-notes]</sub>                 |
-| [Operator overloading][overloading]                                                          | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[December&nbsp;2019][overloading-notes]</sub>                     |
-| [Async initialization][async-init]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[February&nbsp;2020][async-init-notes]</sub>                      |
-| [Decimal][decimal]                                                                           | Daniel Ehrenberg<br />Andrew Paprocki                 | Daniel Ehrenberg<br />Andrew Paprocki                  | <sub>[March&nbsp;2020][decimal-notes]</sub>                            |
+| [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>[July&nbsp;2019][reverse-iteration-notes]</sub>              |
+| [Declarations in Conditionals][declarations-in-conditionals]                                 | Devin Rousso                                          | Devin Rousso                                           | <sub>[October&nbsp;2019][declarations-in-conditionals-notes]</sub> |
+| [UUID][uuid]                                                                                | Benjamin Coe<br />Robert Kieffer <br />Christoph Tavan | Benjamin Coe                                           | <sub>[October&nbsp;2019][uuid-notes]</sub>                        |
+| [Readonly Collections][readonly-collections]                                                 | Mark Miller<br />Peter Hoddie                         | Mark Miller<br />Peter Hoddie                          | <sub>[October&nbsp;2019][readonly-collections-notes]</sub>        |
+| [Support for Distributed Promise Pipelining][eventual-send]                                  | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>[October&nbsp;2019][eventual-send-notes]</sub>               |
+| [Wavy Dot: Syntactic Support for Promise Pipelining][promise-pipelining]                     | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>[December&nbsp;2019][promise-pipelining-notes]</sub>         |
+| [OOM Fails Fast][oom]                                                                        | Mark Miller                                           | Mark Miller                                            | <sub>[December&nbsp;2019][oom-notes]</sub>                        |
+| [Array filtering][array-filtering]                                                           | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[February&nbsp;2020][array-filtering-notes]</sub>            |
+| [Operator overloading][overloading]                                                          | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[December&nbsp;2019][overloading-notes]</sub>                |
+| [Async initialization][async-init]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[February&nbsp;2020][async-init-notes]</sub>                 |
+| [Decimal][decimal]                                                                           | Daniel Ehrenberg<br />Andrew Paprocki                 | Daniel Ehrenberg<br />Andrew Paprocki                  | <sub>[March&nbsp;2020][decimal-notes]</sub>                       |
 | [Preserve Host Virtualizability][virtualize]                    | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | <sub>[February&nbsp;2020][virtualize-notes]</sub> |
-| [Legacy reflection features for functions in JavaScript][legacy-reflection]                  | Mark Miller<br />Claude Pache<br />Jack Works         | Mark Miller<br />Claude Pache<br />Jack Works          | <sub>[February&nbsp;2020][legacy-reflection-notes]</sub>               |
-| [Cryptographically Secure Random Number Generation][csprng]                                  | Ron Buckton                                           | Ron Buckton                                            | <sub>[February&nbsp;2020][csprng-notes]</sub>                          |
-| [Number.range & BigInt.range][number-bigint-range]                                           | Jack Works                                            | Jack Works                                             | <sub>[March&nbsp;2020][number-bigint-range-notes]</sub>                |
-| [Compartments][proposal-compartments]                                                        | Bradley Farias                                        | Bradley Farias<br />Mark S. Miller<br />Caridy Patiño<br />J.F. Paradis<br />Patrick Soquet<br />Kris Kowal                                         | <sub>[March&nbsp;2020][proposal-compartments-notes]</sub>              |
-| [Symbols as WeakMap keys][symbols-weakmap]                                                   | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard | <sub>June&nbsp;2020</sub>                                                  |
-| [Deep Path Properties in Record Literals][deep-path-properties]                              | Rick Button                                           | Rick Button                                            | <sub>June&nbsp;2020</sub>                                                   |
-| [Restrict subclassing support in built-in methods][species-extinct]                          | Yulia Startsev<br />Shu-yu Guo                        | Yulia Startsev<br />Shu-yu Guo                         | <sub>June&nbsp;2020</sub>                                                   |
-| [Array Equality][array-equality]                                                             | Hemanth HM<br />Jordan Harband                        | Hemanth HM<br />Jordan Harband                         | <sub>June&nbsp;2020</sub>                                                   |
-| [await operations][await.ops]                                                                | Jack Works                                            | Jack Works<br />Jordan Harband                         | <sub>July&nbsp;2020</sub>                                                   |
-| [`Array.prototype.unique()`][array-unique]                                                   | [TechQuery](https://github.com/TechQuery)             | Jack Works                                             | <sub>July&nbsp;2020</sub>                                                   |
-| [String.dedent][string.dedent]                                                               | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell  | Hemanth HM<br />Justin Ridgewell                       | <sub>September&nbsp;2020</sub>                                              |
-| [Error Cause][error-cause]                                                                   | Chengzhong Wu                                         | Chengzhong Wu<br /> Hemanth HM                         | <sub>September&nbsp;2020</sub>                                              |
-| [Double-Ended Iterator and Destructuring][double-ended-iterator]                             | HE Shi-Jun                                            | HE Shi-Jun                                             | <sub>September&nbsp;2020</sub>                                              |
-| [Standardized Debug][debug]                                                                  | Gus Caplan                                            | Gus Caplan                                             | <sub>September&nbsp;2020</sub>                                              |
-| [Modulus and Additional Integer Math][modulus]                                               | Peter Hoddie                                          | Peter Hoddie                                           | <sub>September&nbsp;2020</sub>                                              |
+| [Legacy reflection features for functions in JavaScript][legacy-reflection]                  | Mark Miller<br />Claude Pache<br />Jack Works         | Mark Miller<br />Claude Pache<br />Jack Works          | <sub>[February&nbsp;2020][legacy-reflection-notes]</sub>          |
+| [Cryptographically Secure Random Number Generation][csprng]                                  | Ron Buckton                                           | Ron Buckton                                            | <sub>[February&nbsp;2020][csprng-notes]</sub>                     |
+| [Number.range & BigInt.range][number-bigint-range]                                           | Jack Works                                             | Jack Works                                             | <sub>[July&nbsp;2020][number-bigint-range-notes]</sub>           |
+| [Compartments][proposal-compartments]                                                        | Bradley Farias                                        | Bradley Farias<br />Mark S. Miller<br />Caridy Patiño<br />J.F. Paradis<br />Patrick Soquet<br />Kris Kowal | <sub>[March&nbsp;2020][proposal-compartments-notes]</sub> |
+| [Symbols as WeakMap keys][symbols-weakmap]                                                   | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard | <sub>[July&nbsp;2020][symbols-weakmap-notes]</sub>               |
+| [Deep Path Properties in Record Literals][deep-path-properties]                              | Rick Button                                           | Rick Button                                             | <sub>[June&nbsp;2020][deep-path-properties-notes]</sub>          |
+| [Restrict subclassing support in built-in methods][species-extinct]                          | Yulia Startsev<br />Shu-yu Guo                        | Yulia Startsev<br />Shu-yu Guo                          | <sub>[June&nbsp;2020][species-extinct-notes]</sub>               |
+| [Array Equality][array-equality]                                                             | Hemanth HM<br />Jordan Harband                        | Hemanth HM<br />Jordan Harband                          | <sub>[June&nbsp;2020][array-equality-notes]</sub>                |
+| [await operations][await.ops]                                                                | Jack Works                                             | Jack Works<br />Jordan Harband                         | <sub>[July&nbsp;2020][await.ops-notes]</sub>                     |
+| [`Array.prototype.unique()`][array-unique]                                                   | [TechQuery](https://github.com/TechQuery)              | Jack Works                                             | <sub>[July&nbsp;2020][array-unique-notes]</sub>                  |
+| [String.dedent][string.dedent]                                                               | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell   | Hemanth HM<br />Justin Ridgewell                       | <sub>[September&nbsp;2020][string.dedent-notes]</sub>            |
+| [Error Cause][error-cause]                                                                   | Chengzhong Wu                                          | Chengzhong Wu<br /> Hemanth HM                         | <sub>[September&nbsp;2020][error-cause-notes]</sub>              |
+| [Double-Ended Iterator and Destructuring][double-ended-iterator]                             | HE Shi-Jun                                             | HE Shi-Jun                                             | <sub>[September&nbsp;2020][double-ended-iterator-notes]</sub>    |
+| [Standardized Debug][debug]                                                                  | Gus Caplan                                             | Gus Caplan                                             | <sub>[September&nbsp;2020][debug-notes]</sub>                    |
+| [Modulus and Additional Integer Math][modulus]                                               | Peter Hoddie                                           | Peter Hoddie                                           | <sub>[September&nbsp;2020][modulus-notes]</sub>                  |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -98,7 +98,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [stacks]: https://github.com/tc39/proposal-error-stacks
 [stacks-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-01/jan-25.md#15iiia-error-stacks-seeking-stage-1
 [do]: https://github.com/tc39/proposal-do-expressions
-[do-notes]: https://github.com/tc39/notes/blob/840c700dc7fa7b9f6d0a3c208bd66b333e304717/meetings/2020-06/june-1.md#do-expressions-for-stage-2
+[do-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-06/june-1.md#do-expressions-for-stage-2
 [float16s]: https://docs.google.com/presentation/d/1Ta_IbravBUOvu7LUhlN49SvLU-8G8bIQnsS08P3Z4vY/edit?usp=sharing
 [float16s-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-05/may-23.md#16ig-float16-on-typedarrays-dataview-mathhfround-for-stage-1
 [parseInt-to-parseFloat]: https://github.com/tc39/notes/blob/master/meetings/2017-07/jul-26.md#13iib-consider-changing-numberparseint-and-numberparsefloat
@@ -107,7 +107,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [pipeline-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-03/mar-22.md#10ive-pipeline-operator
 [extensible-literals]: https://github.com/tc39/proposal-extended-numeric-literals
-[extensible-literals-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-30.md#extended-numeric-literals-status-update-and-consider-restoring-numeric-separators-to-stage-3
+[extensible-literals-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-21.md#numeric-literal-suffixes-update-separate-namespace-version
 [protocols]: https://github.com/tc39/proposal-first-class-protocols
 [protocols-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-25.md#updates-on-first-class-protocols
 [partial-application]: https://github.com/tc39/proposal-partial-application
@@ -133,17 +133,17 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [richer-keys]: https://github.com/tc39/proposal-richer-keys
 [richer-keys-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
 [slice-notation]: https://github.com/tc39/proposal-slice-notation
-[slice-notation-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-03/mar-22.md#slice-notation-for-stage-1
+[slice-notation-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-21.md#slice-notation-for-stage-2
 [module-keys]: https://github.com/tc39/proposal-module-keys
 [module-keys-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#module-keys-strawman-for-stage-1
 [class-access-expressions]: https://github.com/tc39/proposal-class-access-expressions
-[class-access-expressions-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#class-access-expressions
+[class-access-expressions-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#class-access-expressions-for-stage-2
 [matching]: https://github.com/tc39/proposal-pattern-matching
 [matching-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/march-31.md#pattern-matching-update
 [dynamic-modules]: https://github.com/nodejs/dynamic-modules
 [dynamic-modules-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-25.md#dynamic-modules
 [built-in-modules]: https://github.com/tc39/proposal-built-in-modules
-[built-in-modules-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-24.md#built-in-modules-aka-javascript-standard-library
+[built-in-modules-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#builtin-modules-for-stage-2
 [modules-pragma]: https://github.com/tc39/proposal-modules-pragma
 [modules-pragma-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
 [uniform-date-parse]: https://github.com/tc39/proposal-uniform-interchange-date-parsing
@@ -191,17 +191,28 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [csprng]: https://github.com/tc39/proposal-csprng
 [csprng-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#arraybufferfillrandom-for-stage-1
 [number-bigint-range]: https://github.com/tc39/proposal-Number.range
-[number-bigint-range-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#numberrange-and-bigintrange-for-stage-1
+[number-bigint-range-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-22.md#numberrange-for-stage-2
 [proposal-compartments]: https://github.com/tc39/proposal-compartments
 [proposal-compartments-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#compartments-for-stage-1
 [symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
+[symbols-weakmap-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-22.md#symbols-as-weakmap-keys-for-stage-2
 [deep-path-properties]: https://github.com/tc39/proposal-deep-path-properties-for-record
+[deep-path-properties-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-06/june-3.md#deep-path-properties
 [species-extinct]: https://github.com/tc39/proposal-rm-builtin-subclassing
+[species-extinct-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-06/june-3.md#restrict-subclassing-support-for-built-in-methods-stage-1
 [array-equality]: https://github.com/tc39/proposal-array-equality
+[array-equality-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-06/june-4.md#generic-comparison
 [await.ops]: https://github.com/tc39/proposal-await.ops
+[await.ops-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-22.md#await-operations-for-stage-1
 [array-unique]: https://github.com/tc39/proposal-array-unique
+[array-unique-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-22.md#arrayprototypeunique-proposal-for-stage-1
 [string.dedent]: https://github.com/tc39/proposal-string-dedent
+[string.dedent-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-23.md#stringdedent-for-stage-1
 [error-cause]: https://github.com/tc39/proposal-error-cause
+[error-cause-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#error-cause-for-stage-1
 [double-ended-iterator]: https://github.com/tc39/proposal-deiter
+[double-ended-iterator-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#double-ended-iterator-and-destructuring-for-stage-1
 [debug]: https://github.com/tc39/proposal-standardized-debug
+[debug-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#standardized-debug-for-stage-1
 [modulus]: https://github.com/phoddie/integer-and-modulus-math-proposal
+[modulus-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#modulus-and-additional-integer-math-for-stage-1

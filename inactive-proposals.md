@@ -8,7 +8,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Callable class constructors][callable-constructors]                 | Yehuda Katz<br />Allen Wirfs-Brock                         | Withdrawn: can be solved with decorators                                                      |
 | [`Error.isError`][is-error]                                          | Jordan Harband                                             | Withdrawn: in favor of [`Error` stack traces][error-stacks] proposal                          |
 | [`{Set,Map}.prototype.toJSON`][collection-json]                      | David Bruant<br />Jordan Harband                           | Rejected: better solved by a custom replacer function.                                        |
-| [Typed Objects][typed-objects-new]                                   | Till Schneidereit (previously [Dmitry Lomov, Niko Matsakis][typed-objects]) | Postponed: waiting for WebAssembly requirements to become clearer                             |
+| [Typed Objects][typed-objects-new]                                   | Till Schneidereit (previously [Dmitry Lomov, Niko Matsakis][typed-objects]) | Postponed: waiting for WebAssembly requirements to become clearer            |
 | [Object enumerables][object-enums]                                   | Leo Balter<br />John-David Dalton                          | Rejected                                                                                      |
 | [Cancelable Promises][cancel-promise]                                | Domenic Denicola                                           | Withdrawn                                                                                     |
 | [Proposed Grammar change to ES Modules][module-unambig]              | Bradley Farias                                             | Rejected: No consensus on this specific solution.                                             |
@@ -28,10 +28,10 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [RegExp Atomic Groups & Possessive Quantifiers][re-atomic-groups]    | Justin Ridgewell                                           | Never presented; engines are not interested in the feature, mainly because it doesn't solve backtracking for most users |
 | [RefCollection][refcollection]                                       | Robin Ricard                                               | Withdrawn; replaced with [Symbols as WeakMap keys][symbols-weakmap]; also there were OCAP/membrane concerns around providing a globally available pre-instantiated RefCollection |
 | [Generic Comparison][spaceship]                                      | Hemanth HM<br />Jordan Harband                             | Withdrawn: replaced with [Array Equality][array-equality]
-| [`from ... import`][fromimport] | Bradley Farias | Never presented; preliminary feedback about syntax cost not being worth the weight |
-| [TypedArray stride parameter][typedarray-stride-parameter]           | Shu-yu Guo                                                 | Withdrawn: concern about performance implications, and the proposal is not expressive enough
+| [`from ... import`][fromimport]                                      | Bradley Farias                                             | Never presented; preliminary feedback about syntax cost not being worth the weight            |
+| [TypedArray stride parameter][typedarray-stride-parameter]           | Shu-yu Guo                                                 | [Withdrawn][typedarray-stride-parameter-notes]: concern about performance implications, and the proposal is not expressive enough
 | [Unused Function Parameters][unused-params]                          | Gus Caplan                                                 | Rejected: the need to solve the problem does not outweigh the hazards
-| [Improving iteration on Objects][object-iteration]                                           | Jonathan Keslin                                       | Jonathan Keslin                                        | Withdrawn: concern about need for such an API                |
+| [Improving iteration on Objects][object-iteration]                   | Jonathan Keslin                                            | Withdrawn: concern about need for such an API                                                 |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -67,5 +67,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [array-equality]: https://github.com/tc39/proposal-array-equality
 [fromimport]: https://github.com/bmeck/proposal-from-import
 [typedarray-stride-parameter]: https://github.com/tc39/proposal-typedarray-stride
+[typedarray-stride-parameter-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-21.md#withdrawing-typedarray-stride
 [unused-params]: https://github.com/devsnek/proposal-unused-function-parameters
 [object-iteration]: https://github.com/tc39/proposal-object-iteration
