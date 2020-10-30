@@ -49,7 +49,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Emitter][emitter]                                                                           | Shu-yu Guo<br />Pedram Emrouznejad                    | Shu-yu Guo<br />Pedram Emrouznejad                     | <sub>[June&nbsp;2019][emitter-notes]</sub>                        |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                                       | Mike Samuel                                           | Mike Samuel                                            | <sub>[December&nbsp;2019][dynamic-code-brand-checks-notes]</sub>  |
 | [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>[July&nbsp;2019][reverse-iteration-notes]</sub>                   |
-| [Improving iteration on Objects][object-iteration]                                           | Jonathan Keslin                                       | Jonathan Keslin                                        | <sub>[February&nbsp;2020][object-iteration-notes]</sub>                |
 | [Declarations in Conditionals][declarations-in-conditionals]                                 | Devin Rousso                                          | Devin Rousso                                           | <sub>[October&nbsp;2019][declarations-in-conditionals-notes]</sub>     |
 | [UUID][uuid]                                                                                | Benjamin Coe<br />Robert Kieffer <br />Christoph Tavan | Benjamin Coe                                           | <sub>[October&nbsp;2019][uuid-notes]</sub>                             |
 | [Readonly Collections][readonly-collections]                                                 | Mark Miller<br />Peter Hoddie                         | Mark Miller<br />Peter Hoddie                          | <sub>[October&nbsp;2019][readonly-collections-notes]</sub>             |
@@ -165,8 +164,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
 [reverse-iteration]: https://github.com/tc39/proposal-reverseIterator
 [reverse-iteration-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-23.md#symbolreverse
-[object-iteration]: https://github.com/tc39/proposal-object-iteration
-[object-iteration-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#object-iteration-for-stage-2
 [declarations-in-conditionals]: https://github.com/tc39/proposal-Declarations-in-Conditionals
 [declarations-in-conditionals-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#declarations-in-conditionals
 [uuid]: https://github.com/tc39/proposal-uuid
