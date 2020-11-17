@@ -16,7 +16,6 @@ Stage 0 proposals are either
 | [Orthogonal Classes][ortho]                                        | Mark Miller<br />Allen Wirfs-Brock    | Mark Miller<br />Allen Wirfs-Brock    | [March 2017][ortho-notes]         |
 | [`Reflect.{isCallable,isConstructor}`][is-callable-is-constructor] | Caitlin Potter                        | Caitlin Potter                        |                                   |
 | [Relationships][relationships]                                     | Mark Miller<br />Waldemar Horwat      | Mark Miller<br />Waldemar Horwat      |                                   |
-| [`String.prototype.at`][string-at]                                 | Mathias Bynens                        | Mathias Bynens<br />Rick Waldron      |                                   |
 | [Structured Clone][clone]                                          | Dmitry Lomov                          | Dmitry Lomov                          | [Jan 2014][clone-notes]           |
 | [WHATWG URL][url]                                                  | James M Snell                         | James M Snell                         |                                   |
 | [Object Shorthand Improvements][object-shorthand-improvements]     | Ron Buckton                           | Ron Buckton                           | [Sep 2017][shorthand-notes]       |
@@ -37,7 +36,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [ortho]: https://github.com/erights/Orthogonal-Classes
 [is-callable-is-constructor]: https://github.com/caitp/TC39-Proposals/blob/master/tc39-reflect-isconstructor-iscallable.md
 [relationships]: https://web.archive.org/web/20160804042554/http://wiki.ecmascript.org/doku.php?id=strawman:relationships
-[string-at]: https://github.com/mathiasbynens/String.prototype.at
 [clone]: https://github.com/dslomov/ecmascript-structured-clone
 [url]: https://github.com/jasnell/proposal-url
 [object-shorthand-improvements]: https://github.com/rbuckton/proposal-shorthand-improvements

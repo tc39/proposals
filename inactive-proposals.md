@@ -32,6 +32,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [TypedArray stride parameter][typedarray-stride-parameter]           | Shu-yu Guo                                                 | [Withdrawn][typedarray-stride-parameter-notes]: concern about performance implications, and the proposal is not expressive enough
 | [Unused Function Parameters][unused-params]                          | Gus Caplan                                                 | Rejected: the need to solve the problem does not outweigh the hazards
 | [Improving iteration on Objects][object-iteration]                   | Jonathan Keslin                                            | Withdrawn: concern about need for such an API                                                 |
+| [`String.prototype.at`][string-at]                                   | Mathias Bynens<br />Rick Waldron                           | Obsoleted by renamed `String.prototype.item` proposal                                         |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -70,3 +71,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [typedarray-stride-parameter-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-21.md#withdrawing-typedarray-stride
 [unused-params]: https://github.com/devsnek/proposal-unused-function-parameters
 [object-iteration]: https://github.com/tc39/proposal-object-iteration
+[string-at]: https://github.com/mathiasbynens/String.prototype.at
