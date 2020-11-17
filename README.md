@@ -25,7 +25,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Top-level `await`][await]                                                     | Myles Borins                                                            | Myles Borins                                                            | [:white_check_mark:][tests-await]                | <sub>[June&nbsp;2019][await-notes]</sub>                   |
 | [RegExp Match Indices][regex-match-indices]                                    | Ron Buckton                                                             | Ron Buckton                                                             | [:white_check_mark:][tests-regexp-match-indices] | <sub>[December&nbsp;2019][regex-match-indices-notes]</sub> |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | [:white_check_mark:][tests-nonblocking]          | <sub>[December&nbsp;2019][nonblocking-notes]</sub>         |
-| [`.item()`][item]                                                              | Shu-yu Guo<br />Tab Atkins                                              | Shu-yu Guo<br />Tab Atkins                                              | [:white_check_mark:][tests-item]                 | <sub>[September&nbsp;2020][item-notes]</sub>               |
+| [`.at()`][at]                                                              | Shu-yu Guo<br />Tab Atkins                                              | Shu-yu Guo<br />Tab Atkins                                              | [:white_check_mark:][tests-at]                 | <sub>November&nbsp;2020</sub>                                    |
 | [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | :question:                                       | <sub>[September&nbsp;2020][import-assertions-notes]</sub>  |
 
 ### Stage 2
@@ -141,9 +141,9 @@ Note that as part of the onboarding process your repository name may be normaliz
 [cleanup-some-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 [json-modules]: https://github.com/tc39/proposal-json-modules
 [json-modules-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#json-modules-update
-[item]: https://github.com/tc39/proposal-item-method
-[item-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#item-for-stage-3
-[tests-item]: https://github.com/tc39/test262/pull/2812
+[at]: https://github.com/tc39/proposal-item-method
+[at-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#item-for-stage-3
+[tests-at]: https://github.com/tc39/test262/pull/2812
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
 [record-tuple-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#records--tuples
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
