@@ -45,7 +45,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
-[array-includes]: https://github.com/tc39/Array.prototype.includes
+[array-includes]: https://github.com/tc39/proposal-Array.prototype.includes
 [array-includes-notes]: https://github.com/tc39/notes/blob/master/meetings/2015-11/nov-17.md#arrayprototypeincludes
 [exponentiation]: https://github.com/tc39/proposal-exponentiation-operator
 [exponentiation-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-01/jan-28.md#5xviii-exponentiation-operator-rw
