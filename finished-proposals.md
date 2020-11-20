@@ -57,7 +57,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [object-gopds-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-05/may-25.md#objectgetownpropertydescriptors-jhd
 [function-commas]: https://github.com/tc39/proposal-trailing-function-commas
 [function-commas-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-07/jul-26.md#9ie-trailing-commas-in-functions
-[async-await]: https://github.com/tc39/ecmascript-asyncawait
+[async-await]: https://github.com/tc39/proposal-async-await
 [async-await-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-07/jul-28.md#10iv-async-functions
 [atomics]: https://github.com/tc39/ecmascript_sharedmem
 [atomics-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-01/jan-24.md#13if-seeking-stage-4-for-sharedarraybuffer
