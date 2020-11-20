@@ -141,7 +141,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [cleanup-some-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 [json-modules]: https://github.com/tc39/proposal-json-modules
 [json-modules-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#json-modules-update
-[at]: https://github.com/tc39/proposal-item-method
+[at]: https://github.com/tc39/proposal-relative-indexing-method
 [at-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#item-for-stage-3
 [tests-at]: https://github.com/tc39/test262/pull/2812
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
