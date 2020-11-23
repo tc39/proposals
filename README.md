@@ -54,6 +54,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                    | <sub>[July&nbsp;2020][json-parse-source-notes]</sub>                  |
 | [Class Static Block][static-blocks]                                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[September&nbsp;2020][static-blocks-notes]</sub>                 |
 | [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>[September&nbsp;2020][resizable-notes]</sub>                     |
+| [Error Cause][error-cause]                                                     | Chengzhong Wu                                         | Chengzhong Wu<br /> Hemanth HM                                                    | <sub>November&nbsp;2020</sub>                                         |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -154,3 +155,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [static-blocks-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#class-static-initialization-block-for-stage-2
 [resizable]: https://github.com/tc39/proposal-resizablearraybuffer
 [resizable-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#resizable-and-growable-arraybuffers-for-stage-2
+[error-cause]: https://github.com/tc39/proposal-error-cause
+[error-cause-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#error-cause-for-stage-1

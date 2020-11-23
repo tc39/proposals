@@ -71,7 +71,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [await operations][await.ops]                                                                | Jack Works                                             | Jack Works<br />Jordan Harband                         | <sub>[July&nbsp;2020][await.ops-notes]</sub>                     |
 | [`Array.prototype.unique()`][array-unique]                                                   | [TechQuery](https://github.com/TechQuery)              | Jack Works                                             | <sub>[July&nbsp;2020][array-unique-notes]</sub>                  |
 | [String.dedent][string.dedent]                                                               | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell   | Hemanth HM<br />Justin Ridgewell                       | <sub>[September&nbsp;2020][string.dedent-notes]</sub>            |
-| [Error Cause][error-cause]                                                                   | Chengzhong Wu                                          | Chengzhong Wu<br /> Hemanth HM                         | <sub>[September&nbsp;2020][error-cause-notes]</sub>              |
 | [Double-Ended Iterator and Destructuring][double-ended-iterator]                             | HE Shi-Jun                                             | HE Shi-Jun                                             | <sub>[September&nbsp;2020][double-ended-iterator-notes]</sub>    |
 | [Standardized Debug][debug]                                                                  | Gus Caplan                                             | Gus Caplan                                             | <sub>[September&nbsp;2020][debug-notes]</sub>                    |
 | [Modulus and Additional Integer Math][modulus]                                               | Peter Hoddie                                           | Peter Hoddie                                           | <sub>[September&nbsp;2020][modulus-notes]</sub>                  |
@@ -211,8 +210,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [array-unique-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-22.md#arrayprototypeunique-proposal-for-stage-1
 [string.dedent]: https://github.com/tc39/proposal-string-dedent
 [string.dedent-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-23.md#stringdedent-for-stage-1
-[error-cause]: https://github.com/tc39/proposal-error-cause
-[error-cause-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#error-cause-for-stage-1
 [double-ended-iterator]: https://github.com/tc39/proposal-deiter
 [double-ended-iterator-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#double-ended-iterator-and-destructuring-for-stage-1
 [debug]: https://github.com/tc39/proposal-standardized-debug
