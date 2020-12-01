@@ -24,7 +24,7 @@ Stage 0 proposals are either
 | [`Symbol.thenable`][symbol-thenable]                               | Gus Caplan                            | Jordan Harband<br />Myles Borins      | [May 2018][symbol-thenable-notes] |
 | [Async Context][async-context]                                     | Chengzhong Wu                         | Chengzhong Wu                         | [July 2020][async-context-notes]  |
 | [Unused function parameters][unused-function-params]               | Gus Caplan                            | Gus Caplan                            | [September 2020][unused-function-params-notes] |
-| [`Intl.bestAvailableLocale`][intl-bestavailablelocale]               | Long Ho                               | Long Ho                               | [December 2020][intl-bestavailablelocale] |
+| [`Intl.bestAvailableLocale`][intl-bestavailablelocale]               | Long Ho                               | Long Ho                             |  |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
