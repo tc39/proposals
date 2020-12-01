@@ -24,6 +24,7 @@ Stage 0 proposals are either
 | [`Symbol.thenable`][symbol-thenable]                               | Gus Caplan                            | Jordan Harband<br />Myles Borins      | [May 2018][symbol-thenable-notes] |
 | [Async Context][async-context]                                     | Chengzhong Wu                         | Chengzhong Wu                         | [July 2020][async-context-notes]  |
 | [Unused function parameters][unused-function-params]               | Gus Caplan                            | Gus Caplan                            | [September 2020][unused-function-params-notes] |
+| [`Intl.bestAvailableLocale`][intl-bestavailablelocale]               | Long Ho                               | Long Ho                               | [December 2020][intl-bestavailablelocale] |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -53,3 +54,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [async-context-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-23.md#async-context-updates--for-stage-1
 [unused-function-params]: https://github.com/devsnek/proposal-unused-function-parameters
 [unused-function-params-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#unused-function-parameters-for-stage-1
+[intl-bestavailablelocale]: https://github.com/longlho/proposal-intl-bestavailablelocale
