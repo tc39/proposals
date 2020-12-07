@@ -24,6 +24,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [June&nbsp;2020][intl.durationformat-notes] |
 | [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                       | Shane Carr                       | [June 2020][intl-v3-notes]                  |
 | [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | [September 2020][intl-enumeration-notes]    |
+| [`Intl Locale Info`][intl-locale-info]       | Frank Tang                     | Frank Tang                     | [December 2020][intl-locale-info-notes]     |
 
 ### Stage 1
 
@@ -32,6 +33,8 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | [June 2020][smart-units-notes]                                   |
 | [`Intl.DisplayNames v2`][intl.displaynames-v2]               | Frank Tang      | Frank Tang      | [September 2020][intl.displaynames-v2-notes]                     |
 | [`Intl Locale Info`][intl-locale-info]                       | Frank Tang      | Frank Tang      | [September 2020][intl-locale-info-notes]                         |
+| [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]    | Louis-Aime      | Louis-Aime      | [December 2020][eradisplay-notes]                                |
+| [`Intl.LocaleMatcher`][intl-localematcher]                   | Long Ho         | Long Ho         | [December 2020][intl-localematcher-notes]                        |
 
 ### Contributing new proposals
 
@@ -62,4 +65,8 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl.displaynames-v2]: https://github.com/tc39/intl-displaynames-v2
 [intl.displaynames-v2-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-23.md#intldisplaynames-v2-for-stage-1
 [intl-locale-info]: https://github.com/tc39/proposal-intl-locale-info
-[intl-locale-info-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-23.md#intl-locale-info-for-stage-1
+[intl-locale-info-notes]: https://github.com/tc39/ecma402/blob/master/meetings/notes-2020-12-04.md#intl-locale-info
+[eradisplay]: https://github.com/Louis-Aime/proposal-intl-eradisplay
+[eradisplay-notes]: https://github.com/tc39/ecma402/blob/master/meetings/notes-2020-12-04.md#eradisplay-option-for-intldatetimeformat-for-stage-1
+[intl-localematcher]: https://github.com/longlho/proposal-intl-localematcher
+[intl-localematcher-notes]: https://github.com/tc39/ecma402/blob/master/meetings/notes-2020-12-04.md#intllocalematcher-for-stage-1
