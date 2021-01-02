@@ -23,24 +23,24 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg                                        | [:white_check_mark:][tests-static-class-fields]  | <sub>[September&nbsp;2020][class-features-notes]</sub>     |
 | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:white_check_mark:][tests-hashbang-grammar]     | <sub>[November&nbsp;2018][hashbang-notes]</sub>            |
 | [Top-level `await`][await]                                                     | Myles Borins                                                            | Myles Borins                                                            | [:white_check_mark:][tests-await]                | <sub>[June&nbsp;2019][await-notes]</sub>                   |
-| [RegExp Match Indices][regex-match-indices]                                    | Ron Buckton                                                             | Ron Buckton                                                             | [:white_check_mark:][tests-regexp-match-indices] | <sub>[December&nbsp;2019][regex-match-indices-notes]</sub> |
+| [RegExp Match Indices][regex-match-indices]                                    | Ron Buckton                                                             | Ron Buckton                                                             | [:white_check_mark:][tests-regexp-match-indices] | <sub>[November&nbsp;2020][regex-match-indices-notes]</sub> |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | [:white_check_mark:][tests-nonblocking]          | <sub>[December&nbsp;2019][nonblocking-notes]</sub>         |
-| [`.at()`][at]                                                              | Shu-yu Guo<br />Tab Atkins                                              | Shu-yu Guo<br />Tab Atkins                                              | [:white_check_mark:][tests-at]                 | <sub>November&nbsp;2020</sub>                                    |
-| [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | :question:                                       | <sub>[September&nbsp;2020][import-assertions-notes]</sub>  |
+| [`.at()`][at]                                                              | Shu-yu Guo<br />Tab Atkins                                                  | Shu-yu Guo<br />Tab Atkins                                              | [:white_check_mark:][tests-at]                   | <sub>[November&nbsp;2020][at-notes]</sub>                  |
+| [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | :question:                                       | <sub>[November&nbsp;2020][import-assertions-notes]</sub>   |
 
 ### Stage 2
 
-| Proposal                                                                       | Author                                                | Champion                                                                          | <sub>Last Presented</sub>                                           |
+| Proposal                                                                       | Author                                                | Champion                                                                          | <sub>Last Presented</sub>                                             |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | [`function.sent` metaproperty][function-sent]                                  | Allen Wirfs-Brock                                     | HE Shi-Jun                                                               | <sub>[July&nbsp;2019][function-sent-notes]</sub>                               |
 | [Decorators][decorators]                                                       | Daniel Ehrenberg                                      | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg                              | <sub>[September&nbsp;2020][decorators-notes]</sub>                    |
 | [`throw` expressions][throw-expressions]                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[January&nbsp;2018][throw-expressions-notes]</sub>               |
 | [Function implementation hiding][censorship]                                   | Domenic Denicola<br />Michael Ficarra                 | Michael Ficarra                                                                   | <sub>[June&nbsp;2020][censorship-notes]</sub>                         |
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran                  | Sathya Gunasekaran                                                                | <sub>[January&nbsp;2019][set-methods-notes]</sub>                     |
-| [Realms][realms]                                                               | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño                                   | <sub>[June&nbsp;2020][realms-notes]</sub>                             |
+| [Realms][realms]                                                               | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño                                   | <sub>[November&nbsp;2020][realms-notes]</sub>                         |
 | [`ArrayBuffer.prototype.transfer`][buffer-transfer]                            | Domenic Denicola                                      | Shu-yu Guo                                                                        | <sub>[July&nbsp;2018][buffer-transfer-notes]</sub>                    |
 | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                                        | Mathias Bynens                                                                    | <sub>[October&nbsp;2019][unicode-sequence-properties-notes]</sub>     |
-| [Temporal][temporal]                                                           | Maggie Pint<br />Matt Johnson<br />Philipp Dunkel     | Maggie Pint<br />Philipp Dunkel<br />Brian Terlson                                | <sub>[September&nbsp;2020][temporal-notes]</sub>                      |
+| [Temporal][temporal]                                                           | Maggie Pint<br />Matt Johnson<br />Philipp Dunkel     | Maggie Pint<br />Philipp Dunkel<br />Brian Terlson                                | <sub>[November&nbsp;2020][temporal-notes]</sub>                       |
 | [collection normalization][collection-rekey]                                   | Bradley Farias                                        | Bradley Farias                                                                    | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                     |
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel, Krzysztof Kotowicz                       | Krzysztof Kotowicz                                                                | <sub>[December&nbsp;2019][isTemplateObject-notes]</sub>               |
 | [Iterator helpers][iterator-helpers]                                           | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin                                              | <sub>[July&nbsp;2020][iterator-helpers-notes]</sub>                   |
@@ -49,12 +49,12 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Dynamic Import Host Adjustment][]                                             | Mike Samuel, Krzysztof Kotowicz                       | Krzysztof Kotowicz                                                                | <sub>[December&nbsp;2019][Dynamic Import Host Adjustment notes]</sub> |
 | [Ergonomic brand checks for Private Fields][private-fields-in-in]              | Jordan Harband                                        | Jordan Harband                                                                    | <sub>[September&nbsp;2020][private-fields-in-in-notes]</sub>          |
 | [WeakRefs `cleanupSome`][cleanup-some]                                         | Yulia Startsev<br />Daniel Ehrenberg                  | Yulia Startsev<br />Daniel Ehrenberg                                              | <sub>[July&nbsp;2020][cleanup-some-notes]</sub>                       |
-| [JSON Modules][json-modules]                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>[September&nbsp;2020][json-modules-notes]</sub>                  |
+| [JSON Modules][json-modules]                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | <sub>[November&nbsp;2020][json-modules-notes]</sub>                   |
 | [Record & Tuple][record-tuple]                                                 | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                                                  | <sub>[September&nbsp;2020][record-tuple-notes]</sub>                  |
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                    | <sub>[July&nbsp;2020][json-parse-source-notes]</sub>                  |
 | [Class Static Block][static-blocks]                                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[September&nbsp;2020][static-blocks-notes]</sub>                 |
 | [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>[September&nbsp;2020][resizable-notes]</sub>                     |
-| [Error Cause][error-cause]                                                     | Chengzhong Wu                                         | Chengzhong Wu<br /> Hemanth HM                                                    | <sub>November&nbsp;2020</sub>                                         |
+| [Error Cause][error-cause]                                                     | Chengzhong Wu                                         | Chengzhong Wu<br /> Hemanth HM                                                    | <sub>[November&nbsp;2020][error-cause-notes]</sub>                    |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -92,9 +92,9 @@ Note that as part of the onboarding process your repository name may be normaliz
 [private-methods-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-30.md#private-fields-and-methods-refresher
 [tests-private-methods]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Aclosed+private+methods
 [realms]: https://github.com/tc39/proposal-realms
-[realms-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-06/june-4.md#realms-stage-2-update
+[realms-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-17.md#realms-for-stage-3
 [temporal]: https://github.com/tc39/proposal-temporal
-[temporal-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-23.md#temporal-stage-2-update
+[temporal-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-18.md#tour-of-temporal
 [nonblocking]: https://github.com/tc39/proposal-atomics-wait-async
 [nonblocking-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-4.md#atomicswaitasync-for-stage-3
 [tests-nonblocking]: https://github.com/tc39/test262/issues/2511
@@ -117,7 +117,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [unicode-sequence-properties]: https://github.com/tc39/proposal-regexp-unicode-sequence-properties
 [unicode-sequence-properties-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions
 [regex-match-indices]: https://github.com/tc39/proposal-regexp-match-indices
-[regex-match-indices-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-12/december-3.md#regexp-match-indices-performance-feedback
+[regex-match-indices-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-16.md#regexp-matches-indices-jsc-implementation-feedback
 [tests-regexp-match-indices]: https://github.com/tc39/test262/pull/2309
 [buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer
 [buffer-transfer-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-24.md#arraybufferprototypetransfer
@@ -141,19 +141,19 @@ Note that as part of the onboarding process your repository name may be normaliz
 [cleanup-some]: https://github.com/tc39/proposal-cleanup-some
 [cleanup-some-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 [json-modules]: https://github.com/tc39/proposal-json-modules
-[json-modules-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#json-modules-update
+[json-modules-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-19.md#json-modules-for-stage-3-cont
 [at]: https://github.com/tc39/proposal-relative-indexing-method
-[at-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#item-for-stage-3
+[at-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-17.md#item-rename--revisit-inclusion-on-string
 [tests-at]: https://github.com/tc39/test262/pull/2812
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
 [record-tuple-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#records--tuples
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
 [json-parse-source-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-22.md#jsonparse-source-text-access-for-stage-2
 [import-assertions]: https://github.com/tc39/proposal-import-assertions
-[import-assertions-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#import-assertions-for-stage-3
+[import-assertions-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-17.md#import-assertions-status-update
 [static-blocks]: https://github.com/tc39/proposal-class-static-block
 [static-blocks-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#class-static-initialization-block-for-stage-2
 [resizable]: https://github.com/tc39/proposal-resizablearraybuffer
 [resizable-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#resizable-and-growable-arraybuffers-for-stage-2
 [error-cause]: https://github.com/tc39/proposal-error-cause
-[error-cause-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#error-cause-for-stage-1
+[error-cause-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-19.md#error-cause-for-stage-2

@@ -23,7 +23,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ------------------------------------------- |
 | [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [June&nbsp;2020][intl.durationformat-notes] |
 | [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                       | Shane Carr                       | [June 2020][intl-v3-notes]                  |
-| [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | [September 2020][intl-enumeration-notes]    |
+| [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | [November 2020][intl-enumeration-notes]     |
 
 ### Stage 1
 
@@ -56,7 +56,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl-v3]: https://github.com/tc39/proposal-intl-numberformat-v3
 [intl-v3-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-06/june-2.md#intlnumberformat-v3-for-stage-2
 [intl-enumeration]: https://github.com/tc39/proposal-intl-enumeration
-[intl-enumeration-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#intl-enumeration-api-for-stage-2
+[intl-enumeration-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-18.md#intl-enumeration-api-update
 [smart-units]: https://github.com/tc39/proposal-smart-unit-preferences
 [smart-units-notes]: https://github.com/tc39/notes/blob/840c700dc7fa7b9f6d0a3c208bd66b333e304717/meetings/2020-06/june-4.md#smart-unit-preferences-in-intlnumberformat-for-stage-1
 [intl.displaynames-v2]: https://github.com/tc39/intl-displaynames-v2
