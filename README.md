@@ -55,6 +55,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Class Static Block][static-blocks]                                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[September&nbsp;2020][static-blocks-notes]</sub>                 |
 | [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>[September&nbsp;2020][resizable-notes]</sub>                     |
 | [Error Cause][error-cause]                                                     | Chengzhong Wu                                         | Chengzhong Wu<br /> Hemanth HM                                                    | <sub>[November&nbsp;2020][error-cause-notes]</sub>                    |
+| [Module Blocks][module-blocks]                                                 | Surma<br />Daniel Ehrenberg                           | Surma                                                                             | <sub>January&nbsp;2021</sub>                                          |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -157,3 +158,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [resizable-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#resizable-and-growable-arraybuffers-for-stage-2
 [error-cause]: https://github.com/tc39/proposal-error-cause
 [error-cause-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-19.md#error-cause-for-stage-2
+[module-blocks]: https://github.com/tc39/proposal-js-module-blocks
+[module-blocks-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-18.md#js-module-blocks

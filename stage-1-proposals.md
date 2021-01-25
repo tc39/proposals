@@ -74,7 +74,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Double-Ended Iterator and Destructuring][double-ended-iterator]                             | HE Shi-Jun                                             | HE Shi-Jun                                             | <sub>[September&nbsp;2020][double-ended-iterator-notes]</sub>    |
 | [Standardized Debug][debug]                                                                  | Gus Caplan                                             | Gus Caplan                                             | <sub>[November&nbsp;2020][debug-notes]</sub>            _        |
 | [Modulus and Additional Integer Math][modulus]                                               | Peter Hoddie                                           | Peter Hoddie                                           | <sub>[September&nbsp;2020][modulus-notes]</sub>                  |
-| [Module Blocks][module-blocks]                                                               | Surma<br />Daniel Ehrenberg                            | Surma                                                  | <sub>[November&nbsp;2020][module-blocks-notes]</sub>             |
 | [Extensions][extensions]                                                                     | HE Shi-Jun                                             | HE Shi-Jun                                             | <sub>[November&nbsp;2020][extensions-notes]</sub>                |
 | [Grouped Accessors and Auto-Accessors][accessors]                                            | Ron Buckton                                            | Ron Buckton                                            | <sub>[November&nbsp;2020][accessors-notes]</sub>                 |
 
@@ -217,8 +216,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [debug-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-17.md#standardized-debug-for-stage-2
 [modulus]: https://github.com/phoddie/integer-and-modulus-math-proposal
 [modulus-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#modulus-and-additional-integer-math-for-stage-1
-[module-blocks]: https://github.com/tc39/proposal-js-module-blocks
-[module-blocks-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-18.md#js-module-blocks
 [extensions]: https://github.com/hax/proposal-extensions
 [extensions-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-19.md#extensions-for-stage-1
 [accessors]: https://github.com/rbuckton/proposal-grouped-and-auto-accessors
