@@ -14,7 +14,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
-| [`Intl.DateFormat.prototype.formatRange`][formatrange]                 | Felipe Balbontín                 | Sathya Gunasekaran               | [March&nbsp;2019][formatrange-notes]                  |
 | [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg, Richard Gibson | Richard Gibson                   | [July&nbsp;2020][intl-segmenter-notes]                |
 
 ### Stage 2
@@ -49,8 +48,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 
 [intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
 [intl-segmenter-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-21.md#intlsegmenter-for-stage-3
-[formatrange]: https://github.com/tc39/proposal-intl-DateTimeFormat-formatRange
-[formatrange-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#intldatetimeformatprototypeformatrange-for-stage-3
 [intl.durationformat]: https://github.com/tc39/proposal-intl-duration-format
 [intl.durationformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#time-duration-format-proposal-for-stage-1
 [intl-v3]: https://github.com/tc39/proposal-intl-numberformat-v3

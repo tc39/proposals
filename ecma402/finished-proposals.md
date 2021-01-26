@@ -13,6 +13,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Intl.ListFormat`][intl.listformat]                                                         | Zibi Braniecki                       | Zibi Braniecki                       | [July 2020][intl.listformat-notes]                                | 2021              |
 | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]                                 | Zibi Braniecki                       | Zibi Braniecki                       | [July 2020][datetimeformat-notes]                                 | 2021              |
 | [Intl.DisplayNames][proposal-intl-displaynames]                                              | Frank Tang                           | Frank Tang                           | [September 2020][proposal-intl-displaynames-notes]                | 2021              |
+| [`Intl.DateFormat.prototype.formatRange`][formatrange]                                       | Felipe Balbontín                     | Sathya Gunasekaran                   | January&nbsp;2021                                                 | 2021              |
 
 See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](README.md) documents.
 
@@ -34,3 +35,5 @@ See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](R
 [datetimeformat-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-21.md#intldatetimeformat-datestyletimestyle-for-stage-4
 [proposal-intl-displaynames]: https://github.com/tc39/proposal-intl-displaynames
 [proposal-intl-displaynames-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#intldisplaynames-for-stage-4
+[formatrange]: https://github.com/tc39/proposal-intl-DateTimeFormat-formatRange
+[formatrange-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#intldatetimeformatprototypeformatrange-for-stage-3
