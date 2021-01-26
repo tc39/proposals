@@ -23,6 +23,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [June&nbsp;2020][intl.durationformat-notes] |
 | [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                       | Shane Carr                       | [June 2020][intl-v3-notes]                  |
 | [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | [November 2020][intl-enumeration-notes]     |
+| [`Intl Locale Info`][intl-locale-info]                                 | Frank Tang                       | Frank Tang                       | January 2021                                |
 
 ### Stage 1
 
@@ -30,7 +31,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | ------------------------------------------------------------ | --------------- | --------------- | ---------------------------------------------------------------- |
 | [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | [June 2020][smart-units-notes]                                   |
 | [`Intl.DisplayNames v2`][intl.displaynames-v2]               | Frank Tang      | Frank Tang      | [September 2020][intl.displaynames-v2-notes]                     |
-| [`Intl Locale Info`][intl-locale-info]                       | Frank Tang      | Frank Tang      | [September 2020][intl-locale-info-notes]                         |
 
 ### Contributing new proposals
 
