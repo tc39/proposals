@@ -76,6 +76,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Modulus and Additional Integer Math][modulus]                                               | Peter Hoddie                                           | Peter Hoddie                                           | <sub>[September&nbsp;2020][modulus-notes]</sub>                  |
 | [Extensions][extensions]                                                                     | HE Shi-Jun                                             | HE Shi-Jun                                             | <sub>[November&nbsp;2020][extensions-notes]</sub>                |
 | [Grouped Accessors and Auto-Accessors][accessors]                                            | Ron Buckton                                            | Ron Buckton                                            | <sub>[November&nbsp;2020][accessors-notes]</sub>                 |
+| [`async do` expressions][async-do]                                                           | Kevin Gibbons                                          | Kevin Gibbons                                           | <sub>January&nbsp;2021</sub>                                      |
 
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
@@ -220,3 +221,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [extensions-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-19.md#extensions-for-stage-1
 [accessors]: https://github.com/rbuckton/proposal-grouped-and-auto-accessors
 [accessors-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-19.md#continuation-grouped-accessors-and-auto-accessors
+[async-do]: https://github.com/bakkot/proposal-async-do-expressions
