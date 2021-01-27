@@ -31,6 +31,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | Proposal                                                     | Author          | Champion        | <sub>Last Presented</sub>                                        |
 | ------------------------------------------------------------ | --------------- | --------------- | ---------------------------------------------------------------- |
 | [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | [June 2020][smart-units-notes]                                   |
+| [Extend TimeZoneName Option Proposal][extend-timezonename]   | FrankYFTang     | FrankYFTang     | January 2021                                                  |
 
 ### Contributing new proposals
 
@@ -60,3 +61,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl.displaynames-v2-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-23.md#intldisplaynames-v2-for-stage-1
 [intl-locale-info]: https://github.com/tc39/proposal-intl-locale-info
 [intl-locale-info-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-23.md#intl-locale-info-for-stage-1
+[extend-timezonename]: https://github.com/FrankYFTang/proposal-intl-extend-timezonename

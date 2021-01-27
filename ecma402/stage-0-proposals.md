@@ -10,7 +10,6 @@ Stage 0 proposals are either
 | [Fix 9.2.3 LookupMatcher algorithm][]                                | Rafael Xavier    | Rafael Xavier      |
 | [`Intl.NumberFormat` `round` option][intl.numberformat round option] | Rafael Xavier    | Rafael Xavier      |
 | [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]            | Louis-Aime       | Louis-Aime         |
-| [Extend TimeZoneName Option Proposal][extend-timezonename]           | FrankYFTang      | FrankYFTang        |
 | [`Intl.LocaleMatcher`][intl-localematcher]                           | Long Ho          | Long Ho            |
 
 See also the [finished proposals](finished-proposals.md), and [active proposals](README.md) documents.
@@ -19,5 +18,4 @@ See also the [finished proposals](finished-proposals.md), and [active proposals]
 [intl.numberformat round option]: https://github.com/rxaviers/ecma402-number-format-round-option
 [numberformat options]: https://github.com/sffc/proposal-unified-intl-numberformat
 [eradisplay]: https://github.com/Louis-Aime/proposal-intl-eradisplay
-[extend-timezonename]: https://github.com/FrankYFTang/proposal-intl-extend-timezonename
 [intl-localematcher]: https://github.com/longlho/proposal-intl-localematcher
