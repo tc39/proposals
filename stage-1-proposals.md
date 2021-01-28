@@ -80,6 +80,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Class Brand Checks][class-brand-check]                                                      | HE Shi-Jun                                             | HE Shi-Jun                                             | <sub>January&nbsp;2021</sub>                                      |
 | [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation]      | Markus Scherer<br />Mathias Bynens                     | Mathias Bynens                                   | <sub>January&nbsp;2021</sub>                                      |
 | [Escaping Strings for RegExps][escape]                                                       | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband                                   | <sub>January&nbsp;2021</sub>                                      |
+| [Array find from last][find-last]                                                            | Wenlu Wang                                             | Wenlu Wang                                             | <sub>January&nbsp;2021</sub>                                      |
 
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
@@ -229,3 +230,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [regex-set-notation]: https://github.com/mathiasbynens/proposal-regexp-set-notation
 [escape]: https://github.com/benjamingr/RegExp.escape
 [escape-notes]: https://github.com/tc39/notes/blob/master/meetings/2015-07/july-28.md#62-regexpescape
+[find-last]: https://github.com/Kingwl/proposal-array-find-from-last
