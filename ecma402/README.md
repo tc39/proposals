@@ -33,6 +33,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | [June 2020][smart-units-notes]                                   |
 | [Extend TimeZoneName Option Proposal][extend-timezonename]   | FrankYFTang     | FrankYFTang     | January 2021                                                  |
 | [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]    | Louis-Aime      | Louis-Aime      | January 2021                                                  |
+| [Intl LocaleMatcher][localematcher]                          | Long Ho         | Long Ho         | January 2021                                                  |
 
 ### Contributing new proposals
 
@@ -64,3 +65,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl-locale-info-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-23.md#intl-locale-info-for-stage-1
 [extend-timezonename]: https://github.com/FrankYFTang/proposal-intl-extend-timezonename
 [eradisplay]: https://github.com/Louis-Aime/proposal-intl-eradisplay
+[localematcher]: https://github.com/longlho/proposal-intl-localematcher
