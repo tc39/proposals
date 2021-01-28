@@ -4,7 +4,6 @@ Inactive proposals are proposals that at one point were presented to the committ
 
 | Proposal                                                             | Champion                                                   | Rationale                                                                                     |
 | -------------------------------------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [`RegExp.escape`][escape]                                            | Domenic Denicola<br />Benjamin Gruenbaum                   | [Rejected][escape-notes]: in favor of exploring a template tag function solution              |
 | [Callable class constructors][callable-constructors]                 | Yehuda Katz<br />Allen Wirfs-Brock                         | Withdrawn: can be solved with decorators                                                      |
 | [`Error.isError`][is-error]                                          | Jordan Harband                                             | Withdrawn: in favor of [`Error` stack traces][error-stacks] proposal                          |
 | [`{Set,Map}.prototype.toJSON`][collection-json]                      | David Bruant<br />Jordan Harband                           | Rejected: better solved by a custom replacer function.                                        |
@@ -37,8 +36,6 @@ Inactive proposals are proposals that at one point were presented to the committ
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
 [distinguishing-literal-strings]: https://github.com/mikewest/tc39-proposal-literals
-[escape]: https://github.com/benjamingr/RegExp.escape
-[escape-notes]: https://github.com/tc39/notes/blob/master/meetings/2015-07/july-28.md#62-regexpescape
 [callable-constructors]: https://github.com/tc39/ecma262/blob/master/workingdocs/callconstructor.md
 [is-error]: https://github.com/ljharb/proposal-is-error
 [collection-json]: https://github.com/DavidBruant/Map-Set.prototype.toJSON
