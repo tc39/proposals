@@ -63,6 +63,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl.displaynames-v2-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-23.md#intldisplaynames-v2-for-stage-1
 [intl-locale-info]: https://github.com/tc39/proposal-intl-locale-info
 [intl-locale-info-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-23.md#intl-locale-info-for-stage-1
-[extend-timezonename]: https://github.com/FrankYFTang/proposal-intl-extend-timezonename
-[eradisplay]: https://github.com/Louis-Aime/proposal-intl-eradisplay
-[localematcher]: https://github.com/longlho/proposal-intl-localematcher
+[extend-timezonename]: https://github.com/tc39/proposal-intl-extend-timezonename
+[eradisplay]: https://github.com/tc39/proposal-intl-eradisplay
+[localematcher]: https://github.com/tc39/proposal-intl-localematcher
