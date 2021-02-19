@@ -41,7 +41,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Promise.any`][promise-any]                                             | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov  | Mathias Bynens                                          | [July 2020][promise-any-notes]              | 2021                      |
 | [WeakRefs][weakrefs]                                                     | Dean Tribble<br />Sathya Gunasekaran                   | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg | [July 2020][weakrefs-notes] | 2021 |
 | [Logical Assignment Operators][logical-assignment]                       | Justin Ridgewell                                       | Justin Ridgewell <br /> Hemanth HM                      | [July 2020][logical-assignment-notes]       | 2021                      |
-| [Numeric separators][numeric_separators]                                 | Sam Goto<br />Rick Waldron                             | Sam Goto<br />Rick Waldron                              | [July 2020][numeric_separators-notes]       | 2021                      |
+| [Numeric separators][numeric_separators]                                 | Sam Goto<br />Rick Waldron                             | Sam Goto<br />Rick Waldron <br />Leo Balter                | [July 2020][numeric_separators-notes]       | 2021                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
