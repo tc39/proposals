@@ -80,7 +80,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Class Brand Checks][class-brand-check]                                                      | HE Shi-Jun                                             | HE Shi-Jun                                            | <sub>January&nbsp;2021</sub>                                      |
 | [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation]      | Markus Scherer<br />Mathias Bynens                     | Mathias Bynens                                        | <sub>January&nbsp;2021</sub>                                      |
 | [Escaping Strings for RegExps][escape]                                                       | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband                                  | <sub>January&nbsp;2021</sub>                                      |
-| [Array find from last][find-last]                                                            | Wenlu Wang                                             | Wenlu Wang                                            | <sub>January&nbsp;2021</sub>                                      |
+| [Array find from last][find-last]                                                            | Wenlu Wang                                             | Wenlu Wang<br />Daniel Rosenwasser                    | <sub>January&nbsp;2021</sub>                                      |
 | [defer module import eval][lazy-import]                                                      | Yulia Startsev                                         | Yulia Startsev                                        | <sub>January&nbsp;2021</sub>                                      |
 
 
