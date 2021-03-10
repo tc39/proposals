@@ -56,6 +56,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Class Static Block][static-blocks]                                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[September&nbsp;2020][static-blocks-notes]</sub>                 |
 | [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>[September&nbsp;2020][resizable-notes]</sub>                     |
 | [Module Blocks][module-blocks]                                                 | Surma<br />Daniel Ehrenberg                           | Surma                                                                             | <sub>January&nbsp;2021</sub>                                          |
+| [Array find from last][find-last]                                              | Wenlu Wang                                            | Wenlu Wang<br />Daniel Rosenwasser                                                | <sub>January&nbsp;2021</sub>                                          |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -160,3 +161,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [error-cause-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-19.md#error-cause-for-stage-2
 [module-blocks]: https://github.com/tc39/proposal-js-module-blocks
 [module-blocks-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-18.md#js-module-blocks
+[find-last]: https://github.com/tc39/proposal-array-find-from-last
