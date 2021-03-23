@@ -29,6 +29,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`String.prototype.{trimStart,trimEnd}`][trims]                          | Sebastian Markbåge                                     | Sebastian Markbåge<br />Mathias Bynens                  | [January 2019][trims-notes]                 | 2019                      |
 | [`Array.prototype.{flat,flatMap}`][flat]                                 | Brian Terlson<br />Michael Ficarra<br />Mathias Bynens | Brian Terlson<br />Michael Ficarra                      | [January 2019][flat-notes]                  | 2019                      |
 | [`String.prototype.matchAll`][matchall]                                  | Jordan Harband                                         | Jordan Harband                                          | [March 2019][matchall-notes]                | 2020                      |
+| [`export * as ns from "mod";`][export-ns-from]                           | Lee Byron                                              | Valerie Young                                           | [March 2019][export-ns-from-notes]          | 2020                      |
 | [`import()`][dynamic-import]                                             | Domenic Denicola                                       | Domenic Denicola                                        | [June 2019][dynamic-import-notes]           | 2020                      |
 | [`BigInt`][bigint]                                                       | Daniel Ehrenberg                                       | Daniel Ehrenberg                                        | [June 2019][bigint-notes]                   | 2020                      |
 | [`Promise.allSettled`][allsettled]                                       | Jason Williams<br />Robert Pamely<br />Mathias Bynens  | Mathias Bynens                                          | [July 2019][allsettled-notes]               | 2020                      |
@@ -49,6 +50,8 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [array-includes-notes]: https://github.com/tc39/notes/blob/master/meetings/2015-11/nov-17.md#arrayprototypeincludes
 [exponentiation]: https://github.com/tc39/proposal-exponentiation-operator
 [exponentiation-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-01/jan-28.md#5xviii-exponentiation-operator-rw
+[export-ns-from]: https://github.com/tc39/proposal-export-ns-from
+[export-ns-from-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-03/mar-26.md#normative-add-export--as-ns-from-mod-to-export-production-and-module-semantic
 [object-values-entries]: https://github.com/tc39/proposal-object-values-entries
 [object-values-entries-notes]: https://github.com/tc39/notes/blob/master/meetings/2016-03/march-29.md#objectvalues--objectentries
 [string-padding]: https://github.com/tc39/proposal-string-pad-start-end
