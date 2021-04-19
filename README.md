@@ -40,7 +40,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Function implementation hiding][censorship]                                   | Domenic Denicola<br />Michael Ficarra                 | Michael Ficarra                                                                   | <sub>[June&nbsp;2020][censorship-notes]</sub>                         |
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran                  | Sathya Gunasekaran                                                                | <sub>[January&nbsp;2019][set-methods-notes]</sub>                     |
 | [Realms][realms]                                                               | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño                                   | <sub>[November&nbsp;2020][realms-notes]</sub>                         |
-| [`ArrayBuffer.prototype.transfer`][buffer-transfer]                            | Domenic Denicola                                      | Shu-yu Guo                                                                        | <sub>[July&nbsp;2018][buffer-transfer-notes]</sub>                    |
 | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                                        | Mathias Bynens                                                                    | <sub>[October&nbsp;2019][unicode-sequence-properties-notes]</sub>     |
 | [collection normalization][collection-rekey]                                   | Bradley Farias                                        | Bradley Farias                                                                    | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                     |
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel, Krzysztof Kotowicz                       | Krzysztof Kotowicz                                                                | <sub>[December&nbsp;2019][isTemplateObject-notes]</sub>               |
@@ -108,8 +107,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [regex-match-indices]: https://github.com/tc39/proposal-regexp-match-indices
 [regex-match-indices-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-16.md#regexp-matches-indices-jsc-implementation-feedback
 [tests-regexp-match-indices]: https://github.com/tc39/test262/pull/2309
-[buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer
-[buffer-transfer-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-24.md#arraybufferprototypetransfer
 [resource-management]: https://github.com/tc39/proposal-explicit-resource-management
 [resource-management-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-5.md#updates-on-explicit-resource-management
 [standard-library]: https://github.com/tc39/proposal-javascript-standard-library

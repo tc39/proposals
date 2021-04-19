@@ -32,6 +32,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Unused Function Parameters][unused-params]                          | Gus Caplan                                                 | [Rejected][unused-params-notes]: the need to solve the problem does not outweigh the hazards
 | [Improving iteration on Objects][object-iteration]                   | Jonathan Keslin                                            | Withdrawn: concern about need for such an API                                                 |
 | [`String.prototype.at`][string-at]                                   | Mathias Bynens<br />Rick Waldron                           | Obsoleted by renamed `String.prototype.item` proposal                                         |
+| [`ArrayBuffer.prototype.transfer`][buffer-transfer]                  | Domenic Denicola<br />Shu-yu Guo                           | Withdrawn: superseded by [Resizable Buffers][resizable-buffers]                               |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -70,3 +71,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [unused-params-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#unused-function-parameters-for-stage-1
 [object-iteration]: https://github.com/tc39/proposal-object-iteration
 [string-at]: https://github.com/mathiasbynens/String.prototype.at
+[buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer
+[resizable-buffer]: https://github.com/tc39/proposal-resizablearraybuffer
