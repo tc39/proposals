@@ -18,9 +18,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | Proposal                                                                       | Author                                                                  | Champion                                                                | Tests                                            | <sub>Last Presented</sub>                                  |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------------------- |
 | [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | [:white_check_mark:][tests-regexp-legacy]        | <sub>[May&nbsp;2017][regexp-legacy-notes]</sub>            |
-| [Private instance methods and accessors][private-methods]                      | Daniel Ehrenberg                                                        | Daniel Ehrenberg<br />Kevin Gibbons                                     | [:white_check_mark:][tests-private-methods]      | <sub>[September&nbsp;2020][class-features-notes]</sub>     |
-| [Class Public Instance Fields & Private Instance Fields][class-fields]         | Daniel Ehrenberg<br />Kevin Gibbons                                     | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons | [:white_check_mark:][tests-class-fields]         | <sub>[September&nbsp;2020][class-features-notes]</sub>     |
-| [Static class fields and private static methods][static-class-features]        | Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg                                        | [:white_check_mark:][tests-static-class-fields]  | <sub>[September&nbsp;2020][class-features-notes]</sub>     |
 | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:white_check_mark:][tests-hashbang-grammar]     | <sub>[November&nbsp;2018][hashbang-notes]</sub>            |
 | [Top-level `await`][await]                                                     | Myles Borins                                                            | Myles Borins                                                            | [:white_check_mark:][tests-await]                | <sub>[June&nbsp;2019][await-notes]</sub>                   |
 | [RegExp Match Indices][regex-match-indices]                                    | Ron Buckton                                                             | Ron Buckton                                                             | [:white_check_mark:][tests-regexp-match-indices] | <sub>[November&nbsp;2020][regex-match-indices-notes]</sub> |
@@ -81,18 +78,10 @@ Note that as part of the onboarding process your repository name may be normaliz
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features
 [regexp-legacy-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-05/may-25.md#15ia-regexp-legacy-features-for-stage-3
 [tests-regexp-legacy]: https://github.com/tc39/test262/pull/2650
-[class-fields]: https://github.com/tc39/proposal-class-fields
-[class-fields-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/march-31.md#add-support-for-optionalchainprivateidentifier-in-class-features-proposals
-[class-features-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-23.md#status-update-for-class-fields-private-methods-static-class-features
-[tests-class-fields]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Aclosed+private+fields
-[tests-static-class-fields]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Aclosed+static+fields
 [function-sent]: https://github.com/tc39/proposal-function.sent
 [function-sent-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-07/july-23.md#making-functionsent-inactive
 [decorators]: https://github.com/tc39/proposal-decorators
 [decorators-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-23.md#decorators-a-new-proposal-iteration
-[private-methods]: https://github.com/tc39/proposal-private-methods
-[private-methods-notes]: https://github.com/tc39/notes/blob/master/meetings/2019-01/jan-30.md#private-fields-and-methods-refresher
-[tests-private-methods]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Aclosed+private+methods
 [realms]: https://github.com/tc39/proposal-realms
 [realms-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-17.md#realms-for-stage-3
 [temporal]: https://github.com/tc39/proposal-temporal
@@ -102,8 +91,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [tests-nonblocking]: https://github.com/tc39/test262/issues/2511
 [throw-expressions]: https://github.com/tc39/proposal-throw-expressions
 [throw-expressions-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-01/jan-24.md#13iiii-throw-expressions-for-stage-3
-[static-class-features]: https://github.com/tc39/proposal-static-class-features
-[static-class-features-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-05/may-23.md#static-class-features-for-stage-3
 [censorship]: https://github.com/tc39/proposal-function-implementation-hiding
 [censorship-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-06/june-2.md#function-implementation-hiding-for-stage-3
 [await]: https://github.com/tc39/proposal-top-level-await
