@@ -23,7 +23,6 @@ Stage 0 proposals are either
 | [`as` destructuring patterns][as-patterns]                         | Kat Marchán                           | Kat Marchán                           |                                   |
 | [`Symbol.thenable`][symbol-thenable]                               | Gus Caplan                            | Jordan Harband<br />Myles Borins      | [May 2018][symbol-thenable-notes] |
 | [Async Context][async-context]                                     | Chengzhong Wu                         | Chengzhong Wu                         | [July 2020][async-context-notes]  |
-| [Change Array by copy][change-array-by-copy]                       | Robin Ricard                          | Robin Ricard                          |                                   |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -51,4 +50,3 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [symbol-thenable-notes]: https://github.com/tc39/notes/blob/def2ee0c04bc91612576237314a4f3b1fe2edaef/meetings/2018-05/may-24.md#symbolthenable-for-stage-1-or-2
 [async-context]: https://github.com/legendecas/proposal-async-context
 [async-context-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-23.md#async-context-updates--for-stage-1
-[change-array-by-copy]: https://github.com/rricard/proposal-change-array-by-copy

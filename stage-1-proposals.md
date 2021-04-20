@@ -82,7 +82,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Escaping Strings for RegExps][escape]                                                       | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband                                  | <sub>January&nbsp;2021</sub>                                      |
 | [defer module import eval][lazy-import]                                                      | Yulia Startsev                                         | Yulia Startsev                                        | <sub>January&nbsp;2021</sub>                                      |
 | [JavaScript module fragments][module-fragments]                                              | Daniel Ehrenberg                                       | Daniel Ehrenberg<br />Mark Miller                      | <sub>March&nbsp;2021</sub>                                        |
-
+| [Change Array by copy][change-array-by-copy]                                                 | Robin Ricard                                           | Robin Ricard                                          | <sub>April&nbsp;2021</sub>                                        |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -233,3 +233,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [escape-notes]: https://github.com/tc39/notes/blob/master/meetings/2015-07/july-28.md#62-regexpescape
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
 [module-fragments]: https://github.com/littledan/proposal-module-fragments
+[change-array-by-copy]: https://github.com/rricard/proposal-change-array-by-copy
