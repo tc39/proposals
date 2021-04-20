@@ -15,6 +15,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
 | [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg, Richard Gibson | Richard Gibson                   | [July&nbsp;2020][intl-segmenter-notes]                |
+| [`Intl Locale Info`][intl-locale-info]                                 | Frank Tang                       | Frank Tang                       | April 2021                                            |
 
 ### Stage 2
 
@@ -23,7 +24,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [June&nbsp;2020][intl.durationformat-notes] |
 | [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                       | Shane Carr                       | [June 2020][intl-v3-notes]                  |
 | [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | [November 2020][intl-enumeration-notes]     |
-| [`Intl Locale Info`][intl-locale-info]                                 | Frank Tang                       | Frank Tang                       | January 2021                                |
 | [`Intl.DisplayNames v2`][intl.displaynames-v2]                         | Frank Tang                       | Frank Tang                       | January 2021                                |
 
 ### Stage 1
