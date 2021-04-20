@@ -25,13 +25,13 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                       | Shane Carr                       | [June 2020][intl-v3-notes]                  |
 | [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | [November 2020][intl-enumeration-notes]     |
 | [`Intl.DisplayNames v2`][intl.displaynames-v2]                         | Frank Tang                       | Frank Tang                       | January 2021                                |
+| [Extend TimeZoneName Option Proposal][extend-timezonename]             | FrankYFTang                      | FrankYFTang                      | April 2021                                  |
 
 ### Stage 1
 
 | Proposal                                                     | Author          | Champion        | <sub>Last Presented</sub>                                        |
 | ------------------------------------------------------------ | --------------- | --------------- | ---------------------------------------------------------------- |
 | [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | [June 2020][smart-units-notes]                                   |
-| [Extend TimeZoneName Option Proposal][extend-timezonename]   | FrankYFTang     | FrankYFTang     | January 2021                                                  |
 | [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]    | Louis-Aime      | Louis-Aime      | January 2021                                                  |
 | [Intl LocaleMatcher][localematcher]                          | Long Ho         | Long Ho         | January 2021                                                  |
 
