@@ -53,7 +53,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>[September&nbsp;2020][resizable-notes]</sub>                     |
 | [Module Blocks][module-blocks]                                                 | Surma<br />Daniel Ehrenberg                           | Surma                                                                             | <sub>January&nbsp;2021</sub>                                          |
 | [Array find from last][find-last]                                              | Wenlu Wang                                            | Wenlu Wang<br />Daniel Rosenwasser                                                | <sub>January&nbsp;2021</sub>                                          |
-| [Accessible `Object.prototype.hasOwnProperty`][object-has]                     | Jamie Kyle                                            | Tierney Cyren                                                              | <sub>April&nbsp;2021</sub>                                            |
+| [Accessible `Object.prototype.hasOwnProperty`][object-has]                     | Jamie Kyle                                            | Tierney Cyren                                                                     | <sub>April&nbsp;2021</sub>                                            |
+| [Symbols as WeakMap keys][symbols-weakmap]                                     | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | <sub>April&nbsp;2021</sub> |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -148,3 +149,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [module-blocks-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-18.md#js-module-blocks
 [find-last]: https://github.com/tc39/proposal-array-find-from-last
 [object-has]: https://github.com/tc39-transfer/proposal-accessible-object-hasownproperty
+[symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
+[symbols-weakmap-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-22.md#symbols-as-weakmap-keys-for-stage-2

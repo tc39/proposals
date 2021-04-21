@@ -64,7 +64,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Cryptographically Secure Random Number Generation][csprng]                                  | Ron Buckton                                           | Ron Buckton                                            | <sub>[February&nbsp;2020][csprng-notes]</sub>                     |
 | [Number.range & BigInt.range][number-bigint-range]                                           | Jack Works                                             | Jack Works                                            | <sub>[July&nbsp;2020][number-bigint-range-notes]</sub>            |
 | [Compartments][proposal-compartments]                                                        | Bradley Farias                                        | Bradley Farias<br />Mark S. Miller<br />Caridy Patiño<br />J.F. Paradis<br />Patrick Soquet<br />Kris Kowal | <sub>[March&nbsp;2020][proposal-compartments-notes]</sub> |
-| [Symbols as WeakMap keys][symbols-weakmap]                                                   | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard | <sub>[July&nbsp;2020][symbols-weakmap-notes]</sub>               |
 | [Deep Path Properties in Record Literals][deep-path-properties]                              | Rick Button                                           | Rick Button                                            | <sub>[June&nbsp;2020][deep-path-properties-notes]</sub>           |
 | [Restrict subclassing support in built-in methods][species-extinct]                          | Yulia Startsev<br />Shu-yu Guo                        | Yulia Startsev<br />Shu-yu Guo                         | <sub>[June&nbsp;2020][species-extinct-notes]</sub>                |
 | [Array Equality][array-equality]                                                             | Hemanth HM<br />Jordan Harband                        | Hemanth HM<br />Jordan Harband                         | <sub>[June&nbsp;2020][array-equality-notes]</sub>                 |
@@ -202,8 +201,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [number-bigint-range-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-22.md#numberrange-for-stage-2
 [proposal-compartments]: https://github.com/tc39/proposal-compartments
 [proposal-compartments-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/april-1.md#compartments-for-stage-1
-[symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
-[symbols-weakmap-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-07/july-22.md#symbols-as-weakmap-keys-for-stage-2
 [deep-path-properties]: https://github.com/tc39/proposal-deep-path-properties-for-record
 [deep-path-properties-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-06/june-3.md#deep-path-properties
 [species-extinct]: https://github.com/tc39/proposal-rm-builtin-subclassing
