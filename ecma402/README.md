@@ -15,16 +15,16 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
 | [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg, Richard Gibson | Richard Gibson                   | [July&nbsp;2020][intl-segmenter-notes]                |
-| [`Intl Locale Info`][intl-locale-info]                                 | Frank Tang                       | Frank Tang                       | April 2021                                            |
+| [`Intl Locale Info`][intl-locale-info]                                 | Frank Tang                       | Frank Tang                       | [January 2021](https://github.com/tc39/notes/blob/master/meetings/2021-01/jan-26.md#intl-locale-info-for-stage-2) / April 2021                                            |
 
 ### Stage 2
 
 | Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                   |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ------------------------------------------- |
 | [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [June&nbsp;2020][intl.durationformat-notes] |
-| [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                       | Shane Carr                       | [June 2020][intl-v3-notes]                  |
-| [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | [November 2020][intl-enumeration-notes]     |
-| [`Intl.DisplayNames v2`][intl.displaynames-v2]                         | Frank Tang                       | Frank Tang                       | January 2021                                |
+| [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                       | Shane Carr                       | [June&nbsp;2020][intl-v3-notes]                  |
+| [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | [November&nbsp;2020][intl-enumeration-notes]     |
+| [`Intl.DisplayNames v2`][intl.displaynames-v2]                         | Frank Tang                       | Frank Tang                       | [January&nbsp;2021](https://github.com/tc39/notes/blob/master/meetings/2021-01/jan-26.md#intldisplaynames-for-stage-2)                                |
 | [Extend TimeZoneName Option Proposal][extend-timezonename]             | FrankYFTang                      | FrankYFTang                      | April 2021                                  |
 
 ### Stage 1
@@ -32,8 +32,8 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | Proposal                                                     | Author          | Champion        | <sub>Last Presented</sub>                                        |
 | ------------------------------------------------------------ | --------------- | --------------- | ---------------------------------------------------------------- |
 | [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | [June 2020][smart-units-notes]                                   |
-| [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]    | Louis-Aime      | Louis-Aime      | January 2021                                                  |
-| [Intl LocaleMatcher][localematcher]                          | Long Ho         | Long Ho         | January 2021                                                  |
+| [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]    | Louis-Aime      | Shane Carr, Louis-Aime      | [January&nbsp;2021](https://github.com/tc39/notes/blob/master/meetings/2021-01/jan-27.md#eradisplay-for-stage-1)                                                  |
+| [Intl LocaleMatcher][localematcher]                          | Long Ho         | Shane Carr, Long Ho         | [January&nbsp;2021](https://github.com/tc39/notes/blob/master/meetings/2021-01/jan-28.md#intl-localematcher-for-stage-1)                                                  |
 
 ### Contributing new proposals
 
