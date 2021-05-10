@@ -36,7 +36,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                    | Sathya Gunasekaran                                     | <sub>[July&nbsp;2020][slice-notation-notes]</sub>                 |
 | [Module Keys][module-keys]                                                                   | Mike Samuel                                           | Mike Samuel                                            | <sub>[May&nbsp;2018][module-keys-notes]</sub>                     |
 | [class Access Expressions][class-access-expressions]                                         | Ron Buckton                                           | Ron Buckton                                            | <sub>[September&nbsp;2020][class-access-expressions-notes]</sub>  |
-| [Pattern Matching][matching]                                                                 | Jordan Harband<br /><br />Mark Cohen<br />Tab Atkins<br />Yulia Startsev<br />Daniel Rosenwasser<br />Jack Works<br />Ross Kirsling | Jordan Harband<br /><br />Mark Cohen<br />Tab Atkins<br />Yulia Startsev<br />Daniel Rosenwasser<br />Jack Works<br />Ross Kirsling | <sub>April&nbsp;2021</sub> |
+| [Pattern Matching][matching]                                                                 | Jordan Harband<br /><br />Mark Cohen<br />Tab Atkins<br />Yulia Startsev<br />Daniel Rosenwasser<br />Jack Works<br />Ross Kirsling | Jordan Harband<br /><br />Mark Cohen<br />Tab Atkins<br />Yulia Startsev<br />Daniel Rosenwasser<br />Jack Works<br />Ross Kirsling | <sub>[April&nbsp;2021][matching-notes]</sub> |
 | [Dynamic Modules][dynamic-modules]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[July&nbsp;2018][dynamic-modules-notes]</sub>                |
 | [Built In Modules (aka JS Standard Library)][built-in-modules]                               | Michael Saboff<br />Mattijs Hoitink                   | Michael Saboff<br />Mattijs Hoitink<br />Mark Miller   | <sub>[September&nbsp;2020][built-in-modules-notes]</sub>          |
 | [`"use module"`][modules-pragma]                                                             | Dave Herman                                           | Dave Herman                                            | <sub>[July&nbsp;2017][modules-pragma-notes]</sub>                 |
@@ -75,13 +75,13 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Modulus and Additional Integer Math][modulus]                                               | Peter Hoddie                                           | Peter Hoddie                                          | <sub>[September&nbsp;2020][modulus-notes]</sub>                   |
 | [Extensions][extensions]                                                                     | HE Shi-Jun                                             | HE Shi-Jun                                            | <sub>[November&nbsp;2020][extensions-notes]</sub>                 |
 | [Grouped Accessors and Auto-Accessors][accessors]                                            | Ron Buckton                                            | Ron Buckton                                           | <sub>[November&nbsp;2020][accessors-notes]</sub>                  |
-| [`async do` expressions][async-do]                                                           | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>January&nbsp;2021</sub>                                      |
-| [Class Brand Checks][class-brand-check]                                                      | HE Shi-Jun                                             | HE Shi-Jun                                            | <sub>January&nbsp;2021</sub>                                      |
-| [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation]      | Markus Scherer<br />Mathias Bynens                     | Mathias Bynens                                        | <sub>January&nbsp;2021</sub>                                      |
-| [Escaping Strings for RegExps][escape]                                                       | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband                                  | <sub>January&nbsp;2021</sub>                                      |
-| [defer module import eval][lazy-import]                                                      | Yulia Startsev                                         | Yulia Startsev                                        | <sub>January&nbsp;2021</sub>                                      |
-| [JavaScript module fragments][module-fragments]                                              | Daniel Ehrenberg                                       | Daniel Ehrenberg<br />Mark Miller                      | <sub>March&nbsp;2021</sub>                                        |
-| [Change Array by copy][change-array-by-copy]                                                 | Robin Ricard                                           | Robin Ricard                                          | <sub>April&nbsp;2021</sub>                                        |
+| [`async do` expressions][async-do]                                                           | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>[January&nbsp;2021][async-do-notes]</sub>                    |
+| [Class Brand Checks][class-brand-check]                                                      | HE Shi-Jun                                             | HE Shi-Jun                                            | <sub>[January&nbsp;2021][class-brand-check-notes]</sub>           |
+| [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation]      | Markus Scherer<br />Mathias Bynens                     | Mathias Bynens                                        | <sub>[January&nbsp;2021][regex-set-notation-notes]</sub>          |
+| [Escaping Strings for RegExps][escape]                                                       | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband                                  | <sub>[January&nbsp;2021][escape-notes]</sub>                      |
+| [defer module import eval][lazy-import]                                                      | Yulia Startsev                                         | Yulia Startsev                                        | <sub>[January&nbsp;2021][lazy-import-notes]</sub>                 |
+| [JavaScript module fragments][module-fragments]                                              | Daniel Ehrenberg                                       | Daniel Ehrenberg<br />Mark Miller                     | <sub>[March&nbsp;2021][module-fragments-notes]</sub>              |
+| [Change Array by copy][change-array-by-copy]                                                 | Robin Ricard                                           | Robin Ricard                                          | <sub>[April&nbsp;2021][change-array-by-copy-notes]</sub>          |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -146,7 +146,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [class-access-expressions]: https://github.com/tc39/proposal-class-access-expressions
 [class-access-expressions-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-22.md#class-access-expressions-for-stage-2
 [matching]: https://github.com/tc39/proposal-pattern-matching
-[matching-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-03/march-31.md#pattern-matching-update
+[matching-notes]: https://github.com/tc39/notes/blob/master/meetings/2021-04/apr-20.md#pattern-matching-update
 [dynamic-modules]: https://github.com/nodejs/dynamic-modules
 [dynamic-modules-notes]: https://github.com/tc39/notes/blob/master/meetings/2018-07/july-25.md#dynamic-modules
 [built-in-modules]: https://github.com/tc39/proposal-built-in-modules
@@ -224,10 +224,16 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [accessors]: https://github.com/rbuckton/proposal-grouped-and-auto-accessors
 [accessors-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-11/nov-19.md#continuation-grouped-accessors-and-auto-accessors
 [async-do]: https://github.com/tc39/proposal-async-do-expressions
+[async-do-notes]: https://github.com/tc39/notes/blob/master/meetings/2021-01/jan-27.md#async-do-expressions
 [class-brand-check]: https://github.com/tc39/proposal-class-brand-check
+[class-brand-check-notes]: https://github.com/tc39/notes/blob/master/meetings/2021-01/jan-27.md#class-brand-checks
 [regex-set-notation]: https://github.com/tc39/proposal-regexp-set-notation
+[regex-set-notation-notes]: https://github.com/tc39/notes/blob/master/meetings/2021-01/jan-28.md#regexp-set-notation-for-stage-1
 [escape]: https://github.com/tc39/proposal-regex-escaping
-[escape-notes]: https://github.com/tc39/notes/blob/master/meetings/2015-07/july-28.md#62-regexpescape
+[escape-notes]: https://github.com/tc39/notes/blob/master/meetings/2021-01/jan-28.md#revisiting-regexp-escape
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
+[lazy-import-notes]: https://github.com/tc39/notes/blob/master/meetings/2021-01/jan-28.md#defer-module-import-eval
 [module-fragments]: https://github.com/littledan/proposal-module-fragments
+[module-fragments-notes]: https://github.com/tc39/notes/blob/master/meetings/2021-03/mar-9.md#module-fragments-for-stage-1
 [change-array-by-copy]: https://github.com/rricard/proposal-change-array-by-copy
+[change-array-by-copy-notes]: https://github.com/tc39/notes/blob/master/meetings/2021-04/apr-20.md#change-array-by-copy

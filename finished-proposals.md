@@ -41,8 +41,8 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Promise.any`][promise-any]                                             | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov  | Mathias Bynens                                          | [July 2020][promise-any-notes]              | 2021                      |
 | [WeakRefs][weakrefs]                                                     | Dean Tribble<br />Sathya Gunasekaran                   | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg | [July 2020][weakrefs-notes] | 2021 |
 | [Logical Assignment Operators][logical-assignment]                       | Justin Ridgewell                                       | Justin Ridgewell <br /> Hemanth HM                      | [July 2020][logical-assignment-notes]       | 2021                      |
-| [Numeric separators][numeric_separators]                                 | Sam Goto<br />Rick Waldron                             | Sam Goto<br />Rick Waldron <br />Leo Balter                | [July 2020][numeric_separators-notes]       | 2021                      |
-| Class Fields ([Private instance methods and accessors][private-methods], [Class Public Instance Fields & Private Instance Fields][class-fields], [Static class fields and private static methods][static-class-features]) | Daniel Ehrenberg | Daniel Ehrenberg<br />Kevin Gibbons | April 2021 | 2022 |
+| [Numeric separators][numeric_separators]                                 | Sam Goto<br />Rick Waldron                             | Sam Goto<br />Rick Waldron <br />Leo Balter                | [July 2020][numeric_separators-notes]    | 2021                      |
+| Class Fields ([Private instance methods and accessors][private-methods], [Class Public Instance Fields & Private Instance Fields][class-fields], [Static class fields and private static methods][static-class-features]) | Daniel Ehrenberg | Daniel Ehrenberg<br />Kevin Gibbons | [April 2021][class-fields-notes] | 2022 |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -125,3 +125,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [private-methods]: https://github.com/tc39/proposal-private-methods
 [class-fields]: https://github.com/tc39/proposal-class-fields
 [static-class-features]: https://github.com/tc39/proposal-static-class-features
+[class-fields-notes]: https://github.com/tc39/notes/blob/master/meetings/2021-04/apr-19.md#class-fields-private-methods-and-static-class-features-for-stage-4
