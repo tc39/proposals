@@ -37,7 +37,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
 [distinguishing-literal-strings]: https://github.com/mikewest/tc39-proposal-literals
-[callable-constructors]: https://github.com/tc39/ecma262/blob/master/workingdocs/callconstructor.md
+[callable-constructors]: https://github.com/tc39/ecma262/blob/HEAD/workingdocs/callconstructor.md
 [is-error]: https://github.com/ljharb/proposal-is-error
 [collection-json]: https://github.com/DavidBruant/Map-Set.prototype.toJSON
 [typed-objects]: https://github.com/dslomov/typed-objects-es7
@@ -47,7 +47,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [module-unambig]: https://github.com/tc39/proposal-UnambiguousJavaScriptGrammar
 [dynamic-module-reform]: https://github.com/tc39/proposal-dynamic-modules
 [simd]: https://github.com/tc39/ecmascript_simd/
-[simd-notes]: https://github.com/tc39/notes/blob/master/meetings/2017-03/mar-21.md#conclusionresolution-10
+[simd-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-21.md#conclusionresolution-10
 [ptc]: https://github.com/tc39/proposal-ptc-syntax
 [shallow-equal]: https://github.com/sebmarkbage/ecmascript-shallow-equal
 [construct]: https://github.com/jasnell/proposal-construct
@@ -56,7 +56,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [collection-literals]: https://github.com/zkat/proposal-collection-literals
 [date-parse]: https://github.com/tc39/proposal-date-time-string-format
 [uniform-date-parse]: https://github.com/tc39/proposal-uniform-interchange-date-parsing
-[icu]: https://github.com/tc39/notes/blob/master/meetings/2017-05/may-23.md#normative-icu-reference
+[icu]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-23.md#normative-icu-reference
 [zones]: https://github.com/domenic/zones
 [blocks]: https://github.com/domenic/proposal-blocks
 [re-atomic-groups]: https://github.com/jridgewell/proposal-regexp-atomic-and-possessive
@@ -66,9 +66,9 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [array-equality]: https://github.com/tc39/proposal-array-equality
 [fromimport]: https://github.com/bmeck/proposal-from-import
 [typedarray-stride-parameter]: https://github.com/tc39/proposal-typedarray-stride
-[typedarray-stride-parameter-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-21.md#withdrawing-typedarray-stride
+[typedarray-stride-parameter-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#withdrawing-typedarray-stride
 [unused-params]: https://github.com/devsnek/proposal-unused-function-parameters
-[unused-params-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-09/sept-24.md#unused-function-parameters-for-stage-1
+[unused-params-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#unused-function-parameters-for-stage-1
 [object-iteration]: https://github.com/tc39/proposal-object-iteration
 [string-at]: https://github.com/mathiasbynens/String.prototype.at
 [buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer
