@@ -44,7 +44,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Numeric separators][numeric_separators]                                 | Sam Goto<br />Rick Waldron                             | Sam Goto<br />Rick Waldron <br />Leo Balter             | [July 2020][numeric_separators-notes]       | 2021                      |
 | Class Fields ([Private instance methods and accessors][private-methods], [Class Public Instance Fields & Private Instance Fields][class-fields], [Static class fields and private static methods][static-class-features]) | Daniel Ehrenberg | Daniel Ehrenberg<br />Kevin Gibbons | [April 2021][class-fields-notes] | 2022 |
 | [RegExp Match Indices][regex-match-indices]                              | Ron Buckton                                            | Ron Buckton                                             | May 2021                                    | 2022                      |
-| [Top-level `await`][await]                                               | Myles Borins<br />Yulia Startsev                       | Myles Borins<br />Yulia Startsev                        | May 2021                                    | 2022                      |
+| [Top-level `await`][await]                                               | Myles Borins<br />Yulia Startsev<br />Daniel Ehrenberg<br />Guy Bedford<br />Ms2ger | Myles Borins<br />Yulia Startsev | May 2021                              | 2022                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
