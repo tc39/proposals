@@ -77,7 +77,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Grouped Accessors and Auto-Accessors][accessors]                                            | Ron Buckton                                            | Ron Buckton                                           | <sub>[November&nbsp;2020][accessors-notes]</sub>                  |
 | [`async do` expressions][async-do]                                                           | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>[January&nbsp;2021][async-do-notes]</sub>                    |
 | [Class Brand Checks][class-brand-check]                                                      | HE Shi-Jun                                             | HE Shi-Jun                                            | <sub>[January&nbsp;2021][class-brand-check-notes]</sub>           |
-| [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation]      | Markus Scherer<br />Mathias Bynens                     | Mathias Bynens                                        | <sub>[January&nbsp;2021][regex-set-notation-notes]</sub>          |
 | [Escaping Strings for RegExps][escape]                                                       | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband                                  | <sub>[January&nbsp;2021][escape-notes]</sub>                      |
 | [defer module import eval][lazy-import]                                                      | Yulia Startsev                                         | Yulia Startsev                                        | <sub>[January&nbsp;2021][lazy-import-notes]</sub>                 |
 | [JavaScript module fragments][module-fragments]                                              | Daniel Ehrenberg                                       | Daniel Ehrenberg<br />Mark Miller                     | <sub>[March&nbsp;2021][module-fragments-notes]</sub>              |
@@ -228,8 +227,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [async-do-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#async-do-expressions
 [class-brand-check]: https://github.com/tc39/proposal-class-brand-check
 [class-brand-check-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#class-brand-checks
-[regex-set-notation]: https://github.com/tc39/proposal-regexp-set-notation
-[regex-set-notation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#regexp-set-notation-for-stage-1
 [escape]: https://github.com/tc39/proposal-regex-escaping
 [escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#revisiting-regexp-escape
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval

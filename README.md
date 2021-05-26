@@ -53,6 +53,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Module Blocks][module-blocks]                                                 | Surma<br />Daniel Ehrenberg                           | Surma                                                                             | <sub>[January&nbsp;2021][module-blocks-notes]</sub>                   |
 | [Array find from last][find-last]                                              | Wenlu Wang                                            | Wenlu Wang<br />Daniel Rosenwasser                                                | <sub>[March&nbsp;2021][find-last-notes]</sub>                         |
 | [Symbols as WeakMap keys][symbols-weakmap]                                     | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | <sub>[April&nbsp;2021][symbols-weakmap-notes]</sub> |
+| [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation] | Markus Scherer<br />Mathias Bynens           | Mathias Bynens                                                                    | <sub>May&nbsp;2021</sub>                                              |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -145,3 +146,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [object-has-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-20.md#objecthas-for-stage-1
 [symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
 [symbols-weakmap-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#symbols-as-weakmap-keys-for-stage-2
+[regex-set-notation]: https://github.com/tc39/proposal-regexp-set-notation
+[regex-set-notation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#regexp-set-notation-for-stage-1
