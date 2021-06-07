@@ -233,7 +233,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#defer-module-import-eval
 [module-fragments]: https://github.com/littledan/proposal-module-fragments
 [module-fragments-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-9.md#module-fragments-for-stage-1
-[change-array-by-copy]: https://github.com/rricard/proposal-change-array-by-copy
+[change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
 [change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-20.md#change-array-by-copy
-[limited-array-buffer]: https://github.com/Jack-Works/proposal-limited-arraybuffer
+[limited-array-buffer]: https://github.com/tc39/proposal-limited-arraybuffer
 [limited-array-buffer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#read-only-arraybuffer-and-fixed-view-of-arraybuffer-for-stage-1
