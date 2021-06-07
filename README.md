@@ -142,7 +142,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [module-blocks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-25.md#js-module-blocks
 [find-last]: https://github.com/tc39/proposal-array-find-from-last
 [find-last-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-10.md#array-find-from-last
-[object-has]: https://github.com/tc39-transfer/proposal-accessible-object-hasownproperty
+[object-has]: https://github.com/tc39/proposal-accessible-object-hasownproperty
 [object-has-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-20.md#objecthas-for-stage-1
 [symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
 [symbols-weakmap-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#symbols-as-weakmap-keys-for-stage-2
