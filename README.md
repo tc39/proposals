@@ -27,8 +27,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Class Static Block][static-blocks]                                            | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                       | <sub>[March&nbsp;2021][static-blocks-notes]</sub>          |
 | [Error Cause][error-cause]                                                     | Chengzhong Wu                                                           | Chengzhong Wu<br /> Hemanth HM                                          | :question:                                       | <sub>[March&nbsp;2021][error-cause-notes]</sub>            |
 | [Temporal][temporal]                                                           | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant| :question: | <sub>[March&nbsp;2021][temporal-notes]</sub> |
-| [Accessible `Object.prototype.hasOwnProperty`][object-has]                     | Jamie Kyle                                                              | Tierney Cyren                                                           | :question:                                       | <sub>May&nbsp;2021</sub>                                   |
-| [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | :question:                                 | <sub>May&nbsp;2021</sub>                                         |
+| [Accessible `Object.prototype.hasOwnProperty`][object-has]                     | Jamie Kyle                                                              | Tierney Cyren                                                           | :question:                                       | <sub>[May&nbsp;2021][object-has-notes]</sub>                |
+| [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | :question:                                       | <sub>[May&nbsp;2021][resizable-notes]</sub>                 |
 
 ### Stage 2
 
@@ -53,7 +53,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Module Blocks][module-blocks]                                                 | Surma<br />Daniel Ehrenberg                           | Surma                                                                             | <sub>[January&nbsp;2021][module-blocks-notes]</sub>                   |
 | [Array find from last][find-last]                                              | Wenlu Wang                                            | Wenlu Wang<br />Daniel Rosenwasser                                                | <sub>[March&nbsp;2021][find-last-notes]</sub>                         |
 | [Symbols as WeakMap keys][symbols-weakmap]                                     | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | <sub>[April&nbsp;2021][symbols-weakmap-notes]</sub> |
-| [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation] | Markus Scherer<br />Mathias Bynens           | Mathias Bynens                                                                    | <sub>May&nbsp;2021</sub>                                              |
+| [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation] | Markus Scherer<br />Mathias Bynens           | Mathias Bynens                                                                    | <sub>[May&nbsp;2021][regex-set-notation-notes]</sub>                  |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -135,7 +135,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [static-blocks]: https://github.com/tc39/proposal-class-static-block
 [static-blocks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-9.md#class-static-initialization-blocks
 [resizable]: https://github.com/tc39/proposal-resizablearraybuffer
-[resizable-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#resizable-and-growable-arraybuffers-for-stage-2
+[resizable-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#resizable-arraybuffers-for-stage-3
 [error-cause]: https://github.com/tc39/proposal-error-cause
 [error-cause-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-10.md#errorprototypecause-for-stage-3
 [module-blocks]: https://github.com/tc39/proposal-js-module-blocks
@@ -143,8 +143,8 @@ Note that as part of the onboarding process your repository name may be normaliz
 [find-last]: https://github.com/tc39/proposal-array-find-from-last
 [find-last-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-10.md#array-find-from-last
 [object-has]: https://github.com/tc39/proposal-accessible-object-hasownproperty
-[object-has-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-20.md#objecthas-for-stage-1
+[object-has-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#accessible-objectprototypehasownproperty-for-stage-3
 [symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
 [symbols-weakmap-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#symbols-as-weakmap-keys-for-stage-2
 [regex-set-notation]: https://github.com/tc39/proposal-regexp-set-notation
-[regex-set-notation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#regexp-set-notation-for-stage-1
+[regex-set-notation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-26.md#regexp-unicode-set-notation--properties-of-strings-for-stage-2

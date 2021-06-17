@@ -43,8 +43,8 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Logical Assignment Operators][logical-assignment]                       | Justin Ridgewell                                       | Justin Ridgewell <br /> Hemanth HM                      | [July 2020][logical-assignment-notes]       | 2021                      |
 | [Numeric separators][numeric_separators]                                 | Sam Goto<br />Rick Waldron                             | Sam Goto<br />Rick Waldron <br />Leo Balter             | [July 2020][numeric_separators-notes]       | 2021                      |
 | Class Fields ([Private instance methods and accessors][private-methods], [Class Public Instance Fields & Private Instance Fields][class-fields], [Static class fields and private static methods][static-class-features]) | Daniel Ehrenberg | Daniel Ehrenberg<br />Kevin Gibbons | [April 2021][class-fields-notes] | 2022 |
-| [RegExp Match Indices][regex-match-indices]                              | Ron Buckton                                            | Ron Buckton                                             | May 2021                                    | 2022                      |
-| [Top-level `await`][await]                                               | Myles Borins<br />Yulia Startsev<br />Daniel Ehrenberg<br />Guy Bedford<br />Ms2ger | Myles Borins<br />Yulia Startsev | May 2021                              | 2022                      |
+| [RegExp Match Indices][regex-match-indices]                              | Ron Buckton                                            | Ron Buckton                                             | [May 2021][regex-match-indices-notes]       | 2022                      |
+| [Top-level `await`][await]                                               | Myles Borins<br />Yulia Startsev<br />Daniel Ehrenberg<br />Guy Bedford<br />Ms2ger | Myles Borins<br />Yulia Startsev | [May 2021][await-notes]               | 2022                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -129,6 +129,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [static-class-features]: https://github.com/tc39/proposal-static-class-features
 [class-fields-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-19.md#class-fields-private-methods-and-static-class-features-for-stage-4
 [regex-match-indices]: https://github.com/tc39/proposal-regexp-match-indices
-[regex-match-indices-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-16.md#regexp-matches-indices-jsc-implementation-feedback
+[regex-match-indices-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#regexp-match-indices
 [await]: https://github.com/tc39/proposal-top-level-await
-[await-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-6.md#top-level-await-for-stage-3
+[await-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#top-level-await
