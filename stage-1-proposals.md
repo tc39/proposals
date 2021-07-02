@@ -231,7 +231,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#revisiting-regexp-escape
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
 [lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#defer-module-import-eval
-[module-fragments]: https://github.com/littledan/proposal-module-fragments
+[module-fragments]: https://github.com/tc39/proposal-module-fragments
 [module-fragments-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-9.md#module-fragments-for-stage-1
 [change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
 [change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-20.md#change-array-by-copy
