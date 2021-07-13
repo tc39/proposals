@@ -18,6 +18,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [`Intl Locale Info`][intl-locale-info]                                 | Frank Tang                       | Frank Tang                       | [April&nbsp;2021][intl-locale-info-notes]             |
 | [`Intl.DisplayNames v2`][intl.displaynames-v2]                         | Frank Tang                       | Frank Tang                       | May&nbsp;2021                                         |
 | [Extend TimeZoneName Option Proposal][extend-timezonename]             | FrankYFTang                      | FrankYFTang                      | May&nbsp;2021                                         |
+| [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | July&nbsp;2021                                        |
 
 ### Stage 2
 
@@ -25,7 +26,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | -------------------------------------------- |
 | [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [June&nbsp;2020][intl.durationformat-notes]  |
 | [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                       | Shane Carr                       | [June&nbsp;2020][intl-v3-notes]              |
-| [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | [November&nbsp;2020][intl-enumeration-notes] |
 
 ### Stage 1
 
