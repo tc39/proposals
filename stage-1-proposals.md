@@ -81,7 +81,8 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [defer module import eval][lazy-import]                                                      | Yulia Startsev                                         | Yulia Startsev                                        | <sub>[January&nbsp;2021][lazy-import-notes]</sub>                 |
 | [JavaScript module fragments][module-fragments]                                              | Daniel Ehrenberg                                       | Daniel Ehrenberg<br />Mark Miller                     | <sub>[March&nbsp;2021][module-fragments-notes]</sub>              |
 | [Change Array by copy][change-array-by-copy]                                                 | Robin Ricard                                           | Robin Ricard                                          | <sub>[April&nbsp;2021][change-array-by-copy-notes]</sub>          |
-| [Limited ArrayBuffer][limited-array-buffer]                                                  | Jack Works                                             | Jack Works                                           | <sub>[April&nbsp;2021][limited-array-buffer-notes]</sub>          |
+| [Limited ArrayBuffer][limited-array-buffer]                                                  | Jack Works                                             | Jack Works                                            | <sub>[April&nbsp;2021][limited-array-buffer-notes]</sub>          |
+| [ArrayBuffer to/from Base64][arraybuffer-base64]                                             | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>July&nbsp;2021</sub>                                         |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -237,3 +238,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-20.md#change-array-by-copy
 [limited-array-buffer]: https://github.com/tc39/proposal-limited-arraybuffer
 [limited-array-buffer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#read-only-arraybuffer-and-fixed-view-of-arraybuffer-for-stage-1
+[arraybuffer-base64]: https://github.com/bakkot/proposal-arraybuffer-base64
