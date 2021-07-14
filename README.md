@@ -26,8 +26,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Class Static Block][static-blocks]                                            | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                       | <sub>[March&nbsp;2021][static-blocks-notes]</sub>          |
 | [Error Cause][error-cause]                                                     | Chengzhong Wu                                                           | Chengzhong Wu<br /> Hemanth HM                                          | :question:                                       | <sub>[March&nbsp;2021][error-cause-notes]</sub>            |
 | [Temporal][temporal]                                                           | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant| :question: | <sub>[March&nbsp;2021][temporal-notes]</sub> |
-| [Accessible `Object.prototype.hasOwnProperty`][object-has]                     | Jamie Kyle                                                              | Tierney Cyren                                                           | :question:                                       | <sub>[May&nbsp;2021][object-has-notes]</sub>                |
-| [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | :question:                                       | <sub>[May&nbsp;2021][resizable-notes]</sub>                 |
+| [Accessible `Object.prototype.hasOwnProperty`][object-has]                     | Jamie Kyle                                                              | Tierney Cyren<br />Jamie Kyle                                           | [:white_check_mark:][tests-object-has]           | <sub>July&nbsp;2021</sub>                                  |
+| [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | :question:                                       | <sub>[May&nbsp;2021][resizable-notes]</sub>                |
 
 ### Stage 2
 
@@ -141,6 +141,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [find-last-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-10.md#array-find-from-last
 [object-has]: https://github.com/tc39/proposal-accessible-object-hasownproperty
 [object-has-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#accessible-objectprototypehasownproperty-for-stage-3
+[tests-object-has]: https://github.com/tc39/test262/pull/2995
 [symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
 [symbols-weakmap-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#symbols-as-weakmap-keys-for-stage-2
 [regex-set-notation]: https://github.com/tc39/proposal-regexp-set-notation
