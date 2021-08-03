@@ -1,15 +1,15 @@
 # [ECMAScript](https://github.com/tc39/ecma262) proposals
 
-## Contributing new proposals
-
-Please see [Contributing to ECMAScript](https://github.com/tc39/ecma262/blob/HEAD/CONTRIBUTING.md) for the most up-to-date information on contributing proposals to this standard.
-
 * [Stage 1 Proposals](stage-1-proposals.md)
 * [Stage 0 Proposals](stage-0-proposals.md)
 * [Finished Proposals](finished-proposals.md)
 * [Inactive Proposals](inactive-proposals.md)
 
 [ECMAScript Internationalization API Specification](ecma402/README.md) proposals
+
+## Contributing new proposals
+
+Please see [Contributing to ECMAScript](https://github.com/tc39/ecma262/blob/HEAD/CONTRIBUTING.md) for the most up-to-date information on contributing proposals to this standard.
 
 ## Active proposals
 
