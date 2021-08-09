@@ -24,7 +24,13 @@ Stage 0 proposals are either
 | [`Symbol.thenable`][symbol-thenable]                               | Gus Caplan                            | Jordan Harband<br />Myles Borins      | [May 2018][symbol-thenable-notes] |
 | [Async Context][async-context]                                     | Chengzhong Wu                         | Chengzhong Wu                         | [July 2020][async-context-notes]  |
 | [String trim characters][string-trim-characters]                   | Wenlu Wang                            | Wenlu Wang                            |                                   |
-
+| [`Array.asyncFrom`][array-async-from]                              | J. S. Choi                            | J. S. Choi                               | |
+| [Explicit `this` parameter][explicit-this-param]                   | Gilbert                               | HE Shi-Jun                            | [Feb 2020][explicit-this-param-notes] |
+| [`this` argument reflection][this-arg-reflection]                  | HE Shi-Jun                            | HE Shi-Jun                            | [Feb 2020][this-arg-reflection-notes] |
+| [Index from end syntax][index-from-end]                            | HE Shi-Jun                            | HE Shi-Jun                            | [Jan 2021][index-from-end-notes] |
+| [JSON `\//` hint][json-slashes-hint]                               | HE Shi-Jun                            | HE Shi-Jun                            | |
+| [Serializer][serializer]                                           | Jack Works                            | Jack Works                            | |
+| [Maybe][maybe]                                                     | Jiming Yang                           | Jiming Yang                           | |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -53,3 +59,13 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [async-context]: https://github.com/legendecas/proposal-async-context
 [async-context-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-23.md#async-context-updates--for-stage-1
 [string-trim-characters]: https://github.com/Kingwl/proposal-string-trim-characters
+[array-async-from]: https://github.com/js-choi/proposal-array-async-from
+[explicit-this-param]: https://github.com/gilbert/es-explicit-this
+[explicit-this-param-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#syntax-for-explicitly-this-argument-for-stage-1
+[this-arg-reflection]: https://github.com/hax/proposal-function-this
+[this-arg-reflection-notes]: https://github.com/tc39/notes/blob/master/meetings/2020-02/february-6.md#function-thisargumentexpected-property
+[index-from-end]: https://github.com/hax/proposal-index-from-end
+[index-from-end-notes]: https://github.com/tc39/notes/blob/master/meetings/2021-01/jan-28.md#index-from-end-syntax
+[json-slashes-hint]: https://gist.github.com/hax/5691ca8acdf9179e63043857cdc3616b
+[serializer]: https://github.com/Jack-Works/proposal-serializer
+[maybe]: https://github.com/futurist/proposal-maybe
