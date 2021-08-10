@@ -33,6 +33,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Improving iteration on Objects][object-iteration]                   | Jonathan Keslin                                            | Withdrawn: concern about need for such an API                                                 |
 | [`String.prototype.at`][string-at]                                   | Mathias Bynens<br />Rick Waldron                           | Obsoleted by renamed `String.prototype.item` proposal                                         |
 | [`ArrayBuffer.prototype.transfer`][buffer-transfer]                  | Domenic Denicola<br />Shu-yu Guo                           | Withdrawn: superseded by [Resizable Buffers][resizable-buffers]                               |
+| [`deprecated`][deprecated]                                           | James M Snell                                              | Never presented                                                                               |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -73,3 +74,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [string-at]: https://github.com/mathiasbynens/String.prototype.at
 [buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer
 [resizable-buffer]: https://github.com/tc39/proposal-resizablearraybuffer
+[deprecated]: https://github.com/jasnell/proposal-deprecated
