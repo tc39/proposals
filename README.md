@@ -25,15 +25,15 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:white_check_mark:][tests-hashbang-grammar]     | <sub>[November&nbsp;2018][hashbang-notes]</sub>            |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | [:white_check_mark:][tests-nonblocking]          | <sub>[December&nbsp;2019][nonblocking-notes]</sub>         |
 | [`.at()`][at]                                                                  | Shu-yu Guo<br />Tab Atkins                                              | Shu-yu Guo<br />Tab Atkins                                              | [:white_check_mark:][tests-at]                   | <sub>[November&nbsp;2020][at-notes]</sub>                  |
-| [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | :question:                                       | <sub>[November&nbsp;2020][import-assertions-notes]</sub>   |
-| [JSON Modules][json-modules]                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | :question:                                       | <sub>[January&nbsp;2021][json-modules-notes]</sub>         |
-| [Class Static Block][static-blocks]                                            | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                       | <sub>[March&nbsp;2021][static-blocks-notes]</sub>          |
-| [Error Cause][error-cause]                                                     | Chengzhong Wu                                                           | Chengzhong Wu<br /> Hemanth HM                                          | :question:                                       | <sub>[March&nbsp;2021][error-cause-notes]</sub>            |
-| [Temporal][temporal]                                                           | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant| :question: | <sub>[March&nbsp;2021][temporal-notes]</sub> |
+| [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | [:white_check_mark:][import-assertions-tests]    | <sub>[November&nbsp;2020][import-assertions-notes]</sub>   |
+| [JSON Modules][json-modules]                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | [:white_check_mark:][json-modules-tests]         | <sub>[January&nbsp;2021][json-modules-notes]</sub>         |
+| [Class Static Block][static-blocks]                                            | Ron Buckton                                                             | Ron Buckton                                                             | [:white_check_mark:][static-blocks-tests]        | <sub>[March&nbsp;2021][static-blocks-notes]</sub>          |
+| [Error Cause][error-cause]                                                     | Chengzhong Wu                                                           | Chengzhong Wu<br /> Hemanth HM                                          | [:white_check_mark:][error-cause-tests]          | <sub>[March&nbsp;2021][error-cause-notes]</sub>            |
+| [Temporal][temporal]                                                           | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant| [:white_check_mark:][temporal-tests] | <sub>[March&nbsp;2021][temporal-notes]</sub> |
 | [Accessible `Object.prototype.hasOwnProperty`][object-has]                     | Jamie Kyle                                                              | Tierney Cyren<br />Jamie Kyle                                           | [:white_check_mark:][tests-object-has]           | <sub>July&nbsp;2021</sub>                                  |
-| [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | :question:                                       | <sub>[May&nbsp;2021][resizable-notes]</sub>                |
-| [Array find from last][find-last]                                              | Wenlu Wang                                                              | Wenlu Wang<br />Daniel Rosenwasser                                      | :question:                                       | <sub>[July&nbsp;2021][find-last-notes]</sub>               |
-| [Realms][realms]                                                               | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter                           | :question:                                       | <sub>[July&nbsp;2021][realms-notes]</sub>                  |
+| [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | [:white_check_mark:][resizable-tests]            | <sub>[May&nbsp;2021][resizable-notes]</sub>                |
+| [Array find from last][find-last]                                              | Wenlu Wang                                                              | Wenlu Wang<br />Daniel Rosenwasser                                      | [:white_check_mark:][find-last-tests]            | <sub>[July&nbsp;2021][find-last-notes]</sub>               |
+| [Realms][realms]                                                               | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter                           | [:white_check_mark:][realms-tests]               | <sub>[July&nbsp;2021][realms-notes]</sub>                  |
 
 ### Stage 2
 
@@ -83,8 +83,10 @@ Note that as part of the onboarding process your repository name may be normaliz
 [decorators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#decorators-update
 [realms]: https://github.com/tc39/proposal-realms
 [realms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-15.md#realms-continuation
+[realms-tests]: https://github.com/tc39/test262/pull/3046
 [temporal]: https://github.com/tc39/proposal-temporal
 [temporal-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-10.md#temporal-pt-2
+[temporal-tests]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Amerged+temporal+in%3Atitle+
 [nonblocking]: https://github.com/tc39/proposal-atomics-wait-async
 [nonblocking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#atomicswaitasync-for-stage-3
 [tests-nonblocking]: https://github.com/tc39/test262/issues/2511
@@ -120,6 +122,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [cleanup-some-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 [json-modules]: https://github.com/tc39/proposal-json-modules
 [json-modules-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-25.md#json-modules-for-stage-3
+[json-modules-tests]: https://github.com/tc39/test262/pull/2999
 [at]: https://github.com/tc39/proposal-relative-indexing-method
 [at-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#item-rename--revisit-inclusion-on-string
 [tests-at]: https://github.com/tc39/test262/pull/2812
@@ -129,16 +132,21 @@ Note that as part of the onboarding process your repository name may be normaliz
 [json-parse-source-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#jsonparse-source-text-access-for-stage-2
 [import-assertions]: https://github.com/tc39/proposal-import-assertions
 [import-assertions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#import-assertions-status-update
+[import-assertions-tests]: https://github.com/tc39/test262/pull/2980
 [static-blocks]: https://github.com/tc39/proposal-class-static-block
 [static-blocks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-9.md#class-static-initialization-blocks
+[static-blocks-tests]: https://github.com/tc39/test262/pull/2968
 [resizable]: https://github.com/tc39/proposal-resizablearraybuffer
 [resizable-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#resizable-arraybuffers-for-stage-3
+[resizable-tests]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Amerged+resizable+in%3Atitle+
 [error-cause]: https://github.com/tc39/proposal-error-cause
 [error-cause-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-10.md#errorprototypecause-for-stage-3
+[error-cause-tests]: https://github.com/tc39/test262/pull/2965
 [module-blocks]: https://github.com/tc39/proposal-js-module-blocks
 [module-blocks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-25.md#js-module-blocks
 [find-last]: https://github.com/tc39/proposal-array-find-from-last
 [find-last-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#array-find-from-last
+[find-last-tests]: https://github.com/tc39/test262/pull/3045
 [object-has]: https://github.com/tc39/proposal-accessible-object-hasownproperty
 [object-has-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#accessible-objectprototypehasownproperty-for-stage-3
 [tests-object-has]: https://github.com/tc39/test262/pull/2995
