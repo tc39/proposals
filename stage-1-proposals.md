@@ -84,6 +84,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [ArrayBuffer to/from Base64][arraybuffer-base64]                                             | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>[July&nbsp;2021][arraybuffer-base64-notes]</sub>             |
 | [Array Grouping][array-grouping]                                                             | Justin Ridgewell                                       | Justin Ridgewell                                      | <sub>[July&nbsp;2021][array-grouping-notes]</sub>                 |
 | [String is USV String][usv-string]                                                           | Guy Bedford<br />Bradley Farias                        | Guy Bedford<br />Bradley Farias                       | <sub>August&nbsp;2021</sub>                                       |
+| [`Array.fromAsync`][from-async]                                                              | J. S. Choi                                             | J. S. Choi                                            | <sub>August&nbsp;2021</sub>                                       |
 
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
@@ -242,3 +243,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [array-grouping]: https://github.com/tc39/proposal-array-grouping
 [array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#array-filtering--grouping-for-stage-2
 [usv-string]: https://github.com/guybedford/proposal-is-usv-string[
+[from-async]: https://github.com/js-choi/proposal-array-async-from
