@@ -242,5 +242,5 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [arraybuffer-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#arraybuffer-tofrom-base64
 [array-grouping]: https://github.com/tc39/proposal-array-grouping
 [array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#array-filtering--grouping-for-stage-2
-[usv-string]: https://github.com/guybedford/proposal-is-usv-string[
+[usv-string]: https://github.com/guybedford/proposal-is-usv-string
 [from-async]: https://github.com/js-choi/proposal-array-async-from
