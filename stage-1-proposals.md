@@ -19,7 +19,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Float16 on TypedArrays, DataView, `Math.hfround`][float16s]                                 | Leo Balter                                            | Leo Balter                                             | <sub>[May&nbsp;2017][float16s-notes]</sub>                        |
 | Change `Number.parseInt`/`parseFloat` to not coerce `null`/`undefined`/`NaN` (repo link TBD) |                                                       | Brendan Eich                                           | <sub>[July&nbsp;2017][parseInt-to-parseFloat]</sub>               |
 | [Binary AST][binary-ast]                                                                     | Shu-yu Guo                                            | Shu-yu Guo                                             | <sub>[May&nbsp;2018][binary-ast-notes]</sub>                      |
-| [Pipeline Operator][pipeline]                                                                | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[March&nbsp;2018][pipeline-notes]</sub>                      |
 | [Extensible numeric literals][extensible-literals]                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[September&nbsp;2020][extensible-literals-notes]             |
 | [First-class protocols][protocols]                                                           | Michael Ficarra                                       | Michael Ficarra                                        | <sub>[July&nbsp;2018][protocols-notes]</sub>                      |
 | [Partial application][partial-application]                                                   | Ron Buckton                                           | Ron Buckton                                            | <sub>[July&nbsp;2018][partial-application-notes]</sub>            |
@@ -117,8 +116,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [parseInt-to-parseFloat]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-26.md#13iib-consider-changing-numberparseint-and-numberparsefloat
 [binary-ast]: https://github.com/tc39/proposal-binary-ast
 [binary-ast-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-24.md#binary-ast
-[pipeline]: https://github.com/tc39/proposal-pipeline-operator
-[pipeline-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-03/mar-22.md#10ive-pipeline-operator
 [extensible-literals]: https://github.com/tc39/proposal-extended-numeric-literals
 [extensible-literals-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#numeric-literal-suffixes-update-separate-namespace-version
 [protocols]: https://github.com/tc39/proposal-first-class-protocols
