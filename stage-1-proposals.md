@@ -86,6 +86,8 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [String is USV String][usv-string]                                                           | Guy Bedford<br />Bradley Farias                        | Guy Bedford<br />Bradley Farias                       | <sub>August&nbsp;2021</sub>                                       |
 | [`Array.fromAsync`][from-async]                                                              | J. S. Choi                                             | J. S. Choi                                            | <sub>August&nbsp;2021</sub>                                       |
 | [BigInt Math][bigint-math]                                                                   | J.S. Choi                                              | J.S. Choi                                             | <sub>August&nbsp;2021</sub>                                       |
+| [Get Intrinsic][get-intrinsic]                                                               | Jordan Harband                                         | Jordan Harband                                        | <sub>August&nbsp;2021</sub>                                       |
+
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -245,3 +247,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [usv-string]: https://github.com/guybedford/proposal-is-usv-string
 [from-async]: https://github.com/js-choi/proposal-array-async-from
 [bigint-math]: https://github.com/js-choi/proposal-bigint-math
+[get-intrinsic]: https://github.com/ljharb/proposal-get-intrinsic
