@@ -1,6 +1,6 @@
 # Finished Proposals
 
-Finished proposals are proposals that have reached stage 4, and are included in the [latest draft](https://tc39.github.io/ecma262/) of the specification.
+Finished proposals are proposals that have reached stage 4, and are included in the [latest draft](https://tc39.es/ecma262/) of the specification.
 
 | Proposal                                                                 | Author                                                 | Champion(s)                                             | TC39 meeting notes                          | Expected Publication Year |
 | ------------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------- | ------------------------- |
@@ -31,66 +31,116 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`String.prototype.matchAll`][matchall]                                  | Jordan Harband                                         | Jordan Harband                                          | [March 2019][matchall-notes]                | 2020                      |
 | [`import()`][dynamic-import]                                             | Domenic Denicola                                       | Domenic Denicola                                        | [June 2019][dynamic-import-notes]           | 2020                      |
 | [`BigInt`][bigint]                                                       | Daniel Ehrenberg                                       | Daniel Ehrenberg                                        | [June 2019][bigint-notes]                   | 2020                      |
-| [`Promise.allSettled`][allsettled]                                       | Jason Williams<br />Robert Pamely<br />Mathias Bynens  | Mathias Bynens                                          | [July 2019][allsettled-notes]               | 2020
-| [`globalThis`][globalThis]                                               | Jordan Harband                                         | Jordan Harband                                          | <sub>October&nbsp;2019</sub>                | 2020
+| [`Promise.allSettled`][allsettled]                                       | Jason Williams<br />Robert Pamely<br />Mathias Bynens  | Mathias Bynens                                          | [July 2019][allsettled-notes]               | 2020                      |
+| [`globalThis`][globalThis]                                               | Jordan Harband                                         | Jordan Harband                                          | [October&nbsp;2019][globalThis-notes]       | 2020                      |
+| [`for-in` mechanics][for-in-mechanics]                                   | Kevin Gibbons                                          | Kevin Gibbons                                           | [December&nbsp;2019][for-in-mechanics-notes]| 2020                      |
+| [Optional Chaining][chaining]                                            | Gabriel Isenberg<br />Claude Pache<br />Dustin Savery  | Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser | [December 2019][chaining-notes] | 2020        |
+| [Nullish coalescing Operator][nullish-coalescing]                        | Gabriel Isenberg                                       | Gabriel Isenberg<br />Justin Ridgewell<br />Daniel Rosenwasser | [December 2019][nullish-coalescing-notes] | 2020                 |
+| [`import.meta`][import-meta]                                             | Domenic Denicola                                       | Gus Caplan                                              | [March 2020][import-meta-notes]             | 2020                      |
+| [`String.prototype.replaceAll`][replace-all]                             | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens   | Mathias Bynens                                          | [June 2020][replace-all-notes]              | 2021                      |
+| [`Promise.any`][promise-any]                                             | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov  | Mathias Bynens                                          | [July 2020][promise-any-notes]              | 2021                      |
+| [WeakRefs][weakrefs]                                                     | Dean Tribble<br />Sathya Gunasekaran                   | Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg    | [July 2020][weakrefs-notes] | 2021 |
+| [Logical Assignment Operators][logical-assignment]                       | Justin Ridgewell                                       | Justin Ridgewell <br /> Hemanth HM                      | [July 2020][logical-assignment-notes]       | 2021                      |
+| [Numeric separators][numeric_separators]                                 | Sam Goto<br />Rick Waldron                             | Sam Goto<br />Rick Waldron <br />Leo Balter             | [July 2020][numeric_separators-notes]       | 2021                      |
+| Class Fields ([Private instance methods and accessors][private-methods], [Class Public Instance Fields & Private Instance Fields][class-fields], [Static class fields and private static methods][static-class-features]) | Daniel Ehrenberg | Daniel Ehrenberg<br />Kevin Gibbons | [April 2021][class-fields-notes] | 2022 |
+| [RegExp Match Indices][regex-match-indices]                              | Ron Buckton                                            | Ron Buckton                                             | [May 2021][regex-match-indices-notes]       | 2022                      |
+| [Top-level `await`][await]                                               | Myles Borins<br />Yulia Startsev<br />Daniel Ehrenberg<br />Guy Bedford<br />Ms2ger | Myles Borins<br />Yulia Startsev | [May 2021][await-notes]               | 2022                      |
+| [Ergonomic brand checks for Private Fields][private-fields-in-in]        | Jordan Harband                                         | Jordan Harband                              | <sub>[July&nbsp;2021][private-fields-in-in-notes]</sub> | 2022                      |
+| [`.at()`][at]                                                            | Shu-yu Guo<br />Tab Atkins                             | Shu-yu Guo<br />Tab Atkins                  | <sub>August&nbsp;2021</sub>                             | 2022                      |
+| [Accessible `Object.prototype.hasOwnProperty`][object-has]               | Jamie Kyle                                             | Tierney Cyren<br />Jamie Kyle               | <sub>August&nbsp;2021</sub>                             | 2022                      |
+| [Class Static Block][static-blocks]                                      | Ron Buckton                                            | Ron Buckton                                 | <sub>August&nbsp;2021</sub>                             | 2022                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
-[array-includes]: https://github.com/tc39/Array.prototype.includes
-[array-includes-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2015-11/nov-17.md#arrayprototypeincludes
-[exponentiation]: https://github.com/rwaldron/exponentiation-operator
-[exponentiation-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2016-01/2016-01-28.md#5xviii-exponentiation-operator-rw
+[array-includes]: https://github.com/tc39/proposal-Array.prototype.includes
+[array-includes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2015-11/nov-17.md#arrayprototypeincludes
+[exponentiation]: https://github.com/tc39/proposal-exponentiation-operator
+[exponentiation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-01/jan-28.md#5xviii-exponentiation-operator-rw
 [object-values-entries]: https://github.com/tc39/proposal-object-values-entries
-[object-values-entries-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2016-03/march-29.md#objectvalues--objectentries
+[object-values-entries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-03/march-29.md#objectvalues--objectentries
 [string-padding]: https://github.com/tc39/proposal-string-pad-start-end
-[string-padding-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2016-05/may-25.md#stringprototypepadstartend-jhd
+[string-padding-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-05/may-25.md#stringprototypepadstartend-jhd
 [object-gopds]: https://github.com/tc39/proposal-object-getownpropertydescriptors
-[object-gopds-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2016-05/may-25.md#objectgetownpropertydescriptors-jhd
+[object-gopds-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-05/may-25.md#objectgetownpropertydescriptors-jhd
 [function-commas]: https://github.com/tc39/proposal-trailing-function-commas
-[function-commas-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2016-07/jul-26.md#9ie-trailing-commas-in-functions
-[async-await]: https://github.com/tc39/ecmascript-asyncawait
-[async-await-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2016-07/jul-28.md#10iv-async-functions
+[function-commas-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9ie-trailing-commas-in-functions
+[async-await]: https://github.com/tc39/proposal-async-await
+[async-await-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-28.md#10iv-async-functions
 [atomics]: https://github.com/tc39/ecmascript_sharedmem
-[atomics-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2017-01/jan-24.md#13if-seeking-stage-4-for-sharedarraybuffer
+[atomics-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-24.md#13if-seeking-stage-4-for-sharedarraybuffer
 [template-literal-lift]: https://github.com/tc39/proposal-template-literal-revision
-[template-literal-lift-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2017-03/mar-21.md#10ia-template-literal-updates
+[template-literal-lift-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-21.md#10ia-template-literal-updates
 [dot-all]: https://github.com/tc39/proposal-regexp-dotall-flag
-[dot-all-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2017-11/nov-28.md#9ie-regexp-dotall-status-update
+[dot-all-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9ie-regexp-dotall-status-update
 [named-groups]: https://github.com/tc39/proposal-regexp-named-groups
-[named-groups-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2017-11/nov-28.md#9if-regexp-named-captures-status-update
+[named-groups-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9if-regexp-named-captures-status-update
 [object-rest-spread]: https://github.com/tc39/proposal-object-rest-spread
-[object-rest-spread-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2018-01/jan-23.md#restspread-properties-for-stage-4
+[object-rest-spread-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#restspread-properties-for-stage-4
 [lookbehind]: https://github.com/tc39/proposal-regexp-lookbehind
-[lookbehind-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2018-01/jan-23.md#conclusionresolution-16
+[lookbehind-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#conclusionresolution-16
 [unicode-escapes]: https://github.com/tc39/proposal-regexp-unicode-property-escapes
-[unicode-escapes-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2018-01/jan-24.md#conclusionresolution-1
+[unicode-escapes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#conclusionresolution-1
 [finally]: https://github.com/tc39/proposal-promise-finally
-[finally-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2018-01/jan-24.md#conclusionresolution-2
+[finally-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#conclusionresolution-2
 [async-iteration]: https://github.com/tc39/proposal-async-iteration
-[async-iteration-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2018-01/jan-25.md#conclusionresolution
+[async-iteration-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-25.md#conclusionresolution
 [optional-catch]: https://github.com/tc39/proposal-optional-catch-binding
-[optional-catch-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-22.md#conclusionresolution-7
+[optional-catch-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#conclusionresolution-7
 [json-superset]: https://github.com/tc39/proposal-json-superset
-[json-superset-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-05/may-22.md#conclusionresolution-8
+[json-superset-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#conclusionresolution-8
 [symbol-description]: https://github.com/tc39/proposal-Symbol-description
-[symbol-description-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2018-11/nov-27.md#conclusionresolution-12
+[symbol-description-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-27.md#conclusionresolution-12
 [function-to-string]: https://github.com/tc39/Function-prototype-toString-revision
-[function-to-string-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2018-11/nov-27.md#conclusionresolution-13
+[function-to-string-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-27.md#conclusionresolution-13
 [object-from-entries]: https://github.com/tc39/proposal-object-from-entries
-[object-from-entries-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-29.md#objectfromentries-for-stage-4
+[object-from-entries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#objectfromentries-for-stage-4
 [well-formed-stringify]: https://github.com/tc39/proposal-well-formed-stringify
-[well-formed-stringify-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-29.md#well-formed-jsonstringify-for-stage-4
+[well-formed-stringify-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#well-formed-jsonstringify-for-stage-4
 [trims]: https://github.com/tc39/proposal-string-left-right-trim
-[trims-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-29,md#stringprototypetrimstarttrimend-for-stage-4
+[trims-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#stringprototypetrimstarttrimend-for-stage-4
 [flat]: https://github.com/tc39/proposal-flatMap
-[flat-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-01/jan-29.md#arrayprototypeflatflatmap-for-stage-4
-[matchall]: https://github.com/tc39/String.prototype.matchAll
-[matchall-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-03/mar-26.md#stringprototypematchall-for-stage-4
+[flat-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#arrayprototypeflatflatmap-for-stage-4
+[matchall]: https://github.com/tc39/proposal-string-matchall
+[matchall-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-26.md#stringprototypematchall-for-stage-4
 [dynamic-import]: https://github.com/tc39/proposal-dynamic-import
-[dynamic-import-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-06/june-4.md#dynamic-import-for-stage-4
+[dynamic-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-4.md#dynamic-import-for-stage-4
 [allsettled]: https://github.com/tc39/proposal-promise-allSettled
-[allsettled-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2019-07/july-24.md#promiseallsettled
+[allsettled-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-24.md#promiseallsettled
 [bigint]: https://github.com/tc39/proposal-bigint
-[bigint-notes]: https://github.com/rwaldron/tc39-notes/blob/master/meetings/2019-06/june-4.md#bigint-to-stage-4
+[bigint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-4.md#bigint-to-stage-4
 [globalThis]: https://github.com/tc39/proposal-global
-[globalThis-notes]: https://github.com/tc39/tc39-notes/blob/master/meetings/2018-11/nov-29.md#kevins-1pm-talk
+[globalThis-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-1.md#globalthis-to-stage-4
+[for-in-mechanics]: https://github.com/tc39/proposal-for-in-order
+[for-in-mechanics-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#for-in-order-for-stage-4
+[chaining]: https://github.com/tc39/proposal-optional-chaining
+[chaining-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#optional-chaining-for-stage-4
+[nullish-coalescing]: https://github.com/tc39/proposal-nullish-coalescing
+[nullish-coalescing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#nullish-coalescing-for-stage-4
+[import-meta]: https://github.com/tc39/proposal-import-meta
+[import-meta-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#importmeta-for-stage-4-continued-from-previous-day
+[replace-all]: https://github.com/tc39/proposal-string-replaceall
+[replace-all-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#stringprototypereplaceall-for-stage-4
+[promise-any]: https://github.com/tc39/proposal-promise-any
+[promise-any-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#promiseany--aggregateerror-for-stage-4
+[weakrefs]: https://github.com/tc39/proposal-weakrefs
+[weakrefs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
+[logical-assignment]: https://github.com/tc39/proposal-logical-assignment
+[logical-assignment-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#logical-assignment-for-stage-4
+[numeric_separators]: https://github.com/tc39/proposal-numeric-separator
+[numeric_separators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#numericliteralseparator-for-stage-4
+[private-methods]: https://github.com/tc39/proposal-private-methods
+[class-fields]: https://github.com/tc39/proposal-class-fields
+[static-class-features]: https://github.com/tc39/proposal-static-class-features
+[class-fields-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-19.md#class-fields-private-methods-and-static-class-features-for-stage-4
+[regex-match-indices]: https://github.com/tc39/proposal-regexp-match-indices
+[regex-match-indices-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#regexp-match-indices
+[await]: https://github.com/tc39/proposal-top-level-await
+[await-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#top-level-await
+[private-fields-in-in]: https://github.com/tc39/proposal-private-fields-in-in
+[private-fields-in-in-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#ergonomic-brand-checks-for-stage-4
+[at]: https://github.com/tc39/proposal-relative-indexing-method
+[at-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#item-rename--revisit-inclusion-on-string
+[object-has]: https://github.com/tc39/proposal-accessible-object-hasownproperty
+[object-has-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#accessible-objectprototypehasownproperty-for-stage-3
+[static-blocks]: https://github.com/tc39/proposal-class-static-block
+[static-blocks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-9.md#class-static-initialization-blocks
