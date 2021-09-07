@@ -4,7 +4,7 @@ const {
 const globalData = require('../data');
 
 const { tableHead, tables } = globalData;
-const { iterateAndConcatValue, handleLinkReference, concatValue } = require('../utils');
+const { iterateAndConcatValue, handleLinkReference } = require('../utils');
 
 /**
  *
