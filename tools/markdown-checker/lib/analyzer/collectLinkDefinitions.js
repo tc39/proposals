@@ -1,14 +1,4 @@
-/**
- * @param {Object} AST
- * @returns {Object} - collected link definitions
- */
-function collectLinkDefinitions(AST) {
-  const definitions = {};
-  AST.children.forEach(node => {
-    node.type === 'definition' && addLinkIntoDefintions(definitions, node);
-  });
-  return definitions;
-}
+const { DEFINITION } = require('./../../enums.js');
 
 /**
  *
@@ -16,13 +6,27 @@ function collectLinkDefinitions(AST) {
  * @param {Object} node
  * @returns {Object}
  */
-function addLinkIntoDefintions(definitions, node) {
+function addLinkIntoDefinitions(definitions, node) {
   const { label, url } = node;
+  // eslint-disable-next-line no-param-reassign
   definitions[label] = url;
   return {
     label,
-    url
+    url,
   };
 }
 
-module.exports = { collectLinkDefinitions, addLinkIntoDefintions };
+/**
+ * @param {Object} AST
+ * @returns {Object} - collected link definitions
+ */
+function collectLinkDefinitions(AST) {
+  const definitions = {};
+  AST.children.forEach((node) => {
+    // eslint-disable-next-line no-unused-expressions
+    node.type === DEFINITION && addLinkIntoDefinitions(definitions, node);
+  });
+  return definitions;
+}
+
+module.exports = { collectLinkDefinitions };

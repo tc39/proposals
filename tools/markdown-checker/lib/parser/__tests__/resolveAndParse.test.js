@@ -1,8 +1,8 @@
 const readMarkdown = require('../readMarkdown');
-const config = require('./../../../config.json');
+const {stage3} = require('../../../enums.js');
 const parseToAST = require('./../parseToAst');
 const checkHasTokenizationRererences = require('../__tests__/parserTokenTester');
-const sourceCode = readMarkdown(config.stage3);
+const sourceCode = readMarkdown(stage3);
 
 describe('testing path resolver and reader', () => {
   test('is defined', () => {

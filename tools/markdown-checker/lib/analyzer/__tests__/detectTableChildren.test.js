@@ -1,5 +1,5 @@
 const detectTables = require('../detectTables');
-const detectHeaders = require('../detectHeaders');
+const detectHeaders = require('../handleTables');
 const parsedMarkdownTree = require('../../../mocks/parsedMarkdownTree');
 
 const markdownTables = detectTables(parsedMarkdownTree);

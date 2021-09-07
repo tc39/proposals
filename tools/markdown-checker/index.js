@@ -1,21 +1,23 @@
 const readMarkdown = require('./lib/parser/readMarkdown');
 const parseToAST = require('./lib/parser/parseToAst');
+const globalData = require('./lib/data');
 const {
-  collectLinkDefinitions
+  collectLinkDefinitions,
 } = require('./lib/analyzer/collectLinkDefinitions');
-const { generateTable } = require('./lib/analyzer/analyzeTable');
-const config = require('./config.json');
+const { generateTable } = require('./lib/analyzer/analyzeTable');
+const enums = require('./enums.js');
 
-function processStage3({ stage3 } = config) {
+const processStage3 = (stage) => {
+  const activeStage = enums[stage];
   // parse stage
-  const markdownStage3 = readMarkdown(stage3);
-  const parsedFile = parseToAST(markdownStage3);
+  const markdownStage = readMarkdown(activeStage);
+  const parsedFile = parseToAST(markdownStage);
 
   // transform stage
-  const collectedLinkDefinitions = collectLinkDefinitions(parsedFile);
-  const tableStage1 = generateTable(parsedFile, collectedLinkDefinitions);
+  globalData.linkDefinitions = collectLinkDefinitions(parsedFile);
+  const tableStage1 = generateTable(parsedFile);
 
   // generate stage
-}
+};
 
-processStage3();
+processStage3('stage1');

@@ -8,11 +8,9 @@
   "author": "Ozer Y.",
   "license": "MIT",
   "scripts": {
-    "check-markdown": "node index.js",
-    "debug": "/usr/local/bin/node --inspect-brk",
+    "start": "node index.js",
     "test": "jest --no-cache --verbose",
     "test:coverage": "jest --no-cache --verbose --coverage",
-    "test:debug": "npm run debug node_modules/jest/bin/jest.js -- --runInBand",
     "lint": "eslint --fix --ext .js lib/**"
   },
   "devDependencies": {
