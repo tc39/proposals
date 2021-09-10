@@ -16,8 +16,6 @@ const processStage3 = (stage) => {
   globalData.linkDefinitions = collectLinkDefinitions(parsedFile);
   const tableStage1 = generateTable(parsedFile);
   // TODO: write data into json file
-
-  // generate stage
 };
 
 processStage3('stage1');
