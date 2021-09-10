@@ -1,7 +1,0 @@
-#chunks
-.DS_Store
-.cache
-
-#editor files
-.idea/**
-.vscode/**
