@@ -13,9 +13,9 @@ const processStage3 = (stage) => {
   const markdownStage = readMarkdown(activeStage);
   const parsedFile = parseToAST(markdownStage);
 
-  // transform stage
   globalData.linkDefinitions = collectLinkDefinitions(parsedFile);
   const tableStage1 = generateTable(parsedFile);
+  // TODO: write data into json file
 
   // generate stage
 };
