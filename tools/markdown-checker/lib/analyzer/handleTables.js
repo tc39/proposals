@@ -20,32 +20,47 @@ const createHead = (headNodes) => {
   return tableHead;
 };
 
-const handleCell = (cells, length) => {
+const handleCellLinkReference = (cell, idx) => {
+  const relatedHead = tableHead[idx];
+  return {
+    [relatedHead]: handleLinkReference(cell, globalData.linkDefinitions),
+  };
+};
+
+const handleCellText = (cell, idx) => {
+  const relatedHead = tableHead[idx];
+  return {
+    [relatedHead]: cell.value,
+  };
+};
+
+const handleCell = (cells, idx) => {
   // FIXME: collect only related cells
+  let result;
   if (cells.length) {
-    let column = {};
-    cells.forEach((cell, idx) => {
-      if (cell.type === LINK) {
-        const relatedHead = tableHead[idx];
-        column[relatedHead] = handleLinkReference(cell, globalData.linkDefinitions);
-      } if (cell.type === TEXT) {
-        const relatedHead = tableHead[idx];
-        column[relatedHead] = cell.value;
-      }
-      if (idx !== 0 && idx % length === 0) {
-        tables.push(column);
-        column = {};
+    cells.forEach((cell) => {
+      switch (cell.type) {
+        case LINK:
+          result = handleCellLinkReference(cell, idx);
+          return result;
+        case TEXT:
+          result = handleCellText(cell, idx);
+          return result;
+        default:
+          return {};
       }
     });
   }
-  return tables;
+  return result;
 };
 
-const handleRows = (row, length) => {
-  row.forEach(({ type, children }) => {
+const handleRows = (row) => {
+  row.forEach(({ type, children }, idx) => {
     if (type !== CELL) return null;
-    return handleCell(children, length);
+    const rowLine = handleCell(children, idx);
+    tables.push(rowLine);
   });
+  return tables;
 };
 
 /**
@@ -57,8 +72,9 @@ const handleTables = ({ align: { length }, type, children }) => {
   children.forEach(({ children: tableRow, type: rowType }, idx) => {
     if (rowType !== ROW) return null;
     if (idx === 0) return createHead(tableRow);
-    return handleRows(tableRow, length);
+    handleRows(tableRow, length);
   });
+  return [...tables];
 };
 
 module.exports = handleTables;
