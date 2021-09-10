@@ -3,7 +3,7 @@ const {
 } = require('../../enums');
 const globalData = require('../data');
 
-const { tableHead, tables } = globalData;
+const { tableHead } = globalData;
 const { iterateAndConcatValue, handleLinkReference } = require('../utils');
 
 /**
@@ -27,7 +27,7 @@ const handleCellLinkReference = (cell, idx) => {
   };
 };
 
-const handleCellText = (cell, idx) => {
+const handleCellTextHTML = (cell, idx) => {
   const relatedHead = tableHead[idx];
   return {
     [relatedHead]: cell.value,
@@ -35,7 +35,7 @@ const handleCellText = (cell, idx) => {
 };
 
 const handleCell = (cells, idx) => {
-  // FIXME: collect only related cells
+  // FIXME: handle html seperated multiple champions
   let result;
   if (cells.length) {
     cells.forEach((cell) => {
@@ -44,7 +44,7 @@ const handleCell = (cells, idx) => {
           result = handleCellLinkReference(cell, idx);
           return result;
         case TEXT:
-          result = handleCellText(cell, idx);
+          result = handleCellTextHTML(cell, idx);
           return result;
         default:
           return {};
@@ -55,12 +55,13 @@ const handleCell = (cells, idx) => {
 };
 
 const handleRows = (row) => {
+  let obj = {};
   row.forEach(({ type, children }, idx) => {
     if (type !== CELL) return null;
     const rowLine = handleCell(children, idx);
-    tables.push(rowLine);
+    obj = { ...obj, ...rowLine };
   });
-  return tables;
+  return obj;
 };
 
 /**
@@ -68,13 +69,15 @@ const handleRows = (row) => {
  * @returns {Object} - collected header template
  */
 const handleTables = ({ align: { length }, type, children }) => {
+  const arr = [];
   if (type !== TABLE) return null;
   children.forEach(({ children: tableRow, type: rowType }, idx) => {
     if (rowType !== ROW) return null;
     if (idx === 0) return createHead(tableRow);
-    handleRows(tableRow, length);
+    const row = handleRows(tableRow, length);
+    arr.push(row);
   });
-  return [...tables];
+  return arr;
 };
 
 module.exports = handleTables;

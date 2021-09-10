@@ -31,8 +31,6 @@ const generateTable = (node) => {
     tables.forEach((table) => {
       if (Object.values(table).length > 0) {
         const JSONTables = handleTables(table);
-        // TODO: create a row group based on the length
-        debugger;
       }
     });
   }

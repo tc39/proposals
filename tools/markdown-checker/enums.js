@@ -6,6 +6,7 @@ module.exports = {
   TEXT: 'text',
   ROW: 'tableRow',
   CELL: 'tableCell',
+  HTML: 'html',
   LINK: 'linkReference',
   INLINE_CODE: 'inlineCode',
 };
