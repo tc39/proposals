@@ -35,7 +35,7 @@ const handleCellTextHTML = (cell, idx) => {
 };
 
 const handleCell = (cells, idx) => {
-  // FIXME: handle html seperated multiple champions
+  // FIXME: handle <br/> separated multiple champions
   let result;
   if (cells.length) {
     cells.forEach((cell) => {
@@ -66,16 +66,20 @@ const handleRows = (row) => {
 
 /**
  * @param {Object} table
- * @returns {Object} - collected header template
+ * @returns {Array}
  */
 const handleTables = ({ align: { length }, type, children }) => {
   const arr = [];
   if (type !== TABLE) return null;
   children.forEach(({ children: tableRow, type: rowType }, idx) => {
-    if (rowType !== ROW) return null;
-    if (idx === 0) return createHead(tableRow);
+    if (rowType !== ROW) return [];
+    if (idx === 0) {
+      createHead(tableRow);
+      return [];
+    }
     const row = handleRows(tableRow, length);
     arr.push(row);
+    return arr;
   });
   return arr;
 };
