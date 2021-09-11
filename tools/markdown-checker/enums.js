@@ -8,5 +8,5 @@ module.exports = {
   CELL: 'tableCell',
   HTML: 'html',
   LINK: 'linkReference',
-  INLINE_CODE: 'inlineCode',
+  INLINE_CODE: 'inlineCode'
 };

@@ -2,11 +2,6 @@
 const detectTables = require('./detectTables');
 const handleTables = require('./handleTables');
 const { checkNodeHasChildren } = require('../utils');
-/**
- * @todo inspect below and decide
- * @template [https://jsoneditoronline.org/?id=f1ce5803d66149d5bc86d0d53ffb40c0]
- *
- */
 
 /**
  *
@@ -27,14 +22,15 @@ const extractAllTablesFromTree = (node) => {
 
 const generateTable = (node) => {
   const tables = extractAllTablesFromTree(node);
+  let JSONTables = [];
   if (tables && tables.length > 0) {
     tables.forEach((table) => {
       if (Object.values(table).length > 0) {
-        const JSONTables = handleTables(table);
+        JSONTables = handleTables(table);
       }
     });
   }
-  return [];
+  return JSONTables;
 };
 
 module.exports = { generateTable, extractAllTablesFromTree };

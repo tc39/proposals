@@ -1,10 +1,10 @@
 const {
-  CELL, TABLE, ROW, LINK, TEXT,
+  CELL, TABLE, ROW, LINK, TEXT, HTML,
 } = require('../../enums');
 const globalData = require('../data');
 
 const { tableHead } = globalData;
-const { iterateAndConcatValue, handleLinkReference } = require('../utils');
+const { iterateAndExtractTextFromHTML, handleLinkReference } = require('../utils');
 
 /**
  *
@@ -14,7 +14,8 @@ const { iterateAndConcatValue, handleLinkReference } = require('../utils');
 const createHead = (headNodes) => {
   headNodes.forEach(({ type, children }) => {
     if (type !== CELL) return null;
-    tableHead.push(iterateAndConcatValue(children));
+    const head = iterateAndExtractTextFromHTML(children);
+    tableHead.push(head);
     return tableHead;
   });
   return tableHead;
@@ -27,15 +28,18 @@ const handleCellLinkReference = (cell, idx) => {
   };
 };
 
-const handleCellTextHTML = (cell, idx) => {
+const handleCellTextHTML = (cell, idx, result) => {
   const relatedHead = tableHead[idx];
+  if (result && result[relatedHead] && typeof result[relatedHead].url !== 'undefined') {
+    return result;
+  }
+  const value = result ? `${result[relatedHead]} ${cell.value}` : cell.value;
   return {
-    [relatedHead]: cell.value,
+    [relatedHead]: value,
   };
 };
 
 const handleCell = (cells, idx) => {
-  // FIXME: handle <br/> separated multiple champions
   let result;
   if (cells.length) {
     cells.forEach((cell) => {
@@ -44,7 +48,10 @@ const handleCell = (cells, idx) => {
           result = handleCellLinkReference(cell, idx);
           return result;
         case TEXT:
-          result = handleCellTextHTML(cell, idx);
+          result = handleCellTextHTML(cell, idx, result);
+          return result;
+        case HTML:
+          result = handleCellTextHTML(cell, idx, result);
           return result;
         default:
           return {};

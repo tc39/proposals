@@ -1,3 +1,4 @@
+const { HTML } = require('./../enums');
 /**
  * @param {Array} node
  * @param {function} callBackLogic
@@ -38,6 +39,17 @@ const iterateAndConcatValue = (children) => {
   return children.reduce((acc, curr) => concatValue(acc, curr));
 };
 
+const iterateAndExtractTextFromHTML = (children) => {
+  const [firstItem] = children;
+  let item = '';
+  if (children.length <= 1) return firstItem.value;
+  children.forEach((node) => {
+    if (node.type === HTML) return;
+    item = node.value;
+  });
+  return item;
+};
+
 const handleLinkReference = ({ identifier, children }, linkDefinitions) => ({
   text: iterateAndConcatValue(children),
   url: linkDefinitions[identifier],
@@ -48,5 +60,6 @@ module.exports = {
   traverseChildren,
   concatValue,
   iterateAndConcatValue,
+  iterateAndExtractTextFromHTML,
   handleLinkReference,
 };
