@@ -28,9 +28,24 @@ const handleCellLinkReference = (cell, idx) => {
   };
 };
 
+/**
+ *
+ * @param {Object} result
+ * @param {String} head
+ * @return {boolean}
+ */
+const checkNodeHasPropertyAndLink = (result, head) => result && result[head] && typeof result[head].url !== 'undefined';
+
+/**
+ *
+ * @param {Object} cell
+ * @param {number} idx
+ * @param {Object} result
+ * @return {Object}
+ */
 const handleCellTextHTML = (cell, idx, result) => {
   const relatedHead = tableHead[idx];
-  if (result && result[relatedHead] && typeof result[relatedHead].url !== 'undefined') {
+  if (checkNodeHasPropertyAndLink(result, relatedHead)) {
     return result;
   }
   const value = result ? `${result[relatedHead]} ${cell.value}` : cell.value;
@@ -38,6 +53,20 @@ const handleCellTextHTML = (cell, idx, result) => {
     [relatedHead]: value,
   };
 };
+
+/**
+ * FIXME:
+ *
+ * from: Change  /  to not coerce  / /  (repo link TBD)
+ * to: Change `Number.parseInt`/`parseFloat` to not coerce `null`/`undefined`/`NaN` (repo link TBD)
+ *
+ * from: Object.freeze + Object.seal syntax
+ * to: `Object.freeze` + `Object.seal syntax`
+ *
+ * from: Math.seededRandoms()
+ * to: `Math.seededRandoms()`
+ *
+ */
 
 const handleCell = (cells, idx) => {
   let result;
