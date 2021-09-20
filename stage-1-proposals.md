@@ -19,7 +19,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Float16 on TypedArrays, DataView, `Math.hfround`][float16s]                                 | Leo Balter                                            | Leo Balter                                             | <sub>[May&nbsp;2017][float16s-notes]</sub>                        |
 | Change `Number.parseInt`/`parseFloat` to not coerce `null`/`undefined`/`NaN` (repo link TBD) |                                                       | Brendan Eich                                           | <sub>[July&nbsp;2017][parseInt-to-parseFloat]</sub>               |
 | [Binary AST][binary-ast]                                                                     | Shu-yu Guo                                            | Shu-yu Guo                                             | <sub>[May&nbsp;2018][binary-ast-notes]</sub>                      |
-| [Pipeline Operator][pipeline]                                                                | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[March&nbsp;2018][pipeline-notes]</sub>                      |
 | [Extensible numeric literals][extensible-literals]                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[September&nbsp;2020][extensible-literals-notes]             |
 | [First-class protocols][protocols]                                                           | Michael Ficarra                                       | Michael Ficarra                                        | <sub>[July&nbsp;2018][protocols-notes]</sub>                      |
 | [Partial application][partial-application]                                                   | Ron Buckton                                           | Ron Buckton                                            | <sub>[July&nbsp;2018][partial-application-notes]</sub>            |
@@ -80,11 +79,17 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Escaping Strings for RegExps][escape]                                                       | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband                                  | <sub>[January&nbsp;2021][escape-notes]</sub>                      |
 | [defer module import eval][lazy-import]                                                      | Yulia Startsev                                         | Yulia Startsev                                        | <sub>[January&nbsp;2021][lazy-import-notes]</sub>                 |
 | [JavaScript module fragments][module-fragments]                                              | Daniel Ehrenberg                                       | Daniel Ehrenberg<br />Mark Miller                     | <sub>[March&nbsp;2021][module-fragments-notes]</sub>              |
-| [Change Array by copy][change-array-by-copy]                                                 | Robin Ricard                                           | Robin Ricard                                          | <sub>[April&nbsp;2021][change-array-by-copy-notes]</sub>          |
-| [Limited ArrayBuffer][limited-array-buffer]                                                  | Jack Works                                             | Jack Works                                           | <sub>[April&nbsp;2021][limited-array-buffer-notes]</sub>          |
+| [Limited ArrayBuffer][limited-array-buffer]                                                  | Jack Works                                             | Jack Works                                            | <sub>[April&nbsp;2021][limited-array-buffer-notes]</sub>          |
+| [ArrayBuffer to/from Base64][arraybuffer-base64]                                             | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>[July&nbsp;2021][arraybuffer-base64-notes]</sub>             |
+| [Array Grouping][array-grouping]                                                             | Justin Ridgewell                                       | Justin Ridgewell                                      | <sub>[July&nbsp;2021][array-grouping-notes]</sub>                 |
+| [String is USV String][usv-string]                                                           | Guy Bedford<br />Bradley Farias                        | Guy Bedford<br />Bradley Farias                       | <sub>August&nbsp;2021</sub>                                       |
+| [`Array.fromAsync`][from-async]                                                              | J. S. Choi                                             | J. S. Choi                                            | <sub>August&nbsp;2021</sub>                                       |
+| [BigInt Math][bigint-math]                                                                   | J.S. Choi                                              | J.S. Choi                                             | <sub>August&nbsp;2021</sub>                                       |
+| [Get Intrinsic][get-intrinsic]                                                               | Jordan Harband                                         | Jordan Harband                                        | <sub>August&nbsp;2021</sub>                                       |
+| [Fixed shape objects][structs]                                                               | Shu-yu Guo                                             | Shu-yu Guo                                            | <sub>August&nbsp;2021</sub>                                       |
+
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
-
 
 [export-from]: https://github.com/tc39/proposal-export-default-from
 [export-from-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-27.md#export-default-from
@@ -111,8 +116,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [parseInt-to-parseFloat]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-26.md#13iib-consider-changing-numberparseint-and-numberparsefloat
 [binary-ast]: https://github.com/tc39/proposal-binary-ast
 [binary-ast-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-24.md#binary-ast
-[pipeline]: https://github.com/tc39/proposal-pipeline-operator
-[pipeline-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-03/mar-22.md#10ive-pipeline-operator
 [extensible-literals]: https://github.com/tc39/proposal-extended-numeric-literals
 [extensible-literals-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#numeric-literal-suffixes-update-separate-namespace-version
 [protocols]: https://github.com/tc39/proposal-first-class-protocols
@@ -233,7 +236,14 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#defer-module-import-eval
 [module-fragments]: https://github.com/tc39/proposal-module-fragments
 [module-fragments-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-9.md#module-fragments-for-stage-1
-[change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
-[change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-20.md#change-array-by-copy
 [limited-array-buffer]: https://github.com/tc39/proposal-limited-arraybuffer
 [limited-array-buffer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#read-only-arraybuffer-and-fixed-view-of-arraybuffer-for-stage-1
+[arraybuffer-base64]: https://github.com/bakkot/proposal-arraybuffer-base64
+[arraybuffer-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#arraybuffer-tofrom-base64
+[array-grouping]: https://github.com/tc39/proposal-array-grouping
+[array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#array-filtering--grouping-for-stage-2
+[usv-string]: https://github.com/guybedford/proposal-is-usv-string
+[from-async]: https://github.com/js-choi/proposal-array-async-from
+[bigint-math]: https://github.com/js-choi/proposal-bigint-math
+[get-intrinsic]: https://github.com/ljharb/proposal-get-intrinsic
+[structs]: https://github.com/syg/proposal-structs/

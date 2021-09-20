@@ -7,6 +7,10 @@
 
 [ECMAScript Internationalization API Specification](ecma402/README.md) proposals
 
+## Contributing new proposals
+
+Please see [Contributing to ECMAScript](https://github.com/tc39/ecma262/blob/HEAD/CONTRIBUTING.md) for the most up-to-date information on contributing proposals to this standard.
+
 ## Active proposals
 
 Proposals follow [this process document](https://tc39.es/process-document/).
@@ -20,26 +24,23 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | [:white_check_mark:][tests-regexp-legacy]        | <sub>[May&nbsp;2017][regexp-legacy-notes]</sub>            |
 | [Hashbang Grammar][hashbang-grammar]                                           | Bradley Farias                                                          | Bradley Farias                                                          | [:white_check_mark:][tests-hashbang-grammar]     | <sub>[November&nbsp;2018][hashbang-notes]</sub>            |
 | [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | [:white_check_mark:][tests-nonblocking]          | <sub>[December&nbsp;2019][nonblocking-notes]</sub>         |
-| [`.at()`][at]                                                                  | Shu-yu Guo<br />Tab Atkins                                              | Shu-yu Guo<br />Tab Atkins                                              | [:white_check_mark:][tests-at]                   | <sub>[November&nbsp;2020][at-notes]</sub>                  |
-| [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | :question:                                       | <sub>[November&nbsp;2020][import-assertions-notes]</sub>   |
-| [JSON Modules][json-modules]                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | :question:                                       | <sub>[January&nbsp;2021][json-modules-notes]</sub>         |
-| [Ergonomic brand checks for Private Fields][private-fields-in-in]              | Jordan Harband                                                          | Jordan Harband                                                          | :question:                                       | <sub>[January&nbsp;2021][private-fields-in-in-notes]</sub> |
-| [Class Static Block][static-blocks]                                            | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                       | <sub>[March&nbsp;2021][static-blocks-notes]</sub>          |
-| [Error Cause][error-cause]                                                     | Chengzhong Wu                                                           | Chengzhong Wu<br /> Hemanth HM                                          | :question:                                       | <sub>[March&nbsp;2021][error-cause-notes]</sub>            |
-| [Temporal][temporal]                                                           | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant| :question: | <sub>[March&nbsp;2021][temporal-notes]</sub> |
-| [Accessible `Object.prototype.hasOwnProperty`][object-has]                     | Jamie Kyle                                                              | Tierney Cyren                                                           | :question:                                       | <sub>[May&nbsp;2021][object-has-notes]</sub>                |
-| [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | :question:                                       | <sub>[May&nbsp;2021][resizable-notes]</sub>                 |
+| [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | [:white_check_mark:][import-assertions-tests]    | <sub>[November&nbsp;2020][import-assertions-notes]</sub>   |
+| [JSON Modules][json-modules]                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | [:white_check_mark:][json-modules-tests]         | <sub>[January&nbsp;2021][json-modules-notes]</sub>         |
+| [Error Cause][error-cause]                                                     | Chengzhong Wu                                                           | Chengzhong Wu<br /> Hemanth HM                                          | [:white_check_mark:][error-cause-tests]          | <sub>[March&nbsp;2021][error-cause-notes]</sub>            |
+| [Temporal][temporal]                                                           | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant| [:white_check_mark:][temporal-tests] | <sub>[March&nbsp;2021][temporal-notes]</sub> |
+| [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | [:white_check_mark:][resizable-tests]            | <sub>[May&nbsp;2021][resizable-notes]</sub>                |
+| [Array find from last][find-last]                                              | Wenlu Wang                                                              | Wenlu Wang<br />Daniel Rosenwasser                                      | [:white_check_mark:][find-last-tests]            | <sub>[July&nbsp;2021][find-last-notes]</sub>               |
+| [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter                           | [:white_check_mark:][realms-tests]               | <sub>[July&nbsp;2021][realms-notes]</sub>                  |
 
 ### Stage 2
 
 | Proposal                                                                       | Author                                                | Champion                                                                          | <sub>Last Presented</sub>                                             |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | [`function.sent` metaproperty][function-sent]                                  | Allen Wirfs-Brock                                     | HE Shi-Jun                                                                        | <sub>[July&nbsp;2019][function-sent-notes]</sub>                      |
-| [Decorators][decorators]                                                       | Daniel Ehrenberg                                      | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg                              | <sub>[September&nbsp;2020][decorators-notes]</sub>                    |
+| [Decorators][decorators]                                                       | Daniel Ehrenberg                                      | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg<br />Chris Garrett           | <sub>[July&nbsp;2021][decorators-notes]</sub>                         |
 | [`throw` expressions][throw-expressions]                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[January&nbsp;2018][throw-expressions-notes]</sub>               |
 | [Function implementation hiding][censorship]                                   | Domenic Denicola<br />Michael Ficarra                 | Michael Ficarra                                                                   | <sub>[June&nbsp;2020][censorship-notes]</sub>                         |
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran                  | Sathya Gunasekaran                                                                | <sub>[January&nbsp;2019][set-methods-notes]</sub>                     |
-| [Realms][realms]                                                               | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño                                   | <sub>[November&nbsp;2020][realms-notes]</sub>                         |
 | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                                        | Mathias Bynens                                                                    | <sub>[October&nbsp;2019][unicode-sequence-properties-notes]</sub>     |
 | [collection normalization][collection-rekey]                                   | Bradley Farias                                        | Bradley Farias                                                                    | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                     |
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel, Krzysztof Kotowicz                       | Krzysztof Kotowicz                                                                | <sub>[December&nbsp;2019][isTemplateObject-notes]</sub>               |
@@ -51,19 +52,16 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Record & Tuple][record-tuple]                                                 | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                                                  | <sub>[September&nbsp;2020][record-tuple-notes]</sub>                  |
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                    | <sub>[July&nbsp;2020][json-parse-source-notes]</sub>                  |
 | [Module Blocks][module-blocks]                                                 | Surma<br />Daniel Ehrenberg                           | Surma                                                                             | <sub>[January&nbsp;2021][module-blocks-notes]</sub>                   |
-| [Array find from last][find-last]                                              | Wenlu Wang                                            | Wenlu Wang<br />Daniel Rosenwasser                                                | <sub>[March&nbsp;2021][find-last-notes]</sub>                         |
 | [Symbols as WeakMap keys][symbols-weakmap]                                     | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | <sub>[April&nbsp;2021][symbols-weakmap-notes]</sub> |
 | [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation] | Markus Scherer<br />Mathias Bynens           | Mathias Bynens                                                                    | <sub>[May&nbsp;2021][regex-set-notation-notes]</sub>                  |
+| [Change Array by copy][change-array-by-copy]                                   | Robin Ricard                                          | Robin Ricard                                                                      | <sub>August&nbsp;2021</sub>                                           |
+| [Pipeline Operator][pipeline]                                                  | Daniel Ehrenberg<br />J.S. Choi<br />Tab Atkins       | Daniel Ehrenberg<br />J.S. Choi<br />Tab Atkins                                   | <sub>August&nbsp;2021</sub>                                           |
 
 :white_check_mark: means a pull request for tests was merged.
 
 :question: means there is no pull request for tests yet.
 
 :construction: means a pull request for tests was created, but not merged yet.
-
-### Contributing new proposals
-
-Please see [Contributing to ECMAScript](https://github.com/tc39/ecma262/blob/HEAD/CONTRIBUTING.md) for the most up-to-date information on contributing proposals to this standard.
 
 ### Onboarding existing proposals
 
@@ -81,11 +79,13 @@ Note that as part of the onboarding process your repository name may be normaliz
 [function-sent]: https://github.com/tc39/proposal-function.sent
 [function-sent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#making-functionsent-inactive
 [decorators]: https://github.com/tc39/proposal-decorators
-[decorators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-23.md#decorators-a-new-proposal-iteration
-[realms]: https://github.com/tc39/proposal-realms
-[realms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#realms-for-stage-3
+[decorators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#decorators-update
+[shadowrealm]: https://github.com/tc39/proposal-shadowrealm
+[realms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-15.md#realms-continuation
+[realms-tests]: https://github.com/tc39/test262/pull/3046
 [temporal]: https://github.com/tc39/proposal-temporal
 [temporal-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-10.md#temporal-pt-2
+[temporal-tests]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Amerged+temporal+in%3Atitle+
 [nonblocking]: https://github.com/tc39/proposal-atomics-wait-async
 [nonblocking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#atomicswaitasync-for-stage-3
 [tests-nonblocking]: https://github.com/tc39/test262/issues/2511
@@ -117,34 +117,34 @@ Note that as part of the onboarding process your repository name may be normaliz
 [map-emplace-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#upsert-now-renamed-emplace-updates--for-stage-3
 [Dynamic Import Host Adjustment]: https://github.com/tc39/dynamic-import-host-adjustment
 [Dynamic Import Host Adjustment notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-import-host-adjustment-for-stage-2
-[private-fields-in-in]: https://github.com/tc39/proposal-private-fields-in-in
-[private-fields-in-in-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#ergonomic-brand-checks
 [cleanup-some]: https://github.com/tc39/proposal-cleanup-some
 [cleanup-some-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 [json-modules]: https://github.com/tc39/proposal-json-modules
 [json-modules-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-25.md#json-modules-for-stage-3
-[at]: https://github.com/tc39/proposal-relative-indexing-method
-[at-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#item-rename--revisit-inclusion-on-string
-[tests-at]: https://github.com/tc39/test262/pull/2812
+[json-modules-tests]: https://github.com/tc39/test262/pull/2999
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
 [record-tuple-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-22.md#records--tuples
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
 [json-parse-source-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#jsonparse-source-text-access-for-stage-2
 [import-assertions]: https://github.com/tc39/proposal-import-assertions
 [import-assertions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#import-assertions-status-update
-[static-blocks]: https://github.com/tc39/proposal-class-static-block
-[static-blocks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-9.md#class-static-initialization-blocks
+[import-assertions-tests]: https://github.com/tc39/test262/pull/2980
 [resizable]: https://github.com/tc39/proposal-resizablearraybuffer
 [resizable-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#resizable-arraybuffers-for-stage-3
+[resizable-tests]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Amerged+resizable+in%3Atitle+
 [error-cause]: https://github.com/tc39/proposal-error-cause
 [error-cause-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-10.md#errorprototypecause-for-stage-3
+[error-cause-tests]: https://github.com/tc39/test262/pull/2965
 [module-blocks]: https://github.com/tc39/proposal-js-module-blocks
 [module-blocks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-25.md#js-module-blocks
 [find-last]: https://github.com/tc39/proposal-array-find-from-last
-[find-last-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-10.md#array-find-from-last
-[object-has]: https://github.com/tc39/proposal-accessible-object-hasownproperty
-[object-has-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#accessible-objectprototypehasownproperty-for-stage-3
+[find-last-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#array-find-from-last
+[find-last-tests]: https://github.com/tc39/test262/pull/3045
 [symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
 [symbols-weakmap-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#symbols-as-weakmap-keys-for-stage-2
 [regex-set-notation]: https://github.com/tc39/proposal-regexp-set-notation
 [regex-set-notation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-26.md#regexp-unicode-set-notation--properties-of-strings-for-stage-2
+[change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
+[change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-20.md#change-array-by-copy
+[pipeline]: https://github.com/tc39/proposal-pipeline-operator
+[pipeline-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-03/mar-22.md#10ive-pipeline-operator
