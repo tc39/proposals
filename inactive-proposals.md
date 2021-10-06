@@ -73,5 +73,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [object-iteration]: https://github.com/tc39/proposal-object-iteration
 [string-at]: https://github.com/mathiasbynens/String.prototype.at
 [buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer
-[resizable-buffer]: https://github.com/tc39/proposal-resizablearraybuffer
+[resizable-buffers]: https://github.com/tc39/proposal-resizablearraybuffer
 [deprecated]: https://github.com/jasnell/proposal-deprecated
