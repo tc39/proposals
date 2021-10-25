@@ -14,7 +14,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
-| [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter] | Daniel Ehrenberg, Richard Gibson | Richard Gibson                   | [July&nbsp;2020][intl-segmenter-notes]                |
 | [`Intl Locale Info`][intl-locale-info]                                 | Frank Tang                       | Frank Tang                       | [April&nbsp;2021][intl-locale-info-notes]             |
 | [`Intl.DisplayNames v2`][intl.displaynames-v2]                         | Frank Tang                       | Frank Tang                       | May&nbsp;2021                                         |
 | [Extend TimeZoneName Option Proposal][extend-timezonename]             | FrankYFTang                      | FrankYFTang                      | May&nbsp;2021                                         |
@@ -49,8 +48,6 @@ Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub org
 
 Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work **as long as** you never create a fork, or a new repository, with the same name - although Github Pages redirects will be broken (please update your links!).
 
-[intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
-[intl-segmenter-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#intlsegmenter-for-stage-3
 [intl.durationformat]: https://github.com/tc39/proposal-intl-duration-format
 [intl.durationformat-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-6.md#time-duration-format-proposal-for-stage-1
 [intl-v3]: https://github.com/tc39/proposal-intl-numberformat-v3
