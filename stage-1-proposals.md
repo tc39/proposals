@@ -88,7 +88,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Get Intrinsic][get-intrinsic]                                                               | Jordan Harband                                         | Jordan Harband                                        | <sub>[August&nbsp;2021][get-intrinsic-notes]</sub>                |
 | [Fixed shape objects][structs]                                                               | Shu-yu Guo                                             | Shu-yu Guo                                            | <sub>[August&nbsp;2021][structs-notes]</sub>                      |
 | [RegExp Modifiers][regexp-modifiers]                                                         | Ron Buckton                                            | Ron Buckton                                           | <sub>October 2021</sub>                                           |
-
+| [`String.cooked`][string.cooked]                                                             | Darien Maillet Valentine                               | Jamie Kyle<br />Hemanth HM                            | <sub>October 2021</sub>                                           |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
