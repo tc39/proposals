@@ -87,6 +87,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [BigInt Math][bigint-math]                                                                   | J.S. Choi                                              | J.S. Choi                                             | <sub>[August&nbsp;2021][bigint-math-notes]</sub>                  |
 | [Get Intrinsic][get-intrinsic]                                                               | Jordan Harband                                         | Jordan Harband                                        | <sub>[August&nbsp;2021][get-intrinsic-notes]</sub>                |
 | [Fixed shape objects][structs]                                                               | Shu-yu Guo                                             | Shu-yu Guo                                            | <sub>[August&nbsp;2021][structs-notes]</sub>                      |
+| [RegExp Modifiers][regexp-modifiers]                                                         | Ron Buckton                                            | Ron Buckton                                           | <sub>October 2021</sub>                                           |
 
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
@@ -252,3 +253,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [get-intrinsic-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#get-intrinsic-for-stage-1
 [structs]: https://github.com/syg/proposal-structs/
 [structs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#fixed-layout-objects
+[regexp-modifiers]: https://github.com/rbuckton/proposal-regexp-modifiers
