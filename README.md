@@ -55,6 +55,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation] | Markus Scherer<br />Mathias Bynens           | Mathias Bynens                                                                    | <sub>[May&nbsp;2021][regex-set-notation-notes]</sub>                  |
 | [Change Array by copy][change-array-by-copy]                                   | Robin Ricard                                          | Robin Ricard                                                                      | <sub>[August&nbsp;2021][change-array-by-copy-notes]</sub>             |
 | [Pipeline Operator][pipeline]                                                  | J. S. Choi<br />James DiGioia<br />Ron Buckton<br />Tab Atkins | J. S. Choi<br />Ron Buckton<br />Tab Atkins                              | <sub>[August&nbsp;2021][pipe-notes]</sub>                             |
+| [Destructure Private Fields][destructure-private]                              | Justin Ridgewell                                      | Justin Ridgewell                                                                  | <sub>October 2021</sub>                                               |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -144,3 +145,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#change-array-by-copy
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [pipe-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#pipeline-operator-for-stage-2
+[destructure-private]: https://github.com/jridgewell/proposal-destructuring-private
