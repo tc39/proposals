@@ -83,12 +83,13 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [ArrayBuffer to/from Base64][arraybuffer-base64]                                             | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>[July&nbsp;2021][arraybuffer-base64-notes]</sub>             |
 | [Array Grouping][array-grouping]                                                             | Justin Ridgewell                                       | Justin Ridgewell                                      | <sub>[July&nbsp;2021][array-grouping-notes]</sub>                 |
 | [String is USV String][usv-string]                                                           | Guy Bedford<br />Bradley Farias                        | Guy Bedford<br />Bradley Farias                       | <sub>[August&nbsp;2021][usv-string-notes]</sub>                   |
-| [`Array.fromAsync`][from-async]                                                              | J. S. Choi                                             | J. S. Choi                                            | <sub>[August&nbsp;2021][from-async-notes]</sub>                   |
+| [`Array.fromAsync`][from-async]                                                              | J.S. Choi                                              | J.S. Choi                                             | <sub>[August&nbsp;2021][from-async-notes]</sub>                   |
 | [BigInt Math][bigint-math]                                                                   | J.S. Choi                                              | J.S. Choi                                             | <sub>[August&nbsp;2021][bigint-math-notes]</sub>                  |
 | [Get Intrinsic][get-intrinsic]                                                               | Jordan Harband                                         | Jordan Harband                                        | <sub>[August&nbsp;2021][get-intrinsic-notes]</sub>                |
 | [Fixed shape objects][structs]                                                               | Shu-yu Guo                                             | Shu-yu Guo                                            | <sub>[August&nbsp;2021][structs-notes]</sub>                      |
 | [RegExp Modifiers][regexp-modifiers]                                                         | Ron Buckton                                            | Ron Buckton                                           | <sub>October 2021</sub>                                           |
 | [`String.cooked`][string.cooked]                                                             | Darien Maillet Valentine                               | Jamie Kyle<br />Hemanth HM                            | <sub>October 2021</sub>                                           |
+| [Bind-this operator][bind-this]                                                              | J.S. Choi                                              | J.S. Choi                                             | <sub>October 2021</sub>                                           |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -254,3 +255,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [structs]: https://github.com/syg/proposal-structs/
 [structs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#fixed-layout-objects
 [regexp-modifiers]: https://github.com/rbuckton/proposal-regexp-modifiers
+[bind-this]: https://github.com/js-choi/proposal-bind-this
