@@ -56,6 +56,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Change Array by copy][change-array-by-copy]                                   | Robin Ricard                                          | Robin Ricard                                                                      | <sub>[August&nbsp;2021][change-array-by-copy-notes]</sub>             |
 | [Pipeline Operator][pipeline]                                                  | J. S. Choi<br />James DiGioia<br />Ron Buckton<br />Tab Atkins | J. S. Choi<br />Ron Buckton<br />Tab Atkins                              | <sub>[August&nbsp;2021][pipe-notes]</sub>                             |
 | [Destructure Private Fields][destructure-private]                              | Justin Ridgewell                                      | Justin Ridgewell                                                                  | <sub>October 2021</sub>                                               |
+| [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell                                                                  | <sub>October&nbsp;2021</sub>                                          |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -146,3 +147,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [pipe-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#pipeline-operator-for-stage-2
 [destructure-private]: https://github.com/jridgewell/proposal-destructuring-private
+[array-grouping]: https://github.com/tc39/proposal-array-grouping
+[array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#array-filtering--grouping-for-stage-2
