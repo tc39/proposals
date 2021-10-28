@@ -91,6 +91,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Bind-this operator][bind-this]                                                              | J.S. Choi                                              | J.S. Choi                                             | <sub>October 2021</sub>                                           |
 | [RegExp Extended Mode and Comments][regexp-x-mode]                                           | Ron Buckton                                            | Ron Buckton                                           | <sub>October 2021</sub>                                           |
 | [RegExp `\R` Escape][regexp-r-escape]                                                        | Ron Buckton                                            | Ron Buckton                                           | <sub>October 2021</sub>                                           |
+| [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]                      | Ron Buckton                                            | Ron Buckton                                           | <sub>October 2021</sub>                                           |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -257,3 +258,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [bind-this]: https://github.com/js-choi/proposal-bind-this
 [regexp-x-mode]: https://github.com/rbuckton/proposal-regexp-x-mode
 [regexp-r-escape]: https://github.com/rbuckton/proposal-regexp-r-escape
+[regexp-buffer-boundaries]: https://github.com/rbuckton/proposal-regexp-buffer-boundaries
