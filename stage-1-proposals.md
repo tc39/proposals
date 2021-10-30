@@ -256,6 +256,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [structs]: https://github.com/syg/proposal-structs/
 [structs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#fixed-layout-objects
 [regexp-modifiers]: https://github.com/rbuckton/proposal-regexp-modifiers
+[string.cooked]: https://github.com/tc39/proposal-string-cooked
 [bind-this]: https://github.com/js-choi/proposal-bind-this
 [regexp-x-mode]: https://github.com/rbuckton/proposal-regexp-x-mode
 [regexp-r-escape]: https://github.com/rbuckton/proposal-regexp-r-escape
