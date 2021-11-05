@@ -229,7 +229,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [modulus-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#modulus-and-additional-integer-math-for-stage-1
 [extensions]: https://github.com/tc39/proposal-extensions
 [extensions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#extensions-for-stage-1
-[accessors]: https://github.com/rbuckton/proposal-grouped-and-auto-accessors
+[accessors]: https://github.com/tc39/proposal-grouped-and-auto-accessors
 [accessors-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#continuation-grouped-accessors-and-auto-accessors
 [async-do]: https://github.com/tc39/proposal-async-do-expressions
 [async-do-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#async-do-expressions
@@ -243,13 +243,13 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [module-fragments-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-9.md#module-fragments-for-stage-1
 [limited-array-buffer]: https://github.com/tc39/proposal-limited-arraybuffer
 [limited-array-buffer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#read-only-arraybuffer-and-fixed-view-of-arraybuffer-for-stage-1
-[arraybuffer-base64]: https://github.com/bakkot/proposal-arraybuffer-base64
+[arraybuffer-base64]: https://github.com/tc39/proposal-arraybuffer-base64
 [arraybuffer-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#arraybuffer-tofrom-base64
 [usv-string]: https://github.com/guybedford/proposal-is-usv-string
 [usv-string-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#string-is-usv-string
-[from-async]: https://github.com/js-choi/proposal-array-async-from
+[from-async]: https://github.com/tc39/proposal-array-from-async
 [from-async-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#arrayfromasync
-[bigint-math]: https://github.com/js-choi/proposal-bigint-math
+[bigint-math]: https://github.com/tc39/proposal-bigint-math
 [bigint-math-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#bigint-math-for-stage-1
 [get-intrinsic]: https://github.com/ljharb/proposal-get-intrinsic
 [get-intrinsic-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#get-intrinsic-for-stage-1
