@@ -34,6 +34,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [`String.prototype.at`][string-at]                                   | Mathias Bynens<br />Rick Waldron                           | Obsoleted by renamed `String.prototype.item` proposal                                         |
 | [`ArrayBuffer.prototype.transfer`][buffer-transfer]                  | Domenic Denicola<br />Shu-yu Guo                           | Withdrawn: superseded by [Resizable Buffers][resizable-buffers]                               |
 | [`deprecated`][deprecated]                                           | James M Snell                                              | Never presented                                                                               |
+| [Function helpers][function-helpers]                                 | J. S. Choi                                                 | Presented and rejected before Stage 1 on 2021-10; split up into multiple subsequent proposals        |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -75,3 +76,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer
 [resizable-buffers]: https://github.com/tc39/proposal-resizablearraybuffer
 [deprecated]: https://github.com/jasnell/proposal-deprecated
+[function-helpers]: https://github.com/js-choi/proposal-function-helpers
