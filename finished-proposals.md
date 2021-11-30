@@ -49,7 +49,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`.at()`][at]                                                            | Shu-yu Guo<br />Tab Atkins                             | Shu-yu Guo<br />Tab Atkins                  | <sub>[August&nbsp;2021][at-notes]</sub>                 | 2022                      |
 | [Accessible `Object.prototype.hasOwnProperty`][object-has]               | Jamie Kyle                                             | Tierney Cyren<br />Jamie Kyle               | <sub>[August&nbsp;2021][object-has-notes]</sub>         | 2022                      |
 | [Class Static Block][static-blocks]                                      | Ron Buckton                                            | Ron Buckton                                 | <sub>[August&nbsp;2021][static-blocks-notes]</sub>      | 2022                      |
-| [Error Cause][error-cause]                                               | Chengzhong Wu                                          | Chengzhong Wu<br /> Hemanth HM              | <sub>October&nbsp;2021</sub>                            | 2022                      |
+| [Error Cause][error-cause]                                               | Chengzhong Wu                                          | Chengzhong Wu<br /> Hemanth HM              | <sub>[October&nbsp;2021][error-cause-notes]</sub>       | 2022                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -146,4 +146,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [static-blocks]: https://github.com/tc39/proposal-class-static-block
 [static-blocks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#class-static-initialization-blocks-for-stage-4
 [error-cause]: https://github.com/tc39/proposal-error-cause
-[error-cause-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-10.md#errorprototypecause-for-stage-3
+[error-cause-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#error-cause-for-stage-4

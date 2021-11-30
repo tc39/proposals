@@ -86,13 +86,13 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [BigInt Math][bigint-math]                                                                   | J.S. Choi                                              | J.S. Choi                                             | <sub>[August&nbsp;2021][bigint-math-notes]</sub>                  |
 | [Get Intrinsic][get-intrinsic]                                                               | Jordan Harband                                         | Jordan Harband                                        | <sub>[August&nbsp;2021][get-intrinsic-notes]</sub>                |
 | [Fixed shape objects][structs]                                                               | Shu-yu Guo                                             | Shu-yu Guo                                            | <sub>[August&nbsp;2021][structs-notes]</sub>                      |
-| [RegExp Modifiers][regexp-modifiers]                                                         | Ron Buckton                                            | Ron Buckton                                           | <sub>October 2021</sub>                                           |
-| [`String.cooked`][string.cooked]                                                             | Darien Maillet Valentine                               | Jamie Kyle<br />Hemanth HM                            | <sub>October 2021</sub>                                           |
-| [Bind-this operator][bind-this]                                                              | J.S. Choi                                              | J.S. Choi                                             | <sub>October 2021</sub>                                           |
-| [RegExp Extended Mode and Comments][regexp-x-mode]                                           | Ron Buckton                                            | Ron Buckton                                           | <sub>October 2021</sub>                                           |
-| [RegExp `\R` Escape][regexp-r-escape]                                                        | Ron Buckton                                            | Ron Buckton                                           | <sub>October 2021</sub>                                           |
-| [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]                      | Ron Buckton                                            | Ron Buckton                                           | <sub>October 2021</sub>                                           |
-| [Evaluator Attributes][evaluator-attributes]                                                 | Luca Casonato                                          | Guy Bedford                                           | <sub>October 2021</sub>                                           |
+| [RegExp Modifiers][regexp-modifiers]                                                         | Ron Buckton                                            | Ron Buckton                                           | <sub>[October&nbsp;2021][regexp-modifiers-notes]</sub>            |
+| [`String.cooked`][string.cooked]                                                             | Darien Maillet Valentine                               | Jamie Kyle<br />Hemanth HM                            | <sub>[October&nbsp;2021][string.cooked-notes]</sub>               |
+| [Bind-this operator][bind-this]                                                              | J.S. Choi                                              | J.S. Choi                                             | <sub>[October&nbsp;2021][bind-this-notes]</sub>                   |
+| [RegExp Extended Mode and Comments][regexp-x-mode]                                           | Ron Buckton                                            | Ron Buckton                                           | <sub>[October&nbsp;2021][regexp-x-mode-notes]</sub>                                           |
+| [RegExp `\R` Escape][regexp-r-escape]                                                        | Ron Buckton                                            | Ron Buckton                                           | <sub>[October&nbsp;2021][regexp-r-escape-notes]</sub>                                           |
+| [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]                      | Ron Buckton                                            | Ron Buckton                                           | <sub>[October&nbsp;2021][regexp-buffer-boundaries-notes]</sub>                                           |
+| [Evaluator Attributes][evaluator-attributes]                                                 | Luca Casonato                                          | Guy Bedford                                           | <sub>[October&nbsp;2021][evaluator-attributes-notes]</sub>                                           |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -256,9 +256,16 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [structs]: https://github.com/syg/proposal-structs/
 [structs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#fixed-layout-objects
 [regexp-modifiers]: https://github.com/rbuckton/proposal-regexp-modifiers
+[regexp-modifiers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#regexp-modifiers-for-stage-1
 [string.cooked]: https://github.com/tc39/proposal-string-cooked
+[string.cooked-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#stringcooked
 [bind-this]: https://github.com/js-choi/proposal-bind-this
+[bind-this-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#bind-this-operator-for-stage-1
 [regexp-x-mode]: https://github.com/rbuckton/proposal-regexp-x-mode
+[regexp-x-mode-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#regexp-extended-mode-and-comments
 [regexp-r-escape]: https://github.com/rbuckton/proposal-regexp-r-escape
+[regexp-r-escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#regexp-r-escape-for-stage-1
 [regexp-buffer-boundaries]: https://github.com/rbuckton/proposal-regexp-buffer-boundaries
+[regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#regexp-buffer-boundaries-a-z-z-for-stage-1
 [evaluator-attributes]: https://github.com/lucacasonato/proposal-evaluator-attributes
+[evaluator-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#evaluator-attributes
