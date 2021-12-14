@@ -56,7 +56,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation] | Markus Scherer<br />Mathias Bynens           | Mathias Bynens                                                                    | <sub>[May&nbsp;2021][regex-set-notation-notes]</sub>                  |
 | [Change Array by copy][change-array-by-copy]                                   | Robin Ricard                                          | Robin Ricard                                                                      | <sub>[August&nbsp;2021][change-array-by-copy-notes]</sub>             |
 | [Pipeline Operator][pipeline]                                                  | J. S. Choi<br />James DiGioia<br />Ron Buckton<br />Tab Atkins | J. S. Choi<br />Ron Buckton<br />Tab Atkins                              | <sub>[August&nbsp;2021][pipe-notes]</sub>                             |
-| [Destructure Private Fields][destructure-private]                              | Justin Ridgewell                                      | Justin Ridgewell                                                                  | <sub>[October&nbsp;2021][destructure-private-notes]</sub>                  |
+| [Destructure Private Fields][destructure-private]                              | Justin Ridgewell                                      | Justin Ridgewell                                                                  | <sub>[October&nbsp;2021][destructure-private-notes]</sub>             |
+| [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                         | <sub>December&nbsp;2021</sub>                                         |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -150,3 +151,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [destructure-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#destructuring-private-fields
 [array-grouping]: https://github.com/tc39/proposal-array-grouping
 [array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#array-grouping-for-stage-2
+[from-async]: https://github.com/tc39/proposal-array-from-async
+[from-async-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#arrayfromasync
