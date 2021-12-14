@@ -16,7 +16,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
 | [`Intl Locale Info`][intl-locale-info]                                 | Frank Tang                       | Frank Tang                       | [Oct&nbsp;2021][intl-locale-info-notes]               |
 | [`Intl.DisplayNames v2`][intl.displaynames-v2]                         | Frank Tang                       | Frank Tang                       | May&nbsp;2021                                         |
-| [Extend TimeZoneName Option Proposal][extend-timezonename]             | FrankYFTang                      | FrankYFTang                      | May&nbsp;2021                                         |
 | [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | July&nbsp;2021                                        |
 | [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                       | Shane Carr                       | July&nbsp;2021                                        |
 | [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [Oct&nbsp;2020][intl.durationformat-notes]            |
@@ -60,7 +59,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl.displaynames-v2-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-23.md#intldisplaynames-v2-for-stage-1
 [intl-locale-info]: https://github.com/tc39/proposal-intl-locale-info
 [intl-locale-info-notes]: https://github.com/tc39/notes/blob/886ead863abbef6c7546c97c36e0fae7aba8dc8d/meetings/2021-04/apr-20.md#intl-locale-info-for-stage-3
-[extend-timezonename]: https://github.com/tc39/proposal-intl-extend-timezonename
 [eradisplay]: https://github.com/tc39/proposal-intl-eradisplay
 [eradisplay-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#eradisplay-for-stage-1
 [localematcher]: https://github.com/tc39/proposal-intl-localematcher
