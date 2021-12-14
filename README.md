@@ -30,6 +30,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | [:white_check_mark:][resizable-tests]            | <sub>[May&nbsp;2021][resizable-notes]</sub>                |
 | [Array find from last][find-last]                                              | Wenlu Wang                                                              | Wenlu Wang<br />Daniel Rosenwasser                                      | [:white_check_mark:][find-last-tests]            | <sub>[July&nbsp;2021][find-last-notes]</sub>               |
 | [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter                           | [:white_check_mark:][realms-tests]               | <sub>[August&nbsp;2021][realms-notes]</sub>                |
+| [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell                                                                          | :question:                                       | <sub>December&nbsp;2021</sub>                              |
 
 ### Stage 2
 
@@ -56,7 +57,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Change Array by copy][change-array-by-copy]                                   | Robin Ricard                                          | Robin Ricard                                                                      | <sub>[August&nbsp;2021][change-array-by-copy-notes]</sub>             |
 | [Pipeline Operator][pipeline]                                                  | J. S. Choi<br />James DiGioia<br />Ron Buckton<br />Tab Atkins | J. S. Choi<br />Ron Buckton<br />Tab Atkins                              | <sub>[August&nbsp;2021][pipe-notes]</sub>                             |
 | [Destructure Private Fields][destructure-private]                              | Justin Ridgewell                                      | Justin Ridgewell                                                                  | <sub>[October&nbsp;2021][destructure-private-notes]</sub>                  |
-| [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell                                                                  | <sub>[October&nbsp;2021][array-grouping-notes]</sub>                                          |
 
 :white_check_mark: means a pull request for tests was merged.
 
