@@ -15,7 +15,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
 | [`Intl Locale Info`][intl-locale-info]                                 | Frank Tang                       | Frank Tang                       | [Oct&nbsp;2021][intl-locale-info-notes]               |
-| [`Intl.DisplayNames v2`][intl.displaynames-v2]                         | Frank Tang                       | Frank Tang                       | May&nbsp;2021                                         |
 | [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | July&nbsp;2021                                        |
 | [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                       | Shane Carr                       | July&nbsp;2021                                        |
 | [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [Oct&nbsp;2020][intl.durationformat-notes]            |
@@ -55,8 +54,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl-enumeration-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-13.md#intl-enumeration-api-for-stage-3
 [smart-units]: https://github.com/tc39/proposal-smart-unit-preferences
 [smart-units-notes]: https://github.com/tc39/notes/blob/840c700dc7fa7b9f6d0a3c208bd66b333e304717/meetings/2020-06/june-4.md#smart-unit-preferences-in-intlnumberformat-for-stage-1
-[intl.displaynames-v2]: https://github.com/tc39/intl-displaynames-v2
-[intl.displaynames-v2-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-23.md#intldisplaynames-v2-for-stage-1
 [intl-locale-info]: https://github.com/tc39/proposal-intl-locale-info
 [intl-locale-info-notes]: https://github.com/tc39/notes/blob/886ead863abbef6c7546c97c36e0fae7aba8dc8d/meetings/2021-04/apr-20.md#intl-locale-info-for-stage-3
 [eradisplay]: https://github.com/tc39/proposal-intl-eradisplay

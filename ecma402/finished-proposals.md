@@ -16,6 +16,8 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Intl.DateFormat.prototype.formatRange`][formatrange]                                       | Felipe Balbontín                     | Sathya Gunasekaran                   | January&nbsp;2021                                                 | 2021              |
 | [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter]                       | Daniel Ehrenberg, Richard Gibson     | Richard Gibson                       | October&nbsp;2021                                                 | 2022              |
 | [Extend TimeZoneName Option Proposal][extend-timezonename]                                   | FrankYFTang                          | FrankYFTang                          | December&nbsp;2021                                                | 2022              |
+| [`Intl.DisplayNames v2`][intl.displaynames-v2]                                               | Frank Tang                           | Frank Tang                           | December&nbsp;2021                                                | 2022              |
+
 
 See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](README.md) documents.
 
@@ -42,3 +44,5 @@ See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](R
 [intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
 [intl-segmenter-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#intlsegmenter-for-stage-3
 [extend-timezonename]: https://github.com/tc39/proposal-intl-extend-timezonename
+[intl.displaynames-v2]: https://github.com/tc39/intl-displaynames-v2
+[intl.displaynames-v2-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-23.md#intldisplaynames-v2-for-stage-1
