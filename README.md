@@ -59,6 +59,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Destructure Private Fields][destructure-private]                              | Justin Ridgewell                                      | Justin Ridgewell                                                                  | <sub>[October&nbsp;2021][destructure-private-notes]</sub>             |
 | [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                         | <sub>December&nbsp;2021</sub>                                         |
 | [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                           | Ron Buckton                                                                       | <sub>December&nbsp;2021</sub>                                         |
+| [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]        | Ron Buckton                                           | Ron Buckton                                                                       | <sub>December&nbsp;2021</sub>                                         |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -156,3 +157,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [from-async-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#arrayfromasync
 [regexp-modifiers]: https://github.com/rbuckton/proposal-regexp-modifiers
 [regexp-modifiers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#regexp-modifiers-for-stage-1
+[regexp-buffer-boundaries]: https://github.com/rbuckton/proposal-regexp-buffer-boundaries
+[regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#regexp-buffer-boundaries-a-z-z-for-stage-1
