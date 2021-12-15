@@ -26,11 +26,12 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 1
 
-| Proposal                                                     | Author          | Champion        | <sub>Last Presented</sub>                                        |
-| ------------------------------------------------------------ | --------------- | --------------- | ---------------------------------------------------------------- |
-| [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud | Younies Mahmoud | [June 2020][smart-units-notes]                                   |
-| [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]    | Louis-Aime      | Shane Carr, Louis-Aime      | [January&nbsp;2021][eradisplay-notes]                |
-| [Intl LocaleMatcher][localematcher]                          | Long Ho         | Shane Carr, Long Ho         | [January&nbsp;2021][localematcher-notes]             |
+| Proposal                                                     | Author               | Champion               | <sub>Last Presented</sub>                                        |
+| ------------------------------------------------------------ | -------------------- | ---------------------- | ---------------------------------------------------------------- |
+| [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud      | Younies Mahmoud        | [June 2020][smart-units-notes]                                   |
+| [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]    | Louis-Aime           | Shane Carr, Louis-Aime | [January&nbsp;2021][eradisplay-notes]                |
+| [Intl LocaleMatcher][localematcher]                          | Long Ho              | Shane Carr, Long Ho    | [January&nbsp;2021][localematcher-notes]             |
+| [`Intl.Segmenter v2`][Intl.Segmenter-v2]                     | Frank Yung-Fong Tang | Frank Yung-Fong Tang   | December&nbsp;2021                                   |
 
 ### Contributing new proposals
 
@@ -60,3 +61,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [eradisplay-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#eradisplay-for-stage-1
 [localematcher]: https://github.com/tc39/proposal-intl-localematcher
 [localematcher-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#intl-localematcher-for-stage-1
+[Intl.Segmenter-v2]: https://github.com/FrankYFTang/proposal-intl-segmenter-v2
