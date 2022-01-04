@@ -29,15 +29,15 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Temporal][temporal]                                                           | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant| [:white_check_mark:][temporal-tests] | <sub>[March&nbsp;2021][temporal-notes]</sub> |
 | [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | [:white_check_mark:][resizable-tests]            | <sub>[May&nbsp;2021][resizable-notes]</sub>                |
 | [Array find from last][find-last]                                              | Wenlu Wang                                                              | Wenlu Wang<br />Daniel Rosenwasser                                      | [:white_check_mark:][find-last-tests]            | <sub>[July&nbsp;2021][find-last-notes]</sub>               |
-| [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter                           | [:white_check_mark:][realms-tests]               | <sub>[August&nbsp;2021][realms-notes]</sub>                |
-| [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell                                                                          | :question:                                       | <sub>December&nbsp;2021</sub>                              |
+| [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter                           | [:white_check_mark:][realms-tests]               | <sub>[December&nbsp;2021][realms-notes]</sub>              |
+| [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell                                                                          | :question:                                       | <sub>[December&nbsp;2021][array-grouping-notes]</sub>      |
 
 ### Stage 2
 
 | Proposal                                                                       | Author                                                | Champion                                                                          | <sub>Last Presented</sub>                                             |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | [`function.sent` metaproperty][function-sent]                                  | Allen Wirfs-Brock                                     | HE Shi-Jun                                                                        | <sub>[July&nbsp;2019][function-sent-notes]</sub>                      |
-| [Decorators][decorators]                                                       | Daniel Ehrenberg                                      | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg<br />Chris Garrett           | <sub>[July&nbsp;2021][decorators-notes]</sub>                         |
+| [Decorators][decorators]                                                       | Daniel Ehrenberg                                      | Yehuda Katz<br />Brian Terlson<br />Daniel Ehrenberg<br />Chris Garrett           | <sub>[December&nbsp;2021][decorators-notes]</sub>                     |
 | [`throw` expressions][throw-expressions]                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[January&nbsp;2018][throw-expressions-notes]</sub>               |
 | [Function implementation hiding][censorship]                                   | Domenic Denicola<br />Michael Ficarra                 | Michael Ficarra                                                                   | <sub>[June&nbsp;2020][censorship-notes]</sub>                         |
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran                  | Sathya Gunasekaran                                                                | <sub>[January&nbsp;2019][set-methods-notes]</sub>                     |
@@ -49,17 +49,17 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Map.prototype.emplace`][map-emplace]                                         | Bradley Farias                                        | Erica Pramer                                                                      | <sub>[July&nbsp;2020][map-emplace-notes]</sub>                        |
 | [Dynamic Import Host Adjustment][]                                             | Mike Samuel, Krzysztof Kotowicz                       | Krzysztof Kotowicz                                                                | <sub>[December&nbsp;2019][Dynamic Import Host Adjustment notes]</sub> |
 | [WeakRefs `cleanupSome`][cleanup-some]                                         | Yulia Startsev<br />Daniel Ehrenberg                  | Yulia Startsev<br />Daniel Ehrenberg                                              | <sub>[July&nbsp;2020][cleanup-some-notes]</sub>                       |
-| [Record & Tuple][record-tuple]                                                 | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                                                  | <sub>[September&nbsp;2020][record-tuple-notes]</sub>                  |
+| [Record & Tuple][record-tuple]                                                 | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                                                  | <sub>[December&nbsp;2021][record-tuple-notes]</sub>                   |
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                    | <sub>[July&nbsp;2020][json-parse-source-notes]</sub>                  |
 | [Module Blocks][module-blocks]                                                 | Surma<br />Daniel Ehrenberg                           | Surma                                                                             | <sub>[January&nbsp;2021][module-blocks-notes]</sub>                   |
 | [Symbols as WeakMap keys][symbols-weakmap]                                     | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | <sub>[April&nbsp;2021][symbols-weakmap-notes]</sub> |
-| [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation] | Markus Scherer<br />Mathias Bynens           | Mathias Bynens                                                                    | <sub>[May&nbsp;2021][regex-set-notation-notes]</sub>                  |
+| [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation] | Markus Scherer<br />Mathias Bynens           | Mathias Bynens                                                                    | <sub>[December&nbsp;2021][regex-set-notation-notes]</sub>             |
 | [Change Array by copy][change-array-by-copy]                                   | Robin Ricard                                          | Robin Ricard                                                                      | <sub>[August&nbsp;2021][change-array-by-copy-notes]</sub>             |
 | [Pipeline Operator][pipeline]                                                  | J. S. Choi<br />James DiGioia<br />Ron Buckton<br />Tab Atkins | J. S. Choi<br />Ron Buckton<br />Tab Atkins                              | <sub>[August&nbsp;2021][pipe-notes]</sub>                             |
-| [Destructure Private Fields][destructure-private]                              | Justin Ridgewell                                      | Justin Ridgewell                                                                  | <sub>[October&nbsp;2021][destructure-private-notes]</sub>             |
-| [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                         | <sub>December&nbsp;2021</sub>                                         |
-| [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                           | Ron Buckton                                                                       | <sub>December&nbsp;2021</sub>                                         |
-| [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]        | Ron Buckton                                           | Ron Buckton                                                                       | <sub>December&nbsp;2021</sub>                                         |
+| [Destructure Private Fields][destructure-private]                              | Justin Ridgewell                                      | Justin Ridgewell                                                                  | <sub>[December&nbsp;2021][destructure-private-notes]</sub>            |
+| [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                         | <sub>[December&nbsp;2021][from-async-notes]</sub>                     |
+| [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[December&nbsp;2021][regexp-modifiers-notes]</sub>               |
+| [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]        | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[December&nbsp;2021][regexp-buffer-boundaries-notes]</sub>       |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -83,12 +83,12 @@ Note that as part of the onboarding process your repository name may be normaliz
 [function-sent]: https://github.com/tc39/proposal-function.sent
 [function-sent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#making-functionsent-inactive
 [decorators]: https://github.com/tc39/proposal-decorators
-[decorators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#decorators-update
+[decorators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#decorators-update-removing-init
 [shadowrealm]: https://github.com/tc39/proposal-shadowrealm
-[realms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#realms-renaming-bikeshedding-thread
+[realms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#shadowrealms-updates-and-potential-normative-changes
 [realms-tests]: https://github.com/tc39/test262/pull/3046
 [temporal]: https://github.com/tc39/proposal-temporal
-[temporal-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-10.md#temporal-pt-2
+[temporal-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#temporal-update
 [temporal-tests]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Amerged+temporal+in%3Atitle+
 [nonblocking]: https://github.com/tc39/proposal-atomics-wait-async
 [nonblocking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#atomicswaitasync-for-stage-3
@@ -127,7 +127,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [json-modules-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-25.md#json-modules-for-stage-3
 [json-modules-tests]: https://github.com/tc39/test262/pull/2999
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
-[record-tuple-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-22.md#records--tuples
+[record-tuple-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#records-and-tuples
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
 [json-parse-source-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#jsonparse-source-text-access-for-stage-2
 [import-assertions]: https://github.com/tc39/proposal-import-assertions
@@ -144,18 +144,18 @@ Note that as part of the onboarding process your repository name may be normaliz
 [symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
 [symbols-weakmap-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#symbols-as-weakmap-keys-for-stage-2
 [regex-set-notation]: https://github.com/tc39/proposal-regexp-set-notation
-[regex-set-notation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-26.md#regexp-unicode-set-notation--properties-of-strings-for-stage-2
+[regex-set-notation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#regexp-set-notation--unicode-properties-of-strings-ready-for-stage-3-reviews
 [change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
 [change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#change-array-by-copy
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [pipe-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#pipeline-operator-for-stage-2
 [destructure-private]: https://github.com/jridgewell/proposal-destructuring-private
-[destructure-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#destructuring-private-fields
+[destructure-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
 [array-grouping]: https://github.com/tc39/proposal-array-grouping
-[array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#array-grouping-for-stage-2
+[array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#array-grouping-for-stage-3
 [from-async]: https://github.com/tc39/proposal-array-from-async
-[from-async-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#arrayfromasync
+[from-async-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#arrayfromasync-for-stage-2
 [regexp-modifiers]: https://github.com/rbuckton/proposal-regexp-modifiers
-[regexp-modifiers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#regexp-modifiers-for-stage-1
+[regexp-modifiers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-modifiers-for-stage-2
 [regexp-buffer-boundaries]: https://github.com/rbuckton/proposal-regexp-buffer-boundaries
-[regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#regexp-buffer-boundaries-a-z-z-for-stage-1
+[regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2

@@ -57,7 +57,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Array filtering][array-filtering]                                                           | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[February&nbsp;2020][array-filtering-notes]</sub>            |
 | [Operator overloading][overloading]                                                          | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[December&nbsp;2019][overloading-notes]</sub>                |
 | [Async initialization][async-init]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[February&nbsp;2020][async-init-notes]</sub>                 |
-| [Decimal][decimal]                                                                           | Daniel Ehrenberg<br />Andrew Paprocki                 | Daniel Ehrenberg<br />Andrew Paprocki                  | <sub>[March&nbsp;2020][decimal-notes]</sub>                       |
+| [Decimal][decimal]                                                                           | Daniel Ehrenberg<br />Andrew Paprocki                 | Daniel Ehrenberg<br />Andrew Paprocki                  | <sub>[December&nbsp;2021][decimal-notes]</sub>                    |
 | [Preserve Host Virtualizability][virtualize]                    | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | <sub>[February&nbsp;2020][virtualize-notes]</sub> |
 | [Legacy reflection features for functions in JavaScript][legacy-reflection]                  | Mark Miller<br />Claude Pache<br />Jack Works         | Mark Miller<br />Claude Pache<br />Jack Works          | <sub>[February&nbsp;2020][legacy-reflection-notes]</sub>          |
 | [Cryptographically Secure Random Number Generation][csprng]                                  | Ron Buckton                                           | Ron Buckton                                            | <sub>[February&nbsp;2020][csprng-notes]</sub>                     |
@@ -88,7 +88,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [`String.cooked`][string.cooked]                                                             | Darien Maillet Valentine                               | Jamie Kyle<br />Hemanth HM                            | <sub>[October&nbsp;2021][string.cooked-notes]</sub>               |
 | [Bind-this operator][bind-this]                                                              | J.S. Choi                                              | J.S. Choi                                             | <sub>[October&nbsp;2021][bind-this-notes]</sub>                   |
 | [RegExp Extended Mode and Comments][regexp-x-mode]                                           | Ron Buckton                                            | Ron Buckton                                           | <sub>[October&nbsp;2021][regexp-x-mode-notes]</sub>                                           |
-| [RegExp `\R` Escape][regexp-r-escape]                                                        | Ron Buckton                                            | Ron Buckton                                           | <sub>[October&nbsp;2021][regexp-r-escape-notes]</sub>                                           |
+| [RegExp `\R` Escape][regexp-r-escape]                                                        | Ron Buckton                                            | Ron Buckton                                           | <sub>[December&nbsp;2021][regexp-r-escape-notes]</sub>            |
 | [Evaluator Attributes][evaluator-attributes]                                                 | Luca Casonato                                          | Guy Bedford                                           | <sub>[October&nbsp;2021][evaluator-attributes-notes]</sub>                                           |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
@@ -193,7 +193,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [overloading]: https://github.com/tc39/proposal-operator-overloading
 [overloading-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
 [decimal]: https://github.com/tc39/proposal-decimal
-[decimal-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/march-31.md#decimal-update
+[decimal-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#decimals
 [virtualize]: https://github.com/Agoric/proposal-preserve-virtualizability
 [virtualize-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-4.md#preserve-host-virtualizability
 [legacy-reflection]: https://github.com/claudepache/es-legacy-function-reflection
@@ -257,6 +257,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [regexp-x-mode]: https://github.com/rbuckton/proposal-regexp-x-mode
 [regexp-x-mode-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#regexp-extended-mode-and-comments
 [regexp-r-escape]: https://github.com/rbuckton/proposal-regexp-r-escape
-[regexp-r-escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#regexp-r-escape-for-stage-1
+[regexp-r-escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#regexp-r-escape-for-stage-2
 [evaluator-attributes]: https://github.com/lucacasonato/proposal-evaluator-attributes
 [evaluator-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#evaluator-attributes
