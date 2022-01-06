@@ -39,7 +39,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
 [distinguishing-literal-strings]: https://github.com/mikewest/tc39-proposal-literals
-[callable-constructors]: https://github.com/tc39/ecma262/blob/HEAD/workingdocs/callconstructor.md
+[callable-constructors]: https://github.com/tc39/ecma262/blob/93183b81cb03116b75019615d148b5f788e70edf/workingdocs/callconstructor.md
 [is-error]: https://github.com/ljharb/proposal-is-error
 [collection-json]: https://github.com/DavidBruant/Map-Set.prototype.toJSON
 [typed-objects]: https://github.com/dslomov/typed-objects-es7
