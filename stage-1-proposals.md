@@ -38,7 +38,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Pattern Matching][matching]                                                                 | Jordan Harband<br /><br />Mark Cohen<br />Tab Atkins<br />Yulia Startsev<br />Daniel Rosenwasser<br />Jack Works<br />Ross Kirsling | Jordan Harband<br /><br />Mark Cohen<br />Tab Atkins<br />Yulia Startsev<br />Daniel Rosenwasser<br />Jack Works<br />Ross Kirsling | <sub>[April&nbsp;2021][matching-notes]</sub> |
 | [Dynamic Modules][dynamic-modules]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[July&nbsp;2018][dynamic-modules-notes]</sub>                |
 | [Built In Modules (aka JS Standard Library)][built-in-modules]                               | Michael Saboff<br />Mattijs Hoitink                   | Michael Saboff<br />Mattijs Hoitink<br />Mark Miller   | <sub>[September&nbsp;2020][built-in-modules-notes]</sub>          |
-| [`"use module"`][modules-pragma]                                                             | Dave Herman                                           | Dave Herman                                            | <sub>[July&nbsp;2017][modules-pragma-notes]</sub>                 |
 | [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]                   | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][uniform-date-parse-notes]</sub>        |
 | [IDL for ECMAScript][idl]                                                                    | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[September&nbsp;2018][idl-notes]</sub>                       |
 | [Asset References][asset-references]                                                         | Sebastian Markbage                                    | Sebastian Markbage                                     | <sub>[November&nbsp;2018][asset-references-notes]</sub>           |
@@ -156,8 +155,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [dynamic-modules-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#dynamic-modules
 [built-in-modules]: https://github.com/tc39/proposal-built-in-modules
 [built-in-modules-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#builtin-modules-for-stage-2
-[modules-pragma]: https://github.com/tc39/proposal-modules-pragma
-[modules-pragma-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
 [uniform-date-parse]: https://github.com/tc39/proposal-uniform-interchange-date-parsing
 [uniform-date-parse-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
 [idl]: https://github.com/tc39/proposal-idl
