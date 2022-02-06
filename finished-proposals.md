@@ -67,7 +67,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [function-commas-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9ie-trailing-commas-in-functions
 [async-await]: https://github.com/tc39/proposal-async-await
 [async-await-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-28.md#10iv-async-functions
-[atomics]: https://github.com/tc39/ecmascript_sharedmem
+[atomics]: https://github.com/tc39/proposal-ecmascript-sharedmem
 [atomics-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-24.md#13if-seeking-stage-4-for-sharedarraybuffer
 [template-literal-lift]: https://github.com/tc39/proposal-template-literal-revision
 [template-literal-lift-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-21.md#10ia-template-literal-updates

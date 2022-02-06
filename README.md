@@ -119,7 +119,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [resource-management-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-24.md#explicit-resource-management
 [map-emplace]: https://github.com/tc39/proposal-upsert
 [map-emplace-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#upsert-now-renamed-emplace-updates--for-stage-3
-[Dynamic Import Host Adjustment]: https://github.com/tc39/dynamic-import-host-adjustment
+[Dynamic Import Host Adjustment]: https://github.com/tc39/proposal-dynamic-import-host-adjustment
 [Dynamic Import Host Adjustment notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-import-host-adjustment-for-stage-2
 [cleanup-some]: https://github.com/tc39/proposal-cleanup-some
 [cleanup-some-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
@@ -149,13 +149,13 @@ Note that as part of the onboarding process your repository name may be normaliz
 [change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#change-array-by-copy
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [pipe-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#pipeline-operator-for-stage-2
-[destructure-private]: https://github.com/jridgewell/proposal-destructuring-private
+[destructure-private]: https://github.com/tc39/proposal-destructuring-private
 [destructure-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
 [array-grouping]: https://github.com/tc39/proposal-array-grouping
 [array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#array-grouping-for-stage-3
 [from-async]: https://github.com/tc39/proposal-array-from-async
 [from-async-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#arrayfromasync-for-stage-2
-[regexp-modifiers]: https://github.com/rbuckton/proposal-regexp-modifiers
+[regexp-modifiers]: https://github.com/tc39/proposal-regexp-modifiers
 [regexp-modifiers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-modifiers-for-stage-2
-[regexp-buffer-boundaries]: https://github.com/rbuckton/proposal-regexp-buffer-boundaries
+[regexp-buffer-boundaries]: https://github.com/tc39/proposal-regexp-buffer-boundaries
 [regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
