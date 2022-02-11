@@ -243,7 +243,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [usv-string]: https://github.com/guybedford/proposal-is-usv-string
 [usv-string-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#string-is-usv-string
 [bigint-math]: https://github.com/tc39/proposal-bigint-math
-[bigint-math-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#bigint-math-for-stage-1
+[bigint-math-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#bigint-math-update
 [get-intrinsic]: https://github.com/tc39/proposal-get-intrinsic
 [get-intrinsic-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#get-intrinsic-for-stage-1
 [structs]: https://github.com/tc39/proposal-structs
