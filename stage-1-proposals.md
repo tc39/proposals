@@ -256,6 +256,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [regexp-x-mode-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#regexp-extended-mode-and-comments
 [regexp-r-escape]: https://github.com/tc39/proposal-regexp-r-escape
 [regexp-r-escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#regexp-r-escape-for-stage-2
-[evaluator-attributes]: https://github.com/lucacasonato/proposal-evaluator-attributes
+[evaluator-attributes]: https://github.com/tc39/proposal-import-reflection
 [evaluator-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#evaluator-attributes
-[reversible-string-split]: https://github.com/lucacasonato/proposal-reversible-string-split
+[reversible-string-split]: https://github.com/tc39/proposal-reversible-string-split

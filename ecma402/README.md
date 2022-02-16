@@ -61,4 +61,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [eradisplay-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#eradisplay-for-stage-1
 [localematcher]: https://github.com/tc39/proposal-intl-localematcher
 [localematcher-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#intl-localematcher-for-stage-1
-[Intl.Segmenter-v2]: https://github.com/FrankYFTang/proposal-intl-segmenter-v2
+[Intl.Segmenter-v2]: https://github.com/tc39/proposal-intl-segmenter-v2

@@ -44,5 +44,5 @@ See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](R
 [intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
 [intl-segmenter-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#intlsegmenter-for-stage-3
 [extend-timezonename]: https://github.com/tc39/proposal-intl-extend-timezonename
-[intl.displaynames-v2]: https://github.com/tc39/intl-displaynames-v2
+[intl.displaynames-v2]: https://github.com/tc39/proposal-intl-displaynames-v2
 [intl.displaynames-v2-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-23.md#intldisplaynames-v2-for-stage-1

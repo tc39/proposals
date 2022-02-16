@@ -77,6 +77,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [buffer-transfer]: https://github.com/domenic/proposal-arraybuffer-transfer
 [resizable-buffers]: https://github.com/tc39/proposal-resizablearraybuffer
 [deprecated]: https://github.com/jasnell/proposal-deprecated
-[function-helpers]: https://github.com/js-choi/proposal-function-helpers
+[function-helpers]: https://github.com/tc39/proposal-function-helpers
 [modules-pragma]: https://github.com/tc39/proposal-modules-pragma
 [modules-pragma-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
