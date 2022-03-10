@@ -36,6 +36,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [`deprecated`][deprecated]                                           | James M Snell                                              | Never presented                                                                               |
 | [Function helpers][function-helpers]                                 | J. S. Choi                                                 | Presented and rejected before Stage 1 on 2021-10; split up into multiple subsequent proposals |
 | [`"use module"`][modules-pragma]                                     | Dave Herman                                                | Inactive; champion does not wish to pursue                                                    |
+| [await operations][await.ops]                                        | Jack Works<br />Jordan Harband                             | Withdrawn; champion does not found compelling use case                                        |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -80,3 +81,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [function-helpers]: https://github.com/tc39/proposal-function-helpers
 [modules-pragma]: https://github.com/tc39/proposal-modules-pragma
 [modules-pragma-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
+[await.ops]: https://github.com/tc39/proposal-await.ops

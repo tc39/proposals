@@ -65,7 +65,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Deep Path Properties in Record Literals][deep-path-properties]                              | Rick Button                                           | Rick Button                                            | <sub>[June&nbsp;2020][deep-path-properties-notes]</sub>           |
 | [Restrict subclassing support in built-in methods][species-extinct]                          | Yulia Startsev<br />Shu-yu Guo                        | Yulia Startsev<br />Shu-yu Guo                         | <sub>[June&nbsp;2020][species-extinct-notes]</sub>                |
 | [Array Equality][array-equality]                                                             | Hemanth HM<br />Jordan Harband                        | Hemanth HM<br />Jordan Harband                         | <sub>[June&nbsp;2020][array-equality-notes]</sub>                 |
-| [await operations][await.ops]                                                                | Jack Works                                             | Jack Works<br />Jordan Harband                        | <sub>[July&nbsp;2020][await.ops-notes]</sub>                      |
 | [`Array.prototype.unique()`][array-unique]                                                   | [TechQuery](https://github.com/TechQuery)              | Jack Works                                            | <sub>[July&nbsp;2020][array-unique-notes]</sub>                   |
 | [String.dedent][string.dedent]                                                               | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell   | Hemanth HM<br />Justin Ridgewell                      | <sub>[September&nbsp;2020][string.dedent-notes]</sub>             |
 | [Double-Ended Iterator and Destructuring][double-ended-iterator]                             | HE Shi-Jun                                             | HE Shi-Jun                                            | <sub>[September&nbsp;2020][double-ended-iterator-notes]</sub>     |
@@ -210,8 +209,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [species-extinct-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#restrict-subclassing-support-for-built-in-methods-stage-1
 [array-equality]: https://github.com/tc39/proposal-array-equality
 [array-equality-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-4.md#generic-comparison
-[await.ops]: https://github.com/tc39/proposal-await.ops
-[await.ops-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#await-operations-for-stage-1
 [array-unique]: https://github.com/tc39/proposal-array-unique
 [array-unique-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#arrayprototypeunique-proposal-for-stage-1
 [string.dedent]: https://github.com/tc39/proposal-string-dedent
