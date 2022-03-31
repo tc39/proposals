@@ -33,6 +33,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell                                                                          | :question:                                       | <sub>[December&nbsp;2021][array-grouping-notes]</sub>      |
 | [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Chris Garrett                   | Chris Garrett                                                                             | :question:                                       | <sub>March&nbsp;2022</sub>                                 |
 | [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation] | Markus Scherer<br />Mathias Bynens           | Mathias Bynens                                                                            | :question:                                       | <sub>March&nbsp;2022</sub>                                 |
+| [Change Array by Copy][change-array-by-copy]                                   | Ashley Claymore<br />Robin Ricard                                       | Ashley Claymore<br />Robin Ricard                                       | :question:                                       | <sub>March&nbsp;2022</sub>                                 |
 
 ### Stage 2
 
@@ -54,7 +55,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                    | <sub>[July&nbsp;2020][json-parse-source-notes]</sub>                  |
 | [Module Blocks][module-blocks]                                                 | Surma<br />Daniel Ehrenberg                           | Surma                                                                             | <sub>[January&nbsp;2021][module-blocks-notes]</sub>                   |
 | [Symbols as WeakMap keys][symbols-weakmap]                                     | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | <sub>[April&nbsp;2021][symbols-weakmap-notes]</sub> |
-| [Change Array by copy][change-array-by-copy]                                   | Robin Ricard                                          | Robin Ricard                                                                      | <sub>[August&nbsp;2021][change-array-by-copy-notes]</sub>             |
 | [Pipeline Operator][pipeline]                                                  | J. S. Choi<br />James DiGioia<br />Ron Buckton<br />Tab Atkins | J. S. Choi<br />Ron Buckton<br />Tab Atkins                              | <sub>[August&nbsp;2021][pipe-notes]</sub>                             |
 | [Destructure Private Fields][destructure-private]                              | Justin Ridgewell                                      | Justin Ridgewell                                                                  | <sub>[December&nbsp;2021][destructure-private-notes]</sub>            |
 | [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                         | <sub>[December&nbsp;2021][from-async-notes]</sub>                     |
@@ -146,7 +146,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [regex-set-notation]: https://github.com/tc39/proposal-regexp-set-notation
 [regex-set-notation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#regexp-set-notation--unicode-properties-of-strings-ready-for-stage-3-reviews
 [change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
-[change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#change-array-by-copy
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [pipe-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#pipeline-operator-for-stage-2
 [destructure-private]: https://github.com/tc39/proposal-destructuring-private
