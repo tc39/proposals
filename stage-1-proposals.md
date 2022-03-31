@@ -91,6 +91,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Evaluator Attributes][evaluator-attributes]                                                 | Luca Casonato                                          | Guy Bedford                                           | <sub>[October&nbsp;2021][evaluator-attributes-notes]</sub>        |
 | [Reversible string split][reversible-string-split]                                           | Luca Casonato                                          | Luca Casonato                                         | <sub>January 2022</sub>                                           |
 | [Function once][once]                                                                        | J. S. Choi                                             | J. S. Choi                                            | <sub>March 2022</sub>                                             |
+| [Type Annotations][type-annotations]                                                         | Gil Tayar<br />Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | <sub>March 2022</sub>                               |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -261,3 +262,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [evaluator-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#evaluator-attributes
 [reversible-string-split]: https://github.com/tc39/proposal-reversible-string-split
 [once]: https://github.com/js-choi/proposal-function-once
+[type-annotations]: https://github.com/tc39/proposal-type-annotations
