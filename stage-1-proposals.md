@@ -89,7 +89,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [RegExp Extended Mode and Comments][regexp-x-mode]                                           | Ron Buckton                                            | Ron Buckton                                           | <sub>[October&nbsp;2021][regexp-x-mode-notes]</sub>               |
 | [RegExp `\R` Escape][regexp-r-escape]                                                        | Ron Buckton                                            | Ron Buckton                                           | <sub>[December&nbsp;2021][regexp-r-escape-notes]</sub>            |
 | [Evaluator Attributes][evaluator-attributes]                                                 | Luca Casonato                                          | Guy Bedford                                           | <sub>[October&nbsp;2021][evaluator-attributes-notes]</sub>        |
-| [Reversible string split][reversible-string-split]                                           | Luca Casonato                                          | Luca Casonato                                         | <sub>January 2022</sub>                                           |
+| [Reversible string split][reversible-string-split]                                           | Luca Casonato                                          | Luca Casonato                                         | <sub>[January 2022][reversible-string-split-notes]</sub>          |
 | [Function once][once]                                                                        | J. S. Choi                                             | J. S. Choi                                            | <sub>March 2022</sub>                                             |
 | [Type Annotations][type-annotations]                                                         | Gil Tayar<br />Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | <sub>March 2022</sub>                               |
 
@@ -261,5 +261,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [evaluator-attributes]: https://github.com/tc39/proposal-import-reflection
 [evaluator-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#evaluator-attributes
 [reversible-string-split]: https://github.com/tc39/proposal-reversible-string-split
+[reversible-string-split-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-01/jan-25.md#reversible-string-split
 [once]: https://github.com/js-choi/proposal-function-once
 [type-annotations]: https://github.com/tc39/proposal-type-annotations
