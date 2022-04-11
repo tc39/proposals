@@ -28,10 +28,11 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                     | Author               | Champion               | <sub>Last Presented</sub>                                        |
 | ------------------------------------------------------------ | -------------------- | ---------------------- | ---------------------------------------------------------------- |
-| [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud      | Younies Mahmoud        | [June 2020][smart-units-notes]                                   |
-| [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]    | Louis-Aime           | Shane Carr, Louis-Aime | [January&nbsp;2021][eradisplay-notes]                |
-| [Intl LocaleMatcher][localematcher]                          | Long Ho              | Shane Carr, Long Ho    | [January&nbsp;2021][localematcher-notes]             |
-| [`Intl.Segmenter v2`][Intl.Segmenter-v2]                     | Frank Yung-Fong Tang | Frank Yung-Fong Tang   | December&nbsp;2021                                   |
+| [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud      | Younies Mahmoud        | [June 2020][smart-units-notes]           |
+| [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]    | Louis-Aime           | Shane Carr, Louis-Aime | [January&nbsp;2021][eradisplay-notes]    |
+| [Intl LocaleMatcher][localematcher]                          | Long Ho              | Shane Carr, Long Ho    | [January&nbsp;2021][localematcher-notes] |
+| [`Intl.Segmenter v2`][Intl.Segmenter-v2]                     | Frank Yung-Fong Tang | Frank Yung-Fong Tang   | December&nbsp;2021                       |
+| [`Intl.MessageFormat`][intl.messageformat]                   | Eemeli Aro           | Eemeli Aro             | March&nbsp;2022                          |
 
 ### Contributing new proposals
 
@@ -62,3 +63,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [localematcher]: https://github.com/tc39/proposal-intl-localematcher
 [localematcher-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#intl-localematcher-for-stage-1
 [Intl.Segmenter-v2]: https://github.com/tc39/proposal-intl-segmenter-v2
+[intl.messageformat]: https://github.com/tc39/proposal-intl-messageformat
