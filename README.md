@@ -60,6 +60,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                         | <sub>[December&nbsp;2021][from-async-notes]</sub>                     |
 | [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[December&nbsp;2021][regexp-modifiers-notes]</sub>               |
 | [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]        | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[December&nbsp;2021][regexp-buffer-boundaries-notes]</sub>       |
+| [Decorator Metadata][decorator-metadata]                                       | Chris Garrett                                         | Chris Garrett                                                                     | <sub>March 2022</sub>                                                 |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -158,3 +159,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [regexp-modifiers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-modifiers-for-stage-2
 [regexp-buffer-boundaries]: https://github.com/tc39/proposal-regexp-buffer-boundaries
 [regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
+[decorator-metadata]: https://github.com/tc39/proposal-decorator-metadata
