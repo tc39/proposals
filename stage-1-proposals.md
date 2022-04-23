@@ -85,7 +85,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Get Intrinsic][get-intrinsic]                                                               | Jordan Harband                                         | Jordan Harband                                        | <sub>[August&nbsp;2021][get-intrinsic-notes]</sub>                |
 | [Fixed shape objects][structs]                                                               | Shu-yu Guo                                             | Shu-yu Guo                                            | <sub>[August&nbsp;2021][structs-notes]</sub>                      |
 | [`String.cooked`][string.cooked]                                                             | Darien Maillet Valentine                               | Jamie Kyle<br />Hemanth HM                            | <sub>[October&nbsp;2021][string.cooked-notes]</sub>               |
-| [Bind-this operator][bind-this]                                                              | J.S. Choi                                              | J.S. Choi                                             | <sub>[October&nbsp;2021][bind-this-notes]</sub>                   |
+| [Call-this operator][call-this]                                                              | J.S. Choi                                              | J.S. Choi                                             | <sub>[October&nbsp;2021][call-this-notes]</sub>                   |
 | [RegExp Extended Mode and Comments][regexp-x-mode]                                           | Ron Buckton                                            | Ron Buckton                                           | <sub>[October&nbsp;2021][regexp-x-mode-notes]</sub>               |
 | [RegExp `\R` Escape][regexp-r-escape]                                                        | Ron Buckton                                            | Ron Buckton                                           | <sub>[December&nbsp;2021][regexp-r-escape-notes]</sub>            |
 | [Evaluator Attributes][evaluator-attributes]                                                 | Luca Casonato                                          | Guy Bedford                                           | <sub>[October&nbsp;2021][evaluator-attributes-notes]</sub>        |
@@ -252,8 +252,8 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [structs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#fixed-layout-objects
 [string.cooked]: https://github.com/tc39/proposal-string-cooked
 [string.cooked-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#stringcooked
-[bind-this]: https://github.com/tc39/proposal-bind-this
-[bind-this-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#bind-this-operator-for-stage-1
+[call-this]: https://github.com/tc39/proposal-call-this
+[call-this-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#call-this-operator-for-stage-1
 [regexp-x-mode]: https://github.com/tc39/proposal-regexp-x-mode
 [regexp-x-mode-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#regexp-extended-mode-and-comments
 [regexp-r-escape]: https://github.com/tc39/proposal-regexp-r-escape
@@ -262,5 +262,5 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [evaluator-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#evaluator-attributes
 [reversible-string-split]: https://github.com/tc39/proposal-reversible-string-split
 [reversible-string-split-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-01/jan-25.md#reversible-string-split
-[once]: https://github.com/js-choi/proposal-function-once
+[once]: https://github.com/tc39/proposal-function-once
 [type-annotations]: https://github.com/tc39/proposal-type-annotations
