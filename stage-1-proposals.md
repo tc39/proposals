@@ -253,7 +253,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [string.cooked]: https://github.com/tc39/proposal-string-cooked
 [string.cooked-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#stringcooked
 [call-this]: https://github.com/tc39/proposal-call-this
-[call-this-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#call-this-operator-for-stage-1
+[call-this-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#bind-this-operator-for-stage-1
 [regexp-x-mode]: https://github.com/tc39/proposal-regexp-x-mode
 [regexp-x-mode-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#regexp-extended-mode-and-comments
 [regexp-r-escape]: https://github.com/tc39/proposal-regexp-r-escape
