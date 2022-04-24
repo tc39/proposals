@@ -31,9 +31,9 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Array find from last][find-last]                                              | Wenlu Wang                                                              | Wenlu Wang<br />Daniel Rosenwasser                                      | [:white_check_mark:][find-last-tests]            | <sub>[July&nbsp;2021][find-last-notes]</sub>               |
 | [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter                           | [:white_check_mark:][realms-tests]               | <sub>[December&nbsp;2021][realms-notes]</sub>              |
 | [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell                                                                          | :question:                                       | <sub>[December&nbsp;2021][array-grouping-notes]</sub>      |
-| [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Chris Garrett                   | Chris Garrett                                                                             | :question:                                       | <sub>March&nbsp;2022</sub>                                 |
-| [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation] | Markus Scherer<br />Mathias Bynens           | Mathias Bynens                                                                            | :question:                                       | <sub>March&nbsp;2022</sub>                                 |
-| [Change Array by Copy][change-array-by-copy]                                   | Ashley Claymore<br />Robin Ricard                                       | Ashley Claymore<br />Robin Ricard                                       | :question:                                       | <sub>March&nbsp;2022</sub>                                 |
+| [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Chris Garrett                   | Chris Garrett                                                                             | :question:                                       | <sub>[March&nbsp;2022][decorators-notes]</sub>             |
+| [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation] | Markus Scherer<br />Mathias Bynens           | Mathias Bynens                                                                            | :question:                                       | <sub>[March&nbsp;2022][regex-set-notation-notes]</sub>     |
+| [Change Array by Copy][change-array-by-copy]                                   | Ashley Claymore<br />Robin Ricard                                       | Ashley Claymore<br />Robin Ricard                                       | :question:                                       | <sub>[March&nbsp;2022][change-array-by-copy-notes]</sub>   |
 
 ### Stage 2
 
@@ -60,7 +60,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                         | <sub>[December&nbsp;2021][from-async-notes]</sub>                     |
 | [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[December&nbsp;2021][regexp-modifiers-notes]</sub>               |
 | [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]        | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[December&nbsp;2021][regexp-buffer-boundaries-notes]</sub>       |
-| [Decorator Metadata][decorator-metadata]                                       | Chris Garrett                                         | Chris Garrett                                                                     | <sub>March 2022</sub>                                                 |
+| [Decorator Metadata][decorator-metadata]                                       | Chris Garrett                                         | Chris Garrett                                                                     | <sub>[March 2022][decorator-metadata-notes]</sub>                     |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -84,7 +84,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [function-sent]: https://github.com/tc39/proposal-function.sent
 [function-sent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#making-functionsent-inactive
 [decorators]: https://github.com/tc39/proposal-decorators
-[decorators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#decorators-update-removing-init
+[decorators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
 [shadowrealm]: https://github.com/tc39/proposal-shadowrealm
 [realms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#shadowrealms-updates-and-potential-normative-changes
 [realms-tests]: https://github.com/tc39/test262/pull/3046
@@ -145,8 +145,9 @@ Note that as part of the onboarding process your repository name may be normaliz
 [symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
 [symbols-weakmap-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#symbols-as-weakmap-keys-for-stage-2
 [regex-set-notation]: https://github.com/tc39/proposal-regexp-set-notation
-[regex-set-notation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#regexp-set-notation--unicode-properties-of-strings-ready-for-stage-3-reviews
+[regex-set-notation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#regexp-set-notation--unicode-properties-of-strings-for-stage-3
 [change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
+[change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#change-array-by-copy
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [pipe-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#pipeline-operator-for-stage-2
 [destructure-private]: https://github.com/tc39/proposal-destructuring-private
@@ -160,3 +161,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [regexp-buffer-boundaries]: https://github.com/tc39/proposal-regexp-buffer-boundaries
 [regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
 [decorator-metadata]: https://github.com/tc39/proposal-decorator-metadata
+[decorator-metadata-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
