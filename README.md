@@ -32,7 +32,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter                           | [:white_check_mark:][realms-tests]               | <sub>[December&nbsp;2021][realms-notes]</sub>              |
 | [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell                                                                          | :question:                                       | <sub>[December&nbsp;2021][array-grouping-notes]</sub>      |
 | [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Chris Garrett                   | Chris Garrett                                                                             | :question:                                       | <sub>[March&nbsp;2022][decorators-notes]</sub>             |
-| [Adopting Unicode behavior for set notation in regular expressions][regex-set-notation] | Markus Scherer<br />Mathias Bynens           | Mathias Bynens                                                                            | :question:                                       | <sub>[March&nbsp;2022][regex-set-notation-notes]</sub>     |
+| [RegExp v flag with set notation + properties of strings][regexp-v-flag] | Markus Scherer<br />Mathias Bynens           | Mathias Bynens                                                                            | :question:                                       | <sub>[March&nbsp;2022][regexp-v-flag-notes]</sub>     |
 | [Change Array by Copy][change-array-by-copy]                                   | Ashley Claymore<br />Robin Ricard                                       | Ashley Claymore<br />Robin Ricard                                       | :question:                                       | <sub>[March&nbsp;2022][change-array-by-copy-notes]</sub>   |
 
 ### Stage 2
@@ -144,8 +144,8 @@ Note that as part of the onboarding process your repository name may be normaliz
 [find-last-tests]: https://github.com/tc39/test262/pull/3045
 [symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
 [symbols-weakmap-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#symbols-as-weakmap-keys-for-stage-2
-[regex-set-notation]: https://github.com/tc39/proposal-regexp-set-notation
-[regex-set-notation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#regexp-set-notation--unicode-properties-of-strings-for-stage-3
+[regexp-v-flag]: https://github.com/tc39/proposal-regexp-v-flag
+[regexp-v-flag-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#regexp-set-notation--unicode-properties-of-strings-for-stage-3
 [change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
 [change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#change-array-by-copy
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
