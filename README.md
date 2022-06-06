@@ -60,6 +60,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[December&nbsp;2021][regexp-modifiers-notes]</sub>               |
 | [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]        | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[December&nbsp;2021][regexp-buffer-boundaries-notes]</sub>       |
 | [Decorator Metadata][decorator-metadata]                                       | Chris Garrett                                         | Chris Garrett                                                                     | <sub>[March 2022][decorator-metadata-notes]</sub>                     |
+| [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                         | Kevin Gibbons                                                                     | <sub>June 2022</sub>                                                  |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -158,3 +159,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
 [decorator-metadata]: https://github.com/tc39/proposal-decorator-metadata
 [decorator-metadata-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
+[named-capture-groups]: https://github.com/bakkot/proposal-duplicate-named-capturing-groups
