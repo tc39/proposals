@@ -91,7 +91,8 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Evaluator Attributes][evaluator-attributes]                                                 | Luca Casonato                                          | Guy Bedford                                           | <sub>[October&nbsp;2021][evaluator-attributes-notes]</sub>        |
 | [Reversible string split][reversible-string-split]                                           | Luca Casonato                                          | Luca Casonato                                         | <sub>[January 2022][reversible-string-split-notes]</sub>          |
 | [Function once][once]                                                                        | J. S. Choi                                             | J. S. Choi                                            | <sub>[March 2022][once-notes]</sub>                               |
-| [Type Annotations][type-annotations]                                                         | Gil Tayar<br />Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | <sub>[March 2022][type-annotations-notes]</sub>    |
+| [Type Annotations][type-annotations]                                                         | Gil Tayar<br />Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | <sub>[March 2022][type-annotations-notes]</sub>     |
+| [Faster Promise adoption][faster-promise-adoption]                                           | Justin Ridgewell                                       | Justin Ridgewell                                      | <sub>June 2022</sub>                                              |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -266,3 +267,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [once-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#functionprototypeonce-for-stage-1
 [type-annotations]: https://github.com/tc39/proposal-type-annotations
 [type-annotations-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#types-as-comments-for-stage-1
+[faster-promise-adoption]: https://github.com/tc39/proposal-faster-promise-adoption
