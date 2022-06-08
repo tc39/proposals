@@ -92,6 +92,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Function once][once]                                                                        | J. S. Choi                                             | J. S. Choi                                            | <sub>[March 2022][once-notes]</sub>                               |
 | [Type Annotations][type-annotations]                                                         | Gil Tayar<br />Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | <sub>[March 2022][type-annotations-notes]</sub>     |
 | [Faster Promise adoption][faster-promise-adoption]                                           | Justin Ridgewell                                       | Justin Ridgewell                                      | <sub>June 2022</sub>                                              |
+| [RegExp Atomic Operators][regexp-atomic-operators]                                           | Ron Buckton                                            | Ron Buckton                                           | <sub>June 2022</sub>                                              |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -265,3 +266,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [type-annotations]: https://github.com/tc39/proposal-type-annotations
 [type-annotations-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#types-as-comments-for-stage-1
 [faster-promise-adoption]: https://github.com/tc39/proposal-faster-promise-adoption
+[regexp-atomic-operators]: https://github.com/rbuckton/proposal-regexp-atomic-operators
