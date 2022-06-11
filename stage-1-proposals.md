@@ -35,7 +35,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                    | Sathya Gunasekaran                                     | <sub>[July&nbsp;2020][slice-notation-notes]</sub>                 |
 | [Module Keys][module-keys]                                                                   | Mike Samuel                                           | Mike Samuel                                            | <sub>[May&nbsp;2018][module-keys-notes]</sub>                     |
 | [class Access Expressions][class-access-expressions]                                         | Ron Buckton                                           | Ron Buckton                                            | <sub>[September&nbsp;2020][class-access-expressions-notes]</sub>  |
-| [Pattern Matching][matching]                                                                 | Jordan Harband<br /><br />Mark Cohen<br />Tab Atkins<br />Yulia Startsev<br />Daniel Rosenwasser<br />Jack Works<br />Ross Kirsling | Jordan Harband<br /><br />Mark Cohen<br />Tab Atkins<br />Yulia Startsev<br />Daniel Rosenwasser<br />Jack Works<br />Ross Kirsling | <sub>[April&nbsp;2021][matching-notes]</sub> |
+| [Pattern Matching][matching]                                                                 | Jordan Harband<br /><br />Mark Cohen<br />Tab Atkins<br />Yulia Startsev<br />Daniel Rosenwasser<br />Jack Works<br />Ross Kirsling | Jordan Harband<br /><br />Mark Cohen<br />Tab Atkins<br />Yulia Startsev<br />Daniel Rosenwasser<br />Jack Works<br />Ross Kirsling | <sub>[March&nbsp;2022][matching-notes]</sub> |
 | [Dynamic Modules][dynamic-modules]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[July&nbsp;2018][dynamic-modules-notes]</sub>                |
 | [Built In Modules (aka JS Standard Library)][built-in-modules]                               | Michael Saboff<br />Mattijs Hoitink                   | Michael Saboff<br />Mattijs Hoitink<br />Mark Miller   | <sub>[September&nbsp;2020][built-in-modules-notes]</sub>          |
 | [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]                   | Richard Gibson                                        | Richard Gibson                                         | <sub>[September&nbsp;2018][uniform-date-parse-notes]</sub>        |
@@ -154,7 +154,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [class-access-expressions]: https://github.com/tc39/proposal-class-access-expressions
 [class-access-expressions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-22.md#class-access-expressions-for-stage-2
 [matching]: https://github.com/tc39/proposal-pattern-matching
-[matching-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-20.md#pattern-matching-update
+[matching-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#pattern-matching-for-stage-2
 [dynamic-modules]: https://github.com/nodejs/dynamic-modules
 [dynamic-modules-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#dynamic-modules
 [built-in-modules]: https://github.com/tc39/proposal-built-in-modules
