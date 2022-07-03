@@ -31,8 +31,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | [:white_check_mark:][realms-tests]    | <sub>[December&nbsp;2021][realms-notes]</sub>              |
 | [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell                                                                          | :question:                                       | <sub>[December&nbsp;2021][array-grouping-notes]</sub>      |
 | [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Chris Garrett                   | Chris Garrett                                                                             | :question:                                       | <sub>[March&nbsp;2022][decorators-notes]</sub>             |
-| [RegExp v flag with set notation + properties of strings][regexp-v-flag] | Markus Scherer<br />Mathias Bynens           | Mathias Bynens                                                                            | :question:                                       | <sub>[March&nbsp;2022][regexp-v-flag-notes]</sub>     |
-| [Change Array by Copy][change-array-by-copy]                                   | Ashley Claymore<br />Robin Ricard                                       | Ashley Claymore<br />Robin Ricard                                       | :question:                                       | <sub>[March&nbsp;2022][change-array-by-copy-notes]</sub>   |
+| [RegExp v flag with set notation + properties of strings][regexp-v-flag]       | Markus Scherer<br />Mathias Bynens                    | Mathias Bynens                                                                            | :question:                                       | <sub>[March&nbsp;2022][regexp-v-flag-notes]</sub>          |
+| [Change Array by Copy][change-array-by-copy]                                   | Ashley Claymore<br />Robin Ricard                     | Ashley Claymore<br />Robin Ricard                                                         | [:construction:][change-array-by-copy-tests]     | <sub>[March&nbsp;2022][change-array-by-copy-notes]</sub>   |
 | [Symbols as WeakMap keys][symbols-weakmap]                                     | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | :question: | <sub>June&nbsp;2022</sub>
 
 ### Stage 2
@@ -146,6 +146,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [regexp-v-flag-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#regexp-set-notation--unicode-properties-of-strings-for-stage-3
 [change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
 [change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#change-array-by-copy
+[change-array-by-copy-tests]: https://github.com/tc39/test262/pull/3464
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [pipe-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#pipeline-operator-for-stage-2
 [destructure-private]: https://github.com/tc39/proposal-destructuring-private
