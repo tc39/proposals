@@ -88,11 +88,11 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [RegExp Extended Mode and Comments][regexp-x-mode]                                           | Ron Buckton                                            | Ron Buckton                                           | <sub>[October&nbsp;2021][regexp-x-mode-notes]</sub>               |
 | [RegExp `\R` Escape][regexp-r-escape]                                                        | Ron Buckton                                            | Ron Buckton                                           | <sub>[December&nbsp;2021][regexp-r-escape-notes]</sub>            |
 | [Evaluator Attributes][evaluator-attributes]                                                 | Luca Casonato                                          | Guy Bedford                                           | <sub>[October&nbsp;2021][evaluator-attributes-notes]</sub>        |
-| [Reversible string split][reversible-string-split]                                           | Luca Casonato                                          | Luca Casonato                                         | <sub>[January 2022][reversible-string-split-notes]</sub>          |
-| [Function once][once]                                                                        | J. S. Choi                                             | J. S. Choi                                            | <sub>[March 2022][once-notes]</sub>                               |
-| [Type Annotations][type-annotations]                                                         | Gil Tayar<br />Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | <sub>[March 2022][type-annotations-notes]</sub>     |
-| [Faster Promise adoption][faster-promise-adoption]                                           | Justin Ridgewell                                       | Justin Ridgewell                                      | <sub>June 2022</sub>                                              |
-| [RegExp Atomic Operators][regexp-atomic-operators]                                           | Ron Buckton                                            | Ron Buckton                                           | <sub>June 2022</sub>                                              |
+| [Reversible string split][reversible-string-split]                                           | Luca Casonato                                          | Luca Casonato                                         | <sub>[January&nbsp;2022][reversible-string-split-notes]</sub>          |
+| [Function once][once]                                                                        | J. S. Choi                                             | J. S. Choi                                            | <sub>[March&nbsp;2022][once-notes]</sub>                               |
+| [Type Annotations][type-annotations]                                                         | Gil Tayar<br />Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | <sub>[March&nbsp;2022][type-annotations-notes]</sub>     |
+| [Faster Promise adoption][faster-promise-adoption]                                           | Justin Ridgewell                                       | Justin Ridgewell                                      | <sub>[June&nbsp;2022][faster-promise-adoption-notes]</sub>             |
+| [RegExp Atomic Operators][regexp-atomic-operators]                                           | Ron Buckton                                            | Ron Buckton                                           | <sub>[June&nbsp;2022][regexp-atomic-operators-notes]</sub>             |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -266,4 +266,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [type-annotations]: https://github.com/tc39/proposal-type-annotations
 [type-annotations-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#types-as-comments-for-stage-1
 [faster-promise-adoption]: https://github.com/tc39/proposal-faster-promise-adoption
+[faster-promise-adoption-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#remove-job-from-promise-resolve-functions
 [regexp-atomic-operators]: https://github.com/rbuckton/proposal-regexp-atomic-operators
+[regexp-atomic-operators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-08.md#regex-atomic-operators

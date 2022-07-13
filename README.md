@@ -33,7 +33,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Chris Garrett                   | Chris Garrett                                                                             | :question:                                       | <sub>[March&nbsp;2022][decorators-notes]</sub>             |
 | [RegExp v flag with set notation + properties of strings][regexp-v-flag]       | Markus Scherer<br />Mathias Bynens                    | Mathias Bynens                                                                            | :question:                                       | <sub>[March&nbsp;2022][regexp-v-flag-notes]</sub>          |
 | [Change Array by Copy][change-array-by-copy]                                   | Ashley Claymore<br />Robin Ricard                     | Ashley Claymore<br />Robin Ricard                                                         | [:construction:][change-array-by-copy-tests]     | <sub>[March&nbsp;2022][change-array-by-copy-notes]</sub>   |
-| [Symbols as WeakMap keys][symbols-weakmap]                                     | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | :question: | <sub>June&nbsp;2022</sub>
+| [Symbols as WeakMap keys][symbols-weakmap]                                     | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | :question: | <sub>[June&nbsp;2022][symbols-weakmap-notes]</sub>
 
 ### Stage 2
 
@@ -59,9 +59,9 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                         | <sub>[December&nbsp;2021][from-async-notes]</sub>                     |
 | [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[December&nbsp;2021][regexp-modifiers-notes]</sub>               |
 | [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]        | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[December&nbsp;2021][regexp-buffer-boundaries-notes]</sub>       |
-| [Decorator Metadata][decorator-metadata]                                       | Chris Garrett                                         | Chris Garrett                                                                     | <sub>[March 2022][decorator-metadata-notes]</sub>                     |
-| [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                         | Kevin Gibbons                                                                     | <sub>June 2022</sub>                                                  |
-| [String.dedent][string.dedent]                                                 | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell  | Hemanth HM<br />Justin Ridgewell                                                  | <sub>June&nbsp;2022</sub>                                             |
+| [Decorator Metadata][decorator-metadata]                                       | Chris Garrett                                         | Chris Garrett                                                                     | <sub>[March&nbsp;2022][decorator-metadata-notes]</sub>                     |
+| [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                         | Kevin Gibbons                                                                     | <sub>[June&nbsp;2022][named-capture-groups-notes]</sub>                    |
+| [String.dedent][string.dedent]                                                 | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell  | Hemanth HM<br />Justin Ridgewell                                                  | <sub>[June&nbsp;2022][string.dedent-notes]</sub>                      |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -141,7 +141,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [module-blocks]: https://github.com/tc39/proposal-js-module-blocks
 [module-blocks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-25.md#js-module-blocks
 [symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
-[symbols-weakmap-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#symbols-as-weakmap-keys-for-stage-2
+[symbols-weakmap-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#symbols-as-weakmap-keys
 [regexp-v-flag]: https://github.com/tc39/proposal-regexp-v-flag
 [regexp-v-flag-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#regexp-set-notation--unicode-properties-of-strings-for-stage-3
 [change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
@@ -161,6 +161,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
 [decorator-metadata]: https://github.com/tc39/proposal-decorator-metadata
 [decorator-metadata-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
-[named-capture-groups]: https://github.com/bakkot/proposal-duplicate-named-capturing-groups
+[named-capture-groups]: https://github.com/tc39/proposal-duplicate-named-capturing-groups
+[named-capture-groups-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#duplicate-named-capture-groups-for-stage-1-2-or-3
 [string.dedent]: https://github.com/tc39/proposal-string-dedent
-[string.dedent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-23.md#stringdedent-for-stage-1
+[string.dedent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
