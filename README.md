@@ -62,6 +62,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Decorator Metadata][decorator-metadata]                                       | Chris Garrett                                         | Chris Garrett                                                                     | <sub>[March&nbsp;2022][decorator-metadata-notes]</sub>                     |
 | [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                         | Kevin Gibbons                                                                     | <sub>[June&nbsp;2022][named-capture-groups-notes]</sub>                    |
 | [String.dedent][string.dedent]                                                 | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell  | Hemanth HM<br />Justin Ridgewell                                                  | <sub>[June&nbsp;2022][string.dedent-notes]</sub>                      |
+| [Import Reflection][import-reflection]                                         | Luca Casonato                                         | Guy Bedford                                                                       | <sub>July&nbsp;2022</sub>                                             |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -165,3 +166,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [named-capture-groups-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#duplicate-named-capture-groups-for-stage-1-2-or-3
 [string.dedent]: https://github.com/tc39/proposal-string-dedent
 [string.dedent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
+[import-reflection]: https://github.com/tc39/proposal-import-reflection
+[import-reflection-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#evaluator-attributes
