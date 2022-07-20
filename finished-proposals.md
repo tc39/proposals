@@ -51,6 +51,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Class Static Block][static-blocks]                                      | Ron Buckton                                            | Ron Buckton                                             | [August 2021][static-blocks-notes]          | 2022                      |
 | [Error Cause][error-cause]                                               | Chengzhong Wu                                          | Chengzhong Wu<br /> Hemanth HM                          | [October 2021][error-cause-notes]           | 2022                      |
 | [Array find from last][find-last]                                        | Wenlu Wang                                             | Wenlu Wang<br />Daniel Rosenwasser                      | [June 2022][find-last-notes]                | 2023                      |
+| [Hashbang Grammar][hashbang-grammar]                                     | Bradley Farias                                         | Bradley Farias                                          | July&nbsp;2022                              | 2023                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -150,3 +151,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [error-cause-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#error-cause-for-stage-4
 [find-last]: https://github.com/tc39/proposal-array-find-from-last
 [find-last-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#findlastfindlastindex-for-stage-4
+[hashbang-grammar]: https://github.com/tc39/proposal-hashbang
+[hashbang-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#hash-bang-grammar
