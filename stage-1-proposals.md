@@ -92,6 +92,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Type Annotations][type-annotations]                                                         | Gil Tayar<br />Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | <sub>[March&nbsp;2022][type-annotations-notes]</sub>     |
 | [Faster Promise adoption][faster-promise-adoption]                                           | Justin Ridgewell                                       | Justin Ridgewell                                      | <sub>[June&nbsp;2022][faster-promise-adoption-notes]</sub>             |
 | [RegExp Atomic Operators][regexp-atomic-operators]                                           | Ron Buckton                                            | Ron Buckton                                           | <sub>[June&nbsp;2022][regexp-atomic-operators-notes]</sub>             |
+| [Symbol Predicates][symbol-predicates]                      | <sub>July&nbsp;2022</sub>                                              |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -266,3 +267,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [faster-promise-adoption-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#remove-job-from-promise-resolve-functions
 [regexp-atomic-operators]: https://github.com/rbuckton/proposal-regexp-atomic-operators
 [regexp-atomic-operators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-08.md#regex-atomic-operators
+[symbol-predicates]: https://github.com/rricard/proposal-symbol-predicates
