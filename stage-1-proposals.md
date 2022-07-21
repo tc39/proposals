@@ -95,6 +95,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Symbol Predicates][symbol-predicates]                                                       | Robin Ricard<br />Jordan Harband                       | Robin Ricard<br />Jordan Harband                      | <sub>July&nbsp;2022</sub>                                              |
 | [Policy Maps and Sets][policy-maps]                                                          | J.S. Choi                                              | J.S. Choi<br />Hemanth HM                             | <sub>July&nbsp;2022</sub>                                              |
 | [Function Memoization][memoization]                                                          | J.S. Choi                                              | J.S. Choi<br />Hemanth HM                             | <sub>July&nbsp;2022</sub>                                              |
+| [Object pick/omit][pick-omit]                                                                | Hemanth HM<br />Aleen                                  | Hemanth HM                                            | <sub>July&nbsp;2022</sub>                                              |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -272,3 +273,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [symbol-predicates]: https://github.com/rricard/proposal-symbol-predicates
 [policy-maps]: https://github.com/tc39/proposal-policy-map-set
 [memoization]: https://github.com/js-choi/proposal-function-memo
+[pick-omit]: https://github.com/tc39-transfer/proposal-object-pick-or-omit
