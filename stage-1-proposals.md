@@ -224,7 +224,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [double-ended-iterator-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#double-ended-iterator-and-destructuring-for-stage-1
 [debug]: https://github.com/tc39/proposal-standardized-debug
 [debug-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#standardized-debug-for-stage-2
-[modulus]: https://github.com/phoddie/integer-and-modulus-math-proposal
+[modulus]: https://github.com/tc39/proposal-integer-and-modulus-math
 [modulus-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#modulus-and-additional-integer-math-for-stage-1
 [extensions]: https://github.com/tc39/proposal-extensions
 [extensions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#extensions-for-stage-1
@@ -268,9 +268,9 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [type-annotations-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#types-as-comments-for-stage-1
 [faster-promise-adoption]: https://github.com/tc39/proposal-faster-promise-adoption
 [faster-promise-adoption-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#remove-job-from-promise-resolve-functions
-[regexp-atomic-operators]: https://github.com/rbuckton/proposal-regexp-atomic-operators
+[regexp-atomic-operators]: https://github.com/tc39/proposal-regexp-atomic-operators
 [regexp-atomic-operators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-08.md#regex-atomic-operators
-[symbol-predicates]: https://github.com/rricard/proposal-symbol-predicates
+[symbol-predicates]: https://github.com/tc39/proposal-symbol-predicates
 [policy-maps]: https://github.com/tc39/proposal-policy-map-set
-[memoization]: https://github.com/js-choi/proposal-function-memo
-[pick-omit]: https://github.com/tc39-transfer/proposal-object-pick-or-omit
+[memoization]: https://github.com/tc39/proposal-function-memo
+[pick-omit]: https://github.com/tc39/proposal-object-pick-or-omit
