@@ -62,6 +62,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Decorator Metadata][decorator-metadata]                                       | Chris Garrett                                         | Chris Garrett                                                                     | <sub>[March&nbsp;2022][decorator-metadata-notes]</sub>                     |
 | [String.dedent][string.dedent]                                                 | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell  | Hemanth HM<br />Justin Ridgewell                                                  | <sub>[June&nbsp;2022][string.dedent-notes]</sub>                      |
 | [Import Reflection][import-reflection]                                         | Luca Casonato                                         | Guy Bedford                                                                       | <sub>July&nbsp;2022</sub>                                             |
+| [JSON.parseImmutable][json-parse-immutable]                                    | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | <sub>July&nbsp;2022</sub>                                 |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -164,3 +165,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [string.dedent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
 [import-reflection]: https://github.com/tc39/proposal-import-reflection
 [import-reflection-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#evaluator-attributes
+[json-parse-immutable]: https://github.com/tc39/proposal-json-parseimmutable
