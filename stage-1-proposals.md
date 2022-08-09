@@ -79,7 +79,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [JavaScript module fragments][module-fragments]                                              | Daniel Ehrenberg                                       | Daniel Ehrenberg<br />Mark Miller                     | <sub>[March&nbsp;2021][module-fragments-notes]</sub>              |
 | [Limited ArrayBuffer][limited-array-buffer]                                                  | Jack Works                                             | Jack Works                                            | <sub>[April&nbsp;2021][limited-array-buffer-notes]</sub>          |
 | [ArrayBuffer to/from Base64][arraybuffer-base64]                                             | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>[July&nbsp;2021][arraybuffer-base64-notes]</sub>             |
-| [String is USV String][usv-string]                                                           | Guy Bedford<br />Bradley Farias                        | Guy Bedford<br />Bradley Farias                       | <sub>[August&nbsp;2021][usv-string-notes]</sub>                   |
+| [String is USV String][usv-string]                                                           | Guy Bedford<br />Bradley Farias                        | Guy Bedford<br />Bradley Farias<br />Michael Ficarra  | <sub>[August&nbsp;2021][usv-string-notes]</sub>                   |
 | [BigInt Math][bigint-math]                                                                   | J.S. Choi                                              | J.S. Choi                                             | <sub>[August&nbsp;2021][bigint-math-notes]</sub>                  |
 | [Get Intrinsic][get-intrinsic]                                                               | Jordan Harband                                         | Jordan Harband                                        | <sub>[August&nbsp;2021][get-intrinsic-notes]</sub>                |
 | [Fixed shape objects][structs]                                                               | Shu-yu Guo                                             | Shu-yu Guo                                            | <sub>[August&nbsp;2021][structs-notes]</sub>                      |
@@ -244,7 +244,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [limited-array-buffer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#read-only-arraybuffer-and-fixed-view-of-arraybuffer-for-stage-1
 [arraybuffer-base64]: https://github.com/tc39/proposal-arraybuffer-base64
 [arraybuffer-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#arraybuffer-tofrom-base64
-[usv-string]: https://github.com/guybedford/proposal-is-usv-string
+[usv-string]: https://github.com/tc39/proposal-is-usv-string
 [usv-string-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#string-is-usv-string
 [bigint-math]: https://github.com/tc39/proposal-bigint-math
 [bigint-math-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#bigint-math-update
