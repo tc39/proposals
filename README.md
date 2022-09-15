@@ -28,9 +28,9 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Temporal][temporal]                                                           | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant| [:white_check_mark:][temporal-tests] | <sub>[March&nbsp;2021][temporal-notes]</sub> |
 | [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | [:white_check_mark:][resizable-tests]            | <sub>[May&nbsp;2021][resizable-notes]</sub>                |
 | [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | [:white_check_mark:][realms-tests]    | <sub>[December&nbsp;2021][realms-notes]</sub>              |
-| [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell                                                                          | :construction: [(1)][array-grouping-tests1], [(2)][array-grouping-tests2] | <sub>[December&nbsp;2021][array-grouping-notes]</sub> |
+| [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell                                                                          | :white_check_mark: (`array-grouping` feature)    | <sub>[December&nbsp;2021][array-grouping-notes]</sub> |
 | [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Chris Garrett                   | Chris Garrett                                                                             | :question:                                       | <sub>[March&nbsp;2022][decorators-notes]</sub>             |
-| [RegExp v flag with set notation + properties of strings][regexp-v-flag]       | Markus Scherer<br />Mathias Bynens                    | Mathias Bynens                                                                            | [:white_check_mark:][regexp-v-flag-tests]        | <sub>[March&nbsp;2022][regexp-v-flag-notes]</sub>          |
+| [RegExp v flag with set notation + properties of strings][regexp-v-flag]       | Markus Scherer<br />Mathias Bynens                    | Mathias Bynens                                                                            | :white_check_mark: (`regexp-v-flag` feature)     | <sub>[March&nbsp;2022][regexp-v-flag-notes]</sub>          |
 | [Change Array by Copy][change-array-by-copy]                                   | Ashley Claymore<br />Robin Ricard                     | Ashley Claymore<br />Robin Ricard                                                         | [:construction:][change-array-by-copy-tests]     | <sub>[March&nbsp;2022][change-array-by-copy-notes]</sub>   |
 | [Symbols as WeakMap keys][symbols-weakmap]                                     | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | :question: | <sub>[June&nbsp;2022][symbols-weakmap-notes]</sub>
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                            | :question:                                       | <sub>[June&nbsp;2022][json-parse-source-notes]</sub>       |
@@ -142,7 +142,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
 [symbols-weakmap-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#symbols-as-weakmap-keys
 [regexp-v-flag]: https://github.com/tc39/proposal-regexp-v-flag
-[regexp-v-flag-tests]: https://github.com/tc39/test262/pull/3523
 [regexp-v-flag-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#regexp-set-notation--unicode-properties-of-strings-for-stage-3
 [change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
 [change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#change-array-by-copy
@@ -152,8 +151,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [destructure-private]: https://github.com/tc39/proposal-destructuring-private
 [destructure-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
 [array-grouping]: https://github.com/tc39/proposal-array-grouping
-[array-grouping-tests1]: https://github.com/tc39/test262/pull/3354
-[array-grouping-tests2]: https://github.com/tc39/test262/pull/3353
 [array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#array-grouping-for-stage-3
 [from-async]: https://github.com/tc39/proposal-array-from-async
 [from-async-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#arrayfromasync-for-stage-2
