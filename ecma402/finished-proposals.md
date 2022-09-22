@@ -13,11 +13,10 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Intl.ListFormat`][intl.listformat]                                                         | Zibi Braniecki                       | Zibi Braniecki                       | [July 2020][intl.listformat-notes]                                | 2021              |
 | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]                                 | Zibi Braniecki                       | Zibi Braniecki                       | [July 2020][datetimeformat-notes]                                 | 2021              |
 | [Intl.DisplayNames][proposal-intl-displaynames]                                              | Frank Tang                           | Frank Tang                           | [September 2020][proposal-intl-displaynames-notes]                | 2021              |
-| [`Intl.DateFormat.prototype.formatRange`][formatrange]                                       | Felipe Balbontín                     | Sathya Gunasekaran                   | January&nbsp;2021                                                 | 2021              |
-| [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter]                       | Daniel Ehrenberg, Richard Gibson     | Richard Gibson                       | October&nbsp;2021                                                 | 2022              |
-| [Extend TimeZoneName Option Proposal][extend-timezonename]                                   | FrankYFTang                          | FrankYFTang                          | December&nbsp;2021                                                | 2022              |
-| [`Intl.DisplayNames v2`][intl.displaynames-v2]                                               | Frank Tang                           | Frank Tang                           | December&nbsp;2021                                                | 2022              |
-
+| [`Intl.DateFormat.prototype.formatRange`][formatrange]                                       | Felipe Balbontín                     | Sathya Gunasekaran                   | [January 2021][formatrange-notes]                                                 | 2021              |
+| [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter]                       | Daniel Ehrenberg, Richard Gibson     | Richard Gibson                       | [October 2021][intl-segmenter-notes]                                                 | 2022              |
+| [Extend TimeZoneName Option Proposal][extend-timezonename]                                   | Frank Tang                           | Frank Tang                           | December&nbsp;2021                                                | 2022              |
+| [`Intl.DisplayNames v2`][intl.displaynames-v2]                                               | Frank Tang                           | Frank Tang                           | [December 2021][intl.displaynames-v2-notes]                                                | 2022              |
 
 See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](README.md) documents.
 

@@ -51,7 +51,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Class Static Block][static-blocks]                                      | Ron Buckton                                            | Ron Buckton                                             | [August 2021][static-blocks-notes]          | 2022                      |
 | [Error Cause][error-cause]                                               | Chengzhong Wu                                          | Chengzhong Wu<br /> Hemanth HM                          | [October 2021][error-cause-notes]           | 2022                      |
 | [Array find from last][find-last]                                        | Wenlu Wang                                             | Wenlu Wang<br />Daniel Rosenwasser                      | [June 2022][find-last-notes]                | 2023                      |
-| [Hashbang Grammar][hashbang-grammar]                                     | Bradley Farias                                         | Bradley Farias                                          | July&nbsp;2022                              | 2023                      |
+| [Hashbang Grammar][hashbang-grammar]                                     | Bradley Farias                                         | Bradley Farias                                          | [July 2022][hashbang-notes]                 | 2023                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 

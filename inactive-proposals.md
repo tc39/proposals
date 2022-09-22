@@ -80,6 +80,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [deprecated]: https://github.com/jasnell/proposal-deprecated
 [function-helpers]: https://github.com/tc39/proposal-function-helpers
 [modules-pragma]: https://github.com/tc39/proposal-modules-pragma
-[modules-pragma-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
 [pipe-flow]: https://github.com/tc39/proposal-function-pipe-flow
 [pipe-flow-notes]: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-21.md#functionpipe--flow-for-stage-1

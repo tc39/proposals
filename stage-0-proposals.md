@@ -46,7 +46,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [ortho-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-22.md#10iiia-orthogonal-classes
 [clone-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2014-01/jan-30.md#structured-clone
 [shorthand-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-28.md#13i-object-shorthand-improvements
-[builtins-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-28.md#14ia-builtinstypeof-and-builtinsis
 [symbol-thenable]: https://github.com/devsnek/proposal-symbol-thenable
 [symbol-thenable-notes]: https://github.com/tc39/notes/blob/def2ee0c04bc91612576237314a4f3b1fe2edaef/meetings/2018-05/may-24.md#symbolthenable-for-stage-1-or-2
 [async-context]: https://github.com/legendecas/proposal-async-context

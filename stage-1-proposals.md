@@ -24,7 +24,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Partial application][partial-application]                                                   | Ron Buckton                                           | Ron Buckton                                            | <sub>[July&nbsp;2018][partial-application-notes]</sub>            |
 | [Cancellation API][cancel-api]                                                               | Ron Buckton                                           | Ron Buckton<br />Brian Terlson                         | <sub>[July&nbsp;2018][cancel-api-notes]</sub>                     |
 | [`String.prototype.codePoints`][codepoints]                                                  | Ingvar Stepanyan                                      | Mathias Bynens                                         | <sub>[May&nbsp;2018][codepoints-notes]</sub>                      |
-| [`Object.freeze` + `Object.seal` syntax][freeze-seal-syntax]                                 | Keith Cirkel                                          | Keith Cirkel                                           | <sub>[November&nbsp;2017][freeze-seal-syntax]</sub>               |
+| [`Object.freeze` + `Object.seal` syntax][freeze-seal-syntax]                                 | Keith Cirkel                                          | Keith Cirkel                                           | <sub>[November&nbsp;2017][freeze-seal-syntax-notes]</sub>               |
 | [Block Params][block-params]                                                                 | Sam Goto                                              | Sam Goto                                               | <sub>[November&nbsp;2017][block-params-notes]</sub>               |
 | [`{BigInt,Number}.fromString`][from-string]                                                  | Mathias Bynens                                        | Mathias Bynens                                         | <sub>[January&nbsp;2018][from-string-notes]</sub>                 |
 | [`Math.seededRandoms()`][seeded-randoms]                                                     | Tab Atkins                                            | Tab Atkins                                             | <sub>[January&nbsp;2018][seeded-randoms-notes]</sub>              |
@@ -276,4 +276,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [memoization-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#function-memoization-for-stage-1
 [pick-omit]: https://github.com/tc39/proposal-object-pick-or-omit
 [pick-omit-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#ergonomic-dynamic-object-restructuring
-[extractors]: https://github.com/rbuckton/proposal-extractors
+[extractors]: https://github.com/tc39/proposal-extractors
