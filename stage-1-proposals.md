@@ -95,7 +95,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Policy Maps and Sets][policy-maps]                                                          | J.S. Choi                                              | J.S. Choi<br />Hemanth HM                             | <sub>[July&nbsp;2022][policy-maps-notes]</sub>                    |
 | [Function Memoization][memoization]                                                          | J.S. Choi                                              | J.S. Choi<br />Hemanth HM                             | <sub>[July&nbsp;2022][memoization-notes]</sub>                    |
 | [Object pick/omit][pick-omit]                                                                | Hemanth HM<br />Aleen                                  | Hemanth HM                                            | <sub>[July&nbsp;2022][pick-omit-notes]</sub>                      |
-| [Extractors][extractors]                                                                     | Ron Buckton                                            | Ron Buckton                                           | <sub>September&nbsp;2022</sub>                                    |
+| [Extractors][extractors]                                                                     | Ron Buckton                                            | Ron Buckton                                           | <sub>[September&nbsp;2022][extractors-notes]</sub>                                    |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -277,3 +277,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [pick-omit]: https://github.com/tc39/proposal-object-pick-or-omit
 [pick-omit-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#ergonomic-dynamic-object-restructuring
 [extractors]: https://github.com/rbuckton/proposal-extractors
+[extractors-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-15.md#extractor-objects

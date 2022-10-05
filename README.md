@@ -35,7 +35,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Symbols as WeakMap keys][symbols-weakmap]                                     | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | :question: | <sub>[June&nbsp;2022][symbols-weakmap-notes]</sub>
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                            | :question:                                       | <sub>[June&nbsp;2022][json-parse-source-notes]</sub>       |
 | [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                         | Kevin Gibbons                                                                             | :question:                                       | <sub>July&nbsp;2022</sub>                                  |
-| [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                                 | :question:                                       | <sub>September&nbsp;2022</sub>                             |
+| [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                                 | :question:                                       | <sub>[September&nbsp;2022][from-async-notes]</sub>                             |
 
 ### Stage 2
 
@@ -63,7 +63,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [String.dedent][string.dedent]                                                 | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell  | Hemanth HM<br />Justin Ridgewell                                                  | <sub>[June&nbsp;2022][string.dedent-notes]</sub>                      |
 | [Import Reflection][import-reflection]                                         | Luca Casonato                                         | Guy Bedford                                                                       | <sub>July&nbsp;2022</sub>                                             |
 | [JSON.parseImmutable][json-parse-immutable]                                    | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | <sub>July&nbsp;2022</sub>                                 |
-| [Well-Formed Unicode Strings][usv-string]                                      | Guy Bedford<br />Bradley Farias                       | Guy Bedford<br />Bradley Farias<br />Michael Ficarra                              | <sub>September&nbsp;2022</sub>                                        |
+| [Well-Formed Unicode Strings][usv-string]                                      | Guy Bedford<br />Bradley Farias                       | Guy Bedford<br />Bradley Farias<br />Michael Ficarra                              | <sub>[September&nbsp;2022][usv-string-notes]</sub>                                        |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -153,7 +153,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [array-grouping]: https://github.com/tc39/proposal-array-grouping
 [array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#array-grouping-for-stage-3
 [from-async]: https://github.com/tc39/proposal-array-from-async
-[from-async-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#arrayfromasync-for-stage-2
+[from-async-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-14.md#arrayfromasync-for-stage-3
 [regexp-modifiers]: https://github.com/tc39/proposal-regexp-modifiers
 [regexp-modifiers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-modifiers-for-stage-2
 [regexp-buffer-boundaries]: https://github.com/tc39/proposal-regexp-buffer-boundaries
@@ -168,4 +168,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [import-reflection-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#evaluator-attributes
 [json-parse-immutable]: https://github.com/tc39/proposal-json-parseimmutable
 [usv-string]: https://github.com/tc39/proposal-is-usv-string
-[usv-string-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#string-is-usv-string
+[usv-string-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-13.md#well-formed-unicode-strings
