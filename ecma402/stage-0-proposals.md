@@ -9,7 +9,7 @@ Stage 0 proposals are either
 | -------------------------------------------------------------------- | -------------------- | -------------------- |
 | [Fix 9.2.3 LookupMatcher algorithm][]                                | Rafael Xavier        | Rafael Xavier        |
 | [`Intl.NumberFormat` `round` option][intl.numberformat round option] | Rafael Xavier        | Rafael Xavier        |
-| [Intl Era and MonthCode Proposal][intl era monthCode]                              | Frank Yungfong Tang  | Frank Yungfong Tang  |
+| [Intl Era and MonthCode Proposal][intl era monthCode]                | Frank Yung-Fong Tang | Frank Yung-Fong Tang |
 
 See also the [finished proposals](finished-proposals.md), and [active proposals](README.md) documents.
 

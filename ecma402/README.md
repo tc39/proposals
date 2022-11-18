@@ -14,8 +14,8 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
-| [`Intl Locale Info`][intl-locale-info]                                 | Frank Tang                       | Frank Tang                       | [Oct&nbsp;2021][intl-locale-info-notes]               |
-| [Intl Enumeration API][intl-enumeration]                               | Frank Tang                       | Frank Tang                       | July&nbsp;2021                                        |
+| [`Intl Locale Info`][intl-locale-info]                                 | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | [Oct&nbsp;2021][intl-locale-info-notes]               |
+| [Intl Enumeration API][intl-enumeration]                               | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | July&nbsp;2021                                        |
 | [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                       | Shane Carr                       | July&nbsp;2021                                        |
 | [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [Oct&nbsp;2020][intl.durationformat-notes]            |
 
