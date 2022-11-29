@@ -33,6 +33,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [Intl LocaleMatcher][localematcher]                          | Long Ho              | Shane Carr, Long Ho    | [January&nbsp;2021][localematcher-notes] |
 | [`Intl.Segmenter v2`][Intl.Segmenter-v2]                     | Frank Yung-Fong Tang | Frank Yung-Fong Tang   | December&nbsp;2021                       |
 | [`Intl.MessageFormat`][intl.messageformat]                   | Eemeli Aro           | Eemeli Aro             | March&nbsp;2022                          |
+| [`Intl.MessageResource`][intl.messageresource]               | Eemeli Aro           | Eemeli Aro             | November&nbsp;2022                       |
 
 ### Contributing new proposals
 
@@ -64,3 +65,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [localematcher-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#intl-localematcher-for-stage-1
 [Intl.Segmenter-v2]: https://github.com/tc39/proposal-intl-segmenter-v2
 [intl.messageformat]: https://github.com/tc39/proposal-intl-messageformat
+[intl.messageresource]: https://github.com/eemeli/proposal-intl-message-resource
