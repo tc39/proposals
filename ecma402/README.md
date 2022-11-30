@@ -15,7 +15,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
 | [`Intl Locale Info`][intl-locale-info]                                 | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | [Oct&nbsp;2021][intl-locale-info-notes]               |
-| [Intl Enumeration API][intl-enumeration]                               | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | July&nbsp;2021                                        |
 | [`Intl.NumberFormat` V3][intl-v3]                                      | Shane Carr                       | Shane Carr                       | July&nbsp;2021                                        |
 | [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [Oct&nbsp;2020][intl.durationformat-notes]            |
 
@@ -53,8 +52,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl.durationformat-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-25.md#durationformat
 [intl-v3]: https://github.com/tc39/proposal-intl-numberformat-v3
 [intl-v3-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-15.md#intlnumberformat-v3-for-stage-3
-[intl-enumeration]: https://github.com/tc39/proposal-intl-enumeration
-[intl-enumeration-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-13.md#intl-enumeration-api-for-stage-3
 [smart-units]: https://github.com/tc39/proposal-smart-unit-preferences
 [smart-units-notes]: https://github.com/tc39/notes/blob/840c700dc7fa7b9f6d0a3c208bd66b333e304717/meetings/2020-06/june-4.md#smart-unit-preferences-in-intlnumberformat-for-stage-1
 [intl-locale-info]: https://github.com/tc39/proposal-intl-locale-info
