@@ -38,7 +38,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                         | Kevin Gibbons                                                                             | :question:                                       | <sub>July&nbsp;2022</sub>                                  |
 | [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                                 | :question:                                       | <sub>[September&nbsp;2022][from-async-notes]</sub>         |
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekara<br />Kevin Gibbons | Kevin Gibbons                                                                            | :question:                                       | <sub>November&nbsp;2022</sub>                              |
-
+| [Well-Formed Unicode Strings][usv-string]                                      | Guy Bedford<br />Bradley Farias                       | Guy Bedford<br />Bradley Farias<br />Michael Ficarra                                      | [:construction:][usv-string-tests]               | <sub>November&nbsp;2022</sub>                              |
 
 ### Stage 2
 
@@ -64,7 +64,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [String.dedent][string.dedent]                                                 | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell  | Hemanth HM<br />Justin Ridgewell                                                  | <sub>[June&nbsp;2022][string.dedent-notes]</sub>                      |
 | [Import Reflection][import-reflection]                                         | Luca Casonato                                         | Guy Bedford                                                                       | <sub>July&nbsp;2022</sub>                                             |
 | [JSON.parseImmutable][json-parse-immutable]                                    | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | <sub>July&nbsp;2022</sub>                                 |
-| [Well-Formed Unicode Strings][usv-string]                                      | Guy Bedford<br />Bradley Farias                       | Guy Bedford<br />Bradley Farias<br />Michael Ficarra                              | <sub>[September&nbsp;2022][usv-string-notes]</sub>                                        |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -168,5 +167,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [json-parse-immutable]: https://github.com/tc39/proposal-json-parseimmutable
 [usv-string]: https://github.com/tc39/proposal-is-usv-string
 [usv-string-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-13.md#well-formed-unicode-strings
+[usv-string-tests]: https://github.com/tc39/test262/pull/3661
 [set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#update-on-set-methods
