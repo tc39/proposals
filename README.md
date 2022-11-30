@@ -36,7 +36,9 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                            | :question:                                       | <sub>[June&nbsp;2022][json-parse-source-notes]</sub>       |
 | [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                           | Ron Buckton                                                                               | :question:                                       | <sub>[June&nbsp;2022][regexp-modifiers-notes]</sub>        |
 | [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                         | Kevin Gibbons                                                                             | :question:                                       | <sub>July&nbsp;2022</sub>                                  |
-| [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                                 | :question:                                       | <sub>[September&nbsp;2022][from-async-notes]</sub>                             |
+| [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                                 | :question:                                       | <sub>[September&nbsp;2022][from-async-notes]</sub>         |
+| [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekara<br />Kevin Gibbons | Kevin Gibbons                                                                            | :question:                                       | <sub>November&nbsp;2022</sub>                              |
+
 
 ### Stage 2
 
@@ -45,7 +47,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`function.sent` metaproperty][function-sent]                                  | Allen Wirfs-Brock                                     | HE Shi-Jun                                                                        | <sub>[July&nbsp;2019][function-sent-notes]</sub>                      |
 | [`throw` expressions][throw-expressions]                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[January&nbsp;2018][throw-expressions-notes]</sub>               |
 | [Function implementation hiding][censorship]                                   | Domenic Denicola<br />Michael Ficarra                 | Michael Ficarra                                                                   | <sub>[June&nbsp;2020][censorship-notes]</sub>                         |
-| [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran                  | Sathya Gunasekaran                                                                | <sub>[January&nbsp;2019][set-methods-notes]</sub>                     |
 | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                                        | Mathias Bynens                                                                    | <sub>[October&nbsp;2019][unicode-sequence-properties-notes]</sub>     |
 | [collection normalization][collection-rekey]                                   | Bradley Farias                                        | Bradley Farias                                                                    | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                     |
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel, Krzysztof Kotowicz                       | Krzysztof Kotowicz                                                                | <sub>[December&nbsp;2019][isTemplateObject-notes]</sub>               |
@@ -101,8 +102,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [throw-expressions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#13iiii-throw-expressions-for-stage-3
 [censorship]: https://github.com/tc39/proposal-function-implementation-hiding
 [censorship-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#function-implementation-hiding-for-stage-3
-[set-methods]: https://github.com/tc39/proposal-set-methods
-[set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#update-on-set-methods
 [richer-keys]: https://github.com/tc39/proposal-richer-keys
 [richer-keys-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
 [unicode-sequence-properties]: https://github.com/tc39/proposal-regexp-unicode-sequence-properties
@@ -169,3 +168,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [json-parse-immutable]: https://github.com/tc39/proposal-json-parseimmutable
 [usv-string]: https://github.com/tc39/proposal-is-usv-string
 [usv-string-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-13.md#well-formed-unicode-strings
+[set-methods]: https://github.com/tc39/proposal-set-methods
+[set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#update-on-set-methods
