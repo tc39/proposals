@@ -24,7 +24,6 @@ Stage 0 proposals are either
 | [Async Context][async-context]                                     | Chengzhong Wu                         | Chengzhong Wu                         | [July 2020][async-context-notes]  |
 | [String trim characters][string-trim-characters]                   | Wenlu Wang                            | Wenlu Wang                            |                                   |
 | [Catch Guard][catch-guard]                                         | Willian Martins                       | Willian Martins                       |                                   |
-| [Mass Proxy Revocation][mass-proxy-revocation]                     | Alex Vincent                          | Mark S. Miller, Jack Works            |                                   |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -53,4 +52,3 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [async-context-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-23.md#async-context-updates--for-stage-1
 [string-trim-characters]: https://github.com/Kingwl/proposal-string-trim-characters
 [catch-guard]: https://github.com/wmsbill/proposal-catch-guards
-[mass-proxy-revocation]: https://github.com/ajvincent/proposal-mass-proxy-revocation
