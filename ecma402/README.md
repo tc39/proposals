@@ -33,6 +33,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [`Intl.Segmenter v2`][Intl.Segmenter-v2]                     | Frank Yung-Fong Tang | Frank Yung-Fong Tang   | December&nbsp;2021                       |
 | [`Intl.MessageFormat`][intl.messageformat]                   | Eemeli Aro           | Eemeli Aro             | March&nbsp;2022                          |
 | [`Intl.MessageResource`][intl.messageresource]               | Eemeli Aro           | Eemeli Aro             | November&nbsp;2022                       |
+| [Intl Era and MonthCode Proposal][intl era monthCode]        | Frank Yung-Fong Tang | Frank Yung-Fong Tang   | November&nbsp;2022
 
 ### Contributing new proposals
 
@@ -63,3 +64,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [Intl.Segmenter-v2]: https://github.com/tc39/proposal-intl-segmenter-v2
 [intl.messageformat]: https://github.com/tc39/proposal-intl-messageformat
 [intl.messageresource]: https://github.com/eemeli/proposal-intl-message-resource
+[intl era monthCode]: https://github.com/FrankYFTang/proposal-intl-era-monthcode
