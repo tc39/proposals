@@ -40,6 +40,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekara<br />Kevin Gibbons | Kevin Gibbons                                                                            | :question:                                       | <sub>November&nbsp;2022</sub>                              |
 | [Well-Formed Unicode Strings][usv-string]                                      | Guy Bedford<br />Bradley Farias                       | Guy Bedford<br />Bradley Farias<br />Michael Ficarra                                      | [:construction:][usv-string-tests]               | <sub>November&nbsp;2022</sub>                              |
 | [Iterator helpers][iterator-helpers]                                           | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin                                                      | :question:                                       | <sub>November&nbsp;2022</sub>                              |
+| [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                               | :question:                                       | <sub>November&nbsp;2022</sub>                              |
 
 ### Stage 2
 
@@ -51,7 +52,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                                        | Mathias Bynens                                                                    | <sub>[October&nbsp;2019][unicode-sequence-properties-notes]</sub>     |
 | [collection normalization][collection-rekey]                                   | Bradley Farias                                        | Bradley Farias                                                                    | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                     |
 | [Array.isTemplateObject][isTemplateObject]                                     | Mike Samuel, Krzysztof Kotowicz                       | Krzysztof Kotowicz                                                                | <sub>[December&nbsp;2019][isTemplateObject-notes]</sub>               |
-| [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[February&nbsp;2020][resource-management-notes]</sub>            |
+| [Async Explicit Resource Management][async-resource-management]                | Ron Buckton                                           | Ron Buckton                                                                       | <sub>November&nbsp;2022</sub>                                         |
 | [`Map.prototype.emplace`][map-emplace]                                         | Bradley Farias                                        | Erica Pramer                                                                      | <sub>[July&nbsp;2020][map-emplace-notes]</sub>                        |
 | [Dynamic Import Host Adjustment][]                                             | Mike Samuel, Krzysztof Kotowicz                       | Krzysztof Kotowicz                                                                | <sub>[December&nbsp;2019][Dynamic Import Host Adjustment notes]</sub> |
 | [WeakRefs `cleanupSome`][cleanup-some]                                         | Yulia Startsev<br />Daniel Ehrenberg                  | Yulia Startsev<br />Daniel Ehrenberg                                              | <sub>[July&nbsp;2020][cleanup-some-notes]</sub>                       |
@@ -107,6 +108,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [unicode-sequence-properties-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions
 [resource-management]: https://github.com/tc39/proposal-explicit-resource-management
 [resource-management-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#updates-on-explicit-resource-management
+[async-resource-management]: https://github.com/tc39/proposal-async-explicit-resource-management
 [standard-library]: https://github.com/tc39/proposal-javascript-standard-library
 [standard-library-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-26.md#javascript-standard-library
 [collection-rekey]: https://github.com/tc39/proposal-collection-normalization
@@ -115,7 +117,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [isTemplateObject]: https://github.com/tc39/proposal-array-is-template-object
 [isTemplateObject-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#arrayistemplateobject-update
-[resource-management-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-24.md#explicit-resource-management
 [map-emplace]: https://github.com/tc39/proposal-upsert
 [map-emplace-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#upsert-now-renamed-emplace-updates--for-stage-3
 [Dynamic Import Host Adjustment]: https://github.com/tc39/proposal-dynamic-import-host-adjustment
