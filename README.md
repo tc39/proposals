@@ -65,6 +65,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [String.dedent][string.dedent]                                                 | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell  | Hemanth HM<br />Justin Ridgewell                                                  | <sub>[June&nbsp;2022][string.dedent-notes]</sub>                      |
 | [Import Reflection][import-reflection]                                         | Luca Casonato                                         | Guy Bedford                                                                       | <sub>July&nbsp;2022</sub>                                             |
 | [JSON.parseImmutable][json-parse-immutable]                                    | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | <sub>July&nbsp;2022</sub>                                 |
+| [ArrayBuffer transfer][arraybuffer-transfer]                                   | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli     | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                                 | <sub>November&nbsp;2022</sub>                                         |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -171,3 +172,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [usv-string-tests]: https://github.com/tc39/test262/pull/3661
 [set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#update-on-set-methods
+[arraybuffer-transfer]: https://github.com/tc39-transfer/proposal-arraybuffer-transfer
