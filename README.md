@@ -39,7 +39,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                                 | :question:                                       | <sub>[September&nbsp;2022][from-async-notes]</sub>         |
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekara<br />Kevin Gibbons | Kevin Gibbons                                                                            | :question:                                       | <sub>November&nbsp;2022</sub>                              |
 | [Well-Formed Unicode Strings][usv-string]                                      | Guy Bedford<br />Bradley Farias                       | Guy Bedford<br />Bradley Farias<br />Michael Ficarra                                      | [:white_check_mark:][usv-string-tests]           | <sub>November&nbsp;2022</sub>                              |
-| [Iterator helpers][iterator-helpers]                                           | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin                                                      | :question:                                       | <sub>November&nbsp;2022</sub>                              |
+| [Iterator helpers][iterator-helpers]                                           | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin                                                      | [:construction:][iterator-helpers-tests] | <sub>November&nbsp;2022</sub>                              |
 | [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                               | :question:                                       | <sub>November&nbsp;2022</sub>                              |
 
 ### Stage 2
@@ -115,6 +115,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [collection-rekey]: https://github.com/tc39/proposal-collection-normalization
 [iterator-helpers]: https://github.com/tc39/proposal-iterator-helpers
 [iterator-helpers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#iterator-helpers-update
+[iterator-helpers-tests]: https://github.com/tc39/test262/pull/2818
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [isTemplateObject]: https://github.com/tc39/proposal-array-is-template-object
 [isTemplateObject-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#arrayistemplateobject-update
