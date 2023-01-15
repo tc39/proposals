@@ -94,8 +94,8 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Policy Maps and Sets][policy-maps]                                                          | J.S. Choi                                              | J.S. Choi<br />Hemanth HM                             | <sub>[July&nbsp;2022][policy-maps-notes]</sub>                    |
 | [Function Memoization][memoization]                                                          | J.S. Choi                                              | J.S. Choi<br />Hemanth HM                             | <sub>[July&nbsp;2022][memoization-notes]</sub>                    |
 | [Object pick/omit][pick-omit]                                                                | Hemanth HM<br />Aleen                                  | Hemanth HM                                            | <sub>[July&nbsp;2022][pick-omit-notes]</sub>                      |
-| [Extractors][extractors]                                                                     | Ron Buckton                                            | Ron Buckton                                           | <sub>[September&nbsp;2022][extractors-notes]</sub>                                    |
-| [Mass Proxy Revocation][mass-proxy-revocation]                                               | Alex Vincent                                           | Mark S. Miller, Jack Works                            | <sub>November&nbsp;2022</sub>                                     |
+| [Extractors][extractors]                                                                     | Ron Buckton                                            | Ron Buckton                                           | <sub>[September&nbsp;2022][extractors-notes]</sub>                |
+| [Mass Proxy Revocation][mass-proxy-revocation]                                               | Alex Vincent                                           | Mark S. Miller, Jack Works                            | <sub>[November&nbsp;2022][mass-proxy-revocation-notes]</sub>      |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -277,3 +277,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [extractors]: https://github.com/rbuckton/proposal-extractors
 [extractors-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-15.md#extractor-objects
 [mass-proxy-revocation]: https://github.com/ajvincent/proposal-mass-proxy-revocation
+[mass-proxy-revocation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#mass-proxy-revocation-for-stage-1
