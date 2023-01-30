@@ -32,7 +32,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Chris Garrett                   | Chris Garrett                                                                             | [:white_check_mark:][decorators-tests] (initial tests) | <sub>[March&nbsp;2022][decorators-notes]</sub>       |
 | [RegExp v flag with set notation + properties of strings][regexp-v-flag]       | Markus Scherer<br />Mathias Bynens                    | Mathias Bynens                                                                            | :white_check_mark: (`regexp-v-flag` feature)     | <sub>[March&nbsp;2022][regexp-v-flag-notes]</sub>          |
 | [Change Array by Copy][change-array-by-copy]                                   | Ashley Claymore<br />Robin Ricard                     | Ashley Claymore<br />Robin Ricard                                                         | [:white_check_mark:][change-array-by-copy-tests] | <sub>[March&nbsp;2022][change-array-by-copy-notes]</sub>   |
-| [Symbols as WeakMap keys][symbols-weakmap]                                     | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | [:white_check_mark:][symbols-weakmap-tests] | <sub>[June&nbsp;2022][symbols-weakmap-notes]</sub>
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                            | :question:                                       | <sub>[June&nbsp;2022][json-parse-source-notes]</sub>       |
 | [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                           | Ron Buckton                                                                               | :question:                                       | <sub>[June&nbsp;2022][regexp-modifiers-notes]</sub>        |
 | [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                         | Kevin Gibbons                                                                             | [:white_check_mark:][named-capture-groups-tests] | <sub>[July&nbsp;2022][named-capture-groups-notes]</sub>    |
@@ -142,9 +141,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [resizable-tests]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Amerged+resizable+in%3Atitle+
 [module-expressions]: https://github.com/tc39/proposal-module-expressions
 [module-expressions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions
-[symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
-[symbols-weakmap-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#symbols-as-weakmap-keys
-[symbols-weakmap-tests]: https://github.com/tc39/test262/pull/3678
 [regexp-v-flag]: https://github.com/tc39/proposal-regexp-v-flag
 [regexp-v-flag-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#regexp-set-notation--unicode-properties-of-strings-for-stage-3
 [change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
