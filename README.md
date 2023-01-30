@@ -31,7 +31,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell                                                                          | :white_check_mark: (`array-grouping` feature)    | <sub>[December&nbsp;2021][array-grouping-notes]</sub>      |
 | [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Chris Garrett                   | Chris Garrett                                                                             | [:white_check_mark:][decorators-tests] (initial tests) | <sub>[March&nbsp;2022][decorators-notes]</sub>       |
 | [RegExp v flag with set notation + properties of strings][regexp-v-flag]       | Markus Scherer<br />Mathias Bynens                    | Mathias Bynens                                                                            | :white_check_mark: (`regexp-v-flag` feature)     | <sub>[March&nbsp;2022][regexp-v-flag-notes]</sub>          |
-| [Change Array by Copy][change-array-by-copy]                                   | Ashley Claymore<br />Robin Ricard                     | Ashley Claymore<br />Robin Ricard                                                         | [:white_check_mark:][change-array-by-copy-tests] | <sub>[March&nbsp;2022][change-array-by-copy-notes]</sub>   |
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                            | :question:                                       | <sub>[June&nbsp;2022][json-parse-source-notes]</sub>       |
 | [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                           | Ron Buckton                                                                               | :question:                                       | <sub>[June&nbsp;2022][regexp-modifiers-notes]</sub>        |
 | [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                         | Kevin Gibbons                                                                             | [:white_check_mark:][named-capture-groups-tests] | <sub>[July&nbsp;2022][named-capture-groups-notes]</sub>    |
@@ -143,9 +142,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [module-expressions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions
 [regexp-v-flag]: https://github.com/tc39/proposal-regexp-v-flag
 [regexp-v-flag-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#regexp-set-notation--unicode-properties-of-strings-for-stage-3
-[change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
-[change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#change-array-by-copy
-[change-array-by-copy-tests]: https://github.com/tc39/test262/pull/3464
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [pipe-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#pipeline-operator-for-stage-2
 [destructure-private]: https://github.com/tc39/proposal-destructuring-private
