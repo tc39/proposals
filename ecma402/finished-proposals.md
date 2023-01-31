@@ -18,6 +18,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Extend TimeZoneName Option Proposal][extend-timezonename]                                   | Frank Yung-Fong Tang                 | Frank Yung-Fong Tang                 | December&nbsp;2021                                                | 2022              |
 | [`Intl.DisplayNames v2`][intl.displaynames-v2]                                               | Frank Yung-Fong Tang                 | Frank Yung-Fong Tang                 | December&nbsp;2021                                                | 2022              |
 | [Intl Enumeration API][intl-enumeration]                                                     | Frank Yung-Fong Tang                 | Frank Yung-Fong Tang                 | November&nbsp;2022                                                | 2022              |
+| [`Intl.NumberFormat` V3][intl-v3]                                                            | Shane Carr                           | Shane Carr                           | July&nbsp;2021                                                    | 2023              |
 
 See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](README.md) documents.
 
@@ -48,3 +49,5 @@ See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](R
 [intl.displaynames-v2-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-23.md#intldisplaynames-v2-for-stage-1
 [intl-enumeration]: https://github.com/tc39/proposal-intl-enumeration
 [intl-enumeration-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-13.md#intl-enumeration-api-for-stage-3
+[intl-v3]: https://github.com/tc39/proposal-intl-numberformat-v3
+[intl-v3-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-15.md#intlnumberformat-v3-for-stage-3
