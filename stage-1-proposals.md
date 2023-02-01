@@ -90,7 +90,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Type Annotations][type-annotations]                                                         | Gil Tayar<br />Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | Daniel Rosenwasser<br />Romulo Cintra<br />Rob Palmer | <sub>[March&nbsp;2022][type-annotations-notes]</sub> |
 | [Faster Promise adoption][faster-promise-adoption]                                           | Justin Ridgewell                                       | Justin Ridgewell                                      | <sub>[June&nbsp;2022][faster-promise-adoption-notes]</sub>        |
 | [RegExp Atomic Operators][regexp-atomic-operators]                                           | Ron Buckton                                            | Ron Buckton                                           | <sub>[June&nbsp;2022][regexp-atomic-operators-notes]</sub>        |
-| [Symbol Predicates][symbol-predicates]                                                       | Robin Ricard<br />Jordan Harband                       | Robin Ricard<br />Jordan Harband                      | <sub>[July&nbsp;2022][symbol-predicates-notes]</sub>              |
 | [Policy Maps and Sets][policy-maps]                                                          | J.S. Choi                                              | J.S. Choi<br />Hemanth HM                             | <sub>[July&nbsp;2022][policy-maps-notes]</sub>                    |
 | [Function Memoization][memoization]                                                          | J.S. Choi                                              | J.S. Choi<br />Hemanth HM                             | <sub>[July&nbsp;2022][memoization-notes]</sub>                    |
 | [Object pick/omit][pick-omit]                                                                | Hemanth HM<br />Aleen                                  | Hemanth HM                                            | <sub>[July&nbsp;2022][pick-omit-notes]</sub>                      |
@@ -268,8 +267,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [faster-promise-adoption-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#remove-job-from-promise-resolve-functions
 [regexp-atomic-operators]: https://github.com/tc39/proposal-regexp-atomic-operators
 [regexp-atomic-operators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-08.md#regex-atomic-operators
-[symbol-predicates]: https://github.com/tc39/proposal-symbol-predicates
-[symbol-predicates-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-20.md#symbol-predicates
 [policy-maps]: https://github.com/tc39/proposal-policy-map-set
 [policy-maps-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#policy-maps-and-sets-for-stage-1
 [memoization]: https://github.com/tc39/proposal-function-memo

@@ -65,6 +65,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Import Reflection][import-reflection]                                         | Luca Casonato                                         | Guy Bedford<br />Luca Casonato                                                    | <sub>[November&nbsp;2022][import-reflection-notes]</sub>              |
 | [JSON.parseImmutable][json-parse-immutable]                                    | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | <sub>July&nbsp;2022</sub>                                 |
 | [Module Declarations][module-declarations]                                     | Daniel Ehrenberg<br />Nicolò Ribaudo                  | Daniel Ehrenberg<br />Mark Miller<br />Nicolò Ribaudo                             | <sub>[November&nbsp;2022][module-declarations-notes]</sub>            |
+| [Symbol Predicates][symbol-predicates]                                         | Robin Ricard<br />Jordan Harband                       | Ashley Claymore<br />Jordan Harband                                              | <sub>January&nbsp;2023</sub>                                          |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -173,3 +174,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [arraybuffer-transfer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-29.md#resizable-buffers-bug-fixes-104-106-108-and-transfer-future-proofing
 [module-declarations]: https://github.com/tc39/proposal-module-declarations
 [module-declarations-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
+[symbol-predicates]: https://github.com/tc39/proposal-symbol-predicates
+[symbol-predicates-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-20.md#symbol-predicates
