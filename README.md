@@ -39,6 +39,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Well-Formed Unicode Strings][usv-string]                                      | Guy Bedford<br />Bradley Farias                       | Guy Bedford<br />Bradley Farias<br />Michael Ficarra                                      | [:white_check_mark:][usv-string-tests]           | <sub>[November&nbsp;2022][usv-string-notes]</sub>          |
 | [Iterator helpers][iterator-helpers]                                           | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin                                                      | [:construction:][iterator-helpers-tests]         | <sub>[November&nbsp;2022][iterator-helpers-notes]</sub>    |
 | [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                               | :question:                                       | <sub>[November&nbsp;2022][resource-management-notes]</sub> |
+| [ArrayBuffer transfer][arraybuffer-transfer]                                   | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli     | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                                         | :question:                                       | <sub>January&nbsp;2023</sub>                               |
 
 ### Stage 2
 
@@ -63,7 +64,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [String.dedent][string.dedent]                                                 | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell  | Hemanth HM<br />Justin Ridgewell                                                  | <sub>[June&nbsp;2022][string.dedent-notes]</sub>                      |
 | [Import Reflection][import-reflection]                                         | Luca Casonato                                         | Guy Bedford<br />Luca Casonato                                                    | <sub>[November&nbsp;2022][import-reflection-notes]</sub>              |
 | [JSON.parseImmutable][json-parse-immutable]                                    | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | <sub>July&nbsp;2022</sub>                                 |
-| [ArrayBuffer transfer][arraybuffer-transfer]                                   | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli     | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                                 | <sub>[November&nbsp;2022][arraybuffer-transfer-notes]</sub>           |
 | [Module Declarations][module-declarations]                                     | Daniel Ehrenberg<br />Nicolò Ribaudo                  | Daniel Ehrenberg<br />Mark Miller<br />Nicolò Ribaudo                             | <sub>[November&nbsp;2022][module-declarations-notes]</sub>            |
 
 :white_check_mark: means a pull request for tests was merged.
