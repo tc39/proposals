@@ -36,7 +36,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                                 | :question:                                       | <sub>[September&nbsp;2022][from-async-notes]</sub>         |
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons | Kevin Gibbons                                                                            | :question:                                       | <sub>[November&nbsp;2022][set-methods-notes]</sub>        |
 | [Well-Formed Unicode Strings][usv-string]                                      | Guy Bedford<br />Bradley Farias                       | Guy Bedford<br />Bradley Farias<br />Michael Ficarra                                      | [:white_check_mark:][usv-string-tests]           | <sub>[November&nbsp;2022][usv-string-notes]</sub>          |
-| [Iterator helpers][iterator-helpers]                                           | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin                                                      | [:construction:][iterator-helpers-tests]         | <sub>[November&nbsp;2022][iterator-helpers-notes]</sub>    |
+| [Sync Iterator helpers][iterator-helpers]                                           | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                                   | [:construction:][iterator-helpers-tests]         | <sub>[November&nbsp;2022][iterator-helpers-notes]</sub>    |
 | [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                               | :question:                                       | <sub>[November&nbsp;2022][resource-management-notes]</sub> |
 | [ArrayBuffer transfer][arraybuffer-transfer]                                   | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli     | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                                         | :question:                                       | <sub>January&nbsp;2023</sub>                               |
 
@@ -64,8 +64,9 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Import Reflection][import-reflection]                                         | Luca Casonato                                         | Guy Bedford<br />Luca Casonato                                                    | <sub>[November&nbsp;2022][import-reflection-notes]</sub>              |
 | [JSON.parseImmutable][json-parse-immutable]                                    | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | <sub>July&nbsp;2022</sub>                                 |
 | [Module Declarations][module-declarations]                                     | Daniel Ehrenberg<br />Nicolò Ribaudo                  | Daniel Ehrenberg<br />Mark Miller<br />Nicolò Ribaudo                             | <sub>[November&nbsp;2022][module-declarations-notes]</sub>            |
-| [Symbol Predicates][symbol-predicates]                                         | Robin Ricard<br />Jordan Harband                       | Ashley Claymore<br />Jordan Harband                                              | <sub>January&nbsp;2023</sub>                                          |
+| [Symbol Predicates][symbol-predicates]                                         | Robin Ricard<br />Jordan Harband                      | Ashley Claymore<br />Jordan Harband                                               | <sub>January&nbsp;2023</sub>                                          |
 | [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo | <sub>January&nbsp;2023</sub>                                    |
+| [Async Iterator helpers][async-iterator-helpers]                               | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                           | <sub>January&nbsp;2023</sub>                                          |
 
 :white_check_mark: means a pull request for tests was merged.
 
@@ -117,6 +118,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [iterator-helpers]: https://github.com/tc39/proposal-iterator-helpers
 [iterator-helpers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#iterator-helpers-for-stage-3
 [iterator-helpers-tests]: https://github.com/tc39/test262/pull/2818
+[iterator-helpers]: https://github.com/tc39/proposal-async-iterator-helpers
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [isTemplateObject]: https://github.com/tc39/proposal-array-is-template-object
 [isTemplateObject-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#arrayistemplateobject-update
