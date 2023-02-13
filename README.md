@@ -19,26 +19,26 @@ Stage 2 indicates that the committee expects these features to be developed and 
 
 ### Stage 3
 
-| Proposal                                                                       | Author                                                                  | Champion                                                                | Tests                                            | <sub>Last Presented</sub>                                  |
-| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------------------- |
-| [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | [:white_check_mark:][tests-regexp-legacy]        | <sub>[May&nbsp;2017][regexp-legacy-notes]</sub>            |
-| [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | [:white_check_mark:][tests-nonblocking]          | <sub>[December&nbsp;2019][nonblocking-notes]</sub>         |
-| [JSON Modules][json-modules]                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | [:white_check_mark:][json-modules-tests]         | <sub>[January&nbsp;2021][json-modules-notes]</sub>         |
-| [Temporal][temporal]                                                           | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant| [:white_check_mark:][temporal-tests] | <sub>[March&nbsp;2021][temporal-notes]</sub> |
-| [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | [:white_check_mark:][resizable-tests]            | <sub>[May&nbsp;2021][resizable-notes]</sub>                |
-| [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis              | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | [:white_check_mark:][realms-tests]    | <sub>[December&nbsp;2021][realms-notes]</sub>              |
-| [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell                                                                          | :white_check_mark: (`array-grouping` feature)    | <sub>[December&nbsp;2021][array-grouping-notes]</sub>      |
-| [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Chris Garrett                   | Chris Garrett                                                                             | [:white_check_mark:][decorators-tests] (initial tests) | <sub>[March&nbsp;2022][decorators-notes]</sub>       |
-| [RegExp v flag with set notation + properties of strings][regexp-v-flag]       | Markus Scherer<br />Mathias Bynens                    | Mathias Bynens                                                                            | :white_check_mark: (`regexp-v-flag` feature)     | <sub>[March&nbsp;2022][regexp-v-flag-notes]</sub>          |
-| [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                        | Richard Gibson                                                                            | :question:                                       | <sub>[June&nbsp;2022][json-parse-source-notes]</sub>       |
-| [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                           | Ron Buckton                                                                               | :question:                                       | <sub>[June&nbsp;2022][regexp-modifiers-notes]</sub>        |
-| [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                         | Kevin Gibbons                                                                             | [:white_check_mark:][named-capture-groups-tests] | <sub>[July&nbsp;2022][named-capture-groups-notes]</sub>    |
-| [`Array.fromAsync`][from-async]                                                | J.S. Choi                                             | J.S. Choi                                                                                 | :question:                                       | <sub>[September&nbsp;2022][from-async-notes]</sub>         |
-| [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons | Kevin Gibbons                                                                            | :question:                                       | <sub>[November&nbsp;2022][set-methods-notes]</sub>        |
-| [Well-Formed Unicode Strings][usv-string]                                      | Guy Bedford<br />Bradley Farias                       | Guy Bedford<br />Bradley Farias<br />Michael Ficarra                                      | [:white_check_mark:][usv-string-tests]           | <sub>[November&nbsp;2022][usv-string-notes]</sub>          |
-| [Sync Iterator helpers][iterator-helpers]                                           | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                                   | [:construction:][iterator-helpers-tests]         | <sub>[November&nbsp;2022][iterator-helpers-notes]</sub>    |
-| [Explicit Resource Management][resource-management]                            | Ron Buckton                                           | Ron Buckton                                                                               | :question:                                       | <sub>[November&nbsp;2022][resource-management-notes]</sub> |
-| [ArrayBuffer transfer][arraybuffer-transfer]                                   | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli     | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                                         | :question:                                       | <sub>January&nbsp;2023</sub>                               |
+| Proposal                                                                       | Author                                                                  | Champion                                                                | <sub>Test262 Feature Flag</sub>                                     | <sub>Last Presented</sub>                                  |
+| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
+| [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | <sub>[legacy-regexp][tests-regexp-legacy]</sub>                     | <sub>[May&nbsp;2017][regexp-legacy-notes]</sub>            |
+| [`Atomics.waitAsync`][nonblocking]                                             | Lars Hansen                                                             | Shu-yu Guo<br />Lars Hansen                                             | <sub>[Atomics.waitAsync][tests-nonblocking]</sub>                   | <sub>[December&nbsp;2019][nonblocking-notes]</sub>         |
+| [JSON Modules][json-modules]                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | <sub>[json-modules][json-modules-tests]</sub>                       | <sub>[January&nbsp;2021][json-modules-notes]</sub>         |
+| [Temporal][temporal]                                                           | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant| <sub>[Temporal][temporal-tests]</sub> | <sub>[March&nbsp;2021][temporal-notes]</sub> |
+| [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[resizable-arraybuffer][resizable-tests]</sub>                 | <sub>[May&nbsp;2021][resizable-notes]</sub>                |
+| [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis                                | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | <sub>[ShadowRealm][realms-tests]</sub> | <sub>[December&nbsp;2021][realms-notes]</sub>              |
+| [Array Grouping][array-grouping]                                               | Justin Ridgewell                                                        | Justin Ridgewell                                                        | <sub>[array-grouping][array-grouping-tests]</sub>                   | <sub>[December&nbsp;2021][array-grouping-notes]</sub>      |
+| [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Chris Garrett                                     | Chris Garrett                                                           | <sub>[decorators][decorators-tests]</sub>                           | <sub>[March&nbsp;2022][decorators-notes]</sub>             |
+| [RegExp v flag with set notation + properties of strings][regexp-v-flag]       | Markus Scherer<br />Mathias Bynens                                      | Mathias Bynens                                                          | <sub>[regexp-v-flag][regexp-v-flag-tests]</sub>                     | <sub>[March&nbsp;2022][regexp-v-flag-notes]</sub>          |
+| [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                                          | Richard Gibson                                                          | :question:                                                          | <sub>[June&nbsp;2022][json-parse-source-notes]</sub>       |
+| [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                                          | <sub>[June&nbsp;2022][regexp-modifiers-notes]</sub>        |
+| [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[regexp-duplicate-named-groups][named-groups-tests]</sub>      | <sub>[July&nbsp;2022][named-capture-groups-notes]</sub>    |
+| [`Array.fromAsync`][from-async]                                                | J.S. Choi                                                               | J.S. Choi                                                               | <sub>[Array.fromAsync][from-async-tests]</sub>                      | <sub>[September&nbsp;2022][from-async-notes]</sub>         |
+| [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons                 | Kevin Gibbons                                                           | :question:                                                          | <sub>[November&nbsp;2022][set-methods-notes]</sub>         |
+| [Well-Formed Unicode Strings][usv-string]                                      | Guy Bedford<br />Bradley Farias                                         | Guy Bedford<br />Bradley Farias<br />Michael Ficarra                    | <sub>String.prototype.{[is][usv-string-tests1],[to][usv-string-tests2]}WellFormed<sub> | <sub>[November&nbsp;2022][usv-string-notes]</sub>  |
+| [Sync Iterator helpers][iterator-helpers]                                      | Gus Caplan                                                              | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                 | :question: <sub>(see [outdated][iterator-helpers-tests])</sub>      | <sub>[November&nbsp;2022][iterator-helpers-notes]</sub>    |
+| [Explicit Resource Management][resource-management]                            | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                                          | <sub>[November&nbsp;2022][resource-management-notes]</sub> |
+| [ArrayBuffer transfer][arraybuffer-transfer]                                   | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                       | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                       | <sub>[arraybuffer-transfer][arraybuffer-transfer-tests]</sub>       | <sub>January&nbsp;2023</sub>                               |
 
 ### Stage 2
 
@@ -68,11 +68,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo | <sub>January&nbsp;2023</sub>                                    |
 | [Async Iterator helpers][async-iterator-helpers]                               | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                           | <sub>January&nbsp;2023</sub>                                          |
 
-:white_check_mark: means a pull request for tests was merged.
-
-:question: means there is no pull request for tests yet.
-
-:construction: means a pull request for tests was created, but not merged yet.
+The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
+The :question: means there is no feature flag for tests yet.
 
 ### Onboarding existing proposals
 
@@ -86,21 +83,21 @@ Note that as part of the onboarding process your repository name may be normaliz
 
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features
 [regexp-legacy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-25.md#15ia-regexp-legacy-features-for-stage-3
-[tests-regexp-legacy]: https://github.com/tc39/test262/pull/2650
+[tests-regexp-legacy]: https://github.com/tc39/test262/search?l=JavaScript&q=legacy-regexp
 [function-sent]: https://github.com/tc39/proposal-function.sent
 [function-sent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#making-functionsent-inactive
 [decorators]: https://github.com/tc39/proposal-decorators
 [decorators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
-[decorators-tests]: https://github.com/tc39/test262/pull/3512
+[decorators-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=decorators
 [shadowrealm]: https://github.com/tc39/proposal-shadowrealm
 [realms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#shadowrealms-updates-and-potential-normative-changes
-[realms-tests]: https://github.com/tc39/test262/pull/3046
+[realms-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=ShadowRealm
 [temporal]: https://github.com/tc39/proposal-temporal
 [temporal-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#temporal-update
-[temporal-tests]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Amerged+temporal+in%3Atitle+
+[temporal-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=Temporal
 [nonblocking]: https://github.com/tc39/proposal-atomics-wait-async
 [nonblocking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#atomicswaitasync-for-stage-3
-[tests-nonblocking]: https://github.com/tc39/test262/issues/2511
+[tests-nonblocking]: https://github.com/tc39/test262/search?l=JavaScript&q=Atomics.waitAsync
 [throw-expressions]: https://github.com/tc39/proposal-throw-expressions
 [throw-expressions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#13iiii-throw-expressions-for-stage-3
 [censorship]: https://github.com/tc39/proposal-function-implementation-hiding
@@ -118,7 +115,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [iterator-helpers]: https://github.com/tc39/proposal-iterator-helpers
 [iterator-helpers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#iterator-helpers-for-stage-3
 [iterator-helpers-tests]: https://github.com/tc39/test262/pull/2818
-[iterator-helpers]: https://github.com/tc39/proposal-async-iterator-helpers
+[async-iterator-helpers]: https://github.com/tc39/proposal-async-iterator-helpers
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [isTemplateObject]: https://github.com/tc39/proposal-array-is-template-object
 [isTemplateObject-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#arrayistemplateobject-update
@@ -130,29 +127,32 @@ Note that as part of the onboarding process your repository name may be normaliz
 [cleanup-some-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 [json-modules]: https://github.com/tc39/proposal-json-modules
 [json-modules-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-25.md#json-modules-for-stage-3
-[json-modules-tests]: https://github.com/tc39/test262/pull/2999
+[json-modules-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=json-modules
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
 [record-tuple-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#records-and-tuples
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
 [json-parse-source-notes]: https://github.com/tc39/notes/blob/main/meetings/2022-06/jun-07.md#jsonparse-source-text-access
 [import-assertions]: https://github.com/tc39/proposal-import-assertions
 [import-assertions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#import-assertions-status-update
-[import-assertions-tests]: https://github.com/tc39/test262/pull/2980
+[import-assertions-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=import-assertions
 [resizable]: https://github.com/tc39/proposal-resizablearraybuffer
 [resizable-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#resizable-arraybuffers-for-stage-3
-[resizable-tests]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Amerged+resizable+in%3Atitle+
+[resizable-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=resizable-arraybuffer
 [module-expressions]: https://github.com/tc39/proposal-module-expressions
 [module-expressions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions
 [regexp-v-flag]: https://github.com/tc39/proposal-regexp-v-flag
 [regexp-v-flag-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#regexp-set-notation--unicode-properties-of-strings-for-stage-3
+[regexp-v-flag-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=regexp-v-flag
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [pipe-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#pipeline-operator-for-stage-2
 [destructure-private]: https://github.com/tc39/proposal-destructuring-private
 [destructure-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
 [array-grouping]: https://github.com/tc39/proposal-array-grouping
 [array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#array-grouping-for-stage-3
+[array-grouping-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=array-grouping
 [from-async]: https://github.com/tc39/proposal-array-from-async
 [from-async-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-14.md#arrayfromasync-for-stage-3
+[from-async-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=Array.fromAsync
 [regexp-modifiers]: https://github.com/tc39/proposal-regexp-modifiers
 [regexp-modifiers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#regexp-modifiers
 [regexp-buffer-boundaries]: https://github.com/tc39/proposal-regexp-buffer-boundaries
@@ -161,7 +161,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [decorator-metadata-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
 [named-capture-groups]: https://github.com/tc39/proposal-duplicate-named-capturing-groups
 [named-capture-groups-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-20.md#duplicate-named-capturing-groups-for-stage-3
-[named-capture-groups-tests]: https://github.com/tc39/test262/pulls?q=is%3Apr+is%3Amerged+Duplicate%2Bnamed%2Bcapture%2Bgroups+in%3Atitle+sort%3Aupdated-desc+
+[named-groups-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=regexp-duplicate-named-groups
 [string.dedent]: https://github.com/tc39/proposal-string-dedent
 [string.dedent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
 [import-reflection]: https://github.com/tc39/proposal-import-reflection
@@ -169,11 +169,13 @@ Note that as part of the onboarding process your repository name may be normaliz
 [json-parse-immutable]: https://github.com/tc39/proposal-json-parseimmutable
 [usv-string]: https://github.com/tc39/proposal-is-usv-string
 [usv-string-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#stringiswellformed-
-[usv-string-tests]: https://github.com/tc39/test262/pull/3661
+[usv-string-tests1]: https://github.com/tc39/test262/search?l=JavaScript&q=String.prototype.isWellFormed
+[usv-string-tests2]: https://github.com/tc39/test262/search?l=JavaScript&q=String.prototype.toWellFormed
 [set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#set-methods
 [arraybuffer-transfer]: https://github.com/tc39-transfer/proposal-arraybuffer-transfer
 [arraybuffer-transfer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-29.md#resizable-buffers-bug-fixes-104-106-108-and-transfer-future-proofing
+[arraybuffer-transfer-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=arraybuffer-transfer
 [module-declarations]: https://github.com/tc39/proposal-module-declarations
 [module-declarations-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
 [symbol-predicates]: https://github.com/tc39/proposal-symbol-predicates
