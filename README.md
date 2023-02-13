@@ -115,7 +115,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [iterator-helpers]: https://github.com/tc39/proposal-iterator-helpers
 [iterator-helpers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#iterator-helpers-for-stage-3
 [iterator-helpers-tests]: https://github.com/tc39/test262/pull/2818
-[iterator-helpers]: https://github.com/tc39/proposal-async-iterator-helpers
+[async-iterator-helpers]: https://github.com/tc39/proposal-async-iterator-helpers
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [isTemplateObject]: https://github.com/tc39/proposal-array-is-template-object
 [isTemplateObject-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#arrayistemplateobject-update
