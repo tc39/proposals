@@ -52,7 +52,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Error Cause][error-cause]                                               | Chengzhong Wu                                          | Chengzhong Wu<br /> Hemanth HM                          | [October 2021][error-cause-notes]           | 2022                      |
 | [Array find from last][find-last]                                        | Wenlu Wang                                             | Wenlu Wang<br />Daniel Rosenwasser                      | [June 2022][find-last-notes]                | 2023                      |
 | [Hashbang Grammar][hashbang-grammar]                                     | Bradley Farias                                         | Bradley Farias                                          | July&nbsp;2022                              | 2023                      |
-| [Symbols as WeakMap keys][symbols-weakmap]                               | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | January&nbsp;2023    | 2023
+| [Symbols as WeakMap keys][symbols-weakmap]                               | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | [January&nbsp;2023][symbols-weakmap-notes] | 2023                      |
 | [Change Array by Copy][change-array-by-copy]                             | Ashley Claymore<br />Robin Ricard                      | Ashley Claymore<br />Robin Ricard                       | March&nbsp;2022                             | 2023                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
@@ -156,6 +156,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [hashbang-grammar]: https://github.com/tc39/proposal-hashbang
 [hashbang-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#hash-bang-grammar
 [symbols-weakmap]: https://github.com/tc39/proposal-symbols-as-weakmap-keys
-[symbols-weakmap-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#symbols-as-weakmap-keys
+[symbols-weakmap-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#symbols-as-weakmap-keys
 [change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
 [change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#change-array-by-copy

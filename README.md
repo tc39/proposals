@@ -35,10 +35,10 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[regexp-duplicate-named-groups][named-groups-tests]</sub>      | <sub>[July&nbsp;2022][named-capture-groups-notes]</sub>    |
 | [`Array.fromAsync`][from-async]                                                | J.S. Choi                                                               | J.S. Choi                                                               | <sub>[Array.fromAsync][from-async-tests]</sub>                      | <sub>[September&nbsp;2022][from-async-notes]</sub>         |
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons                 | Kevin Gibbons                                                           | :question:                                                          | <sub>[November&nbsp;2022][set-methods-notes]</sub>         |
-| [Well-Formed Unicode Strings][usv-string]                                      | Guy Bedford<br />Bradley Farias                                         | Guy Bedford<br />Bradley Farias<br />Michael Ficarra                    | <sub>String.prototype.{[is][usv-string-tests1],[to][usv-string-tests2]}WellFormed<sub> | <sub>[November&nbsp;2022][usv-string-notes]</sub>  |
+| [Well-Formed Unicode Strings][usv-string]                                      | Guy Bedford<br />Bradley Farias                                         | Guy Bedford<br />Bradley Farias<br />Michael Ficarra                    | <sub>String.prototype.{[is][usv-string-tests1],[to][usv-string-tests2]}WellFormed<sub> | <sub>[November&nbsp;2022][usv-string-notes]</sub> |
 | [Sync Iterator helpers][iterator-helpers]                                      | Gus Caplan                                                              | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                 | :question: <sub>(see [outdated][iterator-helpers-tests])</sub>      | <sub>[November&nbsp;2022][iterator-helpers-notes]</sub>    |
 | [Explicit Resource Management][resource-management]                            | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                                          | <sub>[November&nbsp;2022][resource-management-notes]</sub> |
-| [ArrayBuffer transfer][arraybuffer-transfer]                                   | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                       | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                       | <sub>[arraybuffer-transfer][arraybuffer-transfer-tests]</sub>       | <sub>January&nbsp;2023</sub>                               |
+| [ArrayBuffer transfer][arraybuffer-transfer]                                   | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                       | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                       | <sub>[arraybuffer-transfer][arraybuffer-transfer-tests]</sub>       | <sub>[January&nbsp;2023][arraybuffer-transfer-notes]</sub> |
 
 ### Stage 2
 
@@ -64,8 +64,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Import Reflection][import-reflection]                                         | Luca Casonato                                         | Guy Bedford<br />Luca Casonato                                                    | <sub>[November&nbsp;2022][import-reflection-notes]</sub>              |
 | [JSON.parseImmutable][json-parse-immutable]                                    | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | <sub>July&nbsp;2022</sub>                                 |
 | [Module Declarations][module-declarations]                                     | Daniel Ehrenberg<br />Nicolò Ribaudo                  | Daniel Ehrenberg<br />Mark Miller<br />Nicolò Ribaudo                             | <sub>[November&nbsp;2022][module-declarations-notes]</sub>            |
-| [Symbol Predicates][symbol-predicates]                                         | Robin Ricard<br />Jordan Harband                      | Ashley Claymore<br />Jordan Harband                                               | <sub>January&nbsp;2023</sub>                                          |
-| [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo | <sub>January&nbsp;2023</sub>                                    |
+| [Symbol Predicates][symbol-predicates]                                         | Robin Ricard<br />Jordan Harband                      | Ashley Claymore<br />Jordan Harband                                               | <sub>[January&nbsp;2023][symbol-predicates-notes]</sub>               |
+| [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo | <sub>[January&nbsp;2023][import-assertions-notes]</sub>         |
 | [Async Iterator helpers][async-iterator-helpers]                               | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                           | <sub>January&nbsp;2023</sub>                                          |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
@@ -133,7 +133,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
 [json-parse-source-notes]: https://github.com/tc39/notes/blob/main/meetings/2022-06/jun-07.md#jsonparse-source-text-access
 [import-assertions]: https://github.com/tc39/proposal-import-assertions
-[import-assertions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#import-assertions-status-update
+[import-assertions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-02.md#import-assertions
 [import-assertions-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=import-assertions
 [resizable]: https://github.com/tc39/proposal-resizablearraybuffer
 [resizable-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#resizable-arraybuffers-for-stage-3
@@ -174,9 +174,9 @@ Note that as part of the onboarding process your repository name may be normaliz
 [set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#set-methods
 [arraybuffer-transfer]: https://github.com/tc39-transfer/proposal-arraybuffer-transfer
-[arraybuffer-transfer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-29.md#resizable-buffers-bug-fixes-104-106-108-and-transfer-future-proofing
+[arraybuffer-transfer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#arraybuffer-transfer-for-stage-3
 [arraybuffer-transfer-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=arraybuffer-transfer
 [module-declarations]: https://github.com/tc39/proposal-module-declarations
 [module-declarations-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
 [symbol-predicates]: https://github.com/tc39/proposal-symbol-predicates
-[symbol-predicates-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-20.md#symbol-predicates
+[symbol-predicates-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#symbol-predicates
