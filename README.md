@@ -173,7 +173,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [usv-string-tests2]: https://github.com/tc39/test262/search?l=JavaScript&q=String.prototype.toWellFormed
 [set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#set-methods
-[arraybuffer-transfer]: https://github.com/tc39-transfer/proposal-arraybuffer-transfer
+[arraybuffer-transfer]: https://github.com/tc39/proposal-arraybuffer-transfer
 [arraybuffer-transfer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#arraybuffer-transfer-for-stage-3
 [arraybuffer-transfer-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=arraybuffer-transfer
 [module-declarations]: https://github.com/tc39/proposal-module-declarations

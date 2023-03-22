@@ -273,11 +273,11 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [memoization-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#function-memoization-for-stage-1
 [pick-omit]: https://github.com/tc39/proposal-object-pick-or-omit
 [pick-omit-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#ergonomic-dynamic-object-restructuring
-[extractors]: https://github.com/rbuckton/proposal-extractors
+[extractors]: https://github.com/tc39/proposal-extractors
 [extractors-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-15.md#extractor-objects
-[mass-proxy-revocation]: https://github.com/ajvincent/proposal-mass-proxy-revocation
+[mass-proxy-revocation]: https://github.com/tc39/proposal-mass-proxy-revocation
 [mass-proxy-revocation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#mass-proxy-revocation-for-stage-1
-[proto-pollution]: https://github.com/syg/proposal-symbol-proto
+[proto-pollution]: https://github.com/tc39/proposal-symbol-proto
 [proto-pollution-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#prototype-pollution-mitigation--symbolproto
-[async-context]: https://github.com/legendecas/proposal-async-context
+[async-context]: https://github.com/tc39/proposal-async-context
 [async-context-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#async-context-for-stage-1
