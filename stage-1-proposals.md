@@ -60,7 +60,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Preserve Host Virtualizability][virtualize]                    | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | <sub>[February&nbsp;2020][virtualize-notes]</sub> |
 | [Legacy reflection features for functions in JavaScript][legacy-reflection]                  | Mark Miller<br />Claude Pache<br />Jack Works         | Mark Miller<br />Claude Pache<br />Jack Works          | <sub>[February&nbsp;2020][legacy-reflection-notes]</sub>          |
 | [Cryptographically Secure Random Number Generation][csprng]                                  | Ron Buckton                                           | Ron Buckton                                            | <sub>[February&nbsp;2020][csprng-notes]</sub>                     |
-| [Number.range & BigInt.range][number-bigint-range]                                           | Jack Works                                             | Jack Works                                            | <sub>[July&nbsp;2020][number-bigint-range-notes]</sub>            |
 | [Compartments][proposal-compartments]                                                        | Bradley Farias                                        | Bradley Farias<br />Mark S. Miller<br />Caridy Patiño<br />J.F. Paradis<br />Patrick Soquet<br />Kris Kowal | <sub>[March&nbsp;2020][proposal-compartments-notes]</sub> |
 | [Deep Path Properties in Record Literals][deep-path-properties]                              | Rick Button                                           | Rick Button                                            | <sub>[June&nbsp;2020][deep-path-properties-notes]</sub>           |
 | [Restrict subclassing support in built-in methods][species-extinct]                          | Yulia Startsev<br />Shu-yu Guo                        | Yulia Startsev<br />Shu-yu Guo                         | <sub>[June&nbsp;2020][species-extinct-notes]</sub>                |
@@ -207,8 +206,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [async-init-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-4.md#async-initialization-for-stage-1
 [csprng]: https://github.com/tc39/proposal-csprng
 [csprng-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#arraybufferfillrandom-for-stage-1
-[number-bigint-range]: https://github.com/tc39/proposal-Number.range
-[number-bigint-range-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#numberrange-for-stage-2
 [proposal-compartments]: https://github.com/tc39/proposal-compartments
 [proposal-compartments-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#compartments-for-stage-1
 [deep-path-properties]: https://github.com/tc39/proposal-deep-path-properties-for-record
