@@ -68,6 +68,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo | <sub>[January&nbsp;2023][import-assertions-notes]</sub>         |
 | [Async Iterator helpers][async-iterator-helpers]                               | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                           | <sub>January&nbsp;2023</sub>                                          |
 | [Iterator.range][iterator-range]                                               | Jack Works                                            | Jack Works                                                                        | <sub>March&nbsp;2023</sub>                                            |
+| [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]                   | Leo Balter                                            | Leo Balter<br />Kevin Gibbons                                                     | <sub>March&nbsp;2023</sub>                                            |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -183,3 +184,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [symbol-predicates-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#symbol-predicates
 [iterator-range]: https://github.com/tc39/proposal-Number.range
 [iterator-range-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#numberrange-for-stage-2
+[float16s]: https://github.com/tc39/proposal-float16array
+[float16s-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-23.md#16ig-float16-on-typedarrays-dataview-mathhfround-for-stage-1
