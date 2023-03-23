@@ -65,7 +65,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [JSON.parseImmutable][json-parse-immutable]                                    | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | <sub>July&nbsp;2022</sub>                                 |
 | [Module Declarations][module-declarations]                                     | Daniel Ehrenberg<br />Nicolò Ribaudo                  | Daniel Ehrenberg<br />Mark Miller<br />Nicolò Ribaudo                             | <sub>[November&nbsp;2022][module-declarations-notes]</sub>            |
 | [Symbol Predicates][symbol-predicates]                                         | Robin Ricard<br />Jordan Harband                      | Ashley Claymore<br />Jordan Harband                                               | <sub>[January&nbsp;2023][symbol-predicates-notes]</sub>               |
-| [Import Assertions][import-assertions]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo | <sub>[January&nbsp;2023][import-assertions-notes]</sub>         |
+| [Import Attributes][import-attributes]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo | <sub>[January&nbsp;2023][import-attributes-notes]</sub>         |
 | [Async Iterator helpers][async-iterator-helpers]                               | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                           | <sub>January&nbsp;2023</sub>                                          |
 | [Iterator.range][iterator-range]                                               | Jack Works                                            | Jack Works                                                                        | <sub>March&nbsp;2023</sub>                                            |
 | [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]                   | Leo Balter                                           | Leo Balter<br />Kevin Gibbons                                                     | <sub>March&nbsp;2023</sub>                                            |
@@ -135,9 +135,9 @@ Note that as part of the onboarding process your repository name may be normaliz
 [record-tuple-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#records-and-tuples
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
 [json-parse-source-notes]: https://github.com/tc39/notes/blob/main/meetings/2022-06/jun-07.md#jsonparse-source-text-access
-[import-assertions]: https://github.com/tc39/proposal-import-assertions
-[import-assertions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-02.md#import-assertions
-[import-assertions-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=import-assertions
+[import-attributes]: https://github.com/tc39/proposal-import-attributes
+[import-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-02.md#import-assertions
+[import-attributes-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=import-assertions
 [resizable]: https://github.com/tc39/proposal-resizablearraybuffer
 [resizable-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#resizable-arraybuffers-for-stage-3
 [resizable-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=resizable-arraybuffer
