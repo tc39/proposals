@@ -96,6 +96,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Prototype pollution mitigation][proto-pollution]                                            | Santiago Díaz<br />Jun Kokatsu                         | Shu-Yu Guo                                            | <sub>[January&nbsp;2023][proto-pollution-notes]</sub>             |
 | [Await Dictionary][await-dictionary]                                                         | Alexander J. Vincent                                   | Ashley Claymore<br />Jordan Harband                   | <sub>March 2023</sub>                                             |
 | [`Promise.withResolvers`][promise-defer]                                                     | Peter Klecha                                           | Peter Klecha                                          | <sub>March 2023</sub>                                             |
+| [Time Zone Canonicalization][time-zone-canon]                                                | Justin Grant                                           | Justin Grant                                          | <sub>March 2023</sub>                                             |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -276,3 +277,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [proto-pollution-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#prototype-pollution-mitigation--symbolproto
 [await-dictionary]: https://github.com/acutmore/proposal-await-dictionary
 [promise-defer]: https://github.com/peetklecha/proposal-promise-with-resolvers
+[time-zone-canon]: https://github.com/justingrant/proposal-canonical-tz#readme
