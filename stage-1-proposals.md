@@ -97,6 +97,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Await Dictionary][await-dictionary]                                                         | Alexander J. Vincent                                   | Ashley Claymore<br />Jordan Harband                   | <sub>March 2023</sub>                                             |
 | [`Promise.withResolvers`][promise-defer]                                                     | Peter Klecha                                           | Peter Klecha                                          | <sub>March 2023</sub>                                             |
 | [Time Zone Canonicalization][time-zone-canon]                                                | Justin Grant                                           | Justin Grant                                          | <sub>March 2023</sub>                                             |
+| [Class Method Parameter Decorators][class-param-decorators]                                  | Ron Buckton                                            | Ron Buckton                                           | <sub>March 2023</sub>                                             |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -278,3 +279,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [await-dictionary]: https://github.com/acutmore/proposal-await-dictionary
 [promise-defer]: https://github.com/peetklecha/proposal-promise-with-resolvers
 [time-zone-canon]: https://github.com/justingrant/proposal-canonical-tz#readme
+[class-param-decorators]: https://github.com/rbuckton/proposal-class-method-parameter-decorators
