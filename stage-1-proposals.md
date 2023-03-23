@@ -95,6 +95,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Mass Proxy Revocation][mass-proxy-revocation]                                               | Alex Vincent                                           | Mark S. Miller, Jack Works                            | <sub>[November&nbsp;2022][mass-proxy-revocation-notes]</sub>      |
 | [Prototype pollution mitigation][proto-pollution]                                            | Santiago Díaz<br />Jun Kokatsu                         | Shu-Yu Guo                                            | <sub>[January&nbsp;2023][proto-pollution-notes]</sub>             |
 | [Async Context][async-context]                                                               | Chengzhong Wu                                          | Chengzhong Wu<br />Justin Ridgewell                   | <sub>[January&nbsp;2023][async-context-notes]</sub>               |
+| [Await Dictionary][await-dictionary]                                                         | Alexander J. Vincent                                   | Ashley Claymore<br />Jordan Harband                   | <sub>March 2023</sub>                                             |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -275,3 +276,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [proto-pollution-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#prototype-pollution-mitigation--symbolproto
 [async-context]: https://github.com/tc39/proposal-async-context
 [async-context-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#async-context-for-stage-1
+[await-dictionary]: https://github.com/acutmore/proposal-await-dictionary
