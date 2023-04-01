@@ -183,7 +183,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [module-declarations-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
 [symbol-predicates]: https://github.com/tc39/proposal-symbol-predicates
 [symbol-predicates-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#symbol-predicates
-[iterator-range]: https://github.com/tc39/proposal-Number.range
+[iterator-range]: https://github.com/tc39/proposal-iterator.range
 [iterator-range-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#numberrange-for-stage-2
 [float16s]: https://github.com/tc39/proposal-float16array
 [float16s-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-23.md#16ig-float16-on-typedarrays-dataview-mathhfround-for-stage-1
