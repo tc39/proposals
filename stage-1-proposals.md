@@ -276,7 +276,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [mass-proxy-revocation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#mass-proxy-revocation-for-stage-1
 [proto-pollution]: https://github.com/tc39/proposal-symbol-proto
 [proto-pollution-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#prototype-pollution-mitigation--symbolproto
-[await-dictionary]: https://github.com/acutmore/proposal-await-dictionary
-[promise-defer]: https://github.com/peetklecha/proposal-promise-with-resolvers
+[await-dictionary]: https://github.com/tc39/proposal-await-dictionary
+[promise-defer]: https://github.com/tc39/proposal-promise-with-resolvers
 [time-zone-canon]: https://github.com/tc39/proposal-canonical-tz#readme
-[class-param-decorators]: https://github.com/rbuckton/proposal-class-method-parameter-decorators
+[class-param-decorators]: https://github.com/tc39/proposal-class-method-parameter-decorators
