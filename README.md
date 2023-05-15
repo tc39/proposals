@@ -35,7 +35,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[regexp-duplicate-named-groups][named-groups-tests]</sub>      | <sub>[July&nbsp;2022][named-capture-groups-notes]</sub>    |
 | [`Array.fromAsync`][from-async]                                                | J.S. Choi                                                               | J.S. Choi                                                               | <sub>[Array.fromAsync][from-async-tests]</sub>                      | <sub>[September&nbsp;2022][from-async-notes]</sub>         |
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons                 | Kevin Gibbons                                                           | :question:                                                          | <sub>[November&nbsp;2022][set-methods-notes]</sub>         |
-| [Well-Formed Unicode Strings][usv-string]                                      | Guy Bedford<br />Bradley Farias                                         | Guy Bedford<br />Bradley Farias<br />Michael Ficarra                    | <sub>String.prototype.{[is][usv-string-tests1],[to][usv-string-tests2]}WellFormed<sub> | <sub>[November&nbsp;2022][usv-string-notes]</sub> |
 | [Sync Iterator helpers][iterator-helpers]                                      | Gus Caplan                                                              | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                 | :question: <sub>(see [outdated][iterator-helpers-tests])</sub>      | <sub>[November&nbsp;2022][iterator-helpers-notes]</sub>    |
 | [Explicit Resource Management][resource-management] and [Async Explicit Resource Management][async-resource-management] | Ron Buckton                    | Ron Buckton                                                             | :question:                                                          | <sub>[November&nbsp;2022][resource-management-notes]</sub> |
 | [ArrayBuffer transfer][arraybuffer-transfer]                                   | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                       | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                       | <sub>[arraybuffer-transfer][arraybuffer-transfer-tests]</sub>       | <sub>[January&nbsp;2023][arraybuffer-transfer-notes]</sub> |
@@ -169,10 +168,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [import-reflection]: https://github.com/tc39/proposal-import-reflection
 [import-reflection-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#import-reflection
 [json-parse-immutable]: https://github.com/tc39/proposal-json-parseimmutable
-[usv-string]: https://github.com/tc39/proposal-is-usv-string
-[usv-string-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#stringiswellformed-
-[usv-string-tests1]: https://github.com/tc39/test262/search?l=JavaScript&q=String.prototype.isWellFormed
-[usv-string-tests2]: https://github.com/tc39/test262/search?l=JavaScript&q=String.prototype.toWellFormed
 [set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#set-methods
 [arraybuffer-transfer]: https://github.com/tc39/proposal-arraybuffer-transfer
