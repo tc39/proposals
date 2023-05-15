@@ -55,6 +55,8 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Symbols as WeakMap keys][symbols-weakmap]                               | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | [January 2023][symbols-weakmap-notes] | 2023                      |
 | [Change Array by Copy][change-array-by-copy]                             | Ashley Claymore<br />Robin Ricard                      | Ashley Claymore<br />Robin Ricard                       | March 2022                                  | 2023                      |
 | [Well-Formed Unicode Strings][usv-string]                                | Guy Bedford<br />Bradley Farias                        | Guy Bedford<br />Bradley Farias<br />Michael Ficarra    | May 2023                                    | 2024                      |
+| [`Atomics.waitAsync`][nonblocking]                                       | Lars Hansen                                            | Shu-yu Guo<br />Lars Hansen                             | May 2023                                    | 2024                      |
+
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -162,3 +164,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#change-array-by-copy
 [usv-string]: https://github.com/tc39/proposal-is-usv-string
 [usv-string-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#stringiswellformed-
+[nonblocking]: https://github.com/tc39/proposal-atomics-wait-async
+[nonblocking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#atomicswaitasync-for-stage-3
