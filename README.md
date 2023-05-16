@@ -28,7 +28,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis                                | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | <sub>[ShadowRealm][realms-tests]</sub> | <sub>[December&nbsp;2021][realms-notes]</sub>              |
 | [Array Grouping][array-grouping]                                               | Justin Ridgewell                                                        | Justin Ridgewell                                                        | <sub>[array-grouping][array-grouping-tests]</sub>                   | <sub>[December&nbsp;2021][array-grouping-notes]</sub>      |
 | [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Chris Garrett                                     | Chris Garrett                                                           | <sub>[decorators][decorators-tests]</sub>                           | <sub>[March&nbsp;2022][decorators-notes]</sub>             |
-| [RegExp v flag with set notation + properties of strings][regexp-v-flag]       | Markus Scherer<br />Mathias Bynens                                      | Mathias Bynens                                                          | <sub>[regexp-v-flag][regexp-v-flag-tests]</sub>                     | <sub>[March&nbsp;2022][regexp-v-flag-notes]</sub>          |
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                                          | Richard Gibson                                                          | :question:                                                          | <sub>[June&nbsp;2022][json-parse-source-notes]</sub>       |
 | [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                                          | <sub>[June&nbsp;2022][regexp-modifiers-notes]</sub>        |
 | [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[regexp-duplicate-named-groups][named-groups-tests]</sub>      | <sub>[July&nbsp;2022][named-capture-groups-notes]</sub>    |
@@ -137,9 +136,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [resizable-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=resizable-arraybuffer
 [module-expressions]: https://github.com/tc39/proposal-module-expressions
 [module-expressions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions
-[regexp-v-flag]: https://github.com/tc39/proposal-regexp-v-flag
-[regexp-v-flag-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#regexp-set-notation--unicode-properties-of-strings-for-stage-3
-[regexp-v-flag-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=regexp-v-flag
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [pipe-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#pipeline-operator-for-stage-2
 [destructure-private]: https://github.com/tc39/proposal-destructuring-private
