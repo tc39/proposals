@@ -96,7 +96,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Prototype pollution mitigation][proto-pollution]                                            | Santiago Díaz<br />Jun Kokatsu                         | Shu-Yu Guo                                            | <sub>[January&nbsp;2023][proto-pollution-notes]</sub>             |
 | [Await Dictionary][await-dictionary]                                                         | Alexander J. Vincent                                   | Ashley Claymore<br />Jordan Harband<br />Chris de Almeida | <sub>[March&nbsp;2023][await-dictionary-notes]</sub>          |
 | [`Promise.withResolvers`][promise-defer]                                                     | Peter Klecha                                           | Peter Klecha<br />Chris de Almeida                    | <sub>[March&nbsp;2023][promise-defer-notes]</sub>                 |
-| [Time Zone Canonicalization][time-zone-canon]                                                | Justin Grant                                           | Justin Grant<br />Richard Gibson                      | <sub>[March&nbsp;2023][time-zone-canon-notes]</sub>               |
 | [Class Method Parameter Decorators][class-param-decorators]                                  | Ron Buckton                                            | Ron Buckton                                           | <sub>[March&nbsp;2023][class-param-decorators-notes]</sub>        |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
@@ -280,7 +279,5 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [await-dictionary-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1
 [promise-defer]: https://github.com/tc39/proposal-promise-with-resolvers
 [promise-defer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#promisewithresolvers
-[time-zone-canon]: https://github.com/tc39/proposal-canonical-tz#readme
-[time-zone-canon-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#time-zone-canonicalization-for-stage-1
 [class-param-decorators]: https://github.com/tc39/proposal-class-method-parameter-decorators
 [class-param-decorators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#class-constructor-and-method-parameter-decorators
