@@ -67,6 +67,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Iterator.range][iterator-range]                                               | Jack Works                                            | Jack Works                                                                        | <sub>[March&nbsp;2023][iterator-range-notes]</sub>                    |
 | [Async Context][async-context]                                                 | Chengzhong Wu                                         | Chengzhong Wu<br />Justin Ridgewell                                               | <sub>[March&nbsp;2023][async-context-notes]</sub>                     |
 | [Time Zone Canonicalization][time-zone-canon]                                  | Justin Grant                                          | Justin Grant<br />Richard Gibson                                                  | <sub>May&nbsp;2023</sub>                                              |
+| [`Promise.withResolvers`][promise-defer]                                       | Peter Klecha                                          | Peter Klecha<br />Chris de Almeida                                                | <sub>May&nbsp;2023</sub>                                              |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -178,3 +179,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [async-context-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#async-context
 [time-zone-canon]: https://github.com/tc39/proposal-canonical-tz#readme
 [time-zone-canon-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#time-zone-canonicalization-for-stage-1
+[promise-defer]: https://github.com/tc39/proposal-promise-with-resolvers
+[promise-defer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#promisewithresolvers
