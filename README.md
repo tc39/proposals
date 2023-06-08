@@ -35,7 +35,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Sync Iterator helpers][iterator-helpers]                                      | Gus Caplan                                                              | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                 | :question: <sub>(see [outdated][iterator-helpers-tests])</sub>      | <sub>[November&nbsp;2022][iterator-helpers-notes]</sub>    |
 | [Explicit Resource Management][resource-management] and [Async Explicit Resource Management][async-resource-management] | Ron Buckton                    | Ron Buckton                                                             | :question:                                                          | <sub>[November&nbsp;2022][resource-management-notes]</sub> |
 | [ArrayBuffer transfer][arraybuffer-transfer]                                   | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                       | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                       | <sub>[arraybuffer-transfer][arraybuffer-transfer-tests]</sub>       | <sub>[January&nbsp;2023][arraybuffer-transfer-notes]</sub> |
-| [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]                  | Leo Balter                                            | Leo Balter<br />Kevin Gibbons                                                             | :question:                                                          | <sub>May&nbsp;2023</sub>                                   |
+| [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]                  | Leo Balter                                            | Leo Balter<br />Kevin Gibbons                                                             | :question:                                                          | <sub>[May&nbsp;2023][float16s-notes]</sub>                 |
 | [Decorator Metadata][decorator-metadata]                                       | Chris Garrett                                         | Chris Garrett                                                                             | :question:                                                          | <sub>[March&nbsp;2022][decorator-metadata-notes]</sub>     |
 
 ### Stage 2
@@ -65,9 +65,9 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Async Iterator helpers][async-iterator-helpers]                               | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                           | <sub>January&nbsp;2023</sub>                                          |
 | [Iterator.range][iterator-range]                                               | Jack Works                                            | Jack Works                                                                        | <sub>[March&nbsp;2023][iterator-range-notes]</sub>                    |
 | [Async Context][async-context]                                                 | Chengzhong Wu                                         | Chengzhong Wu<br />Justin Ridgewell                                               | <sub>[March&nbsp;2023][async-context-notes]</sub>                     |
-| [Time Zone Canonicalization][time-zone-canon]                                  | Justin Grant                                          | Justin Grant<br />Richard Gibson                                                  | <sub>May&nbsp;2023</sub>                                              |
-| [`Promise.withResolvers`][promise-defer]                                       | Peter Klecha                                          | Peter Klecha<br />Chris de Almeida                                                | <sub>May&nbsp;2023</sub>                                              |
-| [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell<br />Jordan Harband                                              | <sub>May&nbsp;2023</sub>                                              |
+| [Time Zone Canonicalization][time-zone-canon]                                  | Justin Grant                                          | Justin Grant<br />Richard Gibson                                                  | <sub>[May&nbsp;2023][time-zone-canon-notes]</sub>                     |
+| [`Promise.withResolvers`][promise-defer]                                       | Peter Klecha                                          | Peter Klecha<br />Chris de Almeida                                                | <sub>[May&nbsp;2023][promise-defer-notes]</sub>                       |
+| [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell<br />Jordan Harband                                              | <sub>[May&nbsp;2023][array-grouping-notes]</sub>                      |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -143,7 +143,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [destructure-private]: https://github.com/tc39/proposal-destructuring-private
 [destructure-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
 [array-grouping]: https://github.com/tc39/proposal-array-grouping
-[array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#array-grouping-for-stage-3
+[array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-18.md#continuation-arrayprototypegroup-rename-for-web-compatibility
 [array-grouping-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=array-grouping
 [from-async]: https://github.com/tc39/proposal-array-from-async
 [from-async-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-14.md#arrayfromasync-for-stage-3
@@ -174,10 +174,10 @@ Note that as part of the onboarding process your repository name may be normaliz
 [iterator-range]: https://github.com/tc39/proposal-iterator.range
 [iterator-range-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#iteratorrange-for-stage-2
 [float16s]: https://github.com/tc39/proposal-float16array
-[float16s-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#float16array-for-stage-2--3
+[float16s-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#float16array-for-stage-3
 [async-context]: https://github.com/tc39/proposal-async-context
 [async-context-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#async-context
 [time-zone-canon]: https://github.com/tc39/proposal-canonical-tz#readme
-[time-zone-canon-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#time-zone-canonicalization-for-stage-1
+[time-zone-canon-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-17.md#time-zone-canonicalization-for-stage-2
 [promise-defer]: https://github.com/tc39/proposal-promise-with-resolvers
-[promise-defer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#promisewithresolvers
+[promise-defer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-17.md#promisewithresolvers-for-stage-2

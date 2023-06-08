@@ -54,9 +54,9 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Hashbang Grammar][hashbang-grammar]                                     | Bradley Farias                                         | Bradley Farias                                          | July 2022                                   | 2023                      |
 | [Symbols as WeakMap keys][symbols-weakmap]                               | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | Daniel Ehrenberg<br />Richard Button<br />Robin Ricard<br />Leo Balter<br />Rick Waldron<br />Caridy Patiño | [January 2023][symbols-weakmap-notes] | 2023                      |
 | [Change Array by Copy][change-array-by-copy]                             | Ashley Claymore<br />Robin Ricard                      | Ashley Claymore<br />Robin Ricard                       | March 2022                                  | 2023                      |
-| [Well-Formed Unicode Strings][usv-string]                                | Guy Bedford<br />Bradley Farias                        | Guy Bedford<br />Bradley Farias<br />Michael Ficarra    | May 2023                                    | 2024                      |
-| [`Atomics.waitAsync`][nonblocking]                                       | Lars Hansen                                            | Shu-yu Guo<br />Lars Hansen                             | May 2023                                    | 2024                      |
-| [RegExp v flag with set notation + properties of strings][regexp-v-flag] | Markus Scherer<br />Mathias Bynens                     | Mathias Bynens                                          | May 2023                                    | 2024                      |
+| [Well-Formed Unicode Strings][usv-string]                                | Guy Bedford<br />Bradley Farias                        | Guy Bedford<br />Bradley Farias<br />Michael Ficarra    | [May 2023][usv-string-notes]                | 2024                      |
+| [`Atomics.waitAsync`][nonblocking]                                       | Lars Hansen                                            | Shu-yu Guo<br />Lars Hansen                             | [May 2023][nonblocking-notes]               | 2024                      |
+| [RegExp v flag with set notation + properties of strings][regexp-v-flag] | Markus Scherer<br />Mathias Bynens                     | Mathias Bynens                                          | [May 2023][regexp-v-flag-notes]             | 2024                      |
 
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
@@ -164,8 +164,8 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [change-array-by-copy]: https://github.com/tc39/proposal-change-array-by-copy
 [change-array-by-copy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#change-array-by-copy
 [usv-string]: https://github.com/tc39/proposal-is-usv-string
-[usv-string-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#stringiswellformed-
+[usv-string-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#well-formed-unicode-strings-for-stage-4
 [nonblocking]: https://github.com/tc39/proposal-atomics-wait-async
-[nonblocking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#atomicswaitasync-for-stage-3
+[nonblocking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#atomicswaitasync-for-stage-4
 [regexp-v-flag]: https://github.com/tc39/proposal-regexp-v-flag
-[regexp-v-flag-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#regexp-set-notation--unicode-properties-of-strings-for-stage-3
+[regexp-v-flag-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#regexp-v-flag-for-stage-4
