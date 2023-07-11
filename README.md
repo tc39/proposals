@@ -68,6 +68,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Time Zone Canonicalization][time-zone-canon]                                  | Justin Grant                                          | Justin Grant<br />Richard Gibson                                                  | <sub>[May&nbsp;2023][time-zone-canon-notes]</sub>                     |
 | [`Promise.withResolvers`][promise-defer]                                       | Peter Klecha                                          | Peter Klecha                                                                      | <sub>[May&nbsp;2023][promise-defer-notes]</sub>                       |
 | [Array Grouping][array-grouping]                                               | Justin Ridgewell                                      | Justin Ridgewell<br />Jordan Harband                                              | <sub>[May&nbsp;2023][array-grouping-notes]</sub>                      |
+| [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                       | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                               | <sub>July&nbsp;2023</sub>                                             |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -181,3 +182,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [time-zone-canon-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-17.md#time-zone-canonicalization-for-stage-2
 [promise-defer]: https://github.com/tc39/proposal-promise-with-resolvers
 [promise-defer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-17.md#promisewithresolvers-for-stage-2
+[lazy-import]: https://github.com/tc39/proposal-defer-import-eval
+[lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#defer-module-import-eval
