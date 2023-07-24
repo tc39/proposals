@@ -40,6 +40,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Import Attributes][import-attributes]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo   | <sub>[import-attributes][import-attributes-tests]</sub>             | <sub>[March&nbsp;2023][import-attributes-notes]</sub>      |
 | [Array Grouping][array-grouping]                                               | Justin Ridgewell                                                        | Justin Ridgewell<br />Jordan Harband                                    | <sub>[array-grouping][array-grouping-tests]                         | <sub>July&nbsp;2023</sub>                                  |
 | [`Promise.withResolvers`][promise-defer]                                       | Peter Klecha                                                            | Peter Klecha                                                            | :question:                                                          | <sub>July&nbsp;2023</sub>                                  |
+| [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | :question:                                                          | <sub>July&nbsp;2023</sub>                                  |
 
 ### Stage 2
 
@@ -60,7 +61,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Destructure Private Fields][destructure-private]                              | Justin Ridgewell                                      | Justin Ridgewell                                                                  | <sub>[December&nbsp;2021][destructure-private-notes]</sub>            |
 | [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]        | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[December&nbsp;2021][regexp-buffer-boundaries-notes]</sub>       |
 | [String.dedent][string.dedent]                                                 | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell  | Hemanth HM<br />Justin Ridgewell                                                  | <sub>[June&nbsp;2022][string.dedent-notes]</sub>                      |
-| [Import Reflection][import-reflection]                                         | Luca Casonato                                         | Guy Bedford<br />Luca Casonato                                                    | <sub>[November&nbsp;2022][import-reflection-notes]</sub>              |
 | [JSON.parseImmutable][json-parse-immutable]                                    | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | <sub>July&nbsp;2022</sub>                                 |
 | [Module Declarations][module-declarations]                                     | Daniel Ehrenberg<br />Nicolò Ribaudo                  | Daniel Ehrenberg<br />Mark Miller<br />Nicolò Ribaudo                             | <sub>[November&nbsp;2022][module-declarations-notes]</sub>            |
 | [Symbol Predicates][symbol-predicates]                                         | Robin Ricard<br />Jordan Harband                      | Ashley Claymore<br />Jordan Harband                                               | <sub>[January&nbsp;2023][symbol-predicates-notes]</sub>               |
@@ -160,8 +160,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [named-groups-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=regexp-duplicate-named-groups
 [string.dedent]: https://github.com/tc39/proposal-string-dedent
 [string.dedent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
-[import-reflection]: https://github.com/tc39/proposal-import-reflection
-[import-reflection-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#import-reflection
+[source-phase-imports]: https://github.com/tc39/proposal-source-phase-imports
 [json-parse-immutable]: https://github.com/tc39/proposal-json-parseimmutable
 [set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#set-methods
