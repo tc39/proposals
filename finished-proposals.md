@@ -57,7 +57,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Well-Formed Unicode Strings][usv-string]                                | Guy Bedford<br />Bradley Farias                        | Guy Bedford<br />Bradley Farias<br />Michael Ficarra    | [May 2023][usv-string-notes]                | 2024                      |
 | [`Atomics.waitAsync`][nonblocking]                                       | Lars Hansen                                            | Shu-yu Guo<br />Lars Hansen                             | [May 2023][nonblocking-notes]               | 2024                      |
 | [RegExp v flag with set notation + properties of strings][regexp-v-flag] | Markus Scherer<br />Mathias Bynens                     | Mathias Bynens                                          | [May 2023][regexp-v-flag-notes]             | 2024                      |
-
+| [Resizable and growable ArrayBuffers][resizable]                         | Shu-yu Guo                                             | Shu-yu Guo                                              | September&nbsp;2023]                        | 2024                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -169,3 +169,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [nonblocking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#atomicswaitasync-for-stage-4
 [regexp-v-flag]: https://github.com/tc39/proposal-regexp-v-flag
 [regexp-v-flag-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#regexp-v-flag-for-stage-4
+[resizable]: https://github.com/tc39/proposal-resizablearraybuffer
+[resizable-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#resizable-arraybuffers-for-stage-3
