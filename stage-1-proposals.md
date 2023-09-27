@@ -279,12 +279,12 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [await-dictionary-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1
 [class-param-decorators]: https://github.com/tc39/proposal-class-method-parameter-decorators
 [class-param-decorators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#class-constructor-and-method-parameter-decorators
-[optional-assign]: https://github.com/nicolo-ribaudo/proposal-optional-chaining-assignment
+[optional-assign]: https://github.com/tc39/proposal-optional-chaining-assignment
 [optional-assign-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#optional-chaining-in-assignment-lhs-for-stage-1-or-2
 [dataview-uint8c]: https://github.com/tc39/proposal-dataview-get-set-uint8clamped
 [dataview-uint8c-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#dataview-getset-uint8clamped-methods-for-stage-1-or-2-or-3
-[sequencing]: https://github.com/michaelficarra/proposal-iterator-sequencing
-[joint]: https://github.com/michaelficarra/proposal-joint-iteration
-[stable-format]: https://github.com/eemeli/proposal-stable-formatting
+[sequencing]: https://github.com/tc39/proposal-iterator-sequencing
+[joint]: https://github.com/tc39/proposal-joint-iteration
+[stable-format]: https://github.com/tc39/proposal-stable-formatting
 [negated-in]: https://github.com/gorosgobe/proposal-negated-in-instanceof
 [locale-extensions]: https://github.com/ben-allen/locale-extensions
