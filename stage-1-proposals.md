@@ -94,8 +94,8 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Prototype pollution mitigation][proto-pollution]                                            | Santiago Díaz<br />Jun Kokatsu                         | Shu-Yu Guo                                            | <sub>[January&nbsp;2023][proto-pollution-notes]</sub>             |
 | [Await Dictionary][await-dictionary]                                                         | Alexander J. Vincent                                   | Ashley Claymore<br />Jordan Harband<br />Chris de Almeida | <sub>[March&nbsp;2023][await-dictionary-notes]</sub>          |
 | [Class Method Parameter Decorators][class-param-decorators]                                  | Ron Buckton                                            | Ron Buckton                                           | <sub>[March&nbsp;2023][class-param-decorators-notes]</sub>        |
-| [Optional chaining in assignment LHS][optional-assign]                                       | Nicolò Ribaudo                                         | Nicolò Ribaudo                                        | <sub>July&nbsp;2023<sub>                                          |
-| [DataView get/set Uint8Clamped methods][dataview-uint8c]                                     | Jordan Harband                                         | Jordan Harband                                        | <sub>July&nbsp;2023</sub>                                         |
+| [Optional chaining in assignment LHS][optional-assign]                                       | Nicolò Ribaudo                                         | Nicolò Ribaudo                                        | <sub>[July&nbsp;2023][optional-assign-notes]<sub>                 |
+| [DataView get/set Uint8Clamped methods][dataview-uint8c]                                     | Jordan Harband                                         | Jordan Harband                                        | <sub>[July&nbsp;2023][dataview-uint8c-notes]</sub>                |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -275,4 +275,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [class-param-decorators]: https://github.com/tc39/proposal-class-method-parameter-decorators
 [class-param-decorators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#class-constructor-and-method-parameter-decorators
 [optional-assign]: https://github.com/nicolo-ribaudo/proposal-optional-chaining-assignment
+[optional-assign-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#optional-chaining-in-assignment-lhs-for-stage-1-or-2
 [dataview-uint8c]: https://github.com/tc39/proposal-dataview-get-set-uint8clamped
+[dataview-uint8c-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#dataview-getset-uint8clamped-methods-for-stage-1-or-2-or-3

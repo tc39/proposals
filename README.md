@@ -37,9 +37,9 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]                  | Leo Balter                                                              | Leo Balter<br />Kevin Gibbons                                           | :question:                                                          | <sub>[May&nbsp;2023][float16s-notes]</sub>                 |
 | [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                           | Kristen Hewell Garrett                                                           | :question:                                                          | <sub>[May&nbsp;2023][decorator-metadata-notes]</sub>       |
 | [Import Attributes][import-attributes]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo   | <sub>[import-attributes][import-attributes-tests]</sub>             | <sub>[March&nbsp;2023][import-attributes-notes]</sub>      |
-| [Array Grouping][array-grouping]                                               | Justin Ridgewell                                                        | Justin Ridgewell<br />Jordan Harband                                    | <sub>[array-grouping][array-grouping-tests]                         | <sub>July&nbsp;2023</sub>                                  |
-| [`Promise.withResolvers`][promise-defer]                                       | Peter Klecha                                                            | Peter Klecha                                                            | :question:                                                          | <sub>July&nbsp;2023</sub>                                  |
-| [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | :question:                                                          | <sub>July&nbsp;2023</sub>                                  |
+| [Array Grouping][array-grouping]                                               | Justin Ridgewell                                                        | Justin Ridgewell<br />Jordan Harband                                    | <sub>[array-grouping][array-grouping-tests]                         | <sub>[July&nbsp;2023][array-grouping-notes]</sub>          |
+| [`Promise.withResolvers`][promise-defer]                                       | Peter Klecha                                                            | Peter Klecha                                                            | :question:                                                          | <sub>[July&nbsp;2023][promise-defer-notes]</sub>           |
+| [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | :question:                                                          | <sub>[July&nbsp;2023][source-phase-imports-notes]</sub>    |
 
 ### Stage 2
 
@@ -67,8 +67,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Iterator.range][iterator-range]                                               | Jack Works                                            | Jack Works                                                                        | <sub>[March&nbsp;2023][iterator-range-notes]</sub>                    |
 | [Async Context][async-context]                                                 | Chengzhong Wu                                         | Chengzhong Wu<br />Justin Ridgewell                                               | <sub>[March&nbsp;2023][async-context-notes]</sub>                     |
 | [Time Zone Canonicalization][time-zone-canon]                                  | Justin Grant                                          | Justin Grant<br />Richard Gibson                                                  | <sub>[May&nbsp;2023][time-zone-canon-notes]</sub>                     |
-| [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                       | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                               | <sub>July&nbsp;2023</sub>                                             |
-| [`RegExp.escape`][escape]                                         | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband                                                             | <sub>September&nbsp;2023</sub>                                        |
+| [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                       | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                               | <sub>[July&nbsp;2023][lazy-import-notes]</sub>                        |
+| [`RegExp.escape`][escape]                                         | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband                                                                          | <sub>September&nbsp;2023</sub>                                        |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -141,7 +141,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [destructure-private]: https://github.com/tc39/proposal-destructuring-private
 [destructure-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
 [array-grouping]: https://github.com/tc39/proposal-array-grouping
-[array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-18.md#continuation-arrayprototypegroup-rename-for-web-compatibility
+[array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#array-grouping-for-stage-3
 [array-grouping-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=array-grouping
 [from-async]: https://github.com/tc39/proposal-array-from-async
 [from-async-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-14.md#arrayfromasync-for-stage-3
@@ -158,6 +158,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [string.dedent]: https://github.com/tc39/proposal-string-dedent
 [string.dedent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
 [source-phase-imports]: https://github.com/tc39/proposal-source-phase-imports
+[source-phase-imports-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-12.md#source-phase-imports-for-stage-3
 [json-parse-immutable]: https://github.com/tc39/proposal-json-parseimmutable
 [set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#set-methods
@@ -177,8 +178,8 @@ Note that as part of the onboarding process your repository name may be normaliz
 [time-zone-canon]: https://github.com/tc39/proposal-canonical-tz#readme
 [time-zone-canon-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-17.md#time-zone-canonicalization-for-stage-2
 [promise-defer]: https://github.com/tc39/proposal-promise-with-resolvers
-[promise-defer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-17.md#promisewithresolvers-for-stage-2
+[promise-defer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#promisewithresolvers
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
-[lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#defer-module-import-eval
+[lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#deferred-import-evaluation
 [escape]: https://github.com/tc39/proposal-regex-escaping
 [escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#revisiting-regexp-escape
