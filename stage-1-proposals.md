@@ -99,6 +99,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Iterator Sequencing][sequencing]                                                            | Michael Ficarra                                        | Michael Ficarra                                       | <sub>September&nbsp;2023</sub>                                    |
 | [Joint Iteration][joint]                                                                     | Michael Ficarra                                        | Michael Ficarra                                       | <sub>September&nbsp;2023</sub>                                    |
 | [Stable Formatting][stable-format]                                                           | Eemeli Aro                                             | Eemeli Aro                                            | <sub>September&nbsp;2023</sub>                                    |
+| [Negated `in` and `instanceof` operators][negated-in]                                        | Pablo Gorostiaga Belio                                 | Pablo Gorostiaga Belio                                | <sub>September&nbsp;2023</sub>                                    |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -284,3 +285,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [sequencing]: https://github.com/michaelficarra/proposal-iterator-sequencing
 [joint]: https://github.com/michaelficarra/proposal-joint-iteration
 [stable-format]: https://github.com/eemeli/proposal-stable-formatting
+[negated-in]: https://github.com/gorosgobe/proposal-negated-in-instanceof
