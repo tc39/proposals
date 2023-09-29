@@ -57,7 +57,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Well-Formed Unicode Strings][usv-string]                                | Guy Bedford<br />Bradley Farias                        | Guy Bedford<br />Bradley Farias<br />Michael Ficarra    | [May 2023][usv-string-notes]                | 2024                      |
 | [`Atomics.waitAsync`][nonblocking]                                       | Lars Hansen                                            | Shu-yu Guo<br />Lars Hansen                             | [May 2023][nonblocking-notes]               | 2024                      |
 | [RegExp v flag with set notation + properties of strings][regexp-v-flag] | Markus Scherer<br />Mathias Bynens                     | Mathias Bynens                                          | [May 2023][regexp-v-flag-notes]             | 2024                      |
-| [Resizable and growable ArrayBuffers][resizable]                         | Shu-yu Guo                                             | Shu-yu Guo                                              | September&nbsp;2023]                        | 2024                      |
+| [Resizable and growable ArrayBuffers][resizable]                         | Shu-yu Guo                                             | Shu-yu Guo                                              | September 2023                        | 2024                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
