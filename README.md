@@ -129,7 +129,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
 [json-parse-source-notes]: https://github.com/tc39/notes/blob/main/meetings/2022-06/jun-07.md#jsonparse-source-text-access
 [import-attributes]: https://github.com/tc39/proposal-import-attributes
-[import-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-02.md#import-assertions
+[import-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#import-assertionsattributes-for-stage-3
 [import-attributes-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=import-assertions
 [module-expressions]: https://github.com/tc39/proposal-module-expressions
 [module-expressions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions
