@@ -73,7 +73,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [`async do` expressions][async-do]                                                           | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>[January&nbsp;2021][async-do-notes]</sub>                    |
 | [Class Brand Checks][class-brand-check]                                                      | HE Shi-Jun                                             | HE Shi-Jun                                            | <sub>[January&nbsp;2021][class-brand-check-notes]</sub>           |
 | [Limited ArrayBuffer][limited-array-buffer]                                                  | Jack Works                                             | Jack Works                                            | <sub>[April&nbsp;2021][limited-array-buffer-notes]</sub>          |
-| [ArrayBuffer to/from Base64][arraybuffer-base64]                                             | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>[July&nbsp;2021][arraybuffer-base64-notes]</sub>             |
 | [BigInt Math][bigint-math]                                                                   | J.S. Choi                                              | J.S. Choi                                             | <sub>[August&nbsp;2021][bigint-math-notes]</sub>                  |
 | [Get Intrinsic][get-intrinsic]                                                               | Jordan Harband                                         | Jordan Harband                                        | <sub>[August&nbsp;2021][get-intrinsic-notes]</sub>                |
 | [Structs: Fixed Layout Objects and Some Synchronization Primitives][structs]                 | Shu-yu Guo                                             | Shu-yu Guo                                            | <sub>[August&nbsp;2021][structs-notes]</sub>                      |
@@ -237,8 +236,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [class-brand-check-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#class-brand-checks
 [limited-array-buffer]: https://github.com/tc39/proposal-limited-arraybuffer
 [limited-array-buffer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#read-only-arraybuffer-and-fixed-view-of-arraybuffer-for-stage-1
-[arraybuffer-base64]: https://github.com/tc39/proposal-arraybuffer-base64
-[arraybuffer-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#arraybuffer-tofrom-base64
 [bigint-math]: https://github.com/tc39/proposal-bigint-math
 [bigint-math-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#bigint-math-update
 [get-intrinsic]: https://github.com/tc39/proposal-get-intrinsic
