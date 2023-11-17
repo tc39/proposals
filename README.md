@@ -25,20 +25,20 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [JSON Modules][json-modules]                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | <sub>[json-modules][json-modules-tests]</sub>                       | <sub>[January&nbsp;2021][json-modules-notes]</sub>         |
 | [Temporal][temporal]                                                           | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant| <sub>[Temporal][temporal-tests]</sub> | <sub>[March&nbsp;2021][temporal-notes]</sub> |
 | [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis                                | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | <sub>[ShadowRealm][realms-tests]</sub> | <sub>[December&nbsp;2022][realms-notes]</sub>              |
-| [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Kristen Hewell Garrett                                     | Kristen Hewell Garrett                                                           | <sub>[decorators][decorators-tests]</sub>                           | <sub>[March&nbsp;2023][decorators-notes]</sub>             |
-| [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                                          | Richard Gibson                                                          | :question:                                                          | <sub>[January&nbsp;2023][json-parse-source-notes]</sub>    |
-| [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                                          | <sub>[June&nbsp;2022][regexp-modifiers-notes]</sub>        |
+| [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Kristen Hewell Garrett                            | Kristen Hewell Garrett                                                  | <sub>[decorators][decorators-tests]</sub>                           | <sub>[March&nbsp;2023][decorators-notes]</sub>             |
+| [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                                          | Richard Gibson                                                          | <sub>[json-parse-with-source][json-parse-source-tests]</sub>        | <sub>[January&nbsp;2023][json-parse-source-notes]</sub>    |
+| [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                                             | Ron Buckton                                                             | <sub>[regexp-modifiers][regexp-modifiers-tests]</sub>               | <sub>[June&nbsp;2022][regexp-modifiers-notes]</sub>        |
 | [Duplicate named capture groups][named-capture-groups]                         | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[regexp-duplicate-named-groups][named-groups-tests]</sub>      | <sub>[July&nbsp;2022][named-capture-groups-notes]</sub>    |
 | [`Array.fromAsync`][from-async]                                                | J.S. Choi                                                               | J.S. Choi                                                               | <sub>[Array.fromAsync][from-async-tests]</sub>                      | <sub>[May&nbsp;2023][from-async-notes]</sub>               |
-| [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons                 | Kevin Gibbons                                                           | :question:                                                          | <sub>[November&nbsp;2022][set-methods-notes]</sub>         |
-| [Sync Iterator helpers][iterator-helpers]                                      | Gus Caplan                                                              | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                 | :question: <sub>(see [outdated][iterator-helpers-tests])</sub>      | <sub>[November&nbsp;2022][iterator-helpers-notes]</sub>    |
-| [Explicit Resource Management][resource-management]                            | Ron Buckton                                                             | Ron Buckton                                                             | :question:                                                          | <sub>[March&nbsp;2023][resource-management-notes]</sub>    |
+| [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons                 | Kevin Gibbons                                                           | <sub>[set-methods][set-methods-tests]</sub>                         | <sub>[November&nbsp;2022][set-methods-notes]</sub>         |
+| [Sync Iterator helpers][iterator-helpers]                                      | Gus Caplan                                                              | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                 | <sub>[iterator-helpers][iterator-helpers-tests]</sub>               | <sub>[November&nbsp;2022][iterator-helpers-notes]</sub>    |
+| [Explicit Resource Management][resource-management]                            | Ron Buckton                                                             | Ron Buckton                                                             | <sub>[explicit-resource-management][resource-management-tests]      | <sub>[March&nbsp;2023][resource-management-notes]</sub>    |
 | [ArrayBuffer transfer][arraybuffer-transfer]                                   | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                       | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                       | <sub>[arraybuffer-transfer][arraybuffer-transfer-tests]</sub>       | <sub>[January&nbsp;2023][arraybuffer-transfer-notes]</sub> |
 | [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]                  | Leo Balter                                                              | Leo Balter<br />Kevin Gibbons                                           | :question:                                                          | <sub>[May&nbsp;2023][float16s-notes]</sub>                 |
-| [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                           | Kristen Hewell Garrett                                                           | :question:                                                          | <sub>[May&nbsp;2023][decorator-metadata-notes]</sub>       |
+| [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | :question:                                                          | <sub>[May&nbsp;2023][decorator-metadata-notes]</sub>       |
 | [Import Attributes][import-attributes]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo   | <sub>[import-attributes][import-attributes-tests]</sub>             | <sub>[March&nbsp;2023][import-attributes-notes]</sub>      |
 | [Array Grouping][array-grouping]                                               | Justin Ridgewell                                                        | Justin Ridgewell<br />Jordan Harband                                    | <sub>[array-grouping][array-grouping-tests]                         | <sub>[July&nbsp;2023][array-grouping-notes]</sub>          |
-| [`Promise.withResolvers`][promise-defer]                                       | Peter Klecha                                                            | Peter Klecha                                                            | :question:                                                          | <sub>[July&nbsp;2023][promise-defer-notes]</sub>           |
+| [`Promise.withResolvers`][promise-defer]                                       | Peter Klecha                                                            | Peter Klecha                                                            | <sub>[promise-with-resolvers][promise-defer-tests]</sub>            | <sub>[July&nbsp;2023][promise-defer-notes]</sub>           |
 | [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | :question:                                                          | <sub>[July&nbsp;2023][source-phase-imports-notes]</sub>    |
 
 ### Stage 2
@@ -67,7 +67,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Async Context][async-context]                                                 | Chengzhong Wu                                         | Chengzhong Wu<br />Justin Ridgewell                                               | <sub>[March&nbsp;2023][async-context-notes]</sub>                     |
 | [Time Zone Canonicalization][time-zone-canon]                                  | Justin Grant                                          | Justin Grant<br />Richard Gibson                                                  | <sub>[May&nbsp;2023][time-zone-canon-notes]</sub>                     |
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                       | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                               | <sub>[July&nbsp;2023][lazy-import-notes]</sub>                        |
-| [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband                                                                    | <sub>[September&nbsp;2023][escape-notes]</sub>                 |
+| [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband                                                             | <sub>[September&nbsp;2023][escape-notes]</sub>                 |
 | [Uint8Array to/from Base64][uint8array-base64]                                 | Kevin Gibbons                                         | Kevin Gibbons                                                                     | <sub>[July&nbsp;2023][uint8array-base64-notes]<br />September&nbsp;2023</sub> |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
@@ -107,13 +107,14 @@ Note that as part of the onboarding process your repository name may be normaliz
 [unicode-sequence-properties-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions
 [resource-management]: https://github.com/tc39/proposal-explicit-resource-management
 [resource-management-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#explicit-resource-management-for-stage-3
+[resource-management-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=explicit-resource-management
 [async-resource-management]: https://github.com/tc39/proposal-async-explicit-resource-management
 [standard-library]: https://github.com/tc39/proposal-javascript-standard-library
 [standard-library-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-26.md#javascript-standard-library
 [collection-rekey]: https://github.com/tc39/proposal-collection-normalization
 [iterator-helpers]: https://github.com/tc39/proposal-iterator-helpers
 [iterator-helpers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#iterator-helpers-for-stage-3
-[iterator-helpers-tests]: https://github.com/tc39/test262/pull/2818
+[iterator-helpers-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=iterator-helpers
 [async-iterator-helpers]: https://github.com/tc39/proposal-async-iterator-helpers
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [isTemplateObject]: https://github.com/tc39/proposal-array-is-template-object
@@ -129,6 +130,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [record-tuple-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#records-and-tuples
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
 [json-parse-source-notes]: https://github.com/tc39/notes/blob/main/meetings/2022-06/jun-07.md#jsonparse-source-text-access
+[json-parse-source-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=json-parse-with-source
 [import-attributes]: https://github.com/tc39/proposal-import-attributes
 [import-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#import-assertionsattributes-for-stage-3
 [import-attributes-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=import-assertions
@@ -146,6 +148,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [from-async-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=Array.fromAsync
 [regexp-modifiers]: https://github.com/tc39/proposal-regexp-modifiers
 [regexp-modifiers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#regexp-modifiers
+[regexp-modifiers-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=regexp-modifiers
 [regexp-buffer-boundaries]: https://github.com/tc39/proposal-regexp-buffer-boundaries
 [regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
 [decorator-metadata]: https://github.com/tc39/proposal-decorator-metadata
@@ -160,6 +163,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [json-parse-immutable]: https://github.com/tc39/proposal-json-parseimmutable
 [set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#set-methods
+[set-methods-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=set-methods
 [arraybuffer-transfer]: https://github.com/tc39/proposal-arraybuffer-transfer
 [arraybuffer-transfer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#arraybuffer-transfer-for-stage-3
 [arraybuffer-transfer-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=arraybuffer-transfer
@@ -177,6 +181,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [time-zone-canon-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-17.md#time-zone-canonicalization-for-stage-2
 [promise-defer]: https://github.com/tc39/proposal-promise-with-resolvers
 [promise-defer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#promisewithresolvers
+[promise-defer-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=promise-with-resolvers
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
 [lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#deferred-import-evaluation
 [escape]: https://github.com/tc39/proposal-regex-escaping
