@@ -37,7 +37,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]                  | Leo Balter                                                              | Leo Balter<br />Kevin Gibbons                                           | :question:                                                          | <sub>[May&nbsp;2023][float16s-notes]</sub>                 |
 | [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | :question:                                                          | <sub>[May&nbsp;2023][decorator-metadata-notes]</sub>       |
 | [Import Attributes][import-attributes]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo   | <sub>[import-attributes][import-attributes-tests]</sub>             | <sub>[March&nbsp;2023][import-attributes-notes]</sub>      |
-| [Array Grouping][array-grouping]                                               | Justin Ridgewell                                                        | Justin Ridgewell<br />Jordan Harband                                    | <sub>[array-grouping][array-grouping-tests]                         | <sub>[July&nbsp;2023][array-grouping-notes]</sub>          |
 | [`Promise.withResolvers`][promise-defer]                                       | Peter Klecha                                                            | Peter Klecha                                                            | <sub>[promise-with-resolvers][promise-defer-tests]</sub>            | <sub>[July&nbsp;2023][promise-defer-notes]</sub>           |
 | [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | :question:                                                          | <sub>[July&nbsp;2023][source-phase-imports-notes]</sub>    |
 
@@ -140,9 +139,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [pipe-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#pipeline-operator-for-stage-2
 [destructure-private]: https://github.com/tc39/proposal-destructuring-private
 [destructure-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
-[array-grouping]: https://github.com/tc39/proposal-array-grouping
-[array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#array-grouping-for-stage-3
-[array-grouping-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=array-grouping
 [from-async]: https://github.com/tc39/proposal-array-from-async
 [from-async-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-14.md#arrayfromasync-for-stage-3
 [from-async-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=Array.fromAsync
