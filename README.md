@@ -37,7 +37,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]                  | Leo Balter                                                              | Leo Balter<br />Kevin Gibbons                                           | :question:                                                          | <sub>[May&nbsp;2023][float16s-notes]</sub>                 |
 | [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | :question:                                                          | <sub>[May&nbsp;2023][decorator-metadata-notes]</sub>       |
 | [Import Attributes][import-attributes]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo   | <sub>[import-attributes][import-attributes-tests]</sub>             | <sub>[March&nbsp;2023][import-attributes-notes]</sub>      |
-| [`Promise.withResolvers`][promise-defer]                                       | Peter Klecha                                                            | Peter Klecha                                                            | <sub>[promise-with-resolvers][promise-defer-tests]</sub>            | <sub>[July&nbsp;2023][promise-defer-notes]</sub>           |
 | [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | :question:                                                          | <sub>[July&nbsp;2023][source-phase-imports-notes]</sub>    |
 
 ### Stage 2
@@ -175,9 +174,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [async-context-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#async-context
 [time-zone-canon]: https://github.com/tc39/proposal-canonical-tz#readme
 [time-zone-canon-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-17.md#time-zone-canonicalization-for-stage-2
-[promise-defer]: https://github.com/tc39/proposal-promise-with-resolvers
-[promise-defer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#promisewithresolvers
-[promise-defer-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=promise-with-resolvers
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
 [lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#deferred-import-evaluation
 [escape]: https://github.com/tc39/proposal-regex-escaping
