@@ -100,6 +100,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Stable Formatting][stable-format]                                                           | Eemeli Aro                                             | Eemeli Aro                                            | <sub>[September&nbsp;2023][stable-format-notes]</sub>             |
 | [Negated `in` and `instanceof` operators][negated-in]                                        | Pablo Gorostiaga Belio                                 | Pablo Gorostiaga Belio                                | <sub>[September&nbsp;2023][negated-in-notes]</sub>                |
 | [Locale Extensions][locale-extensions]                                                       | Ben Allen                                              | Ben Allen                                             | <sub>[September&nbsp;2023][locale-extensions-notes]</sub>         |
+| [Math.sum][math-sum]                                                                         | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>November&nbsp;2023</sub>                                     |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -290,3 +291,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [negated-in-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#negated-in-and-instanceof-operators-for-stage-1
 [locale-extensions]: https://github.com/ben-allen/locale-extensions
 [locale-extensions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#locale-extensions-for-stage-1
+[math-sum]: https://github.com/bakkot/proposal-math-sum
