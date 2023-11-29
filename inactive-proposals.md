@@ -41,6 +41,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [WeakRefs `cleanupSome`][cleanup-some]                               | Yulia Startsev<br />Daniel Ehrenberg                       | Withdrawn; subsumed by WebAssembly JS Promise Integration, which avoids the long task issue |
 | [Operator overloading][overloading]                                  | Daniel Ehrenberg                                           | Withdrawn |
 | [Extensible numeric literals][extensible-literals]                   | Daniel Ehrenberg                                           | Withdrawn |
+| [JSON.tryParse][json-tryparse]                                       | Jack Works                                                 | Rejected; some deemed this too specific a solution for a generalized language-wide problem |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -95,3 +96,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [overloading-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
 [extensible-literals]: https://github.com/tc39/proposal-extended-numeric-literals
 [extensible-literals-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#numeric-literal-suffixes-update-separate-namespace-version
+[json-tryparse]: https://github.com/Jack-Works/proposal-json-tryParse
