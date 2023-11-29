@@ -18,7 +18,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [`do` expressions][do]                                                                       | Dave Herman                                           | Kevin Gibbons                                          | <sub>[June&nbsp;2020][do-notes]</sub>                             |
 | Change `Number.parseInt`/`parseFloat` to not coerce `null`/`undefined`/`NaN` (repo link TBD) |                                                       | Brendan Eich                                           | <sub>[July&nbsp;2017][parseInt-to-parseFloat]</sub>               |
 | [Binary AST][binary-ast]                                                                     | Shu-yu Guo                                            | Shu-yu Guo                                             | <sub>[May&nbsp;2018][binary-ast-notes]</sub>                      |
-| [Extensible numeric literals][extensible-literals]                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[September&nbsp;2020][extensible-literals-notes]             |
 | [First-class protocols][protocols]                                                           | Michael Ficarra                                       | Michael Ficarra                                        | <sub>[July&nbsp;2018][protocols-notes]</sub>                      |
 | [Partial application][partial-application]                                                   | Ron Buckton                                           | Ron Buckton                                            | <sub>[July&nbsp;2018][partial-application-notes]</sub>            |
 | [Cancellation API][cancel-api]                                                               | Ron Buckton                                           | Ron Buckton<br />Brian Terlson                         | <sub>[July&nbsp;2018][cancel-api-notes]</sub>                     |
@@ -53,7 +52,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Wavy Dot: Syntactic Support for Promise Pipelining][promise-pipelining]                     | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>[December&nbsp;2019][promise-pipelining-notes]</sub>         |
 | [OOM Fails Fast][oom]                                                                        | Mark Miller                                           | Mark Miller                                            | <sub>[December&nbsp;2019][oom-notes]</sub>                        |
 | [Array filtering][array-filtering]                                                           | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>[February&nbsp;2020][array-filtering-notes]</sub>            |
-| [Operator overloading][overloading]                                                          | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>[December&nbsp;2019][overloading-notes]</sub>                |
 | [Async initialization][async-init]                                                           | Bradley Farias                                        | Bradley Farias                                         | <sub>[February&nbsp;2020][async-init-notes]</sub>                 |
 | [Decimal][decimal]                                                                           | Daniel Ehrenberg<br />Andrew Paprocki                 | Philip Chimento<br />Andrew Paprocki<br />Jesse Alama  | <sub>[December&nbsp;2021][decimal-notes]</sub>                    |
 | [Preserve Host Virtualizability][virtualize]                    | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | Mark Miller<br />J.F. Paradis<br />Caridy Patiño<br />Dan Finley<br />Alan Schmitt | <sub>[February&nbsp;2020][virtualize-notes]</sub> |
@@ -127,8 +125,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [parseInt-to-parseFloat]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-26.md#13iib-consider-changing-numberparseint-and-numberparsefloat
 [binary-ast]: https://github.com/tc39/proposal-binary-ast
 [binary-ast-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-24.md#binary-ast
-[extensible-literals]: https://github.com/tc39/proposal-extended-numeric-literals
-[extensible-literals-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#numeric-literal-suffixes-update-separate-namespace-version
 [protocols]: https://github.com/tc39/proposal-first-class-protocols
 [protocols-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#updates-on-first-class-protocols
 [partial-application]: https://github.com/tc39/proposal-partial-application
@@ -197,8 +193,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [oom-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-oom-must-fail-fast
 [array-filtering]: https://github.com/tc39/proposal-array-filtering
 [array-filtering-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#status-update-on-array-filtering
-[overloading]: https://github.com/tc39/proposal-operator-overloading
-[overloading-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
 [decimal]: https://github.com/tc39/proposal-decimal
 [decimal-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#decimals
 [virtualize]: https://github.com/Agoric/proposal-preserve-virtualizability

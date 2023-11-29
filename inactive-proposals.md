@@ -39,6 +39,8 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Function.pipe and flow][pipe-flow]                                  | J.S. Choi                                                  | Withdrawn: [rejected for stage 1][pipe-flow-notes]                                            |
 | [`Symbol.thenable`][symbol-thenable]                                 | Gus Caplan<br />Jordan Harband<br />Myles Borins           | Withdrawn; changing thenability on Module Namespace objects is not web compatible, and allowing non-Promise use of "then" is not worth slowing down all Promise operations |
 | [WeakRefs `cleanupSome`][cleanup-some]                               | Yulia Startsev<br />Daniel Ehrenberg                       | Withdrawn; subsumed by WebAssembly JS Promise Integration, which avoids the long task issue |
+| [Operator overloading][overloading]                                  | Daniel Ehrenberg                                           | Withdrawn |
+| [Extensible numeric literals][extensible-literals]                   | Daniel Ehrenberg                                           | Withdrawn |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -89,3 +91,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [symbol-thenable-notes]: https://github.com/tc39/notes/blob/def2ee0c04bc91612576237314a4f3b1fe2edaef/meetings/2018-05/may-24.md#symbolthenable-for-stage-1-or-2
 [cleanup-some]: https://github.com/tc39/proposal-cleanup-some
 [cleanup-some-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
+[overloading]: https://github.com/tc39/proposal-operator-overloading
+[overloading-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
+[extensible-literals]: https://github.com/tc39/proposal-extended-numeric-literals
+[extensible-literals-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#numeric-literal-suffixes-update-separate-namespace-version
