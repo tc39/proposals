@@ -58,8 +58,8 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Atomics.waitAsync`][nonblocking]                                       | Lars Hansen                                            | Shu-yu Guo<br />Lars Hansen                             | [May 2023][nonblocking-notes]               | 2024                      |
 | [RegExp v flag with set notation + properties of strings][regexp-v-flag] | Markus Scherer<br />Mathias Bynens                     | Mathias Bynens                                          | [May 2023][regexp-v-flag-notes]             | 2024                      |
 | [Resizable and growable ArrayBuffers][resizable]                         | Shu-yu Guo                                             | Shu-yu Guo                                              | [September 2023][resizable-notes]           | 2024                      |
-| [Array Grouping][array-grouping]                                         | Justin Ridgewell                                       | Justin Ridgewell<br />Jordan Harband                    | November 2023                               | 2024                      |
-| [`Promise.withResolvers`][promise-defer]                                 | Peter Klecha                                           | Peter Klecha                                            | November 2023                               | 2024                      |
+| [Array Grouping][array-grouping]                                         | Justin Ridgewell                                       | Justin Ridgewell<br />Jordan Harband                    | [November 2023][array-grouping-notes]       | 2024                      |
+| [`Promise.withResolvers`][promise-defer]                                 | Peter Klecha                                           | Peter Klecha                                            | [November 2023][promise-defer-notes]        | 2024                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -174,6 +174,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [resizable]: https://github.com/tc39/proposal-resizablearraybuffer
 [resizable-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#resizable-buffers-for-stage-4
 [array-grouping]: https://github.com/tc39/proposal-array-grouping
-[array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#array-grouping-for-stage-3
+[array-grouping-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-27.md#array-grouping-for-stage-4
 [promise-defer]: https://github.com/tc39/proposal-promise-with-resolvers
-[promise-defer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#promisewithresolvers
+[promise-defer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-27.md#promisewithresolvers-for-stage-4
