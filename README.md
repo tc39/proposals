@@ -33,7 +33,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons                 | Kevin Gibbons                                                           | <sub>[set-methods][set-methods-tests]</sub>                         | <sub>[November&nbsp;2022][set-methods-notes]</sub>         |
 | [Sync Iterator helpers][iterator-helpers]                                      | Gus Caplan                                                              | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                 | <sub>[iterator-helpers][iterator-helpers-tests]</sub>               | <sub>[November&nbsp;2022][iterator-helpers-notes]</sub>    |
 | [Explicit Resource Management][resource-management]                            | Ron Buckton                                                             | Ron Buckton                                                             | <sub>[explicit-resource-management][resource-management-tests]      | <sub>[March&nbsp;2023][resource-management-notes]</sub>    |
-| [ArrayBuffer transfer][arraybuffer-transfer]                                   | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                       | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli                       | <sub>[arraybuffer-transfer][arraybuffer-transfer-tests]</sub>       | <sub>[January&nbsp;2023][arraybuffer-transfer-notes]</sub> |
 | [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]                  | Leo Balter                                                              | Leo Balter<br />Kevin Gibbons                                           | :question:                                                          | <sub>[May&nbsp;2023][float16s-notes]</sub>                 |
 | [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | :question:                                                          | <sub>[May&nbsp;2023][decorator-metadata-notes]</sub>       |
 | [Import Attributes][import-attributes]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo   | <sub>[import-attributes][import-attributes-tests]</sub>             | <sub>[March&nbsp;2023][import-attributes-notes]</sub>      |
@@ -161,9 +160,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#set-methods
 [set-methods-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=set-methods
-[arraybuffer-transfer]: https://github.com/tc39/proposal-arraybuffer-transfer
-[arraybuffer-transfer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#arraybuffer-transfer-for-stage-3
-[arraybuffer-transfer-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=arraybuffer-transfer
 [module-declarations]: https://github.com/tc39/proposal-module-declarations
 [module-declarations-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
 [symbol-predicates]: https://github.com/tc39/proposal-symbol-predicates
