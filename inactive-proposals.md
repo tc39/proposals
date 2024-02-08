@@ -44,6 +44,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [JSON.tryParse][json-tryparse]                                       | Jack Works                                                 | Rejected; some deemed this too specific a solution for a generalized language-wide problem |
 | [`Math` Extensions][more-math]                                       | Rick Waldron                                               | Withdrawn: no interested champions in February 2024 |
 | [Generator arrow functions][generator-arrow-functions]               | Sergey Rubanov<br />Brendan Eich                           | Withdrawn: no interested champions in February 2024 |
+| [`Math.signbit`: IEEE-754 sign bit][signbit]                         | JF Bastien                                                 | Withdrawn: no interested champions in February 2024 |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -103,3 +104,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [more-math-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9iie-math-extensions
 [generator-arrow-functions]: https://github.com/tc39/proposal-generator-arrow-functions
 [generator-arrow-functions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-27.md#11ic-generator-arrow-functions
+[signbit]: https://github.com/tc39/proposal-Math.signbit
+[signbit-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-23.md#16ib-mathsignbit-proposal
