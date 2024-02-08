@@ -101,6 +101,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Improved Escapes for Template Literals][template-literals]                                  | HE Shi-Jun                                             | HE Shi-Jun                                            | <sub>February&nbsp;2024</sub>                                     |
 | [ESM Phase Imports][esm-phase]                                                               | Luca Casonato<br />Guy Bedford                         | Luca Casonato<br />Guy Bedford                        | <sub>February&nbsp;2024</sub>                                     |
 | [Function and Object Literal Decorators][func-obj-decs]                                      | Ron Buckton                                            | Ron Buckton                                           | <sub>February&nbsp;2024</sub>                                     |
+| ["Discard" (`void`) Bindings][discards]                                                      | Ron Buckton                                            | Ron Buckton                                           | <sub>February&nbsp;2024</sub>                                     |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -287,3 +288,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [template-literals]: https://github.com/hax/proposal-raw-string-literals
 [esm-phase]: https://github.com/lucacasonato/proposal-esm-phase-imports
 [func-obj-decs]: https://github.com/rbuckton/proposal-function-decorators
+[discards]: https://github.com/rbuckton/proposal-void-binding
