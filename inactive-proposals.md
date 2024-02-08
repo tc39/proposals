@@ -43,6 +43,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Extensible numeric literals][extensible-literals]                   | Daniel Ehrenberg                                           | Withdrawn |
 | [JSON.tryParse][json-tryparse]                                       | Jack Works                                                 | Rejected; some deemed this too specific a solution for a generalized language-wide problem |
 | [`Math` Extensions][more-math]                                       | Rick Waldron                                               | Withdrawn: no interested champions in February 2024 |
+| [Generator arrow functions][generator-arrow-functions]               | Sergey Rubanov<br />Brendan Eich                           | Withdrawn: no interested champions in February 2024 |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -100,3 +101,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [json-tryparse]: https://github.com/Jack-Works/proposal-json-tryParse
 [more-math]: https://github.com/rwaldron/proposal-math-extensions
 [more-math-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9iie-math-extensions
+[generator-arrow-functions]: https://github.com/tc39/proposal-generator-arrow-functions
+[generator-arrow-functions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-27.md#11ic-generator-arrow-functions
