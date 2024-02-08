@@ -99,6 +99,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Micro and mini waits][tinywaits]                                                            | Shu-Yu Guo                                             | Shu-Yu Guo                                            | <sub>February&nbsp;2024</sub>                                     |
 | [iterator chunking][chunking]                                                                | Michael Ficarra                                        | Michael Ficarra                                       | <sub>February&nbsp;2024</sub>                                     |
 | [Improved Escapes for Template Literals][template-literals]                                  | HE Shi-Jun                                             | HE Shi-Jun                                            | <sub>February&nbsp;2024</sub>                                     |
+| [ESM Phase Imports][esm-phase]                                                               | Luca Casonato<br />Guy Bedford                         | Luca Casonato<br />Guy Bedford                        | <sub>February&nbsp;2024</sub>                                     |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -283,3 +284,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [tinywaits]: https://github.com/syg/proposal-atomics-microwait
 [chunking]: https://github.com/michaelficarra/proposal-iterator-chunking
 [template-literals]: https://github.com/hax/proposal-raw-string-literals
+[esm-phase]: https://github.com/lucacasonato/proposal-esm-phase-imports
