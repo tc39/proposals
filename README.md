@@ -73,6 +73,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband                                                             | <sub>[September&nbsp;2023][escape-notes]</sub>                        |
 | [Joint Iteration][joint]                                                       | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>February&nbsp;2024</sub>                                        |
 | [`Promise.try`][try]                                                           | Jordan Harband                                        | Jordan Harband                                                                    | <sub>February&nbsp;2024</sub>                                         |
+| [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>February&nbsp;2024</sub>                                         |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -187,3 +188,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#joint-iteration-for-stage-1
 [try]: https://github.com/tc39/proposal-promise-try
 [try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-11/nov-29.md#11iib-promisetry
+[redeclarable-global-eval-vars]: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars
