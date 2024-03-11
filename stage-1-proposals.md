@@ -23,7 +23,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [`{BigInt,Number}.fromString`][from-string]                                                  | Mathias Bynens                                        | Mathias Bynens                                         | <sub>[January&nbsp;2018][from-string-notes]</sub>                 |
 | [`Math.seededRandoms()`][seeded-randoms]                                                     | Tab Atkins                                            | Tab Atkins                                             | <sub>[January&nbsp;2018][seeded-randoms-notes]</sub>              |
 | [Maximally minimal mixins][mixins]                                                           | Justin Fagnani                                        | Justin Fagnani                                         | <sub>[January&nbsp;2018][mixins-notes]</sub>                      |
-| [Getting last element of Array][arraylast]                                                   | Keith Cirkel                                          | Keith Cirkel                                           | <sub>[January&nbsp;2018][arraylast-notes]</sub>                   |
 | [Collection methods][collection-methods]                                                     | Michał Wadas                                          | Sathya Gunasekaran                                     | <sub>[January&nbsp;2018][collection-methods-notes] </sub>         |
 | [Richer Keys][richer-keys]                                                                   | Bradley Farias                                        | Bradley Farias                                         | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                 |
 | [Slice notation][slice-notation]                                                             | Sathya Gunasekaran                                    | Sathya Gunasekaran                                     | <sub>[July&nbsp;2020][slice-notation-notes]</sub>                 |
@@ -138,8 +137,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [seeded-randoms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
 [mixins]: https://github.com/justinfagnani/proposal-mixins
 [mixins-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal
-[arraylast]: https://github.com/tc39/proposal-array-last
-[arraylast-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#13iiim-getting-last-item-from-array-for-stage-2
 [collection-methods]: https://github.com/tc39/proposal-collection-methods
 [collection-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiik-new-set-builtin-methods-for-stage-2
 [richer-keys]: https://github.com/tc39/proposal-richer-keys
