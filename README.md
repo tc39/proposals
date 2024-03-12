@@ -28,24 +28,24 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Array.fromAsync`][from-async]                                                | J.S. Choi                                                               | J.S. Choi                                                               | <sub>[Array.fromAsync][from-async-tests]</sub>                      | <sub>[May&nbsp;2023][from-async-notes]</sub>               |
 | [Sync Iterator helpers][iterator-helpers]                                      | Gus Caplan                                                              | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                 | <sub>[iterator-helpers][iterator-helpers-tests]</sub>               | <sub>[November&nbsp;2022][iterator-helpers-notes]</sub>    |
 | [Explicit Resource Management][resource-management]                            | Ron Buckton                                                             | Ron Buckton                                                             | <sub>[explicit-resource-management][resource-management-tests]      | <sub>[March&nbsp;2023][resource-management-notes]</sub>    |
-| [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]                  | Leo Balter                                                              | Leo Balter<br />Kevin Gibbons                                           | :question:                                                          | <sub>[May&nbsp;2023][float16s-notes]</sub>                 |
-| [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | :question:                                                          | <sub>[May&nbsp;2023][decorator-metadata-notes]</sub>       |
+| [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]                  | Leo Balter                                                              | Leo Balter<br />Kevin Gibbons                                           | <sub>[Float16Array][float16s-tests]</sub>                           | <sub>[May&nbsp;2023][float16s-notes]</sub>                 |
+| [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | <sub>[decorator-metadata][decorator-metadata-tests]</sub>           | <sub>[May&nbsp;2023][decorator-metadata-notes]</sub>       |
 | [Import Attributes][import-attributes]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo   | <sub>[import-attributes][import-attributes-tests]</sub>             | <sub>[March&nbsp;2023][import-attributes-notes]</sub>      |
-| [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | :question:                                                          | <sub>[July&nbsp;2023][source-phase-imports-notes]</sub>    |
-| [Uint8Array to/from Base64][uint8array-base64]                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | :question:                                                          | <sub>[February&nbsp;2024][uint8array-base64-notes]</sub>   |
+| [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | <sub>[source-phase-imports][source-phase-imports-tests]</sub>       | <sub>[July&nbsp;2023][source-phase-imports-notes]</sub>    |
+| [Uint8Array to/from Base64][uint8array-base64]                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[uint8array-base64][uint8array-base64-tests]</sub>             | <sub>[February&nbsp;2024][uint8array-base64-notes]</sub>   |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel<br />Nicolo Ribaudo                | :question:                                                          | <sub>April&nbsp;2024</sub>                                  |
 | [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | :question:                                                          | <sub>[April&nbsp;2024][redeclarable-global-eval-vars-notes]</sub> |
-| [`Promise.try`][try]                                                           | Jordan Harband                                                          | Jordan Harband                                                          | :question:                                                          | <sub>June&nbsp;2024</sub>                                  |
+| [`Promise.try`][try]                                                           | Jordan Harband                                                          | Jordan Harband                                                          | <sub>[promise-try][try-tests]</sub>                                 | <sub>June&nbsp;2024</sub>                                  |
 
 ### Stage 2.7
 
 | Proposal                                                                       | Author                                                                  | Champion                                                                | <sub>Test262 Feature Flag</sub>                                     | <sub>Last Presented</sub>                                  |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
 | [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis   | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | <sub>[ShadowRealm][realms-tests]</sub>                              | <sub>[February&nbsp;2024][realms-notes]</sub>              |
-| [`Math.sumPrecise`][math-sum]                                                  | Kevin Gibbons                              | Kevin Gibbons              |                                                                         |                                                                     | <sub>[April&nbsp;2024][math-sum-notes]</sub>               |
-| [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband            | Jordan Harband<br />Kevin Gibbons                                       |                                                                     | <sub>June&nbsp;2024</sub>                                  |
-| [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     |                                                                     | <sub>June&nbsp;2024</sub>                                  |
-| [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         |                                                                     | <sub>June&nbsp;2024</sub>                                  |
+| [`Math.sumPrecise`][math-sum]                                                  | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[Math.sumPrecise][math-sum-tests]</sub>                        | <sub>[April&nbsp;2024][math-sum-notes]</sub>               |
+| [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband            | Jordan Harband<br />Kevin Gibbons                                       | <sub>[Testing plan][escape-testplan]                                | <sub>[June&nbsp;2024][escape-notes]</sub>                  |
+| [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>[June&nbsp;2024][lazy-import-notes]</sub>             |
+| [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>[June&nbsp;2024][joint-notes]</sub>                   |
 
 ### Stage 2
 
@@ -158,11 +158,13 @@ Note that as part of the onboarding process your repository name may be normaliz
 [regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
 [decorator-metadata]: https://github.com/tc39/proposal-decorator-metadata
 [decorator-metadata-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
+[decorator-metadata-tests]: https://github.com/tc39/test262/pull/3971
 [named-groups-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=regexp-duplicate-named-groups
 [string.dedent]: https://github.com/tc39/proposal-string-dedent
 [string.dedent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
 [source-phase-imports]: https://github.com/tc39/proposal-source-phase-imports
 [source-phase-imports-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-12.md#source-phase-imports-for-stage-3
+[source-phase-imports-tests]: https://github.com/tc39/test262/pull/3980
 [json-parse-immutable]: https://github.com/tc39/proposal-json-parseimmutable
 [module-declarations]: https://github.com/tc39/proposal-module-declarations
 [module-declarations-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
@@ -172,24 +174,31 @@ Note that as part of the onboarding process your repository name may be normaliz
 [iterator-range-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#iteratorrange-for-stage-2
 [float16s]: https://github.com/tc39/proposal-float16array
 [float16s-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#float16array-for-stage-3
+[float16s-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=Float16Array
 [async-context]: https://github.com/tc39/proposal-async-context
 [async-context-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#async-context
 [time-zone-canon]: https://github.com/tc39/proposal-canonical-tz#readme
 [time-zone-canon-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-17.md#time-zone-canonicalization-for-stage-2
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
 [lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#deferred-import-evaluation
+[lazy-import-testplan]: https://github.com/tc39/test262/issues/4111
 [escape]: https://github.com/tc39/proposal-regex-escaping
 [escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#regexpescape-for-stage-2
+[escape-testplan]: https://github.com/tc39/test262/issues/4122
 [uint8array-base64]: https://github.com/tc39/proposal-arraybuffer-base64
 [uint8array-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#uint8array-base64-for-stages-27-and-3
+[uint8array-base64-tests]: https://github.com/tc39/test262/pull/3994
 [joint]: https://github.com/tc39/proposal-joint-iteration
 [joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#joint-iteration-for-stage-2
+[joint-testplan]: https://github.com/tc39/test262/issues/4112
 [try]: https://github.com/tc39/proposal-promise-try
 [try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#promisetry-for-stage-27
+[try-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=promise-try
 [redeclarable-global-eval-vars]: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars
 [redeclarable-global-eval-vars-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
 [math-sum]: https://github.com/bakkot/proposal-math-sum
 [math-sum-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#mathsumexact-for-stage-27
+[math-sum-tests]: https://github.com/tc39/test262/pull/4049
 [dynamic-code-brand-checks]: https://github.com/tc39/proposal-dynamic-code-brand-checks
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
 [is-error]: https://github.com/tc39/proposal-is-error
