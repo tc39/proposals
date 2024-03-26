@@ -32,11 +32,11 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons                 | Kevin Gibbons                                                           | <sub>[set-methods][set-methods-tests]</sub>                         | <sub>[November&nbsp;2022][set-methods-notes]</sub>         |
 | [Sync Iterator helpers][iterator-helpers]                                      | Gus Caplan                                                              | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                 | <sub>[iterator-helpers][iterator-helpers-tests]</sub>               | <sub>[November&nbsp;2022][iterator-helpers-notes]</sub>    |
 | [Explicit Resource Management][resource-management]                            | Ron Buckton                                                             | Ron Buckton                                                             | <sub>[explicit-resource-management][resource-management-tests]      | <sub>[March&nbsp;2023][resource-management-notes]</sub>    |
-| [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]                  | Leo Balter                                                              | Leo Balter<br />Kevin Gibbons                                           | :question:                                                          | <sub>[May&nbsp;2023][float16s-notes]</sub>                 |
-| [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | :question:                                                          | <sub>[May&nbsp;2023][decorator-metadata-notes]</sub>       |
+| [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]                  | Leo Balter                                                              | Leo Balter<br />Kevin Gibbons                                           | <sub>[Float16Array][float16s-tests]</sub>                           | <sub>[May&nbsp;2023][float16s-notes]</sub>                 |
+| [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | <sub>[decorator-metadata][decorator-metadata-tests]</sub>           | <sub>[May&nbsp;2023][decorator-metadata-notes]</sub>       |
 | [Import Attributes][import-attributes]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo   | <sub>[import-attributes][import-attributes-tests]</sub>             | <sub>[March&nbsp;2023][import-attributes-notes]</sub>      |
-| [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | :question:                                                          | <sub>[July&nbsp;2023][source-phase-imports-notes]</sub>    |
-| [Uint8Array to/from Base64][uint8array-base64]                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | :question:                                                          | <sub>February&nbsp;2024</sub>                              |
+| [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | <sub>[source-phase-imports][source-phase-imports-tests]</sub>       | <sub>[July&nbsp;2023][source-phase-imports-notes]</sub>    |
+| [Uint8Array to/from Base64][uint8array-base64]                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[uint8array-base64][uint8array-base64-tests]</sub>             | <sub>February&nbsp;2024</sub>                              |
 
 ### Stage 2.7
 
@@ -152,6 +152,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
 [decorator-metadata]: https://github.com/tc39/proposal-decorator-metadata
 [decorator-metadata-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
+[decorator-metadata-tests]: https://github.com/tc39/test262/pull/3971
 [named-capture-groups]: https://github.com/tc39/proposal-duplicate-named-capturing-groups
 [named-capture-groups-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-20.md#duplicate-named-capturing-groups-for-stage-3
 [named-groups-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=regexp-duplicate-named-groups
@@ -159,6 +160,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [string.dedent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
 [source-phase-imports]: https://github.com/tc39/proposal-source-phase-imports
 [source-phase-imports-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-12.md#source-phase-imports-for-stage-3
+[source-phase-imports-tests]: https://github.com/tc39/test262/pull/3980
 [json-parse-immutable]: https://github.com/tc39/proposal-json-parseimmutable
 [set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#set-methods
@@ -171,6 +173,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [iterator-range-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#iteratorrange-for-stage-2
 [float16s]: https://github.com/tc39/proposal-float16array
 [float16s-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#float16array-for-stage-3
+[float16s-tests]: https://github.com/tc39/test262/pull/4017
 [async-context]: https://github.com/tc39/proposal-async-context
 [async-context-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#async-context
 [time-zone-canon]: https://github.com/tc39/proposal-canonical-tz#readme
@@ -181,6 +184,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#regexpescape-for-stage-2
 [uint8array-base64]: https://github.com/tc39/proposal-arraybuffer-base64
 [uint8array-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-12.md#base64
+[uint8array-base64-tests]: https://github.com/tc39/test262/pull/3994
 [joint]: https://github.com/tc39/proposal-joint-iteration
 [joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#joint-iteration-for-stage-1
 [try]: https://github.com/tc39/proposal-promise-try
