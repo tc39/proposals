@@ -46,6 +46,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Generator arrow functions][generator-arrow-functions]               | Sergey Rubanov<br />Brendan Eich                           | Withdrawn: no interested champions in February 2024 |
 | [`Math.signbit`: IEEE-754 sign bit][signbit]                         | JF Bastien                                                 | Withdrawn: no interested champions in February 2024 |
 | [Getting last element of Array][arraylast]                           | Keith Cirkel                                               | Withdrawn; the [Array#at](https://github.com/tc39/proposal-relative-indexing-method) proposal supersedes this work. |
+| [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                                   | Withdrawn; subsumed by [RegExp v flag with set notation + properties of strings][regexp-v-flag] proposal |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -108,3 +109,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [signbit]: https://github.com/tc39/proposal-Math.signbit
 [signbit-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-23.md#16ib-mathsignbit-proposal
 [arraylast]: https://github.com/tc39/proposal-array-last
+[unicode-sequence-properties]: https://github.com/tc39/proposal-regexp-unicode-sequence-properties
+[unicode-sequence-properties-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions
+[regexp-v-flag]: https://github.com/tc39/proposal-regexp-v-flag
