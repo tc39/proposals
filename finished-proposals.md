@@ -60,9 +60,9 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Resizable and growable ArrayBuffers][resizable]                         | Shu-yu Guo                                             | Shu-yu Guo                                              | [September 2023][resizable-notes]           | 2024                      |
 | [Array Grouping][array-grouping]                                         | Justin Ridgewell                                       | Justin Ridgewell<br />Jordan Harband                    | [November 2023][array-grouping-notes]       | 2024                      |
 | [`Promise.withResolvers`][promise-defer]                                 | Peter Klecha                                           | Peter Klecha                                            | [November 2023][promise-defer-notes]        | 2024                      |
-| [ArrayBuffer transfer][arraybuffer-transfer]                             | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli      | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli       | February&nbsp;2024                          | 2024                      |
-| [Duplicate named capture groups][named-capture-groups]                   | Kevin Gibbons                                          | Kevin Gibbons                                           | April&nbsp;2024                             | 2025                      |
-| [New Set methods][set-methods]                                           | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons | Kevin Gibbons                                          | April&nbsp;2024                             | 2025                      |
+| [ArrayBuffer transfer][arraybuffer-transfer]                             | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli      | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli       | [February 2024][arraybuffer-transfer-notes] | 2024                      |
+| [Duplicate named capture groups][named-capture-groups]                   | Kevin Gibbons                                          | Kevin Gibbons                                           | April 2024                                  | 2025                      |
+| [New Set methods][set-methods]                                           | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons | Kevin Gibbons                                          | April 2024                                  | 2025                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -181,7 +181,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [promise-defer]: https://github.com/tc39/proposal-promise-with-resolvers
 [promise-defer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-27.md#promisewithresolvers-for-stage-4
 [arraybuffer-transfer]: https://github.com/tc39/proposal-arraybuffer-transfer
-[arraybuffer-transfer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#arraybuffer-transfer-for-stage-3
+[arraybuffer-transfer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#arraybuffer-transfer-for-stage-4
 [named-capture-groups]: https://github.com/tc39/proposal-duplicate-named-capturing-groups
 [named-capture-groups-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-20.md#duplicate-named-capturing-groups-for-stage-3
 [set-methods]: https://github.com/tc39/proposal-set-methods

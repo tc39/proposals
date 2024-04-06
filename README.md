@@ -34,13 +34,13 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | :question:                                                          | <sub>[May&nbsp;2023][decorator-metadata-notes]</sub>       |
 | [Import Attributes][import-attributes]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo   | <sub>[import-attributes][import-attributes-tests]</sub>             | <sub>[March&nbsp;2023][import-attributes-notes]</sub>      |
 | [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | :question:                                                          | <sub>[July&nbsp;2023][source-phase-imports-notes]</sub>    |
-| [Uint8Array to/from Base64][uint8array-base64]                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | :question:                                                          | <sub>February&nbsp;2024</sub>                              |
+| [Uint8Array to/from Base64][uint8array-base64]                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | :question:                                                          | <sub>[February&nbsp;2024][uint8array-base64-notes]</sub>   |
 
 ### Stage 2.7
 
 | Proposal                                                                       | Author                                                                  | Champion                                                                | <sub>Test262 Feature Flag</sub>                                     | <sub>Last Presented</sub>                                  |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
-| [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis   | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | <sub>[ShadowRealm][realms-tests]</sub>                              | <sub>February&nbsp;2024</sub>                              |
+| [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis   | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | <sub>[ShadowRealm][realms-tests]</sub>                              | <sub>[February&nbsp;2024][realms-notes]</sub>              |
 
 ### Stage 2
 
@@ -68,8 +68,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Time Zone Canonicalization][time-zone-canon]                                  | Justin Grant                                          | Justin Grant<br />Richard Gibson                                                  | <sub>[May&nbsp;2023][time-zone-canon-notes]</sub>                     |
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                       | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                               | <sub>[July&nbsp;2023][lazy-import-notes]</sub>                        |
 | [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband                                                             | <sub>[September&nbsp;2023][escape-notes]</sub>                        |
-| [Joint Iteration][joint]                                                       | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>February&nbsp;2024</sub>                                        |
-| [`Promise.try`][try]                                                           | Jordan Harband                                        | Jordan Harband                                                                    | <sub>February&nbsp;2024</sub>                                         |
+| [Joint Iteration][joint]                                                       | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>[February&nbsp;2024][joint-notes]</sub>                          |
+| [`Promise.try`][try]                                                           | Jordan Harband                                        | Jordan Harband                                                                    | <sub>[February&nbsp;2024][try-notes]</sub>                            |
 | [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>February&nbsp;2024</sub>                                         |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
@@ -94,7 +94,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [decorators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
 [decorators-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=decorators
 [shadowrealm]: https://github.com/tc39/proposal-shadowrealm
-[realms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#shadowrealms-updates-and-potential-normative-changes
+[realms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#shadowrealms-update
 [realms-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=ShadowRealm
 [temporal]: https://github.com/tc39/proposal-temporal
 [temporal-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#temporal-update
@@ -173,9 +173,9 @@ Note that as part of the onboarding process your repository name may be normaliz
 [escape]: https://github.com/tc39/proposal-regex-escaping
 [escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#regexpescape-for-stage-2
 [uint8array-base64]: https://github.com/tc39/proposal-arraybuffer-base64
-[uint8array-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-12.md#base64
+[uint8array-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#uint8array-base64-for-stages-27-and-3
 [joint]: https://github.com/tc39/proposal-joint-iteration
-[joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#joint-iteration-for-stage-1
+[joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#joint-iteration-for-stage-2
 [try]: https://github.com/tc39/proposal-promise-try
-[try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-11/nov-29.md#11iib-promisetry
+[try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#promisetry-for-stage-2
 [redeclarable-global-eval-vars]: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars

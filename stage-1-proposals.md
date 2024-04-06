@@ -94,13 +94,13 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Locale Extensions][locale-extensions]                                                       | Ben Allen                                              | Ben Allen                                             | <sub>[September&nbsp;2023][locale-extensions-notes]</sub>         |
 | [Math.sum][math-sum]                                                                         | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>[November&nbsp;2023][math-sum-notes]</sub>                   |
 | [Module sync assert][module-sync-assert]                                                     | Jack Works                                             | Jack Works                                            | <sub>[November&nbsp;2023][module-sync-assert-notes]</sub>         |
-| [Iterator unique][iterator-unique]                                                           | Michael Ficarra                                        | Michael Ficarra                                       | <sub>February&nbsp;2024</sub>                                     |
-| [Micro and mini waits][tinywaits]                                                            | Shu-yu Guo                                             | Shu-yu Guo                                            | <sub>February&nbsp;2024</sub>                                     |
-| [iterator chunking][chunking]                                                                | Michael Ficarra                                        | Michael Ficarra                                       | <sub>February&nbsp;2024</sub>                                     |
-| [Improved Escapes for Template Literals][template-literals]                                  | HE Shi-Jun                                             | HE Shi-Jun                                            | <sub>February&nbsp;2024</sub>                                     |
-| [ESM Phase Imports][esm-phase]                                                               | Luca Casonato<br />Guy Bedford                         | Luca Casonato<br />Guy Bedford                        | <sub>February&nbsp;2024</sub>                                     |
-| [Function and Object Literal Decorators][func-obj-decs]                                      | Ron Buckton                                            | Ron Buckton                                           | <sub>February&nbsp;2024</sub>                                     |
-| ["Discard" (`void`) Bindings][discards]                                                      | Ron Buckton                                            | Ron Buckton                                           | <sub>February&nbsp;2024</sub>                                     |
+| [Iterator unique][iterator-unique]                                                           | Michael Ficarra                                        | Michael Ficarra                                       | <sub>[February&nbsp;2024][iterator-unique-notes]</sub>            |
+| [Micro and mini waits][tinywaits]                                                            | Shu-yu Guo                                             | Shu-yu Guo                                            | <sub>[February&nbsp;2024][tinywaits-notes]</sub>                  |
+| [iterator chunking][chunking]                                                                | Michael Ficarra                                        | Michael Ficarra                                       | <sub>[February&nbsp;2024][chunking-notes]</sub>                   |
+| [Improved Escapes for Template Literals][template-literals]                                  | HE Shi-Jun                                             | HE Shi-Jun                                            | <sub>[February&nbsp;2024][template-literals-notes]</sub>          |
+| [ESM Phase Imports][esm-phase]                                                               | Luca Casonato<br />Guy Bedford                         | Luca Casonato<br />Guy Bedford                        | <sub>[February&nbsp;2024][esm-phase-notes]</sub>                  |
+| [Function and Object Literal Decorators][func-obj-decs]                                      | Ron Buckton                                            | Ron Buckton                                           | <sub>[February&nbsp;2024][func-obj-decs-notes]</sub>              |
+| ["Discard" (`void`) Bindings][discards]                                                      | Ron Buckton                                            | Ron Buckton                                           | <sub>[February&nbsp;2024][discards-notes]</sub>                   |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -280,9 +280,16 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [module-sync-assert]: https://github.com/Jack-Works/proposal-module-sync-assert
 [module-sync-assert-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-29.md#module-sync-assert-for-stage-1
 [iterator-unique]: https://github.com/michaelficarra/proposal-iterator-unique
+[iterator-unique-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#iterator-unique-for-stage-1
 [tinywaits]: https://github.com/syg/proposal-atomics-microwait
+[tinywaits-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#micro-and-mini-waits-in-js-for-stage-1
 [chunking]: https://github.com/michaelficarra/proposal-iterator-chunking
+[chunking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#iterator-chunking-for-stage-1
 [template-literals]: https://github.com/hax/proposal-raw-string-literals
+[template-literals-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#raw-string-literals-for-stage-1
 [esm-phase]: https://github.com/lucacasonato/proposal-esm-phase-imports
+[esm-phase-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#esm-phase-imports-for-stage-1
 [func-obj-decs]: https://github.com/rbuckton/proposal-function-decorators
+[func-obj-decs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#function-and-object-literal-element-decorators-for-stage-1
 [discards]: https://github.com/rbuckton/proposal-void-binding
+[discards-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#discard-void-bindings-for-stage-1
