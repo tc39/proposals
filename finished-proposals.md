@@ -62,6 +62,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Promise.withResolvers`][promise-defer]                                 | Peter Klecha                                           | Peter Klecha                                            | [November 2023][promise-defer-notes]        | 2024                      |
 | [ArrayBuffer transfer][arraybuffer-transfer]                             | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli      | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli       | February&nbsp;2024                          | 2024                      |
 | [Duplicate named capture groups][named-capture-groups]                   | Kevin Gibbons                                          | Kevin Gibbons                                           | April&nbsp;2024                             | 2025                      |
+| [New Set methods][set-methods]                                           | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons | Kevin Gibbons                                          | April&nbsp;2024                             | 2025                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -183,3 +184,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [arraybuffer-transfer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#arraybuffer-transfer-for-stage-3
 [named-capture-groups]: https://github.com/tc39/proposal-duplicate-named-capturing-groups
 [named-capture-groups-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-20.md#duplicate-named-capturing-groups-for-stage-3
+[set-methods]: https://github.com/tc39/proposal-set-methods
+[set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#set-methods

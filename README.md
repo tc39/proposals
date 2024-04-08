@@ -28,7 +28,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                                          | Richard Gibson                                                          | <sub>[json-parse-with-source][json-parse-source-tests]</sub>        | <sub>[January&nbsp;2023][json-parse-source-notes]</sub>    |
 | [RegExp Modifiers][regexp-modifiers]                                           | Ron Buckton                                                             | Ron Buckton                                                             | <sub>[regexp-modifiers][regexp-modifiers-tests]</sub>               | <sub>[June&nbsp;2022][regexp-modifiers-notes]</sub>        |
 | [`Array.fromAsync`][from-async]                                                | J.S. Choi                                                               | J.S. Choi                                                               | <sub>[Array.fromAsync][from-async-tests]</sub>                      | <sub>[May&nbsp;2023][from-async-notes]</sub>               |
-| [New Set methods][set-methods]                                                 | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons                 | Kevin Gibbons                                                           | <sub>[set-methods][set-methods-tests]</sub>                         | <sub>[November&nbsp;2022][set-methods-notes]</sub>         |
 | [Sync Iterator helpers][iterator-helpers]                                      | Gus Caplan                                                              | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                 | <sub>[iterator-helpers][iterator-helpers-tests]</sub>               | <sub>[November&nbsp;2022][iterator-helpers-notes]</sub>    |
 | [Explicit Resource Management][resource-management]                            | Ron Buckton                                                             | Ron Buckton                                                             | <sub>[explicit-resource-management][resource-management-tests]      | <sub>[March&nbsp;2023][resource-management-notes]</sub>    |
 | [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]                  | Leo Balter                                                              | Leo Balter<br />Kevin Gibbons                                           | :question:                                                          | <sub>[May&nbsp;2023][float16s-notes]</sub>                 |
@@ -157,9 +156,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [source-phase-imports]: https://github.com/tc39/proposal-source-phase-imports
 [source-phase-imports-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-12.md#source-phase-imports-for-stage-3
 [json-parse-immutable]: https://github.com/tc39/proposal-json-parseimmutable
-[set-methods]: https://github.com/tc39/proposal-set-methods
-[set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#set-methods
-[set-methods-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=set-methods
 [module-declarations]: https://github.com/tc39/proposal-module-declarations
 [module-declarations-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
 [symbol-predicates]: https://github.com/tc39/proposal-symbol-predicates
