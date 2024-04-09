@@ -92,7 +92,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Stable Formatting][stable-format]                                                           | Eemeli Aro                                             | Eemeli Aro                                            | <sub>[September&nbsp;2023][stable-format-notes]</sub>             |
 | [Negated `in` and `instanceof` operators][negated-in]                                        | Pablo Gorostiaga Belio                                 | Pablo Gorostiaga Belio                                | <sub>[September&nbsp;2023][negated-in-notes]</sub>                |
 | [Locale Extensions][locale-extensions]                                                       | Ben Allen                                              | Ben Allen                                             | <sub>[September&nbsp;2023][locale-extensions-notes]</sub>         |
-| [Math.sum][math-sum]                                                                         | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>[November&nbsp;2023][math-sum-notes]</sub>                   |
 | [Module sync assert][module-sync-assert]                                                     | Jack Works                                             | Jack Works                                            | <sub>[November&nbsp;2023][module-sync-assert-notes]</sub>         |
 | [Iterator unique][iterator-unique]                                                           | Michael Ficarra                                        | Michael Ficarra                                       | <sub>[February&nbsp;2024][iterator-unique-notes]</sub>            |
 | [Micro and mini waits][tinywaits]                                                            | Shu-yu Guo                                             | Shu-yu Guo                                            | <sub>[February&nbsp;2024][tinywaits-notes]</sub>                  |
@@ -275,8 +274,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [negated-in-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#negated-in-and-instanceof-operators-for-stage-1
 [locale-extensions]: https://github.com/ben-allen/locale-extensions
 [locale-extensions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#locale-extensions-for-stage-1
-[math-sum]: https://github.com/bakkot/proposal-math-sum
-[math-sum-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-28.md#mathsum
 [module-sync-assert]: https://github.com/Jack-Works/proposal-module-sync-assert
 [module-sync-assert-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-29.md#module-sync-assert-for-stage-1
 [iterator-unique]: https://github.com/michaelficarra/proposal-iterator-unique

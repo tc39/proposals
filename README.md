@@ -71,6 +71,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband<br />Kevin Gibbons                                          | <sub>[September&nbsp;2023][escape-notes]</sub>                        |
 | [Joint Iteration][joint]                                                       | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>[February&nbsp;2024][joint-notes]</sub>                          |
 | [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>February&nbsp;2024</sub>                                         |
+| [Math.sum][math-sum]                                                           | Kevin Gibbons                                         | Kevin Gibbons                                                                     | <sub>[February&nbsp;2024][math-sum-notes]</sub>                       |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -179,3 +180,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [try]: https://github.com/tc39/proposal-promise-try
 [try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#promisetry-for-stage-2
 [redeclarable-global-eval-vars]: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars
+[math-sum]: https://github.com/bakkot/proposal-math-sum
+[math-sum-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-02/feb-6.md#mathsum
