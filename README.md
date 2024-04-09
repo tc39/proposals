@@ -41,7 +41,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | Proposal                                                                       | Author                                                                  | Champion                                                                | <sub>Test262 Feature Flag</sub>                                     | <sub>Last Presented</sub>                                  |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
 | [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis   | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | <sub>[ShadowRealm][realms-tests]</sub>                              | <sub>[February&nbsp;2024][realms-notes]</sub>              |
-| [`Promise.try`][try]                                                           | Jordan Harband                             | Jordan Harband               | <sub>April&nbsp;2024</sub>                                 |
+| [`Promise.try`][try]                                                           | Jordan Harband                             | Jordan Harband               |                                                            | <sub>April&nbsp;2024</sub>                                 |
+| [`Math.sumPrecise`][math-sum]                                                  | Kevin Gibbons                              | Kevin Gibbons                |                                                            | <sub>April&nbsp;2024</sub>                                 |
 
 ### Stage 2
 
@@ -71,7 +72,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband<br />Kevin Gibbons                                          | <sub>[September&nbsp;2023][escape-notes]</sub>                        |
 | [Joint Iteration][joint]                                                       | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>[February&nbsp;2024][joint-notes]</sub>                          |
 | [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>February&nbsp;2024</sub>                                         |
-| [Math.sum][math-sum]                                                           | Kevin Gibbons                                         | Kevin Gibbons                                                                     | <sub>[February&nbsp;2024][math-sum-notes]</sub>                       |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
