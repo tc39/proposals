@@ -35,6 +35,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Import Attributes][import-attributes]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo   | <sub>[import-attributes][import-attributes-tests]</sub>             | <sub>[March&nbsp;2023][import-attributes-notes]</sub>      |
 | [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | :question:                                                          | <sub>[July&nbsp;2023][source-phase-imports-notes]</sub>    |
 | [Uint8Array to/from Base64][uint8array-base64]                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | :question:                                                          | <sub>[February&nbsp;2024][uint8array-base64-notes]</sub>   |
+| [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel</br />Nicolo Ribaudo                | :question:                                                          | <sub>April&nbsp;2024</sub>                                 |
 
 ### Stage 2.7
 
@@ -182,3 +183,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [redeclarable-global-eval-vars]: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars
 [math-sum]: https://github.com/bakkot/proposal-math-sum
 [math-sum-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-02/feb-6.md#mathsum
+[dynamic-code-brand-checks]: https://github.com/tc39/proposal-dynamic-code-brand-checks
+[dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
