@@ -100,6 +100,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Function and Object Literal Decorators][func-obj-decs]                                      | Ron Buckton                                            | Ron Buckton                                           | <sub>[February&nbsp;2024][func-obj-decs-notes]</sub>              |
 | ["Discard" (`void`) Bindings][discards]                                                      | Ron Buckton                                            | Ron Buckton                                           | <sub>[February&nbsp;2024][discards-notes]</sub>                   |
 | [`Error.isError`][is-error]                                                                  | Jordan Harband                                         | Jordan Harband                                        | <sub>April&nbsp;2024</sub>                                        |
+| [Strict Enforcement of 'using'][strict-using]                                                | Ron Buckton                                            | Ron Buckton                                           | <sub>April&nbsp;2024</sub>                                        |
 | [Signals][signals]                                                                           | Rob Eisenberg<br />Daniel Ehrenberg                    | Daniel Ehrenberg<br />Yehuda Katz<br />Jatin Ramanathan | <sub>April&nbsp;2024</sub>                                      |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
@@ -291,3 +292,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [discards-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#discard-void-bindings-for-stage-1
 [is-error]: https://github.com/tc39/proposal-is-error
 [signals]: https://github.com/tc39/proposal-signals
+[strict-using]: https://github.com/rbuckton/proposal-using-enforcement
