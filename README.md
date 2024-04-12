@@ -36,6 +36,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | :question:                                                          | <sub>[July&nbsp;2023][source-phase-imports-notes]</sub>    |
 | [Uint8Array to/from Base64][uint8array-base64]                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | :question:                                                          | <sub>[February&nbsp;2024][uint8array-base64-notes]</sub>   |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel</br />Nicolo Ribaudo                | :question:                                                          | <sub>April&nbsp;2024</sub>                                 |
+| [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | :question:                                                          | <sub>April&nbsp;2024</sub>                                 |
 
 ### Stage 2.7
 
@@ -44,7 +45,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis   | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | <sub>[ShadowRealm][realms-tests]</sub>                              | <sub>[February&nbsp;2024][realms-notes]</sub>              |
 | [`Promise.try`][try]                                                           | Jordan Harband                             | Jordan Harband               |                                                            | <sub>April&nbsp;2024</sub>                                 |
 | [`Math.sumPrecise`][math-sum]                                                  | Kevin Gibbons                              | Kevin Gibbons                |                                                            | <sub>April&nbsp;2024</sub>                                 |
-| [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                 | Shu-yu Guo                   |                                                            | <sub>April&nbsp;2024</sub>                                 |
 
 ### Stage 2
 
