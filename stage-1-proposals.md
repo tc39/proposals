@@ -101,7 +101,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | ["Discard" (`void`) Bindings][discards]                                                      | Ron Buckton                                            | Ron Buckton                                           | <sub>[February&nbsp;2024][discards-notes]</sub>                   |
 | [`Error.isError`][is-error]                                                                  | Jordan Harband                                         | Jordan Harband                                        | <sub>April&nbsp;2024</sub>                                        |
 | [Strict Enforcement of 'using'][strict-using]                                                | Ron Buckton                                            | Ron Buckton                                           | <sub>April&nbsp;2024</sub>                                        |
-| [Signals][signals]                                                                           | Rob Eisenberg<br />Daniel Ehrenberg                    | Daniel Ehrenberg<br />Yehuda Katz<br />Jatin Ramanathan | <sub>April&nbsp;2024</sub>                                      |
+| [Signals][signals]                                                                           | Rob Eisenberg<br />Daniel Ehrenberg                    | Daniel Ehrenberg<br />Yehuda Katz<br />Jatin Ramanathan<br />Shay Lewis<br />Kristen Hewell Garrett<br />Dominic Gannaway<br />Preston Sego<br />Milo M<br />Rob Eisenberg | <sub>April&nbsp;2024</sub> |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
