@@ -4,6 +4,7 @@
 * [Stage 0 Proposals](stage-0-proposals.md)
 * [Finished Proposals](finished-proposals.md)
 * [Inactive Proposals](inactive-proposals.md)
+* [Onboarding Existing Proposals](#onboarding-existing-proposals)
 
 [ECMAScript Internationalization API Specification](ecma402/README.md) proposals
 
