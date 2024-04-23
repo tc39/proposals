@@ -4,13 +4,22 @@
 * [Stage 0 Proposals](stage-0-proposals.md)
 * [Finished Proposals](finished-proposals.md)
 * [Inactive Proposals](inactive-proposals.md)
-* [Onboarding Existing Proposals](#onboarding-existing-proposals)
 
 [ECMAScript Internationalization API Specification](ecma402/README.md) proposals
 
 ## Contributing new proposals
 
 Please see [Contributing to ECMAScript](https://github.com/tc39/ecma262/blob/HEAD/CONTRIBUTING.md) for the most up-to-date information on contributing proposals to this standard.
+
+### Onboarding proposals
+
+Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub organization](https://github.com/tc39) for discoverability and archival purposes. To onboard a proposal that lives outside the TC39 organization:
+
+1. Transfer your repository to the [@tc39-transfer](http://github.com/tc39-transfer) organization
+  - if you are a TC39 delegate, but not a member of that organization, please contact [@LJHarb](https://github.com/ljharb)
+2. The Github Administrator, or One of the chairs, will transfer your repository to the TC39 organization the next chance they get.
+
+Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work **as long as** you never create a fork, or a new repository, with the same name - although Github Pages redirects will be broken (please update your links!).
 
 ## Active proposals
 
@@ -77,16 +86,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
-
-### Onboarding existing proposals
-
-Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub organization](https://github.com/tc39) for discoverability and archival purposes. To onboard a proposal that lives outside the TC39 organization:
-
-1. Transfer your repository to the [@tc39-transfer](http://github.com/tc39-transfer) organization
-  - if you are a TC39 delegate, but not a member of that organization, please contact [@LJHarb](https://github.com/ljharb)
-2. The Github Administrator, or One of the chairs, will transfer your repository to the TC39 organization the next chance they get.
-
-Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work **as long as** you never create a fork, or a new repository, with the same name - although Github Pages redirects will be broken (please update your links!).
 
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features
 [regexp-legacy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-25.md#15ia-regexp-legacy-features-for-stage-3
