@@ -34,15 +34,15 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | :question:                                                          | <sub>[July&nbsp;2023][source-phase-imports-notes]</sub>    |
 | [Uint8Array to/from Base64][uint8array-base64]                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | :question:                                                          | <sub>[February&nbsp;2024][uint8array-base64-notes]</sub>   |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel<br />Nicolo Ribaudo                | :question:                                                          | <sub>April&nbsp;2024</sub>                                 |
-| [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | :question:                                                          | <sub>April&nbsp;2024</sub>                                 |
+| [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | :question:                                                          | <sub>[April&nbsp;2024][redeclarable-global-eval-vars-notes]</sub> |
 
 ### Stage 2.7
 
 | Proposal                                                                       | Author                                                                  | Champion                                                                | <sub>Test262 Feature Flag</sub>                                     | <sub>Last Presented</sub>                                  |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
 | [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis   | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | <sub>[ShadowRealm][realms-tests]</sub>                              | <sub>[February&nbsp;2024][realms-notes]</sub>              |
-| [`Promise.try`][try]                                                           | Jordan Harband                             | Jordan Harband               |                                                            | <sub>April&nbsp;2024</sub>                                 |
-| [`Math.sumPrecise`][math-sum]                                                  | Kevin Gibbons                              | Kevin Gibbons                |                                                            | <sub>April&nbsp;2024</sub>                                 |
+| [`Promise.try`][try]                                                           | Jordan Harband                             | Jordan Harband               |                                                            | <sub>[April&nbsp;2024][try-notes]</sub>                                      |
+| [`Math.sumPrecise`][math-sum]                                                  | Kevin Gibbons                              | Kevin Gibbons                |                                                            | <sub>[April&nbsp;2024][math-sum-notes]</sub>                                 |
 
 ### Stage 2
 
@@ -181,9 +181,10 @@ Note that as part of the onboarding process your repository name may be normaliz
 [joint]: https://github.com/tc39/proposal-joint-iteration
 [joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#joint-iteration-for-stage-2
 [try]: https://github.com/tc39/proposal-promise-try
-[try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#promisetry-for-stage-2
+[try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#promisetry-for-stage-27
 [redeclarable-global-eval-vars]: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars
+[redeclarable-global-eval-vars-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
 [math-sum]: https://github.com/bakkot/proposal-math-sum
-[math-sum-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-02/feb-6.md#mathsum
+[math-sum-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#mathsumexact-for-stage-27
 [dynamic-code-brand-checks]: https://github.com/tc39/proposal-dynamic-code-brand-checks
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
