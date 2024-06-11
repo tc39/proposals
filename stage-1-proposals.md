@@ -87,7 +87,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Class Method Parameter Decorators][class-param-decorators]                                  | Ron Buckton                                            | Ron Buckton                                           | <sub>[March&nbsp;2023][class-param-decorators-notes]</sub>        |
 | [Optional chaining in assignment LHS][optional-assign]                                       | Nicolò Ribaudo                                         | Nicolò Ribaudo                                        | <sub>[July&nbsp;2023][optional-assign-notes]<sub>                 |
 | [DataView get/set Uint8Clamped methods][dataview-uint8c]                                     | Jordan Harband                                         | Jordan Harband                                        | <sub>[July&nbsp;2023][dataview-uint8c-notes]</sub>                |
-| [Iterator Sequencing][sequencing]                                                            | Michael Ficarra                                        | Michael Ficarra                                       | <sub>[September&nbsp;2023][sequencing-notes]</sub>                |
 | [Stable Formatting][stable-format]                                                           | Eemeli Aro                                             | Eemeli Aro                                            | <sub>[September&nbsp;2023][stable-format-notes]</sub>             |
 | [Negated `in` and `instanceof` operators][negated-in]                                        | Pablo Gorostiaga Belio                                 | Pablo Gorostiaga Belio                                | <sub>[September&nbsp;2023][negated-in-notes]</sub>                |
 | [Locale Extensions][locale-extensions]                                                       | Ben Allen                                              | Ben Allen                                             | <sub>[September&nbsp;2023][locale-extensions-notes]</sub>         |
@@ -265,8 +264,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [optional-assign-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#optional-chaining-in-assignment-lhs-for-stage-1-or-2
 [dataview-uint8c]: https://github.com/tc39/proposal-dataview-get-set-uint8clamped
 [dataview-uint8c-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#dataview-getset-uint8clamped-methods-for-stage-1-or-2-or-3
-[sequencing]: https://github.com/tc39/proposal-iterator-sequencing
-[sequencing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#iterator-sequencing-for-stage-1
 [stable-format]: https://github.com/tc39/proposal-stable-formatting
 [stable-format-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#stable-formatting-for-stage-1
 [negated-in]: https://github.com/gorosgobe/proposal-negated-in-instanceof
