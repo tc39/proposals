@@ -99,7 +99,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [ESM Phase Imports][esm-phase]                                                               | Luca Casonato<br />Guy Bedford                         | Luca Casonato<br />Guy Bedford                        | <sub>[February&nbsp;2024][esm-phase-notes]</sub>                  |
 | [Function and Object Literal Decorators][func-obj-decs]                                      | Ron Buckton                                            | Ron Buckton                                           | <sub>[February&nbsp;2024][func-obj-decs-notes]</sub>              |
 | ["Discard" (`void`) Bindings][discards]                                                      | Ron Buckton                                            | Ron Buckton                                           | <sub>[February&nbsp;2024][discards-notes]</sub>                   |
-| [`Error.isError`][is-error]                                                                  | Jordan Harband                                         | Jordan Harband                                        | <sub>[April&nbsp;2024][is-error-notes]</sub>                      |
 | [Strict Enforcement of 'using'][strict-using]                                                | Ron Buckton                                            | Ron Buckton                                           | <sub>[April&nbsp;2024][strict-using-notes]</sub>                  |
 | [Signals][signals]                                                                           | Rob Eisenberg<br />Daniel Ehrenberg                    | Daniel Ehrenberg<br />Yehuda Katz<br />Jatin Ramanathan<br />Shay Lewis<br />Kristen Hewell Garrett<br />Dominic Gannaway<br />Preston Sego<br />Milo M<br />Rob Eisenberg | <sub>[April&nbsp;2024][signals-notes]</sub> |
 
@@ -290,8 +289,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [func-obj-decs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#function-and-object-literal-element-decorators-for-stage-1
 [discards]: https://github.com/rbuckton/proposal-void-binding
 [discards-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#discard-void-bindings-for-stage-1
-[is-error]: https://github.com/tc39/proposal-is-error
-[is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-10.md#bringing-back-erroriserror-for-stage-1-or-2-or-even-27
 [signals]: https://github.com/tc39/proposal-signals
 [signals-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#signals-for-stage-1
 [strict-using]: https://github.com/rbuckton/proposal-using-enforcement
