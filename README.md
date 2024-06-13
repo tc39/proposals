@@ -73,6 +73,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Time Zone Canonicalization][time-zone-canon]                                  | Justin Grant                                          | Justin Grant<br />Richard Gibson                                                  | <sub>[May&nbsp;2023][time-zone-canon-notes]</sub>                     |
 | [Iterator Sequencing][sequencing]                                              | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>June&nbsp;2024</sub>                                             |
 | [`Error.isError`][is-error]                                                    | Jordan Harband                                        | Jordan Harband                                                                    | <sub>June&nbsp;2024</sub>                                             |
+| [ESM Phase Imports][esm-phase]                                                 | Luca Casonato<br />Guy Bedford                        | Luca Casonato<br />Guy Bedford                                                    | <sub>June&nbsp;2024</sub>                                             |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -194,3 +195,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-10.md#bringing-back-erroriserror-for-stage-1-or-2-or-even-27
 [sequencing]: https://github.com/tc39/proposal-iterator-sequencing
 [sequencing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#iterator-sequencing-for-stage-1
+[esm-phase]: https://github.com/lucacasonato/proposal-esm-phase-imports
+[esm-phase-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#esm-phase-imports-for-stage-1
