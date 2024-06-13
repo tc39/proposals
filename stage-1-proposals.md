@@ -96,7 +96,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [iterator chunking][chunking]                                                                | Michael Ficarra                                        | Michael Ficarra                                       | <sub>[February&nbsp;2024][chunking-notes]</sub>                   |
 | [Improved Escapes for Template Literals][template-literals]                                  | HE Shi-Jun                                             | HE Shi-Jun                                            | <sub>[February&nbsp;2024][template-literals-notes]</sub>          |
 | [Function and Object Literal Decorators][func-obj-decs]                                      | Ron Buckton                                            | Ron Buckton                                           | <sub>[February&nbsp;2024][func-obj-decs-notes]</sub>              |
-| ["Discard" (`void`) Bindings][discards]                                                      | Ron Buckton                                            | Ron Buckton                                           | <sub>[February&nbsp;2024][discards-notes]</sub>                   |
 | [Strict Enforcement of 'using'][strict-using]                                                | Ron Buckton                                            | Ron Buckton                                           | <sub>[April&nbsp;2024][strict-using-notes]</sub>                  |
 | [Signals][signals]                                                                           | Rob Eisenberg<br />Daniel Ehrenberg                    | Daniel Ehrenberg<br />Yehuda Katz<br />Jatin Ramanathan<br />Shay Lewis<br />Kristen Hewell Garrett<br />Dominic Gannaway<br />Preston Sego<br />Milo M<br />Rob Eisenberg | <sub>[April&nbsp;2024][signals-notes]</sub> |
 
@@ -281,8 +280,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [template-literals-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#raw-string-literals-for-stage-1
 [func-obj-decs]: https://github.com/rbuckton/proposal-function-decorators
 [func-obj-decs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#function-and-object-literal-element-decorators-for-stage-1
-[discards]: https://github.com/rbuckton/proposal-void-binding
-[discards-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#discard-void-bindings-for-stage-1
 [signals]: https://github.com/tc39/proposal-signals
 [signals-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#signals-for-stage-1
 [strict-using]: https://github.com/rbuckton/proposal-using-enforcement
