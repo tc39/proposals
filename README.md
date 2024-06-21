@@ -157,7 +157,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [regexp-buffer-boundaries]: https://github.com/tc39/proposal-regexp-buffer-boundaries
 [regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
 [decorator-metadata]: https://github.com/tc39/proposal-decorator-metadata
-[decorator-metadata-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
+[decorator-metadata-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-18.md#decorator-metadata-final-spec-text-review-for-stage-3
 [decorator-metadata-tests]: https://github.com/tc39/test262/pull/3971
 [named-groups-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=regexp-duplicate-named-groups
 [string.dedent]: https://github.com/tc39/proposal-string-dedent
