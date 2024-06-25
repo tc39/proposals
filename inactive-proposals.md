@@ -5,7 +5,6 @@ Inactive proposals are proposals that at one point were presented to the committ
 | Proposal                                                             | Champion                                                   | Rationale                                                                                     |
 | -------------------------------------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | [Callable class constructors][callable-constructors]                 | Yehuda Katz<br />Allen Wirfs-Brock                         | Withdrawn: can be solved with decorators                                                      |
-| [`Error.isError`][is-error]                                          | Jordan Harband                                             | Withdrawn: in favor of [`Error` stack traces][error-stacks] proposal                          |
 | [`{Set,Map}.prototype.toJSON`][collection-json]                      | David Bruant<br />Jordan Harband                           | Rejected: better solved by a custom replacer function.                                        |
 | [Typed Objects][typed-objects-new]                                   | Till Schneidereit (previously [Dmitry Lomov, Niko Matsakis][typed-objects]) | Postponed: waiting for WebAssembly requirements to become clearer            |
 | [Object enumerables][object-enums]                                   | Leo Balter<br />John-David Dalton                          | Rejected                                                                                      |
@@ -46,12 +45,12 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Generator arrow functions][generator-arrow-functions]               | Sergey Rubanov<br />Brendan Eich                           | Withdrawn: no interested champions in February 2024 |
 | [`Math.signbit`: IEEE-754 sign bit][signbit]                         | JF Bastien                                                 | Withdrawn: no interested champions in February 2024 |
 | [Getting last element of Array][arraylast]                           | Keith Cirkel                                               | Withdrawn; the [Array#at](https://github.com/tc39/proposal-relative-indexing-method) proposal supersedes this work. |
+| [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                                   | Withdrawn; subsumed by [RegExp v flag with set notation + properties of strings][regexp-v-flag] proposal |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
 [distinguishing-literal-strings]: https://github.com/mikewest/tc39-proposal-literals
 [callable-constructors]: https://github.com/tc39/ecma262/blob/93183b81cb03116b75019615d148b5f788e70edf/workingdocs/callconstructor.md
-[is-error]: https://github.com/ljharb/proposal-is-error
 [collection-json]: https://github.com/DavidBruant/Map-Set.prototype.toJSON
 [typed-objects]: https://github.com/dslomov/typed-objects-es7
 [typed-objects-new]: https://github.com/tschneidereit/proposal-typed-objects
@@ -108,3 +107,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [signbit]: https://github.com/tc39/proposal-Math.signbit
 [signbit-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-23.md#16ib-mathsignbit-proposal
 [arraylast]: https://github.com/tc39/proposal-array-last
+[unicode-sequence-properties]: https://github.com/tc39/proposal-regexp-unicode-sequence-properties
+[unicode-sequence-properties-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions
+[regexp-v-flag]: https://github.com/tc39/proposal-regexp-v-flag
