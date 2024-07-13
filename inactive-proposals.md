@@ -41,6 +41,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Operator overloading][overloading]                                  | Daniel Ehrenberg                                           | Withdrawn |
 | [Extensible numeric literals][extensible-literals]                   | Daniel Ehrenberg                                           | Withdrawn |
 | [JSON.tryParse][json-tryparse]                                       | Jack Works                                                 | Rejected; some deemed this too specific a solution for a generalized language-wide problem |
+| [UUID][uuid]                                                         | Benjamin Coe                                               | Withdrawn; moved to `crypto.randomUUID()` in February 2023 |
 | [`Math` Extensions][more-math]                                       | Rick Waldron                                               | Withdrawn: no interested champions in February 2024 |
 | [Generator arrow functions][generator-arrow-functions]               | Sergey Rubanov<br />Brendan Eich                           | Withdrawn: no interested champions in February 2024 |
 | [`Math.signbit`: IEEE-754 sign bit][signbit]                         | JF Bastien                                                 | Withdrawn: no interested champions in February 2024 |
@@ -110,3 +111,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [unicode-sequence-properties]: https://github.com/tc39/proposal-regexp-unicode-sequence-properties
 [unicode-sequence-properties-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions
 [regexp-v-flag]: https://github.com/tc39/proposal-regexp-v-flag
+[uuid]: https://github.com/tc39/proposal-uuid
+[uuid-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#uuid-for-stage-1
