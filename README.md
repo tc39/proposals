@@ -35,7 +35,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Uint8Array to/from Base64][uint8array-base64]                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[uint8array-base64][uint8array-base64-tests]</sub>             | <sub>[February&nbsp;2024][uint8array-base64-notes]</sub>   |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel<br />Nicolo Ribaudo                | :question:                                                          | <sub>April&nbsp;2024</sub>                                  |
 | [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | :question:                                                          | <sub>[April&nbsp;2024][redeclarable-global-eval-vars-notes]</sub> |
-| [`Promise.try`][try]                                                           | Jordan Harband                                                          | Jordan Harband                                                          | <sub>[promise-try][try-tests]</sub>                                 | <sub>June&nbsp;2024</sub>                                  |
+| [`Promise.try`][try]                                                           | Jordan Harband                                                          | Jordan Harband                                                          | <sub>[promise-try][try-tests]</sub>                                 | <sub>[June&nbsp;2024][try-notes]</sub>                     |
 
 ### Stage 2.7
 
@@ -71,10 +71,10 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Iterator.range][iterator-range]                                               | Jack Works                                            | Jack Works                                                                        | <sub>[March&nbsp;2023][iterator-range-notes]</sub>                    |
 | [Async Context][async-context]                                                 | Chengzhong Wu                                         | Andreu Botella<br />Chengzhong Wu<br />Justin Ridgewell                                               | <sub>[March&nbsp;2023][async-context-notes]</sub>                     |
 | [Time Zone Canonicalization][time-zone-canon]                                  | Justin Grant                                          | Justin Grant<br />Richard Gibson                                                  | <sub>[May&nbsp;2023][time-zone-canon-notes]</sub>                     |
-| [Iterator Sequencing][sequencing]                                              | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>June&nbsp;2024</sub>                                             |
-| [`Error.isError`][is-error]                                                    | Jordan Harband                                        | Jordan Harband                                                                    | <sub>June&nbsp;2024</sub>                                             |
-| [ESM Phase Imports][esm-phase]                                                 | Luca Casonato<br />Guy Bedford                        | Luca Casonato<br />Guy Bedford                                                    | <sub>June&nbsp;2024</sub>                                             |
-| ["Discard" (`void`) Bindings][discards]                                        | Ron Buckton                                           | Ron Buckton                                                                       | <sub>June&nbsp;2024</sub>                                             |
+| [Iterator Sequencing][sequencing]                                              | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>[June&nbsp;2024][sequencing-notes]</sub>                         |
+| [`Error.isError`][is-error]                                                    | Jordan Harband                                        | Jordan Harband                                                                    | <sub>[June&nbsp;2024][is-error-notes]</sub>                           |
+| [ESM Phase Imports][esm-phase]                                                 | Luca Casonato<br />Guy Bedford                        | Luca Casonato<br />Guy Bedford                                                    | <sub>[June&nbsp;2024][esm-phase-notes]</sub>                          |
+| ["Discard" (`void`) Bindings][discards]                                        | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[June&nbsp;2024][discards-notes]</sub>                           |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -180,19 +180,19 @@ Note that as part of the onboarding process your repository name may be normaliz
 [time-zone-canon]: https://github.com/tc39/proposal-canonical-tz#readme
 [time-zone-canon-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-17.md#time-zone-canonicalization-for-stage-2
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
-[lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#deferred-import-evaluation
+[lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#deferred-import-evaluation-for-stage-27
 [lazy-import-testplan]: https://github.com/tc39/test262/issues/4111
 [escape]: https://github.com/tc39/proposal-regex-escaping
-[escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#regexpescape-for-stage-2
+[escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#regexp-escaping
 [escape-testplan]: https://github.com/tc39/test262/issues/4122
 [uint8array-base64]: https://github.com/tc39/proposal-arraybuffer-base64
 [uint8array-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#uint8array-base64-for-stages-27-and-3
 [uint8array-base64-tests]: https://github.com/tc39/test262/pull/3994
 [joint]: https://github.com/tc39/proposal-joint-iteration
-[joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#joint-iteration-for-stage-2
+[joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-12.md#joint-iteration-for-stage-27
 [joint-testplan]: https://github.com/tc39/test262/issues/4112
 [try]: https://github.com/tc39/proposal-promise-try
-[try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#promisetry-for-stage-27
+[try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#promisetry-for-stage-3
 [try-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=promise-try
 [redeclarable-global-eval-vars]: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars
 [redeclarable-global-eval-vars-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
@@ -202,10 +202,10 @@ Note that as part of the onboarding process your repository name may be normaliz
 [dynamic-code-brand-checks]: https://github.com/tc39/proposal-dynamic-code-brand-checks
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
 [is-error]: https://github.com/tc39/proposal-is-error
-[is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-10.md#bringing-back-erroriserror-for-stage-1-or-2-or-even-27
+[is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#erroriserror
 [sequencing]: https://github.com/tc39/proposal-iterator-sequencing
-[sequencing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#iterator-sequencing-for-stage-1
+[sequencing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#iterator-sequencing
 [esm-phase]: https://github.com/lucacasonato/proposal-esm-phase-imports
-[esm-phase-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#esm-phase-imports-for-stage-1
+[esm-phase-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#esm-phase-imports
 [discards]: https://github.com/rbuckton/proposal-void-binding
-[discards-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#discard-void-bindings-for-stage-1
+[discards-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#discard-bindings-update-or-stage-2
