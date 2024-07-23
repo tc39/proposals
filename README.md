@@ -47,19 +47,20 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Math.sumPrecise`][math-sum]                                                  | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[Math.sumPrecise][math-sum-tests]</sub>                        | <sub>[April&nbsp;2024][math-sum-notes]</sub>               |
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>[June&nbsp;2024][lazy-import-notes]</sub>             |
 | [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>[June&nbsp;2024][joint-notes]</sub>                   |
+| [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | :question:                                                          | <sub>[June&nbsp;2024][atomics-pause-notes]</sub>           |
 
 ### Stage 2
 
 | Proposal                                                                       | Author                                                | Champion                                                                          | <sub>Last Presented</sub>                                             |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | [`function.sent` metaproperty][function-sent]                                  | Allen Wirfs-Brock                                     | HE Shi-Jun                                                                        | <sub>[July&nbsp;2019][function-sent-notes]</sub>                      |
-| [`throw` expressions][throw-expressions]                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[January&nbsp;2018][throw-expressions-notes]</sub>               |
+| [`throw` expressions][throw-expressions]                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[February&nbsp;2024][throw-expressions-notes]</sub>              |
 | [Function implementation hiding][censorship]                                   | Domenic Denicola<br />Michael Ficarra                 | Michael Ficarra                                                                   | <sub>[June&nbsp;2020][censorship-notes]</sub>                         |
 | [collection normalization][collection-rekey]                                   | Bradley Farias                                        | Bradley Farias                                                                    | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                     |
-| [isTemplateObject][isTemplateObject]                                           | Mike Samuel, Krzysztof Kotowicz                       | Daniel Ehrenberg<br />Jordan Harband                                              | <sub>[December&nbsp;2019][isTemplateObject-notes]</sub>               |
+| [isTemplateObject][isTemplateObject]                                           | Mike Samuel, Krzysztof Kotowicz                       | Daniel Ehrenberg<br />Jordan Harband                                              | <sub>[April&nbsp;2024][isTemplateObject-notes]</sub>               |
 | [`Map.prototype.emplace`][map-emplace]                                         | Bradley Farias                                        | Erica Pramer                                                                      | <sub>[July&nbsp;2020][map-emplace-notes]</sub>                        |
 | [Dynamic Import Host Adjustment][]                                             | Mike Samuel, Krzysztof Kotowicz                       | Krzysztof Kotowicz                                                                | <sub>[December&nbsp;2019][Dynamic Import Host Adjustment notes]</sub> |
-| [Record & Tuple][record-tuple]                                                 | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                                                  | <sub>[December&nbsp;2021][record-tuple-notes]</sub>                   |
+| [Record & Tuple][record-tuple]                                                 | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                                                  | <sub>[April&nbsp;2024][record-tuple-notes]</sub>                      |
 | [Module Expressions][module-expressions]                                       | Surma<br />Daniel Ehrenberg<br />Nicolò Ribaudo       | Surma<br />Nicolò Ribaudo                                                         | <sub>[November&nbsp;2022][module-expressions-notes]</sub>             |
 | [Pipeline Operator][pipeline]                                                  | J. S. Choi<br />James DiGioia<br />Ron Buckton<br />Tab Atkins | J. S. Choi<br />Ron Buckton<br />Tab Atkins                              | <sub>[August&nbsp;2021][pipe-notes]</sub>                             |
 | [Destructure Private Fields][destructure-private]                              | Justin Ridgewell                                      | Justin Ridgewell                                                                  | <sub>[December&nbsp;2021][destructure-private-notes]</sub>            |
@@ -68,9 +69,9 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [JSON.parseImmutable][json-parse-immutable]                                    | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | <sub>[July&nbsp;2022][json-parse-source-notes]</sub>      |
 | [Module Declarations][module-declarations]                                     | Daniel Ehrenberg<br />Nicolò Ribaudo                  | Daniel Ehrenberg<br />Mark Miller<br />Nicolò Ribaudo                             | <sub>[November&nbsp;2022][module-declarations-notes]</sub>            |
 | [Symbol Predicates][symbol-predicates]                                         | Robin Ricard<br />Jordan Harband                      | Ashley Claymore<br />Jordan Harband                                               | <sub>[January&nbsp;2023][symbol-predicates-notes]</sub>               |
-| [Async Iterator helpers][async-iterator-helpers]                               | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                           | <sub>[January&nbsp;2023][async-iterator-helpers-notes]</sub>          |
-| [Iterator.range][iterator-range]                                               | Jack Works                                            | Jack Works                                                                        | <sub>[March&nbsp;2023][iterator-range-notes]</sub>                    |
-| [Async Context][async-context]                                                 | Chengzhong Wu                                         | Andreu Botella<br />Chengzhong Wu<br />Justin Ridgewell                                               | <sub>[March&nbsp;2023][async-context-notes]</sub>                     |
+| [Async Iterator helpers][async-iterator-helpers]                               | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                           | <sub>[June&nbsp;2024][async-it-helper-notes]</sub>                    |
+| [Iterator.range][iterator-range]                                               | Jack Works                                            | Jack Works                                                                        | <sub>[April&nbsp;2024][iterator-range-notes]</sub>                    |
+| [Async Context][async-context]                                                 | Chengzhong Wu                                         | Andreu Botella<br />Chengzhong Wu<br />Justin Ridgewell                           | <sub>[April&nbsp;2024][async-context-notes]</sub>                     |
 | [Iterator Sequencing][sequencing]                                              | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>[June&nbsp;2024][sequencing-notes]</sub>                         |
 | [`Error.isError`][is-error]                                                    | Jordan Harband                                        | Jordan Harband                                                                    | <sub>[June&nbsp;2024][is-error-notes]</sub>                           |
 | [ESM Phase Imports][esm-phase]                                                 | Luca Casonato<br />Guy Bedford                        | Luca Casonato<br />Guy Bedford                                                    | <sub>[June&nbsp;2024][esm-phase-notes]</sub>                          |
@@ -109,7 +110,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [temporal-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#temporal-update
 [temporal-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=Temporal
 [throw-expressions]: https://github.com/tc39/proposal-throw-expressions
-[throw-expressions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#13iiii-throw-expressions-for-stage-3
+[throw-expressions-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-02/feb-8.md#throw-expressions-update-or-stage-27
 [censorship]: https://github.com/tc39/proposal-function-implementation-hiding
 [censorship-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#function-implementation-hiding-for-stage-3
 [richer-keys]: https://github.com/tc39/proposal-richer-keys
@@ -128,7 +129,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [async-iterator-helpers-notes]: https://github.com/tc39/notes/blob/main/meetings/2023-01/jan-31.md#parallel-async-iterators-via-a-tweak-to-iterator-helpers
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [isTemplateObject]: https://github.com/tc39/proposal-array-is-template-object
-[isTemplateObject-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#arrayistemplateobject-update
+[isTemplateObject-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-10.md#arrayistemplateobject-next-steps
 [map-emplace]: https://github.com/tc39/proposal-upsert
 [map-emplace-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#upsert-now-renamed-emplace-updates--for-stage-3
 [Dynamic Import Host Adjustment]: https://github.com/tc39/proposal-dynamic-import-host-adjustment
@@ -137,7 +138,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [json-modules-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-25.md#json-modules-for-stage-3
 [json-modules-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=json-modules
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
-[record-tuple-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#records-and-tuples
+[record-tuple-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
 [json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
 [json-parse-source-notes]: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-19.md#conclusiondecision-2
 [json-parse-source-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=json-parse-with-source
@@ -173,12 +174,12 @@ Note that as part of the onboarding process your repository name may be normaliz
 [symbol-predicates]: https://github.com/tc39/proposal-symbol-predicates
 [symbol-predicates-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#symbol-predicates
 [iterator-range]: https://github.com/tc39/proposal-iterator.range
-[iterator-range-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#iteratorrange-for-stage-2
+[iterator-range-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#iteratorrange-for-stage-27
 [float16s]: https://github.com/tc39/proposal-float16array
 [float16s-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#float16array-for-stage-3
 [float16s-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=Float16Array
 [async-context]: https://github.com/tc39/proposal-async-context
-[async-context-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#async-context
+[async-context-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
 [time-zone-canon]: https://github.com/tc39/proposal-canonical-tz#readme
 [time-zone-canon-notes]: https://github.com/tc39/notes/blob/main/meetings/2023-07/july-12.md#time-zone-canonicalization-for-stage-3
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
@@ -212,3 +213,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [discards]: https://github.com/rbuckton/proposal-void-binding
 [discards-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#discard-bindings-update-or-stage-2
 [scriptormodule]: https://github.com/tc39/proposal-jobcallback-module
+[async-it-helper-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-06/june-11.md#async-iterators-update
+[atomics-pause-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-06/june-13.md#atomicspause
+[atomics-pause]: https://github.com/syg/proposal-atomics-microwait
