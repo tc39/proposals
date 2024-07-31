@@ -75,6 +75,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Error.isError`][is-error]                                                    | Jordan Harband                                        | Jordan Harband                                                                    | <sub>[June&nbsp;2024][is-error-notes]</sub>                           |
 | [ESM Phase Imports][esm-phase]                                                 | Luca Casonato<br />Guy Bedford                        | Luca Casonato<br />Guy Bedford                                                    | <sub>[June&nbsp;2024][esm-phase-notes]</sub>                          |
 | ["Discard" (`void`) Bindings][discards]                                        | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[June&nbsp;2024][discards-notes]</sub>                           |
+| [Propagate active ScriptOrModule with JobCallback Record][scriptormodule]      | Chengzhong Wu                                         | Chengzhong Wu                                                                     | <sub>July&nbsp;2024</sub>                                             |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -210,3 +211,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [esm-phase-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#esm-phase-imports
 [discards]: https://github.com/rbuckton/proposal-void-binding
 [discards-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#discard-bindings-update-or-stage-2
+[scriptormodule]: https://github.com/tc39/proposal-jobcallback-module
