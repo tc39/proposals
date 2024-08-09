@@ -199,7 +199,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [try-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=promise-try
 [redeclarable-global-eval-vars]: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars
 [redeclarable-global-eval-vars-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
-[math-sum]: https://github.com/bakkot/proposal-math-sum
+[math-sum]: https://github.com/tc39/proposal-math-sum
 [math-sum-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#mathsumexact-for-stage-27
 [math-sum-tests]: https://github.com/tc39/test262/pull/4049
 [dynamic-code-brand-checks]: https://github.com/tc39/proposal-dynamic-code-brand-checks
@@ -208,11 +208,11 @@ Note that as part of the onboarding process your repository name may be normaliz
 [is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#erroriserror
 [sequencing]: https://github.com/tc39/proposal-iterator-sequencing
 [sequencing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#iterator-sequencing
-[esm-phase]: https://github.com/lucacasonato/proposal-esm-phase-imports
+[esm-phase]: https://github.com/tc39/proposal-esm-phase-imports
 [esm-phase-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#esm-phase-imports
-[discards]: https://github.com/rbuckton/proposal-void-binding
+[discards]: https://github.com/tc39/proposal-discard-binding
 [discards-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#discard-bindings-update-or-stage-2
 [scriptormodule]: https://github.com/tc39/proposal-jobcallback-module
 [async-it-helper-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-06/june-11.md#async-iterators-update
 [atomics-pause-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-06/june-13.md#atomicspause
-[atomics-pause]: https://github.com/syg/proposal-atomics-microwait
+[atomics-pause]: https://github.com/tc39/proposal-atomics-microwait
