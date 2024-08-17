@@ -96,8 +96,8 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Function and Object Literal Decorators][func-obj-decs]                                      | Ron Buckton                                            | Ron Buckton                                           | <sub>[February&nbsp;2024][func-obj-decs-notes]</sub>              |
 | [Strict Enforcement of 'using'][strict-using]                                                | Ron Buckton                                            | Ron Buckton                                           | <sub>[April&nbsp;2024][strict-using-notes]</sub>                  |
 | [Signals][signals]                                                                           | Rob Eisenberg<br />Daniel Ehrenberg                    | Daniel Ehrenberg<br />Yehuda Katz<br />Jatin Ramanathan<br />Shay Lewis<br />Kristen Hewell Garrett<br />Dominic Gannaway<br />Preston Sego<br />Milo M<br />Rob Eisenberg | <sub>[April&nbsp;2024][signals-notes]</sub> |
-| [Concurrency Control][concurrency-control]                                                   | Michael Ficarra<br />Luca Casonato<br />Kevin Gibbons  | Michael Ficarra<br />Luca Casonato                    | <sub>July&nbsp;2024</sub>                                         |
-| [Unordered Async Iterator Helpers][unordered-async]                                          | Michael Ficarra                                        | Michael Ficarra                                       | <sub>July&nbsp;2024</sub>                                         |
+| [Concurrency Control][concurrency-control]                                                   | Michael Ficarra<br />Luca Casonato<br />Kevin Gibbons  | Michael Ficarra<br />Luca Casonato                    | <sub>[July&nbsp;2024][concurrency-control-notes]</sub>            |
+| [Unordered Async Iterator Helpers][unordered-async]                                          | Michael Ficarra                                        | Michael Ficarra                                       | <sub>[July&nbsp;2024][unordered-async-notes]</sub>                |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -281,4 +281,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [strict-using]: https://github.com/tc39/proposal-using-enforcement
 [strict-using-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#strict-enforcement-of-using
 [unordered-async]: https://github.com/tc39/proposal-unordered-async-iterator-helpers
+[unordered-async-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#unordered-async-iterator-helpers-for-stage-1
 [concurrency-control]: https://github.com/tc39/proposal-concurrency-control
+[concurrency-control-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#concurrency-control-presenter-mf-and-lca
