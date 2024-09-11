@@ -32,10 +32,10 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | <sub>[decorator-metadata][decorator-metadata-tests]</sub>           | <sub>[May&nbsp;2023][decorator-metadata-notes]</sub>       |
 | [Import Attributes][import-attributes]                                         | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo   | <sub>[import-attributes][import-attributes-tests]</sub>             | <sub>[July&nbsp;2024][import-attributes-notes]</sub>                                  |
 | [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | <sub>[source-phase-imports][source-phase-imports-tests]</sub>       | <sub>[July&nbsp;2023][source-phase-imports-notes]</sub>    |
-| [Time Zone Canonicalization][time-zone-canon]                                  | Justin Grant                                                            | Justin Grant<br />Richard Gibson                                        | :question:                                                          | <sub>[July&nbsp;2023][time-zone-canon-notes]</sub>         |
+| [Time Zone Canonicalization][time-zone-canon]                                  | Justin Grant                                                            | Justin Grant<br />Richard Gibson                                        | <sub>[Temporal.TimeZone][time-zone-canon-tests]                     | <sub>[July&nbsp;2023][time-zone-canon-notes]</sub>         |
 | [Uint8Array to/from Base64][uint8array-base64]                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[uint8array-base64][uint8array-base64-tests]</sub>             | <sub>[February&nbsp;2024][uint8array-base64-notes]</sub>   |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel<br />Nicolo Ribaudo                | :question:                                                           | <sub>April&nbsp;2024</sub>                                 |
-| [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | :question:                                                          | <sub>[April&nbsp;2024][redeclarable-global-eval-vars-notes]</sub> |
+| [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Testing plan][redeclarable-global-eval-vars-testplan]</sub>   | <sub>[April&nbsp;2024][redeclarable-global-eval-vars-notes]</sub> |
 | [`Promise.try`][try]                                                           | Jordan Harband                                                          | Jordan Harband                                                          | <sub>[promise-try][try-tests]</sub>                                 | <sub>[June&nbsp;2024][try-notes]</sub>                     |
 | [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband            | Jordan Harband<br />Kevin Gibbons                                       | <sub>[Testing plan][escape-testplan]                                | <sub>[July&nbsp;2024][escape-notes]</sub>                  |
 
@@ -47,7 +47,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Math.sumPrecise`][math-sum]                                                  | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[Math.sumPrecise][math-sum-tests] [testing plan][math-sum-testplan]</sub> | <sub>[April&nbsp;2024][math-sum-notes]</sub>    |
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>[June&nbsp;2024][lazy-import-notes]</sub>             |
 | [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>[June&nbsp;2024][joint-notes]</sub>                   |
-| [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | :question:                                                          | <sub>[June&nbsp;2024][atomics-pause-notes]</sub>           |
+| [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Atomics.pause][[atomics-pause-tests]</sub>                    | <sub>[June&nbsp;2024][atomics-pause-notes]</sub>           |
 
 ### Stage 2
 
@@ -185,6 +185,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [async-context-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
 [time-zone-canon]: https://github.com/tc39/proposal-canonical-tz#readme
 [time-zone-canon-notes]: https://github.com/tc39/notes/blob/main/meetings/2023-07/july-12.md#time-zone-canonicalization-for-stage-3
+[time-zone-canon-tests]: https://github.com/tc39/test262/pull/3837
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
 [lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#deferred-import-evaluation-for-stage-27
 [lazy-import-testplan]: https://github.com/tc39/test262/issues/4111
@@ -202,6 +203,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [try-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=promise-try
 [redeclarable-global-eval-vars]: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars
 [redeclarable-global-eval-vars-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
+[redeclarable-global-eval-vars-testplan]: https://github.com/tc39/test262/issues/4223
 [math-sum]: https://github.com/tc39/proposal-math-sum
 [math-sum-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#mathsumexact-for-stage-27
 [math-sum-tests]: https://github.com/tc39/test262/pull/4049
@@ -221,3 +223,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [async-it-helper-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-06/june-11.md#async-iterators-update
 [atomics-pause-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-06/june-13.md#atomicspause
 [atomics-pause]: https://github.com/tc39/proposal-atomics-microwait
+[atomics-pause-tests]: https://github.com/tc39/test262/pull/4147
