@@ -63,6 +63,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [ArrayBuffer transfer][arraybuffer-transfer]                             | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli      | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli       | [February 2024][arraybuffer-transfer-notes] | 2024                      |
 | [Duplicate named capture groups][named-capture-groups]                   | Kevin Gibbons                                          | Kevin Gibbons                                           | [April 2024][named-capture-groups-notes]    | 2025                      |
 | [New Set methods][set-methods]                                           | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons | Kevin Gibbons                                          | [April 2024][set-methods-notes]             | 2025                      |
+| [RegExp Modifiers][regexp-modifiers]                                     | Ron Buckton                                            | Ron Buckton                                             | October 2024                                | 2025                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -189,3 +190,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [named-capture-groups-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#duplicate-named-capture-groups-for-stage-4
 [set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#set-methods-for-stage-4
+[regexp-modifiers]: https://github.com/tc39/proposal-regexp-modifiers
