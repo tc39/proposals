@@ -64,6 +64,8 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Duplicate named capture groups][named-capture-groups]                   | Kevin Gibbons                                          | Kevin Gibbons                                           | [April 2024][named-capture-groups-notes]    | 2025                      |
 | [New Set methods][set-methods]                                           | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons | Kevin Gibbons                                          | [April 2024][set-methods-notes]             | 2025                      |
 | [RegExp Modifiers][regexp-modifiers]                                     | Ron Buckton                                            | Ron Buckton                                             | October 2024                                | 2025                      |
+| [Import Attributes][import-attributes]                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo | October 2024     | 2025                      |
+| [JSON Modules][json-modules]                                             | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg   | October 2024     | 2025                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -191,3 +193,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#set-methods-for-stage-4
 [regexp-modifiers]: https://github.com/tc39/proposal-regexp-modifiers
+[import-attributes]: https://github.com/tc39/proposal-import-attributes
+[import-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#drop-assert-from-import-attributes
+[json-modules]: https://github.com/tc39/proposal-json-modules
+[json-modules-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-25.md#json-modules-for-stage-3
