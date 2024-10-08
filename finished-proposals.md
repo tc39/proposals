@@ -66,6 +66,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [RegExp Modifiers][regexp-modifiers]                                     | Ron Buckton                                            | Ron Buckton                                             | October 2024                                | 2025                      |
 | [Import Attributes][import-attributes]                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo | October 2024     | 2025                      |
 | [JSON Modules][json-modules]                                             | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg   | October 2024     | 2025                      |
+| [Sync Iterator helpers][iterator-helpers]                                | Gus Caplan                                             | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons | October 2024                                | 2025                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -197,3 +198,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [import-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#drop-assert-from-import-attributes
 [json-modules]: https://github.com/tc39/proposal-json-modules
 [json-modules-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-25.md#json-modules-for-stage-3
+[iterator-helpers]: https://github.com/tc39/proposal-iterator-helpers
+[iterator-helpers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#iterator-helpers-for-stage-3
