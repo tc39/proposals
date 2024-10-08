@@ -66,7 +66,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Limited ArrayBuffer][limited-array-buffer]                                                  | Jack Works                                             | Jack Works                                            | <sub>[April&nbsp;2021][limited-array-buffer-notes]</sub>          |
 | [BigInt Math][bigint-math]                                                                   | J.S. Choi                                              | J.S. Choi                                             | <sub>[August&nbsp;2021][bigint-math-notes]</sub>                  |
 | [Get Intrinsic][get-intrinsic]                                                               | Jordan Harband                                         | Jordan Harband                                        | <sub>[August&nbsp;2021][get-intrinsic-notes]</sub>                |
-| [Structs: Fixed Layout Objects and Some Synchronization Primitives][structs]                 | Shu-yu Guo                                             | Shu-yu Guo                                            | <sub>[August&nbsp;2021][structs-notes]</sub>                      |
 | [`String.cooked`][string.cooked]                                                             | Darien Maillet Valentine                               | Jamie Kyle<br />Hemanth HM                            | <sub>[October&nbsp;2021][string.cooked-notes]</sub>               |
 | [Call-this operator][call-this]                                                              | J.S. Choi                                              | J.S. Choi                                             | <sub>[October&nbsp;2021][call-this-notes]</sub>                   |
 | [RegExp Extended Mode and Comments][regexp-x-mode]                                           | Ron Buckton                                            | Ron Buckton                                           | <sub>[October&nbsp;2021][regexp-x-mode-notes]</sub>               |
@@ -220,8 +219,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [bigint-math-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#bigint-math-update
 [get-intrinsic]: https://github.com/tc39/proposal-get-intrinsic
 [get-intrinsic-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#get-intrinsic-for-stage-1
-[structs]: https://github.com/tc39/proposal-structs
-[structs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#fixed-layout-objects
 [string.cooked]: https://github.com/tc39/proposal-string-cooked
 [string.cooked-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#stringcooked
 [call-this]: https://github.com/tc39/proposal-call-this

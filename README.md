@@ -73,6 +73,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [ESM Phase Imports][esm-phase]                                                 | Luca Casonato<br />Guy Bedford                        | Luca Casonato<br />Guy Bedford                                                    | <sub>[June&nbsp;2024][esm-phase-notes]</sub>                          |
 | ["Discard" (`void`) Bindings][discards]                                        | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[June&nbsp;2024][discards-notes]</sub>                           |
 | [Propagate active ScriptOrModule with JobCallback Record][scriptormodule]      | Chengzhong Wu                                         | Chengzhong Wu                                                                     | <sub>[July&nbsp;2024][scriptormodule-notes]</sub>                     |
+| [Structs: Fixed Layout Objects and Some Synchronization Primitives][structs]   | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>October&nbsp;2024</sub>                                          |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -208,3 +209,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [atomics-pause-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-06/june-13.md#atomicspause
 [atomics-pause]: https://github.com/tc39/proposal-atomics-microwait
 [atomics-pause-tests]: https://github.com/tc39/test262/pull/4147
+[structs]: https://github.com/tc39/proposal-structs
+[structs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#fixed-layout-objects
