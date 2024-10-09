@@ -32,7 +32,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Uint8Array to/from Base64][uint8array-base64]                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[uint8array-base64][uint8array-base64-tests]</sub>             | <sub>[February&nbsp;2024][uint8array-base64-notes]</sub>   |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel<br />Nicolo Ribaudo                | :question:                                                           | <sub>April&nbsp;2024</sub>                                 |
 | [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Testing plan][redeclarable-global-eval-vars-testplan]</sub>   | <sub>[April&nbsp;2024][redeclarable-global-eval-vars-notes]</sub> |
-| [`Promise.try`][try]                                                           | Jordan Harband                                                          | Jordan Harband                                                          | <sub>[promise-try][try-tests]</sub>                                 | <sub>[June&nbsp;2024][try-notes]</sub>                     |
 | [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband            | Jordan Harband<br />Kevin Gibbons                                       | <sub>[Testing plan][escape-testplan]                                | <sub>[July&nbsp;2024][escape-notes]</sub>                  |
 
 ### Stage 2.7
@@ -184,9 +183,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [joint]: https://github.com/tc39/proposal-joint-iteration
 [joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-12.md#joint-iteration-for-stage-27
 [joint-testplan]: https://github.com/tc39/test262/issues/4112
-[try]: https://github.com/tc39/proposal-promise-try
-[try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#promisetry-for-stage-3
-[try-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=promise-try
 [redeclarable-global-eval-vars]: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars
 [redeclarable-global-eval-vars-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
 [redeclarable-global-eval-vars-testplan]: https://github.com/tc39/test262/issues/4223
