@@ -74,6 +74,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Propagate active ScriptOrModule with JobCallback Record][scriptormodule]      | Chengzhong Wu                                         | Chengzhong Wu                                                                     | <sub>[July&nbsp;2024][scriptormodule-notes]</sub>                     |
 | [Structs: Fixed Layout Objects and Some Synchronization Primitives][structs]   | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>October&nbsp;2024</sub>                                          |
 | [Extractors][extractors]                                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>October&nbsp;2024</sub>                                          |
+| [iterator chunking][chunking]                                                  | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>October&nbsp;2024</sub>                                          |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -210,3 +211,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [structs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#fixed-layout-objects
 [extractors]: https://github.com/tc39/proposal-extractors
 [extractors-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-15.md#extractor-objects
+[chunking]: https://github.com/tc39/proposal-iterator-chunking
+[chunking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#iterator-chunking-for-stage-1
