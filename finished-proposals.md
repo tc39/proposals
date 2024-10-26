@@ -63,11 +63,11 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [ArrayBuffer transfer][arraybuffer-transfer]                             | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli      | Shu-yu Guo<br />Jordan Harband<br />Yagiz Nizipli       | [February 2024][arraybuffer-transfer-notes] | 2024                      |
 | [Duplicate named capture groups][named-capture-groups]                   | Kevin Gibbons                                          | Kevin Gibbons                                           | [April 2024][named-capture-groups-notes]    | 2025                      |
 | [New Set methods][set-methods]                                           | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons | Kevin Gibbons                                          | [April 2024][set-methods-notes]             | 2025                      |
-| [RegExp Modifiers][regexp-modifiers]                                     | Ron Buckton                                            | Ron Buckton                                             | October 2024                                | 2025                      |
-| [Import Attributes][import-attributes]                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo | October 2024     | 2025                      |
-| [JSON Modules][json-modules]                                             | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg   | October 2024     | 2025                      |
-| [Sync Iterator helpers][iterator-helpers]                                | Gus Caplan                                             | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons | October 2024                                | 2025                      |
-| [`Promise.try`][try]                                                     | Jordan Harband                                         | Jordan Harband                                          | October 2024                                | 2025                      |
+| [RegExp Modifiers][regexp-modifiers]                                     | Ron Buckton                                            | Ron Buckton                                             | [October 2024][regexp-modifiers-notes]      | 2025                      |
+| [Import Attributes][import-attributes]                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo | [October 2024][import-attributes-notes]     | 2025                      |
+| [JSON Modules][json-modules]                                             | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg   | [October 2024][json-modules-notes]     | 2025                      |
+| [Sync Iterator helpers][iterator-helpers]                                | Gus Caplan                                             | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons | [October 2024][iterator-helpers-notes]      | 2025                      |
+| [`Promise.try`][try]                                                     | Jordan Harband                                         | Jordan Harband                                          | [October 2024][try-notes]                   | 2025                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -195,11 +195,12 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [set-methods]: https://github.com/tc39/proposal-set-methods
 [set-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#set-methods-for-stage-4
 [regexp-modifiers]: https://github.com/tc39/proposal-regexp-modifiers
+[regexp-modifiers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#regexp-modifiers-for-stage-4
 [import-attributes]: https://github.com/tc39/proposal-import-attributes
-[import-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#drop-assert-from-import-attributes
+[import-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4
 [json-modules]: https://github.com/tc39/proposal-json-modules
-[json-modules-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-25.md#json-modules-for-stage-3
+[json-modules-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4
 [iterator-helpers]: https://github.com/tc39/proposal-iterator-helpers
-[iterator-helpers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#iterator-helpers-for-stage-3
+[iterator-helpers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-helpers-for-stage-4
 [try]: https://github.com/tc39/proposal-promise-try
-[try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#promisetry-for-stage-3
+[try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#promisetry-for-stage-4

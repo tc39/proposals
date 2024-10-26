@@ -33,7 +33,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel<br />Nicolo Ribaudo                | :question:                                                           | <sub>April&nbsp;2024</sub>                                 |
 | [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Testing plan][redeclarable-global-eval-vars-testplan]</sub>   | <sub>[April&nbsp;2024][redeclarable-global-eval-vars-notes]</sub> |
 | [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband            | Jordan Harband<br />Kevin Gibbons                                       | <sub>[Testing plan][escape-testplan]                                | <sub>[July&nbsp;2024][escape-notes]</sub>                  |
-| [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Atomics.pause][atomics-pause-tests]</sub>                     | <sub>October&nbsp;2024</sub>                               |
+| [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Atomics.pause][atomics-pause-tests]</sub>                     | <sub>[October&nbsp;2024][atomics-pause-notes]</sub>        |
 
 ### Stage 2.7
 
@@ -43,8 +43,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Math.sumPrecise`][math-sum]                                                  | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[Math.sumPrecise][math-sum-tests] [testing plan][math-sum-testplan]</sub> | <sub>[April&nbsp;2024][math-sum-notes]</sub>    |
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>[June&nbsp;2024][lazy-import-notes]</sub>             |
 | [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>[June&nbsp;2024][joint-notes]</sub>                   |
-| [Iterator Sequencing][sequencing]                                              | Michael Ficarra                                                         | Michael Ficarra                                                         | :question:                                                          | <sub>October&nbsp;2024</sub>                               |
-| [`Error.isError`][is-error]                                                    | Jordan Harband                                                          | Jordan Harband                                                          | :question:                                                          | <sub>October&nbsp;2024</sub>                               |
+| [Iterator Sequencing][sequencing]                                              | Michael Ficarra                                                         | Michael Ficarra                                                         | :question:                                                          | <sub>[October&nbsp;2024][sequencing-notes]</sub>           |
+| [`Error.isError`][is-error]                                                    | Jordan Harband                                                          | Jordan Harband                                                          | :question:                                                          | <sub>[October&nbsp;2024][is-error-notes]</sub>             |
 
 
 ### Stage 2
@@ -73,9 +73,9 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [ESM Phase Imports][esm-phase]                                                 | Luca Casonato<br />Guy Bedford                        | Luca Casonato<br />Guy Bedford                                                    | <sub>[June&nbsp;2024][esm-phase-notes]</sub>                          |
 | ["Discard" (`void`) Bindings][discards]                                        | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[June&nbsp;2024][discards-notes]</sub>                           |
 | [Propagate active ScriptOrModule with JobCallback Record][scriptormodule]      | Chengzhong Wu                                         | Chengzhong Wu                                                                     | <sub>[July&nbsp;2024][scriptormodule-notes]</sub>                     |
-| [Structs: Fixed Layout Objects and Some Synchronization Primitives][structs]   | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>October&nbsp;2024</sub>                                          |
-| [Extractors][extractors]                                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>October&nbsp;2024</sub>                                          |
-| [iterator chunking][chunking]                                                  | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>October&nbsp;2024</sub>                                          |
+| [Structs: Fixed Layout Objects and Some Synchronization Primitives][structs]   | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>[October&nbsp;2024][structs-notes]</sub>                         |
+| [Extractors][extractors]                                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[October&nbsp;2024][extractors-notes]</sub>                      |
+| [iterator chunking][chunking]                                                  | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>[October&nbsp;2024][chunking-notes]</sub>                        |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -195,9 +195,9 @@ Note that as part of the onboarding process your repository name may be normaliz
 [dynamic-code-brand-checks]: https://github.com/tc39/proposal-dynamic-code-brand-checks
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
 [is-error]: https://github.com/tc39/proposal-is-error
-[is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#erroriserror
+[is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#erroriserror-for-stage-27
 [sequencing]: https://github.com/tc39/proposal-iterator-sequencing
-[sequencing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#iterator-sequencing
+[sequencing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-sequencing-for-stage-27
 [esm-phase]: https://github.com/tc39/proposal-esm-phase-imports
 [esm-phase-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#esm-phase-imports
 [discards]: https://github.com/tc39/proposal-discard-binding
@@ -205,12 +205,12 @@ Note that as part of the onboarding process your repository name may be normaliz
 [scriptormodule]: https://github.com/tc39/proposal-jobcallback-module
 [scriptormodule-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-31.md#continuation-propagate-active-scriptormodule-with-jobcallback-record
 [async-it-helper-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-06/june-11.md#async-iterators-update
-[atomics-pause-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-06/june-13.md#atomicspause
+[atomics-pause-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-10/october-09.md#atomicspause-for-stage-3
 [atomics-pause]: https://github.com/tc39/proposal-atomics-microwait
 [atomics-pause-tests]: https://github.com/tc39/test262/pull/4147
 [structs]: https://github.com/tc39/proposal-structs
-[structs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#fixed-layout-objects
+[structs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#structs-and-shared-structs-for-stage-2
 [extractors]: https://github.com/tc39/proposal-extractors
-[extractors-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-15.md#extractor-objects
+[extractors-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#extractors-for-stage-2
 [chunking]: https://github.com/tc39/proposal-iterator-chunking
-[chunking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#iterator-chunking-for-stage-1
+[chunking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#iterator-chunking-for-stage-2
