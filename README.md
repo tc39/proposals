@@ -32,7 +32,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Uint8Array to/from Base64][uint8array-base64]                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[uint8array-base64][uint8array-base64-tests]</sub>             | <sub>[February&nbsp;2024][uint8array-base64-notes]</sub>   |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel<br />Nicolo Ribaudo                | :question:                                                           | <sub>April&nbsp;2024</sub>                                 |
 | [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Testing plan][redeclarable-global-eval-vars-testplan]</sub>   | <sub>[April&nbsp;2024][redeclarable-global-eval-vars-notes]</sub> |
-| [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband            | Jordan Harband<br />Kevin Gibbons                                       | <sub>[Testing plan][escape-testplan]                                | <sub>[July&nbsp;2024][escape-notes]</sub>                  |
+| [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband            | Jordan Harband<br />Kevin Gibbons                                       | <sub>[RegExp.escape][escape-tests]                                  | <sub>[July&nbsp;2024][escape-notes]</sub>                  |
 | [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Atomics.pause][atomics-pause-tests]</sub>                     | <sub>[October&nbsp;2024][atomics-pause-notes]</sub>        |
 
 ### Stage 2.7
@@ -178,7 +178,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [lazy-import-testplan]: https://github.com/tc39/test262/issues/4111
 [escape]: https://github.com/tc39/proposal-regex-escaping
 [escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#regexpescape-for-stage-3
-[escape-testplan]: https://github.com/tc39/test262/issues/4122
+[escape-tests]: https://github.com/tc39/test262/pull/4123
 [uint8array-base64]: https://github.com/tc39/proposal-arraybuffer-base64
 [uint8array-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#uint8array-base64-for-stages-27-and-3
 [uint8array-base64-tests]: https://github.com/tc39/test262/pull/3994
