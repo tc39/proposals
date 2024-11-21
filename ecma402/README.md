@@ -14,7 +14,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
-| [`Intl Locale Info`][intl-locale-info]                                 | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | [Oct&nbsp;2021][intl-locale-info-notes]               |
+| [`Intl Locale Info`][intl-locale-info]                                 | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | [July&nbsp;2024][intl-locale-info-notes]              |
 | [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [Oct&nbsp;2020][intl.durationformat-notes]            |
 
 ### Stage 2
@@ -55,7 +55,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [smart-units]: https://github.com/tc39/proposal-smart-unit-preferences
 [smart-units-notes]: https://github.com/tc39/notes/blob/840c700dc7fa7b9f6d0a3c208bd66b333e304717/meetings/2020-06/june-4.md#smart-unit-preferences-in-intlnumberformat-for-stage-1
 [intl-locale-info]: https://github.com/tc39/proposal-intl-locale-info
-[intl-locale-info-notes]: https://github.com/tc39/notes/blob/886ead863abbef6c7546c97c36e0fae7aba8dc8d/meetings/2021-04/apr-20.md#intl-locale-info-for-stage-3
+[intl-locale-info-notes]: https://github.com/tc39/notes/blob/4c253a989e8da200bc8c351f1e0a557e2a5d73e4/meetings/2024-07/july-30.md#intllocale-update-in-stage-3
 [eradisplay]: https://github.com/tc39/proposal-intl-eradisplay
 [eradisplay-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#eradisplay-for-stage-1
 [localematcher]: https://github.com/tc39/proposal-intl-localematcher
