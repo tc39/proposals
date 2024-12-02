@@ -34,6 +34,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Testing plan][redeclarable-global-eval-vars-testplan]</sub>   | <sub>[April&nbsp;2024][redeclarable-global-eval-vars-notes]</sub> |
 | [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband            | Jordan Harband<br />Kevin Gibbons                                       | <sub>[RegExp.escape][escape-tests]                                  | <sub>[July&nbsp;2024][escape-notes]</sub>                  |
 | [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Atomics.pause][atomics-pause-tests]</sub>                     | <sub>[October&nbsp;2024][atomics-pause-notes]</sub>        |
+| [`Error.isError`][is-error]                                                    | Jordan Harband                                                          | Jordan Harband                                                          | <sub>[Error.isError][error-iserror-tests]</sub>                     | <sub>December&nbsp;2024</sub>                              |
 
 ### Stage 2.7
 
@@ -44,7 +45,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>[June&nbsp;2024][lazy-import-notes]</sub>             |
 | [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>[June&nbsp;2024][joint-notes]</sub>                   |
 | [Iterator Sequencing][sequencing]                                              | Michael Ficarra                                                         | Michael Ficarra                                                         | :question:                                                          | <sub>[October&nbsp;2024][sequencing-notes]</sub>           |
-| [`Error.isError`][is-error]                                                    | Jordan Harband                                                          | Jordan Harband                                                          | :question:                                                          | <sub>[October&nbsp;2024][is-error-notes]</sub>             |
 
 
 ### Stage 2
@@ -196,6 +196,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
 [is-error]: https://github.com/tc39/proposal-is-error
 [is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#erroriserror-for-stage-27
+[error-iserror-tests]: https://github.com/tc39/test262/pull/4266
 [sequencing]: https://github.com/tc39/proposal-iterator-sequencing
 [sequencing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-sequencing-for-stage-27
 [esm-phase]: https://github.com/tc39/proposal-esm-phase-imports
