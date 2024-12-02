@@ -15,7 +15,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
 | [`Intl Locale Info`][intl-locale-info]                                 | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | [July&nbsp;2024][intl-locale-info-notes]              |
-| [`Intl.DurationFormat`][intl.durationformat]                           | Younies Mahmoud, Ujjwal Sharma   | Younies Mahmoud, Ujjwal Sharma   | [Oct&nbsp;2020][intl.durationformat-notes]            |
 
 ### Stage 2
 
@@ -51,8 +50,6 @@ Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub org
 
 Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work **as long as** you never create a fork, or a new repository, with the same name - although Github Pages redirects will be broken (please update your links!).
 
-[intl.durationformat]: https://github.com/tc39/proposal-intl-duration-format
-[intl.durationformat-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-25.md#durationformat
 [smart-units]: https://github.com/tc39/proposal-smart-unit-preferences
 [smart-units-notes]: https://github.com/tc39/notes/blob/840c700dc7fa7b9f6d0a3c208bd66b333e304717/meetings/2020-06/june-4.md#smart-unit-preferences-in-intlnumberformat-for-stage-1
 [intl-locale-info]: https://github.com/tc39/proposal-intl-locale-info

@@ -19,6 +19,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`Intl.DisplayNames v2`][intl.displaynames-v2]                                               | Frank Yung-Fong Tang                 | Frank Yung-Fong Tang                 | December&nbsp;2021                                                | 2022              |
 | [Intl Enumeration API][intl-enumeration]                                                     | Frank Yung-Fong Tang                 | Frank Yung-Fong Tang                 | November&nbsp;2022                                                | 2022              |
 | [`Intl.NumberFormat` V3][intl-v3]                                                            | Shane Carr                           | Shane Carr                           | July&nbsp;2021                                                    | 2023              |
+| [`Intl.DurationFormat`][intl.durationformat]                                                 | Younies Mahmoud, Ujjwal Sharma       | Younies Mahmoud, Ujjwal Sharma       | December&nbsp;2024                                                                    |
 
 See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](README.md) documents.
 
@@ -51,3 +52,5 @@ See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](R
 [intl-enumeration-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-13.md#intl-enumeration-api-for-stage-3
 [intl-v3]: https://github.com/tc39/proposal-intl-numberformat-v3
 [intl-v3-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-15.md#intlnumberformat-v3-for-stage-3
+[intl.durationformat]: https://github.com/tc39/proposal-intl-duration-format
+[intl.durationformat-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-25.md#durationformat
