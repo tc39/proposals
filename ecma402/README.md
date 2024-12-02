@@ -23,6 +23,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | -------------------------------------------- |
 | [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]              | Louis-Aime                       | Shane Carr, Louis-Aime           | November&nbsp;2022                           |
 | [Intl Era and MonthCode Proposal][intl era monthCode]                  | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | January&nbsp;2023                            |
+| [More Currency Display Choices][mo-money]                              | Eemeli Aro                       | Eemeli Aro                       | December&nbsp;2024                           |
 
 ### Stage 1
 
@@ -66,3 +67,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl era monthCode]: https://github.com/tc39/proposal-intl-era-monthcode
 [intl.zoneddatetimeformat]: https://github.com/FrankYFTang/intl-zoneddatetimeformat
 [measure]: https://github.com/ben-allen/proposal-measure
+[mo-money]: https://github.com/eemeli/proposal-intl-currency-display-choices
