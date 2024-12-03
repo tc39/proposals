@@ -97,6 +97,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Unordered Async Iterator Helpers][unordered-async]                                          | Michael Ficarra                                        | Michael Ficarra                                       | <sub>[July&nbsp;2024][unordered-async-notes]</sub>                |
 | [`Array.zip` and `Array.zipKeyed`][array.zip]                                                | Jordan Harband                                         | Jordan Harband                                        | <sub>[October&nbsp;2024][array.zip-notes]</sub>                   |
 | [Immutable ArrayBuffers][immutable-abs]                                                      | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | <sub>[October&nbsp;2024][immutable-abs-notes]</sub> |
+| [Stabilize][stabilize]                                                                       | Mark Miller<br />Chip Morningstar<br />Richard Gibson<br />Mathieu Hofman | Mark Miller<br />Chip Morningstar<br />Richard Gibson<br />Mathieu Hofman | <sub>December&nbsp;2024</sub> |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -281,3 +282,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [array.zip-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#arrayzip-for-stage-1-or-2-or-27
 [immutable-abs]: https://github.com/Agoric/tc39-proposal-immutable-arraybuffer
 [immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-10.md#immutable-arraybuffers-for-stage-1
+[stabilize]: https://github.com/Agoric/proposal-stabilize
