@@ -17,7 +17,6 @@ Stage 0 proposals which appear below are either:
 | [`Reflect.{isCallable,isConstructor}`][is-callable-is-constructor] | Caitlin Potter                        | Caitlin Potter                        |                                   |
 | [Relationships][relationships]                                     | Mark Miller<br />Waldemar Horwat      | Mark Miller<br />Waldemar Horwat      |                                   |
 | [Structured Clone][clone]                                          | Dmitry Lomov                          | Dmitry Lomov                          | [Jan 2014][clone-notes]           |
-| [WHATWG URL][url]                                                  | James M Snell                         | James M Snell                         |                                   |
 | [Object Shorthand Improvements][object-shorthand-improvements]     | Ron Buckton                           | Ron Buckton                           | [Sep 2017][shorthand-notes]       |
 | [`as` destructuring patterns][as-patterns]                         | Kat Marchán                           | Kat Marchán                           |                                   |
 | [String trim characters][string-trim-characters]                   | Wenlu Wang                            | Wenlu Wang                            |                                   |
@@ -35,7 +34,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [is-callable-is-constructor]: https://github.com/caitp/TC39-Proposals/blob/HEAD/tc39-reflect-isconstructor-iscallable.md
 [relationships]: https://web.archive.org/web/20160804042554/http://wiki.ecmascript.org/doku.php?id=strawman:relationships
 [clone]: https://github.com/dslomov/ecmascript-structured-clone
-[url]: https://github.com/jasnell/proposal-url
 [object-shorthand-improvements]: https://github.com/rbuckton/proposal-shorthand-improvements
 [as-patterns]: https://github.com/zkat/proposal-as-patterns
 [bind-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2015-03/mar-25.md#6vi-function-bind-and-private-fields-redux-kevin-smith
