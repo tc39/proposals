@@ -76,6 +76,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Structs: Fixed Layout Objects and Some Synchronization Primitives][structs]   | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>[October&nbsp;2024][structs-notes]</sub>                         |
 | [Extractors][extractors]                                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[October&nbsp;2024][extractors-notes]</sub>                      |
 | [iterator chunking][chunking]                                                  | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>[October&nbsp;2024][chunking-notes]</sub>                        |
+| [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works     | <sub>December&nbsp;2024</sub>                                         |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -215,3 +216,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [extractors-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#extractors-for-stage-2
 [chunking]: https://github.com/tc39/proposal-iterator-chunking
 [chunking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#iterator-chunking-for-stage-2
+[immutable-abs]: https://github.com/Agoric/tc39-proposal-immutable-arraybuffer
+[immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-10.md#immutable-arraybuffers-for-stage-1
