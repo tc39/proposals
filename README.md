@@ -32,7 +32,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel<br />Nicolo Ribaudo                | :question:                                                           | <sub>April&nbsp;2024</sub>                                 |
 | [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Testing plan][redeclarable-global-eval-vars-testplan]</sub>   | <sub>[April&nbsp;2024][redeclarable-global-eval-vars-notes]</sub> |
 | [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Atomics.pause][atomics-pause-tests]</sub>                     | <sub>[October&nbsp;2024][atomics-pause-notes]</sub>        |
-| [`Error.isError`][is-error]                                                    | Jordan Harband                                                          | Jordan Harband                                                          | <sub>[Error.isError][error-iserror-tests]</sub>                     | <sub>December&nbsp;2024</sub>                              |
+| [`Error.isError`][is-error]                                                    | Jordan Harband                                                          | Jordan Harband                                                          | <sub>[Error.isError][error-iserror-tests]</sub>                     | <sub>[December&nbsp;2024][is-error-notes]</sub>            |
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>February&nbsp;2025</sub>                              |
 
 ### Stage 2.7
@@ -43,7 +43,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Math.sumPrecise`][math-sum]                                                  | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[Math.sumPrecise][math-sum-tests] [testing plan][math-sum-testplan]</sub> | <sub>[April&nbsp;2024][math-sum-notes]</sub>    |
 | [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>[June&nbsp;2024][joint-notes]</sub>                   |
 | [Iterator Sequencing][sequencing]                                              | Michael Ficarra                                                         | Michael Ficarra                                                         | :question:                                                          | <sub>[October&nbsp;2024][sequencing-notes]</sub>           |
-| [ESM Phase Imports][esm-phase]                                                 | Luca Casonato<br />Guy Bedford                                          | Luca Casonato<br />Guy Bedford                                          | :question:                                                          | <sub>December&nbsp;2024</sub>                              |
+| [ESM Phase Imports][esm-phase]                                                 | Luca Casonato<br />Guy Bedford                                          | Luca Casonato<br />Guy Bedford                                          | :question:                                                          | <sub>[December&nbsp;2024][esm-phase-notes]</sub>           |
 | [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works             | :question:                                                          | <sub>February&nbsp;2025</sub>                              |
 
 
@@ -189,12 +189,12 @@ Note that as part of the onboarding process your repository name may be normaliz
 [dynamic-code-brand-checks]: https://github.com/tc39/proposal-dynamic-code-brand-checks
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
 [is-error]: https://github.com/tc39/proposal-is-error
-[is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#erroriserror-for-stage-27
+[is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-02.md#erroriserror-to-stage-3
 [error-iserror-tests]: https://github.com/tc39/test262/pull/4266
 [sequencing]: https://github.com/tc39/proposal-iterator-sequencing
 [sequencing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-sequencing-for-stage-27
 [esm-phase]: https://github.com/tc39/proposal-esm-phase-imports
-[esm-phase-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#esm-phase-imports
+[esm-phase-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-04.md#esm-phase-imports-for-stage-27
 [discards]: https://github.com/tc39/proposal-discard-binding
 [discards-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#discard-bindings-update-or-stage-2
 [scriptormodule]: https://github.com/tc39/proposal-jobcallback-module
@@ -210,5 +210,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [chunking]: https://github.com/tc39/proposal-iterator-chunking
 [chunking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#iterator-chunking-for-stage-2
 [immutable-abs]: https://github.com/Agoric/tc39-proposal-immutable-arraybuffer
-[immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-10.md#immutable-arraybuffers-for-stage-1
+[immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-03.md#immutable-arraybuffer-to-stage-2
 [stack-accessor]: https://github.com/tc39/proposal-error-stack-accessor
