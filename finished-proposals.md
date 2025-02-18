@@ -4,6 +4,8 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 
 | Proposal                                                                 | Author                                                 | Champion(s)                                             | TC39 meeting notes                          | Expected Publication Year |
 | ------------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------- | ------------------------- |
+| [`RegExp.escape`][escape]                                                | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband<br />Kevin Gibbons                 | February 2025                               | 2025                      |
+| [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]            | Leo Balter                                             | Leo Balter<br />Kevin Gibbons                           | February 2025                               | 2025                      |
 | [`Promise.try`][try]                                                     | Jordan Harband                                         | Jordan Harband                                          | [October 2024][try-notes]                   | 2025                      |
 | [Sync Iterator helpers][iterator-helpers]                                | Gus Caplan                                             | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons | [October 2024][iterator-helpers-notes]      | 2025                      |
 | [JSON Modules][json-modules]                                             | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg   | [October 2024][json-modules-notes]     | 2025                      |
@@ -204,3 +206,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [iterator-helpers-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-helpers-for-stage-4
 [try]: https://github.com/tc39/proposal-promise-try
 [try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#promisetry-for-stage-4
+[float16s]: https://github.com/tc39/proposal-float16array
+[float16s-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#float16array-for-stage-3
+[escape]: https://github.com/tc39/proposal-regex-escaping
+[escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#regexpescape-for-stage-3
