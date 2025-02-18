@@ -98,6 +98,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [`Array.zip` and `Array.zipKeyed`][array.zip]                                                | Jordan Harband                                         | Jordan Harband                                        | <sub>[October&nbsp;2024][array.zip-notes]</sub>                   |
 | [Stabilize][stabilize]                                                                       | Mark Miller<br />Chip Morningstar<br />Richard Gibson<br />Mathieu Hofman | Mark Miller<br />Chip Morningstar<br />Richard Gibson<br />Mathieu Hofman | <sub>December&nbsp;2024</sub> |
 | [Sync Imports][import-sync]                                                                  | Guy Bedford                                            | Guy Bedford                                           | <sub>December&nbsp;2024</sub>                                     |
+| [Curtailing the power of "Thenables"][thenables]                                             | Matthew Gaudet                                         | Matthew Gaudet                                        | <sub>February&nbsp;2025</sub>                                     |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -282,3 +283,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [array.zip-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#arrayzip-for-stage-1-or-2-or-27
 [stabilize]: https://github.com/Agoric/proposal-stabilize
 [import-sync]: https://github.com/guybedford/proposal-import-sync
+[thenables]: https://github.com/mgaudet/proposal-thennable-curtailment
