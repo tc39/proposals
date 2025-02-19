@@ -44,6 +44,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>[June&nbsp;2024][joint-notes]</sub>                   |
 | [Iterator Sequencing][sequencing]                                              | Michael Ficarra                                                         | Michael Ficarra                                                         | :question:                                                          | <sub>[October&nbsp;2024][sequencing-notes]</sub>           |
 | [ESM Phase Imports][esm-phase]                                                 | Luca Casonato<br />Guy Bedford                                          | Luca Casonato<br />Guy Bedford                                          | :question:                                                          | <sub>December&nbsp;2024</sub>                              |
+| [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works             | :question:                                                          | <sub>February&nbsp;2025</sub>                              |
 
 
 ### Stage 2
@@ -74,7 +75,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Structs: Fixed Layout Objects and Some Synchronization Primitives][structs]   | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>[October&nbsp;2024][structs-notes]</sub>                         |
 | [Extractors][extractors]                                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[October&nbsp;2024][extractors-notes]</sub>                      |
 | [iterator chunking][chunking]                                                  | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>[October&nbsp;2024][chunking-notes]</sub>                        |
-| [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works     | <sub>December&nbsp;2024</sub>                                         |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
