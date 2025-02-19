@@ -100,6 +100,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Sync Imports][import-sync]                                                                  | Guy Bedford                                            | Guy Bedford                                           | <sub>December&nbsp;2024</sub>                                     |
 | [Curtailing the power of "Thenables"][thenables]                                             | Matthew Gaudet                                         | Matthew Gaudet                                        | <sub>February&nbsp;2025</sub>                                     |
 | [`Math.clamp`][clamp]                                                                        | Oliver Medhurst                                        | Oliver Medhurst                                       | <sub>February&nbsp;2025</sub>                                     |
+| [`Error.captureStackTrace`][capturestacktrace]                                               | Matthew Gaudet                                         | Matthew Gaudet                                        | <sub>February&nbsp;2025</sub>                                     |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -286,3 +287,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [import-sync]: https://github.com/guybedford/proposal-import-sync
 [thenables]: https://github.com/mgaudet/proposal-thennable-curtailment
 [clamp]: https://github.com/CanadaHonk/proposal-math-clamp
+[capturestacktrace]: https://github.com/mgaudet/proposal-error-capturestacktrace
