@@ -57,7 +57,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Function implementation hiding][censorship]                                   | Domenic Denicola<br />Michael Ficarra                 | Michael Ficarra                                                                   |                                            | <sub>[June&nbsp;2020][censorship-notes]</sub>                         |
 | [collection normalization][collection-rekey]                                   | Bradley Farias                                        | Bradley Farias                                                                    |                                            | <sub>[January&nbsp;2019][richer-keys-notes]</sub>                     |
 | [isTemplateObject][isTemplateObject]                                           | Mike Samuel, Krzysztof Kotowicz                       | Daniel Ehrenberg<br />Jordan Harband                                              |                                            | <sub>[April&nbsp;2024][isTemplateObject-notes]</sub>                  |
-| [`Map.prototype.emplace`][map-emplace]                                         | Bradley Farias                                        | Erica Pramer                                                                      |                                            | <sub>[July&nbsp;2020][map-emplace-notes]</sub>                        |
+| [`Upsert`][upsert]                                                             | Daniel Minor, Lauritz Thoresen Angeltveit, Jonas Haukenes, Sune Lianes, Vetle Larsen, Mathias Hop Ness | Daniel Minor                     | Michael Ficarra, Jesse Alama               | <sub>[December&nbsp;2024][upsert-notes]</sub>                         |
 | [Dynamic Import Host Adjustment][]                                             | Mike Samuel, Krzysztof Kotowicz                       | Krzysztof Kotowicz                                                                |                                            | <sub>[December&nbsp;2019][Dynamic Import Host Adjustment notes]</sub> |
 | [Record & Tuple][record-tuple]                                                 | Robin Ricard<br />Richard Button                      | Robin Ricard<br />Richard Button                                                  |                                            | <sub>[April&nbsp;2024][record-tuple-notes]</sub>                      |
 | [Module Expressions][module-expressions]                                       | Surma<br />Daniel Ehrenberg<br />Nicolò Ribaudo       | Surma<br />Nicolò Ribaudo                                                         |                                            | <sub>[November&nbsp;2022][module-expressions-notes]</sub>             |
@@ -129,8 +129,8 @@ Note that as part of the onboarding process your repository name may be normaliz
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [isTemplateObject]: https://github.com/tc39/proposal-array-is-template-object
 [isTemplateObject-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-10.md#arrayistemplateobject-next-steps
-[map-emplace]: https://github.com/tc39/proposal-upsert
-[map-emplace-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#upsert-now-renamed-emplace-updates--for-stage-3
+[upsert]: https://github.com/tc39/proposal-upsert
+[upsert-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-12/december-02.md#upsert-formerly-mapemplace-update-and-request-for-stage-2-reviewers
 [Dynamic Import Host Adjustment]: https://github.com/tc39/proposal-dynamic-import-host-adjustment
 [Dynamic Import Host Adjustment notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-import-host-adjustment-for-stage-2
 [record-tuple]: https://github.com/tc39/proposal-record-tuple
