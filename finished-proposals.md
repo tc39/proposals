@@ -4,12 +4,12 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 
 | Proposal                                                                 | Author                                                 | Champion(s)                                             | TC39 meeting notes                          | Expected Publication Year |
 | ------------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------- | ------------------------- |
-| [`RegExp.escape`][escape]                                                | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband<br />Kevin Gibbons                 | February 2025                               | 2025                      |
-| [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]            | Leo Balter                                             | Leo Balter<br />Kevin Gibbons                           | February 2025                               | 2025                      |
+| [`RegExp.escape`][escape]                                                | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband<br />Kevin Gibbons                 | [February 2025][escape-notes]               | 2025                      |
+| [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]            | Leo Balter                                             | Leo Balter<br />Kevin Gibbons                           | [February 2025][float16s-notes]             | 2025                      |
 | [`Promise.try`][try]                                                     | Jordan Harband                                         | Jordan Harband                                          | [October 2024][try-notes]                   | 2025                      |
 | [Sync Iterator helpers][iterator-helpers]                                | Gus Caplan                                             | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons | [October 2024][iterator-helpers-notes]      | 2025                      |
-| [JSON Modules][json-modules]                                             | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg   | [October 2024][json-modules-notes]     | 2025                      |
-| [Import Attributes][import-attributes]                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo | [October 2024][import-attributes-notes]     | 2025                      |
+| [JSON Modules][json-modules]                                             | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg  | [October 2024][json-modules-notes] | 2025                      |
+| [Import Attributes][import-attributes]                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg<br />Nicolò Ribaudo | [October 2024][import-attributes-notes] | 2025                      |
 | [RegExp Modifiers][regexp-modifiers]                                     | Ron Buckton                                            | Ron Buckton                                             | [October 2024][regexp-modifiers-notes]      | 2025                      |
 | [New Set methods][set-methods]                                           | Michał Wadas<br />Sathya Gunasekaran<br />Kevin Gibbons | Kevin Gibbons                                          | [April 2024][set-methods-notes]             | 2025                      |
 | [Duplicate named capture groups][named-capture-groups]                   | Kevin Gibbons                                          | Kevin Gibbons                                           | [April 2024][named-capture-groups-notes]    | 2025                      |
@@ -207,6 +207,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [try]: https://github.com/tc39/proposal-promise-try
 [try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#promisetry-for-stage-4
 [float16s]: https://github.com/tc39/proposal-float16array
-[float16s-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#float16array-for-stage-3
+[float16s-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#float16array-for-stage-4
 [escape]: https://github.com/tc39/proposal-regex-escaping
-[escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#regexpescape-for-stage-3
+[escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#regexp-escaping-for-stage-4

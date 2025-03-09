@@ -33,8 +33,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Testing plan][redeclarable-global-eval-vars-testplan]</sub>   | <sub>[April&nbsp;2024][redeclarable-global-eval-vars-notes]</sub> |
 | [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Atomics.pause][atomics-pause-tests]</sub>                     | <sub>[October&nbsp;2024][atomics-pause-notes]</sub>        |
 | [`Error.isError`][is-error]                                                    | Jordan Harband                                                          | Jordan Harband                                                          | <sub>[Error.isError][error-iserror-tests]</sub>                     | <sub>[December&nbsp;2024][is-error-notes]</sub>            |
-| [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>February&nbsp;2025</sub>                              |
-| [`Math.sumPrecise`][math-sum]                                                  | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[Math.sumPrecise][math-sum-tests]</sub> | <sub>[October&nbsp;2024][math-sum-notes]</sub>    |
+| [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>[February&nbsp;2025][lazy-import-notes]</sub>         |
+| [`Math.sumPrecise`][math-sum]                                                  | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[Math.sumPrecise][math-sum-tests]</sub>                        | <sub>[October&nbsp;2024][math-sum-notes]</sub>             |
 
 
 ### Stage 2.7
@@ -45,7 +45,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>[June&nbsp;2024][joint-notes]</sub>                   |
 | [Iterator Sequencing][sequencing]                                              | Michael Ficarra                                                         | Michael Ficarra                                                         | :question:                                                          | <sub>[October&nbsp;2024][sequencing-notes]</sub>           |
 | [ESM Phase Imports][esm-phase]                                                 | Luca Casonato<br />Guy Bedford                                          | Luca Casonato<br />Guy Bedford                                          | :question:                                                          | <sub>[December&nbsp;2024][esm-phase-notes]</sub>           |
-| [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works             | :question:                                                          | <sub>February&nbsp;2025</sub>                              |
+| [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works             | :question:                                                          | <sub>[February&nbsp;2025][immutable-abs-notes]</sub>       |
 | [Non-extensible Applies to Private][nonext-private]                            | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks             | :question:                                                          | <sub>April&nbsp; 2025</sub>                                |
 | [`Upsert`][upsert]                                                             | Daniel Minor, Lauritz Thoresen Angeltveit, Jonas Haukenes, Sune Lianes, Vetle Larsen, Mathias Hop Ness | Daniel Minor                             | :question:                                                          | <sub>April&nbsp; 2025</sub>                                |
 
@@ -76,7 +76,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Structs: Fixed Layout Objects and Some Synchronization Primitives][structs]   | Shu-yu Guo                                            | Shu-yu Guo                                          | Mark Miller<br />Waldemar Horwat<br />Yulia Startsev<br />Nicolò Ribaudo | <sub>[October&nbsp;2024][structs-notes]</sub>                         |
 | [Extractors][extractors]                                                       | Ron Buckton                                           | Ron Buckton                                                                       | Jordan Harband<br />Justin Ridgewell       | <sub>[October&nbsp;2024][extractors-notes]</sub>                      |
 | [iterator chunking][chunking]                                                  | Michael Ficarra                                       | Michael Ficarra                                                         | Ashley Claymore<br />Jordan Harband<br />Jesse Alama | <sub>[October&nbsp;2024][chunking-notes]</sub>                        |
-| [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                        | Jordan Harband<br />Mark Miller                                                   | Nicolò Ribaudo<br />Michael Ficarra        | <sub>February&nbsp;2025</sub>                                         |
+| [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                        | Jordan Harband<br />Mark Miller                                                   | Nicolò Ribaudo<br />Michael Ficarra        | <sub>[February&nbsp;2025][stack-accessor-notes]</sub>                 |
 | [Deferred Re-exports][deferred-reexport]                                       | Nicolò Ribaudo                                        | Nicolò Ribaudo                                                                    | Chengzhong Wu<br />Ashley Claymore         | <sub>April&nbsp;2025</sub>                                            |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
@@ -171,7 +171,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [time-zone-canon-notes]: https://github.com/tc39/notes/blob/main/meetings/2023-07/july-12.md#time-zone-canonicalization-for-stage-3
 [time-zone-canon-tests]: https://github.com/tc39/test262/pull/3837
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
-[lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#deferred-import-evaluation-for-stage-27
+[lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#import-defer-for-stage-3
 [lazy-import-testplan]: https://github.com/tc39/test262/issues/4111
 [uint8array-base64]: https://github.com/tc39/proposal-arraybuffer-base64
 [uint8array-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#uint8array-base64-for-stages-27-and-3
@@ -210,7 +210,8 @@ Note that as part of the onboarding process your repository name may be normaliz
 [chunking]: https://github.com/tc39/proposal-iterator-chunking
 [chunking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#iterator-chunking-for-stage-2
 [immutable-abs]: https://github.com/tc39/proposal-immutable-arraybuffer
-[immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-03.md#immutable-arraybuffer-to-stage-2
+[immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#immutable-arraybuffer
 [stack-accessor]: https://github.com/tc39/proposal-error-stack-accessor
+[stack-accessor-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#error-stack-accessor
 [nonext-private]: https://github.com/syg/proposal-nonextensible-applies-to-private
 [deferred-reexport]: https://github.com/tc39/proposal-deferred-reexports

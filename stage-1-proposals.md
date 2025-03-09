@@ -97,10 +97,10 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Unordered Async Iterator Helpers][unordered-async]                                          | Michael Ficarra                                        | Michael Ficarra                                       | <sub>[July&nbsp;2024][unordered-async-notes]</sub>                |
 | [`Array.zip` and `Array.zipKeyed`][array.zip]                                                | Jordan Harband                                         | Jordan Harband                                        | <sub>[October&nbsp;2024][array.zip-notes]</sub>                   |
 | [Stabilize][stabilize]                                                                       | Mark Miller<br />Chip Morningstar<br />Richard Gibson<br />Mathieu Hofman | Mark Miller<br />Chip Morningstar<br />Richard Gibson<br />Mathieu Hofman | <sub>[December&nbsp;2024][stabilize-notes]</sub> |
-| [Sync Imports][import-sync]                                                                  | Guy Bedford                                            | Guy Bedford                                           | <sub>[December&nbsp;2024][import-sync-notes]</sub>                                     |
-| [Curtailing the power of "Thenables"][thenables]                                             | Matthew Gaudet                                         | Matthew Gaudet                                        | <sub>February&nbsp;2025</sub>                                     |
-| [`Math.clamp`][clamp]                                                                        | Oliver Medhurst                                        | Oliver Medhurst                                       | <sub>February&nbsp;2025</sub>                                     |
-| [`Error.captureStackTrace`][capturestacktrace]                                               | Matthew Gaudet                                         | Matthew Gaudet                                        | <sub>February&nbsp;2025</sub>                                     |
+| [Sync Imports][import-sync]                                                                  | Guy Bedford                                            | Guy Bedford                                           | <sub>[December&nbsp;2024][import-sync-notes]</sub>                |
+| [Curtailing the power of "Thenables"][thenables]                                             | Matthew Gaudet                                         | Matthew Gaudet                                        | <sub>[February&nbsp;2025][thenables-notes]</sub>                  |
+| [`Math.clamp`][clamp]                                                                        | Oliver Medhurst                                        | Oliver Medhurst                                       | <sub>[February&nbsp;2025][clamp-notes]</sub>                      |
+| [`Error.captureStackTrace`][capturestacktrace]                                               | Matthew Gaudet                                         | Matthew Gaudet                                        | <sub>[February&nbsp;2025][capturestacktrace-notes]</sub>          |
 | [`Composites`][composite]                                                                    | Ashley Claymore                                        | Ashley Claymore                                       | <sub>April&nbsp;2025</sub>                                        |
 | [Enums][enum]                                                                                | Ron Buckton                                            | Ron Buckton                                           | <sub>April&nbsp;2025</sub>                                        |
 | [`Object.propertyCount`][property-count]                                                     | Ruben Bridgewater<br />Jordan Harband                  | Ruben Bridgewater<br />Jordan Harband                 | <sub>April&nbsp;2025</sub>                                        |
@@ -293,8 +293,11 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [import-sync]: https://github.com/tc39/proposal-import-sync
 [import-sync-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-04.md#import-sync-discussion-request-for-stage-1
 [thenables]: https://github.com/tc39/proposal-thenable-curtailment
+[thenables-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#curtailing-the-power-of-thenables-for-stage-1
 [clamp]: https://github.com/tc39/proposal-math-clamp
+[clamp-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#mathclamp-for-stage-1-or-2
 [capturestacktrace]: https://github.com/mgaudet/proposal-error-capturestacktrace
+[capturestacktrace-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#errorcapturestacktrace-for-stage-1
 [composite]: https://github.com/acutmore/proposal-composites
 [enum]: https://github.com/tc39/proposal-enum
 [property-count]: https://github.com/tc39/proposal-object-property-count
