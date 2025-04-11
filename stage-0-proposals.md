@@ -21,6 +21,7 @@ Stage 0 proposals which appear below are either:
 | [`as` destructuring patterns][as-patterns]                         | Kat Marchán                           | Kat Marchán                           |                                   |
 | [String trim characters][string-trim-characters]                   | Wenlu Wang                            | Wenlu Wang                            |                                   |
 | [Catch Guard][catch-guard]                                         | Willian Martins                       | Willian Martins                       |                                   |
+| [Limiting the Scope of export][limit-export-scope]                 | tt                                    | tt                       |                                   |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -44,3 +45,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [builtins-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-28.md#14ia-builtinstypeof-and-builtinsis
 [string-trim-characters]: https://github.com/Kingwl/proposal-string-trim-characters
 [catch-guard]: https://github.com/wmsbill/proposal-catch-guards
+[limit-export-scope]: https://github.com/co-labo-hub/ecma-export-proposal
