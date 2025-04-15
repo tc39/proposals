@@ -76,6 +76,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Extractors][extractors]                                                       | Ron Buckton                                           | Ron Buckton                                                                       | Jordan Harband<br />Justin Ridgewell       | <sub>[October&nbsp;2024][extractors-notes]</sub>                      |
 | [iterator chunking][chunking]                                                  | Michael Ficarra                                       | Michael Ficarra                                                         | Ashley Claymore<br />Jordan Harband<br />Jesse Alama | <sub>[October&nbsp;2024][chunking-notes]</sub>                        |
 | [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                        | Jordan Harband<br />Mark Miller                                                   | Nicolò Ribaudo<br />Michael Ficarra        | <sub>February&nbsp;2025</sub>                                         |
+| [Non-extensible Applies to Private][nonext-private]                            | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks                                                  | <sub>April&nbsp; 2025</sub>                                           |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -210,3 +211,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [immutable-abs]: https://github.com/Agoric/tc39-proposal-immutable-arraybuffer
 [immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-03.md#immutable-arraybuffer-to-stage-2
 [stack-accessor]: https://github.com/tc39/proposal-error-stack-accessor
+[nonext-private]: https://github.com/syg/proposal-nonextensible-applies-to-private
