@@ -47,6 +47,7 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [`Math.signbit`: IEEE-754 sign bit][signbit]                         | JF Bastien                                                 | Withdrawn: no interested champions in February 2024 |
 | [Getting last element of Array][arraylast]                           | Keith Cirkel                                               | Withdrawn; the [Array#at](https://github.com/tc39/proposal-relative-indexing-method) proposal supersedes this work. |
 | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                                   | Withdrawn; subsumed by [RegExp v flag with set notation + properties of strings][regexp-v-flag] proposal |
+| [Record & Tuple][record-tuple]                                                 | Robin Ricard<br />Richard Button                 | Withdrawn; subsumed by [Composites][composite]      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -113,3 +114,6 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [regexp-v-flag]: https://github.com/tc39/proposal-regexp-v-flag
 [uuid]: https://github.com/tc39/proposal-uuid
 [uuid-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#uuid-for-stage-1
+[record-tuple]: https://github.com/tc39/proposal-record-tuple
+[record-tuple-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
+[composite]: https://github.com/tc39/proposal-composites
