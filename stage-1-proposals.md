@@ -102,6 +102,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [`Math.clamp`][clamp]                                                                        | Oliver Medhurst                                        | Oliver Medhurst                                       | <sub>February&nbsp;2025</sub>                                     |
 | [`Error.captureStackTrace`][capturestacktrace]                                               | Matthew Gaudet                                         | Matthew Gaudet                                        | <sub>February&nbsp;2025</sub>                                     |
 | [`Composites`][composite]                                                                    | Ashley Claymore                                        | Ashley Claymore                                       | <sub>April&nbsp;2025</sub>                                        |
+| [Enums][enum]                                                                                | Ron Buckton                                            | Ron Buckton                                           | <sub>April&nbsp;2025</sub>                                        |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -292,3 +293,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [clamp]: https://github.com/CanadaHonk/proposal-math-clamp
 [capturestacktrace]: https://github.com/mgaudet/proposal-error-capturestacktrace
 [composite]: https://github.com/acutmore/proposal-composites
+[enum]: https://github.com/tc39/proposal-enum
