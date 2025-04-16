@@ -179,7 +179,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [joint]: https://github.com/tc39/proposal-joint-iteration
 [joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-12.md#joint-iteration-for-stage-27
 [joint-testplan]: https://github.com/tc39/test262/issues/4112
-[redeclarable-global-eval-vars]: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars
+[redeclarable-global-eval-vars]: https://github.com/tc39/proposal-redeclarable-global-eval-vars
 [redeclarable-global-eval-vars-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
 [redeclarable-global-eval-vars-testplan]: https://github.com/tc39/test262/issues/4223
 [math-sum]: https://github.com/tc39/proposal-math-sum
@@ -209,7 +209,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [extractors-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#extractors-for-stage-2
 [chunking]: https://github.com/tc39/proposal-iterator-chunking
 [chunking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#iterator-chunking-for-stage-2
-[immutable-abs]: https://github.com/Agoric/tc39-proposal-immutable-arraybuffer
+[immutable-abs]: https://github.com/tc39/proposal-immutable-arraybuffer
 [immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-03.md#immutable-arraybuffer-to-stage-2
 [stack-accessor]: https://github.com/tc39/proposal-error-stack-accessor
 [nonext-private]: https://github.com/syg/proposal-nonextensible-applies-to-private

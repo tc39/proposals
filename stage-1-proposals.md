@@ -132,7 +132,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [cancel-api-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#cancellation-update
 [codepoints]: https://github.com/tc39/proposal-string-prototype-codepoints
 [codepoints-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#stringprototypecodepoints-for-stage-2
-[freeze-seal-syntax]: https://github.com/keithamus/proposal-object-freeze-seal-syntax
+[freeze-seal-syntax]: https://github.com/tc39/proposal-object-freeze-seal-syntax
 [freeze-seal-syntax-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-30.md#10ivd-objectfreeze--objectseal-syntax-proposal-for-stage-0
 [block-params]: https://github.com/samuelgoto/proposal-block-params
 [block-params-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-30.md#9iiia-block-params-to-stage-1
@@ -140,7 +140,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [from-string-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iic-bigintnumberfromstring-for-stage-1
 [seeded-randoms]: https://github.com/tc39/proposal-seeded-random
 [seeded-randoms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
-[mixins]: https://github.com/justinfagnani/proposal-mixins
+[mixins]: https://github.com/tc39/proposal-mixins
 [mixins-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal
 [collection-methods]: https://github.com/tc39/proposal-collection-methods
 [collection-methods-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiik-new-set-builtin-methods-for-stage-2
@@ -188,7 +188,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [array-filtering-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#status-update-on-array-filtering
 [decimal]: https://github.com/tc39/proposal-decimal
 [decimal-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#decimals
-[virtualize]: https://github.com/Agoric/proposal-preserve-virtualizability
+[virtualize]: https://github.com/tc39/proposal-preserve-virtualizability
 [virtualize-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-4.md#preserve-host-virtualizability
 [legacy-reflection]: https://github.com/claudepache/es-legacy-function-reflection
 [legacy-reflection-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#legacy-reflection-features-for-functions-in-javascript-for-stage-1
@@ -274,7 +274,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [module-sync-assert-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-29.md#module-sync-assert-for-stage-1
 [iterator-unique]: https://github.com/tc39/proposal-iterator-unique
 [iterator-unique-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#iterator-unique-for-stage-1
-[template-literals]: https://github.com/hax/proposal-raw-string-literals
+[template-literals]: https://github.com/tc39/proposal-improve-template-literals
 [template-literals-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#raw-string-literals-for-stage-1
 [func-obj-decs]: https://github.com/tc39/proposal-function-and-object-literal-element-decorators
 [func-obj-decs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#function-and-object-literal-element-decorators-for-stage-1
@@ -288,12 +288,12 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [concurrency-control-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#concurrency-control-presenter-mf-and-lca
 [array.zip]: https://github.com/tc39/proposal-array-zip
 [array.zip-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#arrayzip-for-stage-1-or-2-or-27
-[stabilize]: https://github.com/Agoric/proposal-stabilize
+[stabilize]: https://github.com/tc39/proposal-stabilize
 [stabilize-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-03.md#stabilize-to-stage-1
-[import-sync]: https://github.com/guybedford/proposal-import-sync
+[import-sync]: https://github.com/tc39/proposal-import-sync
 [import-sync-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-04.md#import-sync-discussion-request-for-stage-1
-[thenables]: https://github.com/mgaudet/proposal-thennable-curtailment
-[clamp]: https://github.com/CanadaHonk/proposal-math-clamp
+[thenables]: https://github.com/tc39/proposal-thenable-curtailment
+[clamp]: https://github.com/tc39/proposal-math-clamp
 [capturestacktrace]: https://github.com/mgaudet/proposal-error-capturestacktrace
 [composite]: https://github.com/acutmore/proposal-composites
 [enum]: https://github.com/tc39/proposal-enum
