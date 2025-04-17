@@ -105,6 +105,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Enums][enum]                                                                                | Ron Buckton                                            | Ron Buckton                                           | <sub>April&nbsp;2025</sub>                                        |
 | [`Object.propertyCount`][property-count]                                                     | Ruben Bridgewater<br />Jordan Harband                  | Ruben Bridgewater<br />Jordan Harband                 | <sub>April&nbsp;2025</sub>                                        |
 | [Compare Strings by Codepoint][compare-codepoint]                                         | Mathieu Hofman<br />Mark Miller<br />Christopher Hiller | Mathieu Hofman<br />Mark Miller<br />Christopher Hiller | <sub>April&nbsp;2025</sub>                                        |
+| [Disposable AsyncContext.Variable][disposable-asynccontext]                               | Chengzhong Wu<br />Luca Casonato<br />Gus Caplan          | Chengzhong Wu<br />Luca Casonato<br />Gus Caplan      | <sub>April&nbsp;2025</sub>                                        |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -298,3 +299,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [enum]: https://github.com/tc39/proposal-enum
 [property-count]: https://github.com/tc39/proposal-object-property-count
 [compare-codepoint]: https://github.com/tc39/proposal-compare-strings-by-codepoint
+[disposable-asynccontext]: https://github.com/tc39/proposal-async-context-disposable
