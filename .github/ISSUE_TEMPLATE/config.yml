@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+contact_links:
+  -
+    about: "Feature requests for future versions of ECMAScript should not be made in this repository. See CONTRIBUTING.md for more details."
+    name: "\U0001F680 Feature request"
+    url: "https://github.com/tc39/ecma262/blob/HEAD/CONTRIBUTING.md"
+  -
+    about: "You can also ask questions and suggest ideas on the TC39 Discourse."
+    name: "\U0001F4AC Discourse"
+    url: "https://es.discourse.group/"
