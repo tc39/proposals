@@ -1,20 +1,12 @@
 name: Administrative Bookkeeping
-description: Select this if you are a member of the committee.
+description: Corrections to the data maintained in this repository.
 body:
   - type: markdown
     attributes:
       value: |
         ‼️ This repository is NOT the right place to suggest new ECMAScript features. See the ["Contributing to ECMAScript" document](https://github.com/tc39/ecma262/blob/HEAD/CONTRIBUTING.md) for information on how to do that.
 
-        Issues in this repository should regard the list of proposals or the process for tracking proposals.
+        Issues in this repository should relate to the list of proposals itself or the maintenance process thereof.
   - type: textarea
     attributes:
       label: Add a description
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Committee membership
-      description: This repository is NOT the right place to suggest new ECMAScript features.
-      options:
-        - label: I am a committee member
-          required: true
