@@ -4,6 +4,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 
 | Proposal                                                                 | Author                                                 | Champion(s)                                             | TC39 meeting notes                          | Expected Publication Year |
 | ------------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------- | ------------------------- |
+| [`Error.isError`][is-error]                                              | Jordan Harband                                                                                                   | May&nbsp;2025                               | 2026                      |
 | [`RegExp.escape`][escape]                                                | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband<br />Kevin Gibbons                 | [February 2025][escape-notes]               | 2025                      |
 | [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]            | Leo Balter                                             | Leo Balter<br />Kevin Gibbons                           | [February 2025][float16s-notes]             | 2025                      |
 | [`Promise.try`][try]                                                     | Jordan Harband                                         | Jordan Harband                                          | [October 2024][try-notes]                   | 2025                      |
@@ -210,3 +211,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [float16s-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#float16array-for-stage-4
 [escape]: https://github.com/tc39/proposal-regex-escaping
 [escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#regexp-escaping-for-stage-4
+[is-error]: https://github.com/tc39/proposal-is-error
+[is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-02.md#erroriserror-to-stage-3
