@@ -77,6 +77,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [iterator chunking][chunking]                                                  | Michael Ficarra                                       | Michael Ficarra                                                         | Ashley Claymore<br />Jordan Harband<br />Jesse Alama | <sub>[October&nbsp;2024][chunking-notes]</sub>                        |
 | [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                        | Jordan Harband<br />Mark Miller                                                   | Nicolò Ribaudo<br />Michael Ficarra        | <sub>[February&nbsp;2025][stack-accessor-notes]</sub>                 |
 | [Deferred Re-exports][deferred-reexport]                                       | Nicolò Ribaudo                                        | Nicolò Ribaudo                                                                    | Chengzhong Wu<br />Ashley Claymore         | <sub>April&nbsp;2025</sub>                                            |
+| [SeededPRNG][seeded-randoms]                                                   | Tab Atkins                                            | Tab Atkins                                                                        |                                            | <sub>May&nbsp;2025</sub>                                              |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -213,3 +214,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [stack-accessor-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#error-stack-accessor
 [nonext-private]: https://github.com/syg/proposal-nonextensible-applies-to-private
 [deferred-reexport]: https://github.com/tc39/proposal-deferred-reexports
+[seeded-randoms]: https://github.com/tc39/proposal-seeded-random
+[seeded-randoms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
