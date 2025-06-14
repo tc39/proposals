@@ -99,11 +99,11 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Sync Imports][import-sync]                                                                  | Guy Bedford                                            | Guy Bedford                                           | <sub>[December&nbsp;2024][import-sync-notes]</sub>                |
 | [Curtailing the power of "Thenables"][thenables]                                             | Matthew Gaudet                                         | Matthew Gaudet                                        | <sub>[February&nbsp;2025][thenables-notes]</sub>                  |
 | [`Error.captureStackTrace`][capturestacktrace]                                               | Matthew Gaudet                                         | Matthew Gaudet                                        | <sub>[February&nbsp;2025][capturestacktrace-notes]</sub>          |
-| [`Composites`][composite]                                                                    | Ashley Claymore                                        | Ashley Claymore                                       | <sub>April&nbsp;2025</sub>                                        |
-| [Enums][enum]                                                                                | Ron Buckton                                            | Ron Buckton                                           | <sub>April&nbsp;2025</sub>                                        |
-| [`Object.propertyCount`][property-count]                                                     | Ruben Bridgewater<br />Jordan Harband                  | Ruben Bridgewater<br />Jordan Harband                 | <sub>April&nbsp;2025</sub>                                        |
-| [Compare Strings by Codepoint][compare-codepoint]                                           | Mathieu Hofman<br />Mark Miller<br />Christopher Hiller | Mathieu Hofman<br />Mark Miller<br />Christopher Hiller | <sub>April&nbsp;2025</sub>                                      |
-| [Disposable AsyncContext.Variable][disposable-asynccontext]                                  | Chengzhong Wu<br />Luca Casonato<br />Gus Caplan       | Chengzhong Wu<br />Luca Casonato<br />Gus Caplan      | <sub>April&nbsp;2025</sub>                                        |
+| [`Composites`][composite]                                                                    | Ashley Claymore                                        | Ashley Claymore                                       | <sub>[April&nbsp;2025][composite-notes]</sub>                     |
+| [Enums][enum]                                                                                | Ron Buckton                                            | Ron Buckton                                           | <sub>[April&nbsp;2025][enum-notes]</sub>                          |
+| [`Object.propertyCount`][property-count]                                                     | Ruben Bridgewater<br />Jordan Harband                  | Ruben Bridgewater<br />Jordan Harband                 | <sub>[April&nbsp;2025][property-count-notes]</sub>                |
+| [Compare Strings by Codepoint][compare-codepoint]                                           | Mathieu Hofman<br />Mark Miller<br />Christopher Hiller | Mathieu Hofman<br />Mark Miller<br />Christopher Hiller | <sub>[April&nbsp;2025][compare-codepoint-notes]</sub>           |
+| [Disposable AsyncContext.Variable][disposable-asynccontext]                                  | Chengzhong Wu<br />Luca Casonato<br />Gus Caplan       | Chengzhong Wu<br />Luca Casonato<br />Gus Caplan      | <sub>[April&nbsp;2025][disposable-asynccontext-notes]</sub>       |
 | [More Random Functions][more-random-functions]                                               | Tab Atkins                                             | Tab Atkins                                            | <sub>May&nbsp;2025</sub>                                          |
 | [Inspector][inspector]                                                                       | Jacob Smith                                            | Jacob Smith                                           | <sub>May&nbsp;2025</sub>                                          |
 
@@ -292,12 +292,17 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [import-sync-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-04.md#import-sync-discussion-request-for-stage-1
 [thenables]: https://github.com/tc39/proposal-thenable-curtailment
 [thenables-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#curtailing-the-power-of-thenables-for-stage-1
-[capturestacktrace]: https://github.com/mgaudet/proposal-error-capturestacktrace
+[capturestacktrace]: https://github.com/tc39/proposal-error-capturestacktrace
 [capturestacktrace-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#errorcapturestacktrace-for-stage-1
-[composite]: https://github.com/acutmore/proposal-composites
+[composite]: https://github.com/tc39/proposal-composites
+[composite-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-14.md#composite-keys-for-stage-1
 [enum]: https://github.com/tc39/proposal-enum
+[enum-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-15.md#enums-for-stage-1
 [property-count]: https://github.com/tc39/proposal-object-property-count
+[property-count-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-15.md#objectpropertycount-for-stage-1-or-2
 [compare-codepoint]: https://github.com/tc39/proposal-compare-strings-by-codepoint
+[compare-codepoint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-16.md#compare-strings-by-codepoint-for-stage-1-or-2
 [disposable-asynccontext]: https://github.com/tc39/proposal-async-context-disposable
+[disposable-asynccontext-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-14.md#asynccontext-stage-2-update
 [more-random-functions]: https://github.com/tc39/proposal-random-functions
-[inspector]: https://github.com/JakobJingleheimer/proposal-inspector
+[inspector]: https://github.com/tc39/proposal-inspector
