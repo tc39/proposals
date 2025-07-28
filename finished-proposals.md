@@ -4,6 +4,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 
 | Proposal                                                                 | Author                                                 | Champion(s)                                             | TC39 meeting notes                          | Expected Publication Year |
 | ------------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------- | ------------------------- |
+| [`Math.sumPrecise`][math-sum]                                            | Kevin Gibbons                                          | Kevin Gibbons                                           | July&nbsp;2025                              | 2026                      |
 | [`Error.isError`][is-error]                                              | Jordan Harband                                         | Jordan Harband                                          | May&nbsp;2025                               | 2026                      |
 | [`RegExp.escape`][escape]                                                | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband<br />Kevin Gibbons                 | [February 2025][escape-notes]               | 2025                      |
 | [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]            | Leo Balter                                             | Leo Balter<br />Kevin Gibbons                           | [February 2025][float16s-notes]             | 2025                      |
@@ -213,3 +214,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#regexp-escaping-for-stage-4
 [is-error]: https://github.com/tc39/proposal-is-error
 [is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-02.md#erroriserror-to-stage-3
+[math-sum]: https://github.com/tc39/proposal-math-sum
+[math-sum-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-10/october-09.md#mathsumprecise-for-stage-3--last-chance-to-suggest-other-names

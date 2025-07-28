@@ -33,7 +33,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Testing plan][redeclarable-global-eval-vars-testplan]</sub>   | <sub>[April&nbsp;2024][redeclarable-global-eval-vars-notes]</sub> |
 | [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Atomics.pause][atomics-pause-tests]</sub>                     | <sub>[October&nbsp;2024][atomics-pause-notes]</sub>        |
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>[February&nbsp;2025][lazy-import-notes]</sub>         |
-| [`Math.sumPrecise`][math-sum]                                                  | Kevin Gibbons                                                           | Kevin Gibbons                                                           | <sub>[Math.sumPrecise][math-sum-tests]</sub>                        | <sub>[October&nbsp;2024][math-sum-notes]</sub>             |
 
 
 ### Stage 2.7
@@ -184,10 +183,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [redeclarable-global-eval-vars]: https://github.com/tc39/proposal-redeclarable-global-eval-vars
 [redeclarable-global-eval-vars-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
 [redeclarable-global-eval-vars-testplan]: https://github.com/tc39/test262/issues/4223
-[math-sum]: https://github.com/tc39/proposal-math-sum
-[math-sum-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-10/october-09.md#mathsumprecise-for-stage-3--last-chance-to-suggest-other-names
-[math-sum-tests]: https://github.com/tc39/test262/pull/4049
-[math-sum-testplan]: https://github.com/tc39/test262/issues/4054
 [dynamic-code-brand-checks]: https://github.com/tc39/proposal-dynamic-code-brand-checks
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
 [error-iserror-tests]: https://github.com/tc39/test262/pull/4266
