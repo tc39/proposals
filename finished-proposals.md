@@ -4,6 +4,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 
 | Proposal                                                                 | Author                                                 | Champion(s)                                             | TC39 meeting notes                          | Expected Publication Year |
 | ------------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------- | ------------------------- |
+| [Uint8Array to/from Base64][uint8array-base64]                           | Kevin Gibbons                                          | Kevin Gibbons                                           | July&nbsp;2025                              | 2026                      |
 | [`Math.sumPrecise`][math-sum]                                            | Kevin Gibbons                                          | Kevin Gibbons                                           | July&nbsp;2025                              | 2026                      |
 | [`Error.isError`][is-error]                                              | Jordan Harband                                         | Jordan Harband                                          | May&nbsp;2025                               | 2026                      |
 | [`RegExp.escape`][escape]                                                | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband<br />Kevin Gibbons                 | [February 2025][escape-notes]               | 2025                      |
@@ -216,3 +217,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-02.md#erroriserror-to-stage-3
 [math-sum]: https://github.com/tc39/proposal-math-sum
 [math-sum-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-10/october-09.md#mathsumprecise-for-stage-3--last-chance-to-suggest-other-names
+[uint8array-base64]: https://github.com/tc39/proposal-arraybuffer-base64
+[uint8array-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#uint8array-base64-for-stages-27-and-3
