@@ -12,17 +12,23 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 ### Stage 3
 
-| Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                             |
-| ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | ----------------------------------------------------- |
-| [`Intl Locale Info`][intl-locale-info]                                 | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | [July&nbsp;2024][intl-locale-info-notes]              |
+| Proposal                                                               | Author                           | Champion                         | <sub>Test262 Feature Flag</sub>                                     | <sub>Last Presented</sub>                                  |
+| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
+| [`Intl Locale Info`][intl-locale-info]                                 | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             |                                                                     | July&nbsp;2025                                             |
+
+### Stage 2.7
+
+| Proposal                                                                       | Author         | Champion   | <sub>Test262 Feature Flag</sub> | <sub>Last Presented</sub>                                  |
+| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
+| [Keep trailing zeros in Intl.NumberFormat and Intl.PluralRules][trailing-zero] | Eemeli Aro     | Eemeli Aro | :question:                      | July&nbsp;2025                                             |
 
 ### Stage 2
 
-| Proposal                                                               | Author                           | Champion                         | <sub>Last Presented</sub>                   |
-| ---------------------------------------------------------------------- | -------------------------------- | -------------------------------- | -------------------------------------------- |
-| [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]              | Louis-Aime                       | Shane Carr, Louis-Aime           | November&nbsp;2022                           |
-| [Intl Era and MonthCode Proposal][intl era monthCode]                  | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | January&nbsp;2023                            |
-| [More Currency Display Choices][mo-money]                              | Eemeli Aro                       | Eemeli Aro                       | December&nbsp;2024                           |
+| Proposal                                                               | Author                           | Champion                         | Stage 2.7 reviewers                        | <sub>Last Presented</sub>                                             |
+| ------------------------------------------------------------------------------ | ----------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------ | --------------------------------------------------------------------- |
+| [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]              | Louis-Aime                       | Shane Carr, Louis-Aime           | :question:                                 | November&nbsp;2022                           |
+| [Intl Era and MonthCode Proposal][intl era monthCode]                  | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | :question:                                 | January&nbsp;2023                            |
+| [More Currency Display Choices][mo-money]                              | Eemeli Aro                       | Eemeli Aro                       | :question:                                 | December&nbsp;2024                           |
 
 ### Stage 1
 
@@ -35,7 +41,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [`Intl.MessageResource`][intl.messageresource]               | Eemeli Aro           | Eemeli Aro             | November&nbsp;2022                                               |
 | [Intl.ZonedDateTimeFormat][intl.zoneddatetimeformat]         | Frank Yung-Fong Tang | Frank Yung-Fong Tang   | May&nbsp;2023                                                    |
 | [Representing Measures][measure]                             | Ben Allen            | Ben Allen              | October&nbsp;2024                                                |
-| [Keep trailing zeros in Intl.NumberFormat and Intl.PluralRules][trailing-zero] | Eemeli Aro     | Eemeli Aro | May&nbsp;2025                                                    |
 
 ### Contributing new proposals
 
