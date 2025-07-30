@@ -77,6 +77,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Deferred Re-exports][deferred-reexport]                                       | Nicolò Ribaudo                                        | Nicolò Ribaudo                                                                    | Chengzhong Wu<br />Ashley Claymore         | <sub>[April&nbsp;2025][deferred-reexport-notes]</sub>                 |
 | [SeededPRNG][seeded-randoms]                                                   | Tab Atkins                                            | Tab Atkins                                                                        | Kevin Gibbons<br />Jesse Alama<br />Mark Miller | <sub>May&nbsp;2025</sub>                                         |
 | [`Math.clamp`][clamp]                                                          | Oliver Medhurst                                       | Oliver Medhurst                                                                   |                                            | <sub>May&nbsp;2025</sub>                                              |
+| [Import Bytes][import-bytes]                                                   | Steven Salat                                          | Steven Salat                                                                      | Eemeli Aro<br />James Snell<br />Nicolò Ribaudo | <sub>July&nbsp;2025</sub>                                        |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -212,3 +213,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [seeded-randoms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
 [clamp]: https://github.com/tc39/proposal-math-clamp
 [clamp-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#mathclamp-for-stage-1-or-2
+[import-bytes]: https://github.com/styfle/proposal-import-buffer
