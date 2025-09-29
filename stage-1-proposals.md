@@ -104,9 +104,9 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [`Object.propertyCount`][property-count]                                                     | Ruben Bridgewater<br />Jordan Harband                  | Ruben Bridgewater<br />Jordan Harband                 | <sub>[April&nbsp;2025][property-count-notes]</sub>                |
 | [Compare Strings by Codepoint][compare-codepoint]                                           | Mathieu Hofman<br />Mark Miller<br />Christopher Hiller | Mathieu Hofman<br />Mark Miller<br />Christopher Hiller | <sub>[April&nbsp;2025][compare-codepoint-notes]</sub>           |
 | [Disposable AsyncContext.Variable][disposable-asynccontext]                                  | Chengzhong Wu<br />Luca Casonato<br />Gus Caplan       | Chengzhong Wu<br />Luca Casonato<br />Gus Caplan      | <sub>[April&nbsp;2025][disposable-asynccontext-notes]</sub>       |
-| [More Random Functions][more-random-functions]                                               | Tab Atkins                                             | Tab Atkins                                            | <sub>May&nbsp;2025</sub>                                          |
+| [More Random Functions][more-random-functions]                                               | Tab Atkins                                             | Tab Atkins                                            | <sub>[May&nbsp;2025][more-random-functions-notes]</sub>                                          |
 | [Inspector][inspector]                                                                       | Jacob Smith                                            | Jacob Smith                                           | <sub>May&nbsp;2025</sub>                                          |
-| [Module Global][module-global]                                                               | Zbyszek Tenerowicz<br />Kris Kowal<br />Richard Gibson<br />Mark S. Miller | Zbyszek Tenerowicz<br />Kris Kowal<br />Richard Gibson<br />Mark S. Miller | <sub>July&nbsp;2025</sub> |
+| [Module Global][module-global]                                                               | Zbyszek Tenerowicz<br />Kris Kowal<br />Richard Gibson<br />Mark S. Miller | Zbyszek Tenerowicz<br />Kris Kowal<br />Richard Gibson<br />Mark S. Miller | <sub>[July&nbsp;2025][module-global-notes]</sub> |
 | [Bulk-add array elements][bulk-add-array]                                                    | Daniel Rosenwasser                                     | Daniel Rosenwasser                                    | <sub>September&nbsp;2025</sub>                                    |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
@@ -307,6 +307,8 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [disposable-asynccontext]: https://github.com/tc39/proposal-async-context-disposable
 [disposable-asynccontext-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-14.md#asynccontext-stage-2-update
 [more-random-functions]: https://github.com/tc39/proposal-random-functions
+[more-random-functions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-29.md#more-random-functions-for-stage-1
 [inspector]: https://github.com/tc39/proposal-inspector
 [module-global]: https://github.com/endojs/proposal-new-global
+[module-global-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-30.md#module-import-hook-and-new-global-for-stage-1
 [bulk-add-array]: https://github.com/DanielRosenwasser/proposal-array-push-all/

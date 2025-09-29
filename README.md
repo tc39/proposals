@@ -32,8 +32,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Testing plan][redeclarable-global-eval-vars-testplan]</sub>   | <sub>[April&nbsp;2024][redeclarable-global-eval-vars-notes]</sub> |
 | [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Atomics.pause][atomics-pause-tests]</sub>                     | <sub>[October&nbsp;2024][atomics-pause-notes]</sub>        |
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>[February&nbsp;2025][lazy-import-notes]</sub>         |
-| [Iterator Sequencing][sequencing]                                              | Michael Ficarra                                                         | Michael Ficarra                                                         | :question:                                                          | <sub>July&nbsp;2025</sub>                                  |
-| [`Upsert`][upsert]                                                             | Daniel Minor, Lauritz Thoresen Angeltveit, Jonas Haukenes, Sune Lianes, Vetle Larsen, Mathias Hop Ness | Daniel Minor                             | <sub>[Testing plan][upsert-testing-plan]</sub>                      | <sub>July&nbsp;2025</sub>                                  |
+| [Iterator Sequencing][sequencing]                                              | Michael Ficarra                                                         | Michael Ficarra                                                         | :question:                                                          | <sub>[July&nbsp;2025][sequencing-notes]</sub>              |
+| [`Upsert`][upsert]                                                             | Daniel Minor, Lauritz Thoresen Angeltveit, Jonas Haukenes, Sune Lianes, Vetle Larsen, Mathias Hop Ness | Daniel Minor                             | <sub>[Testing plan][upsert-testing-plan]</sub>                      | <sub>[July&nbsp;2025][upsert-notes]</sub>                  |
 | [Non-extensible Applies to Private][nonext-private]                            | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks             | :question:                                                          | <sub>September&nbsp;2025</sub>                             |
 
 
@@ -76,8 +76,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Extractors][extractors]                                                       | Ron Buckton                                           | Ron Buckton                                                                       | Jordan Harband<br />Justin Ridgewell       | <sub>[October&nbsp;2024][extractors-notes]</sub>                      |
 | [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                        | Jordan Harband<br />Mark Miller                                                   | Nicolò Ribaudo<br />Michael Ficarra        | <sub>[February&nbsp;2025][stack-accessor-notes]</sub>                 |
 | [Deferred Re-exports][deferred-reexport]                                       | Nicolò Ribaudo                                        | Nicolò Ribaudo                                                                    | Chengzhong Wu<br />Ashley Claymore<br />Guy Bedford | <sub>[April&nbsp;2025][deferred-reexport-notes]</sub>        |
-| [SeededPRNG][seeded-randoms]                                                   | Tab Atkins                                            | Tab Atkins                                                                        | Kevin Gibbons<br />Jesse Alama<br />Mark Miller | <sub>May&nbsp;2025</sub>                                         |
-| [`Math.clamp`][clamp]                                                          | Oliver Medhurst                                       | Oliver Medhurst                                                                   |                                            | <sub>May&nbsp;2025</sub>                                              |
+| [SeededPRNG][seeded-randoms]                                                   | Tab Atkins                                            | Tab Atkins                                                                        | Kevin Gibbons<br />Jesse Alama<br />Mark Miller | <sub>[May&nbsp;2025][seeded-randoms-notes]</sub>                 |
+| [`Math.clamp`][clamp]                                                          | Oliver Medhurst                                       | Oliver Medhurst                                                                   |                                            | <sub>[May&nbsp;2025][clamp-notes]</sub>                               |
 | [Native Promise Predicate][native-promise-predicate]                           | Mathieu Hofman                                        | Mathieu Hofman                                                                    | Jordan Harband<br />James Snell<br />Justin Ridgewell | <sub>September&nbsp;2025</sub>                             |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
@@ -132,7 +132,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [isTemplateObject]: https://github.com/tc39/proposal-array-is-template-object
 [isTemplateObject-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-10.md#arrayistemplateobject-next-steps
 [upsert]: https://github.com/tc39/proposal-upsert
-[upsert-notes]: https://github.com/tc39/notes/blob/main/meetings/2025-04/april-14.md#upsert-for-stage-27
+[upsert-notes]: https://github.com/tc39/notes/blob/main/meetings/2025-07/july-28.md#upsert-for-stage-3
 [upsert-testing-plan]: https://github.com/tc39/test262/issues/4470
 [Dynamic Import Host Adjustment]: https://github.com/tc39/proposal-dynamic-import-host-adjustment
 [Dynamic Import Host Adjustment notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-import-host-adjustment-for-stage-2
@@ -185,7 +185,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
 [error-iserror-tests]: https://github.com/tc39/test262/pull/4266
 [sequencing]: https://github.com/tc39/proposal-iterator-sequencing
-[sequencing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-sequencing-for-stage-27
+[sequencing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-28.md#iterator-sequencing-for-stage-3
 [esm-phase]: https://github.com/tc39/proposal-esm-phase-imports
 [esm-phase-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-04.md#esm-phase-imports-for-stage-27
 [discards]: https://github.com/tc39/proposal-discard-binding
@@ -201,7 +201,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [extractors]: https://github.com/tc39/proposal-extractors
 [extractors-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#extractors-for-stage-2
 [chunking]: https://github.com/tc39/proposal-iterator-chunking
-[chunking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#iterator-chunking-for-stage-2
+[chunking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-29.md#iterator-chunking-for-stage-27
 [immutable-abs]: https://github.com/tc39/proposal-immutable-arraybuffer
 [immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#immutable-arraybuffer
 [stack-accessor]: https://github.com/tc39/proposal-error-stack-accessor
@@ -211,8 +211,9 @@ Note that as part of the onboarding process your repository name may be normaliz
 [deferred-reexport]: https://github.com/tc39/proposal-deferred-reexports
 [deferred-reexport-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-16.md#export-defer-extracted-from-import-defer-stage-2-update-or-for-stage-1
 [seeded-randoms]: https://github.com/tc39/proposal-seeded-random
-[seeded-randoms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
+[seeded-randoms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-29.md#seededprng-for-stage-2
 [clamp]: https://github.com/tc39/proposal-math-clamp
-[clamp-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#mathclamp-for-stage-1-or-2
+[clamp-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-29.md#mathclamp-for-stage-2
 [import-bytes]: https://github.com/styfle/proposal-import-buffer
+[import-bytes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-30.md#import-buffer-for-stage-1
 [native-promise-predicate]: https://github.com/mhofman/proposal-native-promise-predicate
