@@ -40,7 +40,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [`Intl.MessageFormat`][intl.messageformat]                   | Eemeli Aro           | Eemeli Aro             | March&nbsp;2022                                                  |
 | [`Intl.MessageResource`][intl.messageresource]               | Eemeli Aro           | Eemeli Aro             | November&nbsp;2022                                               |
 | [Intl.ZonedDateTimeFormat][intl.zoneddatetimeformat]         | Frank Yung-Fong Tang | Frank Yung-Fong Tang   | May&nbsp;2023                                                    |
-| [Representing Measures][measure]                             | Ben Allen            | Ben Allen              | October&nbsp;2024                                                |
 
 ### Contributing new proposals
 
@@ -69,5 +68,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl.messageresource]: https://github.com/tc39/proposal-intl-message-resource
 [intl era monthCode]: https://github.com/tc39/proposal-intl-era-monthcode
 [intl.zoneddatetimeformat]: https://github.com/FrankYFTang/intl-zoneddatetimeformat
-[measure]: https://github.com/ben-allen/proposal-measure
 [mo-money]: https://github.com/eemeli/proposal-intl-currency-display-choices
