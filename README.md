@@ -34,7 +34,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>[February&nbsp;2025][lazy-import-notes]</sub>         |
 | [Iterator Sequencing][sequencing]                                              | Michael Ficarra                                                         | Michael Ficarra                                                         | :question:                                                          | <sub>[July&nbsp;2025][sequencing-notes]</sub>              |
 | [`Upsert`][upsert]                                                             | Daniel Minor, Lauritz Thoresen Angeltveit, Jonas Haukenes, Sune Lianes, Vetle Larsen, Mathias Hop Ness | Daniel Minor                             | <sub>[Testing plan][upsert-testing-plan]</sub>                      | <sub>[July&nbsp;2025][upsert-notes]</sub>                  |
-| [Non-extensible Applies to Private][nonext-private]                            | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks             | :question:                                                          | <sub>September&nbsp;2025</sub>                             |
+| [Non-extensible Applies to Private][nonext-private]                            | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks             | :question:                                                          | <sub>[September&nbsp;2025][nonext-private-notes]</sub>     |
 
 
 ### Stage 2.7
@@ -45,8 +45,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>[June&nbsp;2024][joint-notes]</sub>                   |
 | [ESM Phase Imports][esm-phase]                                                 | Luca Casonato<br />Guy Bedford                                          | Luca Casonato<br />Guy Bedford                                          | :question:                                                          | <sub>[December&nbsp;2024][esm-phase-notes]</sub>           |
 | [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works             | :question:                                                          | <sub>[February&nbsp;2025][immutable-abs-notes]</sub>       |
-| [iterator chunking][chunking]                                                  | Michael Ficarra                                                   | Michael Ficarra                                                               | :question:                                                          | <sub>September&nbsp;2025</sub>                             |
-| [Import Bytes][import-bytes]                                                   | Steven Salat                                                      | Steven Salat                                                                  | :question:                                                          | <sub>September&nbsp;2025</sub>                             |
+| [iterator chunking][chunking]                                                  | Michael Ficarra                                                   | Michael Ficarra                                                               | :question:                                                          | <sub>[September&nbsp;2025][chunking-notes]</sub>           |
+| [Import Bytes][import-bytes]                                                   | Steven Salat                                                      | Steven Salat                                                                  | :question:                                                          | <sub>[September&nbsp;2025][import-bytes-notes]</sub>       |
 
 
 ### Stage 2
@@ -78,7 +78,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Deferred Re-exports][deferred-reexport]                                       | Nicolò Ribaudo                                        | Nicolò Ribaudo                                                                    | Chengzhong Wu<br />Ashley Claymore<br />Guy Bedford | <sub>[April&nbsp;2025][deferred-reexport-notes]</sub>        |
 | [SeededPRNG][seeded-randoms]                                                   | Tab Atkins                                            | Tab Atkins                                                                        | Kevin Gibbons<br />Jesse Alama<br />Mark Miller | <sub>[May&nbsp;2025][seeded-randoms-notes]</sub>                 |
 | [`Math.clamp`][clamp]                                                          | Oliver Medhurst                                       | Oliver Medhurst                                                                   |                                            | <sub>[May&nbsp;2025][clamp-notes]</sub>                               |
-| [Native Promise Predicate][native-promise-predicate]                           | Mathieu Hofman                                        | Mathieu Hofman                                                                    | Jordan Harband<br />James Snell<br />Justin Ridgewell | <sub>September&nbsp;2025</sub>                             |
+| [Native Promise Predicate][native-promise-predicate]                           | Mathieu Hofman                                        | Mathieu Hofman                                                                    | Jordan Harband<br />James Snell<br />Justin Ridgewell | <sub>[September&nbsp;2025][native-promise-predicate-notes]</sub> |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -201,13 +201,13 @@ Note that as part of the onboarding process your repository name may be normaliz
 [extractors]: https://github.com/tc39/proposal-extractors
 [extractors-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#extractors-for-stage-2
 [chunking]: https://github.com/tc39/proposal-iterator-chunking
-[chunking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-29.md#iterator-chunking-for-stage-27
+[chunking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#iterator-chunking-for-stage-27
 [immutable-abs]: https://github.com/tc39/proposal-immutable-arraybuffer
 [immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#immutable-arraybuffer
 [stack-accessor]: https://github.com/tc39/proposal-error-stack-accessor
 [stack-accessor-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#error-stack-accessor
 [nonext-private]: https://github.com/tc39/proposal-nonextensible-applies-to-private
-[nonext-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-15.md#non-extensible-applies-to-private-for-stage-1-2-27
+[nonext-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#non-extensible-applies-to-private-for-stage-3
 [deferred-reexport]: https://github.com/tc39/proposal-deferred-reexports
 [deferred-reexport-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-16.md#export-defer-extracted-from-import-defer-stage-2-update-or-for-stage-1
 [seeded-randoms]: https://github.com/tc39/proposal-seeded-random
@@ -215,5 +215,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [clamp]: https://github.com/tc39/proposal-math-clamp
 [clamp-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-29.md#mathclamp-for-stage-2
 [import-bytes]: https://github.com/styfle/proposal-import-buffer
-[import-bytes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-30.md#import-buffer-for-stage-1
+[import-bytes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-23.md#import-bytes-for-stage-27
 [native-promise-predicate]: https://github.com/mhofman/proposal-native-promise-predicate
+[native-promise-predicate-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#native-promise-predicate-for-stage-1-or-2
