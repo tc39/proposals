@@ -69,3 +69,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl era monthCode]: https://github.com/tc39/proposal-intl-era-monthcode
 [intl.zoneddatetimeformat]: https://github.com/FrankYFTang/intl-zoneddatetimeformat
 [mo-money]: https://github.com/eemeli/proposal-intl-currency-display-choices
+[trailing-zero]: https://github.com/tc39/proposal-intl-keep-trailing-zeros
