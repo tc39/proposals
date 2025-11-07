@@ -103,7 +103,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Compare Strings by Codepoint][compare-codepoint]                                           | Mathieu Hofman<br />Mark Miller<br />Christopher Hiller | Mathieu Hofman<br />Mark Miller<br />Christopher Hiller | <sub>[April&nbsp;2025][compare-codepoint-notes]</sub>           |
 | [Disposable AsyncContext.Variable][disposable-asynccontext]                                  | Chengzhong Wu<br />Luca Casonato<br />Gus Caplan       | Chengzhong Wu<br />Luca Casonato<br />Gus Caplan      | <sub>[April&nbsp;2025][disposable-asynccontext-notes]</sub>       |
 | [More Random Functions][more-random-functions]                                               | Tab Atkins                                             | Tab Atkins                                            | <sub>[May&nbsp;2025][more-random-functions-notes]</sub>           |
-| [Inspector][inspector]                                                                       | Jacob Smith                                            | Jacob Smith                                           | <sub>May&nbsp;2025</sub>                                          |
+| [Inspector][inspector]                                                                       | Jacob Smith                                            | Jacob Smith<br />Richard Gibson                       | <sub>[May&nbsp;2025][inspector-notes]</sub>                       |
 | [Module Global][module-global]                                                               | Zbyszek Tenerowicz<br />Kris Kowal<br />Richard Gibson<br />Mark S. Miller | Zbyszek Tenerowicz<br />Kris Kowal<br />Richard Gibson<br />Mark S. Miller | <sub>[July&nbsp;2025][module-global-notes]</sub> |
 | [Representing Measures/Amounts][measure]                                                     | Ben Allen                                              | Ben Allen                                             | <sub>[September&nbsp;2025][measure-notes]</sub>                   |
 | [Bulk-add array elements][bulk-add-array]                                                    | Daniel Rosenwasser                                     | Daniel Rosenwasser                                    | <sub>[September&nbsp;2025][bulk-add-array-notes]</sub>            |
@@ -307,6 +307,7 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [more-random-functions]: https://github.com/tc39/proposal-random-functions
 [more-random-functions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-29.md#more-random-functions-for-stage-1
 [inspector]: https://github.com/tc39/proposal-inspector
+[inspector-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-30.md#revisiting-comparison-for-stage-1
 [module-global]: https://github.com/endojs/proposal-new-global
 [module-global-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-30.md#module-import-hook-and-new-global-for-stage-1
 [measure]: https://github.com/tc39/proposal-amount
