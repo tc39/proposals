@@ -46,6 +46,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works             | :question:                                                          | <sub>[February&nbsp;2025][immutable-abs-notes]</sub>       |
 | [iterator chunking][chunking]                                                  | Michael Ficarra                                                   | Michael Ficarra                                                               | :question:                                                          | <sub>[September&nbsp;2025][chunking-notes]</sub>           |
 | [Import Bytes][import-bytes]                                                   | Steven Salat                                                      | Steven Salat                                                                  | :question:                                                          | <sub>[September&nbsp;2025][import-bytes-notes]</sub>       |
+| [Await Dictionary][await-dictionary]                                           | Alexander J. Vincent                                              | Ashley Claymore<br />Jordan Harband<br />Chris de Almeida                     | :question:                                                          | <sub>[March&nbsp;2023][await-dictionary-notes]</sub>       |
 
 
 ### Stage 2
@@ -218,3 +219,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [native-promise-predicate-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#native-promise-predicate-for-stage-1-or-2
 [capturestacktrace]: https://github.com/tc39/proposal-error-capturestacktrace
 [capturestacktrace-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#errorcapturestacktrace-for-stage-1
+[await-dictionary]: https://github.com/tc39/proposal-await-dictionary
+[await-dictionary-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1

@@ -79,7 +79,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Object pick/omit][pick-omit]                                                                | Hemanth HM<br />Aleen                                  | Hemanth HM                                            | <sub>[July&nbsp;2022][pick-omit-notes]</sub>                      |
 | [Mass Proxy Revocation][mass-proxy-revocation]                                               | Alex Vincent                                           | Mark S. Miller, Jack Works                            | <sub>[November&nbsp;2022][mass-proxy-revocation-notes]</sub>      |
 | [Prototype pollution mitigation][proto-pollution]                                            | Santiago Díaz<br />Jun Kokatsu                         | Shu-yu Guo                                            | <sub>[January&nbsp;2023][proto-pollution-notes]</sub>             |
-| [Await Dictionary][await-dictionary]                                                         | Alexander J. Vincent                                   | Ashley Claymore<br />Jordan Harband<br />Chris de Almeida | <sub>[March&nbsp;2023][await-dictionary-notes]</sub>          |
 | [Class Method Parameter Decorators][class-param-decorators]                                  | Ron Buckton                                            | Ron Buckton                                           | <sub>[March&nbsp;2023][class-param-decorators-notes]</sub>        |
 | [Optional chaining in assignment LHS][optional-assign]                                       | Nicolò Ribaudo                                         | Nicolò Ribaudo                                        | <sub>[July&nbsp;2023][optional-assign-notes]<sub>                 |
 | [DataView get/set Uint8Clamped methods][dataview-uint8c]                                     | Jordan Harband                                         | Jordan Harband                                        | <sub>[July&nbsp;2023][dataview-uint8c-notes]</sub>                |
@@ -256,8 +255,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [mass-proxy-revocation-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#mass-proxy-revocation-for-stage-1
 [proto-pollution]: https://github.com/tc39/proposal-symbol-proto
 [proto-pollution-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#prototype-pollution-mitigation--symbolproto
-[await-dictionary]: https://github.com/tc39/proposal-await-dictionary
-[await-dictionary-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1
 [class-param-decorators]: https://github.com/tc39/proposal-class-method-parameter-decorators
 [class-param-decorators-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#class-constructor-and-method-parameter-decorators
 [optional-assign]: https://github.com/tc39/proposal-optional-chaining-assignment
