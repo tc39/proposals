@@ -4,9 +4,10 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 
 | Proposal                                                                 | Author                                                 | Champion(s)                                             | TC39 meeting notes                          | Expected Publication Year |
 | ------------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------- | ------------------------- |
-| [Uint8Array to/from Base64][uint8array-base64]                           | Kevin Gibbons                                          | Kevin Gibbons                                           | [July 2025][uint8array-base64-notes]                              | 2026                      |
-| [`Math.sumPrecise`][math-sum]                                            | Kevin Gibbons                                          | Kevin Gibbons                                           | [July 2025][math-sum-notes]                              | 2026                      |
-| [`Error.isError`][is-error]                                              | Jordan Harband                                         | Jordan Harband                                          | [May 2025][is-error-notes]                               | 2026                      |
+| [Iterator Sequencing][sequencing]                                        | Michael Ficarra                                        | Michael Ficarra                                         | <sub>November&nbsp;2025</sub>               | 2026                      |
+| [Uint8Array to/from Base64][uint8array-base64]                           | Kevin Gibbons                                          | Kevin Gibbons                                           | [July 2025][uint8array-base64-notes]        | 2026                      |
+| [`Math.sumPrecise`][math-sum]                                            | Kevin Gibbons                                          | Kevin Gibbons                                           | [July 2025][math-sum-notes]                 | 2026                      |
+| [`Error.isError`][is-error]                                              | Jordan Harband                                         | Jordan Harband                                          | [May 2025][is-error-notes]                  | 2026                      |
 | [`RegExp.escape`][escape]                                                | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband<br />Kevin Gibbons                 | [February 2025][escape-notes]               | 2025                      |
 | [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]            | Leo Balter                                             | Leo Balter<br />Kevin Gibbons                           | [February 2025][float16s-notes]             | 2025                      |
 | [`Promise.try`][try]                                                     | Jordan Harband                                         | Jordan Harband                                          | [October 2024][try-notes]                   | 2025                      |
@@ -219,3 +220,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [math-sum-notes]: https://github.com/tc39/notes/blob/main/meetings/2025-07/july-28.md#mathsumprecise-for-stage-4
 [uint8array-base64]: https://github.com/tc39/proposal-arraybuffer-base64
 [uint8array-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-28.md#uint8array-base64hex-for-stage-4
+[sequencing]: https://github.com/tc39/proposal-iterator-sequencing
+[sequencing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-28.md#iterator-sequencing-for-stage-3
