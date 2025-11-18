@@ -98,7 +98,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Stabilize][stabilize]                                                                       | Mark Miller<br />Chip Morningstar<br />Richard Gibson<br />Mathieu Hofman | Mark Miller<br />Chip Morningstar<br />Richard Gibson<br />Mathieu Hofman | <sub>[December&nbsp;2024][stabilize-notes]</sub> |
 | [Sync Imports][import-sync]                                                                  | Guy Bedford                                            | Guy Bedford                                           | <sub>[December&nbsp;2024][import-sync-notes]</sub>                |
 | [Curtailing the power of "Thenables"][thenables]                                             | Matthew Gaudet                                         | Matthew Gaudet                                        | <sub>[February&nbsp;2025][thenables-notes]</sub>                  |
-| [`Error.captureStackTrace`][capturestacktrace]                                               | Matthew Gaudet                                         | Matthew Gaudet                                        | <sub>[February&nbsp;2025][capturestacktrace-notes]</sub>          |
 | [`Composites`][composite]                                                                    | Ashley Claymore                                        | Ashley Claymore                                       | <sub>[April&nbsp;2025][composite-notes]</sub>                     |
 | [Enums][enum]                                                                                | Ron Buckton                                            | Ron Buckton                                           | <sub>[April&nbsp;2025][enum-notes]</sub>                          |
 | [`Object.propertyCount`][property-count]                                                     | Ruben Bridgewater<br />Jordan Harband                  | Ruben Bridgewater<br />Jordan Harband                 | <sub>[April&nbsp;2025][property-count-notes]</sub>                |
@@ -295,8 +294,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [import-sync-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-04.md#import-sync-discussion-request-for-stage-1
 [thenables]: https://github.com/tc39/proposal-thenable-curtailment
 [thenables-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#curtailing-the-power-of-thenables-for-stage-1
-[capturestacktrace]: https://github.com/tc39/proposal-error-capturestacktrace
-[capturestacktrace-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#errorcapturestacktrace-for-stage-1
 [composite]: https://github.com/tc39/proposal-composites
 [composite-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-14.md#composite-keys-for-stage-1
 [enum]: https://github.com/tc39/proposal-enum

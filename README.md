@@ -79,6 +79,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [SeededPRNG][seeded-randoms]                                                   | Tab Atkins                                            | Tab Atkins                                                                        | Kevin Gibbons<br />Jesse Alama<br />Mark Miller | <sub>[May&nbsp;2025][seeded-randoms-notes]</sub>                 |
 | [`Math.clamp`][clamp]                                                          | Oliver Medhurst                                       | Oliver Medhurst                                                                   |                                            | <sub>[May&nbsp;2025][clamp-notes]</sub>                               |
 | [Native Promise Predicate][native-promise-predicate]                           | Mathieu Hofman                                        | Mathieu Hofman                                                                    | Jordan Harband<br />James Snell<br />Justin Ridgewell | <sub>[September&nbsp;2025][native-promise-predicate-notes]</sub> |
+| [`Error.captureStackTrace`][capturestacktrace]                                 | Matthew Gaudet                                         | Matthew Gaudet<br />Dan Minor                                                    | Jordan Harband<br />Michael Ficarra        | <sub>[February&nbsp;2025][capturestacktrace-notes]</sub>          |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -218,3 +219,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [import-bytes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-23.md#import-bytes-for-stage-27
 [native-promise-predicate]: https://github.com/mhofman/proposal-native-promise-predicate
 [native-promise-predicate-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#native-promise-predicate-for-stage-1-or-2
+[capturestacktrace]: https://github.com/tc39/proposal-error-capturestacktrace
+[capturestacktrace-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#errorcapturestacktrace-for-stage-1
