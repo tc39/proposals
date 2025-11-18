@@ -4,6 +4,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 
 | Proposal                                                                                     | Author                               | Champion                             | TC39 meeting notes                                                | Expected Publication Year |
 | -------------------------------------------------------------------------------------------- | ------------------------------------ | ------------------------------------ | ----------------------------------------------------------------- | ----------------- |
+| [`Intl Locale Info`][intl-locale-info]                                 | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             |               November&nbsp;2025                          | 2026                                             |
 | [`Intl.DurationFormat`][intl.durationformat]                                                 | Younies Mahmoud, Ujjwal Sharma       | Younies Mahmoud, Ujjwal Sharma       | December&nbsp;2024                                                | 2025              |
 | [`Intl.NumberFormat` V3][intl-v3]                                                            | Shane Carr                           | Shane Carr                           | July&nbsp;2021                                                    | 2023              |
 | [Intl Enumeration API][intl-enumeration]                                                     | Frank Yung-Fong Tang                 | Frank Yung-Fong Tang                 | November&nbsp;2022                                                | 2022              |
@@ -23,7 +24,8 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 
 
 See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](README.md) documents.
-
+[intl-locale-info]: https://github.com/tc39/proposal-intl-locale-info
+[intl-locale-info-notes]: https://github.com/tc39/notes/blob/4c253a989e8da200bc8c351f1e0a557e2a5d73e4/meetings/2024-07/july-30.md#intllocale-update-in-stage-3
 [intl.datetimeformat.prototype.formattoparts]: https://github.com/tc39/proposal-intl-formatToParts
 [intl.datetimeformat.prototype.formattoparts-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-27.md#9ii-ecma-402-formattoparts
 [intl.numberformat.prototype.formattoparts]: https://github.com/tc39/proposal-intl-formatToParts
