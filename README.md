@@ -48,7 +48,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Import Bytes][import-bytes]                                                   | Steven Salat                                                      | Steven Salat                                                                  | :question:                                                          | <sub>[September&nbsp;2025][import-bytes-notes]</sub>       |
 | [Await Dictionary][await-dictionary]                                           | Alexander J. Vincent                                              | Ashley Claymore<br />Jordan Harband<br />Chris de Almeida                     | :question:                                                          | <sub>[March&nbsp;2023][await-dictionary-notes]</sub>       |
 
-
 ### Stage 2
 
 | Proposal                                                                       | Author                                                | Champion                                                                          | Stage 2.7 reviewers                        | <sub>Last Presented</sub>                                             |
@@ -79,7 +78,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [SeededPRNG][seeded-randoms]                                                   | Tab Atkins                                            | Tab Atkins                                                                        | Kevin Gibbons<br />Jesse Alama<br />Mark Miller | <sub>[May&nbsp;2025][seeded-randoms-notes]</sub>                 |
 | [`Math.clamp`][clamp]                                                          | Oliver Medhurst                                       | Oliver Medhurst                                                                   |                                            | <sub>[May&nbsp;2025][clamp-notes]</sub>                               |
 | [Native Promise Predicate][native-promise-predicate]                           | Mathieu Hofman                                        | Mathieu Hofman                                                                    | Jordan Harband<br />James Snell<br />Justin Ridgewell | <sub>[September&nbsp;2025][native-promise-predicate-notes]</sub> |
-| [`Error.captureStackTrace`][capturestacktrace]                                 | Matthew Gaudet                                         | Matthew Gaudet<br />Dan Minor                                                    | Jordan Harband<br />Michael Ficarra        | <sub>[February&nbsp;2025][capturestacktrace-notes]</sub>          |
+| [`Error.captureStackTrace`][capturestacktrace]                                 | Matthew Gaudet                                         | Matthew Gaudet<br />Dan Minor                                                    | Jordan Harband<br />Michael Ficarra        | <sub>[February&nbsp;2025][capturestacktrace-notes]</sub>              |
+| [Import Text][import-text]                                                     | Eemeli Aro                                             | Eemeli Aro                                                                       | Jordan Harband<br />Nicolò Ribaudo         | <sub>November&nbsp;2025</sub>                                         |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -221,3 +221,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [capturestacktrace-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#errorcapturestacktrace-for-stage-1
 [await-dictionary]: https://github.com/tc39/proposal-await-dictionary
 [await-dictionary-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1
+[import-text]: https://github.com/eemeli/proposal-import-text
