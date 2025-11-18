@@ -14,7 +14,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                               | Author                           | Champion                         | <sub>Test262 Feature Flag</sub>                                     | <sub>Last Presented</sub>                                  |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
-| [`Intl Locale Info`][intl-locale-info]                                 | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             |                                                                     | July&nbsp;2025                                             |
 
 ### Stage 2.7
 
@@ -58,8 +57,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 
 [smart-units]: https://github.com/tc39/proposal-smart-unit-preferences
 [smart-units-notes]: https://github.com/tc39/notes/blob/840c700dc7fa7b9f6d0a3c208bd66b333e304717/meetings/2020-06/june-4.md#smart-unit-preferences-in-intlnumberformat-for-stage-1
-[intl-locale-info]: https://github.com/tc39/proposal-intl-locale-info
-[intl-locale-info-notes]: https://github.com/tc39/notes/blob/4c253a989e8da200bc8c351f1e0a557e2a5d73e4/meetings/2024-07/july-30.md#intllocale-update-in-stage-3
 [eradisplay]: https://github.com/tc39/proposal-intl-eradisplay
 [eradisplay-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#eradisplay-for-stage-1
 [localematcher]: https://github.com/tc39/proposal-intl-localematcher
