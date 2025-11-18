@@ -40,6 +40,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [`Intl.MessageFormat`][intl.messageformat]                   | Eemeli Aro           | Eemeli Aro             | March&nbsp;2022                                                  |
 | [`Intl.MessageResource`][intl.messageresource]               | Eemeli Aro           | Eemeli Aro             | November&nbsp;2022                                               |
 | [Intl.ZonedDateTimeFormat][intl.zoneddatetimeformat]         | Frank Yung-Fong Tang | Frank Yung-Fong Tang   | May&nbsp;2023                                                    |
+| [explore associating a unit with a number][unit-protocol]    | Shane Carr           | Shane Carr             | November&nbsp;2025                                               |
 
 ### Contributing new proposals
 
@@ -70,3 +71,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl.zoneddatetimeformat]: https://github.com/FrankYFTang/intl-zoneddatetimeformat
 [mo-money]: https://github.com/eemeli/proposal-intl-currency-display-choices
 [trailing-zero]: https://github.com/tc39/proposal-intl-keep-trailing-zeros
+[unit-protocol]: https://github.com/sffc/proposal-intl-unit-protocol
