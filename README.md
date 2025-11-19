@@ -47,6 +47,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [iterator chunking][chunking]                                                  | Michael Ficarra                                                   | Michael Ficarra                                                               | :question:                                                          | <sub>[September&nbsp;2025][chunking-notes]</sub>           |
 | [Import Bytes][import-bytes]                                                   | Steven Salat                                                      | Steven Salat                                                                  | :question:                                                          | <sub>[September&nbsp;2025][import-bytes-notes]</sub>       |
 | [Await Dictionary][await-dictionary]                                           | Alexander J. Vincent                                              | Ashley Claymore<br />Jordan Harband<br />Chris de Almeida                     | :question:                                                          | <sub>[March&nbsp;2023][await-dictionary-notes]</sub>       |
+| [Iterator Join][iterator-join]                                                 | Kevin Gibbons                                                     | Kevin Gibbons                                                                 | :question:                                                          | <sub>November&nbsp;2025</sub>                              |
 
 ### Stage 2
 
@@ -222,3 +223,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [await-dictionary]: https://github.com/tc39/proposal-await-dictionary
 [await-dictionary-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1
 [import-text]: https://github.com/eemeli/proposal-import-text
+[iterator-join]: https://github.com/bakkot/proposal-iterator-join
