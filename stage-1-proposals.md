@@ -108,6 +108,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Representing Measures/Amounts][measure]                                                     | Ben Allen                                              | Ben Allen                                             | <sub>[September&nbsp;2025][measure-notes]</sub>                   |
 | [Bulk-add array elements][bulk-add-array]                                                    | Daniel Rosenwasser                                     | Daniel Rosenwasser                                    | <sub>[September&nbsp;2025][bulk-add-array-notes]</sub>            |
 | [TypedArray Concat][typedarray-concat]                                                       | James Snell                                            | James Snell                                           | <sub>November&nbsp;2025</sub>                                     |
+| [TypedArray Find Within][typedarray-findwithin]                                              | James Snell                                            | James Snell                                           | <sub>November&nbsp;2025</sub>                                     |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -312,3 +313,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [bulk-add-array]: https://github.com/tc39/proposal-bulk-add-array-elements
 [bulk-add-array-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#arrayprototypepushall-for-stage-1
 [typedarray-concat]: https://github.com/tc39/proposal-typedarray-concat
+[typedarray-findwithin]: https://github.com/tc39/proposal-typedarray-findwithin
