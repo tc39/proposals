@@ -24,6 +24,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 
 
 See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](README.md) documents.
+
 [intl-locale-info]: https://github.com/tc39/proposal-intl-locale-info
 [intl-locale-info-notes]: https://github.com/tc39/notes/blob/4c253a989e8da200bc8c351f1e0a557e2a5d73e4/meetings/2024-07/july-30.md#intllocale-update-in-stage-3
 [intl.datetimeformat.prototype.formattoparts]: https://github.com/tc39/proposal-intl-formatToParts
