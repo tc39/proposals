@@ -8,7 +8,9 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Uint8Array to/from Base64][uint8array-base64]                           | Kevin Gibbons                                          | Kevin Gibbons                                           | [July 2025][uint8array-base64-notes]        | 2026                      |
 | [`Math.sumPrecise`][math-sum]                                            | Kevin Gibbons                                          | Kevin Gibbons                                           | [July 2025][math-sum-notes]                 | 2026                      |
 | [`Error.isError`][is-error]                                              | Jordan Harband                                         | Jordan Harband                                          | [May 2025][is-error-notes]                  | 2026                      |
+| [`Array.fromAsync`][from-async]                                          | J.S. Choi                                              | J.S. Choi                                               | [May 2025][from-async-notes]                | 2026                      |
 | [`RegExp.escape`][escape]                                                | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband<br />Kevin Gibbons                 | [February 2025][escape-notes]               | 2025                      |
+| [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars] | Shu-yu Guo                                        | Shu-yu Guo                                              | [February 2025][redeclarable-global-eval-vars-notes] | 2025             |
 | [Float16 on TypedArrays, DataView, `Math.f16round`][float16s]            | Leo Balter                                             | Leo Balter<br />Kevin Gibbons                           | [February 2025][float16s-notes]             | 2025                      |
 | [`Promise.try`][try]                                                     | Jordan Harband                                         | Jordan Harband                                          | [October 2024][try-notes]                   | 2025                      |
 | [Sync Iterator helpers][iterator-helpers]                                | Gus Caplan                                             | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons | [October 2024][iterator-helpers-notes]      | 2025                      |
@@ -212,8 +214,12 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [try-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#promisetry-for-stage-4
 [float16s]: https://github.com/tc39/proposal-float16array
 [float16s-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#float16array-for-stage-4
+[redeclarable-global-eval-vars]: https://github.com/tc39/proposal-redeclarable-global-eval-vars
+[redeclarable-global-eval-vars-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#redeclarable-global-eval-vars-for-stage-4
 [escape]: https://github.com/tc39/proposal-regex-escaping
 [escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#regexp-escaping-for-stage-4
+[from-async]: https://github.com/tc39/proposal-array-from-async
+[from-async-notes]: https://github.com/tc39/notes/blob/main/meetings/2025-05/may-28.md#arrayfromasync-for-stage-4
 [is-error]: https://github.com/tc39/proposal-is-error
 [is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-28.md#erroriserror-for-stage-4
 [math-sum]: https://github.com/tc39/proposal-math-sum
