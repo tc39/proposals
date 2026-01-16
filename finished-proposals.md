@@ -4,6 +4,7 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 
 | Proposal                                                                 | Author                                                 | Champion(s)                                             | TC39 meeting notes                          | Expected Publication Year |
 | ------------------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------- | ------------------------- |
+| [JSON.parse source text access][json-parse-source]                       | Richard Gibson                                         | Richard Gibson                                          | <sub>November&nbsp;2025</sub>               | 2026                      |
 | [Iterator Sequencing][sequencing]                                        | Michael Ficarra                                        | Michael Ficarra                                         | <sub>November&nbsp;2025</sub>               | 2026                      |
 | [Uint8Array to/from Base64][uint8array-base64]                           | Kevin Gibbons                                          | Kevin Gibbons                                           | [July 2025][uint8array-base64-notes]        | 2026                      |
 | [`Math.sumPrecise`][math-sum]                                            | Kevin Gibbons                                          | Kevin Gibbons                                           | [July 2025][math-sum-notes]                 | 2026                      |
@@ -228,3 +229,5 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [uint8array-base64-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-28.md#uint8array-base64hex-for-stage-4
 [sequencing]: https://github.com/tc39/proposal-iterator-sequencing
 [sequencing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-28.md#iterator-sequencing-for-stage-3
+[json-parse-source]: https://github.com/tc39/proposal-json-parse-with-source
+[json-parse-source-notes]: https://github.com/tc39/notes/blob/main/meetings/2025-11/november-18.md#conclusion-3
