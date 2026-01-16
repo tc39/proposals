@@ -26,7 +26,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Explicit Resource Management][resource-management]                            | Ron Buckton                                                             | Ron Buckton                                                             | <sub>[explicit-resource-management][resource-management-tests]      | <sub>[May&nbsp;2025][resource-management-notes]</sub>      |
 | [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | <sub>[decorator-metadata][decorator-metadata-tests]</sub>           | <sub>[May&nbsp;2023][decorator-metadata-notes]</sub>       |
 | [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | <sub>[source-phase-imports][source-phase-imports-tests]</sub>       | <sub>[July&nbsp;2023][source-phase-imports-notes]</sub>    |
-| [Time Zone Canonicalization][time-zone-canon]                                  | Justin Grant                                                            | Justin Grant<br />Richard Gibson                                        | <sub>[Temporal.TimeZone][time-zone-canon-tests]                     | <sub>[July&nbsp;2023][time-zone-canon-notes]</sub>         |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel<br />Nicolo Ribaudo                 | <sub>[No test262 tests][dynamic-code-brand-checks-no-tests]         | <sub>April&nbsp;2024</sub>                                 |
 | [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Atomics.pause][atomics-pause-tests]</sub>                     | <sub>[October&nbsp;2024][atomics-pause-notes]</sub>        |
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>[February&nbsp;2025][lazy-import-notes]</sub>         |
@@ -166,9 +165,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [iterator-range-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#iteratorrange-for-stage-27
 [async-context]: https://github.com/tc39/proposal-async-context
 [async-context-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
-[time-zone-canon]: https://github.com/tc39/proposal-canonical-tz#readme
-[time-zone-canon-notes]: https://github.com/tc39/notes/blob/main/meetings/2023-07/july-12.md#time-zone-canonicalization-for-stage-3
-[time-zone-canon-tests]: https://github.com/tc39/test262/pull/3837
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
 [lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#import-defer-for-stage-3
 [lazy-import-testplan]: https://github.com/tc39/test262/issues/4111
