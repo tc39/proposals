@@ -29,7 +29,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Atomics.pause][atomics-pause-tests]</sub>                     | <sub>[October&nbsp;2024][atomics-pause-notes]</sub>        |
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>[February&nbsp;2025][lazy-import-notes]</sub>         |
 | [Non-extensible Applies to Private][nonext-private]                            | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks             | :question:                                                          | <sub>[September&nbsp;2025][nonext-private-notes]</sub>     |
-| [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>November&nbsp;2025</sub>                              |
+| [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>[November&nbsp;2025][joint-notes]</sub>                              |
 
 ### Stage 2.7
 
@@ -40,8 +40,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works             | :question:                                                          | <sub>[July&nbsp;2025][immutable-abs-notes]</sub>       |
 | [iterator chunking][chunking]                                                  | Michael Ficarra                                                   | Michael Ficarra                                                               | :question:                                                          | <sub>[September&nbsp;2025][chunking-notes]</sub>           |
 | [Import Bytes][import-bytes]                                                   | Steven Salat                                                      | Steven Salat                                                                  | :question:                                                          | <sub>[September&nbsp;2025][import-bytes-notes]</sub>       |
-| [Await Dictionary][await-dictionary]                                           | Alexander J. Vincent                                              | Ashley Claymore<br />Jordan Harband<br />Chris de Almeida                     | :question:                                                          | <sub>November&nbsp;2025</sub>                              |
-| [Iterator Join][iterator-join]                                                 | Kevin Gibbons                                                     | Kevin Gibbons                                                                 | :question:                                                          | <sub>November&nbsp;2025</sub>                              |
+| [Await Dictionary][await-dictionary]                                           | Alexander J. Vincent                                              | Ashley Claymore<br />Jordan Harband<br />Chris de Almeida                     | :question:                                                          | <sub>[November&nbsp;2025][await-dictionary-notes]</sub>                              |
+| [Iterator Join][iterator-join]                                                 | Kevin Gibbons                                                     | Kevin Gibbons                                                                 | :question:                                                          | <sub>[November&nbsp;2025][iterator-join-notes]</sub>                              |
 
 ### Stage 2
 
@@ -61,20 +61,20 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [JSON.parseImmutable][json-parse-immutable]                                    | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore |                                | <sub>[July&nbsp;2022][json-parse-immutable-notes]</sub>                  |
 | [Module Declarations][module-declarations]                                     | Daniel Ehrenberg<br />Nicolò Ribaudo                  | Mark Miller<br />Nicolò Ribaudo                             |                                            | <sub>[November&nbsp;2022][module-declarations-notes]</sub>            |
 | [Symbol Predicates][symbol-predicates]                                         | Robin Ricard<br />Jordan Harband                      | Ashley Claymore<br />Jordan Harband                                               |                                            | <sub>[May&nbsp;2023][symbol-predicates-notes]</sub>                   |
-| [Async Iterator helpers][async-iterator-helpers]                               | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                           |                                            | <sub>November&nbsp;2025</sub>                                         |
+| [Async Iterator helpers][async-iterator-helpers]                               | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                           |                                            | <sub>[November&nbsp;2025][async-iterator-helpers-notes]</sub>                                         |
 | [Iterator.range][iterator-range]                                               | Jack Works                                            | Jack Works                                                                        |                                            | <sub>[April&nbsp;2024][iterator-range-notes]</sub>                    |
 | [Async Context][async-context]                                                 | Chengzhong Wu                                         | Andreu Botella<br />Chengzhong Wu<br />Justin Ridgewell                           | James M Snell<br />Mark S. Miller          | <sub>[September&nbsp;2025][async-context-notes]</sub>                 |
 | ["Discard" (`void`) Bindings][discards]                                        | Ron Buckton                                           | Ron Buckton                                                                       |                                            | <sub>[June&nbsp;2024][discards-notes]</sub>                           |
 | [Propagate active ScriptOrModule with JobCallback Record][scriptormodule]      | Chengzhong Wu                                         | Chengzhong Wu                                                                     |                                            | <sub>[July&nbsp;2024][scriptormodule-notes]</sub>                     |
 | [Structs: Fixed Layout Objects and Some Synchronization Primitives][structs]   | Shu-yu Guo                                            | Shu-yu Guo                                          | Mark Miller<br />Waldemar Horwat<br />Yulia Startsev<br />Nicolò Ribaudo | <sub>[October&nbsp;2024][structs-notes]</sub>                         |
 | [Extractors][extractors]                                                       | Ron Buckton                                           | Ron Buckton                                                                       | Jordan Harband<br />Justin Ridgewell       | <sub>[October&nbsp;2024][extractors-notes]</sub>                      |
-| [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                        | Jordan Harband<br />Mark Miller                                                   | Nicolò Ribaudo<br />Michael Ficarra        | <sub>November&nbsp;2025</sub>                                         |
+| [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                        | Jordan Harband<br />Mark Miller                                                   | Nicolò Ribaudo<br />Michael Ficarra        | <sub>[November&nbsp;2025][stack-accessor-notes]</sub>                                         |
 | [Deferred Re-exports][deferred-reexport]                                       | Nicolò Ribaudo                                        | Nicolò Ribaudo                                                                    | Chengzhong Wu<br />Ashley Claymore<br />Guy Bedford | <sub>[April&nbsp;2025][deferred-reexport-notes]</sub>        |
 | [SeededPRNG][seeded-randoms]                                                   | Tab Atkins                                            | Tab Atkins                                                                        | Kevin Gibbons<br />Jesse Alama<br />Mark Miller | <sub>[May&nbsp;2025][seeded-randoms-notes]</sub>                 |
 | [`Math.clamp`][clamp]                                                          | Oliver Medhurst                                       | Oliver Medhurst                                                                   |                                            | <sub>[May&nbsp;2025][clamp-notes]</sub>                               |
 | [Native Promise Predicate][native-promise-predicate]                           | Mathieu Hofman                                        | Mathieu Hofman                                                                    | Jordan Harband<br />James Snell<br />Justin Ridgewell | <sub>[September&nbsp;2025][native-promise-predicate-notes]</sub> |
 | [`Error.captureStackTrace`][capturestacktrace]                                 | Matthew Gaudet                                        | Matthew Gaudet<br />Dan Minor                                                     | Jordan Harband<br />Michael Ficarra        | <sub>[February&nbsp;2025][capturestacktrace-notes]</sub>              |
-| [Import Text][import-text]                                                     | Eemeli Aro                                            | Eemeli Aro                                                                        | Jordan Harband<br />Nicolò Ribaudo         | <sub>November&nbsp;2025</sub>                                         |
+| [Import Text][import-text]                                                     | Eemeli Aro                                            | Eemeli Aro                                                                        | Jordan Harband<br />Nicolò Ribaudo         | <sub>[November&nbsp;2025][import-text-notes]</sub>                                         |
 | [`Object.keysLength`][keyslength]                                              | Ruben Bridgewater<br />Jordan Harband                 | Ruben Bridgewater<br />Jordan Harband                                             | Eemeli Aro<br />James Snell                | <sub>November&nbsp;2025</sub>                                         |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
@@ -121,7 +121,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [async-resource-management]: https://github.com/tc39/proposal-async-explicit-resource-management
 [collection-rekey]: https://github.com/tc39/proposal-collection-normalization
 [async-iterator-helpers]: https://github.com/tc39/proposal-async-iterator-helpers
-[async-iterator-helpers-notes]: https://github.com/tc39/notes/blob/main/meetings/2023-01/jan-31.md#parallel-async-iterators-via-a-tweak-to-iterator-helpers
+[async-iterator-helpers-notes]: https://github.com/tc39/notes/blob/main/meetings/2025-11/november-19.md#async-iterator-helpers-recapupdatepolyfill
 [isTemplateObject]: https://github.com/tc39/proposal-array-is-template-object
 [isTemplateObject-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-10.md#arrayistemplateobject-next-steps
 [Dynamic Import Host Adjustment]: https://github.com/tc39/proposal-dynamic-import-host-adjustment
@@ -156,7 +156,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#import-defer-for-stage-3
 [lazy-import-testplan]: https://github.com/tc39/test262/issues/4111
 [joint]: https://github.com/tc39/proposal-joint-iteration
-[joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-12.md#joint-iteration-for-stage-27
+[joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#joint-iteration-for-stage-3
 [joint-testplan]: https://github.com/tc39/test262/issues/4112
 [dynamic-code-brand-checks]: https://github.com/tc39/proposal-dynamic-code-brand-checks
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
@@ -181,7 +181,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-29.md#immutable-arraybuffer-for-stage-3
 [immutable-abs-testplan]: https://github.com/tc39/test262/issues/4509
 [stack-accessor]: https://github.com/tc39/proposal-error-stack-accessor
-[stack-accessor-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#error-stack-accessor
+[stack-accessor-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#errorprototypestack-accessor-for-stage-27
 [nonext-private]: https://github.com/tc39/proposal-nonextensible-applies-to-private
 [nonext-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#non-extensible-applies-to-private-for-stage-3
 [deferred-reexport]: https://github.com/tc39/proposal-deferred-reexports
@@ -197,7 +197,9 @@ Note that as part of the onboarding process your repository name may be normaliz
 [capturestacktrace]: https://github.com/tc39/proposal-error-capturestacktrace
 [capturestacktrace-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#errorcapturestacktrace-for-stage-1
 [await-dictionary]: https://github.com/tc39/proposal-await-dictionary
-[await-dictionary-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1
-[import-text]: https://github.com/eemeli/proposal-import-text
-[iterator-join]: https://github.com/bakkot/proposal-iterator-join
+[await-dictionary-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#await-dictionary-for-stage-2-or-27
+[import-text]: https://github.com/tc39/proposal-import-text
+[import-text-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#import-text
+[iterator-join]: https://github.com/tc39/proposal-iterator-join
+[iterator-join-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-19.md#iterator-join-for-stage-1-2-or-27
 [keyslength]: https://github.com/tc39/proposal-object-keys-length
