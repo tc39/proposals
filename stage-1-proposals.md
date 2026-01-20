@@ -111,6 +111,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [TypedArray Find Within][typedarray-findwithin]                                              | James Snell                                            | James Snell                                           | <sub>November&nbsp;2025</sub>                                     |
 | [`Object.getNonIndexStringProperties()`][getNonIndexStringProperties]                        | Ruben Bridgewater<br />Jordan Harband                  | Ruben Bridgewater<br />Jordan Harband                 | <sub>November&nbsp;2025</sub>                                     |
 | [Error option `framesAbove`][frames-above]                                                   | Ruben Bridgewater                                      | Ruben Bridgewater                                     | <sub>November&nbsp;2025</sub>                                     |
+| [Error option `limit`][error-limit]                                                          | Ruben Bridgewater                                      | Ruben Bridgewater                                     | <sub>November&nbsp;2025</sub>                                     |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -319,3 +320,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [typedarray-findwithin]: https://github.com/tc39/proposal-typedarray-findwithin
 [getNonIndexStringProperties]: https://github.com/tc39/proposal-array-get-non-index-string-properties
 [frames-above]: https://github.com/tc39/proposal-error-frames-above
+[error-limit]: https://github.com/tc39/proposal-error-limit-option
