@@ -2,6 +2,7 @@
 
  - [Stage 0 Proposals](stage-0-proposals.md)
  - [Finished Proposals](finished-proposals.md)
+ - [Inactive Proposals](inactive-proposals.md)
 
  [ECMAScript](../README.md) proposals
 

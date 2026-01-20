@@ -10,7 +10,7 @@ Stage 0 proposals are either
 | [Fix 9.2.3 LookupMatcher algorithm][]                                | Rafael Xavier        | Rafael Xavier        |
 | [`Intl.NumberFormat` `round` option][intl.numberformat round option] | Rafael Xavier        | Rafael Xavier        |
 
-See also the [finished proposals](finished-proposals.md), and [active proposals](README.md) documents.
+See also the [finished proposals](finished-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md) documents.
 
 [fix 9.2.3 lookupmatcher algorithm]: https://github.com/rxaviers/ecma402-fix-lookup-matcher
 [intl.numberformat round option]: https://github.com/rxaviers/ecma402-number-format-round-option
