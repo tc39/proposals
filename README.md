@@ -28,7 +28,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel<br />Nicolo Ribaudo                 | <sub>[No test262 tests][dynamic-code-brand-checks-no-tests]         | <sub>April&nbsp;2024</sub>                                 |
 | [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Atomics.pause][atomics-pause-tests]</sub>                     | <sub>[October&nbsp;2024][atomics-pause-notes]</sub>        |
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>[February&nbsp;2025][lazy-import-notes]</sub>         |
-| [`Upsert`][upsert]                                                             | Daniel Minor, Lauritz Thoresen Angeltveit, Jonas Haukenes, Sune Lianes, Vetle Larsen, Mathias Hop Ness | Daniel Minor                             | <sub>[Testing plan][upsert-testing-plan]</sub>                      | <sub>[July&nbsp;2025][upsert-notes]</sub>                  |
 | [Non-extensible Applies to Private][nonext-private]                            | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks             | :question:                                                          | <sub>[September&nbsp;2025][nonext-private-notes]</sub>     |
 | [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>November&nbsp;2025</sub>                              |
 
@@ -125,9 +124,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [async-iterator-helpers-notes]: https://github.com/tc39/notes/blob/main/meetings/2023-01/jan-31.md#parallel-async-iterators-via-a-tweak-to-iterator-helpers
 [isTemplateObject]: https://github.com/tc39/proposal-array-is-template-object
 [isTemplateObject-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-10.md#arrayistemplateobject-next-steps
-[upsert]: https://github.com/tc39/proposal-upsert
-[upsert-notes]: https://github.com/tc39/notes/blob/main/meetings/2025-07/july-28.md#upsert-for-stage-3
-[upsert-testing-plan]: https://github.com/tc39/test262/issues/4470
 [Dynamic Import Host Adjustment]: https://github.com/tc39/proposal-dynamic-import-host-adjustment
 [Dynamic Import Host Adjustment notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-import-host-adjustment-for-stage-2
 [module-expressions]: https://github.com/tc39/proposal-module-expressions
