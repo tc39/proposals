@@ -14,6 +14,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                               | Author                           | Champion                         | <sub>Test262 Feature Flag</sub>                                     | <sub>Last Presented</sub>                                  |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
+| [Intl Era and MonthCode Proposal][intl era monthCode]                  | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | :question:                                                          | January&nbsp;2026                                          |
 
 ### Stage 2.7
 
@@ -26,7 +27,6 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | Proposal                                                               | Author                           | Champion                         | Stage 2.7 reviewers                        | <sub>Last Presented</sub>                                             |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------ | --------------------------------------------------------------------- |
 | [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]              | Louis-Aime                       | Shane Carr, Louis-Aime           | :question:                                 | November&nbsp;2022                           |
-| [Intl Era and MonthCode Proposal][intl era monthCode]                  | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | :question:                                 | January&nbsp;2023                            |
 | [More Currency Display Choices][mo-money]                              | Eemeli Aro                       | Eemeli Aro                       | :question:                                 | December&nbsp;2024                           |
 
 ### Stage 1
@@ -64,8 +64,8 @@ Note that as part of the onboarding process your repository name may be normaliz
 [Intl.Segmenter-v2]: https://github.com/tc39/proposal-intl-segmenter-v2
 [intl.messageformat]: https://github.com/tc39/proposal-intl-messageformat
 [intl.messageresource]: https://github.com/tc39/proposal-intl-message-resource
-[intl era monthCode]: https://github.com/tc39/proposal-intl-era-monthcode
 [intl.zoneddatetimeformat]: https://github.com/FrankYFTang/intl-zoneddatetimeformat
 [mo-money]: https://github.com/eemeli/proposal-intl-currency-display-choices
 [trailing-zero]: https://github.com/tc39/proposal-intl-keep-trailing-zeros
 [unit-protocol]: https://github.com/sffc/proposal-intl-unit-protocol
+[intl era monthCode]: https://github.com/tc39/proposal-intl-era-monthcode
