@@ -111,6 +111,8 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [`Object.getNonIndexStringProperties()`][getNonIndexStringProperties]                        | Ruben Bridgewater<br />Jordan Harband                  | Ruben Bridgewater<br />Jordan Harband                 | <sub>[November&nbsp;2025][getNonIndexStringProperties-notes]</sub> |
 | [Error option `framesAbove`][frames-above]                                                   | Ruben Bridgewater                                      | Ruben Bridgewater                                     | <sub>November&nbsp;2025</sub>                                     |
 | [Error option `limit`][error-limit]                                                          | Ruben Bridgewater                                      | Ruben Bridgewater                                     | <sub>November&nbsp;2025</sub>                                     |
+| [Alias Accessors][alias-accessors]                                                           | Lea Verou                                              | Lea Verou                                             | <sub>January&nbsp;2026</sub>                                      |
+| [Composable Accessors via built-in decorators][composable-accessors]                         | Lea Verou                                              | Lea Verou                                             | <sub>January&nbsp;2026</sub>                                      |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -321,3 +323,5 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [getNonIndexStringProperties-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-20.md#objectgetnonindexstringproperties-for-stage-1-or-2
 [frames-above]: https://github.com/tc39/proposal-error-frames-above
 [error-limit]: https://github.com/tc39/proposal-error-limit-option
+[alias-accessors]: https://github.com/tc39/proposal-alias-accessors
+[composable-accessors]: https://github.com/tc39/proposal-composable-accessors
