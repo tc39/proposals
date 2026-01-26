@@ -15,7 +15,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                               | Author                           | Champion                         | <sub>Test262 Feature Flag</sub>                                     | Meeting Notes                                              |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
-| [Intl Era and MonthCode Proposal][intl era monthCode]                  | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | :question:                                                          | <sub>&nbsp;-2026&#8209;01<br />&nbsp;-[2025&#8209;11][intl-era-monthcode-notes-2025-11]<br />&nbsp;-[2025&#8209;04][intl-era-monthcode-notes-2025-04]<br />&nbsp;-[2022&#8209;11][intl-era-monthcode-notes]</sub> |
+| [Intl Era and MonthCode Proposal][intl era monthCode]                  | Frank Yung-Fong Tang             | Frank Yung-Fong Tang             | :question:                                                          | <sub>&nbsp;-2026&#8209;01<br />&nbsp;-[2025&#8209;11][intl-era-monthcode-notes-2025-11]<br />&nbsp;-[2025&#8209;09][intl-era-monthcode-notes-2025-09]<br />&nbsp;-[2025&#8209;07][intl-era-monthcode-notes-2025-07]<br />&nbsp;-[2025&#8209;04][intl-era-monthcode-notes-2025-04]<br />&nbsp;-[2022&#8209;11][intl-era-monthcode-notes]</sub> |
 
 ### Stage 2.7
 
@@ -90,3 +90,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl-era-monthcode-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#intl-era-and-monthcode-proposal-for-stage-1
 [intl-era-monthcode-notes-2025-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-16.md#intl-era-month-code-stage-2-update
 [intl-era-monthcode-notes-2025-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-20.md#intl-era-monthcode-for-stage-3
+[intl-era-monthcode-notes-2025-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-23.md#intl-era-monthcode
+[intl-era-monthcode-notes-2025-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-30.md#intl-era-and-month-code
