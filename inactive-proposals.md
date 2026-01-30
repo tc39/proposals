@@ -48,9 +48,15 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Getting last element of Array][arraylast]                           | Keith Cirkel                                               | Withdrawn; the [Array#at](https://github.com/tc39/proposal-relative-indexing-method) proposal supersedes this work. | <sub>&nbsp;-[2018&#8209;03][arraylast-notes]</sub> |
 | [Sequence properties in Unicode property escapes][unicode-sequence-properties] | Mathias Bynens                                   | Withdrawn; subsumed by [RegExp v flag with set notation + properties of strings][regexp-v-flag] proposal | <sub>&nbsp;-[2019&#8209;10][unicode-sequence-properties-notes]<br />&nbsp;-[2018&#8209;05][unicode-sequence-properties-notes-2018-05]</sub> |
 | [Record & Tuple][record-tuple]                                                 | Robin Ricard<br />Richard Button                 | Withdrawn; subsumed by [Composites][composite]      | <sub>&nbsp;-[2025&#8209;04][record-tuple-notes-2025-04]<br />&nbsp;-[2025&#8209;02][record-tuple-notes-2025-02]<br />&nbsp;-[2022&#8209;11][record-tuple-notes-2022-11]<br />&nbsp;-[2022&#8209;09][record-tuple-notes-2022-09]<br />&nbsp;-[2022&#8209;07][record-tuple-notes-2022-07]<br />&nbsp;-[2021&#8209;12][record-tuple-notes-2021-12]<br />&nbsp;-[2021&#8209;10][record-tuple-notes-2021-10]<br />&nbsp;-[2021&#8209;03][record-tuple-notes-2021-03]<br />&nbsp;-[2020&#8209;09][record-tuple-notes-2020-09]<br />&nbsp;-[2020&#8209;07][record-tuple-notes-2020-07]<br />&nbsp;-[2020&#8209;06][record-tuple-notes-2020-06]<br />&nbsp;-[2020&#8209;03][record-tuple-notes-2020-03]<br />&nbsp;-[2019&#8209;10][record-tuple-notes]</sub> |
+| [Time Zone Canonicalization][proposal-canonical-tz] | Justin Grant<br />Richard Gibson | Reached Stage 3 in July 2023, then was merged into [Temporal][temporal] | <sub>&nbsp;-[2023-07][time-zone-canon-notes-2023-07]<br>&nbsp;-[2023-05][time-zone-canon-notes-2023-05] &nbsp;-[2023-03][time-zone-canon-notes-2023-03]</sub>  |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
+[proposal-canonical-tz]: https://github.com/tc39/proposal-canonical-tz
+[time-zone-canon-notes-2023-07]: https://github.com/tc39/notes/blob/main/meetings/2023-07/july-12.md#time-zone-canonicalization-for-stage-3
+[time-zone-canon-notes-2023-05]: https://github.com/tc39/notes/blob/main/meetings/2023-05/may-17.md#time-zone-canonicalization-for-stage-2
+[time-zone-canon-notes-2023-03]: https://github.com/tc39/notes/blob/main/meetings/2023-03/mar-23.md#time-zone-canonicalization-for-stage-1
+[temporal]: https://github.com/tc39/proposal-temporal
 [distinguishing-literal-strings]: https://github.com/mikewest/tc39-proposal-literals
 [callable-constructors]: https://github.com/tc39/ecma262/blob/93183b81cb03116b75019615d148b5f788e70edf/workingdocs/callconstructor.md
 [collection-json]: https://github.com/DavidBruant/Map-Set.prototype.toJSON
