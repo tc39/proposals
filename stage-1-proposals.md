@@ -113,7 +113,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Error option `limit`][error-limit]                                                          | Ruben Bridgewater                                      | Ruben Bridgewater                                     | <sub>&nbsp;-2026&#8209;01</sub> |
 | [Alias Accessors][alias-accessors]                                                           | Lea Verou                                              | Lea Verou                                             | <sub>&nbsp;-2026&#8209;01</sub> |
 | [Composable Accessors via built-in decorators][composable-accessors]                         | Lea Verou                                              | Lea Verou                                             | <sub>&nbsp;-2026&#8209;01</sub> |
-| [Iterator Includes][iterator-includes]                                                       | Michael Ficarra                                        | Michael Ficarra                                       | <sub>&nbsp;-2026&8209;03</sub> |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -364,4 +363,3 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [type-annotations-notes-2023-03-31]: https://github.com/tc39/notes/blob/59c6f56131851169e62051b7f292453e73cd0e92/meetings/2022-03/mar-31.md#types-as-comments-continuation
 [alias-accessors]: https://github.com/tc39/proposal-alias-accessors
 [composable-accessors]: https://github.com/tc39/proposal-composable-accessors
-[iterator-includes]: https://github.com/michaelficarra/proposal-iterator-includes
