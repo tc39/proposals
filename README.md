@@ -20,7 +20,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | Proposal                                                                       | Author                                                                  | Champion                                                                | <sub>Test262 Feature Flag</sub>                                     | Meeting Notes                                              |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
 | [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | <sub>[legacy-regexp][tests-regexp-legacy]</sub>                     | <sub>&nbsp;-2026&#8209;01<br />&nbsp;-[2024&#8209;06][regexp-legacy-notes-2024-06]<br />&nbsp;-[2017&#8209;05][regexp-legacy-notes]</sub> |
-| [Temporal][temporal]                                                           | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant| <sub>[Temporal][temporal-tests] [testing plan][temporal-testplan]</sub> | <sub>&nbsp;-[2025&#8209;09][temporal-notes]<br />&nbsp;-[2024&#8209;10][temporal-notes-2024-10]<br />&nbsp;-[2024&#8209;02][temporal-notes-2024-02]<br />&nbsp;-[2023&#8209;03][temporal-notes-2023-03]<br />&nbsp;-[2022&#8209;06][temporal-notes-2022-06]<br />&nbsp;-[2021&#8209;03][temporal-notes-2021-03]<br />&nbsp;-[2020&#8209;09][temporal-notes-2020-09]<br />&nbsp;-[2018&#8209;09][temporal-notes-2018-09]</sub> |
 | [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Kristen Hewell Garrett                            | Kristen Hewell Garrett                                                  | <sub>[decorators][decorators-tests] [testing plan][decorators-testplan]</sub> | <sub>&nbsp;-[2025&#8209;02][decorators-notes]<br />&nbsp;-[2023&#8209;05][decorators-notes-2023-05]<br />&nbsp;-[2022&#8209;03][decorators-notes-2022-03]<br />&nbsp;-[2020&#8209;07][decorators-notes-2020-07]<br />&nbsp;-[2019&#8209;10][decorators-notes-2019-10]<br />&nbsp;-[2019&#8209;03][decorators-notes-2019-03]<br />&nbsp;-[2018&#8209;11][decorators-notes-2018-11]<br />&nbsp;-[2016&#8209;09][decorators-notes-2016-09]</sub> |
 | [Explicit Resource Management][resource-management]                            | Ron Buckton                                                             | Ron Buckton                                                             | <sub>[explicit-resource-management][resource-management-tests]      | <sub>&nbsp;-[2025&#8209;05][resource-management-notes]<br />&nbsp;-[2024&#8209;06][resource-management-notes-2024-06]<br />&nbsp;-[2023&#8209;03][resource-management-notes-2023-03]<br />&nbsp;-[2023&#8209;01][resource-management-notes-2023-01]<br />&nbsp;-[2022&#8209;12][resource-management-notes-2022-12]<br />&nbsp;-[2021&#8209;10][resource-management-notes-2021-10]<br />&nbsp;-[2019&#8209;07][resource-management-notes-2019-07]<br />&nbsp;-[2018&#8209;07][resource-management-notes-2018-07]</sub> |
 | [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | <sub>[decorator-metadata][decorator-metadata-tests]</sub>           | <sub>&nbsp;-[2023&#8209;05][decorator-metadata-notes]</sub> |
@@ -108,10 +107,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [shadowrealm]: https://github.com/tc39/proposal-shadowrealm
 [realms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#shadowrealm-status-update
 [realms-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=ShadowRealm
-[temporal]: https://github.com/tc39/proposal-temporal
-[temporal-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-23.md#temporal-update-and-normative-change
-[temporal-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=Temporal
-[temporal-testplan]: https://github.com/tc39/test262/issues/3002
 [throw-expressions]: https://github.com/tc39/proposal-throw-expressions
 [throw-expressions-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-02/feb-8.md#throw-expressions-update-or-stage-27
 [censorship]: https://github.com/tc39/proposal-function-implementation-hiding
@@ -212,13 +207,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [keyslength]: https://github.com/tc39/proposal-object-keys-length
 [keyslength-notes-2025-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-31.md#objectpropertycount-for-stage-2
 
-[temporal-notes-2024-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#temporal
-[temporal-notes-2024-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#temporal-update
-[temporal-notes-2023-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-21.md#temporal-update
-[temporal-notes-2022-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#temporal-update
-[temporal-notes-2021-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-09.md#temporal-for-stage-3
-[temporal-notes-2020-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-23.md#temporal-for-stage-3
-[temporal-notes-2018-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-26.md#temporal-for-stage-2
 
 [decorators-notes-2023-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#decorators
 [decorators-notes-2022-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
