@@ -75,7 +75,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Native Promise Predicate][native-promise-predicate]                           | Mathieu Hofman                                        | Mathieu Hofman                                                                    | Jordan Harband<br />James Snell<br />Justin Ridgewell | <sub>&nbsp;-[2025&#8209;09][native-promise-predicate-notes]</sub> |
 | [`Error.captureStackTrace`][capturestacktrace]                                 | Matthew Gaudet                                        | Matthew Gaudet<br />Dan Minor                                                     | Jordan Harband<br />Michael Ficarra        | <sub>&nbsp;-[2025&#8209;02][capturestacktrace-notes]</sub>            |
 | [`Object.keysLength`][keyslength]                                              | Ruben Bridgewater<br />Jordan Harband                 | Ruben Bridgewater<br />Jordan Harband                                             | Eemeli Aro<br />James Snell                | <sub>&nbsp;-[2025&#8209;07][keyslength-notes-2025-07]</sub>                                       |
-| [Sync Imports][import-sync]                                                    | Guy Bedford                                           | Guy Bedford                                                                       | Nicolò Ribaudo<br />James Snell            | <sub>&nbsp;-2026&#8209;01</sub>                                       |
+| [Sync Imports][import-sync]                                                    | Guy Bedford                                           | Guy Bedford                                                                       | Nicolò Ribaudo<br />James Snell            | <sub>&nbsp;-2026&#8209;01</sub>                                                                   |
+| [Curtailing the power of "Thenables"][thenables]                               | Matthew Gaudet                                        | Matthew Gaudet                                                                    | Justin Ridgewell<br />Jordan Harband       | <sub>&nbsp;-2026&#8209;01<br />&nbsp;-[2025&#8209;02][thenables-notes]</sub>                      |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -289,3 +290,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [async-context-notes-2023-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#async-context
 [async-context-notes-2023-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#async-context
 [iterator-includes]: https://github.com/michaelficarra/proposal-iterator-includes
+[thenables]: https://github.com/tc39/proposal-thenable-curtailment
+[thenables-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#curtailing-the-power-of-thenables-for-stage-1

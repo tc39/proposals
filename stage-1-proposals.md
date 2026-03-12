@@ -95,7 +95,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Unordered Async Iterator Helpers][unordered-async]                                          | Michael Ficarra                                        | Michael Ficarra                                       | <sub>&nbsp;-[2024&#8209;07][unordered-async-notes]</sub> |
 | [`Array.zip` and `Array.zipKeyed`][array.zip]                                                | Jordan Harband                                         | Jordan Harband                                        | <sub>&nbsp;-[2024&#8209;10][array.zip-notes]</sub> |
 | [Stabilize][stabilize]                                                                       | Mark Miller<br />Chip Morningstar<br />Richard Gibson<br />Mathieu Hofman | Mark Miller<br />Chip Morningstar<br />Richard Gibson<br />Mathieu Hofman | <sub>&nbsp;-[2024&#8209;12][stabilize-notes]</sub> |
-| [Curtailing the power of "Thenables"][thenables]                                             | Matthew Gaudet                                         | Matthew Gaudet                                        | <sub>&nbsp;-[2025&#8209;02][thenables-notes]</sub> |
 | [`Composites`][composite]                                                                    | Ashley Claymore                                        | Ashley Claymore                                       | <sub>&nbsp;-[2025&#8209;04][composite-notes]</sub> |
 | [Enums][enum]                                                                                | Ron Buckton                                            | Ron Buckton                                           | <sub>&nbsp;-[2025&#8209;04][enum-notes]</sub> |
 | [`Object.propertyCount`][property-count]                                                     | Ruben Bridgewater<br />Jordan Harband                  | Ruben Bridgewater<br />Jordan Harband                 | <sub>&nbsp;-[2025&#8209;04][property-count-notes]</sub> |
@@ -293,8 +292,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [array.zip-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#arrayzip-for-stage-1-or-2-or-27
 [stabilize]: https://github.com/tc39/proposal-stabilize
 [stabilize-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-03.md#stabilize-to-stage-1
-[thenables]: https://github.com/tc39/proposal-thenable-curtailment
-[thenables-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#curtailing-the-power-of-thenables-for-stage-1
 [composite]: https://github.com/tc39/proposal-composites
 [composite-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-14.md#composite-keys-for-stage-1
 [enum]: https://github.com/tc39/proposal-enum
