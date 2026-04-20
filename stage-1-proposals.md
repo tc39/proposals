@@ -108,10 +108,10 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [TypedArray Concat][typedarray-concat]                                                       | James Snell                                            | James Snell                                           | <sub>&nbsp;-[2025&#8209;11][typedarray-concat-notes]</sub> |
 | [TypedArray Find Within][typedarray-findwithin]                                              | James Snell                                            | James Snell                                           | <sub>&nbsp;-[2025&#8209;11][typedarray-findwithin-notes]</sub> |
 | [`Object.getNonIndexStringProperties()`][getNonIndexStringProperties]                        | Ruben Bridgewater<br />Jordan Harband                  | Ruben Bridgewater<br />Jordan Harband                 | <sub>&nbsp;-[2025&#8209;11][getNonIndexStringProperties-notes]</sub> |
-| [Error option `framesAbove`][frames-above]                                                   | Ruben Bridgewater                                      | Ruben Bridgewater                                     | <sub>&nbsp;-2026&#8209;01</sub> |
-| [Error option `limit`][error-limit]                                                          | Ruben Bridgewater                                      | Ruben Bridgewater                                     | <sub>&nbsp;-2026&#8209;01</sub> |
+| [Error option `framesAbove`][frames-above]                                                   | Ruben Bridgewater                                      | Ruben Bridgewater                                     | <sub>&nbsp;-[2026&#8209;01][frames-above-notes]</sub> |
+| [Error option `limit`][error-limit]                                                          | Ruben Bridgewater                                      | Ruben Bridgewater                                     | <sub>&nbsp;-[2026&#8209;01][error-limit-notes]</sub> |
 | [Alias Accessors][alias-accessors]                                                           | Lea Verou                                              | Lea Verou                                             | <sub>&nbsp;-2026&#8209;01</sub> |
-| [Composable Accessors via built-in decorators][composable-accessors]                         | Lea Verou                                              | Lea Verou                                             | <sub>&nbsp;-2026&#8209;01</sub> |
+| [Composable Accessors via built-in decorators][composable-accessors]                         | Lea Verou                                              | Lea Verou                                             | <sub>&nbsp;-[2026&#8209;01][composable-accessors-notes]</sub> |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -319,7 +319,9 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [getNonIndexStringProperties]: https://github.com/tc39/proposal-array-get-non-index-string-properties
 [getNonIndexStringProperties-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-20.md#objectgetnonindexstringproperties-for-stage-1-or-2
 [frames-above]: https://github.com/tc39/proposal-error-frames-above
+[frames-above-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-20.md#error-option-framesabove-for-stage-1
 [error-limit]: https://github.com/tc39/proposal-error-limit-option
+[error-limit-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-20.md#error-option-limit-for-stage-1
 [export-from-notes-2023-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#reviving-export-default-from-for-stage-2-jhd
 [export-from-notes-2015-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2015-05/may-27.md#module-export-from-additions-lb-presenting
 [observable-notes-2016-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-29.md#11iiic-observables
@@ -360,3 +362,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [type-annotations-notes-2023-03-31]: https://github.com/tc39/notes/blob/59c6f56131851169e62051b7f292453e73cd0e92/meetings/2022-03/mar-31.md#types-as-comments-continuation
 [alias-accessors]: https://github.com/tc39/proposal-alias-accessors
 [composable-accessors]: https://github.com/tc39/proposal-composable-accessors
+[composable-accessors-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#composable-value-backed-accessors-for-stage-1
