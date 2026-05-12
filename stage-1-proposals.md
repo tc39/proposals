@@ -38,7 +38,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Private declarations][private-declarations]                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>&nbsp;-[2019&#8209;03][private-declarations-notes]</sub> |
 | [Emitter][emitter]                                                                           | Shu-yu Guo<br />Pedram Emrouznejad                    | Shu-yu Guo<br />Pedram Emrouznejad                     | <sub>&nbsp;-[2019&#8209;06][emitter-notes]</sub> |
 | [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>&nbsp;-[2019&#8209;07][reverse-iteration-notes]</sub> |
-| [Declarations in Conditionals][declarations-in-conditionals]                                 | Devin Rousso                                          | Devin Rousso                                           | <sub>&nbsp;-[2019&#8209;10][declarations-in-conditionals-notes]</sub> |
+| [Declarations in Conditionals][declarations-in-conditionals]                                 | Devin Rousso                                          | Devin Rousso                                           | <sub>&nbsp;-[2025&#8209;11][declarations-in-conditionals-notes-2025-11-18]<br />&nbsp;-[2025&#8209;11][declarations-in-conditionals-notes-2025-11-20]<br />&nbsp;-[2019&#8209;10][declarations-in-conditionals-notes-2019-10]</sub> |
 | [Readonly Collections][readonly-collections]                                                 | Mark Miller<br />Peter Hoddie                         | Mark Miller<br />Peter Hoddie                          | <sub>&nbsp;-[2019&#8209;10][readonly-collections-notes]</sub> |
 | [Support for Distributed Promise Pipelining][eventual-send]                                  | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>&nbsp;-[2019&#8209;10][eventual-send-notes]</sub> |
 | [Wavy Dot: Syntactic Support for Promise Pipelining][promise-pipelining]                     | Mark Miller<br />Chip Morningstar<br />Michael Fig    | Mark Miller<br />Chip Morningstar<br />Michael Fig     | <sub>&nbsp;-[2019&#8209;12][promise-pipelining-notes]</sub> |
@@ -179,7 +179,9 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [reverse-iteration]: https://github.com/tc39/proposal-reverseIterator
 [reverse-iteration-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#symbolreverse
 [declarations-in-conditionals]: https://github.com/tc39/proposal-Declarations-in-Conditionals
-[declarations-in-conditionals-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#declarations-in-conditionals
+[declarations-in-conditionals-notes-2019-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#declarations-in-conditionals
+[declarations-in-conditionals-notes-2025-11-18]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#declarations-in-conditionals-for-stage-2
+[declarations-in-conditionals-notes-2025-11-20]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-20.md#continuation-declarations-in-conditionals-for-stage-2
 [readonly-collections]: https://github.com/tc39/proposal-readonly-collections
 [readonly-collections-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#readonly-collections-for-stage-1
 [eventual-send]: https://github.com/tc39/proposal-eventual-send
