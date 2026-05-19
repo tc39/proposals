@@ -20,7 +20,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | Proposal                                                                       | Author                                                                  | Champion                                                                | <sub>Test262 Feature Flag</sub>                                     | Meeting Notes                                              |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
 | [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | <sub>[legacy-regexp][tests-regexp-legacy]</sub>                     | <sub>&nbsp;-[2026&#8209;01][regexp-legacy-notes-2026-01]<br />&nbsp;-[2024&#8209;06][regexp-legacy-notes-2024-06]<br />&nbsp;-[2017&#8209;05][regexp-legacy-notes]</sub> |
-| [Explicit Resource Management][resource-management]                            | Ron Buckton                                                             | Ron Buckton                                                             | <sub>[explicit-resource-management][resource-management-tests]      | <sub>&nbsp;-[2025&#8209;05][resource-management-notes]<br />&nbsp;-[2024&#8209;06][resource-management-notes-2024-06]<br />&nbsp;-[2023&#8209;03][resource-management-notes-2023-03]<br />&nbsp;-[2023&#8209;01][resource-management-notes-2023-01]<br />&nbsp;-[2022&#8209;12][resource-management-notes-2022-12]<br />&nbsp;-[2021&#8209;10][resource-management-notes-2021-10]<br />&nbsp;-[2019&#8209;07][resource-management-notes-2019-07]<br />&nbsp;-[2018&#8209;07][resource-management-notes-2018-07]</sub> |
 | [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | <sub>[decorator-metadata][decorator-metadata-tests]</sub>           | <sub>&nbsp;-[2023&#8209;05][decorator-metadata-notes]</sub> |
 | [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | <sub>[source-phase-imports][source-phase-imports-tests]</sub>       | <sub>&nbsp;-[2024&#8209;10][source-phase-imports-notes]<br />&nbsp;-[2023&#8209;07][source-phase-imports-notes-2023-07]<br />&nbsp;-[2023&#8209;03][source-phase-imports-notes-2023-03]</sub> |
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel<br />Nicolo Ribaudo                 | <sub>[No test262 tests][dynamic-code-brand-checks-no-tests]         | <sub>&nbsp;-[2024&#8209;06][dynamic-code-brand-checks-notes-2024-06]<br />&nbsp;-[2024&#8209;04][dynamic-code-brand-checks-notes-2024-04]<br />&nbsp;-[2021&#8209;01][dynamic-code-brand-checks-notes-2021-01]<br />&nbsp;-[2019&#8209;12][dynamic-code-brand-checks-notes]<br />&nbsp;-[2019&#8209;07][dynamic-code-brand-checks-notes-2019-07]</sub>                            |
@@ -205,7 +204,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [keyslength]: https://github.com/tc39/proposal-object-keys-length
 [keyslength-notes-2025-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-31.md#objectpropertycount-for-stage-2
 
-
 [decorators-notes-2023-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#decorators
 [decorators-notes-2022-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
 [decorators-notes-2020-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#decorators-update--call-for-participation
@@ -214,61 +212,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [decorators-notes-2018-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#decorators-for-stage-3
 [decorators-notes-2016-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-29.md#decorators
 
-[resource-management-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#explicit-resource-management
-[resource-management-notes-2023-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#async-explicit-resource-management-again
-[resource-management-notes-2023-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-31.md#explicit-resource-management-stage-3-update
-[resource-management-notes-2022-12]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#explicit-resource-management-for-stage-3
-[resource-management-notes-2021-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#explicit-resource-management-update
-[resource-management-notes-2019-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-25.md#explicit-resource-management-for-stage-2-continuation-from-tuesday
-[resource-management-notes-2018-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-24.md#explicit-resource-management
-
-[realms-notes-2024-12]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-02.md#shadowrealm-for-stage-3
-[realms-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-12.md#shadowrealm-update
-[realms-notes-2024-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#shadowrealms-update
-[realms-notes-2023-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-27.md#shadowrealm-stage-2-update
-[realms-notes-2023-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#shadowrealm-implementer-feedback-and-demotion-to-stage-2
-[realms-notes-2022-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#shadowrealm
-[realms-notes-2022-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-13.md#shadowrealm-update
-[realms-notes-2022-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#shadowrealm-implementation-status-and-normate-updates
-[realms-notes-2022-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#shadowrealms-updates
-[realms-notes-2021-12]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#shadowrealms-updates-and-potential-normative-changes
-[realms-notes-2021-08]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#realms-renaming-bikeshedding-thread
-[realms-notes-2021-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-13.md#realms-for-stage-3
-[realms-notes-2021-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-26.md#realms
-[realms-notes-2021-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#isolated-realms-update
-[realms-notes-2021-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-26.md#realms-update
-[realms-notes-2020-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#realms-for-stage-3
-[realms-notes-2020-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-4.md#realms-stage-2-update
-[realms-notes-2020-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#update-on-realms
-[realms-notes-2018-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-24.md#report-on-realms-shim-security-review
-[realms-notes-2018-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-23.md#realms
-[realms-notes-2018-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-03/mar-20.md#10ia-update-on-frozen-realms-in-light-of-meltdown-and-spectre
-[realms-notes-2017-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-23.md#10iic-realms-update
-[realms-notes-2017-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-26.md#13iid-seeking-stage-1-for-realms
-[realms-notes-2016-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-03/march-30.md#draft-proposed-frozen-realm-api
-[realms-notes-2015-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2015-05/may-29.md#fresh-realms-breakout
-[realms-notes-2014-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2014-06/jun-4.md#47-removal-of-realms-api-from-es6-postponement-to-es7
-[realms-notes-2014-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2014-01/jan-29.md#security-review-for-loadersrealms
-
-[pipe-notes-2022-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#bikeshedding-pipe-operator-topic-token
-[pipe-notes-2022-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-01/jan-26.md#holistic-discussion-of-dataflow-proposals
-[pipe-notes-2018-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-03/mar-22.md#pipeline-operator
-[pipe-notes-2017-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-29.md#pipeline-operator
-[pipe-notes-2017-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-26.md#pipeline-operator
-
-[source-phase-imports-notes-2023-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-12.md#source-phase-imports-for-stage-3
-[source-phase-imports-notes-2023-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#source-phase-imports-for-stage-3
-
-[dynamic-code-brand-checks-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#dynamic-code-brand-checks
-[dynamic-code-brand-checks-notes-2024-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-10.md#evalfunction-changes-for-trusted-types
-[dynamic-code-brand-checks-notes-2021-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-26.md#dynamic-host-brand-checks-for-stage-2
-[dynamic-code-brand-checks-notes-2019-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-25.md#dynamic-code-brand-checks
-
-[lazy-import-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#deferred-import-evaluation-for-stage-27
-[lazy-import-notes-2023-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#deferred-import-evaluation
-[lazy-import-notes-2021-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#defer-module-import-eval
-
-[esm-phase-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#esm-phase-imports
 [esm-phase-notes-2024-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#esm-phase-imports
 
 [function-sent-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#functionsent-metaproperty
