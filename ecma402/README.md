@@ -15,12 +15,12 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                               | Author                           | Champion                         | <sub>Test262 Feature Flag</sub>                                     | Meeting Notes                                              |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
+| [Keep trailing zeros in Intl.NumberFormat and Intl.PluralRules][trailing-zero] | Eemeli Aro     | Eemeli Aro | :question:                      | <sub>&nbsp;-2026-05<br />&nbsp;-[2025&#8209;11][trailing-zero-notes-2025-11]<br />&nbsp;-[2025&#8209;07][trailing-zero-notes-2025-07]<br />&nbsp;-[2025&#8209;05][trailing-zero-notes]</sub> |
 
 ### Stage 2.7
 
 | Proposal                                                                       | Author         | Champion   | <sub>Test262 Feature Flag</sub> | Meeting Notes                                              |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
-| [Keep trailing zeros in Intl.NumberFormat and Intl.PluralRules][trailing-zero] | Eemeli Aro     | Eemeli Aro | :question:                      | <sub>&nbsp;-[2025&#8209;11][trailing-zero-notes-2025-11]<br />&nbsp;-[2025&#8209;07][trailing-zero-notes-2025-07]<br />&nbsp;-[2025&#8209;05][trailing-zero-notes]</sub> |
 
 ### Stage 2
 
