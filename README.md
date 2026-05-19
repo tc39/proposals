@@ -28,7 +28,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Atomics.pause][atomics-pause-tests]</sub>                     | <sub>&nbsp;-[2024&#8209;10][atomics-pause-notes]</sub>     |
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>&nbsp;-[2025&#8209;02][lazy-import-notes]<br />&nbsp;-[2024&#8209;06][lazy-import-notes-2024-06]<br />&nbsp;-[2023&#8209;07][lazy-import-notes-2023-07]<br />&nbsp;-[2021&#8209;01][lazy-import-notes-2021-01]</sub>       |
 | [Non-extensible Applies to Private][nonext-private]                            | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks             | <sub>[nonextensible-applies-to-private][nonext-private-tests]</sub> | <sub>&nbsp;-[2025&#8209;09][nonext-private-notes]</sub>    |
-| [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>&nbsp;-[2025&#8209;11][joint-notes]<br />&nbsp;-[2024&#8209;07][joint-notes-2024-07]</sub>             |
 | [Import Text][import-text]                                                     | Eemeli Aro                                                              | Eemeli Aro                                                              | <sub>[import-text][import-text-tests]</sub>                         | <sub>&nbsp;-2026&#8209;03<br />&nbsp;-[2025&#8209;11][import-text-notes]</sub> |
 
 ### Stage 2.7
@@ -153,10 +152,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
 [lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#import-defer-for-stage-3
 [lazy-import-testplan]: https://github.com/tc39/test262/issues/4111
-[joint]: https://github.com/tc39/proposal-joint-iteration
-[joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#joint-iteration-for-stage-3
-[joint-testplan]: https://github.com/tc39/test262/issues/4112
-[joint-notes-2024-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#joint-iteration-naming-discussion-issue-27
 [dynamic-code-brand-checks]: https://github.com/tc39/proposal-dynamic-code-brand-checks
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
 [dynamic-code-brand-checks-no-tests]: https://github.com/tc39/test262/issues/4229
