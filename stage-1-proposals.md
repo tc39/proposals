@@ -110,6 +110,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Error option `limit`][error-limit]                                                          | Ruben Bridgewater                                      | Ruben Bridgewater                                     | <sub>&nbsp;-[2026&#8209;01][error-limit-notes]</sub> |
 | [Alias Accessors][alias-accessors]                                                           | Lea Verou                                              | Lea Verou                                             | <sub>&nbsp;-2026&#8209;01</sub> |
 | [Composable Accessors via built-in decorators][composable-accessors]                         | Lea Verou                                              | Lea Verou                                             | <sub>&nbsp;-[2026&#8209;01][composable-accessors-notes]</sub> |
+| [export all from][export-all-from]                                                           | Guy Bedford                                            | Nicolò Ribaudo                                        | <sub>&nbsp;-2026&#8209;05</sub> |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -359,3 +360,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [alias-accessors]: https://github.com/tc39/proposal-alias-accessors
 [composable-accessors]: https://github.com/tc39/proposal-composable-accessors
 [composable-accessors-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#composable-value-backed-accessors-for-stage-1
+[export-all-from]: https://github.com/guybedford/proposal-export-star-default
