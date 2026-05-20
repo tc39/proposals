@@ -73,6 +73,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Object.keysLength`][keyslength]                                              | Ruben Bridgewater<br />Jordan Harband                 | Ruben Bridgewater<br />Jordan Harband                                             | Eemeli Aro<br />James Snell                | <sub>&nbsp;-[2025&#8209;07][keyslength-notes-2025-07]</sub>                                       |
 | [Sync Imports][import-sync]                                                    | Guy Bedford                                           | Guy Bedford                                                                       | Nicolò Ribaudo<br />James Snell            | <sub>&nbsp;-[2026&#8209;01][import-sync-notes]</sub>                                                                   |
 | [Curtailing the power of "Thenables"][thenables]                               | Matthew Gaudet                                        | Matthew Gaudet                                                                    | Justin Ridgewell<br />Jordan Harband       | <sub>&nbsp;-2026&#8209;01<br />&nbsp;-[2025&#8209;02][thenables-notes]</sub>                      |
+| [Amount][amount]                                                               | Ben Allen                                             | Ben Allen                                                                         | Waldemar Horwat<br />Jordan Harband        | <sub>&nbsp;-2026&#8209;05<br />&nbsp;-[2025&#8209;09][amount-notes]</sub> |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -228,3 +229,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [includes-tests]: https://github.com/tc39/test262/pull/5031
 [thenables]: https://github.com/tc39/proposal-thenable-curtailment
 [thenables-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#curtailing-the-power-of-thenables-for-stage-1
+[amount]: https://github.com/tc39/proposal-amount
+[amount-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-24.md#continuation-amount-for-stage-2

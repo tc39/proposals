@@ -102,7 +102,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [More Random Functions][more-random-functions]                                               | Tab Atkins                                             | Tab Atkins                                            | <sub>&nbsp;-[2025&#8209;05][more-random-functions-notes]</sub> |
 | [Inspector][inspector]                                                                       | Jacob Smith                                            | Jacob Smith<br />Richard Gibson                       | <sub>&nbsp;-[2025&#8209;05][inspector-notes]</sub> |
 | [Module Global][module-global]                                                               | Zbyszek Tenerowicz<br />Kris Kowal<br />Richard Gibson<br />Mark S. Miller | Zbyszek Tenerowicz<br />Kris Kowal<br />Richard Gibson<br />Mark S. Miller | <sub>&nbsp;-[2025&#8209;07][module-global-notes]</sub> |
-| [Representing Measures/Amounts][measure]                                                     | Ben Allen                                              | Ben Allen                                             | <sub>&nbsp;-[2025&#8209;09][measure-notes]</sub> |
 | [Bulk-add array elements][bulk-add-array]                                                    | Daniel Rosenwasser                                     | Daniel Rosenwasser                                    | <sub>&nbsp;-[2025&#8209;09][bulk-add-array-notes]</sub> |
 | [TypedArray Concat][typedarray-concat]                                                       | James Snell                                            | James Snell                                           | <sub>&nbsp;-[2025&#8209;11][typedarray-concat-notes]</sub> |
 | [TypedArray Find Within][typedarray-findwithin]                                              | James Snell                                            | James Snell                                           | <sub>&nbsp;-[2025&#8209;11][typedarray-findwithin-notes]</sub> |
@@ -307,8 +306,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [inspector-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-30.md#revisiting-comparison-for-stage-1
 [module-global]: https://github.com/endojs/proposal-new-global
 [module-global-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-30.md#module-import-hook-and-new-global-for-stage-1
-[measure]: https://github.com/tc39/proposal-amount
-[measure-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-24.md#continuation-amount-for-stage-2
 [bulk-add-array]: https://github.com/tc39/proposal-bulk-add-array-elements
 [bulk-add-array-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#arrayprototypepushall-for-stage-1
 [typedarray-concat]: https://github.com/tc39/proposal-typedarray-concat
