@@ -42,6 +42,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [explore associating a unit with a number][unit-protocol]    | Shane Carr           | Shane Carr             | <sub>&nbsp;-[2025&#8209;11][unit-protocol-notes]</sub> |
 | [Stable Formatting] [stable-formatting]                      | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-[2023&#8209;09][stable-formatting-notes-1]<br />&nbsp;-[2025&#8209;02][stable-formatting-notes-2]<br />&nbsp;-2026&#8209;05</sub> |
 | [Default Behaviours for some Intl APIs][intl-defaults]       | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-2026&#8209;05</sub> |
+| [Intl Sequence Units][intl-sequence]                         | Shane Carr           | Shane Carr             | <sub>&nbsp;-2026&#8209;05</sub> |
 
 ### Contributing new proposals
 
@@ -91,3 +92,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [stable-formatting-notes-1]: https://github.com/tc39/notes/blob/main/meetings/2023-09/september-27.md#stable-formatting-for-stage-1
 [stable-formatting-notes-2]: https://github.com/tc39/notes/blob/main/meetings/2025-02/february-19.md#stable-formatting-update
 [intl-defaults]: https://github.com/eemeli/proposal-intl-default-behaviours
+[intl-sequence]: https://github.com/tc39/proposal-intl-sequence-units
