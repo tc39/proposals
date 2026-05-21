@@ -28,6 +28,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [iterator chunking][chunking]                                                  | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[iterator-chunking][chunking-tests]</sub>                      | <sub>&nbsp;-[2025&#8209;09][chunking-notes]<br />&nbsp;-[2025&#8209;07][chunking-notes-2025-07]<br />&nbsp;-[2025&#8209;05][chunking-notes-2025-05]<br />&nbsp;-[2024&#8209;10][chunking-notes-2024-10]<br />&nbsp;-[2024&#8209;02][chunking-notes-2024-02]</sub> |
 | [Iterator Includes][iterator-includes]                                         | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[iterator-includes][includes-tests]</sub>                      | <sub>&nbsp;-2026&#8209;03</sub>                            |
 | [Iterator Join][iterator-join]                                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | :question:                                                          | <sub>&nbsp;-2026&#8209;20<br />&nbsp;-[2025&#8209;11][iterator-join-notes]</sub> |
+| [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                                          | Jordan Harband<br />Mark Miller                                         | [tests PR][stack-accessor-tests]                                    | <sub>&nbsp;-2026&#8209;03<br />&nbsp;-[2025&#8209;11][stack-accessor-notes]</sub> |
 
 ### Stage 2.7
 
@@ -40,7 +41,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works             | :question:                                                          | <sub>&nbsp;-[2025&#8209;07][immutable-abs-notes]</sub>     |
 | [Import Bytes][import-bytes]                                                   | Steven Salat                                                      | Steven Salat                                                                  | <sub>[Import Bytes][import-bytes-tests]</sub>                       | <sub>&nbsp;-[2025&#8209;09][import-bytes-notes]</sub>      |
 | [Await Dictionary][await-dictionary]                                           | Alexander J. Vincent                                              | Ashley Claymore<br />Jordan Harband<br />Chris de Almeida                     | :question:                                                          | <sub>&nbsp;-[2025&#8209;11][await-dictionary-notes]</sub>  |
-| [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                                    | Jordan Harband<br />Mark Miller                                               | :question:                                                          | <sub>&nbsp;-2026&#8209;03<br />&nbsp;-[2025&#8209;11][stack-accessor-notes]</sub> |
 | [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]        | Ron Buckton                                                       | Ron Buckton                                                                   | :question:                                                          | <sub>&nbsp;-[2021&#8209;12][regexp-buffer-boundaries-notes]</sub> |
 
 ### Stage 2
@@ -174,6 +174,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [immutable-abs-testplan]: https://github.com/tc39/test262/issues/4509
 [stack-accessor]: https://github.com/tc39/proposal-error-stack-accessor
 [stack-accessor-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#errorprototypestack-accessor-for-stage-27
+[stack-accessor-tests]: https://github.com/tc39/test262/pull/5045
 [nonext-private]: https://github.com/tc39/proposal-nonextensible-applies-to-private
 [nonext-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#non-extensible-applies-to-private-for-stage-3
 [nonext-private-tests]: https://github.com/tc39/test262/pull/4577
