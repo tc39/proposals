@@ -29,6 +29,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Iterator Includes][iterator-includes]                                         | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[iterator-includes][includes-tests]</sub>                      | <sub>&nbsp;-2026&#8209;03</sub>                            |
 | [Iterator Join][iterator-join]                                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | :question:                                                          | <sub>&nbsp;-2026&#8209;20<br />&nbsp;-[2025&#8209;11][iterator-join-notes]</sub> |
 | [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                                          | Jordan Harband<br />Mark Miller                                         | [tests PR][stack-accessor-tests]                                    | <sub>&nbsp;-2026&#8209;03<br />&nbsp;-[2025&#8209;11][stack-accessor-notes]</sub> |
+| [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]        | Ron Buckton                                                             | Ron Buckton                                                             | [tests PR][buffer-boundaries-tests]                                 | <sub>&nbsp;-[2021&#8209;12][regexp-buffer-boundaries-notes]</sub> |
 
 ### Stage 2.7
 
@@ -41,7 +42,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works             | :question:                                                          | <sub>&nbsp;-[2025&#8209;07][immutable-abs-notes]</sub>     |
 | [Import Bytes][import-bytes]                                                   | Steven Salat                                                      | Steven Salat                                                                  | <sub>[Import Bytes][import-bytes-tests]</sub>                       | <sub>&nbsp;-[2025&#8209;09][import-bytes-notes]</sub>      |
 | [Await Dictionary][await-dictionary]                                           | Alexander J. Vincent                                              | Ashley Claymore<br />Jordan Harband<br />Chris de Almeida                     | :question:                                                          | <sub>&nbsp;-[2025&#8209;11][await-dictionary-notes]</sub>  |
-| [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]        | Ron Buckton                                                       | Ron Buckton                                                                   | :question:                                                          | <sub>&nbsp;-[2021&#8209;12][regexp-buffer-boundaries-notes]</sub> |
 
 ### Stage 2
 
@@ -127,6 +127,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [destructure-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
 [regexp-buffer-boundaries]: https://github.com/tc39/proposal-regexp-buffer-boundaries
 [regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
+[buffer-boundaries-tests]: https://github.com/tc39/test262/pull/4975
 [decorator-metadata]: https://github.com/tc39/proposal-decorator-metadata
 [decorator-metadata-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-18.md#decorator-metadata-final-spec-text-review-for-stage-3
 [decorator-metadata-tests]: https://github.com/tc39/test262/pull/3971
