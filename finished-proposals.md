@@ -429,6 +429,8 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [joint-notes-2024-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#joint-iteration-naming-discussion-issue-27
 [atomics-pause-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-10/october-09.md#atomicspause-for-stage-3
 [atomics-pause]: https://github.com/tc39/proposal-atomics-microwait
+[resource-management]: https://github.com/tc39/proposal-explicit-resource-management
+[resource-management-notes]: https://github.com/tc39/notes/blob/main/meetings/2025-05/may-28.md#explicit-resource-management-continuation
 [resource-management-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#explicit-resource-management
 [resource-management-notes-2023-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#async-explicit-resource-management-again
 [resource-management-notes-2023-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-31.md#explicit-resource-management-stage-3-update
@@ -436,6 +438,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [resource-management-notes-2021-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#explicit-resource-management-update
 [resource-management-notes-2019-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-25.md#explicit-resource-management-for-stage-2-continuation-from-tuesday
 [resource-management-notes-2018-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-24.md#explicit-resource-management
+[resource-management-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=explicit-resource-management
 
 [realms-notes-2024-12]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-02.md#shadowrealm-for-stage-3
 [realms-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-12.md#shadowrealm-update

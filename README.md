@@ -112,9 +112,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [censorship-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#function-implementation-hiding-for-stage-3
 [richer-keys-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
 [collection-rekey-notes-2021-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-09.md#collection-normalization-update
-[resource-management]: https://github.com/tc39/proposal-explicit-resource-management
-[resource-management-notes]: https://github.com/tc39/notes/blob/main/meetings/2025-05/may-28.md#explicit-resource-management-continuation
-[resource-management-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=explicit-resource-management
 [async-resource-management]: https://github.com/tc39/proposal-async-explicit-resource-management
 [collection-rekey]: https://github.com/tc39/proposal-collection-normalization
 [async-iterator-helpers]: https://github.com/tc39/proposal-async-iterator-helpers
