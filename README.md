@@ -24,11 +24,11 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel<br />Nicolo Ribaudo                 | <sub>[No test262 tests][dynamic-code-brand-checks-no-tests]         | <sub>&nbsp;-[2024&#8209;06][dynamic-code-brand-checks-notes-2024-06]<br />&nbsp;-[2024&#8209;04][dynamic-code-brand-checks-notes-2024-04]<br />&nbsp;-[2021&#8209;01][dynamic-code-brand-checks-notes-2021-01]<br />&nbsp;-[2019&#8209;12][dynamic-code-brand-checks-notes]<br />&nbsp;-[2019&#8209;07][dynamic-code-brand-checks-notes-2019-07]</sub>                            |
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>&nbsp;-[2025&#8209;02][lazy-import-notes]<br />&nbsp;-[2024&#8209;06][lazy-import-notes-2024-06]<br />&nbsp;-[2023&#8209;07][lazy-import-notes-2023-07]<br />&nbsp;-[2021&#8209;01][lazy-import-notes-2021-01]</sub>       |
 | [Non-extensible Applies to Private][nonext-private]                            | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks             | <sub>[nonextensible-applies-to-private][nonext-private-tests]</sub> | <sub>&nbsp;-[2025&#8209;09][nonext-private-notes]</sub>    |
-| [Import Text][import-text]                                                     | Eemeli Aro                                                              | Eemeli Aro                                                              | <sub>[import-text][import-text-tests]</sub>                         | <sub>&nbsp;-2026&#8209;03<br />&nbsp;-[2025&#8209;11][import-text-notes]</sub> |
+| [Import Text][import-text]                                                     | Eemeli Aro                                                              | Eemeli Aro                                                              | <sub>[import-text][import-text-tests]</sub>                         | <sub>&nbsp;-[2026&#8209;03][import-text-notes-2026-03]<br />&nbsp;-[2025&#8209;11][import-text-notes-2025-11]</sub> |
 | [iterator chunking][chunking]                                                  | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[iterator-chunking][chunking-tests]</sub>                      | <sub>&nbsp;-[2025&#8209;09][chunking-notes]<br />&nbsp;-[2025&#8209;07][chunking-notes-2025-07]<br />&nbsp;-[2025&#8209;05][chunking-notes-2025-05]<br />&nbsp;-[2024&#8209;10][chunking-notes-2024-10]<br />&nbsp;-[2024&#8209;02][chunking-notes-2024-02]</sub> |
-| [Iterator Includes][iterator-includes]                                         | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[iterator-includes][includes-tests]</sub>                      | <sub>&nbsp;-2026&#8209;03</sub>                            |
-| [Iterator Join][iterator-join]                                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | :question:                                                          | <sub>&nbsp;-2026&#8209;20<br />&nbsp;-[2025&#8209;11][iterator-join-notes]</sub> |
-| [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                                          | Jordan Harband<br />Mark Miller                                         | [tests PR][stack-accessor-tests]                                    | <sub>&nbsp;-2026&#8209;03<br />&nbsp;-[2025&#8209;11][stack-accessor-notes]</sub> |
+| [Iterator Includes][iterator-includes]                                         | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[iterator-includes][includes-tests]</sub>                      | <sub>&nbsp;-[2026&#8209;03][iterator-includes-notes]</sub>                            |
+| [Iterator Join][iterator-join]                                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | :question:                                                          | <sub>&nbsp;-2026&#8209;05<br />&nbsp;-[2025&#8209;11][iterator-join-notes]</sub> |
+| [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                                          | Jordan Harband<br />Mark Miller                                         | [tests PR][stack-accessor-tests]                                    | <sub>&nbsp;-[2026&#8209;03][stack-accessor-notes-2026-03]<br />&nbsp;-[2025&#8209;11][stack-accessor-notes-2025-11]</sub> |
 | [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]        | Ron Buckton                                                             | Ron Buckton                                                             | [tests PR][buffer-boundaries-tests]                                 | <sub>&nbsp;-[2021&#8209;12][regexp-buffer-boundaries-notes]</sub> |
 
 ### Stage 2.7
@@ -72,7 +72,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Error.captureStackTrace`][capturestacktrace]                                 | Matthew Gaudet                                        | Matthew Gaudet<br />Dan Minor                                                     | Jordan Harband<br />Michael Ficarra        | <sub>&nbsp;-[2025&#8209;02][capturestacktrace-notes]</sub>            |
 | [`Object.keysLength`][keyslength]                                              | Ruben Bridgewater<br />Jordan Harband                 | Ruben Bridgewater<br />Jordan Harband                                             | Eemeli Aro<br />James Snell                | <sub>&nbsp;-[2025&#8209;07][keyslength-notes-2025-07]</sub>                                       |
 | [Sync Imports][import-sync]                                                    | Guy Bedford                                           | Guy Bedford                                                                       | Nicolò Ribaudo<br />James Snell            | <sub>&nbsp;-[2026&#8209;01][import-sync-notes]</sub>                                                                   |
-| [Curtailing the power of "Thenables"][thenables]                               | Matthew Gaudet                                        | Matthew Gaudet                                                                    | Justin Ridgewell<br />Jordan Harband       | <sub>&nbsp;-2026&#8209;01<br />&nbsp;-[2025&#8209;02][thenables-notes]</sub>                      |
+| [Curtailing the power of "Thenables"][thenables]                               | Matthew Gaudet                                        | Matthew Gaudet                                                                    | Justin Ridgewell<br />Jordan Harband       | <sub>&nbsp;-[2026&#8209;03][thenables-notes-2026-03]<br />&nbsp;-[2025&#8209;02][thenables-notes-2025-02]</sub>                      |
 | [Amount][amount]                                                               | Ben Allen                                             | Ben Allen                                                                         | Waldemar Horwat<br />Jordan Harband        | <sub>&nbsp;-2026&#8209;05<br />&nbsp;-[2025&#8209;09][amount-notes]</sub> |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
@@ -171,8 +171,9 @@ Note that as part of the onboarding process your repository name may be normaliz
 [immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-29.md#immutable-arraybuffer-for-stage-3
 [immutable-abs-testplan]: https://github.com/tc39/test262/issues/4509
 [stack-accessor]: https://github.com/tc39/proposal-error-stack-accessor
-[stack-accessor-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#errorprototypestack-accessor-for-stage-27
 [stack-accessor-tests]: https://github.com/tc39/test262/pull/5045
+[stack-accessor-notes-2026-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-10.md#error-stack-accessor-for-stage-27
+[stack-accessor-notes-2025-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#errorprototypestack-accessor-for-stage-27
 [nonext-private]: https://github.com/tc39/proposal-nonextensible-applies-to-private
 [nonext-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#non-extensible-applies-to-private-for-stage-3
 [nonext-private-tests]: https://github.com/tc39/test262/pull/4577
@@ -194,8 +195,9 @@ Note that as part of the onboarding process your repository name may be normaliz
 [await-dictionary]: https://github.com/tc39/proposal-await-dictionary
 [await-dictionary-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#await-dictionary-for-stage-2-or-27
 [import-text]: https://github.com/tc39/proposal-import-text
-[import-text-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#import-text
 [import-text-tests]: https://github.com/tc39/test262/pull/4607
+[import-text-notes-2026-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-11.md#import-text-for-stage-27-or-3
+[import-text-notes-2025-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#import-text
 [iterator-join]: https://github.com/tc39/proposal-iterator-join
 [iterator-join-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-19.md#iterator-join-for-stage-1-2-or-27
 [keyslength]: https://github.com/tc39/proposal-object-keys-length
@@ -224,9 +226,11 @@ Note that as part of the onboarding process your repository name may be normaliz
 [async-context-notes-2024-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#asynccontext
 [async-context-notes-2023-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#async-context
 [async-context-notes-2023-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#async-context
-[iterator-includes]: https://github.com/michaelficarra/proposal-iterator-includes
+[iterator-includes]: https://github.com/tc39/proposal-iterator-includes
 [includes-tests]: https://github.com/tc39/test262/pull/5031
+[iterator-includes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-10.md#iterator-includes-for-stage-1-2-or-27
 [thenables]: https://github.com/tc39/proposal-thenable-curtailment
-[thenables-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#curtailing-the-power-of-thenables-for-stage-1
+[thenables-notes-2026-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-12.md#thenable-curtailment-for-stage-2
+[thenables-notes-2025-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#curtailing-the-power-of-thenables-for-stage-1
 [amount]: https://github.com/tc39/proposal-amount
 [amount-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-24.md#continuation-amount-for-stage-2
