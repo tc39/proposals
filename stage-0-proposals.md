@@ -21,6 +21,9 @@ Stage 0 proposals which appear below are either:
 | [`as` destructuring patterns][as-patterns]                         | Kat Marchán                           | Kat Marchán                           | <sub>Never presented</sub>                         |
 | [String trim characters][string-trim-characters]                   | Wenlu Wang                            | Wenlu Wang                            | <sub>Never presented</sub>                         |
 | [Catch Guard][catch-guard]                                         | Willian Martins                       | Willian Martins                       | <sub>Never presented</sub>                         |
+| [Iterator Block Expressions][iterator-block-expressions]           | Wang Chenxu                           |                                       | <sub>Never presented</sub>                         |
+
+
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -44,3 +47,4 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [builtins-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-28.md#14ia-builtinstypeof-and-builtinsis
 [string-trim-characters]: https://github.com/Kingwl/proposal-string-trim-characters
 [catch-guard]: https://github.com/wmsbill/proposal-catch-guards
+[iterator-block-expressions]: https://github.com/fierflame/proposal-iterator-block-expressions
