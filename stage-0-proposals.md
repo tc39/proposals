@@ -15,8 +15,8 @@ Stage 0 proposals which appear below are either:
 | [Nested `import` declarations][nested-imports]                     | Ben Newman                            | Ben Newman                            | <sub>&nbsp;-[2016&#8209;07][nested-notes]</sub>    |
 | [Orthogonal Classes][ortho]                                        | Mark Miller<br />Allen Wirfs-Brock    | Mark Miller<br />Allen Wirfs-Brock    | <sub>&nbsp;-[2017&#8209;03][ortho-notes]</sub>     |
 | [`Reflect.{isCallable,isConstructor}`][is-callable-is-constructor] | Caitlin Potter                        | Caitlin Potter                        | <sub>Never presented</sub>                         |
-| [Relationships][relationships]                                     | Mark Miller<br />Waldemar Horwat      | Mark Miller<br />Waldemar Horwat      | <sub>Never presented</sub>                         |
-| [Structured Clone][clone]                                          | Dmitry Lomov                          | Dmitry Lomov                          | <sub>&nbsp;-[2014&#8209;01][clone-notes]</sub>     |
+| [Relationships][relationships]                                     | Mark Miller<br />Waldemar Horwat      | Mark Miller<br />Waldemar Horwat      | <sub>&nbsp;-[2022&#8209;07][relationships-notes-2022-07]</sub> |
+| [Structured Clone][clone]                                          | Dmitry Lomov                          | Dmitry Lomov                          | <sub>&nbsp;-[2022&#8209;01][clone-notes-2022-01]<br />&nbsp;-[2021&#8209;10][clone-notes-2021-10]<br />&nbsp;-[2014&#8209;01][clone-notes]</sub> |
 | [Object Shorthand Improvements][object-shorthand-improvements]     | Ron Buckton                           | Ron Buckton                           | <sub>&nbsp;-[2017&#8209;09][shorthand-notes]</sub> |
 | [`as` destructuring patterns][as-patterns]                         | Kat Marchán                           | Kat Marchán                           | <sub>Never presented</sub>                         |
 | [String trim characters][string-trim-characters]                   | Wenlu Wang                            | Wenlu Wang                            | <sub>Never presented</sub>                         |
@@ -33,6 +33,7 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [ortho]: https://github.com/erights/Orthogonal-Classes
 [is-callable-is-constructor]: https://github.com/caitp/TC39-Proposals/blob/HEAD/tc39-reflect-isconstructor-iscallable.md
 [relationships]: https://web.archive.org/web/20160804042554/http://wiki.ecmascript.org/doku.php?id=strawman:relationships
+[relationships-notes-2022-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#clarify-the-layering-relationship-between-ecma-262-and-ecma-402
 [clone]: https://github.com/dslomov/ecmascript-structured-clone
 [object-shorthand-improvements]: https://github.com/rbuckton/proposal-shorthand-improvements
 [as-patterns]: https://github.com/zkat/proposal-as-patterns
@@ -40,6 +41,8 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [nested-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-27.md#10iiic-nested-import-declaration
 [ortho-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-22.md#10iiia-orthogonal-classes
 [clone-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2014-01/jan-30.md#structured-clone
+[clone-notes-2022-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-01/jan-24.md#taking-ownership-of-structured-clone-round-2
+[clone-notes-2021-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-25.md#taking-over-maintainership-of-structured-clone
 [shorthand-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-28.md#13i-object-shorthand-improvements
 [builtins-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-28.md#14ia-builtinstypeof-and-builtinsis
 [string-trim-characters]: https://github.com/Kingwl/proposal-string-trim-characters
