@@ -15,7 +15,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 
 | Proposal                                                               | Author                           | Champion                         | <sub>Test262 Feature Flag</sub>                                     | Meeting Notes                                              |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
-| [Keep trailing zeros in Intl.NumberFormat and Intl.PluralRules][trailing-zero] | Eemeli Aro     | Eemeli Aro | :question:                      | <sub>&nbsp;-2026-05<br />&nbsp;-[2026&#8209;03][trailing-zero-notes-2026-03]<br />&nbsp;-[2025&#8209;11][trailing-zero-notes-2025-11]<br />&nbsp;-[2025&#8209;07][trailing-zero-notes-2025-07]<br />&nbsp;-[2025&#8209;05][trailing-zero-notes]</sub> |
+| [Keep trailing zeros in Intl.NumberFormat and Intl.PluralRules][trailing-zero] | Eemeli Aro     | Eemeli Aro | :question:                      | <sub>&nbsp;-[2026-05][trailing-zero-notes-2026-05]<br />&nbsp;-[2026&#8209;03][trailing-zero-notes-2026-03]<br />&nbsp;-[2025&#8209;11][trailing-zero-notes-2025-11]<br />&nbsp;-[2025&#8209;07][trailing-zero-notes-2025-07]<br />&nbsp;-[2025&#8209;05][trailing-zero-notes]</sub> |
 
 ### Stage 2.7
 
@@ -40,9 +40,9 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [`Intl.MessageResource`][intl.messageresource]               | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-[2022&#8209;11][messageresource-notes]</sub> |
 | [Intl.ZonedDateTimeFormat][intl.zoneddatetimeformat]         | Frank Yung-Fong Tang | Frank Yung-Fong Tang   | <sub>&nbsp;-[2023&#8209;05][zoneddatetimeformat-notes]</sub> |
 | [explore associating a unit with a number][unit-protocol]    | Shane Carr           | Shane Carr             | <sub>&nbsp;-[2025&#8209;11][unit-protocol-notes]</sub> |
-| [Stable Formatting] [stable-formatting]                      | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-[2023&#8209;09][stable-formatting-notes-1]<br />&nbsp;-[2025&#8209;02][stable-formatting-notes-2]<br />&nbsp;-2026&#8209;05</sub> |
-| [Default Behaviours for some Intl APIs][intl-defaults]       | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-2026&#8209;05</sub> |
-| [Intl Sequence Units][intl-sequence]                         | Shane Carr           | Shane Carr             | <sub>&nbsp;-2026&#8209;05</sub> |
+| [Stable Formatting] [stable-formatting]                      | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-[2023&#8209;09][stable-formatting-notes-1]<br />&nbsp;-[2025&#8209;02][stable-formatting-notes-2]<br />&nbsp;-[2026&#8209;05][stable-formatting-notes-2026-05]</sub> |
+| [Default Behaviours for some Intl APIs][intl-defaults]       | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-[2026&#8209;05][intl-defaults-notes-2026-05]</sub> |
+| [Intl Sequence Units][intl-sequence]                         | Shane Carr           | Shane Carr             | <sub>&nbsp;-[2026&#8209;05][intl-sequence-notes-2026-05]</sub> |
 | [Intl Energy Units][intl-energy-units]                       | Johan Røed           | Nicolò Ribaudo, Shane Carr | <sub>&nbsp;-[2026&#8209;03][intl-energy-units-notes-2026-03]<br />&nbsp;-[2025&#8209;11][intl-energy-units-notes-2025-11]</sub> |
 
 ### Contributing new proposals
@@ -99,3 +99,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [intl-energy-units]: https://github.com/johanrd/proposal-intl-energy-units
 [intl-energy-units-notes-2026-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-11.md#intl-energy-units-stage-1-update
 [intl-energy-units-notes-2025-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-20.md#intl-energy-units-for-stage-1
+[trailing-zero-notes-2026-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-19.md#intl-keep-trailing-zeros-for-stage-3
+[stable-formatting-notes-2026-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#stable-formatting-for-stage-2
+[intl-defaults-notes-2026-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#default-behaviours-for-some-intl-apis-for-stage-1
+[intl-sequence-notes-2026-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#intl-sequence-units-for-stage-1-or-2
