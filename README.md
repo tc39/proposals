@@ -19,61 +19,61 @@ Stage 2 indicates that the committee expects these features to be developed and 
 
 | Proposal                                                                       | Author                                                                  | Champion                                                                | <sub>Test262 Feature Flag</sub>                                     | Meeting Notes                                              |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
-| [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | <sub>[legacy-regexp][tests-regexp-legacy]</sub>                     | <sub>&nbsp;-[2026&#8209;01][regexp-legacy-notes-2026-01]<br />&nbsp;-[2024&#8209;06][regexp-legacy-notes-2024-06]<br />&nbsp;-[2017&#8209;05][regexp-legacy-notes]</sub> |
-| [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | <sub>[source-phase-imports][source-phase-imports-tests]</sub>       | <sub>&nbsp;-[2024&#8209;10][source-phase-imports-notes]<br />&nbsp;-[2023&#8209;07][source-phase-imports-notes-2023-07]<br />&nbsp;-[2023&#8209;03][source-phase-imports-notes-2023-03]</sub> |
-| [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel<br />Nicolo Ribaudo                 | <sub>[No test262 tests][dynamic-code-brand-checks-no-tests]         | <sub>&nbsp;-[2024&#8209;06][dynamic-code-brand-checks-notes-2024-06]<br />&nbsp;-[2024&#8209;04][dynamic-code-brand-checks-notes-2024-04]<br />&nbsp;-[2021&#8209;01][dynamic-code-brand-checks-notes-2021-01]<br />&nbsp;-[2019&#8209;12][dynamic-code-brand-checks-notes]<br />&nbsp;-[2019&#8209;07][dynamic-code-brand-checks-notes-2019-07]</sub>                            |
-| [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>&nbsp;-[2025&#8209;02][lazy-import-notes]<br />&nbsp;-[2024&#8209;06][lazy-import-notes-2024-06]<br />&nbsp;-[2023&#8209;07][lazy-import-notes-2023-07]<br />&nbsp;-[2021&#8209;01][lazy-import-notes-2021-01]</sub>       |
-| [Non-extensible Applies to Private][nonext-private]                            | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks             | <sub>[nonextensible-applies-to-private][nonext-private-tests]</sub> | <sub>&nbsp;-[2025&#8209;09][nonext-private-notes]</sub>    |
-| [Import Text][import-text]                                                     | Eemeli Aro                                                              | Eemeli Aro                                                              | <sub>[import-text][import-text-tests]</sub>                         | <sub>&nbsp;-2026&#8209;03<br />&nbsp;-[2025&#8209;11][import-text-notes]</sub> |
+| [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | <sub>[legacy-regexp][tests-regexp-legacy]</sub>                     | <sub>&nbsp;-[2026&#8209;01][regexp-legacy-notes-2026-01]<br />&nbsp;-[2024&#8209;06][regexp-legacy-notes-2024-06]<br />&nbsp;-[2023&#8209;07][regexp-legacy-notes-2023-07]<br />&nbsp;-[2017&#8209;05][regexp-legacy-notes]<br />&nbsp;-[2017&#8209;05][regexp-legacy-notes-2017-05]<br />&nbsp;-[2017&#8209;03][regexp-legacy-notes-2017-03]<br />&nbsp;-[2016&#8209;09][regexp-legacy-notes-2016-09]</sub> |
+| [Source Phase Imports][source-phase-imports]                                   | Luca Casonato                                                           | Guy Bedford<br />Luca Casonato                                          | <sub>[source-phase-imports][source-phase-imports-tests]</sub>       | <sub>&nbsp;-[2026&#8209;01][source-phase-imports-notes-2026-01]<br />&nbsp;-[2024&#8209;10][source-phase-imports-notes]<br />&nbsp;-[2024&#8209;07][source-phase-imports-notes-2024-07]<br />&nbsp;-[2024&#8209;06][source-phase-imports-notes-2024-06]<br />&nbsp;-[2023&#8209;07][source-phase-imports-notes-2023-07]<br />&nbsp;-[2023&#8209;05][source-phase-imports-notes-2023-05]<br />&nbsp;-[2023&#8209;05][source-phase-imports-notes-2023-05-15]<br />&nbsp;-[2023&#8209;03][source-phase-imports-notes-2023-03]</sub> |
+| [Dynamic Code Brand Checks][dynamic-code-brand-checks]                         | Nicolo Ribaudo                                                          | Krzysztof Kotowicz<br />Mike Samuel<br />Nicolo Ribaudo                 | <sub>[No test262 tests][dynamic-code-brand-checks-no-tests]         | <sub>&nbsp;-[2026&#8209;01][dynamic-code-brand-checks-notes-2026-01]<br />&nbsp;-[2024&#8209;06][dynamic-code-brand-checks-notes-2024-06]<br />&nbsp;-[2024&#8209;04][dynamic-code-brand-checks-notes-2024-04]<br />&nbsp;-[2021&#8209;01][dynamic-code-brand-checks-notes-2021-01]<br />&nbsp;-[2019&#8209;12][dynamic-code-brand-checks-notes]<br />&nbsp;-[2019&#8209;07][dynamic-code-brand-checks-notes-2019-07]</sub> |
+| [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>&nbsp;-[2025&#8209;02][lazy-import-notes]<br />&nbsp;-[2024&#8209;10][lazy-import-notes-2024-10]<br />&nbsp;-[2024&#8209;06][lazy-import-notes-2024-06]<br />&nbsp;-[2023&#8209;07][lazy-import-notes-2023-07]<br />&nbsp;-[2022&#8209;11][lazy-import-notes-2022-11]<br />&nbsp;-[2021&#8209;01][lazy-import-notes-2021-01]</sub> |
+| [Non-extensible Applies to Private][nonext-private]                            | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks             | <sub>[nonextensible-applies-to-private][nonext-private-tests]</sub> | <sub>&nbsp;-[2025&#8209;09][nonext-private-notes]<br />&nbsp;-[2025&#8209;07][nonext-private-notes-2025-07]<br />&nbsp;-[2025&#8209;04][nonext-private-notes-2025-04]</sub> |
+| [Import Text][import-text]                                                     | Eemeli Aro                                                              | Eemeli Aro                                                              | <sub>[import-text][import-text-tests]</sub>                         | <sub>&nbsp;-[2026&#8209;03][import-text-notes-2026-03]<br />&nbsp;-[2025&#8209;11][import-text-notes]</sub> |
 | [iterator chunking][chunking]                                                  | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[iterator-chunking][chunking-tests]</sub>                      | <sub>&nbsp;-[2025&#8209;09][chunking-notes]<br />&nbsp;-[2025&#8209;07][chunking-notes-2025-07]<br />&nbsp;-[2025&#8209;05][chunking-notes-2025-05]<br />&nbsp;-[2024&#8209;10][chunking-notes-2024-10]<br />&nbsp;-[2024&#8209;02][chunking-notes-2024-02]</sub> |
-| [Iterator Includes][iterator-includes]                                         | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[iterator-includes][includes-tests]</sub>                      | <sub>&nbsp;-2026&#8209;03</sub>                            |
+| [Iterator Includes][iterator-includes]                                         | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[iterator-includes][includes-tests]</sub>                      | <sub>&nbsp;-[2026&#8209;03][iterator-includes-notes-2026-03]<br />&nbsp;-[2026&#8209;03][iterator-includes-notes-2026-03-10]</sub> |
 | [Iterator Join][iterator-join]                                                 | Kevin Gibbons                                                           | Kevin Gibbons                                                           | :question:                                                          | <sub>&nbsp;-2026&#8209;05<br />&nbsp;-[2025&#8209;11][iterator-join-notes]</sub> |
-| [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                                          | Jordan Harband<br />Mark Miller                                         | [tests PR][stack-accessor-tests]                                    | <sub>&nbsp;-2026&#8209;03<br />&nbsp;-[2025&#8209;11][stack-accessor-notes]</sub> |
-| [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]        | Ron Buckton                                                             | Ron Buckton                                                             | [tests PR][buffer-boundaries-tests]                                 | <sub>&nbsp;-[2021&#8209;12][regexp-buffer-boundaries-notes]</sub> |
+| [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                                          | Jordan Harband<br />Mark Miller                                         | [tests PR][stack-accessor-tests]                                    | <sub>&nbsp;-[2026&#8209;03][stack-accessor-notes-2026-03]<br />&nbsp;-[2025&#8209;11][stack-accessor-notes]<br />&nbsp;-[2025&#8209;02][stack-accessor-notes-2025-02]</sub> |
+| [RegExp Buffer Boundaries (`\A`, `\z`, `\Z`)][regexp-buffer-boundaries]        | Ron Buckton                                                             | Ron Buckton                                                             | [tests PR][buffer-boundaries-tests]                                 | <sub>&nbsp;-[2026&#8209;03][regexp-buffer-boundaries-notes-2026-03]<br />&nbsp;-[2026&#8209;01][regexp-buffer-boundaries-notes-2026-01]<br />&nbsp;-[2023&#8209;07][regexp-buffer-boundaries-notes-2023-07]<br />&nbsp;-[2021&#8209;12][regexp-buffer-boundaries-notes]<br />&nbsp;-[2021&#8209;10][regexp-buffer-boundaries-notes-2021-10]</sub> |
 
 ### Stage 2.7
 
 | Proposal                                                                       | Author                                                                  | Champion                                                                | <sub>Test262 Feature Flag</sub>                                     | Meeting Notes                                              |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
-| [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Kristen Hewell Garrett                            | Kristen Hewell Garrett                                                  | <sub>[decorators][decorators-tests] [testing plan][decorators-testplan]</sub> | <sub>&nbsp;-[2025&#8209;02][decorators-notes]<br />&nbsp;-[2023&#8209;05][decorators-notes-2023-05]<br />&nbsp;-[2022&#8209;03][decorators-notes-2022-03]<br />&nbsp;-[2020&#8209;07][decorators-notes-2020-07]<br />&nbsp;-[2019&#8209;10][decorators-notes-2019-10]<br />&nbsp;-[2019&#8209;03][decorators-notes-2019-03]<br />&nbsp;-[2018&#8209;11][decorators-notes-2018-11]<br />&nbsp;-[2016&#8209;09][decorators-notes-2016-09]</sub> |
-| [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | <sub>[decorator-metadata][decorator-metadata-tests]</sub>           | <sub>&nbsp;-[2023&#8209;05][decorator-metadata-notes]</sub> |
-| [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis   | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | <sub>[ShadowRealm][realms-tests]</sub>                              | <sub>&nbsp;-[2025&#8209;02][realms-notes]<br />&nbsp;-[2024&#8209;12][realms-notes-2024-12]<br />&nbsp;-[2024&#8209;06][realms-notes-2024-06]<br />&nbsp;-[2024&#8209;02][realms-notes-2024-02]<br />&nbsp;-[2023&#8209;11][realms-notes-2023-11]<br />&nbsp;-[2023&#8209;09][realms-notes-2023-09]<br />&nbsp;-[2022&#8209;11][realms-notes-2022-11]<br />&nbsp;-[2022&#8209;09][realms-notes-2022-09]<br />&nbsp;-[2022&#8209;06][realms-notes-2022-06]<br />&nbsp;-[2022&#8209;03][realms-notes-2022-03]<br />&nbsp;-[2021&#8209;12][realms-notes-2021-12]<br />&nbsp;-[2021&#8209;08][realms-notes-2021-08]<br />&nbsp;-[2021&#8209;07][realms-notes-2021-07]<br />&nbsp;-[2021&#8209;05][realms-notes-2021-05]<br />&nbsp;-[2021&#8209;04][realms-notes-2021-04]<br />&nbsp;-[2021&#8209;01][realms-notes-2021-01]<br />&nbsp;-[2020&#8209;11][realms-notes-2020-11]<br />&nbsp;-[2020&#8209;06][realms-notes-2020-06]<br />&nbsp;-[2020&#8209;02][realms-notes-2020-02]<br />&nbsp;-[2018&#8209;07][realms-notes-2018-07]<br />&nbsp;-[2018&#8209;05][realms-notes-2018-05]<br />&nbsp;-[2018&#8209;03][realms-notes-2018-03]<br />&nbsp;-[2017&#8209;03][realms-notes-2017-03]<br />&nbsp;-[2017&#8209;01][realms-notes-2017-01]<br />&nbsp;-[2016&#8209;03][realms-notes-2016-03]<br />&nbsp;-[2015&#8209;05][realms-notes-2015-05]<br />&nbsp;-[2014&#8209;06][realms-notes-2014-06]<br />&nbsp;-[2014&#8209;01][realms-notes-2014-01]</sub> |
-| [ESM Phase Imports][esm-phase]                                                 | Luca Casonato<br />Guy Bedford                                          | Luca Casonato<br />Guy Bedford                                          | :question:                                                          | <sub>&nbsp;-[2024&#8209;12][esm-phase-notes]<br />&nbsp;-[2024&#8209;06][esm-phase-notes-2024-06]<br />&nbsp;-[2024&#8209;02][esm-phase-notes-2024-02]</sub>         |
-| [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works             | :question:                                                          | <sub>&nbsp;-[2025&#8209;07][immutable-abs-notes]</sub>     |
+| [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Kristen Hewell Garrett                            | Kristen Hewell Garrett                                                  | <sub>[decorators][decorators-tests] [testing plan][decorators-testplan]</sub> | <sub>&nbsp;-[2025&#8209;11][decorators-notes-2025-11]<br />&nbsp;-[2025&#8209;02][decorators-notes]<br />&nbsp;-[2023&#8209;11][decorators-notes-2023-11]<br />&nbsp;-[2023&#8209;05][decorators-notes-2023-05]<br />&nbsp;-[2023&#8209;03][decorators-notes-2023-03]<br />&nbsp;-[2023&#8209;01][decorators-notes-2023-01]<br />&nbsp;-[2023&#8209;01][decorators-notes-2023-01-01]<br />&nbsp;-[2022&#8209;03][decorators-notes-2022-03]<br />&nbsp;-[2022&#8209;03][decorators-notes-2022-03-31]<br />&nbsp;-[2022&#8209;03][decorators-notes-2022-03-30]<br />&nbsp;-[2021&#8209;12][decorators-notes-2021-12]<br />&nbsp;-[2021&#8209;07][decorators-notes-2021-07]<br />&nbsp;-[2020&#8209;09][decorators-notes-2020-09]<br />&nbsp;-[2020&#8209;07][decorators-notes-2020-07]<br />&nbsp;-[2020&#8209;06][decorators-notes-2020-06]<br />&nbsp;-[2020&#8209;03][decorators-notes-2020-03]<br />&nbsp;-[2019&#8209;03][decorators-notes-2019-03]<br />&nbsp;-[2019&#8209;03][decorators-notes-2019-03-27]<br />&nbsp;-[2019&#8209;01][decorators-notes-2019-01]<br />&nbsp;-[2018&#8209;11][decorators-notes-2018-11]<br />&nbsp;-[2018&#8209;09][decorators-notes-2018-09]<br />&nbsp;-[2018&#8209;05][decorators-notes-2018-05]<br />&nbsp;-[2018&#8209;03][decorators-notes-2018-03]<br />&nbsp;-[2018&#8209;01][decorators-notes-2018-01]<br />&nbsp;-[2016&#8209;09][decorators-notes-2016-09]<br />&nbsp;-[2016&#8209;07][decorators-notes-2016-07]<br />&nbsp;-[2016&#8209;05][decorators-notes-2016-05]<br />&nbsp;-[2016&#8209;01][decorators-notes-2016-01]<br />&nbsp;-[2015&#8209;09][decorators-notes-2015-09]<br />&nbsp;-[2015&#8209;03][decorators-notes-2015-03]<br />&nbsp;-[2015&#8209;01][decorators-notes-2015-01]<br />&nbsp;-[2014&#8209;04][decorators-notes-2014-04]</sub> |
+| [Decorator Metadata][decorator-metadata]                                       | Kristen Hewell Garrett                                                  | Kristen Hewell Garrett                                                  | <sub>[decorator-metadata][decorator-metadata-tests]</sub>           | <sub>&nbsp;-[2024&#8209;06][decorator-metadata-notes-2024-06]<br />&nbsp;-[2023&#8209;05][decorator-metadata-notes]<br />&nbsp;-[2023&#8209;05][decorator-metadata-notes-2023-05]<br />&nbsp;-[2023&#8209;03][decorator-metadata-notes-2023-03]</sub> |
+| [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis   | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | <sub>[ShadowRealm][realms-tests]</sub>                              | <sub>&nbsp;-[2025&#8209;02][realms-notes]<br />&nbsp;-[2025&#8209;02][realms-notes-2025-02]<br />&nbsp;-[2024&#8209;12][realms-notes-2024-12]<br />&nbsp;-[2024&#8209;06][realms-notes-2024-06]<br />&nbsp;-[2024&#8209;02][realms-notes-2024-02]<br />&nbsp;-[2023&#8209;11][realms-notes-2023-11]<br />&nbsp;-[2023&#8209;09][realms-notes-2023-09]<br />&nbsp;-[2022&#8209;11][realms-notes-2022-11]<br />&nbsp;-[2022&#8209;09][realms-notes-2022-09]<br />&nbsp;-[2022&#8209;06][realms-notes-2022-06]<br />&nbsp;-[2022&#8209;03][realms-notes-2022-03]<br />&nbsp;-[2021&#8209;12][realms-notes-2021-12]<br />&nbsp;-[2021&#8209;08][realms-notes-2021-08]<br />&nbsp;-[2021&#8209;07][realms-notes-2021-07]<br />&nbsp;-[2021&#8209;05][realms-notes-2021-05]<br />&nbsp;-[2021&#8209;04][realms-notes-2021-04]<br />&nbsp;-[2021&#8209;01][realms-notes-2021-01]<br />&nbsp;-[2020&#8209;11][realms-notes-2020-11]<br />&nbsp;-[2020&#8209;06][realms-notes-2020-06]<br />&nbsp;-[2020&#8209;02][realms-notes-2020-02]<br />&nbsp;-[2018&#8209;07][realms-notes-2018-07]<br />&nbsp;-[2018&#8209;05][realms-notes-2018-05]<br />&nbsp;-[2018&#8209;03][realms-notes-2018-03]<br />&nbsp;-[2017&#8209;03][realms-notes-2017-03]<br />&nbsp;-[2017&#8209;01][realms-notes-2017-01]<br />&nbsp;-[2016&#8209;03][realms-notes-2016-03]<br />&nbsp;-[2015&#8209;05][realms-notes-2015-05]<br />&nbsp;-[2014&#8209;06][realms-notes-2014-06]<br />&nbsp;-[2014&#8209;01][realms-notes-2014-01]</sub> |
+| [ESM Phase Imports][esm-phase]                                                 | Luca Casonato<br />Guy Bedford                                          | Luca Casonato<br />Guy Bedford                                          | :question:                                                          | <sub>&nbsp;-[2026&#8209;03][esm-phase-notes-2026-03]<br />&nbsp;-[2024&#8209;12][esm-phase-notes]<br />&nbsp;-[2024&#8209;12][esm-phase-notes-2024-12]<br />&nbsp;-[2024&#8209;10][esm-phase-notes-2024-10]<br />&nbsp;-[2024&#8209;06][esm-phase-notes-2024-06]<br />&nbsp;-[2024&#8209;04][esm-phase-notes-2024-04]<br />&nbsp;-[2024&#8209;02][esm-phase-notes-2024-02]</sub> |
+| [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works             | :question:                                                          | <sub>&nbsp;-[2025&#8209;07][immutable-abs-notes]<br />&nbsp;-[2025&#8209;05][immutable-abs-notes-2025-05]<br />&nbsp;-[2025&#8209;04][immutable-abs-notes-2025-04]<br />&nbsp;-[2025&#8209;02][immutable-abs-notes-2025-02]<br />&nbsp;-[2024&#8209;12][immutable-abs-notes-2024-12]<br />&nbsp;-[2024&#8209;10][immutable-abs-notes-2024-10]</sub> |
 | [Import Bytes][import-bytes]                                                   | Steven Salat                                                      | Steven Salat                                                                  | <sub>[Import Bytes][import-bytes-tests]</sub>                       | <sub>&nbsp;-[2025&#8209;09][import-bytes-notes]</sub>      |
-| [Await Dictionary][await-dictionary]                                           | Alexander J. Vincent                                              | Ashley Claymore<br />Jordan Harband<br />Chris de Almeida                     | :question:                                                          | <sub>&nbsp;-[2025&#8209;11][await-dictionary-notes]</sub>  |
+| [Await Dictionary][await-dictionary]                                           | Alexander J. Vincent                                              | Ashley Claymore<br />Jordan Harband<br />Chris de Almeida                     | :question:                                                          | <sub>&nbsp;-[2025&#8209;11][await-dictionary-notes]<br />&nbsp;-[2025&#8209;09][await-dictionary-notes-2025-09]<br />&nbsp;-[2023&#8209;03][await-dictionary-notes-2023-03]</sub> |
 
 ### Stage 2
 
 | Proposal                                                                       | Author                                                | Champion                                                                          | Stage 2.7 reviewers                        | Meeting Notes                                                         |
 | ------------------------------------------------------------------------------ | ----------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------ | --------------------------------------------------------------------- |
-| [`function.sent` metaproperty][function-sent]                                  | Allen Wirfs-Brock                                     |                                                                                   |                                            | <sub>&nbsp;-2026-01<br />&nbsp;-[2024&#8209;06][function-sent-notes-2024-06]<br />&nbsp;-[2022&#8209;06][function-sent-notes-2022-06]<br />&nbsp;-[2019&#8209;07][function-sent-notes]<br />&nbsp;-[2018&#8209;03][function-sent-notes-2018-03]<br />&nbsp;-[2015&#8209;11][function-sent-notes-2015-11]</sub>                |
-| [`throw` expressions][throw-expressions]                                       | Ron Buckton                                           | Ron Buckton                                                                       |                                            | <sub>&nbsp;-[2024&#8209;02][throw-expressions-notes]<br />&nbsp;-[2018&#8209;01][throw-expressions-notes-2018-01]<br />&nbsp;-[2017&#8209;11][throw-expressions-notes-2017-11]<br />&nbsp;-[2017&#8209;09][throw-expressions-notes-2017-09]</sub>            |
-| [Function implementation hiding][censorship]                                   | Domenic Denicola<br />Michael Ficarra                 | Michael Ficarra                                                                   |                                            | <sub>&nbsp;-[2020&#8209;06][censorship-notes]</sub>                   |
-| [collection normalization][collection-rekey]                                   | Bradley Farias                                        |                                                                                   |                                            | <sub>&nbsp;-2026&#8209;01<br />&nbsp;-[2021&#8209;03][collection-rekey-notes-2021-03]<br />&nbsp;-[2019&#8209;01][richer-keys-notes]</sub> |
+| [`function.sent` metaproperty][function-sent]                                  | Allen Wirfs-Brock                                     |                                                                                   |                                            | <sub>&nbsp;-[2026-01][function-sent-notes-2026-01]<br />&nbsp;-[2026&#8209;01][function-sent-notes-2026-01-21]<br />&nbsp;-[2024&#8209;06][function-sent-notes-2024-06]<br />&nbsp;-[2022&#8209;06][function-sent-notes-2022-06]<br />&nbsp;-[2019&#8209;07][function-sent-notes]<br />&nbsp;-[2018&#8209;03][function-sent-notes-2018-03]<br />&nbsp;-[2015&#8209;11][function-sent-notes-2015-11]<br />&nbsp;-[2015&#8209;11][function-sent-notes-2015-11-18]</sub> |
+| [`throw` expressions][throw-expressions]                                       | Ron Buckton                                           | Ron Buckton                                                                       |                                            | <sub>&nbsp;-[2024&#8209;06][throw-expressions-notes-2024-06]<br />&nbsp;-[2024&#8209;02][throw-expressions-notes]<br />&nbsp;-[2023&#8209;09][throw-expressions-notes-2023-09]<br />&nbsp;-[2023&#8209;09][throw-expressions-notes-2023-09-26]<br />&nbsp;-[2023&#8209;07][throw-expressions-notes-2023-07]<br />&nbsp;-[2018&#8209;01][throw-expressions-notes-2018-01]<br />&nbsp;-[2017&#8209;11][throw-expressions-notes-2017-11]<br />&nbsp;-[2017&#8209;09][throw-expressions-notes-2017-09]<br />&nbsp;-[2017&#8209;07][throw-expressions-notes-2017-07]</sub> |
+| [Function implementation hiding][censorship]                                   | Domenic Denicola<br />Michael Ficarra                 | Michael Ficarra                                                                   |                                            | <sub>&nbsp;-[2026&#8209;01][censorship-notes-2026-01]<br />&nbsp;-[2024&#8209;06][censorship-notes-2024-06]<br />&nbsp;-[2023&#8209;07][censorship-notes-2023-07]<br />&nbsp;-[2020&#8209;06][censorship-notes]<br />&nbsp;-[2019&#8209;12][censorship-notes-2019-12]<br />&nbsp;-[2019&#8209;07][censorship-notes-2019-07]</sub> |
+| [collection normalization][collection-rekey]                                   | Bradley Farias                                        |                                                                                   |                                            | <sub>&nbsp;-[2026&#8209;01][collection-rekey-notes-2026-01]<br />&nbsp;-[2021&#8209;03][collection-rekey-notes-2021-03]<br />&nbsp;-[2019&#8209;07][collection-rekey-notes-2019-07]<br />&nbsp;-[2019&#8209;01][richer-keys-notes]</sub> |
 | [Module Expressions][module-expressions]                                       | Surma<br />Daniel Ehrenberg<br />Nicolò Ribaudo       | Surma<br />Nicolò Ribaudo                                                         |                                            | <sub>&nbsp;-[2022&#8209;11][module-expressions-notes]</sub>           |
-| [Pipeline Operator][pipeline]                                                  | J. S. Choi<br />James DiGioia<br />Ron Buckton<br />Tab Atkins | J. S. Choi<br />Ron Buckton<br />Tab Atkins                              |                                            | <sub>&nbsp;-[2022&#8209;03][pipe-notes-2022-03]<br />&nbsp;-[2022&#8209;01][pipe-notes-2022-01]<br />&nbsp;-[2021&#8209;08][pipe-notes]<br />&nbsp;-[2018&#8209;03][pipe-notes-2018-03]<br />&nbsp;-[2017&#8209;11][pipe-notes-2017-11]<br />&nbsp;-[2017&#8209;09][pipe-notes-2017-09]</sub>                         |
-| [Destructure Private Fields][destructure-private]                              | Justin Ridgewell                                      |                                                                                   |                                            | <sub>&nbsp;-[2021&#8209;12][destructure-private-notes]</sub>          |
-| [String.dedent][string.dedent]                                                 | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell  | Hemanth HM<br />Justin Ridgewell                                                  |                                            | <sub>&nbsp;-[2022&#8209;06][string.dedent-notes]</sub>                |
-| [JSON.parseImmutable][json-parse-immutable]                                    | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore |                                | <sub>&nbsp;-[2022&#8209;07][json-parse-immutable-notes]</sub>         |
+| [Pipeline Operator][pipeline]                                                  | J. S. Choi<br />James DiGioia<br />Ron Buckton<br />Tab Atkins | J. S. Choi<br />Ron Buckton<br />Tab Atkins                              |                                            | <sub>&nbsp;-[2026&#8209;01][pipe-notes-2026-01]<br />&nbsp;-[2023&#8209;07][pipe-notes-2023-07]<br />&nbsp;-[2022&#8209;03][pipe-notes-2022-03]<br />&nbsp;-[2022&#8209;01][pipe-notes-2022-01]<br />&nbsp;-[2021&#8209;08][pipe-notes]<br />&nbsp;-[2021&#8209;03][pipe-notes-2021-03]<br />&nbsp;-[2018&#8209;03][pipe-notes-2018-03]<br />&nbsp;-[2017&#8209;11][pipe-notes-2017-11]<br />&nbsp;-[2017&#8209;09][pipe-notes-2017-09]</sub> |
+| [Destructure Private Fields][destructure-private]                              | Justin Ridgewell                                      |                                                                                   |                                            | <sub>&nbsp;-[2026&#8209;01][destructure-private-notes-2026-01]<br />&nbsp;-[2023&#8209;07][destructure-private-notes-2023-07]<br />&nbsp;-[2021&#8209;12][destructure-private-notes]</sub> |
+| [String.dedent][string.dedent]                                                 | Misha Kaletsky<br />Hemanth HM<br />Justin Ridgewell  | Hemanth HM<br />Justin Ridgewell                                                  |                                            | <sub>&nbsp;-[2026&#8209;01][string.dedent-notes-2026-01]<br />&nbsp;-[2022&#8209;11][string.dedent-notes-2022-11]<br />&nbsp;-[2022&#8209;09][string.dedent-notes-2022-09]<br />&nbsp;-[2022&#8209;06][string.dedent-notes]<br />&nbsp;-[2020&#8209;09][string.dedent-notes-2020-09]</sub> |
+| [JSON.parseImmutable][json-parse-immutable]                                    | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore | Robin Ricard<br />Richard Button<br />Nicolò Ribaudo<br />Ashley Claymore |                                | <sub>&nbsp;-[2026&#8209;03][json-parse-immutable-notes-2026-03]<br />&nbsp;-[2023&#8209;07][json-parse-immutable-notes-2023-07]<br />&nbsp;-[2022&#8209;07][json-parse-immutable-notes]</sub> |
 | [Module Declarations][module-declarations]                                     | Daniel Ehrenberg<br />Nicolò Ribaudo                  | Mark Miller<br />Nicolò Ribaudo                             |                                            | <sub>&nbsp;-[2022&#8209;11][module-declarations-notes]</sub>          |
-| [Symbol Predicates][symbol-predicates]                                         | Robin Ricard<br />Jordan Harband                      | Ashley Claymore<br />Jordan Harband                                               |                                            | <sub>&nbsp;-[2023&#8209;05][symbol-predicates-notes]</sub>            |
-| [Async Iterator helpers][async-iterator-helpers]                               | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                           |                                            | <sub>&nbsp;-[2025&#8209;11][async-iterator-helpers-notes]</sub>       |
-| [Iterator.range][iterator-range]                                               | Jack Works                                            | Jack Works                                                                        |                                            | <sub>&nbsp;-[2024&#8209;04][iterator-range-notes]</sub>               |
-| [Async Context][async-context]                                                 | Chengzhong Wu                                         | Andreu Botella<br />Chengzhong Wu<br />Justin Ridgewell                           | James M Snell<br />Mark S. Miller          | <sub>&nbsp;-[2025&#8209;09][async-context-notes]<br />&nbsp;-[2025&#8209;04][async-context-notes-2025-04]<br />&nbsp;-[2024&#8209;10][async-context-notes-2024-10]<br />&nbsp;-[2023&#8209;03][async-context-notes-2023-03]<br />&nbsp;-[2023&#8209;02][async-context-notes-2023-02]</sub>                |
-| ["Discard" (`void`) Bindings][discards]                                        | Ron Buckton                                           | Ron Buckton                                                                       |                                            | <sub>&nbsp;-[2024&#8209;06][discards-notes]</sub>                     |
-| [Propagate active ScriptOrModule with JobCallback Record][scriptormodule]      | Chengzhong Wu                                         | Chengzhong Wu                                                                     |                                            | <sub>&nbsp;-[2024&#8209;07][scriptormodule-notes]</sub>               |
-| [Structs: Fixed Layout Objects and Some Synchronization Primitives][structs]   | Shu-yu Guo                                            | Shu-yu Guo                                          | Mark Miller<br />Waldemar Horwat<br />Yulia Startsev<br />Nicolò Ribaudo | <sub>&nbsp;-[2024&#8209;10][structs-notes]</sub>                      |
-| [Extractors][extractors]                                                       | Ron Buckton                                           | Ron Buckton                                                                       | Jordan Harband<br />Justin Ridgewell       | <sub>&nbsp;-[2024&#8209;10][extractors-notes]</sub>                   |
-| [Deferred Re-exports][deferred-reexport]                                       | Nicolò Ribaudo                                        | Nicolò Ribaudo                                                                    | Chengzhong Wu<br />Ashley Claymore<br />Guy Bedford | <sub>&nbsp;-[2025&#8209;04][deferred-reexport-notes]</sub>   |
-| [SeededPRNG][seeded-randoms]                                                   | Tab Atkins                                            | Tab Atkins                                                                        | Kevin Gibbons<br />Jesse Alama<br />Mark Miller | <sub>&nbsp;-[2025&#8209;05][seeded-randoms-notes]</sub>          |
-| [`Math.clamp`][clamp]                                                          | Oliver Medhurst                                       | Oliver Medhurst                                                                   |                                            | <sub>&nbsp;-[2025&#8209;05][clamp-notes]</sub>                        |
+| [Symbol Predicates][symbol-predicates]                                         | Robin Ricard<br />Jordan Harband                      | Ashley Claymore<br />Jordan Harband                                               |                                            | <sub>&nbsp;-[2026&#8209;01][symbol-predicates-notes-2026-01]<br />&nbsp;-[2023&#8209;09][symbol-predicates-notes-2023-09]<br />&nbsp;-[2023&#8209;05][symbol-predicates-notes]<br />&nbsp;-[2023&#8209;01][symbol-predicates-notes-2023-01]<br />&nbsp;-[2022&#8209;07][symbol-predicates-notes-2022-07]</sub> |
+| [Async Iterator helpers][async-iterator-helpers]                               | Gus Caplan                                            | Michael Ficarra<br />Jonathan Keslin<br />Kevin Gibbons                           |                                            | <sub>&nbsp;-[2025&#8209;11][async-iterator-helpers-notes]<br />&nbsp;-[2024&#8209;06][async-iterator-helpers-notes-2024-06]<br />&nbsp;-[2023&#8209;09][async-iterator-helpers-notes-2023-09]<br />&nbsp;-[2023&#8209;05][async-iterator-helpers-notes-2023-05]</sub> |
+| [Iterator.range][iterator-range]                                               | Jack Works                                            | Jack Works                                                                        |                                            | <sub>&nbsp;-[2026&#8209;01][iterator-range-notes-2026-01]<br />&nbsp;-[2024&#8209;04][iterator-range-notes]<br />&nbsp;-[2023&#8209;03][iterator-range-notes-2023-03]</sub> |
+| [Async Context][async-context]                                                 | Chengzhong Wu                                         | Andreu Botella<br />Chengzhong Wu<br />Justin Ridgewell                           | James M Snell<br />Mark S. Miller          | <sub>&nbsp;-[2025&#8209;09][async-context-notes]<br />&nbsp;-[2025&#8209;07][async-context-notes-2025-07]<br />&nbsp;-[2025&#8209;05][async-context-notes-2025-05]<br />&nbsp;-[2025&#8209;04][async-context-notes-2025-04]<br />&nbsp;-[2024&#8209;12][async-context-notes-2024-12]<br />&nbsp;-[2024&#8209;10][async-context-notes-2024-10]<br />&nbsp;-[2024&#8209;04][async-context-notes-2024-04]<br />&nbsp;-[2023&#8209;09][async-context-notes-2023-09]<br />&nbsp;-[2023&#8209;05][async-context-notes-2023-05]<br />&nbsp;-[2023&#8209;03][async-context-notes-2023-03]<br />&nbsp;-[2023&#8209;02][async-context-notes-2023-02]<br />&nbsp;-[2020&#8209;07][async-context-notes-2020-07]<br />&nbsp;-[2020&#8209;06][async-context-notes-2020-06]</sub> |
+| ["Discard" (`void`) Bindings][discards]                                        | Ron Buckton                                           | Ron Buckton                                                                       |                                            | <sub>&nbsp;-[2026&#8209;01][discards-notes-2026-01]<br />&nbsp;-[2024&#8209;10][discards-notes-2024-10]<br />&nbsp;-[2024&#8209;10][discards-notes-2024-10-09]<br />&nbsp;-[2024&#8209;06][discards-notes]<br />&nbsp;-[2024&#8209;04][discards-notes-2024-04]<br />&nbsp;-[2024&#8209;02][discards-notes-2024-02]</sub> |
+| [Propagate active ScriptOrModule with JobCallback Record][scriptormodule]      | Chengzhong Wu                                         | Chengzhong Wu                                                                     |                                            | <sub>&nbsp;-[2026&#8209;01][scriptormodule-notes-2026-01]<br />&nbsp;-[2024&#8209;07][scriptormodule-notes]</sub> |
+| [Structs: Fixed Layout Objects and Some Synchronization Primitives][structs]   | Shu-yu Guo                                            | Shu-yu Guo                                          | Mark Miller<br />Waldemar Horwat<br />Yulia Startsev<br />Nicolò Ribaudo | <sub>&nbsp;-[2024&#8209;10][structs-notes]<br />&nbsp;-[2024&#8209;06][structs-notes-2024-06]<br />&nbsp;-[2024&#8209;04][structs-notes-2024-04]<br />&nbsp;-[2024&#8209;02][structs-notes-2024-02]<br />&nbsp;-[2023&#8209;03][structs-notes-2023-03]</sub> |
+| [Extractors][extractors]                                                       | Ron Buckton                                           | Ron Buckton                                                                       | Jordan Harband<br />Justin Ridgewell       | <sub>&nbsp;-[2024&#8209;10][extractors-notes]<br />&nbsp;-[2024&#8209;04][extractors-notes-2024-04]<br />&nbsp;-[2024&#8209;02][extractors-notes-2024-02]</sub> |
+| [Deferred Re-exports][deferred-reexport]                                       | Nicolò Ribaudo                                        | Nicolò Ribaudo                                                                    | Chengzhong Wu<br />Ashley Claymore<br />Guy Bedford | <sub>&nbsp;-[2026&#8209;01][deferred-reexport-notes-2026-01]<br />&nbsp;-[2025&#8209;11][deferred-reexport-notes-2025-11]<br />&nbsp;-[2025&#8209;09][deferred-reexport-notes-2025-09]<br />&nbsp;-[2025&#8209;04][deferred-reexport-notes]<br />&nbsp;-[2024&#8209;04][deferred-reexport-notes-2024-04]</sub> |
+| [SeededPRNG][seeded-randoms]                                                   | Tab Atkins                                            | Tab Atkins                                                                        | Kevin Gibbons<br />Jesse Alama<br />Mark Miller | <sub>&nbsp;-[2025&#8209;05][seeded-randoms-notes]<br />&nbsp;-[2025&#8209;05][seeded-randoms-notes-2025-05]</sub> |
+| [`Math.clamp`][clamp]                                                          | Oliver Medhurst                                       | Oliver Medhurst                                                                   |                                            | <sub>&nbsp;-[2025&#8209;05][clamp-notes]<br />&nbsp;-[2025&#8209;02][clamp-notes-2025-02]</sub> |
 | [Native Promise Predicate][native-promise-predicate]                           | Mathieu Hofman                                        | Mathieu Hofman                                                                    | Jordan Harband<br />James Snell<br />Justin Ridgewell | <sub>&nbsp;-[2025&#8209;09][native-promise-predicate-notes]</sub> |
-| [`Error.captureStackTrace`][capturestacktrace]                                 | Matthew Gaudet                                        | Matthew Gaudet<br />Dan Minor                                                     | Jordan Harband<br />Michael Ficarra        | <sub>&nbsp;-[2025&#8209;02][capturestacktrace-notes]</sub>            |
+| [`Error.captureStackTrace`][capturestacktrace]                                 | Matthew Gaudet                                        | Matthew Gaudet<br />Dan Minor                                                     | Jordan Harband<br />Michael Ficarra        | <sub>&nbsp;-[2025&#8209;11][capturestacktrace-notes-2025-11]<br />&nbsp;-[2025&#8209;07][capturestacktrace-notes-2025-07]<br />&nbsp;-[2025&#8209;02][capturestacktrace-notes]</sub> |
 | [`Object.keysLength`][keyslength]                                              | Ruben Bridgewater<br />Jordan Harband                 | Ruben Bridgewater<br />Jordan Harband                                             | Eemeli Aro<br />James Snell                | <sub>&nbsp;-[2025&#8209;07][keyslength-notes-2025-07]</sub>                                       |
-| [Sync Imports][import-sync]                                                    | Guy Bedford                                           | Guy Bedford                                                                       | Nicolò Ribaudo<br />James Snell            | <sub>&nbsp;-[2026&#8209;01][import-sync-notes]</sub>                                                                   |
-| [Curtailing the power of "Thenables"][thenables]                               | Matthew Gaudet                                        | Matthew Gaudet                                                                    | Justin Ridgewell<br />Jordan Harband       | <sub>&nbsp;-2026&#8209;01<br />&nbsp;-[2025&#8209;02][thenables-notes]</sub>                      |
-| [Amount][amount]                                                               | Ben Allen                                             | Ben Allen                                                                         | Waldemar Horwat<br />Jordan Harband        | <sub>&nbsp;-2026&#8209;05<br />&nbsp;-[2025&#8209;09][amount-notes]</sub> |
+| [Sync Imports][import-sync]                                                    | Guy Bedford                                           | Guy Bedford                                                                       | Nicolò Ribaudo<br />James Snell            | <sub>&nbsp;-[2026&#8209;01][import-sync-notes]<br />&nbsp;-[2024&#8209;12][import-sync-notes-2024-12]</sub> |
+| [Curtailing the power of "Thenables"][thenables]                               | Matthew Gaudet                                        | Matthew Gaudet                                                                    | Justin Ridgewell<br />Jordan Harband       | <sub>&nbsp;-[2026&#8209;03][thenables-notes-2026-03]<br />&nbsp;-2026&#8209;01<br />&nbsp;-[2025&#8209;07][thenables-notes-2025-07]<br />&nbsp;-[2025&#8209;02][thenables-notes]</sub> |
+| [Amount][amount]                                                               | Ben Allen                                             | Ben Allen                                                                         | Waldemar Horwat<br />Jordan Harband        | <sub>&nbsp;-2026&#8209;05<br />&nbsp;-[2026&#8209;03][amount-notes-2026-03]<br />&nbsp;-[2025&#8209;11][amount-notes-2025-11]<br />&nbsp;-[2025&#8209;09][amount-notes]<br />&nbsp;-[2025&#8209;09][amount-notes-2025-09]</sub> |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -95,7 +95,11 @@ Note that as part of the onboarding process your repository name may be normaliz
 [regexp-legacy]: https://github.com/tc39/proposal-regexp-legacy-features
 [regexp-legacy-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-25.md#15ia-regexp-legacy-features-for-stage-3
 [regexp-legacy-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#legacy-regexp-features-in-javascript
-[regexp-legacy-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#legacy-regexp-features-in-javascript
+[regexp-legacy-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#legacy-regex-features
+[regexp-legacy-notes-2017-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-23.md#16ia-regexp-legacy-features-for-stage-3
+[regexp-legacy-notes-2017-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-21.md#10ie-regexp-legacy-features-for-stage-3
+[regexp-legacy-notes-2023-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-12.md#legacy-regex-features
+[regexp-legacy-notes-2016-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-27.md#102a-legacy-regexp-features
 [tests-regexp-legacy]: https://github.com/tc39/test262/search?l=JavaScript&q=legacy-regexp
 [function-sent]: https://github.com/tc39/proposal-function.sent
 [function-sent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#making-functionsent-inactive
@@ -105,61 +109,157 @@ Note that as part of the onboarding process your repository name may be normaliz
 [decorators-testplan]: https://github.com/tc39/test262/issues/4042
 [shadowrealm]: https://github.com/tc39/proposal-shadowrealm
 [realms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#shadowrealm-status-update
+[realms-notes-2025-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#use-cases-for-shadowrealm
+[realms-notes-2024-12]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-02.md#shadowrealm-for-stage-3
+[realms-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-12.md#shadowrealm-update
+[realms-notes-2024-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#shadowrealms-update
+[realms-notes-2023-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-27.md#shadowrealm-stage-2-update
+[realms-notes-2023-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#shadowrealm-implementer-feedback-and-demotion-to-stage-2
+[realms-notes-2022-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#shadowrealm
+[realms-notes-2022-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-13.md#shadowrealm-update
+[realms-notes-2022-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#shadowrealm-implementation-status-and-normate-updates
+[realms-notes-2022-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#shadowrealms-updates
+[realms-notes-2021-12]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#shadowrealms-updates-and-potential-normative-changes
+[realms-notes-2021-08]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#realms-renaming-bikeshedding-thread
+[realms-notes-2021-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-13.md#realms-for-stage-3
+[realms-notes-2021-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-26.md#realms
+[realms-notes-2021-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#isolated-realms-update
+[realms-notes-2021-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-26.md#realms-update
+[realms-notes-2020-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#realms-for-stage-3
+[realms-notes-2020-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-4.md#realms-stage-2-update
+[realms-notes-2020-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#update-on-realms
+[realms-notes-2018-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-24.md#report-on-realms-shim-security-review
+[realms-notes-2018-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-23.md#realms
+[realms-notes-2018-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-03/mar-20.md#10ia-update-on-frozen-realms-in-light-of-meltdown-and-spectre
+[realms-notes-2017-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-23.md#10iic-realms-update
+[realms-notes-2017-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-26.md#13iid-seeking-stage-1-for-realms
+[realms-notes-2016-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-03/march-30.md#draft-proposed-frozen-realm-api
+[realms-notes-2015-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2015-05/may-29.md#fresh-realms-breakout
+[realms-notes-2014-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2014-06/jun-4.md#47-removal-of-realms-api-from-es6-postponement-to-es7
+[realms-notes-2014-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2014-01/jan-29.md#security-review-for-loadersrealms
 [realms-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=ShadowRealm
 [throw-expressions]: https://github.com/tc39/proposal-throw-expressions
 [throw-expressions-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-02/feb-8.md#throw-expressions-update-or-stage-27
 [censorship]: https://github.com/tc39/proposal-function-implementation-hiding
 [censorship-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#function-implementation-hiding-for-stage-3
+[censorship-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#function-implementation-hiding
+[censorship-notes-2019-12]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#update-on-function-implementation-hiding
+[censorship-notes-2019-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-24.md#update-on-function-implementation-hiding
+[censorship-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#function-implementation-hiding
+[censorship-notes-2023-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#function-implementation-hiding
 [richer-keys-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
-[collection-rekey-notes-2021-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-09.md#collection-normalization-update
+[collection-rekey-notes-2021-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-9.md#collection-normalization-methods
+[collection-rekey-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#collection-normalization
+[collection-rekey-notes-2019-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-24.md#collection-normalization-update
 [async-resource-management]: https://github.com/tc39/proposal-async-explicit-resource-management
 [collection-rekey]: https://github.com/tc39/proposal-collection-normalization
 [async-iterator-helpers]: https://github.com/tc39/proposal-async-iterator-helpers
 [async-iterator-helpers-notes]: https://github.com/tc39/notes/blob/main/meetings/2025-11/november-19.md#async-iterator-helpers-recapupdatepolyfill
+[async-iterator-helpers-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#async-iterators-update
+[async-iterator-helpers-notes-2023-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#asynciterator-helper-status-update-stage-2
+[async-iterator-helpers-notes-2023-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-18.md#async-iterator-stage-2-feedback-needed-on-designtradeoffs
 [module-expressions]: https://github.com/tc39/proposal-module-expressions
 [module-expressions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
 [pipe-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#pipeline-operator-for-stage-2
+[pipe-notes-2022-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#bikeshedding-the-pipe-operator-topic-token
+[pipe-notes-2021-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-03/mar-10.md#pipeline-operator
+[pipe-notes-2018-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-03/mar-22.md#10ive-pipeline-operator
+[pipe-notes-2017-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-29.md#9iii-pipeline-operator-for-stage-2
+[pipe-notes-2017-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-26.md#11iia-pipeline-operator
+[pipe-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#pipeline-operator-pt-1
+[pipe-notes-2023-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#pipeline-operator
+[pipe-notes-2022-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-01/jan-26.md#holistic-discussion-of-tc39-dataflow-proposals
 [destructure-private]: https://github.com/tc39/proposal-destructuring-private
 [destructure-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
+[destructure-private-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#destructure-private-fields
+[destructure-private-notes-2023-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#destructure-private-fields
 [regexp-buffer-boundaries]: https://github.com/tc39/proposal-regexp-buffer-boundaries
 [regexp-buffer-boundaries-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
+[regexp-buffer-boundaries-notes-2026-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-10.md#regexp-buffer-boundaries-for-stage-27
+[regexp-buffer-boundaries-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#regexp-buffer-boundaries
+[regexp-buffer-boundaries-notes-2023-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#regexp-buffer-boundaries
+[regexp-buffer-boundaries-notes-2021-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-28.md#regexp-buffer-boundaries-a-z-z-for-stage-1
 [buffer-boundaries-tests]: https://github.com/tc39/test262/pull/4975
 [decorator-metadata]: https://github.com/tc39/proposal-decorator-metadata
 [decorator-metadata-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-18.md#decorator-metadata-final-spec-text-review-for-stage-3
+[decorator-metadata-notes-2023-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-21.md#decorator-metadata-update
+[decorator-metadata-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#decorators-and-decorator-metadata
+[decorator-metadata-notes-2023-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#decorator-metadata-for-stage-3
 [decorator-metadata-tests]: https://github.com/tc39/test262/pull/3971
 [string.dedent]: https://github.com/tc39/proposal-string-dedent
 [string.dedent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
+[string.dedent-notes-2022-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#stringdedent-for-stage-3
+[string.dedent-notes-2022-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-13.md#stringdedent
+[string.dedent-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#stringdedent
+[string.dedent-notes-2020-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-23.md#stringdedent-for-stage-1
 [source-phase-imports]: https://github.com/tc39/proposal-source-phase-imports
 [source-phase-imports-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#source-phase-imports
+[source-phase-imports-notes-2023-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-12.md#source-phase-imports-for-stage-3
+[source-phase-imports-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#source-phase-imports--esm-phase-imports
+[source-phase-imports-notes-2024-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#source-phase-imports-update
+[source-phase-imports-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#source-phase-imports
+[source-phase-imports-notes-2023-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-17.md#continuation-source-phase-imports-for-stage-3
+[source-phase-imports-notes-2023-05-15]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#source-phase-imports-for-stage-3
+[source-phase-imports-notes-2023-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#import-reflection-update
 [source-phase-imports-tests]: https://github.com/tc39/test262/pull/3980
 [json-parse-immutable]: https://github.com/tc39/proposal-json-parseimmutable
 [json-parse-immutable-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-19.md#record--tuple-update
+[json-parse-immutable-notes-2026-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-10.md#jsonparseimmutable-update
+[json-parse-immutable-notes-2023-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#jsonparseimmutable
 [module-declarations]: https://github.com/tc39/proposal-module-declarations
 [module-declarations-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
 [symbol-predicates]: https://github.com/tc39/proposal-symbol-predicates
-[symbol-predicates-notes]: https://github.com/tc39/notes/blob/4c253a989e8da200bc8c351f1e0a557e2a5d73e4/meetings/2023-05/may-15.md?plain=1#L385
+[symbol-predicates-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#symbol-predicates
+[symbol-predicates-notes-2023-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#symbol-predicates
+[symbol-predicates-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#symbol-predicates
+[symbol-predicates-notes-2023-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#symbol-predicates-update
+[symbol-predicates-notes-2022-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-20.md#symbol-predicates
 [iterator-range]: https://github.com/tc39/proposal-iterator.range
 [iterator-range-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#iteratorrange-for-stage-27
+[iterator-range-notes-2023-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#iteratorrange-for-stage-2
+[iterator-range-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#iteratorrange
 [async-context]: https://github.com/tc39/proposal-async-context
 [async-context-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-23.md#asynccontext-yield
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
 [lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#import-defer-for-stage-3
+[lazy-import-notes-2024-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-10.md#import-defer-updates-regarding-evaluation-triggers
+[lazy-import-notes-2022-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#deferred-module-evaluation
+[lazy-import-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#deferred-import-evaluation-for-stage-27
+[lazy-import-notes-2023-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#deferred-import-evaluation
+[lazy-import-notes-2021-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#defer-module-import-eval
 [lazy-import-testplan]: https://github.com/tc39/test262/issues/4111
 [dynamic-code-brand-checks]: https://github.com/tc39/proposal-dynamic-code-brand-checks
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
+[dynamic-code-brand-checks-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#eval-changes-for-trusted-types-update
+[dynamic-code-brand-checks-notes-2021-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-26.md#dynamic-host-brand-checks-for-stage-2
+[dynamic-code-brand-checks-notes-2019-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-25.md#dynamic-code-brand-checks-for-stage-2
+[dynamic-code-brand-checks-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#dynamic-code-brand-checks-pt-1
+[dynamic-code-brand-checks-notes-2024-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-10.md#evalnew-function-changes-for-trusted-types-as-normative-pr-or-stage-3
 [dynamic-code-brand-checks-no-tests]: https://github.com/tc39/test262/issues/4229
 [esm-phase]: https://github.com/tc39/proposal-esm-phase-imports
 [esm-phase-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-04.md#esm-phase-imports-for-stage-27
 [discards]: https://github.com/tc39/proposal-discard-binding
 [discards-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#discard-bindings-update-or-stage-2
+[discards-notes-2024-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-10.md#discard-void-bindings-request-for-stage-3-reviewers
+[discards-notes-2024-10-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#discard-void-bindings-update
+[discards-notes-2024-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-10.md#discard-bindings-for-stage-2
+[discards-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#discard-void-binding--extractors--structs--throw-expressions
+[discards-notes-2024-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#discard-void-bindings-for-stage-1
 [scriptormodule]: https://github.com/tc39/proposal-jobcallback-module
 [scriptormodule-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-31.md#continuation-propagate-active-scriptormodule-with-jobcallback-record
+[scriptormodule-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#propagate-active-scriptormodule-with-jobcallback-record
 [async-it-helper-notes]: https://github.com/tc39/notes/blob/main/meetings/2024-06/june-11.md#async-iterators-update
 [structs]: https://github.com/tc39/proposal-structs
 [structs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#structs-and-shared-structs-for-stage-2
+[structs-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#shared-structs-discussion-around-methods
+[structs-notes-2024-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#shared-structs-discussion
+[structs-notes-2024-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#wasmgc-shared-memory-proposal-and-shared-structs-proposal-convergence-update
+[structs-notes-2023-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#shared-structs-update
 [extractors]: https://github.com/tc39/proposal-extractors
 [extractors-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#extractors-for-stage-2
+[extractors-notes-2024-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-10.md#extractors-for-stage-2
+[extractors-notes-2024-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#extractors-update
 [chunking]: https://github.com/tc39/proposal-iterator-chunking
 [chunking-tests]: https://github.com/tc39/test262/pull/5011
 [chunking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#iterator-chunking-for-stage-27
@@ -169,64 +269,136 @@ Note that as part of the onboarding process your repository name may be normaliz
 [chunking-notes-2024-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#iterator-chunking-for-stage-1
 [immutable-abs]: https://github.com/tc39/proposal-immutable-arraybuffer
 [immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-29.md#immutable-arraybuffer-for-stage-3
+[immutable-abs-notes-2025-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-29.md#immutable-arraybuffer-for-stage-3
+[immutable-abs-notes-2025-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-14.md#immutable-arraybuffer-for-stage-3
+[immutable-abs-notes-2025-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#immutable-arraybuffer
+[immutable-abs-notes-2024-12]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-03.md#immutable-arraybuffer-to-stage-2
+[immutable-abs-notes-2024-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-10.md#immutable-arraybuffers-for-stage-1
 [immutable-abs-testplan]: https://github.com/tc39/test262/issues/4509
 [stack-accessor]: https://github.com/tc39/proposal-error-stack-accessor
 [stack-accessor-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#errorprototypestack-accessor-for-stage-27
+[stack-accessor-notes-2026-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-10.md#error-stack-accessor-for-stage-27
+[stack-accessor-notes-2025-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#error-stack-accessor
 [stack-accessor-tests]: https://github.com/tc39/test262/pull/5045
 [nonext-private]: https://github.com/tc39/proposal-nonextensible-applies-to-private
 [nonext-private-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#non-extensible-applies-to-private-for-stage-3
+[nonext-private-notes-2025-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-29.md#non-extensible-applies-to-private
+[nonext-private-notes-2025-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-15.md#non-extensible-applies-to-private-for-stage-1-2-27
 [nonext-private-tests]: https://github.com/tc39/test262/pull/4577
 [deferred-reexport]: https://github.com/tc39/proposal-deferred-reexports
 [deferred-reexport-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-16.md#export-defer-extracted-from-import-defer-stage-2-update-or-for-stage-1
+[deferred-reexport-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-20.md#deferred-re-exports-update
+[deferred-reexport-notes-2025-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#export-defer-for-stage-27
+[deferred-reexport-notes-2025-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-23.md#deferred-re-exports-update
+[deferred-reexport-notes-2024-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-09.md#treeshakeabledeferred-re-exports-status-update
 [seeded-randoms]: https://github.com/tc39/proposal-seeded-random
 [seeded-randoms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-29.md#seededprng-for-stage-2
+[seeded-randoms-notes-2025-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-30.md#reviewers-needed-for-seededprng
 [clamp]: https://github.com/tc39/proposal-math-clamp
 [clamp-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-29.md#mathclamp-for-stage-2
+[clamp-notes-2025-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#mathclamp-for-stage-1-or-2
 [import-bytes]: https://github.com/styfle/proposal-import-buffer
 [import-bytes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-23.md#import-bytes-for-stage-27
 [import-bytes-tests]: https://github.com/tc39/test262/pull/4648
 [import-sync]: https://github.com/tc39/proposal-import-sync
 [import-sync-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-20.md#import-sync-for-stage-2
+[import-sync-notes-2024-12]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-04.md#import-sync-discussion-request-for-stage-1
 [native-promise-predicate]: https://github.com/mhofman/proposal-native-promise-predicate
 [native-promise-predicate-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#native-promise-predicate-for-stage-1-or-2
 [capturestacktrace]: https://github.com/tc39/proposal-error-capturestacktrace
 [capturestacktrace-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#errorcapturestacktrace-for-stage-1
+[capturestacktrace-notes-2025-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#errorcapturestacktrace-for-stage-2
+[capturestacktrace-notes-2025-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-29.md#errorcapturestacktrace
 [await-dictionary]: https://github.com/tc39/proposal-await-dictionary
 [await-dictionary-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#await-dictionary-for-stage-2-or-27
+[await-dictionary-notes-2025-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-23.md#update-on-proposal-await-dictionary
+[await-dictionary-notes-2023-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1
 [import-text]: https://github.com/tc39/proposal-import-text
 [import-text-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#import-text
+[import-text-notes-2026-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-11.md#import-text-for-stage-27-or-3
 [import-text-tests]: https://github.com/tc39/test262/pull/4607
 [iterator-join]: https://github.com/tc39/proposal-iterator-join
 [iterator-join-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-19.md#iterator-join-for-stage-1-2-or-27
 [keyslength]: https://github.com/tc39/proposal-object-keys-length
 [keyslength-notes-2025-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-31.md#objectpropertycount-for-stage-2
 
-[decorators-notes-2023-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#decorators
+[decorators-notes-2023-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#decorator-fieldaccessor-initializer-order
 [decorators-notes-2022-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
-[decorators-notes-2020-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#decorators-update--call-for-participation
-[decorators-notes-2019-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-1.md#update-on-decorators
-[decorators-notes-2019-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-28.md#decorators-for-stage-3
-[decorators-notes-2018-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#decorators-for-stage-3
-[decorators-notes-2016-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-29.md#decorators
+[decorators-notes-2020-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#decorators-status-update
+[decorators-notes-2019-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-28.md#decorator-based-extended-numeric-literals-status-update-and-numeric-separators-for-stage-3
+[decorators-notes-2018-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#decorators-stage-2-update
+[decorators-notes-2016-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-29.md#11iid-sigil-swap-decorators--private-fields
+[decorators-notes-2025-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-20.md#decorators-status-update-request
+[decorators-notes-2023-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-29.md#decorators-normative-update-re-extra-initializers
+[decorators-notes-2023-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-21.md#decorator-normative-update
+[decorators-notes-2023-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-02.md#decorator-contextaccess-object-api
+[decorators-notes-2023-01-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#decoratorexport-ordering
+[decorators-notes-2022-03-31]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-31.md#minor-decorator-tweaks-part-2
+[decorators-notes-2022-03-30]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#minor-decorators-followups
+[decorators-notes-2021-12]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#decorators-update-removing-init
+[decorators-notes-2021-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#decorators-update
+[decorators-notes-2020-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-23.md#decorators-a-new-proposal-iteration
+[decorators-notes-2020-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#decorators-update
+[decorators-notes-2020-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-2.md#decorators-update--call-for-participation
+[decorators-notes-2019-03-27]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-27.md#yet-another-decorators-stage-2-update
+[decorators-notes-2019-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-30.md#decorators-for-stage-3
+[decorators-notes-2018-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-26.md#decorators-stage-2-update
+[decorators-notes-2018-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-23.md#decorators-towards-stage-3
+[decorators-notes-2018-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-03/mar-21.md#decorators-towards-stage-3
+[decorators-notes-2018-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-25.md#13vc-decorators-towards-stage-3
+[decorators-notes-2016-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-05/may-25.md#decorators-yk-bt
+[decorators-notes-2016-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-28.md#9iiic-decorators
+[decorators-notes-2016-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-01/jan-27.md#decorators
+[decorators-notes-2015-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2015-09/sept-23.md#55-decorators-update
+[decorators-notes-2015-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2015-03/mar-24.md#62-decorators
+[decorators-notes-2015-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2015-01/jan-28.md#63-decorators
+[decorators-notes-2014-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2014-04/apr-10.md#decorators-for-es7
 
-[esm-phase-notes-2024-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#esm-phase-imports
-
+[esm-phase-notes-2024-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#esm-phase-imports-for-stage-1
+[esm-phase-notes-2026-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-11.md#update-on-esm-phase-imports
+[esm-phase-notes-2024-12]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-02.md#call-for-reviewers---esm-phase-imports
+[esm-phase-notes-2024-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#esm-phase-imports
+[esm-phase-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#esm-phase-imports
+[esm-phase-notes-2024-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#esm-source-phase-status-update-and-layering-change
 [function-sent-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#functionsent-metaproperty
 [function-sent-notes-2022-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#functionsent-update
 [function-sent-notes-2018-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-03/mar-22.md#12iiic-functionsent-needs-a-champion
 [function-sent-notes-2015-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2015-11/nov-17.md#functionsent
+[function-sent-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-20.md#withdraw-functionsent
+[function-sent-notes-2026-01-21]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#functionsent
+[function-sent-notes-2015-11-18]: https://github.com/tc39/notes/blob/HEAD/meetings/2015-11/nov-18.md#functionsent-bt
 
-[throw-expressions-notes-2018-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#throw-expressions
+[throw-expressions-notes-2018-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#13iiii-throw-expressions-for-stage-3
 [throw-expressions-notes-2017-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#10ii-throw-expressions-request-for-reviewers-for-stage-3
-[throw-expressions-notes-2017-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-27.md#throw-expressions-for-stage-2
+[throw-expressions-notes-2017-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-27.md#12iid-throw-expressions-for-stage-2
+[throw-expressions-notes-2023-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#throw-expression-continued
+[throw-expressions-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#throw-expressions
+[throw-expressions-notes-2023-09-26]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#throw-expressions-for-stage-3
+[throw-expressions-notes-2023-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#throw-expressions
+[throw-expressions-notes-2017-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-27.md#13iiif-throw-expressions
 
 [async-context-notes-2025-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-14.md#asynccontext-stage-2-update
-[async-context-notes-2024-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#asynccontext
+[async-context-notes-2024-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#asynccontext-updates
 [async-context-notes-2023-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#async-context
-[async-context-notes-2023-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#async-context
+[async-context-notes-2023-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-01.md#async-context-for-stage-1
+[async-context-notes-2025-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-28.md#asynccontext-web-integration-update
+[async-context-notes-2025-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-28.md#asynccontext-web-integration-brainstorming
+[async-context-notes-2024-12]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-02.md#asynccontext-request-for-stage-27-reviewers
+[async-context-notes-2024-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
+[async-context-notes-2023-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#asynccontext-update
+[async-context-notes-2023-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-17.md#asynccontext-stage-2-updates
+[async-context-notes-2020-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-23.md#async-context-updates--for-stage-1
+[async-context-notes-2020-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#async-context
 [iterator-includes]: https://github.com/michaelficarra/proposal-iterator-includes
+[iterator-includes-notes-2026-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-12.md#iterator-includes
+[iterator-includes-notes-2026-03-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-10.md#iterator-includes-for-stage-1-2-or-27
 [includes-tests]: https://github.com/tc39/test262/pull/5031
 [thenables]: https://github.com/tc39/proposal-thenable-curtailment
 [thenables-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#curtailing-the-power-of-thenables-for-stage-1
+[thenables-notes-2026-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-12.md#thenable-curtailment-for-stage-2
+[thenables-notes-2025-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-29.md#how-to-make-thenables-safer
 [amount]: https://github.com/tc39/proposal-amount
 [amount-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-24.md#continuation-amount-for-stage-2
+[amount-notes-2026-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-10.md#amount-for-stage-2
+[amount-notes-2025-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-20.md#amount-stage-1-update
+[amount-notes-2025-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#amount-for-stage-2
