@@ -34,7 +34,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [IDL for ECMAScript][idl]                                                                    | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>&nbsp;-[2025&#8209;05][idl-notes-2025-05]<br />&nbsp;-[2018&#8209;09][idl-notes]</sub> |
 | [Asset References][asset-references]                                                         | Sebastian Markbage                                    | Sebastian Markbage                                     | <sub>&nbsp;-[2018&#8209;11][asset-references-notes]</sub> |
 | [Freezing prototypes][freeze-proto]                                                          | Kevin Gibbons                                         | Kevin Gibbons                                          | <sub>&nbsp;-[2019&#8209;01][freeze-proto-notes]</sub> |
-| [`new.initialize`][new.initialize]                                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>&nbsp;-[2019&#8209;01][new.initialize-notes]<br />&nbsp;-[2016&#8209;07][new.initialize-notes-2016-07-26]<br />&nbsp;-[2014&#8209;06][new.initialize-notes-2014-06]<br />&nbsp;-[2014&#8209;04][new.initialize-notes-2014-04]<br />&nbsp;-[2014&#8209;04][new.initialize-notes-2014-04-08]</sub> |
+| [`new.initialize`][new.initialize]                                                           | Daniel Ehrenberg                                      | Daniel Ehrenberg                                       | <sub>&nbsp;-[2019&#8209;01][new.initialize-notes]</sub> |
 | [Private declarations][private-declarations]                                                 | Justin Ridgewell                                      | Justin Ridgewell                                       | <sub>&nbsp;-[2019&#8209;03][private-declarations-notes]<br />&nbsp;-[2019&#8209;03][private-declarations-notes-2019-03]<br />&nbsp;-[2019&#8209;01][private-declarations-notes-2019-01]</sub> |
 | [Emitter][emitter]                                                                           | Shu-yu Guo<br />Pedram Emrouznejad                    | Shu-yu Guo<br />Pedram Emrouznejad                     | <sub>&nbsp;-[2019&#8209;06][emitter-notes]</sub> |
 | [Reverse iteration][reverse-iteration]                                                       | Leo Balter<br />Jordan Harband                        | Leo Balter<br />Jordan Harband                         | <sub>&nbsp;-[2019&#8209;07][reverse-iteration-notes]</sub> |
@@ -183,10 +183,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [freeze-proto-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-31.md#freezing-prototypes-for-stage-1
 [new.initialize]: https://github.com/littledan/proposal-new-initialize
 [new.initialize-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-31.md#newinitialize-for-stage-1
-[new.initialize-notes-2016-07-26]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9ia-reintroduce-for-in-initializer
-[new.initialize-notes-2014-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2014-06/jun-6.md#initializer-in-for-in
-[new.initialize-notes-2014-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2014-04/apr-10.md#revisiting-initializer-in-for-in
-[new.initialize-notes-2014-04-08]: https://github.com/tc39/notes/blob/HEAD/meetings/2014-04/apr-8.md#initializer-in-for-in
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [private-declarations-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-28.md#private-declarations-for-stage-1
 [private-declarations-notes-2019-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-26.md#private-declarations-for-stage-1
