@@ -16,12 +16,12 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [Intl.DisplayNames][proposal-intl-displaynames]                                              | Frank Yung-Fong Tang                 | Frank Yung-Fong Tang.                | <sub>&nbsp;-[2020&#8209;09][proposal-intl-displaynames-notes]<br />&nbsp;-[2019&#8209;10][proposal-intl-displaynames-notes-2019-10]<br />&nbsp;-[2019&#8209;06][proposal-intl-displaynames-notes-2019-06]</sub> | 2021 |
 | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]                                 | Zibi Braniecki                       | Zibi Braniecki                       | <sub>&nbsp;-[2020&#8209;07][datetimeformat-notes]<br />&nbsp;-[2019&#8209;03][datetimeformat-notes-2019-03]<br />&nbsp;-[2018&#8209;11][datetimeformat-notes-2018-11]</sub> | 2021 |
 | [`Intl.ListFormat`][intl.listformat]                                                         | Zibi Braniecki                       | Zibi Braniecki                       | <sub>&nbsp;-[2020&#8209;07][intl.listformat-notes]<br />&nbsp;-[2017&#8209;11][intl.listformat-notes-2017-11]<br />&nbsp;-[2017&#8209;03][intl.listformat-notes-2017-03]</sub> | 2021 |
-| [`Intl.Locale`][intl.locale]                                                                 | Zibi Braniecki<br />Daniel Ehrenberg | Zibi Braniecki<br />Daniel Ehrenberg | <sub>&nbsp;-[2025&#8209;11][intl.locale-notes-2025-11]<br />&nbsp;-[2025&#8209;02][intl.locale-notes-2025-02]<br />&nbsp;-[2024&#8209;07][intl.locale-notes-2024-07]<br />&nbsp;-[2023&#8209;11][intl.locale-notes-2023-11]<br />&nbsp;-[2023&#8209;09][intl.locale-notes-2023-09]<br />&nbsp;-[2023&#8209;07][intl.locale-notes-2023-07]<br />&nbsp;-[2023&#8209;01][intl.locale-notes-2023-01]<br />&nbsp;-[2021&#8209;12][intl.locale-notes-2021-12]<br />&nbsp;-[2021&#8209;10][intl.locale-notes-2021-10]<br />&nbsp;-[2021&#8209;07][intl.locale-notes-2021-07]<br />&nbsp;-[2021&#8209;04][intl.locale-notes-2021-04]<br />&nbsp;-[2021&#8209;01][intl.locale-notes-2021-01]<br />&nbsp;-[2020&#8209;02][intl.locale-notes]<br />&nbsp;-[2018&#8209;01][intl.locale-notes-2018-01]<br />&nbsp;-[2017&#8209;11][intl.locale-notes-2017-11]</sub> | 2020 |
-| [`Intl.NumberFormat` Unified API Proposal][intl.numberformat]                                | Shane Carr                           | Shane Carr                           | <sub>&nbsp;-[2026&#8209;01][intl.numberformat-notes-2026-01]<br />&nbsp;-[2020&#8209;02][intl.numberformat-notes]</sub> | 2020 |
+| [`Intl.Locale`][intl.locale]                                                                 | Zibi Braniecki<br />Daniel Ehrenberg | Zibi Braniecki<br />Daniel Ehrenberg | <sub>&nbsp;-[2020&#8209;02][intl.locale-notes]<br />&nbsp;-[2018&#8209;01][intl.locale-notes-2018-01]<br />&nbsp;-[2017&#8209;11][intl.locale-notes-2017-11]</sub> | 2020 |
+| [`Intl.NumberFormat` Unified API Proposal][intl.numberformat]                                | Shane Carr                           | Shane Carr                           | <sub>&nbsp;-[2020&#8209;02][intl.numberformat-notes]</sub> | 2020 |
 | [`Intl.RelativeTimeFormat`][intl.relativetimeformat]                                         | Zibi Braniecki<br />Daniel Ehrenberg | Zibi Braniecki<br />Daniel Ehrenberg | <sub>&nbsp;-[2019&#8209;12][intl.relativetimeformat-notes]<br />&nbsp;-[2018&#8209;01][intl.relativetimeformat-notes-2018-01]<br />&nbsp;-[2017&#8209;11][intl.relativetimeformat-notes-2017-11]<br />&nbsp;-[2017&#8209;09][intl.relativetimeformat-notes-2017-09]<br />&nbsp;-[2017&#8209;07][intl.relativetimeformat-notes-2017-07]<br />&nbsp;-[2017&#8209;03][intl.relativetimeformat-notes-2017-03]</sub> | 2020 |
 | [`Intl.PluralRules`][intl.pluralrules]                                                       | Caridy Patiño<br />Eric Ferraiuolo   | Caridy Patiño<br />Eric Ferraiuolo   | <sub>&nbsp;-[2017&#8209;09][intl.pluralrules-notes]<br />&nbsp;-[2016&#8209;07][intl.pluralrules-notes-2016-07]<br />&nbsp;-[2016&#8209;01][intl.pluralrules-notes-2016-01]</sub> | 2018 |
 | [`Intl.NumberFormat.prototype.formatToParts`][intl.numberformat.prototype.formattoparts]     | Zibi Braniecki                       | Zibi Braniecki                       | <sub>&nbsp;-[2017&#8209;09][intl.numberformat.prototype.formattoparts-notes]<br />&nbsp;-[2016&#8209;07][intl.numberformat.prototype.formattoparts-notes-2016-07]</sub> | 2018 |
-| [`Intl.DateTimeFormat.prototype.formatToParts`][intl.datetimeformat.prototype.formattoparts] | Zibi Braniecki                       | Zibi Braniecki                       | <sub>&nbsp;-[2017&#8209;09][intl.datetimeformat.prototype.formattoparts-notes-2017-09]<br />&nbsp;-[2016&#8209;07][intl.datetimeformat.prototype.formattoparts-notes]</sub> | 2017 |
+| [`Intl.DateTimeFormat.prototype.formatToParts`][intl.datetimeformat.prototype.formattoparts] | Zibi Braniecki                       | Zibi Braniecki                       | <sub>&nbsp;-[2016&#8209;07][intl.datetimeformat.prototype.formattoparts-notes]</sub> | 2017 |
 
 
 See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](README.md), and [inactive proposals](inactive-proposals.md) documents.
@@ -44,7 +44,6 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [intl-locale-info-notes-2022-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#intl-locale-info-stage-3-update
 [intl.datetimeformat.prototype.formattoparts]: https://github.com/tc39/proposal-intl-formatToParts
 [intl.datetimeformat.prototype.formattoparts-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-27.md#9ii-ecma-402-formattoparts
-[intl.datetimeformat.prototype.formattoparts-notes-2017-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-26.md#12ia-intlnumberformatprototypeformattoparts-for-stage-4
 [intl.numberformat.prototype.formattoparts]: https://github.com/tc39/proposal-intl-formatToParts
 [intl.numberformat.prototype.formattoparts-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-26.md#12ia-intlnumberformatprototypeformattoparts-for-stage-4
 [intl.numberformat.prototype.formattoparts-notes-2016-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-27.md#9ii-ecma-402-formattoparts
@@ -61,21 +60,8 @@ See also the [stage 0 proposals](stage-0-proposals.md), [active proposals](READM
 [intl.relativetimeformat-notes-2017-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-21.md#intlrelativetimeformat
 [intl.numberformat]: https://github.com/tc39/proposal-unified-intl-numberformat
 [intl.numberformat-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#unified-number-format-for-stage-4
-[intl.numberformat-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-20.md#speakers-summary-of-key-points-9
 [intl.locale]: https://github.com/tc39/proposal-intl-locale
 [intl.locale-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#intllocale-for-stage-4
-[intl.locale-notes-2025-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#intl-locale-info-api-for-stage-4
-[intl.locale-notes-2025-02]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#intl-locale-info-api-update-in-stage-3
-[intl.locale-notes-2024-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#intllocale-update-in-stage-3
-[intl.locale-notes-2023-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-28.md#stage-3-update-of-intl-locale-info-api
-[intl.locale-notes-2023-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#stage-3-update-of-intl-locale-info-api
-[intl.locale-notes-2023-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-12.md#stage-3-update-of-intl-locale-info-api
-[intl.locale-notes-2023-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-31.md#intl-locale-info-api-stage-3-update
-[intl.locale-notes-2021-12]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#intl-locale-info-stage-3-update
-[intl.locale-notes-2021-10]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#intl-locale-info-update
-[intl.locale-notes-2021-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-13.md#intl-locale-info-update
-[intl.locale-notes-2021-04]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-20.md#intl-locale-info-for-stage-3
-[intl.locale-notes-2021-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-26.md#intl-locale-info-for-stage-2
 [intl.locale-notes-2018-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-25.md#13iiio-intlrelativetimeformat-intllocale-for-stage-3
 [intl.locale-notes-2017-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9iih-intllocale-for-stage-2
 [intl.listformat]: https://github.com/tc39/proposal-intl-list-format

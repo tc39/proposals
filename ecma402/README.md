@@ -42,7 +42,8 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [explore associating a unit with a number][unit-protocol]    | Shane Carr           | Shane Carr             | <sub>&nbsp;-[2025&#8209;11][unit-protocol-notes]</sub> |
 | [Stable Formatting] [stable-formatting]                      | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-[2023&#8209;09][stable-formatting-notes-1]<br />&nbsp;-[2025&#8209;02][stable-formatting-notes-2]<br />&nbsp;-2026&#8209;05</sub> |
 | [Default Behaviours for some Intl APIs][intl-defaults]       | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-2026&#8209;05</sub> |
-| [Intl Sequence Units][intl-sequence]                         | Shane Carr           | Shane Carr             | <sub>&nbsp;-2026&#8209;05<br />&nbsp;-[2026&#8209;03][intl-sequence-notes-2026-03]<br />&nbsp;-[2025&#8209;11][intl-sequence-notes-2025-11]</sub> |
+| [Intl Sequence Units][intl-sequence]                         | Shane Carr           | Shane Carr             | <sub>&nbsp;-2026&#8209;05</sub> |
+| [Intl Energy Units][intl-energy-units]                       | Johan Røed           | Nicolò Ribaudo, Shane Carr | <sub>&nbsp;-[2026&#8209;03][intl-energy-units-notes-2026-03]<br />&nbsp;-[2025&#8209;11][intl-energy-units-notes-2025-11]</sub> |
 
 ### Contributing new proposals
 
@@ -98,5 +99,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [stable-formatting-notes-2]: https://github.com/tc39/notes/blob/main/meetings/2025-02/february-19.md#stable-formatting-update
 [intl-defaults]: https://github.com/eemeli/proposal-intl-default-behaviours
 [intl-sequence]: https://github.com/tc39/proposal-intl-sequence-units
-[intl-sequence-notes-2026-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-11.md#intl-energy-units-stage-1-update
-[intl-sequence-notes-2025-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-20.md#intl-energy-units-for-stage-1
+[intl-energy-units]: https://github.com/johanrd/proposal-intl-energy-units
+[intl-energy-units-notes-2026-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-11.md#intl-energy-units-stage-1-update
+[intl-energy-units-notes-2025-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-20.md#intl-energy-units-for-stage-1
