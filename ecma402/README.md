@@ -35,7 +35,7 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | ------------------------------------------------------------ | -------------------- | ---------------------- | ---------------------------------------------------------------- |
 | [Smart Unit Preferences in Intl.NumberFormat][smart-units]   | Younies Mahmoud      | Younies Mahmoud        | <sub>&nbsp;-[2024&#8209;10][smart-units-notes-2024-10]<br />&nbsp;-[2024&#8209;06][smart-units-notes-2024-06]<br />&nbsp;-[2020&#8209;06][smart-units-notes]</sub> |
 | [Intl LocaleMatcher][localematcher]                          | Long Ho              | Shane Carr, Long Ho    | <sub>&nbsp;-[2021&#8209;01][localematcher-notes]</sub> |
-| [`Intl.Segmenter v2`][Intl.Segmenter-v2]                     | Frank Yung-Fong Tang | Frank Yung-Fong Tang   | <sub>&nbsp;-[2022&#8209;01][segmenter-v2-notes-2022-01]<br />&nbsp;-[2021&#8209;12][segmenter-v2-notes]<br />&nbsp;-[2019&#8209;03][segmenter-v2-notes-2019-03]<br />&nbsp;-[2017&#8209;09][segmenter-v2-notes-2017-09]<br />&nbsp;-[2016&#8209;09][segmenter-v2-notes-2016-09]</sub> |
+| [`Intl.Segmenter v2`][Intl.Segmenter-v2]                     | Frank Yung-Fong Tang | Frank Yung-Fong Tang   | <sub>&nbsp;-[2022&#8209;01][segmenter-v2-notes-2022-01]<br />&nbsp;-[2021&#8209;12][segmenter-v2-notes]</sub> |
 | [`Intl.MessageFormat`][intl.messageformat]                   | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-[2024&#8209;06][messageformat-notes-2024-06]<br />&nbsp;-[2024&#8209;04][messageformat-notes-2024-04]<br />&nbsp;-[2024&#8209;02][messageformat-notes-2024-02]<br />&nbsp;-[2024&#8209;02][messageformat-notes-2024-02-06]<br />&nbsp;-[2023&#8209;09][messageformat-notes-2023-09]<br />&nbsp;-[2022&#8209;03][messageformat-notes]</sub> |
 | [`Intl.MessageResource`][intl.messageresource]               | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-[2022&#8209;11][messageresource-notes]</sub> |
 | [Intl.ZonedDateTimeFormat][intl.zoneddatetimeformat]         | Frank Yung-Fong Tang | Frank Yung-Fong Tang   | <sub>&nbsp;-[2023&#8209;05][zoneddatetimeformat-notes]</sub> |
@@ -71,9 +71,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [Intl.Segmenter-v2]: https://github.com/tc39/proposal-intl-segmenter-v2
 [segmenter-v2-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#intlsegmenter-v2
 [segmenter-v2-notes-2022-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-01/jan-26.md#intlsegmenter-v2
-[segmenter-v2-notes-2019-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-28.md#intlsegmenter-stage-3-to-stage-2
-[segmenter-v2-notes-2017-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-26.md#12ib-intlsegmenter-for-stage-3
-[segmenter-v2-notes-2016-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-28.md#112b-intlsegmenter
 [intl.messageformat]: https://github.com/tc39/proposal-intl-messageformat
 [messageformat-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#intlmessageformat-for-stage-1
 [messageformat-notes-2023-09]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#intlmessageformat-stage-1-update-and-discussion
