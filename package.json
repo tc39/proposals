@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "check-proposals": "npm run generate-proposals -- --check",
+    "generate-proposals": "node ./scripts/generate-proposals.mjs",
+    "generate-proposals-test": "node ./scripts/generate-proposals-test.mjs",
+    "lint": "eslint .",
+    "test": "npm run lint && npm run generate-proposals-test && npm run check-proposals"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tc39/data-delegates": "../data/data/delegates/",
+    "@tc39/data-proposals": "../data/data/proposals/",
+    "eslint": "^10.10.0"
+  }
+}
