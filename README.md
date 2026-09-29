@@ -422,7 +422,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [chunking-notes-2026-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#iterator-chunking-for-stage-3
 [stack-accessor-notes-2026-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-19.md#error-stack-accessor-for-stage-3
 [deferred-reexport-notes-2026-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-19.md#export-defer-stage-2-status-update
-[iterator-join-notes-2026-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#iterator-join
 [decorators-notes-2026-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-19.md#decorators-for-stage-27
 [esm-phase-notes-2026-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#esm-phase-imports-normative-prs
 [async-context-notes-2026-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#asynccontext-stage-2-web-integration-status-update
