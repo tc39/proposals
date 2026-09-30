@@ -115,6 +115,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Bigint from exponential][bigint-exp]                                                        | Richard Gibson                                         | Richard Gibson                                        | <sub>&nbsp;-2026&#8209;07</sub> |
 | [Map get and delete][map-get-delete]                                                         | Devin Rousso                                           | Devin Rousso                                          | <sub>&nbsp;-2026&#8209;07</sub> |
 | [Linear Matching][linear-matching]                                                           | Michael Ficarra                                        | Michael Ficarra                                       | <sub>&nbsp;-2026&#8209;07</sub> |
+| [Abort Controller][abort-controller]                                                         | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>&nbsp;-2026&#8209;09</sub> |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -429,3 +430,4 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [bigint-exp]: https://github.com/tc39/proposal-bigint-from-exponential
 [map-get-delete]: https://github.com/tc39/proposal-Map-getAndDelete
 [linear-matching]: https://github.com/tc39/proposal-linear-matching
+[abort-controller]: https://github.com/bakkot/structured-concurrency-for-js
