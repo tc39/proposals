@@ -94,7 +94,6 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Unordered Async Iterator Helpers][unordered-async]                                          | Michael Ficarra                                        | Michael Ficarra                                       | <sub>&nbsp;-[2024&#8209;07][unordered-async-notes]</sub> |
 | [`Array.zip` and `Array.zipKeyed`][array.zip]                                                | Jordan Harband                                         | Jordan Harband                                        | <sub>&nbsp;-[2024&#8209;10][array.zip-notes]</sub> |
 | [Stabilize][stabilize]                                                                       | Mark Miller<br />Chip Morningstar<br />Richard Gibson<br />Mathieu Hofman | Mark Miller<br />Chip Morningstar<br />Richard Gibson<br />Mathieu Hofman | <sub>&nbsp;-[2024&#8209;12][stabilize-notes]</sub> |
-| [`Composites`][composite]                                                                    | Ashley Claymore                                        | Ashley Claymore                                       | <sub>&nbsp;-[2025&#8209;11][composite-notes-2025-11]<br />&nbsp;-[2025&#8209;11][composite-notes-2025-11-20]<br />&nbsp;-[2025&#8209;04][composite-notes]</sub> |
 | [Enums][enum]                                                                                | Ron Buckton                                            | Ron Buckton                                           | <sub>&nbsp;-[2025&#8209;04][enum-notes]</sub> |
 | [`Object.propertyCount`][property-count]                                                     | Ruben Bridgewater<br />Jordan Harband                  | Ruben Bridgewater<br />Jordan Harband                 | <sub>&nbsp;-[2025&#8209;11][property-count-notes-2025-11]<br />&nbsp;-[2025&#8209;07][property-count-notes-2025-07]<br />&nbsp;-[2025&#8209;04][property-count-notes]</sub> |
 | [Compare Strings by Codepoint][compare-codepoint]                                           | Mathieu Hofman<br />Mark Miller<br />Christopher Hiller | Mathieu Hofman<br />Mark Miller<br />Christopher Hiller | <sub>&nbsp;-[2025&#8209;04][compare-codepoint-notes]</sub> |
@@ -331,10 +330,6 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [array.zip-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#arrayzip-for-stage-1-or-2-or-27
 [stabilize]: https://github.com/tc39/proposal-stabilize
 [stabilize-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-03.md#stabilize-to-stage-1
-[composite]: https://github.com/tc39/proposal-composites
-[composite-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-14.md#composite-keys-for-stage-1
-[composite-notes-2025-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-19.md#composites-comparator-choice
-[composite-notes-2025-11-20]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-20.md#continuation-composites-comparator-choice
 [enum]: https://github.com/tc39/proposal-enum
 [enum-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-15.md#enums-for-stage-1
 [property-count]: https://github.com/tc39/proposal-object-property-count

@@ -75,6 +75,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Error code property][error-code]                                              | James Snell                                           | James Snell                                                                       | Jordan Harband<br />Richard Gibson         | <sub>&nbsp;-[2026&#8209;03][error-code-notes-1]<br />&nbsp;-2026&#8209;07</sub> |
 | [Fused Multiply-Add][math-fma]                                                 | Waldemar Horwat                                       | Waldemar Horwat                                                                   | Jordan Harband<br />Michael Ficarra        | <sub>&nbsp;-2026&#8209;07</sub> |
 | [Bigint from exponential][bigint-exp]                                          | Richard Gibson                                        | Richard Gibson                                                                    | Michael Ficarra<br />Ruben Bridgewater     | <sub>&nbsp;-2026&#8209;09<br />&nbsp;-2026&#8209;07</sub> |
+| [`Composites`][composite]                                                      | Ashley Claymore                                       | Ashley Claymore                                                                   | Jordan Harband<br />Michael Ficarra<br />Ross Kirsling | <sub>&nbsp;-2026&#8209;09<br />&nbsp;-[2025&#8209;11][composite-notes-2025-11]<br />&nbsp;-[2025&#8209;11][composite-notes-2025-11-20]<br />&nbsp;-[2025&#8209;04][composite-notes]</sub> |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -421,3 +422,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [bigint-exp]: https://github.com/tc39/proposal-bigint-from-exponential
 [export-all-from]: https://github.com/guybedford/proposal-export-star-default
 [export-all-from-notes-2026-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#export-all-from-for-stage-1
+[composite]: https://github.com/tc39/proposal-composites
+[composite-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-14.md#composite-keys-for-stage-1
+[composite-notes-2025-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-19.md#composites-comparator-choice
+[composite-notes-2025-11-20]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-20.md#continuation-composites-comparator-choice
