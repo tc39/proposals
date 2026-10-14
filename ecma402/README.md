@@ -28,6 +28,8 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | ------------------------------------------------------------------------------ | ----------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------ | --------------------------------------------------------------------- |
 | [eraDisplay option for `Intl.DateTimeFormat`][eradisplay]              | Louis-Aime                       | Shane Carr, Louis-Aime           | Eemeli Aro<br />Daniel Minor               | <sub>&nbsp;-[2022&#8209;11][eradisplay-notes-2022-11]<br />&nbsp;-[2021&#8209;01][eradisplay-notes]</sub> |
 | [More Currency Display Choices][mo-money]                              | Eemeli Aro                       | Eemeli Aro                       | Jordan Harband<br />Nicolò Ribaudo         | <sub>&nbsp;-[2024&#8209;12][mo-money-notes]</sub> |
+| [Intl Unit Protocol][unit-protocol]                                            | Shane Carr                                            | Shane Carr                                                                        | Richard Gibson<br />Ashley Claymore        | <sub>&nbsp;-[2025&#8209;11][unit-protocol-notes]</sub> |
+| [Intl Sequence Units][intl-sequence]                                           | Shane Carr                                            | Shane Carr                                                                        | Eemeli Aro<br />Daniel Minor               | <sub>&nbsp;-[2026&#8209;07][intl-sequence-notes-2026-07]<br />&nbsp;-[2026&#8209;05][intl-sequence-notes-2026-05]</sub> |
 
 ### Stage 1
 
@@ -39,10 +41,8 @@ This list contains only stage 1 proposals and higher that have not yet been with
 | [`Intl.MessageFormat`][intl.messageformat]                   | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-[2024&#8209;06][messageformat-notes-2024-06]<br />&nbsp;-[2024&#8209;04][messageformat-notes-2024-04]<br />&nbsp;-[2024&#8209;02][messageformat-notes-2024-02]<br />&nbsp;-[2024&#8209;02][messageformat-notes-2024-02-06]<br />&nbsp;-[2023&#8209;09][messageformat-notes-2023-09]<br />&nbsp;-[2022&#8209;03][messageformat-notes]</sub> |
 | [`Intl.MessageResource`][intl.messageresource]               | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-[2022&#8209;11][messageresource-notes]</sub> |
 | [Intl.ZonedDateTimeFormat][intl.zoneddatetimeformat]         | Frank Yung-Fong Tang | Frank Yung-Fong Tang   | <sub>&nbsp;-[2023&#8209;05][zoneddatetimeformat-notes]</sub> |
-| [explore associating a unit with a number][unit-protocol]    | Shane Carr           | Shane Carr             | <sub>&nbsp;-[2025&#8209;11][unit-protocol-notes]</sub> |
 | [Stable Formatting] [stable-formatting]                      | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-[2023&#8209;09][stable-formatting-notes-1]<br />&nbsp;-[2025&#8209;02][stable-formatting-notes-2]<br />&nbsp;-[2026&#8209;05][stable-formatting-notes-2026-05]</sub> |
 | [Default Behaviours for some Intl APIs][intl-defaults]       | Eemeli Aro           | Eemeli Aro             | <sub>&nbsp;-[2026&#8209;05][intl-defaults-notes-2026-05]</sub> |
-| [Intl Sequence Units][intl-sequence]                         | Shane Carr           | Shane Carr             | <sub>&nbsp;-[2026&#8209;07][intl-sequence-notes-2026-07]<br />&nbsp;-[2026&#8209;05][intl-sequence-notes-2026-05]</sub> |
 | [Intl Energy Units][intl-energy-units]                       | Johan Røed           | Nicolò Ribaudo, Shane Carr | <sub>&nbsp;-[2026&#8209;03][intl-energy-units-notes-2026-03]<br />&nbsp;-[2025&#8209;11][intl-energy-units-notes-2025-11]</sub> |
 | [Intl.DateTimeFormat Alignment With Other Standards][intl-datetimeformat-alignment] | Eemeli Aro | Eemeli Aro | <sub>&nbsp;-[2026&#8209;07][intl-datetimeformat-alignment-notes-2026-07]</sub> |
 

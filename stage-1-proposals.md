@@ -112,7 +112,7 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Comparisons][comparisons]                                                                   | Jacob Smith                                            | Jacob Smith                                           | <sub>&nbsp;-[2026&#8209;05][comparisons-notes-2026-05]<br />&nbsp;-[2025&#8209;11][comparisons-notes-2025-11]<br />&nbsp;-[2025&#8209;05][comparisons-notes-2025-05]</sub> |
 | [Map get and delete][map-get-delete]                                                         | Devin Rousso                                           | Devin Rousso                                          | <sub>&nbsp;-[2026&#8209;07][map-get-delete-notes-2026-07]<br />&nbsp;-[2026&#8209;07][map-get-delete-notes-2026-07-2]</sub> |
 | [Linear Matching][linear-matching]                                                           | Michael Ficarra                                        | Michael Ficarra                                       | <sub>&nbsp;-[2026&#8209;07][linear-matching-notes-2026-07]</sub> |
-| [Abort Controller][abort-controller]                                                         | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>&nbsp;-2026&#8209;09</sub> |
+| [AbortController][abort-controller]                                                         | Kevin Gibbons                                          | Kevin Gibbons                                         | <sub>&nbsp;-2026&#8209;09</sub> |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
