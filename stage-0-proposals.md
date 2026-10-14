@@ -9,7 +9,7 @@ Stage 0 proposals which appear below are either:
 | ------------------------------------------------------------------ | ------------------------------------- | ------------------------------------- | -------------------------------------------------- |
 | [Additional metaproperties][metaprops]                             | Allen Wirfs-Brock                     | Allen Wirfs-Brock                     | <sub>Never presented</sub>                         |
 | [Defensible Classes][defensible-classes]                           | Mark Miller<br />Doug Crockford       | Mark Miller<br />Doug Crockford       | <sub>Never presented</sub>                         |
-| [Function bind syntax][bind-syntax]                                | Kevin Smith                           | Brian Terlson<br />Matthew Podwysocki | <sub>&nbsp;-[2015&#8209;03][bind-notes]</sub>      |
+| [Function bind syntax][bind-syntax]                                | Kevin Smith                           | Brian Terlson                         | <sub>&nbsp;-[2015&#8209;03][bind-notes]</sub>      |
 | [Function expression decorators][func-expr-decorators]             | Igor Minar                            | Igor Minar                            | <sub>Never presented</sub>                         |
 | [Method parameter decorators][method-param-decorators]             | Igor Minar                            | Igor Minar                            | <sub>Never presented</sub>                         |
 | [Nested `import` declarations][nested-imports]                     | Ben Newman                            | Ben Newman                            | <sub>&nbsp;-[2016&#8209;07][nested-notes]</sub>    |
