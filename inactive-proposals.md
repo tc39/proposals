@@ -47,6 +47,8 @@ Inactive proposals are proposals that at one point were presented to the committ
 | [Dynamic Import Host Adjustment][]                                             | Mike Samuel, Krzysztof Kotowicz                    | Withdrawn; no longer being pursued.               | <sub>&nbsp;-[2026&#8209;03][dynamic import host adjustment-notes-2026-03]<br />&nbsp;-[2026&#8209;01][dynamic import host adjustment-notes-2026-01]<br />&nbsp;-[2019&#8209;12][Dynamic Import Host Adjustment notes]<br />&nbsp;-[2019&#8209;07][dynamic import host adjustment-notes-2019-07]</sub> |
 | [isTemplateObject][isTemplateObject]                                           | Mike Samuel<br />Krzysztof Kotowicz<br />Jordan Harband<br />Zbigniew Tenerowicz | Withdrawn; lack of implementer need/interest, as well as same vs cross realm concerns | <sub>&nbsp;-[2026&#8209;05][isTemplateObject-notes-2026-05]<br />&nbsp;-[2026&#8209;01][isTemplateObject-notes-2026-01]<br />&nbsp;-[2024&#8209;07][isTemplateObject-notes-2024-07]<br />&nbsp;-[2024&#8209;04][isTemplateObject-notes]<br />&nbsp;-[2021&#8209;01][isTemplateObject-notes-2021-01]<br />&nbsp;-[2019&#8209;12][isTemplateObject-notes-2019-12]<br />&nbsp;-[2019&#8209;06][isTemplateObject-notes-2019-06]</sub> |
 | [Time Zone Canonicalization][canonical-tz] | Justin Grant<br />Richard Gibson | Subsumed: reached Stage 3 in July 2023, then merged into [Temporal](https://github.com/tc39/proposal-temporal) | <sub>&nbsp;-[2024&#8209;06][canonical-tz-notes-2024-06]<br />&nbsp;-[2023&#8209;07][canonical-tz-notes-2023-07]<br />&nbsp;-[2023&#8209;05][canonical-tz-notes-2023-05]<br />&nbsp;-[2023&#8209;03][canonical-tz-notes-2023-03]</sub> |
+| [`function.sent` metaproperty][function-sent]                        |                                                            | Abandoned: no delegate volunteered to champion the proposal                                   | <sub>&nbsp;-2026&#8209;09<br />&nbsp;-[2026-01][function-sent-notes-2026-01]<br />&nbsp;-[2026&#8209;01][function-sent-notes-2026-01-21]<br />&nbsp;-[2024&#8209;06][function-sent-notes-2024-06]<br />&nbsp;-[2022&#8209;06][function-sent-notes-2022-06]<br />&nbsp;-[2019&#8209;07][function-sent-notes]<br />&nbsp;-[2018&#8209;03][function-sent-notes-2018-03]<br />&nbsp;-[2015&#8209;11][function-sent-notes-2015-11]<br />&nbsp;-[2015&#8209;11][function-sent-notes-2015-11-18]</sub> |
+| [Cancellation API][cancel-api]                                       | Ron Buckton<br />James Snell                               | Subsumed by [AbortController][abort-controller]                                               | <sub>&nbsp;-[2018&#8209;07][cancel-api-notes]<br />&nbsp;-[2017&#8209;07][cancel-api-notes-2017-07]<br />&nbsp;-[2017&#8209;05][cancel-api-notes-2017-05]</sub> |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [finished proposals](finished-proposals.md) documents.
 
@@ -207,3 +209,17 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [canonical-tz-notes-2023-05]: https://github.com/tc39/notes/blob/main/meetings/2023-05/may-17.md#time-zone-canonicalization-for-stage-2
 [canonical-tz-notes-2023-03]: https://github.com/tc39/notes/blob/main/meetings/2023-03/mar-23.md#time-zone-canonicalization-for-stage-1
 [annex-b-html-attribute-event-handlers-notes-2014-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2014-07/jul-29.md#411-consider-adding-attribute-event-handlers-to-annex-b
+[function-sent]: https://github.com/tc39/proposal-function.sent
+[function-sent-notes-2026-01]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-20.md#withdraw-functionsent
+[function-sent-notes-2026-01-21]: https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#functionsent
+[function-sent-notes-2024-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#functionsent-metaproperty
+[function-sent-notes-2022-06]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#functionsent-update
+[function-sent-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#making-functionsent-inactive
+[function-sent-notes-2018-03]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-03/mar-22.md#12iiic-functionsent-needs-a-champion
+[function-sent-notes-2015-11]: https://github.com/tc39/notes/blob/HEAD/meetings/2015-11/nov-17.md#functionsent
+[function-sent-notes-2015-11-18]: https://github.com/tc39/notes/blob/HEAD/meetings/2015-11/nov-18.md#functionsent-bt
+[cancel-api]: https://github.com/tc39/proposal-cancellation
+[cancel-api-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#cancellation-update
+[cancel-api-notes-2017-07]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-25.md#9iva-cancellation
+[cancel-api-notes-2017-05]: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-25.md#15ivb-updates-on-cancellation-proposals
+[abort-controller]: https://github.com/bakkot/structured-concurrency-for-js
